@@ -13,7 +13,7 @@ using namespace std;
 
 int main(void)
 {
-   string                filename = "abc.txt";
+   const char            *filename = "9be.txt";
    ThreeBodyWaveFunction be9(filename);
 
    return 0;
