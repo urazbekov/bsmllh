@@ -1,0 +1,657 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 2.5 (27/8/17)
+%
+% This template was downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Version 2.x major modifications by:
+% Vel (vel@latextemplates.com)
+%
+% This template is based on a template by:
+% Steve Gunn (http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/)
+% Sunil Patel (http://www.sunilpatel.co.uk/thesis-template/)
+%
+% Template license:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+11pt, % The default document font size, options: 10pt, 11pt, 12pt
+%oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
+english, % ngerman for German
+onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
+%draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
+%onehalfspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
+%liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
+%toctotoc, % Uncomment to add the main table of contents to the table of contents
+%parskip, % Uncomment to add space between paragraphs
+%nohyperref, % Uncomment to not load the hyperref package
+headsepline, % Uncomment to get a line under the header
+%chapterinoneline, % Uncomment to place the chapter title next to the number on one line
+%consistentlayout, % Uncomment to change the layout of the declaration, abstract and acknowledgements pages to match the default layout
+]{MastersDoctoralThesis} % The class file specifying the document structure
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{amsmath}
+%\usepackage{mathpazo} % Use the Palatino font by default
+
+\usepackage[backend=bibtex,style=numeric-comp,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+
+\addbibresource{example.bib} % The filename of the bibliography
+
+\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+
+%----------------------------------------------------------------------------------------
+%	MARGIN SETTINGS
+%----------------------------------------------------------------------------------------
+
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	inner=2.5cm, % Inner margin
+	outer=3.8cm, % Outer margin
+	bindingoffset=.5cm, % Binding offset
+	top=1.5cm, % Top margin
+	bottom=1.5cm, % Bottom margin
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+%----------------------------------------------------------------------------------------
+%	THESIS INFORMATION
+%----------------------------------------------------------------------------------------
+
+\thesistitle{Correlation of the cluster configurations of weakly bound light nuclei in the direct nuclear reactions} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
+\supervisor{Prof. Nunzio \textsc{Itaco}} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
+\examiner{} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
+\degree{Doctor of Philosophy} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
+\author{Bakytzhan \textsc{Urazbekov}} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
+\addresses{} % Your address, this is not currently used anywhere in the template, print it elsewhere with \addressname
+
+\subject{Theory of nuclear reactions} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
+\keywords{} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
+\university{\href{http://www.unicampania.it}{Luigi Vanvitelli university of Campania}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+\department{\href{http://matfiz.unicampania.it}{Department of Mathematics and Physics}} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
+\group{} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
+\faculty{} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
+
+\AtBeginDocument{
+\hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
+\hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
+\hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
+}
+
+\begin{document}
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+\vspace*{.06\textheight}
+{\scshape\LARGE \univname\par}\vspace{1.5cm} % University name
+\textsc{\Large Doctoral Thesis}\\[0.5cm] % Thesis type
+
+\HRule \\[0.4cm] % Horizontal line
+{\huge \bfseries \ttitle\par}\vspace{0.4cm} % Thesis title
+\HRule \\[1.5cm] % Horizontal line
+ 
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+\href{https://www.researchgate.net/profile/Bakytzhan_Urazbekov}{\authorname} % Author name - remove the \href bracket to remove the link
+\end{flushleft}
+\end{minipage}
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushright} \large
+\emph{Supervisor:} \\
+\href{https://www.researchgate.net/profile/Nunzio_Itaco}{\supname} % Supervisor name - remove the \href bracket to remove the link  
+\end{flushright}
+\end{minipage}\\[3cm]
+ 
+\vfill
+
+\large \textit{A thesis submitted in fulfillment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
+\textit{in the}\\[0.4cm]
+%\groupname\\
+\deptname\\[2cm] % Research group name and department name
+ 
+\vfill
+
+%{\normalsize \today}\\[4cm] % Date
+\includegraphics[scale=0.07]{logo} % University/department logo - uncomment to place it
+ 
+%\vfill
+\end{center}
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{declaration}
+\addchaptertocentry{\authorshipname} % Add the declaration to the table of contents
+\noindent I, \authorname, declare that this thesis titled, \enquote{\ttitle} and the work presented in it are my own. I confirm that:
+
+\begin{itemize} 
+\item This work was done wholly or mainly while in candidature for a research degree at this University.
+\item Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
+\item Where I have consulted the published work of others, this is always clearly attributed.
+\item Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
+\item I have acknowledged all main sources of help.
+\item Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
+\end{itemize}
+ 
+\noindent Signed:\\
+\rule[0.5em]{25em}{0.5pt} % This prints a line for the signature
+ 
+\noindent Date:\\
+\rule[0.5em]{25em}{0.5pt} % This prints a line to write the date
+\end{declaration}
+
+\cleardoublepage
+
+%----------------------------------------------------------------------------------------
+%	QUOTATION PAGE
+%----------------------------------------------------------------------------------------
+
+\vspace*{0.2\textheight}
+
+\noindent\enquote{\itshape 
+Soon... %You do not see in the creation of the Most Merciful any inconsistency. \\
+%So return your vision to the sky; do you see any breaks? \\
+ %Then return  vision twice again. \\
+ %Your vision will return to you humbled while it is fatigued.
+}
+\bigbreak
+
+\hfill  %Quran 67:3
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{abstract}
+\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
+Soon
+\end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\begin{acknowledgements}
+\addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
+~\ldots
+\end{acknowledgements}
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+\tableofcontents % Prints the main table of contents
+
+\listoffigures % Prints the list of figures
+
+\listoftables % Prints the list of tables
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+%\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
+
+%\textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere\\
+%\textbf{WSF} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or\\
+
+%\end{abbreviations}
+
+%----------------------------------------------------------------------------------------
+%	PHYSICAL CONSTANTS/OTHER DEFINITIONS
+%----------------------------------------------------------------------------------------
+
+%\begin{constants}{lr@{${}={}$}l} % The list of physical constants is a three column table
+
+% The \SI{}{} command is provided by the siunitx package, see its documentation for instructions on how to use it
+
+%Speed of Light & $c_{0}$ & \SI{2.99792458e8}{\meter\per\second} (exact)\\
+%Constant Name & $Symbol$ & $Constant Value$ with units\\
+
+%\end{constants}
+
+%----------------------------------------------------------------------------------------
+%	SYMBOLS
+%----------------------------------------------------------------------------------------
+
+%\begin{symbols}{lll} % Include a list of Symbols (a three column table)
+
+%$a$ & distance & \si{\meter} \\
+%$P$ & power & \si{\watt} (\si{\joule\per\second}) \\
+%Symbol & Name & Unit \\
+
+%\addlinespace % Gap to separate the Roman symbols from the Greek
+
+%$\omega$ & angular frequency & \si{\radian} \\
+
+%\end{symbols}
+
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+
+\dedicatory{To my mother \ldots} 
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{thesis} % Return the page headers back to the "thesis" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+\include{Chapters/Chapter1}
+
+% Chapter 1
+
+\chapter{Theoretical model} % Main chapter title
+
+\label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+%----------------------------------------------------------------------------------------
+
+\section{Optical model}
+
+
+The theoretical calculations  of the deuteron  elastic scattering  on  ${}^9$Be  at 19.5 and 35 MeV energies have been performed in the framework of the OM with the OM potential given by:
+
+\begin{equation}\label{eqn:OP}
+ U(R)=-V^{V}(R)-iW^{V}(R)+V^{SO}(R)( \mathbf{l} \cdot \sigma )+V^C(R),
+\end{equation}
+where $V^{V}, W^{V}, V^{SO},$ and $V^C$ are real volume,  imaginary volume, spin-orbit and Coulomb potentials, respectively. In this work, the real part of the OM potential was obtained by means of the double-folding (DF) model
+\begin{equation}
+V^V(R) = N_R V^{DF}(R)
+\end{equation}
+with normalization factor $N_R$. For convenience, in the OM and CC (CRC) calculations the potential can be fitted by means of the sum of three Woods-Saxon potentials:
+\begin{equation}
+V^V(R) =  \sum_{i=1}^{3} V^i f^{R_i, a_i}(R), 
+ f^{R_V,a_V}(R)=\frac{1}{1+exp{\frac{R-R_V}{a_V}}}.
+\end{equation}
+
+
+The DF potential was calculated using the effective M3Y-Paris nucleon-nucleon potential and the nuclear-matter-densities of projectile and target nuclei. In order to calculate the ${}^9$Be matter distribution we applied the $\alpha+\alpha+n$ three-body model (for more details, see Ref.~\cite{urazbekov2016}), while the matter density distribution of the deuteron projectile was chosen to be of the form
+\begin{equation}
+\rho\left( \frac{1}{2}r \right) =\int \vert \Psi (\textbf{r}) \vert ^2 d \Omega_r.
+\end{equation}
+
+
+%The surface and 
+The spin-orbit term of the OM potential has standard form
+\begin{align}
+\begin{aligned}
+W^D(R) &= -4 a_D W_0^D \frac{d}{dR} f^{R_D,a_D}(R),  \\
+V^{SO}(R) &= V_0^{SO}\left(\frac{\hbar}{m_\pi c}\right)^2 \frac{1}{R} \frac{d}{dR} f^{R_{SO} a_{SO}}(R).
+\end{aligned}
+\end{align}
+The Coulomb term has been taken as the interaction of a point-charge with a uniformly charged sphere
+\begin{equation}
+\label{coul}
+V^C(R)=
+\begin{cases}
+\frac{Z_1 Z_2 e^2}{2 R_C} \left( 3- \frac{R^2}{R_C^2} \right), & for  R \leq R_C, \\
+\frac{Z_1 Z_2 e^2}{R}, & for  R > R_C .
+\end{cases}
+\end{equation}
+
+\section{Distorted wave Born approximation}
+\section{Coupled reaction channel method}
+\section{Double folding model}
+\section{Wave function of scattering and bound state}
+
+The model \cite{Kukulin1977} uses three pair pseudo-potentials to describe the three-body system, taking into account forbidden states by the Pauli principle:
+\begin{equation}
+\label{pseudopot}
+\widetilde{V}_{ij}=V_{ij}+\Delta_{ij},
+\end{equation}
+where $V_{ij}$ is  an interaction potential of $(ij)$ subsystem and $\Delta_{ij}=\lambda \Gamma$ is a orthogonalizer with the $\lambda$ constant and with $\Gamma$ projector, which  for  forbidden $f$ state is as follows:
+\begin{equation}
+\label{projector}
+\Gamma=\Gamma(f)=\sum\limits_{m_f}\vert \phi_{fm_f} ({\mathbf x})\rangle \langle  \phi_{fm_f} ({\mathbf x'}) \vert \delta({\mathbf y - \mathbf y'}).
+\end{equation}
+The principle plays a huge role in the structure of the nucleus, which does not allow overlapping of two constituent particles. Thus, the three body pseudo-Hamiltonian including kinetic energy and pseudo potentials looks like this
+\begin{equation}
+\label{pseudohamiltonian}
+\widetilde{H}=H_0+\sum_{i < j} \widetilde{V }_{ij}.
+\end{equation}
+The trial function is given in the form:
+\begin{equation}
+\Psi_{JM_J TM_T}=\sum_{\imath=1}^N C_{\imath} \varphi_{\imath}^{{\gamma}}(1,23)
+\end{equation}
+with expansion coefficients $C_{\imath}$ and  dimension $N$. A basis function $\varphi_{\imath}^{\widetilde{\gamma}}(i,jk)$ is taken by a product of space, spin and isospin parts
+\begin{equation}
+\label{basisfunction}
+\varphi_{\imath}^{{\gamma}}(i,jk)=[   \Phi^{\lambda,l}_L(i,jk) \times \chi_S^s(i,jk)   ]_{JM_J} \tau^t_{TM_T}(i,jk),
+\end{equation}
+where ${{\gamma}}$ is a set containing all of moments. Spatial part $\Phi^{\lambda,l}_L(i,jk)$  is constructed with the Gaussian
+\begin{equation}
+\Phi^{\lambda,l}_L(i,jk)=x^{\lambda}_iy^{l}_i \exp(-\alpha x^2_i-\beta y^2_i)[Y_\lambda(\widehat{x}) \times Y_l(\widehat{y})]_{LM_L},
+\end{equation} 
+where $\lambda$ is a orbital moment of the $jk$ pair   conjugated to the $x$ Jacobi coordinate, while $l$ is the moment of  $i$ spectator conjugated to the $y$ relative coordinate (see Fig. 1) and $\alpha$, $\beta$ are non linear parameters.
+
+
+The basis function \eqref{basisfunction} is convenient for the ability to convert into other sets of relative Jacobi coordinates. In particular, in the spatial part a transformation of the  set $i$ set into the set $j$  is
+\begin{equation}
+\label{basistransfortmation}
+\Phi^{\lambda,l}_L(i,jk)=\sum_{\widetilde{\gamma}} A_{\Omega}^{j \leftarrow i}  \Phi^{\widetilde{\lambda},\widetilde{l}}_L(j,ki),
+\end{equation}
+where the sum is constrained by $\lambda+l=\widetilde{\lambda}+\widetilde{l}$  condition. A recouple coefficient $A_{\Omega}^{j \leftarrow i}$ with rotation matrix $\Omega_{j \leftarrow i}$ is
+\begin{equation}
+\begin{gathered}
+ A_{\Omega}^{j \leftarrow i} =(-1)^{\lambda+l}  \sum_{\lambda_1, \lambda_2, l_1, l_2}
+  \Omega^{\lambda_1}_{11}
+  \Omega^{\lambda_2}_{12}
+   \Omega^{l_1}_{21}
+    \Omega^{l_2}_{22}
+   \sqrt{\frac{ [\lambda]! [l]! [\lambda] [l] [\lambda_1] [\lambda_2] [l_1] [l_2] [\widetilde{\lambda}] [\widetilde{l}]  }{   [\lambda_1]!   [\lambda_2]! [l_1]!  [l_2]!  }       }  \times\\
+ \begin{pmatrix}
+ \lambda_1 & \lambda_2 & {\lambda} \\ 
+ 0 & 0 & 0
+ \end{pmatrix} 
+ \begin{pmatrix}
+ l_1 & l_2 & {l} \\ 
+ 0 & 0 & 0
+ \end{pmatrix} 
+ \begin{pmatrix}
+ \lambda_1 & \lambda_2 & \lambda \\ 
+ l_1 & l_2 & l \\ 
+ \widetilde{\lambda} & \widetilde{l} & L
+ \end{pmatrix} ,
+ \end{gathered}
+\end{equation}
+where $[x]$ = $2x+1$, $ \begin{pmatrix}
+ j_1 & j_2 & j_3 \\ 
+ m_1 & m_2 & m_3
+ \end{pmatrix}  $ and $\begin{pmatrix}
+ j_1 & j_2 & j_3 \\ 
+ j_4 & j_5 & j_6 \\ 
+ j_7 & j_8 & j_9
+ \end{pmatrix} $ are the Wigner 3-j and 9-j symbols consequently. \\
+
+
+\section{Matter  density distribution}
+
+An operator of matter density distribution of the three body system takes the sums of all three clusters and brings it from the center of  system mass 
+\begin{equation}
+\rho(\textbf{R})=\sum_{\scriptscriptstyle{cluster}=i,j,k} \rho_{\scriptscriptstyle cluster}(\textbf{R}) .
+\end{equation}
+In particular,  nucleon cluster is treated as point like particle, while in alpha cluster  one takes into account its internal structure  (see Fig.2)  $ \displaystyle \rho_\alpha(r_{\alpha})=\rho_0 \exp\left(-\gamma_0 r^2_{\alpha} \right)$ with parameters $ \displaystyle \gamma_0= 0.7024$, $  \displaystyle \rho_0=0.4229$ \cite{SATCHLER1979}. So corresponding matrix elements for both nucleon cluster and alpha cluster are
+\begin{equation}
+\label{densities}
+\begin{gathered}
+\rho_{N_i}(\textbf{R})=
+\langle\varphi^{{\gamma}}(i,jk) 
+\vert \delta(\textbf{R}-\textbf{y}_i)
+\vert \varphi^{{\gamma}}(i,jk)\rangle \\
+\rho_{\alpha_i}(\textbf{R})= 
+\langle\varphi^{{\gamma}}(i,jk) 
+\vert \rho_{\alpha}(\textbf{R}-\textbf{y}_i) \delta(\textbf{y}_i-\textbf{r}_\alpha)
+\vert \varphi^{{\gamma}}(i,jk)\rangle \\
+\end{gathered}
+\end{equation}
+
+
+In the case of the cluster is in another set of coordinate, one can express taking the equation \eqref{basisfunction}
+\begin{align*}
+\begin{gathered}
+\rho_{N_j}(\textbf{R})=
+\sum_{  \widetilde{ \gamma }     } A_{\Omega}^{j \leftarrow i}  A_{\Omega}^{j \leftarrow i} 
+\langle \varphi^{ \widetilde{\gamma} }(j,ki) 
+\vert \delta(\textbf{R}-\textbf{y}_j)
+\vert \varphi^{\widetilde{\gamma}}(j,ki)\rangle \\
+\rho_{\alpha_j}(\textbf{R})= 
+\sum_{  \widetilde{ \gamma }     } A_{\Omega}^{j \leftarrow i}  A_{\Omega}^{j \leftarrow i} 
+\langle \varphi^{ \widetilde{\gamma} }(j,ki) 
+\vert \rho_{\alpha}(\textbf{R}-\textbf{y}_j) \delta(\textbf{y}_j-\textbf{r}_{\alpha})
+\vert \varphi^{\widetilde{\gamma}}(j,ki)\rangle.\\
+\end{gathered}
+\end{align*}
+
+
+
+
+ Using the well known expansion of exponent function
+\begin{align*}
+\exp(-\rho_0 \textbf{R} \cdot \textbf{y} )=
+4 \pi \sum_k \sqrt{2k+1} \text{ } i_k(\rho_0 R y) Y^{kk}_{00} \left( \widehat{R},\widehat{y} \right)
+\end{align*}
+and an analytical expression of integral kind of
+\begin{align*}
+\int_0^\infty y^{2l+k+2}\exp(-\beta y^2)i_k(\mu y) dy=
+\sqrt{\frac{\pi}{2}} \frac{   (2l)!!   (\mu)^k}{   \left( \frac{1}{2}\beta \right)^{l+k+3/2}   }
+\exp \left( \frac{\mu^2}{\beta} \right) L^{k+\frac{1}{2}}_{l}   \left( -\frac{\mu^2}{\beta} \right)
+\end{align*}
+one able to obtain equation \eqref{densities}  analytically for both nucleon and alpha clusters as follows
+\begin{equation}
+\begin{gathered}
+ \rho_{N_i}({R})=  
+ \frac{1}{2}  
+ \left( \frac{R}{y_0} \right)^{2l+2}
+ \Gamma \left( \frac{3}{2}+\frac{\lambda}{2} \right)
+ \sum_{{\imath}{\jmath}} C_{\imath} C_{\jmath}
+ \frac{ \exp  \left( - \frac{ \left(  \beta_{\imath} + \beta_{\jmath}  \right)}{y_0^2} R^2 \right) }
+ 		{   \left( \alpha_{\imath}+\alpha_{\jmath} \right)^{\frac{3}{2}+\frac{\lambda}{2}} } 
+   \\
+   \rho_{\alpha_i}({R})= 
+(2 \pi)^{\frac{3}{2}}  \text{ }  \rho_0
+\sum_{\imath \jmath} C_{\imath} C_{\jmath}
+ \frac{\Gamma \left( \frac{3}{2}+\lambda \right) \text{ }    (2l)!! \text{ }   L^{ 1/2}_l \left( -\frac{\left(\gamma_0 \text{ } \right) R^2}{\beta_{\imath} + \beta_{\jmath} + \gamma_0} \right)  } 
+ 	{ \left( \alpha_{\imath}+\alpha_{\jmath} \right)^{\frac{3}{2} + \lambda }  \left(  \beta_{\imath} + \beta_{\jmath} + \gamma_0 \right)^{\frac{3}{2}+l}}  \times \\
+ 	\exp \left( \left( -\gamma_0 + \frac{\gamma_0^2}{\beta_{\imath} + \beta_{\jmath} + \gamma_0} \right) \left( \frac{R}{y_0} \right)^2 \right) \\
+ \end{gathered} 
+\end{equation}
+where $y_0=\frac{m_j+m_k}{m_i+m_j+m_k}$, $ i_k(x)$ - modified spherical Bessel function  of the first kind, $L_{l}^{k+1/2}(x)$ - associated Laguerre polynomial and $\Gamma (x)$ - Gamma function.
+
+
+\chapter{Results and discussions}
+\section{The d+$^9$Be nuclear reactions}
+The cluster structure of nuclei arises from a correlated motion of nucleons inside a nucleus. In this regime, a simple subgroup of nucleons can be considered as a single particle.
+This kind of behaviour can give insights into and better understanding of certain characteristics of the nucleus, as well as affect the processes of nuclear reactions. 
+Investigation  of the cluster structure in nuclei is still a priority in modern nuclear physics strongly driven by intensive developments of experimental devices.\\
+
+There are many stable nuclei in the $p$, $sd$ and $pf$ shells exhibiting a cluster structure, but $^9$Be is particularly worthy of attention due to the following reasons: \begin{itemize}
+\item[$-$] a stable nucleus with low binding energies of neutron S$_n$=1.665 MeV, and $\alpha$-particle S$_\alpha$=2.462 MeV \cite{separationneutron}; 
+\item[$-$] the deformed shape reflected in the nuclear quadrupole moment, Q$=+52.9 $ mb \cite{quadrupole}; 
+\item[$-$]  the Borromean structure of the ground state;
+%\item[$-$] the significant large ratio of neutrons to protons number.
+\end{itemize}
+These aspects led to take $^9$Be as a subject for fundamental  as well as applied research  studies.
+% Especially the latter characteristics play important role in nuclear reactor devices as a neutron moderator or  a reflector.
+
+Regarding nuclear technologies, $^9$Be is a good wall material in thermonuclear devices \cite{kukulin2010, seksembayev2018}.
+%As a rule of thumb low Z nuclei, such as $^9$Be, to have an efficient fusion fuel burning the value of admixtured material needs to be high.
+%As a rule of thumb, in order to have an efficient fusion fuel burning the maximum permissible value of the admixture of wall material can be provided by low Z nuclei. %, such as $^9$Be.
+%The reason is in the fact that radiation losses are caused mainly by the electronic component of the fuel and the contribution of electrons of non-fuel nuclei depends directly on their Z numbers.
+For instance, for fusion-type devices a value of some dozens of percent  of $^9$Be is expected in the soft wall material \cite{seksembayev2018}.
+The $^9$Be nucleus has been chosen as it represents the best compromise based  on its characteristic to split by using $\gamma$'s and $e^-$'s into two energetic $\alpha$-particles, which are efficient promoters of thermonuclear burning since they can be confined by electromagnetic fields and their energy affects the temperature of the burning zone.
+
+Scattering of the simplest projectiles, such as ${}^{1,2}$H or ${}^{3,4}$He, off a target is a standard tool for fundamental study of the structure of nuclei. This method involves measuring the angular distributions of the nuclear reaction products. It is well known that the energies and angular distributions of projectile-like particles give information about the internal structure of target-like nuclei.
+	
+In our previous works \cite{lukyanov2014, lukyanov2015, janseitov2018}, the ${}^3$He interaction with ${}^9$Be was studied and angular distributions of the reaction products in the following exit channels: ${}^3$He+$^9$Be, ${}^5$He+$^7$Be, ${}^5$Li+$^7$Li, ${}^6$Be+$^6$He, and ${}^6$Li+$^6$Li, were measured. The obtained data were analysed within the framework of the optical-model (OM), the coupled-channel (CC) and the distorted-wave Born approximation (DWBA) approaches. The performed analysis of the experimental data showed sensitivity of the cross sections on the potential parameters in the exit channels. Moreover, these experiments were designed to study the breakup reactions with ${}^9$Be in an attempt to determine contributions of the channels with the ${}^8$Be+n  and  ${}^5$He+$\alpha$ structure to the inclusive measurements. It was found that these two channels contribute in the ratio of 2.7~to~1, respectively. The determined value justifies that the ${}^5$He+$\alpha$ breakup channel plays an important role as well.
+
+Based on the Borromean structure of ${}^9$Be, special attention was focused on the breakup processes resulting from the ${}^9$Be($^6$Li, ${}^6$Li$^\prime$)$^9$Be$^*$ nuclear reaction \cite{brown2007, papka2007}. The excited nucleus ${}^9$Be$^*$ can decay either directly into the $\alpha+\alpha+n$ three-body system or through one of the unstable nuclei, such as ${}^5$He and ${}^8$Be. These relatively recent experimental studies explicitly confirm the cluster structure of ${}^9$Be.
+The calculated branching ratios show that the low-lying excited states, at E$_x <$~4.0 MeV, are mostly populated with the ${}^8$Be+n configuration. In other conditions, the ${}^5$He+$\alpha$ configuration plays a significant  role.
+
+Another aspect of finding the cluster structure is its  effect on the nuclear reaction mechanisms. Indeed, since the papers of Detraz \textit{et al}~\cite{detraz1970, detraz1974}, the multi-particle-multi-hole structures have been expected at rather low excitation energies in nuclei. In such a case, it can be understood that the correlated nucleons are transferred as a whole strongly correlated cluster, which has the internal quantum numbers of a free particle.
+
+The interaction of deuteron and alpha particles with ${}^9$Be was studied with regard to the cluster structure \cite{urazbekov2016, urazbekov2017}. The interaction potential of colliding nuclei was built within the framework of the double-folding model using the three-body wave function. Tests of the double-folded potential were carried out within the OM and DWBA at laboratory energies $~$10-30 MeV/nucleon. The good agreement obtained in comparison of theoretical cross sections with experimental data led to application of the double-folding potential based on the three-body wave function to study of reactions on $^9$Be.
+
+\subsection{d+$^9$Be $\rightarrow$ d+$^9$Be}
+The parameters of the imaginary part of the optical potential were obtained by fitting the theoretical cross sections to the experimental data at 19.5 MeV and 35 MeV incident energies. As a starting point, the same parameterizations of the real part were used. The obtained potential parameters after fitting are listed in Table~\ref{potpar} for both 19.5 MeV and 35.0 MeV incident energies.
+
+The comparison of the results of the theoretical calculations with  the measured data for elastic scattering at 19.5 MeV and 35.0 MeV energies are plotted in Fig.~\ref{fig3}. 
+The cross sections obtained in the framework of the OM with the DF potential are shown as solid curves. 
+Theoretical results obtained by means of the OM give an excellent agreement, $\chi^2\approx2.5$, with the experimental data. The  parameters of  parameterized double-folding potential are listed in Table \ref{potpar}. 
+
+\subsection{d+$^9$Be $\rightarrow$ d+$^9$Be$^*$}
+
+The CC and DWBA approaches have been applied to analyse the measured inelastic scattering data corresponding to the ${}^9$Be($5/2^-, 2.43$ MeV) excitation. Calculations were performed employing the FRESCO code \cite{fresco} and the DWUCK5 code \cite{kunz} which are available in the NRV knowledge-base \cite{nrv}.
+
+In order to describe the measured experimental data one has to consider the ${}^9$Be target having a quadrupole deformation. Thus, the ${}^9$Be spectrum consists of the rotational band including the  $3/2^-$ ground state, $5/2^-$ state at 2.43 MeV and $7/2^-$ state at 6.38 MeV. Couplings to these states were taken into account within the coupled-channel approach. The spin reorientations were also taken into account. The coupling interaction has the usual form:
+\begin{equation}
+V_\lambda(R)=-\beta_\lambda R_V \left|\frac{d V^V}{dR}\right| - i \beta_\lambda R_W \left|\frac{d W^D}{dR}\right|,
+\end{equation}
+where $\beta_\lambda$ is the deformation parameter of $\lambda$ multipole describing the target-nucleus form. Here, we neglect as usual the contribution of the Coulomb interaction.
+
+
+The calculated cross sections for inelastic scattering to the $5/2^-$ state at 2.43 MeV are shown in Fig.~\ref{fig4}. The solid curves correspond to the results obtained within the CC approach, while the dashed and dotted curves were obtained within the DWBA approach using  different values of the deformation parameter $\beta_2$. The used potential parameters are listed in Table~\ref{potpar}.
+
+All the results in Fig.~\ref{fig4} are in good agreement with the experimental data, except for the cross sections around 60$^\circ$ at 19.5 MeV incident energy. The quadrupole deformation parameter $\beta_2 = 0.64$ extracted within the coupled-channel model is consistent with the previous studies \cite{lukyanov2014, harakeh1980}.
+
+In the case of DWBA calculations, one uses the DF potential (see Table~\ref{potpar}) for both the entrance and the exit channels. The DWBA angular distributions very well reproduce the structure of experimental data but clearly underestimate them when the deformation parameter $\beta_2 = 0.64$ is used (see the dotted curves in Fig.~\ref{fig4}). In order to get the best fit the deformation parameter must be increased up to $\beta_2 = 0.93$, which is quite close to the values reported in previous studies (see, for example, \cite{bodek1989, votava1973}).
+
+
+Thus, one may confirm that channel coupling and the effects of spin reorientation enhance the cross section that results in the reduction of the deformation parameter. However, the DWBA approach takes into account only first-order contributions to the transition amplitude. In particular, it also describes only general features of the angular distributions and overestimates the deformation parameter in order to compensate the difference between the experimental data and the DWBA cross sections.
+
+\subsection{d+$^9$Be $\rightarrow$ p+$^{10}$Be and d+$^9$Be $\rightarrow$ t+$^{8}$Be}
+
+The one-neutron pick-up ${}^9$Be($d,t$)${}^8$Be and stripping ${}^9$Be($d,p$)${}^{10}$Be reactions were analyzed here within the framework of  the Coupled Reaction Channels (CRC).
+
+The double-folding potential given in Table \ref{potpar} was used in the CRC calculations for the entrance channel and the global optical parameterizations from Ref. \cite{globalProton, globalTriton} were used for the exit channels. The coupling schemes of target and daughter nuclei for the ${}^9$Be($d,p$)${}^{10}$Be and ${}^9$Be($d,t$)${}^8$Be  reactions  are illustrated in Fig. \ref{fig5}. The states of ${}^{10}$Be, $2^+_{1}$ and $2^+_{2}$, as well as the low-lying excited states of ${}^8$Be, $2^+$ and $4^+$, were included in the coupling scheme. Also, the schemes take into account the spin reorientations of states on the condition $J \neq 0$.
+
+In order to construct the bound-state wave functions of the transferred particle in the entrance and exit channels, the common method, i.e. fitting the depth of the corresponding Woods-Saxon potential to the known binding energy, was employed. The reduced radius and diffuseness in this case are set to be $r = 1.25$ fm and $a$ = 0.65 fm, respectively. If the transfer takes place to a final unbound state, the depth of the potential for this state was adjusted to yield a binding energy equal to $-0.1$ MeV in accordance with the procedure used in Ref. \cite{harakeh1980}.
+
+If the core and the composite nuclei have internal excitation energies, a renewed binding energy $BE^{\star}$ of the transferred particle is expressed by the formula:
+\begin{equation} BE^{\star}=BE - E_{com}^*+E_{core}^* \end{equation}
+where $BE$ $-$ the binding energy of the transferred particle, $E_{com}^*,~E_{core}^*~-$  excitation energies of the composite and  core nuclei, respectively.
+
+The spectroscopic amplitude  $\mathcal{S}$ for the addition of a particle to a core with angular momentum $J_{core}$ to form a composite with $J_{com}$ is related to the matrix element of the creation operator~$\hat{a}^\dagger$:
+%\cite{brown2017}:
+\begin{eqnarray}\label{eq:SA}
+\mathcal{S}_{Nlj} = \frac{\langle J_{com} \| \hat{a}^\dagger _{Nlj} \| J_{core}  \rangle}{\sqrt{2J_{com}+1}}
+%= (-)^{j+J-J'} \frac{\langle J_{core}  \| \hat{a} _{NL_J} \| J_{com}  \rangle}{\sqrt{2J+1}}
+\end{eqnarray}
+where $Nlj$ is the set of particle quantum numbers. The spectroscopic amplitudes for one particle states were calculated by means of the $ANTOINE$ code \cite{antoine}  using the effective Cohen-Kurath interaction for $p$-shell nuclei \cite{cohen1965}. The calculated spectroscopic amplitudes for the one-nucleon transfer reactions are listed in Table~\ref{SA}.
+
+
+
+Angular distributions of the ${}^9$Be($d,p$)${}^{10}$Be nuclear reaction at E$_d$=19.5 MeV are shown in comparison with the theoretical curves  calculated in the framework of the CRC method in Fig. \ref{fig6}.
+
+In order to study the couplings of the input  channels, the outputs  were fixed using the deformation parameter of $^8$Be from Ref. \cite{rocca2018}, and for $^{10}$Be from Ref. \cite{harakeh1980}. 
+The direct transition from the ground state is indicated by the dotted line (DWBA). 
+The contributions of the transitions from excited states (CC), and from spin reorientations (SR) are indicated by dashed and solid lines, respectively.
+During the analysis, it was found that spin reorientation has a significant contribution in the $p$ + $^{10}$Be$_{gs}$ channel, especially in the range of 40-60 degrees. 
+It is interesting to note that we managed to describe within the CRC method the differential cross section of the ${}^9$Be($d,p$)${}^{10}$Be$_{gs}$ reaction at all scattering angles, including the range 40$^\circ$-60$^\circ$, where they were not covered in Refs. \cite{galanina2012, bodek1989}.
+ 
+An appreciable contribution of the \begin{small}
+$3/2^- \rightarrow 2^+_1,~5/2^- \rightarrow 2^+_1,~7/2^-\rightarrow 2^+_1$
+\end{small} transitions was observed in the $p$~+~$^{10}$Be$_{3.37}$ channel in the entire range of scattering angles. 
+In the cross section of the  $p$~+~$^{10}$Be$_{5.96}$ channel, the theoretical calculation underestimates the experimental data starting from 70$^\circ$. Possibly, other higher excited states of $^9$Be should be taken into account.
+
+Figure \ref{fig7} displays the cross sections of the ${}^9$Be($d,t$)${}^{8}$Be nuclear reaction at both 19.5 MeV and 35 MeV incident energies. As in the case of the ($d,p$) reactions, the ($d,t$) reactions also show the strong channel-coupling effects. We see a manifestation of spin-reorientation effects in the $t$+$^8$Be$_{gs}$ channels and a significant contribution of the  \begin{small}
+$3/2^- \rightarrow 2^+,~ 5/2^- \rightarrow 2^+,~ 7/2^-\rightarrow 2^+$
+\end{small} transitions in the $t$+$^8$Be$_{3.03}$ channel.
+Disagreements around 30$^\circ$ in the $t$+$^8$Be$_{gs}$ channel for both 19.5 MeV and 35 MeV incident energies and around 60$^\circ$ in the $t$+$^8$Be$_{3.03}$ channel for 19.5 MeV incident energy are possibly caused by the uncertainty in the $t$+$^8$Be interaction potential.
+
+Theoretical calculations made within the CRC method show, in general, good agreement with the experimental data for both ($d,p$)  and ($d,t$) reactions.
+The analysis showed strong coupling effects in both entrance and exit channels. The effects of such couplings were also emphasized in Refs. \cite{harakeh1980, rudchik2016}.
+
+
+\subsection{d+$^9$Be $\rightarrow \alpha$ +$^{7}$Li}
+
+Differential cross sections for the nuclear reaction ${^9}$Be($d,\alpha$)${}^7$Li are of particular interest. This is due to the specific behaviour of the cross section at large scattering angles, which indicates a ${}^5$He cluster transfer. In addition, the cross section calculated within the DWBA approach underestimates the data even at forward scattering angles. Therefore, in order to understand the difference between theory and experiment, the following transfer mechanisms are suggested (see Fig. \ref{fig9}):
+\begin{itemize}
+\item[$-$] direct transfer of heavy clusters $d$ and ${}^5$He;
+\item[$-$] sequential two-step transfer of $n$-$p$, $p$-$n$, $n$-$\alpha$ and $\alpha$-$n$;
+\end{itemize}
+
+
+The resulting differential cross section for the ${^9}$Be($d$,$\alpha$)${}^7$Li reaction has the form of a coherent sum of two amplitudes
+\begin{equation}
+\frac{d\sigma}{d\Omega}(\theta) =\vert f_{I}(\theta) + f_{II}(\theta) \vert ^2,
+\end{equation}
+where the amplitude
+\begin{equation} \label{eq:ampl1}
+f_{I}(\theta)=f_{{}^5\textrm{He}}(\pi - \theta) + f_{n\textrm{-}\alpha}(\pi - \theta) + f_{\alpha\textrm{-}n}(\pi - \theta)
+\end{equation}
+describes the transfer of the heavy ${}^5$He-cluster and sequential two-step transfer of n-$\alpha$ and $\alpha$-n, and the amplitude
+\begin{equation} \label{eq:ampl2}
+f_{II}(\theta)=f_{d}(\theta) + f_{n\textrm{-}p}( \theta) + f_{p\textrm{-}n}(\theta)
+\end{equation}
+corresponds to the deuteron pick-up and sequential two-step transfer of $n$-$p$ and $p$-$n$.
+
+
+
+The DF potential (see Table~\ref{potpar}) for the entrance channel and global optical potential parameterizations from Refs. \cite{globalTriton, globalAlpha, global6Li} for intermediate and exit channels were used in the analysis.
+The prior form for the first coupling and the post form for the second coupling were chosen for two-step transfer reactions in order to avoid the non-orthogonal terms in the calculations of transition amplitudes.
+
+The spectroscopic amplitudes of the $d$ and ${}^5$He clusters were taken from Ref. \cite{fiveSA}, while the alpha-cluster spectroscopic amplitudes given in Table~\ref{SA} were provided by Dr. A. Volya within the method reported in Ref. \cite{volya2017}.
+
+The calculated cross sections are shown in Fig.~\ref{fig8} with the $\alpha$-particle angular distributions formed in the ${}^9$Be(d,$\alpha$)${}^7$Li$^*$ reaction at incident energies of 19.5 and 35 MeV and corresponding to the low-lying excitation of the ${}^7$Li nucleus in the exit channels. The transfer of the deuteron (dash-dotted curve) provides the dominant contribution in all the channels. Despite the fact that the spectroscopic amplitude of the deuteron $\mathcal{S}_{1{D}_3}=0.558$ in the ${}^9$Be nucleus is not of great importance, a noticeable cross section is due to the large value of the deuteron spectroscopic amplitude $\mathcal{S}_{1{S}_1}=1.732$  of ${}^4$He.
+
+The angular distribution of deuteron transfer has a significant cross section also at the backward scattering angles, which is mainly caused by the contribution of the $D$ wave. This symmetrical behaviour of the cross section of $D$ waves is very similar to the cross section of evaporation residues. Tanaka \textit{et al} \cite{tanaka1978} analyzed the role of the compound process in ${}^9$Be($d,\alpha$)${}^7$Li reaction and claimed the domination of the compound nucleus channels at the energies of 12.17 MeV and 14.43 MeV. However, in Ref. \cite{bodek1989} the negligible contribution of the compound-nucleus mechanism was shown at 7 MeV using the DWBA analysis. In this regard, our theoretical results based on the CRC method show that there is no need to take into account the mechanism through the compound-nucleus formation at energies of 19.5 and 35.0 MeV.
+
+Starting from scattering angle $\theta_{c.m.} =$ 120$^\circ$, the transfer of the ${}^5$He cluster, labeled as ${}^5$He in Fig. \ref{fig8}, has a predominant contribution in all channels. It should be noted that a similar result was reported earlier in Ref. \cite{bodek1989}. One-step transfer of the ${}^5$He cluster was also indicated as a dominant process by Jarczyk \textit{et~al} \cite{jarczyk1996} in studying the ${}^{12}$C(${}^{11}$B,${}^6$Li)${}^{17}$O and ${}^{12}$C($d$,${}^7$Li)${}^{7}$Be reactions.
+
+Using the CRC method, we are able to estimate the contribution of the sequential transfer of ${}^5$He, which was not studied before. Corresponding cross sections are shown in Fig.~\ref{fig8} as curves labeled $n\alpha$ and $\alpha n$.
+It turned out that the $n$-$\alpha$ and $\alpha$-$n$ transfer processes provide indeed a contribution more than one order of magnitude smaller in comparison with the one-step ${}^5$He transfer. Nevertheless, it should be noted that the contribution of the $n$-$\alpha$ and the $\alpha$-$n$ transfer channels increases with the increase in the ${}^7$Li excitation energy, where they should not be ignored.
+
+
+The two-step $n$-$p$ transfer is another mechanism providing a noticeable contribution to the cross section. It is due to the prominent cluster structure of the ${}^9$Be nucleus having the weakly bound neutron. This structural feature explains also the weakness of the $p$-$n$ sequential transfer contribution to the cross section corresponding to the ${}^7$Li(g.s.) in the exit channel. However, with increasing the ${}^7$Li excitation energy these two mechanisms are interchanged in the significance of their contributions, as depicted by the curves in Fig.~\ref{fig8}, and the $p$-$n$ transfer begins to play a leading role, providing, in particular, almost 10 times larger contribution in the case of reaction at $E_{lab}$ = 35 MeV with ${}^7$Li$^*$(7.46 MeV) in exit channel.
+
+In Fig.~\ref{fig10}, the possible scenarios for the $n$-$p$ and $p$-$n$ sequential transfer for the reaction under consideration are shown in respect to the $Q$-values. One may see that all the steps of the $n$-$p$ sequential transfer have positive $Q$-values, while the $p$-$n$ transfer goes through the intermediate channel ${}^8$Li + ${}^3$He that has a considerably negative $Q$-value. Together with the large values of the spectroscopic amplitudes (shown near to the arrows in Fig. \ref{fig10}), this explains the leading role of the ($d,t;t,\alpha$) mechanism in populating the ground state of ${}^7$Li in the exit channel.
+
+
+The situation becomes quite different in the case of the ${}^7$Li$^*$(5/2$^-$) in the exit channel. First, the population of this state through the $n$-$p$ transfer involves the ${}^9$Be~=~${}^8$Be$^*(2^+)$~+~$n$ intermediate configuration where the ${}^8$Be cluster has to be in the $2^+$ excited state. Note that the ${}^8$Be($0^+$) ground state is inappropriate because of angular-momentum-coupling mismatch in the entrance and exit configurations. Second, the extremely small spectroscopic amplitude of the ${}^8$Be$^*(2^+)$~=~${}^7$Li$^*(5/2^-)$~+~$p$ configuration, which is $\mathcal{S} = 0.079$, influences the transfer amplitude. These two factors lead to the suppression of the contribution of ($d,t;t,\alpha$) mechanism in population of the ${}^7$Li$^*$(5/2$^-$) state in the exit channel. Therefore, the $p$-$n$ sequential transfer prevails over the $n$-$p$ one. 
+
+Figure \ref{fig11} shows the contributions of all the mechanisms mentioned above to the total cross section of the ${}^9$Be($d,\alpha$)${}^7$Li$_{g.s.}$ reaction (see Fig.~\ref{fig9}) as a function of the deuteron energy. One may conclude that mainly four mechanisms contribute to the cross section of this reaction. The transfer of the deuteron-cluster is the predominant channel at all collision energies. The sequential $n$-$p$ and $p$-$n$ transfers play a significant role at the high energies. The ${}^5$He-cluster transfer gives almost 20\% of the cross section at low energies and outdoes the sequential $p$-$n$ transfer in this energy domain. This allows us to claim that the configurations $n+^8$Be and $\alpha+{}^5$He provide noticeable contributions to the ground-state wave function of the ${}^9$Be nucleus. These conclusions agree well with the previous experimental studies \cite{brown2007, papka2007}.
+
+\section{The $\alpha$+$^9$Be nuclear reactions}
+\subsection{$\alpha$+$^9$Be $\rightarrow$ $\alpha$+$^9$Be}
+\subsection{$\alpha$+$^9$Be $\rightarrow$ $\alpha$+$^9$Be$^*$}
+
+\section{The $\alpha$+$^6$He nuclear reaction}
+
+\section{The $\alpha$+$^6$Li nuclear reaction}
+
+\chapter{Conclusion}
+%\include{Chapters/Chapter2} 
+%\include{Chapters/Chapter3}
+%\include{Chapters/Chapter4} 
+%\include{Chapters/Chapter5} 
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\appendix % Cue to tell LaTeX that the following "chapters" are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
+\include{Appendices/AppendixA}
+%\include{Appendices/AppendixB}
+%\include{Appendices/AppendixC}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\printbibliography[heading=bibintoc]
+
+%----------------------------------------------------------------------------------------
+
+\end{document}  
