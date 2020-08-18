@@ -13,64 +13,52 @@ ThreeBodyWaveFunction::ThreeBodyWaveFunction(const char *filename)
 
    pFile = fopen(filename, "r");
    char                mys[100];
-   double              a, b, c;
+   double              double1, double2, double3;
    int                 int1, int2, int3;
    bool                newQuantumNumbersQ = false;
-   std::vector<int>    tempGamma;
-   std::vector<double> tempA;
-   std::vector<double> tempB;
-   std::vector<double> tempC;
+   std::vector<int>    tempInt;
+   std::vector<double> tempDouble1;
+   std::vector<double> tempDouble2;
+   std::vector<double> tempDouble3;
 
    while (fgets(mys, 100, pFile))
    {
       if (mys[1] != '.')
       {
          sscanf(mys, "%d\t%d\t%d", &int1, &int2, &int3);
-         tempGamma.push_back(int1);
-         tempGamma.push_back(int2);
-         tempGamma.push_back(int3);
-         gamma.push_back(tempGamma);
-         tempGamma.clear();
-         if (gamma.size() != 1)
-         {
-            newQuantumNumbersQ = true;
-         }
+         tempInt.push_back(int1);
+         tempInt.push_back(int2);
+         tempInt.push_back(int3);
+         gamma.push_back(tempInt);
+         tempInt.clear();
+         newQuantumNumbersQ = true;
+         //       printf("%d\t%d\t%d\n", int1, int2, int3);
       }
       else
       {
-         sscanf(mys, "%lf\t%lf\t%lf", &a, &b, &c);
-         tempA.push_back(a);
-         tempB.push_back(b);
-         tempC.push_back(c);
          if (newQuantumNumbersQ)
          {
-            a1.push_back(tempA);
-            b1.push_back(tempB);
-            C.push_back(tempC);
-            tempA.clear();
-            tempB.clear();
-            tempC.clear();
+            a1.push_back(tempDouble1);
+            b1.push_back(tempDouble2);
+            C.push_back(tempDouble3);
+            tempDouble1.clear();
+            tempDouble2.clear();
+            tempDouble3.clear();
             newQuantumNumbersQ = false;
          }
+         sscanf(mys, "%lf\t%lf\t%lf", &double1, &double2, &double3);
+         tempDouble1.push_back(double1);
+         tempDouble2.push_back(double2);
+         tempDouble3.push_back(double3);
 
-//     printf("%f\t%f\t%f\n", double1, double2, double3);
+         //   printf("%f\t%f\t%f\n", a, b, c);
       }
    }
    fclose(pFile);
 
-   a1.push_back(tempA);
-   b1.push_back(tempB);
-   C.push_back(tempC);
-   tempA.clear();
-   tempB.clear();
-   tempC.clear();
-
-   a1[0].erase(a1[0].begin());
-   b1[0].erase(b1[0].begin());
-   C[0].erase(C[0].begin());
-
    for (size_t i = 0; i < a1[0].size(); i++)
    {
-      std::cout << a1[0][i] << '\n';
+      std::cout << i << '\t' << a1[0][i] << '\n \n';
    }
+   std::cout << a1[0].size() << '\n';
 }

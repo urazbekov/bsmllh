@@ -1,1 +1,198 @@
-some aspects of transformation of the three body wave function built on the gaussian basis
+
+\documentclass[12pt,a4paper,twoside]{article}
+
+\usepackage[cp1251]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage[sc]{mathpazo} % Use the Palatino font
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+\usepackage{mathrsfs}
+\usepackage[english]{babel} % Language hyphenation and typographical rules
+\usepackage{bbm}
+\usepackage{amsmath,amsfonts,amscd,amssymb,latexsym}
+
+\usepackage{graphics}
+\usepackage{titling}
+\usepackage{ textcomp }
+\graphicspath{{/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[dvips]{graphicx}
+\usepackage{rotating}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{geometry} % ћен€ем пол€ страницы
+\geometry{left=3 cm}% левое поле
+\geometry{right=3 cm}% правое поле
+\geometry{top=2.5cm}% верхнее поле
+\geometry{bottom=2.5cm}% нижнее поле
+\mathsurround=2pt
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CE]{Eurasian~Journal~of~Physics~and~Functional~Materials, Vol.\textbf{*} (*).}
+\fancyhead[CO]{Eurasian~Journal~of~Physics~and~Functional~Materials, Vol.\textbf{*} (*).}
+\fancyheadoffset{0mm}
+\fancyfootoffset{0mm}
+\setlength{\headheight}{17pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{plain}{ 
+    \fancyhf{}
+    \rhead{\thepage}}
+\setcounter{page}{1}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%% Article title, Authors, Affilations, Email,%%%%%% 
+%%%%%%%%%%%%%%%%%%%% Abstract, Keywords%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\newenvironment{sciabstract}{
+\begin{quote} \scriptsize}
+{\end{quote}}
+
+\pretitle{\begin{center}\Huge\bfseries} % Article title formatting
+
+\title{{\normalsize{Eurasian~~Journal~~of~~Physics~~and~~Functional~~Materials\\ 
+2020, \textbf{*}(*),   **-**}} \\[2.0cm]% JOURNAL title 
+Some questions related to the transformation of Jacobi coordinate sets  of the three body wave function built on the Gaussian basis}% Article title 
+
+\author
+{B.A. Urazbekov$^{1,2,3,4}$, A.S. Denikin$^{2,3}$, N. Itaco$^{1,4}$, N.T. Tusunbayev$^2$\\ 
+\scriptsize{$^1$Dipartimento di Matematica e Fisica, Universit\`a degli Studi della Campania "Luigi Vanvitelli", Caserta, Italy }\\
+\scriptsize{$^2$Joint institute for nuclear research, Dubna, Russia}\\
+\scriptsize{$^3$Dubna state university, Dubna, Russia}\\
+\scriptsize{$^4$Istituto Nazionale di Fisica Nucleare, Complesso Univeristario di Monte S. Angelo, Napoli, Italy}\\
+\scriptsize{e-mail: bakytzhan.urazbekov@gmail.com}\\% Your email address
+}
+
+\date{}% Include the date command, but leave its argument blank.
+\maketitle
+
+\begin{flushleft}
+\scriptsize{ DOI: \textbf{ 10.29317/********** entered by Editors}\\
+Received: **.**.**** - after revision}
+
+\end{flushleft} 
+
+\begin{sciabstract}%your abstract text and keywords
+
+The three-body wave function built on the basis of the Gaussian function, calculated using the three-body Hamiltonian with the Pauli blocking operator is studied. Analytical expressions are presented for the matrix elements of the overlap of the basis functions for both basic and alternative set of relative Jacobi coordinates. The correlation densities of the wave function are calculated and illustrated depending on the set of orbital numbers also for the main and for the alternative Jacobi coordinates.
+
+%Your Abstract should answer these questions about your manuscript:
+%What was done?;
+%Why did you do it?;
+%What did you find?;
+%Why are these findings useful and important?;
+%We recommend word count for Abstracts 170-200 words, and no citations.
+
+{\textbf{Keywords:} the three-body problem, Gaussian basis, relative Jacobi coordinates}
+
+\end{sciabstract}
+
+\section*{Introduction}
+
+
+Your text comes here...
+
+\section*{The three-body wave function }
+
+
+\subsection*{Example of a table style}
+
+
+The energy dependence of total cross sections of reactions $^6\text{He}$ + Si and $^{6,9}\text{Li}$ + Si in the beam energy range 5-30 MeV/nucleon has been measured. An agreement with the published experimental data for the reaction $^6$He + Si was obtained. For the reaction $^9\text{Li}$ + Si new data in the vicinity a local enhancement of the total cross section was obtained. Theoretical analysis of possible reasons of appearance of this peculiarity in the collisions of nuclei $^6\text{He}$ and $^9\text{Li}$ with Si nuclei has been carried out including the influence of external neutrons of weakly bound projectile nuclei.
+\\[0.3cm]
+
+\begin{flushleft}
+Table 1.\\
+Please write your table caption here (\textit{the width of the table should be equal to the width of the text})\\
+\begin{tabular}{p{1cm}|p{2.8cm}|p{3cm}|p{3cm}|p{3cm}}
+\hline\noalign{\smallskip}
+
+H&   q &  $\alpha_q$&   $\chi^{2}/d.o.f.$  & Confidence level of fittings\\ \hline\noalign{\smallskip}
+ &2 &0.56 $\pm$  0 .01 & 0.38 & 98.90 \% \\ \cline{2-5}
+0.3		&3 &1.22 $\pm$  0 .03 & 0.49 & 95.93 \% \\\cline{2-5}
+		&4 &1.92 $\pm$  0 .06 & 0.58 & 91.30 \% \\\cline{2-5}
+		&5 &2.63 $\pm$  0 .10 & 0.70 & 80.95 \% \\\hline\noalign{\smallskip}
+1 	&2 &0.59 $\pm$  0 .01  &0.74 & 76.62 \% \\ \hline\noalign{\smallskip}
+\end{tabular}\\[0.3cm]
+\end{flushleft}
+
+\subsection*{Example of text style and formula design in the text}
+
+
+In our experiments, we employed the Dubna gas-filled recoil separator (DGRFS), that allows the separation of the products of complete fusion reactions from the beam of bombarding ions, elastically-scattered nuclei, and products of incomplete fusion. The detection system includes proportional chambers used to measure the time of flight (TOF) of particles and several semiconductor detectors with position-sensitive strips. 
+
+The principle of operation of the separator is selection of products of the complete-fusion reaction by their charge state $q$ in a rare gas and kinematic characteristics (mass of recoil nucleus $m$ and its velocity $v$) in accordance with the separator magnetic rigidity $B\rho=mv/q$ (note, $q$ depends linearly on $v$). These values are calculated for the $xn$-reaction channel when setting the separator's parameters. 
+
+The DGFRS strongly separates forward-peaked evaporation residues (ER), products of complete-fusion reactions, within a narrow angle with a huge suppression of the products of the transfer reactions and even incomplete fusion, e.g., $\alpha xn$ reactions. The TOF selection in the existing separators may be complemented and reinforced by the combined measurement of recoil energy and TOF. Note, the production properties "separator", "mass separation", "angular selection", and "TOF selection" were called "assignment properties" in [3].
+
+\subsection*{Subsection title}
+
+Formulas should be written follow type:
+\begin{equation}
+TC(HKL)= \frac{I(hkl)}{I_0(hkl)}\diagup\frac{1}{n}\sum{\frac{I(hkl)}{I_0(hkl)}},\label{}
+\end{equation}
+
+\begin{flushleft}
+\textbf{Example of figure style}
+\end{flushleft}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.8]{W1_1.eps}\\
+\scriptsize{ Figure 1. Please write your figure caption here.}
+\label{fig:image1}
+\end{figure}
+
+The first superheavy nucleus $^{289}\text{Fl}$ was discovered in the $^{244}$Pu($^{48}\text{Ca},3n$) reaction studied at DGFRS (here and after we refer to reviews [1,2] containing references to most of earlier experimental data). The decay properties of $^{289}\text{Fl}$ and descendant nuclei are shown in figure 1.
+
+\section*{Authors contributions}
+
+
+All the authors were involved in the preparation of the manuscript. All the authors have read and approved the final manuscript.
+
+\section*{Conclusion}
+
+Your Conclusion text comes here...
+
+\section*{Acknowledgments }
+
+Its purpose is to thank all of the people who helped with the research but did not qualify for authorship (check the target journalТs Instructions for Authors for authorship guidelines). Acknowledge anyone who provided intellectual assistance, technical help (including with writing and editing), or special equipment or materials.
+
+Also, use this section to provide information about funding by including specific grant numbers and titles. If you need to include funding information, list the name(s) of the funding organization(s) in full, and identify which authors received funding for what.
+
+\section*{References }
+
+\textbf{For books: }
+Author, \textit{Book title} (Publisher, place year) page numbers.(DOI or ISBN) Example:
+
+[1]	Bass R, Nuclear Reactions with Heavy IonsBerlin (Heidelberg, New York: Springer-Verlag, 1980) 410 p.(DOI or ISBN)
+
+\textbf{For articles from journals:}
+Author, Journal \textbf{Volume} (year) page numbers.(DOI) Example:
+
+[2] Tanihata I. et al., Phys.Lett.B. \textbf{206} (1988) 592-600.(DOI)
+
+\textbf{For conference materials, proceedings, etc.:}
+Author, Publication title: Type of publication \textbf{Volume} (year) page numbers.(DOI) Example:
+
+[3] Oganessian Y.Ts., Proceeding of the International Conference on Nuclear Physics, Munich \textbf{73} (1975) 351-360.(DOI)
+
+\begin{flushleft}
+\textbf{Example: }
+
+
+[1] Bass R, Nuclear Reactions with Heavy IonsBerlin (Heidelberg, New York: Springer-Verlag, 1980) 410 p.(DOI or ISBN)
+
+[2] Tanihata I. et al., Phys.Lett.B. \textbf{206} (1988) 592-600.(DOI)
+
+[3] Oganessian Y.Ts., Proceeding of the International Conference on Nuclear Physics, Munich \textbf{73} (1975) 351-360.(DOI)
+
+\end{flushleft}
+\end{document}
