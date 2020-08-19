@@ -32,33 +32,32 @@ ThreeBodyWaveFunction::ThreeBodyWaveFunction(const char *filename)
          gamma.push_back(tempInt);
          tempInt.clear();
          newQuantumNumbersQ = true;
-         //       printf("%d\t%d\t%d\n", int1, int2, int3);
       }
       else
       {
-         if (newQuantumNumbersQ)
-         {
-            a1.push_back(tempDouble1);
-            b1.push_back(tempDouble2);
-            C.push_back(tempDouble3);
-            tempDouble1.clear();
-            tempDouble2.clear();
-            tempDouble3.clear();
-            newQuantumNumbersQ = false;
-         }
          sscanf(mys, "%lf\t%lf\t%lf", &double1, &double2, &double3);
          tempDouble1.push_back(double1);
          tempDouble2.push_back(double2);
          tempDouble3.push_back(double3);
+      }
 
-         //   printf("%f\t%f\t%f\n", a, b, c);
+      if (newQuantumNumbersQ && (gamma.size() != 1))
+      {
+         a1.push_back(tempDouble1);
+         b1.push_back(tempDouble2);
+         C.push_back(tempDouble3);
+         tempDouble1.clear();
+         tempDouble2.clear();
+         tempDouble3.clear();
+         newQuantumNumbersQ = false;
       }
    }
-   fclose(pFile);
 
-   for (size_t i = 0; i < a1[0].size(); i++)
-   {
-      std::cout << i << '\t' << a1[0][i] << '\n \n';
-   }
-   std::cout << a1[0].size() << '\n';
+   a1.push_back(tempDouble1);
+   b1.push_back(tempDouble2);
+   C.push_back(tempDouble3);
+   tempDouble1.clear();
+   tempDouble2.clear();
+   tempDouble3.clear();
+   fclose(pFile);
 }

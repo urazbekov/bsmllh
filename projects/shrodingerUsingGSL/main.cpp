@@ -3,20 +3,23 @@
 #include "uba_nucleusClass.h"
 #include "uba_ode.h"
 #include "uba_potentialClass.h"
+#include "uba_functions.h"
 #include "uba_threeBodyWaveFunction.h"
-#include <iostream>
-#include <math.h>
-#include <stdio.h>
 #include <string.h>
-using namespace std;
-
+#include <stdio.h>
+#include <complex>
+#include <iostream>
 
 int main(void)
 {
+   double aVariable;
+
+   aVariable = clebschGordonCoeff(2, 1, 1, 0, 3, 1);
+   std::cout << aVariable << '\n';
+   return 0;
+
    const char            *filename = "9be.txt";
    ThreeBodyWaveFunction be9(filename);
-
-   return 0;
 
    Nucleus   projectile(2, 4);
    Nucleus   target(4, 9);
