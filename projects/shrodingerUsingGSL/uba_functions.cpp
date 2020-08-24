@@ -9,8 +9,7 @@
 using namespace std;
 using namespace std::complex_literals;
 
-
-std::complex<double> sphericalHarmonicY(int l, int m, double theta, double phi)
+std::complex<double> sphericalHarmonicY(int l, int m, coordinateOfJacobi x)
 {
    double          normalizedLegandreP;
    complex<double> phidependentPart;
@@ -19,23 +18,41 @@ std::complex<double> sphericalHarmonicY(int l, int m, double theta, double phi)
    if (m < 0)
    {
       phase = pow(-1, m);
-      phi   = -phi;
+      x.phi = -x.phi;
       m     = abs(m);
    }
-   normalizedLegandreP = gsl_sf_legendre_sphPlm(l, m, cos(theta));
-   phidependentPart    = exp(1i * double(m) * phi);
+   normalizedLegandreP = gsl_sf_legendre_sphPlm(l, m, cos(x.theta));
+   phidependentPart    = exp(1i * double(m) * x.phi);
 
    return phase * normalizedLegandreP * phidependentPart;
 }
 
 
-double clebschGordonCoeff(double j1, double m1, double j2, double m2, double j, double m)
+double clebschGordonCoeff(double j1, double m1,
+                          double j2, double m2, double j, double m)
 {
-   double aCoefficient;
+   double aCoefficient = 1;
 
-   aCoefficient = gsl_sf_coupling_3j(2 * j1, 2 * j2, 2 * j, 2 * m1, 2 * m2, 2 * m);
-   printf("%lf\n", aCoefficient);
+   aCoefficient = gsl_sf_coupling_3j(2 * int(j1), 2 * int(j2), 2 * int(j),
+                                     2 * int(m1), 2 * int(m2), -2 * int(m));
    aCoefficient *= sqrt(2 * j + 1);
    aCoefficient *= pow(-1, m + j1 - j2);
    return aCoefficient;
+}
+
+
+std::complex<double> hyperSphericalHarmonicY(int l1, int l2, int l,
+                                             coordinateOfJacobi x, coordinateOfJacobi y)
+{
+   std::complex<double> sum = 0;
+
+   for (int m1 = -l1; m1 <= l1; m1++)
+   {
+      for (int m2 = -l2; m2 <= l2; m2++)
+      {
+         sum += clebschGordonCoeff(l1, m1, l2, m2, l, l)
+                * sphericalHarmonicY(l1, m1, x) * sphericalHarmonicY(l2, m2, y);
+      }
+   }
+   return sum;
 }

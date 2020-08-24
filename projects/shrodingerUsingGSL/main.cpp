@@ -12,14 +12,26 @@
 
 int main(void)
 {
-   double aVariable;
+   std::complex<double> aVariable;
+   coordinateOfJacobi   x;
+   coordinateOfJacobi   y;
 
-   aVariable = clebschGordonCoeff(2, 1, 1, 0, 3, 1);
+   x.r     = 1.;
+   x.theta = 1.;
+   x.phi   = 1.;
+   y.r     = 1.;
+   y.theta = 1.;
+   y.phi   = 1.;
+   const char            *filename = "9be.txt";
+   ThreeBodyWaveFunction be9(filename);
+
+   be9.xr    = 1.3;
+   be9.yr    = 2.3;
+   be9.k     = 1;
+   aVariable = be9.W1();
    std::cout << aVariable << '\n';
    return 0;
 
-   const char            *filename = "9be.txt";
-   ThreeBodyWaveFunction be9(filename);
 
    Nucleus   projectile(2, 4);
    Nucleus   target(4, 9);
