@@ -23,11 +23,11 @@
 \usepackage{rotating}
 \usepackage{longtable}
 \usepackage{multirow}
-\usepackage{geometry} % Меняем поля страницы
-\geometry{left=3 cm}% левое поле
-\geometry{right=3 cm}% правое поле
-\geometry{top=2.5cm}% верхнее поле
-\geometry{bottom=2.5cm}% нижнее поле
+\usepackage{geometry} % пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+\geometry{left=3 cm}% пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+\geometry{right=3 cm}% пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+\geometry{top=2.5cm}% пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+\geometry{bottom=2.5cm}% пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 \mathsurround=2pt
 
 \usepackage{fancyhdr}
@@ -59,13 +59,13 @@
 
 \title{{\normalsize{Eurasian~~Journal~~of~~Physics~~and~~Functional~~Materials\\ 
 2020, \textbf{*}(*),   **-**}} \\[2.0cm]% JOURNAL title 
-Geometric structure of the three-body wave function of $^9$Be built on the Gaussian basis function}% Article title 
+Some aspects related to the transformation of Jacobi coordinate sets  of the three body wave function built on the Gaussian basis}% Article title 
 
 \author
-{B.A. Urazbekov$^{1,2,3,4}$, A.S. Denikin$^{2,3}$, N. Itaco$^{1,4}$, N.T. Tusunbayev$^2$\\ 
+{B.A. Urazbekov$^{1,2,3,4}$, A.S. Denikin$^{2,3}$, N. Itaco$^{1,4}$, N.T. Tusunbayev$^3$\\ 
 \scriptsize{$^1$Dipartimento di Matematica e Fisica, Universit\`a degli Studi della Campania "Luigi Vanvitelli", Caserta, Italy }\\
-\scriptsize{$^2$Joint institute for nuclear research, Dubna, Russia}\\
-\scriptsize{$^3$Dubna state university, Dubna, Russia}\\
+\scriptsize{$^2$Dubna state university, Dubna, Russia}\\
+\scriptsize{$^3$Joint institute for nuclear research, Dubna, Russia}\\
 \scriptsize{$^4$Istituto Nazionale di Fisica Nucleare, Complesso Univeristario di Monte S. Angelo, Napoli, Italy}\\
 \scriptsize{e-mail: bakytzhan.urazbekov@gmail.com}\\% Your email address
 }
@@ -81,14 +81,8 @@ Received: **.**.**** - after revision}
 
 \begin{sciabstract}%your abstract text and keywords
 
-The three-body wave function built on the basis of the Gaussian function, calculated using the three-body Hamiltonian with the Pauli blocking operator is studied. Analytical expressions are presented for the matrix elements of the overlap of the basis functions for both basic and alternative set of relative Jacobi coordinates. The correlation densities of the wave function are calculated and illustrated depending on the set of orbital numbers also for the main and for the alternative Jacobi coordinates.
+The three-body wave function built on the basis of the Gaussian function, calculated using the three-body Hamiltonian with the Pauli blocking operator is studied. Analytical expressions are presented for the matrix elements of the overlap of the basis functions for both basic and alternative set of relative Jacobi coordinates. The correlation densities of the wave function are calculated and illustrated depending on the set of orbital numbers also for the both sets of Jacobi coordinates.
 
-%Your Abstract should answer these questions about your manuscript:
-%What was done?;
-%Why did you do it?;
-%What did you find?;
-%Why are these findings useful and important?;
-%We recommend word count for Abstracts 170-200 words, and no citations.
 
 {\textbf{Keywords:} the three-body problem, Gaussian basis, relative Jacobi coordinates}
 
@@ -96,13 +90,39 @@ The three-body wave function built on the basis of the Gaussian function, calcul
 
 \section*{Introduction}
 
-The nature of nuclear forces are still 
-Your text comes here...
+N years have passed since the skin, halo effects of such exotic nuclei were shown by Tanihata. These discoveries have allowed the existing science to look from a new perspective at the interactions of nucleons in atomic nuclei, and challenged already known theoretical methods. It is difficult to say that there is a unified model describing all the observable characteristics of the exotic nuclei. Nevertheless, it is possible to single out a theoretical method that describe a sufficient number of the observable properties of the being explored nuclei.
+
+
+It is Gaussian Expansion Method. The essence is in the expansion of the total wave function in terms of the Gaussian basis function. The solution of the Schroedinger equation for the few body problem is reduced to finding the factor, i.e. weight, of the matrix elements of the Hamiltonian calculated through the exponential functions, to set the parameters of the arguments of the exponential function. It is interesting to note that this method is easily applicable for problems of two bodies, three bodies and four bodies. The method has the advantage of expressing matrix elements in the analytical form, which one makes possible to do calculations quite quickly on ordinary desktop computers.
+
+It should also be noted that in this method the parameters of the wave function are varied in order to obtain the minimum eigenvalue of the Hamiltonian matrix. Therefore, the approach is also called as Stochastic Variational Method.
+
+Due to the limited number of existing materials on this topic for practical application, the purpose of this work is to make the formulas for variational calculations accessible and open. In the first section, some vector re-coupling problems in quantum mechanics are given, an expression for the total three-particle wave function and details of the transformation of the basis function from one set to other sets of Jacobi coordinates are given. Then, the second section deduces analytical expressions for the overlap matrix elements, which can further be applied to the matrix elements of other quantum operators. The main conclusions are made in the conclusion section.
 
 \section*{The three-body wave function }
 
+\subsection*{Angular momentum re-coupling}
+An addition of two vectors $\mathbf{j}_1$ and $\mathbf{j}_2$ getting $\mathbf{j}$ vector is carried out through the Clebsch-Gordan coefficient as follow
+\begin{equation}
+\label{the_CG_coefficient}
+\vert \mathbf{j} \rangle =\sum_{m_1 m_2} \langle ~ j_1 m_1~j_2 m_2~ \vert ~j m~  \rangle ~ \vert \mathbf{j}_1 \rangle~ \vert \mathbf{j}_2 \rangle,
+\end{equation}
+For non-zero values of the coefficient (\ref{the_CG_coefficient}) vectors $\mathbf{j}_1$, $\mathbf{j}_2$ and $\mathbf{j}$ must satisfy the rule of triangle:
+\begin{eqnarray}
+\vert j_1 - j_2 \vert \leq j \leq j_1 + j_2 \\
+\vert j - j_2 \vert \leq j_1 \leq j + j_2 \\ 
+\vert j_1 - j \vert \leq j_2 \leq j_1 + j 
+\end{eqnarray}
+and condition
+\begin{equation}
+m=m_1+m_2.
+\end{equation}
 
-\subsection*{Example of a table style}
+
+If there are three vectors $\mathbf{j}_1, \mathbf{j}_2$ and $\mathbf{j}_3$, one must firstly add $\mathbf{j}_1$ and $\mathbf{j}_2$, which gives $\mathbf{j}_{12}$, then couple $\mathbf{j}_{12}$ with $\mathbf{j}_3$. This is a first scheme of coupling the three vectors. The second scheme takes place by means of adding $\mathbf{j}_2$ and $\mathbf{j}_3$, which gives $\mathbf{j}_{23})$, then coupling  it with  $\mathbf{j}_1$. A coefficient between two schemes is defined  via the $U(\mathbf{j}_1 \mathbf{j}_2 \mathbf{j} \mathbf{j}_3; \mathbf{j}_{12} \mathbf{j}_{23})$ Racah coefficient as following  
+
+
+
 
 
 The energy dependence of total cross sections of reactions $^6\text{He}$ + Si and $^{6,9}\text{Li}$ + Si in the beam energy range 5-30 MeV/nucleon has been measured. An agreement with the published experimental data for the reaction $^6$He + Si was obtained. For the reaction $^9\text{Li}$ + Si new data in the vicinity a local enhancement of the total cross section was obtained. Theoretical analysis of possible reasons of appearance of this peculiarity in the collisions of nuclei $^6\text{He}$ and $^9\text{Li}$ with Si nuclei has been carried out including the influence of external neutrons of weakly bound projectile nuclei.
@@ -113,7 +133,6 @@ Table 1.\\
 Please write your table caption here (\textit{the width of the table should be equal to the width of the text})\\
 \begin{tabular}{p{1cm}|p{2.8cm}|p{3cm}|p{3cm}|p{3cm}}
 \hline\noalign{\smallskip}
-
 H&   q &  $\alpha_q$&   $\chi^{2}/d.o.f.$  & Confidence level of fittings\\ \hline\noalign{\smallskip}
  &2 &0.56 $\pm$  0 .01 & 0.38 & 98.90 \% \\ \cline{2-5}
 0.3		&3 &1.22 $\pm$  0 .03 & 0.49 & 95.93 \% \\\cline{2-5}
@@ -163,7 +182,6 @@ Your Conclusion text comes here...
 
 \section*{Acknowledgments }
 
-Its purpose is to thank all of the people who helped with the research but did not qualify for authorship (check the target journal’s Instructions for Authors for authorship guidelines). Acknowledge anyone who provided intellectual assistance, technical help (including with writing and editing), or special equipment or materials.
 
 Also, use this section to provide information about funding by including specific grant numbers and titles. If you need to include funding information, list the name(s) of the funding organization(s) in full, and identify which authors received funding for what.
 
