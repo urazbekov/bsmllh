@@ -59,7 +59,7 @@
 
 \title{{\normalsize{Eurasian~~Journal~~of~~Physics~~and~~Functional~~Materials\\ 
 2020, \textbf{*}(*),   **-**}} \\[2.0cm]% JOURNAL title 
-Some aspects related to the transformation of Jacobi coordinate sets  of the three body wave function built on the Gaussian basis}% Article title 
+Some aspects related to the three body wave function built on the Gaussian basis}% Article title 
 
 \author
 {B.A. Urazbekov$^{1,2,3,4}$, A.S. Denikin$^{2,3}$, N. Itaco$^{1,4}$, N.T. Tusunbayev$^3$\\ 
@@ -99,27 +99,148 @@ It should also be noted that in this method the parameters of the wave function 
 
 Due to the limited number of existing materials on this topic for practical application, the purpose of this work is to make the formulas for variational calculations accessible and open. In the first section, some vector re-coupling problems in quantum mechanics are given, an expression for the total three-particle wave function and details of the transformation of the basis function from one set to other sets of Jacobi coordinates are given. Then, the second section deduces analytical expressions for the overlap matrix elements, which can further be applied to the matrix elements of other quantum operators. The main conclusions are made in the conclusion section.
 
-\section*{The three-body wave function }
+\section*{Theoretical model}
 
-\subsection*{Angular momentum re-coupling}
-An addition of two vectors $\mathbf{j}_1$ and $\mathbf{j}_2$ getting $\mathbf{j}$ vector is carried out through the Clebsch-Gordan coefficient as follow
+\subsection*{Some aspects from the quantum theory of angular moments}
+A total angular momentum $\mathbf{j}$ are decomposed into two angular momenta $\mathbf{j}_1$ and $\mathbf{j}_2$ by means of the Clebsch-Gordan coefficient. For example, to quote a basis $\vert ~ jm \rangle $ with the angular momentum $\bf j$ with its $z$-component $m$, the Clebsch-Gordan coefficient can be represented as follow
 \begin{equation}
 \label{the_CG_coefficient}
-\vert \mathbf{j} \rangle =\sum_{m_1 m_2} \langle ~ j_1 m_1~j_2 m_2~ \vert ~j m~  \rangle ~ \vert \mathbf{j}_1 \rangle~ \vert \mathbf{j}_2 \rangle,
+\vert ~ jm \rangle =\sum_{m_1 m_2} \langle ~ j_1 m_1~j_2 m_2~ \vert ~j m~  \rangle ~ \vert ~j_1 m_1 \rangle~ \vert ~j_2 m_2 \rangle,
 \end{equation}
 For non-zero values of the coefficient (\ref{the_CG_coefficient}) vectors $\mathbf{j}_1$, $\mathbf{j}_2$ and $\mathbf{j}$ must satisfy the rule of triangle:
-\begin{eqnarray}
+\begin{align*}
 \vert j_1 - j_2 \vert \leq j \leq j_1 + j_2 \\
 \vert j - j_2 \vert \leq j_1 \leq j + j_2 \\ 
 \vert j_1 - j \vert \leq j_2 \leq j_1 + j 
-\end{eqnarray}
-and condition
-\begin{equation}
+\end{align*}
+and the condition
+\begin{equation*}
 m=m_1+m_2.
+\end{equation*}
+
+
+If there are three vectors $\mathbf{j}_1, \mathbf{j}_2$ and $\mathbf{j}_3$, one can get a total angular momentum $\bf j$ in two ways
+
+\begin{align}
+\label{6j_basis1}
+\bf j & =\bf \left( j_1 + j_2 \right) + j_3 = j_{12} + j_3 \\
+\label{6j_basis2}		
+& = \bf j_1 + \left( j_2  + j_3 \right) = j_1 +j_{23}
+\end{align}
+
+The Basis $ \vert (j_1 j_2)j_{12},j_3; jm \rangle$ and the basis $\vert j_1,(j_2 j_3); ~jm \rangle$ corresponding to Eq.~(\ref{6j_basis1}) and Eq.~(\ref{6j_basis2}) are related through a factor $U(~j_1 j_2 j j_3;~ j_{12} j_{23})$, which is the Racah coefficient:
+\begin{equation}
+\vert (j_1 j_2)j_{12},j_3; jm \rangle = \sum_{j_{23}} U(~j_1 j_2 j j_3;~ j_{12} j_{23}) ~ \vert j_1,(j_2 j_3); ~jm \rangle.
 \end{equation}
 
+Four angular momenta, $\bf j_1,~j_2,~j_3$ and $\bf j_4$, are added into the total momentum $\bf j$ by
+\begin{align}
+\label{9j_basis1}
+\bf j & =\bf \left( j_1 + j_2 \right) + ( j_3 + j_4) = j_{12} + j_{34} \\
+\label{9j_basis2}		
+& = \bf ( j_1 + j_3 ) + \left( j_2  + j_4 \right) = j_{13} +j_{24}
+\end{align}
 
-If there are three vectors $\mathbf{j}_1, \mathbf{j}_2$ and $\mathbf{j}_3$, one must firstly add $\mathbf{j}_1$ and $\mathbf{j}_2$, which gives $\mathbf{j}_{12}$, then couple $\mathbf{j}_{12}$ with $\mathbf{j}_3$. This is a first scheme of coupling the three vectors. The second scheme takes place by means of adding $\mathbf{j}_2$ and $\mathbf{j}_3$, which gives $\mathbf{j}_{23})$, then coupling  it with  $\mathbf{j}_1$. A coefficient between two schemes is defined  via the $U(\mathbf{j}_1 \mathbf{j}_2 \mathbf{j} \mathbf{j}_3; \mathbf{j}_{12} \mathbf{j}_{23})$ Racah coefficient as following  
+Two basis  $\vert~ j_1 j_2 (j_{12}),~j_3 j_4 (j_{34});~jm \rangle$ and $\vert~ j_1 j_3 (j_{13}),~j_2 j_4 (j_{24});~jm \rangle $, constructed respectively on the scheme Eq.~\ref{9j_basis1} and Eq.~\ref{9j_basis2},  are related as follow
+\begin{align}
+\label{9j}
+\vert~ j_1 j_2 (j_{12}),~j_3 j_4 (j_{34});~jm \rangle = \sum_{j_{13},j_{24}} 
+\begin{bmatrix}
+j_1 & j_2 & j_{12} \\ 
+j_3 & j_4 & j_{34} \\ 
+j_{13} & j_{24} & j
+\end{bmatrix} 
+\vert~ j_1 j_3 (j_{13}),~j_2 j_4 (j_{24});~jm \rangle 
+\end{align}
+where transformation coefficient with square brackets is called a unitary 9j-symbol.
+
+
+
+
+  
+
+\subsection*{The three-body wave function}
+The calculation of the three-body wave function was carried out within the framework of the variational method for solving the Hill-Wheeler integral equations obtained on the basis of the three-dimensional Schrodinger equation for a three-part nuclear system, which is described in detail in \ cite {kukulin1984detailed}.
+In this approach, the total wave function with total spin $ J $ and spin projection $ M_J $ is represented as
+ \begin{equation}
+ \Psi_{JM_J}= \sum_{\iota} C_{\iota}^{(i)} \phi_{\iota}^{\gamma} \left( i,jk \right)
+ \label{totwf}
+ \end{equation}
+
+here, for simplicity of further presentation, the spatial Jacobi coordinates $ {\bf x} _i $ and $ {\bf y} _i $ are omitted, the symbols $ i $, $ j $, $ k $ correspond to the cluster indices (see Fig. 1), and the combination of indices ($ i $, $ jk $) corresponds to a certain choice of Jacobi coordinates $ {\bf x} _i $ and $ {\bf y}_i $ of the considered three-body system, where $ {\bf x}_i $ is a vector the relative distance between the pair of particles $ j $ and $ k $, and $ {\bf y}_i $ is the vector of the relative distance between the center of mass of the pair $ j $ and $ k $ and the particle $ i $. 
+The coefficients $ C _{\iota}^{(i)} $ in the expression (\ ref {totwf}) are the parameters of the wave function expansion and are found as a result of solving the variational problem. 
+The numerical values of the coefficients were calculated by us earlier and for the ground state of the $^9$Be nucleus are given in the work \ cite {voronchev1994analysis}.
+
+
+The explicit form of the basis functions $ \phi_{\iota}^{\gamma} \left (i, jk \right) $ is chosen in the form of the direct product of the spatial and spin wave functions:
+\begin{equation}
+\phi_{\iota}^{\gamma}\left(i,jk\right) = \left[ \Phi_{\iota}^{\gamma} \left( i,jk \right) 
+\otimes \chi_{S} \right] _{JM_{J}}
+\label{subwf}
+\end{equation}
+
+here the index $\gamma$ includes the quantum numbers $L \lambda l $. The spatial part $\Phi_{\iota}^{\gamma} \left(i, jk \right) $ of the wave function (\ ref {subwf}) is constructed using the multidimensional Gaussian functions:
+ \begin{equation}
+ \Phi_{\iota}^{\gamma} \left( i,jk \right) =
+ x_{i}^{\lambda} y_{i}^{l} exp\left(- \alpha^{(i)}_{\iota} x_{i}^{2} - \beta^{(i)}_{\iota}  y_{i}^{2} \right) 
+ \left[ Y_\lambda \left(  \hat{x}_i \right) \otimes Y_l \left( \hat{y}_i \right) \right]_{LM_L} 
+ \end{equation}
+ 
+ where $ L $ and $ M_L $ are the total orbital momentum of the system and its projection, $ \lambda $, $ l $ are the orbital moments conjugate to the coordinates $ {\bf x} _i $ and $ {\bf y} _i $ respectively, $ \alpha^{(i)} _ {\iota} $, $ \beta^{(i)}_{\iota}$ are the parameters of the wave function, the values of which are given in the work \ cite {voronchev1994analysis}.
+ 
+ The chosen form of the basis functions is convenient in that it can be easily transformed for use with an alternative set of Jacobi coordinates.
+ In particular, the transformation of the spatial part of the wave function from the set $ \left(i, jk \right) $ to the set $ \left(j, ki \right) $ can be expressed in the following form
+ 
+  \begin{equation}
+ \label{transformbasisfunction}
+ \Phi_{\iota}^{\gamma} \left( i,jk \right) = \sum_{\tilde{\gamma}} A_{\tilde{\gamma}\gamma}^{j\leftarrow i}
+  \Phi_{\iota}^{\tilde{\gamma} } \left( j,ki \right) 
+ \end{equation}
+ 
+ where the sum is over the quantum numbers of the set $ \tilde {\gamma} $, taking into account the condition $ \tilde{\lambda} + \tilde{l} = \lambda + l $. The reconnection factors $ A_{\tilde{\gamma} \gamma}^{j \leftarrow i} $ are defined as follows \ cite {suzuki1998stochastic}
+ 
+ \begin{align}
+A_{\tilde{\gamma}\gamma}^{j\leftarrow i}  = & (-1)^{\lambda+l}  \sum_{\lambda_1 \lambda_2 l_1 l_2} 
+\left(\Omega_{11}^{j\leftarrow i} \right)^{\lambda_1} 
+\left(\Omega_{12}^{j\leftarrow i} \right)^{\lambda_2} 
+\left(\Omega_{21}^{j\leftarrow i} \right)^{l_1} 
+\left(\Omega_{22}^{j\leftarrow i} \right)^{l_2} 
+\times 
+\\
+& \sqrt{\frac{[\lambda]! [l]! [\lambda] [l] [\lambda_1] [l_1] [\lambda_2] [l_2] [\tilde{\lambda}] [\tilde{l}]}{[\lambda_1]! [l_1]! [\lambda_2]! [l_2]!}}  
+  \begin{pmatrix}
+ \lambda_1 & \lambda_2 & \lambda \\ 
+ 0 & 0 & 0
+ \end{pmatrix} 
+  \begin{pmatrix}
+ l_1 & l_2 & l \\ 
+ 0 & 0 & 0
+ \end{pmatrix} 
+ \begin{pmatrix}
+ \lambda_1 & \lambda_2 & \lambda \\ 
+ l_1 & l_2 & l \\
+ \tilde{\lambda} & \tilde{l} & L
+ \end{pmatrix},  \nonumber 
+\end{align}
+where $ \left [x \right] = 2x + 1 $, matrices with dimensions $ 2 \times3 $ and $ 3 \times3 $ are $ 3j $ and $ 9j $ Wigner coefficients, respectively, and the elements of the matrix $ \Omega^{j \leftarrow i}_{nm} $ are defined as follows
+
+\begin{equation*}
+ \Omega^{j \leftarrow i} = \frac{1}{\sqrt{\left( m_j + m_k \right)\left( m_i + m_k \right)}}
+ \begin{pmatrix}
+ -\sqrt{m_i m_j} & -\sqrt{m_k M} \\
+ \sqrt{m_k M}  &  \sqrt{m_i m_j}
+ \end{pmatrix}
+ \end{equation*}
+  here the value $ M = m_i + m_j + m_k $.
+
+
+\subsection*{Overlap matrix elements}
+
+
+
+\section{Aidos notations}
+
+
 
 
 
@@ -171,10 +292,6 @@ TC(HKL)= \frac{I(hkl)}{I_0(hkl)}\diagup\frac{1}{n}\sum{\frac{I(hkl)}{I_0(hkl)}},
 
 The first superheavy nucleus $^{289}\text{Fl}$ was discovered in the $^{244}$Pu($^{48}\text{Ca},3n$) reaction studied at DGFRS (here and after we refer to reviews [1,2] containing references to most of earlier experimental data). The decay properties of $^{289}\text{Fl}$ and descendant nuclei are shown in figure 1.
 
-\section*{Authors contributions}
-
-
-All the authors were involved in the preparation of the manuscript. All the authors have read and approved the final manuscript.
 
 \section*{Conclusion}
 

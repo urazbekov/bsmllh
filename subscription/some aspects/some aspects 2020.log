@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  27 AUG 2020 13:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  2 SEP 2020 17:39
 entering extended mode
 **"./some aspects 2020.tex"
 ("some aspects 2020.tex"
@@ -493,16 +493,28 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 105.
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 128--130
 
+LaTeX Warning: Reference `9j_basis1' on page 3 undefined on input line 144.
+
+
+LaTeX Warning: Reference `9j_basis2' on page 3 undefined on input line 144.
+
+[3]
+Overfull \hbox (3.90645pt too wide) detected at line 224
+[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 249--251
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
 []\T1/pplx/m/n/12 (+20) Confidence
  []
 
-[3]
+[5]
 Package epstopdf Info: Source file: <W1_1.eps>
 (epstopdf)                    date: 2020-08-18 10:44:41
 (epstopdf)                    size: 252451 bytes
@@ -511,47 +523,55 @@ Package epstopdf Info: Source file: <W1_1.eps>
 (epstopdf)                    size: 177042 bytes
 (epstopdf)             Command: <epstopdf --outfile=W1_1-eps-converted-to.pdf W
 1_1.eps>
-(epstopdf)             \includegraphics on input line 167.
+(epstopdf)             \includegraphics on input line 288.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./W1_1-eps-converted-to.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<W1_1-eps-converted-to.pdf, id=18, 145.54375pt x 216.81pt>
+<W1_1-eps-converted-to.pdf, id=25, 145.54375pt x 216.81pt>
 File: W1_1-eps-converted-to.pdf Graphic file (type pdf)
 <use W1_1-eps-converted-to.pdf>
-Package pdftex.def Info: W1_1-eps-converted-to.pdf  used on input line 167.
+Package pdftex.def Info: W1_1-eps-converted-to.pdf  used on input line 288.
 (pdftex.def)             Requested size: 116.43513pt x 173.44823pt.
-[4 <./W1_1-eps-converted-to.pdf>]
-Overfull \hbox (2.66286pt too wide) in paragraph at lines 195--197
+[6 <./W1_1-eps-converted-to.pdf>]
+Overfull \hbox (2.66286pt too wide) in paragraph at lines 312--314
 []\T1/pplx/b/n/12 For ar-ti-cles from jour-nals: \T1/pplx/m/n/12 (-20) Au-thor,
  Jour-nal \T1/pplx/b/n/12 Vol-ume \T1/pplx/m/n/12 (-20) (year) page num-bers.(D
 OI)
  []
 
-[5] ("some aspects 2020.aux") ) 
+[7] ("some aspects 2020.aux")
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 6252 strings out of 480790
- 93210 string characters out of 2895425
- 377933 words of memory out of 3000000
- 21967 multiletter control sequences out of 15000+200000
- 597798 words of font info for 238 fonts, out of 3000000 for 9000
+ 6286 strings out of 480790
+ 93484 string characters out of 2895425
+ 379982 words of memory out of 3000000
+ 21975 multiletter control sequences out of 15000+200000
+ 601776 words of font info for 260 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,12n,45p,725b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/urazbekov/AppData/Local/Programs/MiKTe
-X/fonts/enc/dvips/base/8r.enc}<C:/Users/urazbekov/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/urazbekov/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/urazbekov/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/urazb
-ekov/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/U
-sers/urazbekov/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbol
-s/msbm10.pfb><C:/Users/urazbekov/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
-palatino/uplb8a.pfb><C:/Users/urazbekov/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/urw/palatino/uplr8a.pfb><C:/Users/urazbekov/AppData/Local/Programs/MiKTeX/fo
-nts/type1/urw/palatino/uplri8a.pfb>
-Output written on "some aspects 2020.pdf" (5 pages, 275154 bytes).
+ 33i,15n,45p,725b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/urazbekov/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc
+}<C:/Users/urazbekov/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmex10.pfb><C:/Users/urazbekov/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Users/urazbekov/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/urazbekov/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/urazbekov/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/urazbekov/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:
+/Users/urazbekov/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.
+pfb><C:/Users/urazbekov/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/
+uplr8a.pfb><C:/Users/urazbekov/AppData/Local/Programs/MiKTeX/fonts/type1/urw/pa
+latino/uplri8a.pfb>
+Output written on "some aspects 2020.pdf" (7 pages, 302197 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41990 words of extra memory for PDF output out of 42996 (max. 10000000)
 
