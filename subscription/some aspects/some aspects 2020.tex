@@ -16,7 +16,8 @@
 \usepackage{ textcomp }
 \graphicspath{{/}}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
-
+\usepackage{caption}
+\captionsetup{font=footnotesize}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage[dvips]{graphicx}
@@ -99,9 +100,9 @@ It should also be noted that in this method the parameters of the wave function 
 
 Due to the limited number of existing materials on this topic for practical application, the purpose of this work is to make the formulas for variational calculations accessible and open. In the first section, some vector re-coupling problems in quantum mechanics are given, an expression for the total three-particle wave function and details of the transformation of the basis function from one set to other sets of Jacobi coordinates are given. Then, the second section deduces analytical expressions for the overlap matrix elements, which can further be applied to the matrix elements of other quantum operators. The main conclusions are made in the conclusion section.
 
-\section*{Theoretical model}
+\section{Theoretical model}
 
-\subsection*{Some aspects from the quantum theory of angular moments}
+\subsection{Some aspects from the quantum theory of angular momenta}
 A total angular momentum $\mathbf{j}$ are decomposed into two angular momenta $\mathbf{j}_1$ and $\mathbf{j}_2$ by means of the Clebsch-Gordan coefficient. For example, to quote a basis $\vert ~ jm \rangle $ with the angular momentum $\bf j$ with its $z$-component $m$, the Clebsch-Gordan coefficient can be represented as follow
 \begin{equation}
 \label{the_CG_coefficient}
@@ -155,86 +156,182 @@ j_{13} & j_{24} & j
 where transformation coefficient with square brackets is called a unitary 9j-symbol.
 
 
+  A spacial spherical harmonics is expressed like
+  \begin{equation}
+  \mathcal{Y}_{lm}({\bf r}) = r^{l} Y_{lm}(\hat{r})
+  \end{equation}
+  where $Y_{lm}(\hat{r})$  -- spherical function, which is a eigenfunction of angular part the $\Delta$ Laplace operator.
+  For ${\bf r} = a{\bf r}+b {\bf r}$ a decomposition of the spacial spherical harmonics $\mathcal{Y}_{lm}({\bf r})$ leads to the following equality
+  \begin{align}
+  \mathcal{Y}_{lm}({\bf r} = a{\bf r}+b {\bf r})=& \sum_{l_1,l_2,m_1,m_2} a^{l_1} b^{l_2}
+  \langle ~ l_1 m_1~l_2 m_2~ \vert ~l m~  \rangle \mathcal{D}(l,l_1,l_2) \times \nonumber \\
+   & \times \mathcal{Y}_{l_l m_1}({\bf r_1})  \mathcal{Y}_{l_2 m_2}({\bf r_2}) \nonumber \\
+   = & \sum_{l_1,l_2} a^{l_1} b^{l_2}
+   \mathcal{D}(l,l_1,l_2) \left[ \mathcal{Y}_{l_l}({\bf r_1}) \times \mathcal{Y}_{l_2}({\bf r_2}) \right]_{lm} 
+   \label{sphHarmDecomp}
+  \end{align}
+  with the condition $l=l_1+l_2$, and $\mathcal{D}(l,l_1,l_2) $ is given by
+  \begin{equation}
+  \mathcal{D}(l,l_1,l_2)  = \sqrt{\frac{4 \pi (2l+1)!}{(2l_1+1)! (2l_2+1)!}}
+  \end{equation}
+Spherical harmonics with the argument are coupled as follow
+\begin{equation}
+\left[ Y_{l_1}(\hat{r}) \times Y_{l_2}(\hat{r})\right]_{lm} =  \mathcal{C}(l_1,l_2,l) Y_{lm}(\hat{r})
+\end{equation}
+where the $\mathcal{C}(l_1,l_2,l)$ coefficient reads as
+\begin{equation}
+\mathcal{C}(l_1,l_2,l) = \sqrt{\frac{(2l_1+1)(2l_2+1)}{4 \pi (2l+1)}} \langle ~ l_1 0~l_2 0~ \vert ~l 0~  \rangle
+\end{equation}
 
+It would be useful also note a coupling between two spherical hyper harmonics kind of
+\begin{equation}
+\left[ Y^{(l_1l_2)}_{l_{12}}(\hat{{\bf r}}_1,\hat{{\bf r}}_2) \times Y^{(l_3l_4)}_{l_{34}}(\hat{{\bf r}}_1,\hat{{ \bf r}}_2) \right]_{lm}= \sum_{l_{13}l_{24}} {E}^{l_1l_2l_{12}l_2l_4l_{34}l}_{l_{13}l_{24}}  Y^{(l_{13}l_{24})}_{lm}(\hat{{\bf r}}_1,\hat{{\bf r}}_2)
+\label{hyperSphTrans}
+\end{equation}
+where the coupling coefficient ${E}^{l_1l_2l_{12}l_2l_4l_{34}l}_{l_{13}l_{24}}$ is given as
+\begin{equation}
+{E}^{l_1l_2l_{12}l_2l_4l_{34}l}_{l_{13}l_{24}} = 
+\begin{bmatrix}
+l_1 & l_2 & l_{12} \\ 
+l_3 & l_4 & l_{34} \\ 
+l_{13} & l_{24} & l
+\end{bmatrix}
+\mathcal{C}(l_1,l_3,l_{13})\mathcal{C}(l_2,l_4,l_{24}).
+\end{equation}
 
   
 
-\subsection*{The three-body wave function}
-The calculation of the three-body wave function was carried out within the framework of the variational method for solving the Hill-Wheeler integral equations obtained on the basis of the three-dimensional Schrodinger equation for a three-part nuclear system, which is described in detail in \ cite {kukulin1984detailed}.
-In this approach, the total wave function with total spin $ J $ and spin projection $ M_J $ is represented as
+\subsection{The three-body wave function}
+
+The three-body wave function with total spin $ J $ and spin projection $ M_J $ is represented as
  \begin{equation}
- \Psi_{JM_J}= \sum_{\iota} C_{\iota}^{(i)} \phi_{\iota}^{\gamma} \left( i,jk \right)
+ \Psi^{JM_J}= \sum_{i} C_{i} \psi_{i}^{JM_J} \left( k,pq \right).
  \label{totwf}
  \end{equation}
+For simplicity the Jacobi coordinates $ {\bf x}_k $ and $ {\bf y}_k $ are down, the symbols $ k $, $ p $ and $ q $ comply with the cluster indices (see Fig. \ref{fig:jacobiSet}), and the combination of indices ($ k $, $ pq $) corresponds to a certain choice of Jacobi coordinates $ {\bf x}_k $ and $ {\bf y}_k $ of the three-body system, where $ {\bf x}_k $ is a vector of the relative distance between the pair of particles $ pq $ and $ k $, and $ {\bf y}_k $ is the vector of the relative distance between the center of mass of the pair $ pq $ and the particle $ k $. 
+The coefficients $ C_{i} $ in Eq.~(\ ref {totwf}) are the parameters of the wave function expansion and are found as a result of solving the generalized eigenvalue problem. 
 
-here, for simplicity of further presentation, the spatial Jacobi coordinates $ {\bf x} _i $ and $ {\bf y} _i $ are omitted, the symbols $ i $, $ j $, $ k $ correspond to the cluster indices (see Fig. 1), and the combination of indices ($ i $, $ jk $) corresponds to a certain choice of Jacobi coordinates $ {\bf x} _i $ and $ {\bf y}_i $ of the considered three-body system, where $ {\bf x}_i $ is a vector the relative distance between the pair of particles $ j $ and $ k $, and $ {\bf y}_i $ is the vector of the relative distance between the center of mass of the pair $ j $ and $ k $ and the particle $ i $. 
-The coefficients $ C _{\iota}^{(i)} $ in the expression (\ ref {totwf}) are the parameters of the wave function expansion and are found as a result of solving the variational problem. 
-The numerical values of the coefficients were calculated by us earlier and for the ground state of the $^9$Be nucleus are given in the work \ cite {voronchev1994analysis}.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.15]{pic1}\\
 
+\caption{The schemes of the three-body system on the example of ${}^9$Be.}
 
-The explicit form of the basis functions $ \phi_{\iota}^{\gamma} \left (i, jk \right) $ is chosen in the form of the direct product of the spatial and spin wave functions:
+\label{fig:jacobiSet}
+\end{figure}
+
+The explicit form of the basis functions $ \psi_{i}^{\gamma} \left(k, pq \right) $ is chosen in the form of the multiplication of the spatial and spin wave functions:
 \begin{equation}
-\phi_{\iota}^{\gamma}\left(i,jk\right) = \left[ \Phi_{\iota}^{\gamma} \left( i,jk \right) 
-\otimes \chi_{S} \right] _{JM_{J}}
+\psi_{i}^{JM_J}\left(k, pq \right) = \left[ \phi_{i}^{\gamma} \left(k, pq \right) 
+\times \chi^{S} \right] _{JM_{J}},
 \label{subwf}
 \end{equation}
-
-here the index $\gamma$ includes the quantum numbers $L \lambda l $. The spatial part $\Phi_{\iota}^{\gamma} \left(i, jk \right) $ of the wave function (\ ref {subwf}) is constructed using the multidimensional Gaussian functions:
+here the index $\gamma$ includes the quantum numbers $L \lambda l$. The spatial part $\phi_{i}^{\gamma} \left(k, pq \right) $ of the wave function (\ref {subwf}) is constructed using the Gaussian functions:
  \begin{equation}
- \Phi_{\iota}^{\gamma} \left( i,jk \right) =
- x_{i}^{\lambda} y_{i}^{l} exp\left(- \alpha^{(i)}_{\iota} x_{i}^{2} - \beta^{(i)}_{\iota}  y_{i}^{2} \right) 
- \left[ Y_\lambda \left(  \hat{x}_i \right) \otimes Y_l \left( \hat{y}_i \right) \right]_{LM_L} 
+ \phi_{i}^{\gamma} \left(k, pq \right) =
+ x_{k}^{\lambda} y_{k}^{l} exp\left(- \alpha^{(k)}_{i} x_{k}^{2} - \beta^{(k)}_{i}  y_{k}^{2} \right) 
+ \left[ Y_\lambda \left(  \hat{ \bf x}_k \right) \times Y_l \left( \hat{\bf y}_k \right) \right]_{LM_L},
  \end{equation}
+where $ L $ and $ M_L $ are the total orbital momentum of the system and its projection, $ \lambda $, $ l $ are the orbital moments conjugated to the coordinates $ {\bf x} _k $ and $ {\bf y} _k $ respectively, $ \alpha^{(k)} _ {i} $, $ \beta^{(k)}_{i}$ are the linear parameters of the three-body wave function.
+%, the values of which are given in the work \ cite {voronchev1994analysis}.
+ \subsection{Transformation of the basis function }
+ The chosen form of the basis function (\ref{subwf}) is convenient in that it can be easily transformed for use with an alternative set of Jacobi coordinates. A rotation matrix connecting different sets of the Jacobi coordinates is provided through
  
- where $ L $ and $ M_L $ are the total orbital momentum of the system and its projection, $ \lambda $, $ l $ are the orbital moments conjugate to the coordinates $ {\bf x} _i $ and $ {\bf y} _i $ respectively, $ \alpha^{(i)} _ {\iota} $, $ \beta^{(i)}_{\iota}$ are the parameters of the wave function, the values of which are given in the work \ cite {voronchev1994analysis}.
- 
- The chosen form of the basis functions is convenient in that it can be easily transformed for use with an alternative set of Jacobi coordinates.
- In particular, the transformation of the spatial part of the wave function from the set $ \left(i, jk \right) $ to the set $ \left(j, ki \right) $ can be expressed in the following form
+\begin{equation}
+\begin{pmatrix}
+{\bf x}_k \\ 
+{\bf y}_k
+\end{pmatrix}  = T^{(kq)}
+\begin{pmatrix}
+{\bf x}_q \\ 
+{\bf y}_q
+\end{pmatrix}.
+\end{equation}
+ In particular, the transformation of the spatial part of the wave function from the set $ \left(k, qp \right) $ to the set $ \left(q, kp \right) $ can be expressed in the following way
  
   \begin{equation}
  \label{transformbasisfunction}
- \Phi_{\iota}^{\gamma} \left( i,jk \right) = \sum_{\tilde{\gamma}} A_{\tilde{\gamma}\gamma}^{j\leftarrow i}
-  \Phi_{\iota}^{\tilde{\gamma} } \left( j,ki \right) 
+ \phi_{i}^{\gamma}\left(k, pq \right) = \sum_{\tilde{\gamma}} A_{\tilde{\gamma}\gamma}^{(kq)}
+  \phi_{i}^{\tilde{\gamma} } \left(q, kp \right) ,
  \end{equation}
- 
- where the sum is over the quantum numbers of the set $ \tilde {\gamma} $, taking into account the condition $ \tilde{\lambda} + \tilde{l} = \lambda + l $. The reconnection factors $ A_{\tilde{\gamma} \gamma}^{j \leftarrow i} $ are defined as follows \ cite {suzuki1998stochastic}
- 
+where the sum is over quantum numbers of the $ \tilde {\gamma} $ new set, and the new basis function 
+\begin{align}
+\phi_{i}^{\tilde{\gamma} } \left(q, kp \right)  =  &
+ x_{q}^{\tilde{\lambda}} y_{q}^{\tilde{l}} exp\left(- \alpha^{(q)}_{i} x_{q}^{2} - \beta^{(q)}_{i}  y_{q}^{2} - 2 \rho^{(q)}_i {\bf x}_{q} \cdot {\bf y}_{q}  \right) 
+\times  \nonumber \\ 
+&\times  \left[ Y_{\tilde{\lambda}} \left(  \hat{ \bf x}_q \right) \times Y_{\tilde{l}} \left( \hat{\bf y}_q \right) \right]_{LM_L},
+\label{newBasis}
+\end{align}
+%, !taking into account the condition $ \tilde{\lambda} + \tilde{l} = \lambda + l $!.
+where new parameters of the wave function are
+\begin{align}
+\alpha^{(q)}_{i} =& \alpha^{(k)}_{i} T_{11}^2 + \beta^{(k)}_{i} T_{21}^2 
+\nonumber \\
+\beta^{(q)}_{i} =& \alpha^{(k)}_{i} T_{12}^2 + \beta^{(k)}_{i} T_{22}^2 
+\nonumber \\
+\rho^{(q)}_{i} =& 2 \alpha^{(k)}_{i} T_{11} T_{12} + 2 \beta^{(k)}_{i} T_{21}  T_{22} 
+\end{align}
+ Using Eq.~(\ref{sphHarmDecomp}) and~(\ref{hyperSphTrans}) it is easy to get the coupling coefficient $ A_{\tilde{\gamma} \gamma}^{(kq)} $ from Eq.~(\ref{transformbasisfunction}), which is defined as follow 
  \begin{align}
-A_{\tilde{\gamma}\gamma}^{j\leftarrow i}  = & (-1)^{\lambda+l}  \sum_{\lambda_1 \lambda_2 l_1 l_2} 
-\left(\Omega_{11}^{j\leftarrow i} \right)^{\lambda_1} 
-\left(\Omega_{12}^{j\leftarrow i} \right)^{\lambda_2} 
-\left(\Omega_{21}^{j\leftarrow i} \right)^{l_1} 
-\left(\Omega_{22}^{j\leftarrow i} \right)^{l_2} 
+A_{\tilde{\gamma}\gamma}^{(kq)}  = & \sum_{\lambda_1 \lambda_2 l_1 l_2} 
+\left(T_{11}^{(kq)} \right)^{\lambda_1} 
+\left(T_{12}^{(kq)} \right)^{\lambda_2} 
+\left(T_{21}^{(kq)} \right)^{l_1} 
+\left(T_{22}^{(kq)} \right)^{l_2} 
 \times 
 \\
-& \sqrt{\frac{[\lambda]! [l]! [\lambda] [l] [\lambda_1] [l_1] [\lambda_2] [l_2] [\tilde{\lambda}] [\tilde{l}]}{[\lambda_1]! [l_1]! [\lambda_2]! [l_2]!}}  
-  \begin{pmatrix}
- \lambda_1 & \lambda_2 & \lambda \\ 
- 0 & 0 & 0
- \end{pmatrix} 
-  \begin{pmatrix}
- l_1 & l_2 & l \\ 
- 0 & 0 & 0
- \end{pmatrix} 
- \begin{pmatrix}
- \lambda_1 & \lambda_2 & \lambda \\ 
- l_1 & l_2 & l \\
- \tilde{\lambda} & \tilde{l} & L
- \end{pmatrix},  \nonumber 
+& \times {E}^{\lambda_1 \lambda_2 \lambda l_1 l_2 l L}_{\tilde{\lambda} \tilde{l} } \mathcal{D}(\lambda,\lambda_1,\lambda_2) \mathcal{D}(l,l_1,l_2).   \nonumber 
 \end{align}
-where $ \left [x \right] = 2x + 1 $, matrices with dimensions $ 2 \times3 $ and $ 3 \times3 $ are $ 3j $ and $ 9j $ Wigner coefficients, respectively, and the elements of the matrix $ \Omega^{j \leftarrow i}_{nm} $ are defined as follows
 
-\begin{equation*}
- \Omega^{j \leftarrow i} = \frac{1}{\sqrt{\left( m_j + m_k \right)\left( m_i + m_k \right)}}
- \begin{pmatrix}
- -\sqrt{m_i m_j} & -\sqrt{m_k M} \\
- \sqrt{m_k M}  &  \sqrt{m_i m_j}
- \end{pmatrix}
- \end{equation*}
-  here the value $ M = m_i + m_j + m_k $.
+\subsection{Overlap matrix elements}
+Within the $\left(k, pq \right)$ scheme an overlap matrix element, in particular for the spacial part $ \phi_{i}^{\gamma}\left(k, pq \right)$ of the basis function, is expressed by
+\begin{align}
+\mathcal{I}(\gamma,i,j)=& \int \int d{\bf x}_k d{\bf y}_k ~\phi_{i}^{\gamma}\left(k, pq \right) \left( \phi_{j}^{\gamma^{\prime}}\left(k, pq \right) \right)^{*} \nonumber \\
+= & C_i C_j \frac{\Gamma(\frac{3}{2}+\lambda)\Gamma(\frac{3}{2}+l)}{4 (\alpha_i+\alpha_j)^{\frac{3}{2}+\lambda}(\beta_i+\beta_j)^{\frac{3}{2}+l}} \delta_{\gamma \gamma^{\prime}}.
+\end{align}
+
+However, to calculate overlap matrix elements for arbitrary basis functions, one must handle with the scalar product $exp\left(- \rho {\bf x} \cdot {\bf y} \right)$ in  Eq.~(\ref{newBasis}), in which radial and angular parts are mixed. It makes a problem in integration procedure, consequently, mathematical techniques must be applied. There are two tricks to solve this problem:  first, the solution of problem is in expansion of  the exponential function into the partial waves; another one, in projection of the factor of scalar product into the rotation matrix. Both approach give the same results in calculation of the matrix elements.
+\subsubsection{By means of the  exponential function expansion}
+The expansion of exponential function is given by 
+\begin{equation}
+exp(-\rho {\bf x} \cdot {\bf y}) = 4 \pi \sum_{\kappa} \sqrt{2\kappa+1} 
+\epsilon(\kappa, \rho)i_{\kappa}(|\rho|xy)Y_{00}^{(\kappa\kappa)}(\hat{{\bf x}},\hat{{\bf y}})
+\end{equation} 
+where $i_{\kappa}(x) $ -- modified spherical Bessel function of the first kind, $\epsilon(\kappa, \rho)=(-1)^{\kappa}$ for $\rho \le 0$, otherwise it equals to $1$.
+Once radial part is separated, defining an integral
+\begin{equation}
+\int_0^\infty \int_0^\infty  dx dy~ x^{2\lambda+\kappa+2}y^{2 l +\kappa+2} exp\left( -\alpha x^2 - \beta y^2 \right) i_{\kappa}(|\rho|xy),
+\end{equation}
+one can get its analytical form
+\begin{align}
+\mathcal{I}(\lambda, l, n, \alpha, \beta, |\rho|) =& \sqrt{\frac{\pi}{8}}(2l)!!~ \Gamma(l+n+\tfrac{3}{2})~|\rho|^{n} ~\beta^{-l-n-\tfrac{3}{2}} \times \nonumber \\
+& \times \sum_{\kappa=0}^{l} \frac{\Gamma(\kappa+\lambda+n+\tfrac{3}{2})}{\kappa! (l-\kappa)! \Gamma(\kappa+n+\tfrac{3}{2})}
+\left(\frac{\rho^2}{2\beta}\right)^{\kappa} \left( \frac{\alpha}{2} - \frac{\rho^2}{2\beta}  \right)^{-\kappa-\lambda-n-\tfrac{3}{2}}.
+\end{align}
+The angular part is integrated all over angular variables, then,  it can be expressed analytically in the following way
+\begin{equation}
+\int \int d\hat{\bf x}~d\hat{\bf y}~ Y_{00}^{(\kappa\kappa)}(\hat{{\bf x}},\hat{{\bf y}})  Y_{LM_L}^{(\lambda^{\prime} l^{\prime})}(\hat{{\bf x}},\hat{{\bf y}}) \left(  Y_{LM_L}^{(\lambda l)}(\hat{{\bf x}},\hat{{\bf y}}) \right)^{*} = {E}^{\kappa \kappa 0 \lambda^{\prime} l^{\prime} L L}_{\lambda l}.
+\end{equation}
 
 
-\subsection*{Overlap matrix elements}
+
+
+
+
+
+
+
+
+
+
+
+\section*{Results and discussions}
+
+The calculation of the three-body wave function was carried out within the framework of the variational method for solving the Hill-Wheeler integral equations obtained on the basis of the three-dimensional Schrodinger equation for a three-part nuclear system, which is described in detail in \ cite {kukulin1984detailed}.
+The numerical values of the coefficients were calculated by us earlier and for the ground state of the $^9$Be nucleus are given in the work \ cite {voronchev1994analysis}.
+
+
+
 
 
 
@@ -262,6 +359,21 @@ H&   q &  $\alpha_q$&   $\chi^{2}/d.o.f.$  & Confidence level of fittings\\ \hli
 1 	&2 &0.59 $\pm$  0 .01  &0.74 & 76.62 \% \\ \hline\noalign{\smallskip}
 \end{tabular}\\[0.3cm]
 \end{flushleft}
+
+
+\begin{longtable}[]{@{}lll@{}}
+\hline
+Construct & Benefits & Drawbacks\tabularnewline
+\hline
+\endhead
+Option & Straightforward & Don't get error reason\tabularnewline
+Try & Returns error reason & Requires exception\tabularnewline
+Or & Returns error reason & Third-party library\tabularnewline
+Either & Returns error reason & Works by convention\tabularnewline
+\hline
+\caption{The pros and cons of Scala's optional classes}
+\label{table:prosConsOptionalApproaches}
+\end{longtable}
 
 \subsection*{Example of text style and formula design in the text}
 
