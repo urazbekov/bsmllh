@@ -301,9 +301,10 @@ A_{\tilde{\gamma}\gamma}\left( {\bf T}^{(kq)} \right) = & \sum_{\lambda_1 \lambd
 \left({\bf T}_{12}^{(kq)} \right)^{\lambda_2} 
 \left({\bf T}_{21}^{(kq)} \right)^{l_1} 
 \left({\bf T}_{22}^{(kq)} \right)^{l_2} 
-\times 
+\times \nonumber
 \\
-& \times {E}^{\lambda_1 \lambda_2 \lambda l_1 l_2 l L}_{\tilde{\lambda} \tilde{l} } \mathcal{D}(\lambda,\lambda_1,\lambda_2) \mathcal{D}(l,l_1,l_2).   \nonumber 
+& \times {E}^{\lambda_1 \lambda_2 \lambda l_1 l_2 l L}_{\tilde{\lambda} \tilde{l} } \mathcal{D}(\lambda,\lambda_1,\lambda_2) \mathcal{D}(l,l_1,l_2).    
+\label{trans_coef}
 \end{align}
 
 \subsection{Overlap matrix elements}
@@ -497,13 +498,44 @@ $W_{\gamma}\left(x_k,y_k\right)$
 
 \section*{Results and discussions}
 
-The calculation of the three-body wave function has been carried out within the framework of the variational method, solving the Hill-Wheeler integral equations using the three-dimensional Schrodinger equation for a three particle nuclear system.
-The numerical values of the coefficients $C_i,~\alpha^{(k)}_i$ and $\beta^{(k)}_i$ for the ground state of the $^9$Be nucleus were taken taken  from [Kukulin].
+The numerical values of the coefficients $C_i,~\alpha^{(k)}_i$ and $\beta^{(k)}_i$ for the ground state of the $^9$Be nucleus have been taken  from [Kukulin].
+In this work, calculation of the three-body wave function has been carried out within the framework of the variational method, solving the Hill-Wheeler integral equations using the three-dimensional Schrodinger equation for the three particle nuclear system.
+The $\alpha\alpha$-interaction is the deep attractive potential with the Pauli-forbidden states, parametrized in the Gaussian function form. The $\alpha n$-potential is also attractive with the Pauli projection only for  $S$-state, and it has different deep depending on parity of $l$-momentum. 
+
 
 The $\mathcal{N}_{\gamma}^{(k)}$ normalization of the total wave function for each $\gamma$'s are listed in Tab.~\ref{table:atable}.
 It has no physical reasons to calculate the normalization $\mathcal{N}^{(q)}$ in the $(q,kp)$ scheme. However, for verification of expressed above equations it would be useful to show their correctness. For this purpose the $\mathcal{N}_{\gamma \gamma^{\prime}}^{(q)}$ normalization was calculated with the condition $\delta_{\gamma \gamma^{\prime}}$. The calculated results for the $\mathcal{N}_{\gamma \gamma}^{(q)}$ are listed in Tab.~\ref{table:atable}. Comparison of the $\mathcal{N}_{\gamma}^{(k)}$ with $\mathcal{N}_{\gamma \gamma}^{(q)}$, calculated for overlap matrix elements by means of the both approaches  shown in the Sec.~\ref{overlap_by_exp}  and \ref{overlap_by_proj}, is showing   the same values as in Ref. [Kukulin]. That means correctness of all above deduced equations.
 
-New basis functions summed over all the new $\tilde{\lambda}$ and $\tilde{l}$ orbital moments with the condition $\lambda + l = \tilde{\lambda} +\tilde{l} $. It is valid only in case of $L > \lambda + l$. However, during the calculations it was revealed, that in the $L < \lambda + l$  case, the condition $\lambda + l = \tilde{\lambda} +\tilde{l} $ does not perform equality in Eq.~(\ref{transformbasisfunction}). For example, lets take the  $\phi_{i}^{\gamma}\left(k, pq \right)$ basis function with $\gamma_2 \equiv 211$ ( $\lambda=2,~l=1,$ and $L=1$). Transforming it into the $\phi_{i}^{\tilde{\gamma}}\left(q, kp \right)$ new basis function, the new basis function is summed not only over the $\tilde{\gamma}\equiv$ 211 or 211, it must be also summed over 011, 101 quantum numbers. By following this, it is turned out the $\lambda + l \neq \tilde{\lambda} +\tilde{l} $ rule, and, then, the  Eq.~(\ref{transformbasisfunction}) turns to right equality.
+New basis functions are summed over all the new $\tilde{\lambda}$ and $\tilde{l}$ orbital moments with the condition $\lambda + l = \tilde{\lambda} +\tilde{l} $. It is valid only in case of $L > \lambda + l$. However, during the calculations it was revealed, that in the $L < \lambda + l$  case, the condition $\lambda + l = \tilde{\lambda} +\tilde{l} $ does not perform equality in Eq.~(\ref{transformbasisfunction}). For example, lets take the  $\phi_{i}^{\gamma}\left(k, pq \right)$ basis function with $\gamma_2 \equiv 211$ ( $\lambda=2,~l=1,$ and $L=1$). Transforming it into the $\phi_{i}^{\tilde{\gamma}}\left(q, kp \right)$ new basis function, the new basis function is summed not only over the $\tilde{\gamma}\equiv$ 211 or 211, it must be also summed over 011, 101 quantum numbers. 
+%By following this, it is turned out the $\lambda + l \neq \tilde{\lambda} +\tilde{l} $ rule.
+Moreover,  in case of $\lambda+l > L$  the $x_{q}^{\tilde{\lambda}} y_{q}^{\tilde{l}}$ factor  must be putted away from Eq.~(\ref{newBasis}) and placed in Eq.~(\ref{trans_coef}). The transformation coefficient now depends on $x_q$ and $y_q$ as
+\begin{align*}
+A_{\tilde{\gamma}\gamma}\left( {\bf T}^{(kq)} \right) = & \sum_{\lambda_1 \lambda_2 l_1 l_2} 
+x_{q}^{\lambda_1+l_1} y_{q}^{\lambda_2+l_2}
+\left({\bf T}_{11}^{(kq)} \right)^{\lambda_1} 
+\left({\bf T}_{12}^{(kq)} \right)^{\lambda_2} 
+\left({\bf T}_{21}^{(kq)} \right)^{l_1} 
+\left({\bf T}_{22}^{(kq)} \right)^{l_2} 
+\times 
+\\
+& \times {E}^{\lambda_1 \lambda_2 \lambda l_1 l_2 l L}_{\tilde{\lambda} \tilde{l} } \mathcal{D}(\lambda,\lambda_1,\lambda_2) \mathcal{D}(l,l_1,l_2).   \nonumber 
+\end{align*}
+After these little changes the  Eq.~(\ref{transformbasisfunction}) turns to right equality.
+
+\begin{figure}
+\center
+\includegraphics[scale=0.8]{counter_plot}
+\caption{The counter plot of the correlation density function $W_{}(x_k,y_k)$.}
+\label{countour_plot}
+\end{figure}
+
+
+
+The correlation density functions $W_{\gamma}(x_k,y_k)$  for each $\gamma$ are plotted and presented in Tab.~\ref{table:atable}. In each partial correlation density exact peaks are seen. The reason of this is in the nature of $\alpha \alpha$ and $\alpha n$ interactions. They keep the Pauli principle. The case, when the both potentials implement the Pauli projector, is $\gamma_1\equiv011$, which has three peaks. It was mentioned above, that $\alpha n$-potential has fordidden $S$-state. In the other cases, for $\lambda+l=3$ and $\lambda+l=5$, only the $\alpha \alpha$  interaction keeps the Pauli principle -- there are only two peaks.
+
+It is interesting to demonstrate a contour plot of the correlation density function $W(x_k,y_k)$  in Fig.\ref{countour_plot}. Three different structural configurations are mainly manifested with the $(x_k,~y_k)$ coordinate positions: $(0.5, ~2.0)$, $(1.2, ~2.0)$ and $(3.0,~ 2.0)$. It worth to draw attention, that all three configuration are in the same $y_k$ coordinate. The first configuration is due to the nature of the $\alpha n$-potential. Such kind of structure of the ground state of the $^9$Be nucleus has significant importance in the transfer reaction calculation.
+
+
 
 
 
