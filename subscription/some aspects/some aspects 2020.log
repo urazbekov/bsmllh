@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  5 SEP 2020 18:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  7 SEP 2020 18:24
 entering extended mode
 **"./some aspects 2020.tex"
 ("some aspects 2020.tex"
@@ -191,6 +191,27 @@ Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
+(C:\Users\urazbekov\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.s
+ty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen149
+\lightrulewidth=\dimen150
+\cmidrulewidth=\dimen151
+\belowrulesep=\dimen152
+\belowbottomsep=\dimen153
+\aboverulesep=\dimen154
+\abovetopsep=\dimen155
+\cmidrulesep=\dimen156
+\cmidrulekern=\dimen157
+\defaultaddspace=\dimen158
+\@cmidla=\count191
+\@cmidlb=\count192
+\@aboverulesep=\dimen159
+\@belowrulesep=\dimen160
+\@thisruleclass=\count193
+\@lastruleclass=\count194
+\@thisrulewidth=\dimen161
+)
 (C:\Users\urazbekov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.s
 ty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
@@ -223,23 +244,23 @@ Package: caption 2020/05/30 v3.4k Customizing captions (AR)
 y
 Package: caption3 2020/07/20 v1.12b caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen149
-\captionmargin@=\dimen150
-\captionwidth=\dimen151
-\caption@tempdima=\dimen152
-\caption@indent=\dimen153
-\caption@parindent=\dimen154
-\caption@hangindent=\dimen155
+\captionmargin=\dimen162
+\captionmargin@=\dimen163
+\captionwidth=\dimen164
+\caption@tempdima=\dimen165
+\caption@indent=\dimen166
+\caption@parindent=\dimen167
+\caption@hangindent=\dimen168
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count191
-\c@continuedfloat=\count192
+\c@caption@flags=\count195
+\c@continuedfloat=\count196
 )
 (C:\Users\urazbekov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.s
 ty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen156
-\Gin@req@width=\dimen157
+\Gin@req@height=\dimen169
+\Gin@req@width=\dimen170
 )
 (C:\Users\urazbekov\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.s
 ty
@@ -247,7 +268,7 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
  (C:\Users\urazbekov\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count193
+\c@r@tfl@t=\count197
 \rotFPtop=\skip56
 \rotFPbot=\skip57
 \rot@float@box=\box47
@@ -259,25 +280,25 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTright=\skip59
 \LTpre=\skip60
 \LTpost=\skip61
-\LTchunksize=\count194
-\LTcapwidth=\dimen158
+\LTchunksize=\count198
+\LTcapwidth=\dimen171
 \LT@head=\box48
 \LT@firsthead=\box49
 \LT@foot=\box50
 \LT@lastfoot=\box51
-\LT@cols=\count195
-\LT@rows=\count196
-\c@LT@tables=\count197
-\c@LT@chunks=\count198
+\LT@cols=\count199
+\LT@rows=\count266
+\c@LT@tables=\count267
+\c@LT@chunks=\count268
 \LT@p@ftn=\toks26
 )
 (C:\Users\urazbekov\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.s
 ty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip62
-\multirow@cntb=\count199
+\multirow@cntb=\count269
 \multirow@dima=\skip63
-\bigstrutjot=\dimen159
+\bigstrutjot=\dimen172
 )
 (C:\Users\urazbekov\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.s
 ty
@@ -289,17 +310,17 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (C:\Users\urazbekov\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count266
-\Gm@cntv=\count267
-\c@Gm@tempcnt=\count268
-\Gm@bindingoffset=\dimen160
-\Gm@wd@mp=\dimen161
-\Gm@odd@mp=\dimen162
-\Gm@even@mp=\dimen163
-\Gm@layoutwidth=\dimen164
-\Gm@layoutheight=\dimen165
-\Gm@layouthoffset=\dimen166
-\Gm@layoutvoffset=\dimen167
+\Gm@cnth=\count270
+\Gm@cntv=\count271
+\c@Gm@tempcnt=\count272
+\Gm@bindingoffset=\dimen173
+\Gm@wd@mp=\dimen174
+\Gm@odd@mp=\dimen175
+\Gm@even@mp=\dimen176
+\Gm@layoutwidth=\dimen177
+\Gm@layoutheight=\dimen178
+\Gm@layouthoffset=\dimen179
+\Gm@layoutvoffset=\dimen180
 \Gm@dimlist=\toks27
 
 (C:\Users\urazbekov\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.c
@@ -321,7 +342,7 @@ s
 (C:\Users\urazbekov\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
 -pdfmode.def
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count269
+\l__kernel_color_stack_int=\count273
 \l__pdf_internal_box=\box52
 ) ("some aspects 2020.aux")
 \openout1 = `"some aspects 2020.aux"'.
@@ -365,16 +386,16 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 (C:\Users\urazbekov\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pd
 f.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count270
-\scratchdimen=\dimen168
+\scratchcounter=\count274
+\scratchdimen=\dimen181
 \scratchbox=\box53
-\nofMPsegments=\count271
-\nofMParguments=\count272
+\nofMPsegments=\count275
+\nofMParguments=\count276
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count273
-\MPscratchDim=\dimen169
-\MPnumerator=\count274
-\makeMPintoPDFobject=\count275
+\MPscratchCnt=\count277
+\MPscratchDim=\dimen182
+\MPnumerator=\count278
+\makeMPintoPDFobject=\count279
 \everyMPtoPDFconversion=\toks29
 )
 (C:\Users\urazbekov\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstop
@@ -532,76 +553,203 @@ LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 217.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 217.
- [4 <./pic1.jpg>] [5] [6]
-Overfull \hbox (8.89465pt too wide) in paragraph at lines 381--381
+ [4 <./pic1.jpg>] [5] [6] [7]
+Overfull \hbox (8.89465pt too wide) in paragraph at lines 422--422
 []\T1/pplx/b/n/14.4 Normalization and cor-re-la-tion den-sity of the three-body
  wave
  []
 
-
-Underfull \vbox (badness 1521) has occurred while \output is active []
-
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 436--438
-
- []
-
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 444--444
-[]\T1/pplx/m/n/12 (+20) Confidence
- []
 
-[9]
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 464.
+
 Package epstopdf Info: Source file: <W1_1.eps>
-(epstopdf)                    date: 2020-08-18 10:44:41
-(epstopdf)                    size: 252451 bytes
+(epstopdf)                    date: 2020-09-07 16:03:55
+(epstopdf)                    size: 255336 bytes
 (epstopdf)             Output file: <W1_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-18 10:56:16
-(epstopdf)                    size: 177042 bytes
+(epstopdf)                    date: 2020-09-07 16:07:21
+(epstopdf)                    size: 196353 bytes
 (epstopdf)             Command: <epstopdf --outfile=W1_1-eps-converted-to.pdf W
 1_1.eps>
-(epstopdf)             \includegraphics on input line 490.
+(epstopdf)             \includegraphics on input line 473.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./W1_1-eps-converted-to.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<W1_1-eps-converted-to.pdf, id=39, 145.54375pt x 216.81pt>
+<W1_1-eps-converted-to.pdf, id=36, 155.58125pt x 216.81pt>
 File: W1_1-eps-converted-to.pdf Graphic file (type pdf)
 <use W1_1-eps-converted-to.pdf>
-Package pdftex.def Info: W1_1-eps-converted-to.pdf  used on input line 490.
-(pdftex.def)             Requested size: 116.43513pt x 173.44823pt.
-[10 <./W1_1-eps-converted-to.pdf>]
-Overfull \hbox (2.66286pt too wide) in paragraph at lines 514--516
+Package pdftex.def Info: W1_1-eps-converted-to.pdf  used on input line 473.
+(pdftex.def)             Requested size: 77.79042pt x 108.40472pt.
+Package epstopdf Info: Source file: <W1_2.eps>
+(epstopdf)                    date: 2020-09-07 16:03:56
+(epstopdf)                    size: 228871 bytes
+(epstopdf)             Output file: <W1_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-07 16:09:21
+(epstopdf)                    size: 192010 bytes
+(epstopdf)             Command: <epstopdf --outfile=W1_2-eps-converted-to.pdf W
+1_2.eps>
+(epstopdf)             \includegraphics on input line 474.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./W1_2-eps-converted-to.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<W1_2-eps-converted-to.pdf, id=37, 155.58125pt x 216.81pt>
+File: W1_2-eps-converted-to.pdf Graphic file (type pdf)
+<use W1_2-eps-converted-to.pdf>
+Package pdftex.def Info: W1_2-eps-converted-to.pdf  used on input line 474.
+(pdftex.def)             Requested size: 77.79042pt x 108.40472pt.
+Package epstopdf Info: Source file: <W1_3.eps>
+(epstopdf)                    date: 2020-09-07 16:03:57
+(epstopdf)                    size: 226842 bytes
+(epstopdf)             Output file: <W1_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-07 16:09:23
+(epstopdf)                    size: 192103 bytes
+(epstopdf)             Command: <epstopdf --outfile=W1_3-eps-converted-to.pdf W
+1_3.eps>
+(epstopdf)             \includegraphics on input line 475.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./W1_3-eps-converted-to.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<W1_3-eps-converted-to.pdf, id=38, 155.58125pt x 216.81pt>
+File: W1_3-eps-converted-to.pdf Graphic file (type pdf)
+<use W1_3-eps-converted-to.pdf>
+Package pdftex.def Info: W1_3-eps-converted-to.pdf  used on input line 475.
+(pdftex.def)             Requested size: 77.79042pt x 108.40472pt.
+Package epstopdf Info: Source file: <W1_4.eps>
+(epstopdf)                    date: 2020-09-07 16:03:58
+(epstopdf)                    size: 219784 bytes
+(epstopdf)             Output file: <W1_4-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-07 16:09:25
+(epstopdf)                    size: 193803 bytes
+(epstopdf)             Command: <epstopdf --outfile=W1_4-eps-converted-to.pdf W
+1_4.eps>
+(epstopdf)             \includegraphics on input line 476.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./W1_4-eps-converted-to.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<W1_4-eps-converted-to.pdf, id=39, 164.615pt x 216.81pt>
+File: W1_4-eps-converted-to.pdf Graphic file (type pdf)
+<use W1_4-eps-converted-to.pdf>
+Package pdftex.def Info: W1_4-eps-converted-to.pdf  used on input line 476.
+(pdftex.def)             Requested size: 82.3073pt x 108.40472pt.
+Package epstopdf Info: Source file: <W1_5.eps>
+(epstopdf)                    date: 2020-09-07 16:03:59
+(epstopdf)                    size: 225751 bytes
+(epstopdf)             Output file: <W1_5-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-07 16:09:27
+(epstopdf)                    size: 197575 bytes
+(epstopdf)             Command: <epstopdf --outfile=W1_5-eps-converted-to.pdf W
+1_5.eps>
+(epstopdf)             \includegraphics on input line 483.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./W1_5-eps-converted-to.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<W1_5-eps-converted-to.pdf, id=40, 164.615pt x 216.81pt>
+File: W1_5-eps-converted-to.pdf Graphic file (type pdf)
+<use W1_5-eps-converted-to.pdf>
+Package pdftex.def Info: W1_5-eps-converted-to.pdf  used on input line 483.
+(pdftex.def)             Requested size: 82.3073pt x 108.40472pt.
+Package epstopdf Info: Source file: <W1_6.eps>
+(epstopdf)                    date: 2020-09-07 16:04:00
+(epstopdf)                    size: 176260 bytes
+(epstopdf)             Output file: <W1_6-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-07 16:09:29
+(epstopdf)                    size: 189923 bytes
+(epstopdf)             Command: <epstopdf --outfile=W1_6-eps-converted-to.pdf W
+1_6.eps>
+(epstopdf)             \includegraphics on input line 484.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./W1_6-eps-converted-to.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<W1_6-eps-converted-to.pdf, id=41, 164.615pt x 216.81pt>
+File: W1_6-eps-converted-to.pdf Graphic file (type pdf)
+<use W1_6-eps-converted-to.pdf>
+Package pdftex.def Info: W1_6-eps-converted-to.pdf  used on input line 484.
+(pdftex.def)             Requested size: 82.3073pt x 108.40472pt.
+Package epstopdf Info: Source file: <W1_7.eps>
+(epstopdf)                    date: 2020-09-07 16:04:01
+(epstopdf)                    size: 172625 bytes
+(epstopdf)             Output file: <W1_7-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-07 16:09:31
+(epstopdf)                    size: 197079 bytes
+(epstopdf)             Command: <epstopdf --outfile=W1_7-eps-converted-to.pdf W
+1_7.eps>
+(epstopdf)             \includegraphics on input line 485.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./W1_7-eps-converted-to.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<W1_7-eps-converted-to.pdf, id=42, 165.61874pt x 216.81pt>
+File: W1_7-eps-converted-to.pdf Graphic file (type pdf)
+<use W1_7-eps-converted-to.pdf>
+Package pdftex.def Info: W1_7-eps-converted-to.pdf  used on input line 485.
+(pdftex.def)             Requested size: 82.80916pt x 108.40472pt.
+Package epstopdf Info: Source file: <W1_all.eps>
+(epstopdf)                    date: 2020-09-07 16:28:58
+(epstopdf)                    size: 235509 bytes
+(epstopdf)             Output file: <W1_all-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-07 16:29:11
+(epstopdf)                    size: 191360 bytes
+(epstopdf)             Command: <epstopdf --outfile=W1_all-eps-converted-to.pdf
+ W1_all.eps>
+(epstopdf)             \includegraphics on input line 486.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./W1_all-eps-converted-to.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.5> allowed
+<W1_all-eps-converted-to.pdf, id=43, 155.58125pt x 216.81pt>
+File: W1_all-eps-converted-to.pdf Graphic file (type pdf)
+<use W1_all-eps-converted-to.pdf>
+Package pdftex.def Info: W1_all-eps-converted-to.pdf  used on input line 486.
+(pdftex.def)             Requested size: 77.79042pt x 108.40472pt.
+[9 <./W1_1-eps-converted-to.pdf> <./W1_2-eps-converted-to.pdf> <./W1_3-eps-conv
+erted-to.pdf> <./W1_4-eps-converted-to.pdf> <./W1_5-eps-converted-to.pdf> <./W1
+_6-eps-converted-to.pdf> <./W1_7-eps-converted-to.pdf> <./W1_all-eps-converted-
+to.pdf>]
+Overfull \hbox (2.66286pt too wide) in paragraph at lines 525--527
 []\T1/pplx/b/n/12 For ar-ti-cles from jour-nals: \T1/pplx/m/n/12 (-20) Au-thor,
  Jour-nal \T1/pplx/b/n/12 Vol-ume \T1/pplx/m/n/12 (-20) (year) page num-bers.(D
 OI)
  []
 
-[11] ("some aspects 2020.aux") ) 
+[10] [11] ("some aspects 2020.aux") ) 
 Here is how much of TeX's memory you used:
- 7542 strings out of 480790
- 116645 string characters out of 2895425
- 397481 words of memory out of 3000000
- 23203 multiletter control sequences out of 15000+200000
- 609925 words of font info for 284 fonts, out of 3000000 for 9000
+ 7676 strings out of 480790
+ 118805 string characters out of 2895425
+ 400212 words of memory out of 3000000
+ 23317 multiletter control sequences out of 15000+200000
+ 610865 words of font info for 299 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,14n,47p,725b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/urazbekov/AppData/Local/Programs/MiKT
-eX/fonts/enc/dvips/base/8r.enc}<C:/Users/urazbekov/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/urazbekov/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/urazbekov/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
-urazbekov/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><
-C:/Users/urazbekov/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fp
-lmri.pfb><C:/Users/urazbekov/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/symbols/msbm10.pfb><C:/Users/urazbekov/AppData/Local/Programs/MiKTeX/fo
+ 39i,14n,45p,1009b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/urazbekov/AppData/Local/Programs
+/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/urazbekov/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/urazbekov/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/urazbek
+ov/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
+sers/urazbekov/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y10.pfb><C:/Users/urazbekov/AppData/Local/Programs/MiKTeX/fonts/type1/public/ma
+thpazo/fplmr.pfb><C:/Users/urazbekov/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/mathpazo/fplmri.pfb><C:/Users/urazbekov/AppData/Local/Programs/MiKTeX/fo
 nts/type1/urw/palatino/uplb8a.pfb><C:/Users/urazbekov/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/urazbekov/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "some aspects 2020.pdf" (11 pages, 1106079 bytes).
+Output written on "some aspects 2020.pdf" (11 pages, 2469962 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 108 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46603 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 45614 words of extra memory for PDF output out of 51595 (max. 10000000)
 
