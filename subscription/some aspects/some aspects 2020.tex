@@ -82,7 +82,7 @@ Received: **.**.**** - after revision}
 
 \begin{sciabstract}%your abstract text and keywords
 
-The three-body wave function built on the basis of the Gaussian function, calculated using the three-body Hamiltonian with the Pauli blocking operator is studied. Analytical expressions are presented for the matrix elements of the overlap of the basis functions for both basic and alternative set of relative Jacobi coordinates. The correlation densities of the wave function are calculated and illustrated depending on the set of orbital numbers also for the both sets of Jacobi coordinates.
+The three-body wave function built on the basis of the Gaussian function, calculated using the three-body Hamiltonian with the Pauli blocking operator is studied. As an example, the wave function of the ground state of the $^9$Be was taken. Analytical expressions are presented for the overlap matrix elements of the basis function for both basic and alternative set of relative Jacobi coordinates. The correlation densities of the wave function are calculated and illustrated depending on the set of orbital quantum numbers.
 
 
 {\textbf{Keywords:} the three-body problem, Gaussian basis, relative Jacobi coordinates}
@@ -91,19 +91,22 @@ The three-body wave function built on the basis of the Gaussian function, calcul
 
 \section*{Introduction}
 
-N years have passed since the skin, halo effects of such exotic nuclei were shown by Tanihata. These discoveries have allowed the existing science to look from a new perspective at the interactions of nucleons in atomic nuclei, and challenged already known theoretical methods. It is difficult to say that there is a unified model describing all the observable characteristics of the exotic nuclei. Nevertheless, it is possible to single out a theoretical method that describe a sufficient number of the observable properties of the being explored nuclei.
+The three decades have passed since the significant large root mean square radii of the  $^6$He,$^6$Li,$^8$He, $^8$Li, $^9$Li, $^9$Be 
+ exotic nuclei were revealed by Tanihata I. and co-workers \cite{tanihata1985measurements}. Moreover, the nucleus $^{11}$Li showed a remarkably large radius suggesting a large deformation or a long tail in the matter distribution. These discoveries have allowed the existing science to look from a new perspective at the interaction of nucleons in atomic nuclei, and challenged already known theoretical methods. It is difficult to say, that there is a unified model describing all the observable characteristics of the exotic nuclei. Nevertheless, it is possible to single out a theoretical method that describe a sufficient number of observable properties of the being explored nuclei.
 
+The essence of the Gaussian Expansion Method is in the expansion of the total wave function in terms of the Gaussian basis function. The solution of the Schr\"{o}dinger equation for the few body problem is consisted in finding the factor, i.e. weight, of the matrix elements of the Hamiltonian calculated with the Gaussian functions, and, in varying the parameters of the arguments of the exponential function. It is interesting to note that this method is applicable for problems of $N=2-7$ bodies \cite{varga1995precise}. The method has the advantage of expressing matrix elements in the analytical form, which one makes possible to do calculations quite quickly on ordinary desktop computers.
+It should also be noted that in this method the parameters of the wave function are varied in order to obtain the minimum eigenvalue of the Hamiltonian matrix. Therefore, the approach is also called as Stochastic Variational Method (SVM).
 
-It is Gaussian Expansion Method. The essence is in the expansion of the total wave function in terms of the Gaussian basis function. The solution of the Schroedinger equation for the few body problem is reduced to finding the factor, i.e. weight, of the matrix elements of the Hamiltonian calculated through the exponential functions, to set the parameters of the arguments of the exponential function. It is interesting to note that this method is easily applicable for problems of two bodies, three bodies and four bodies. The method has the advantage of expressing matrix elements in the analytical form, which one makes possible to do calculations quite quickly on ordinary desktop computers.
+In the framework of this method a multicluster model \cite{varga1994microscopic} for halo nuclei were tested giving a unified description for the ground states of $^6$He and $^8$He in a model comprising an $\alpha$-cluster and single-neutron clusters. The $^6$He and $^8$He energies are reproduced by the same effective force very well, and the matter radii obtained are similar to those of other sophisticated calculations.
 
-It should also be noted that in this method the parameters of the wave function are varied in order to obtain the minimum eigenvalue of the Hamiltonian matrix. Therefore, the approach is also called as Stochastic Variational Method.
+By means of the SVM a model for three composite particles were successfully applied to study the ground state of the $^6$Li nucleus making allowance for the Pauli principle \cite{kukulin1984detailed, kukulin1986detailed}. The model has been shown to permit a simultaneous description of the following observables of the $^6$Li ground state: the binding energy, the rms charge radius, the $\alpha$d spectroscopic factor, the asymptotic constant of the $\alpha$d channel, the charge form factor, the magnetic elastic form factor, the spectrum of the low-lying states,  the cigar shaped geometrical configuration, etc.
 
-Due to the limited number of existing materials on this topic for practical application, the purpose of this work is to make the formulas for variational calculations accessible and open. In the first section, some vector re-coupling problems in quantum mechanics are given, an expression for the total three-particle wave function and details of the transformation of the basis function from one set to other sets of Jacobi coordinates are given. Then, the second section deduces analytical expressions for the overlap matrix elements, which can further be applied to the matrix elements of other quantum operators. The main conclusions are made in the conclusion section.
+Due to the limited number of existing materials on this topic for practical application, the purpose of this work is to make the formulae for variational calculations accessible and open. The books in Ref. \cite{suzuki1998stochastic, varshalovich1988quantum, kukulin1990dynamic} have been mainly used to deduce equations. The obtained expressions are tested on the example of the $^9$Be nucleus. In the first section, some vector re-coupling problems in quantum mechanics are given, an expression for the total three-body wave function and details of the transformation of the basis function from one set to other sets of Jacobi coordinates are given and analytical expressions for the overlap matrix elements, which can further be applied to the matrix elements of other quantum operators, are deduced. Results and discussions are given in the second section. The main conclusions are made in the last section.
 
-\section{Theoretical model}
+\section{Stochastic Variational Method}
 
 \subsection{Some aspects from the quantum theory of angular momenta}
-A total angular momentum $\mathbf{j}$ are decomposed into two angular momenta $\mathbf{j}_1$ and $\mathbf{j}_2$ by means of the Clebsch-Gordan coefficient. For example, to quote a basis $\vert ~ jm \rangle $ with the angular momentum $\bf j$ with its $z$-component $m$, the Clebsch-Gordan coefficient can be represented as follow
+A total angular momentum $\mathbf{j}$ are decomposed into two angular momenta $\mathbf{j}_1$ and $\mathbf{j}_2$ by means of the Clebsch-Gordan coefficient. For example, to quote a basis $\vert ~ jm \rangle $ with the angular momentum $ j$ with its $z$-component $m$, the Clebsch-Gordan coefficient can be represented as follow
 \begin{equation}
 \label{the_CG_coefficient}
 \vert ~ jm \rangle =\sum_{m_1 m_2} \langle ~ j_1 m_1~j_2 m_2~ \vert ~j m~  \rangle ~ \vert ~j_1 m_1 \rangle~ \vert ~j_2 m_2 \rangle,
@@ -203,7 +206,7 @@ l_{13} & l_{24} & l
 
 \subsection{The three-body wave function}
 
-The three-body wave function with total spin $ J $ and spin projection $ M_J $ is represented as
+As an example, in this work the $2\alpha-n$ three body model of the $^9$Be nucleus is taken. The three-body wave function of the $^9$Be nucleus with total spin $ J $ and spin projection $ M_J $ is represented as
  \begin{equation}
  \Psi^{JM_J}= \sum_{i} C_{i} \psi_{i}^{JM_J} \left( k,pq \right).
  \label{totwf}
@@ -260,6 +263,8 @@ here, particularly for  the $(kq)$ transition, the ${\bf T}^{(kq)}$ matrix is
  \end{pmatrix}
 \end{equation}
 
+There is no need to consider the transformation of spin part of the basis function. The reason is that the $S$ spin of the $2\alpha-n$ three-body system is defined only by the vacant nucleon, and it doesn't depend on the choice of the Jacobi coordinate. That is to say, the coupling of the vacant nucleon spin with the $\alpha-\alpha$ subsystem spin gives again the spin of the nucleon due to the boson statistics of  $\alpha$ particles.  
+
 The transformation of the space part of the wave function from the set $ \left(k, qp \right) $ to the set $ \left(q, kp \right) $ can be expressed in the following way
 
   \begin{equation}
@@ -310,7 +315,8 @@ A_{\tilde{\gamma}\gamma}\left( {\bf T}^{(kq)} \right) = & \sum_{\lambda_1 \lambd
 \subsection{Overlap matrix elements}
 Within the $\left(k, pq \right)$ scheme an overlap matrix element, in particular for the space part $ \phi_{i}^{\gamma}\left(k, pq \right)$ of the basis function, is expressed by
 \begin{equation}
- \int \int d{\bf x}_k d{\bf y}_k ~\phi_{i}^{\gamma}\left(k, pq \right) \left( \phi_{j}^{\gamma^{\prime}}\left(k, pq \right) \right)^{*}.
+\langle \phi_{i}^{\gamma}\left(k, pq \right) \vert 
+\phi_{j}^{\gamma^{\prime}}\left(k, pq \right) \rangle= \int \int d{\bf x}_k d{\bf y}_k ~\phi_{i}^{\gamma}\left(k, pq \right) \left( \phi_{j}^{\gamma^{\prime}}\left(k, pq \right) \right)^{*}.
 \end{equation}
 Following the properties of spherical harmonics the latter six dimensional integral gets $\delta_{\gamma \gamma^{\prime}}$. Then, it  is reduced to analytical expression as  
 \begin{equation}
@@ -325,10 +331,12 @@ with
 
 However, to calculate overlap matrix elements for arbitrary basis functions, for example
 \begin{equation}
+\langle \phi_{i}^{\tilde{\gamma}}\left(q,kp \right) \vert 
+\phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \rangle =
 \int \int d{\bf x}_k d{\bf y}_k ~\phi_{i}^{\tilde{\gamma}}\left(q,kp \right) \left( \phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \right)^{*},
 \label{me_arb}
 \end{equation}
-one must handle with the scalar product $exp\left(- \rho {\bf x} \cdot {\bf y} \right)$ in  Eq.~(\ref{newBasis}), in which radial and angular parts are mixed. It makes a problem in integration procedure, consequently, mathematical techniques must be applied. There are two tricks to solve this problem.  First is the solution of problem is in expansion of  the exponential function into the partial waves. Another one is in projection of the factor of scalar product into the rotation matrix $T$. Both approaches give the same results in calculation of the matrix elements. 
+one must handle with the scalar product $exp\left(- \rho {\bf x} \cdot {\bf y} \right)$ in  Eq.~(\ref{newBasis}), in which radial and angular parts are mixed. It makes a problem in integration procedure, consequently, mathematical techniques must be applied. There are two tricks to solve this problem.  First is the solution of problem is in expansion of  the exponential function into the partial waves. Another one is in projection of the factor of scalar product into the rotation matrix ${\bf T}$. Both approaches give the same results in calculation of the matrix elements. 
 \subsubsection{By means of the  exponential function expansion}
 \label{overlap_by_exp}
 The expansion of exponential function is given by 
@@ -378,7 +386,9 @@ Accordingly, the determinant $\vert {\bf J}^{(kq)} \vert$ is a determinant of th
   
   Lastly, an expression for the overlap matrix element of the $(q,kp)$ coordinate sets ~(\ref{me_arb}) can be determined as follow
 \begin{align}
-\int \int d{\bf x}_k d{\bf y}_k & ~\phi_{i}^{\tilde{\gamma}}\left(q,kp \right) \left( \phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \right)^{*}  = \nonumber 
+\langle \phi_{i}^{\tilde{\gamma}}\left(q,kp \right) & \vert 
+\phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \rangle =
+\int \int d{\bf x}_k d{\bf y}_k  ~\phi_{i}^{\tilde{\gamma}}\left(q,kp \right) \left( \phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \right)^{*}  = \nonumber 
 \\ & = 4 \pi \sum_{\tilde{\gamma}\tilde{\gamma}^{\prime}}  A_{\gamma\tilde{\gamma}}\left( T^{(kq)} \right) A_{\gamma\tilde{\gamma}^{\prime}}\left( T^{(kq)} \right)
  \sum_{\kappa} \sqrt{2\kappa+1}~ \epsilon(\kappa, \rho) {E}^{\kappa \kappa 0 \lambda^{\prime} l^{\prime} L L}_{\lambda l} \times  \nonumber \\
  &\times \mathcal{I}\left(
@@ -411,7 +421,9 @@ Consequently, the radial part of the wave function can be rewritten with no scal
 \end{align}
 One can get easily the expression of the overlap matrix element for the $(q,kp)$ coordinate sets ~(\ref{me_arb}) can be determined as follow
 \begin{align}
-\int \int d{\bf x}_k d{\bf y}_k & ~\phi_{i}^{\tilde{\gamma}}\left(q,kp \right) \left( \phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \right)^{*} =  \nonumber \\
+\langle \phi_{i}^{\tilde{\gamma}}\left(q,kp \right) & \vert 
+\phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \rangle =
+\int \int d{\bf x}_k d{\bf y}_k  ~\phi_{i}^{\tilde{\gamma}}\left(q,kp \right) \left( \phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \right)^{*} =  \nonumber \\
 =& \sum_{\tilde{\gamma}\tilde{\gamma}^{\prime}}  
 A_{\gamma\tilde{\gamma}}\left( {\bf Q}_{ij}^{(kq)} \right)
  A_{\gamma\tilde{\gamma}^{\prime}}\left( {\bf Q}_{ij}^{(kq)} \right) \mathcal{I} \left( \tilde{\lambda}, \tilde{l}, \alpha^{(q)}_{ij}, \left(  \beta^{(q)}_{ij} - \tfrac{\left(\rho^{(q)}_{ij}\right)^2}{\alpha^{(q)}_{ij}} \right) \right) \delta_{\tilde{\gamma}\tilde{\gamma}^{\prime}}.
@@ -498,15 +510,15 @@ $W_{\gamma}\left(x_k,y_k\right)$
 
 \section*{Results and discussions}
 
-The numerical values of the coefficients $C_i,~\alpha^{(k)}_i$ and $\beta^{(k)}_i$ for the ground state of the $^9$Be nucleus have been taken  from [Kukulin].
-In this work, calculation of the three-body wave function has been carried out within the framework of the variational method, solving the Hill-Wheeler integral equations using the three-dimensional Schrodinger equation for the three particle nuclear system.
-The $\alpha\alpha$-interaction is the deep attractive potential with the Pauli-forbidden states, parametrized in the Gaussian function form. The $\alpha n$-potential is also attractive with the Pauli projection only for  $S$-state, and it has different deep depending on parity of $l$-momentum. 
+The numerical values of the coefficients $C_i,~\alpha^{(k)}_i$ and $\beta^{(k)}_i$ for the ground state of the $^9$Be nucleus have been taken  from Ref. \cite{voronchev1994analysis}.
+In this work, calculation of the three-body wave function has been carried out within the framework of the variational method, solving the Hill-Wheeler integral equations using the three-dimensional Schr\"{o}dinger equation for the three particle nuclear system.
+The $\alpha\alpha$-interaction is the deep attractive potential with the Pauli-forbidden states, parametrized in the Gaussian function form. The $\alpha n$-potential is also attractive with the Pauli projection only for  $S$-state, and it has different deep depending on parity of $l$-momentum (for more details, see  \cite{voronchev1995three, voronchev1994analysis}). 
 
 
 The $\mathcal{N}_{\gamma}^{(k)}$ normalization of the total wave function for each $\gamma$'s are listed in Tab.~\ref{table:atable}.
-It has no physical reasons to calculate the normalization $\mathcal{N}^{(q)}$ in the $(q,kp)$ scheme. However, for verification of expressed above equations it would be useful to show their correctness. For this purpose the $\mathcal{N}_{\gamma \gamma^{\prime}}^{(q)}$ normalization was calculated with the condition $\delta_{\gamma \gamma^{\prime}}$. The calculated results for the $\mathcal{N}_{\gamma \gamma}^{(q)}$ are listed in Tab.~\ref{table:atable}. Comparison of the $\mathcal{N}_{\gamma}^{(k)}$ with $\mathcal{N}_{\gamma \gamma}^{(q)}$, calculated for overlap matrix elements by means of the both approaches  shown in the Sec.~\ref{overlap_by_exp}  and \ref{overlap_by_proj}, is showing   the same values as in Ref. [Kukulin]. That means correctness of all above deduced equations.
+It has no physical reasons to calculate the normalization $\mathcal{N}^{(q)}$ in the $(q,kp)$ scheme. However, for verification of expressed above equations it would be useful to show their correctness. For this purpose the $\mathcal{N}_{\gamma \gamma^{\prime}}^{(q)}$ normalization was calculated with the condition $\delta_{\gamma \gamma^{\prime}}$. The calculated results for the $\mathcal{N}_{\gamma \gamma}^{(q)}$ are listed in Tab.~\ref{table:atable}. Comparison of the $\mathcal{N}_{\gamma}^{(k)}$ with $\mathcal{N}_{\gamma \gamma}^{(q)}$, calculated for overlap matrix elements by means of the both approaches  shown in the Sec.~\ref{overlap_by_exp}  and \ref{overlap_by_proj}, is showing   the same values as in Ref. \cite{voronchev1994analysis}. That means correctness of all above deduced equations.
 
-New basis functions are summed over all the new $\tilde{\lambda}$ and $\tilde{l}$ orbital moments with the condition $\lambda + l = \tilde{\lambda} +\tilde{l} $. It is valid only in case of $L > \lambda + l$. However, during the calculations it was revealed, that in the $L < \lambda + l$  case, the condition $\lambda + l = \tilde{\lambda} +\tilde{l} $ does not perform equality in Eq.~(\ref{transformbasisfunction}). For example, lets take the  $\phi_{i}^{\gamma}\left(k, pq \right)$ basis function with $\gamma_2 \equiv 211$ ( $\lambda=2,~l=1,$ and $L=1$). Transforming it into the $\phi_{i}^{\tilde{\gamma}}\left(q, kp \right)$ new basis function, the new basis function is summed not only over the $\tilde{\gamma}\equiv$ 211 or 211, it must be also summed over 011, 101 quantum numbers. 
+New basis functions are summed over all the new $\tilde{\lambda}$ and $\tilde{l}$ orbital moments with the condition $\lambda + l = \tilde{\lambda} +\tilde{l} $. It is valid only in case of $L \le \lambda + l$. However, during the calculations it was revealed, that in the $L < \lambda + l$  case, the condition $\lambda + l = \tilde{\lambda} +\tilde{l} $ does not perform equality in Eq.~(\ref{transformbasisfunction}). For example, lets take the  $\phi_{i}^{\gamma}\left(k, pq \right)$ basis function with $\gamma_2 \equiv 211$ ( $\lambda=2,~l=1,$ and $L=1$). Transforming it into the $\phi_{i}^{\tilde{\gamma}}\left(q, kp \right)$ new basis function, the new basis function is summed not only over the $\tilde{\gamma}\equiv$ 211 or 211, it must be also summed over 011, 101 quantum numbers. 
 %By following this, it is turned out the $\lambda + l \neq \tilde{\lambda} +\tilde{l} $ rule.
 Moreover,  in case of $\lambda+l > L$  the $x_{q}^{\tilde{\lambda}} y_{q}^{\tilde{l}}$ factor  must be putted away from Eq.~(\ref{newBasis}) and placed in Eq.~(\ref{trans_coef}). The transformation coefficient now depends on $x_q$ and $y_q$ as
 \begin{align*}
@@ -520,12 +532,12 @@ x_{q}^{\lambda_1+l_1} y_{q}^{\lambda_2+l_2}
 \\
 & \times {E}^{\lambda_1 \lambda_2 \lambda l_1 l_2 l L}_{\tilde{\lambda} \tilde{l} } \mathcal{D}(\lambda,\lambda_1,\lambda_2) \mathcal{D}(l,l_1,l_2).   \nonumber 
 \end{align*}
-After these little changes the  Eq.~(\ref{transformbasisfunction}) turns to right equality.
+After these and summing level changes the  Eq.~(\ref{transformbasisfunction}) turns to right equality.
 
 \begin{figure}
 \center
 \includegraphics[scale=0.8]{counter_plot}
-\caption{The counter plot of the correlation density function $W_{}(x_k,y_k)$.}
+\caption{The contour plot of the correlation density function $W_{}(x_k,y_k)$.}
 \label{countour_plot}
 \end{figure}
 
@@ -533,48 +545,17 @@ After these little changes the  Eq.~(\ref{transformbasisfunction}) turns to righ
 
 The correlation density functions $W_{\gamma}(x_k,y_k)$  for each $\gamma$ are plotted and presented in Tab.~\ref{table:atable}. In each partial correlation density exact peaks are seen. The reason of this is in the nature of $\alpha \alpha$ and $\alpha n$ interactions. They keep the Pauli principle. The case, when the both potentials implement the Pauli projector, is $\gamma_1\equiv011$, which has three peaks. It was mentioned above, that $\alpha n$-potential has fordidden $S$-state. In the other cases, for $\lambda+l=3$ and $\lambda+l=5$, only the $\alpha \alpha$  interaction keeps the Pauli principle -- there are only two peaks.
 
-It is interesting to demonstrate a contour plot of the correlation density function $W(x_k,y_k)$  in Fig.\ref{countour_plot}. Three different structural configurations are mainly manifested with the $(x_k,~y_k)$ coordinate positions: $(0.5, ~2.0)$, $(1.2, ~2.0)$ and $(3.0,~ 2.0)$. It worth to draw attention, that all three configuration are in the same $y_k$ coordinate. The first configuration is due to the nature of the $\alpha n$-potential. Such kind of structure of the ground state of the $^9$Be nucleus has significant importance in the transfer reaction calculation.
-
-
-
-
-
+It is interesting to demonstrate a contour plot of the correlation density function $W(x_k,y_k)$  in Fig.\ref{countour_plot}. Three different structural configurations are mainly manifested with the $(x_k,~y_k)$ coordinate positions: $(0.5,~ 2.0)$ $(1.2, ~2.0)$ and $(3.0,~ 2.0)$. It worth to draw attention, that all the three configurations are in the same $y_k$ coordinate. The similar geometrical configuration were found also for the $^6$Li and $^6$He nuclei in Ref. \cite{kukulin1986detailed}. 
 
 \section*{Conclusion}
+In the framework of the SVM the three body wave function based on the Gaussian functions was studied. Deduced overlap matrix elements of the basis on the basic and alternative set of the Jacobi coordinates were obtained by means of two approaches. It was found that, in case of $\lambda + l > L$, the condition $\lambda + l = \tilde{\lambda} + \tilde{l}$ given in Ref. \cite{suzuki1998stochastic} becomes not correct. Addition quantum numbers should be summed in order to keep the equality between the $(k,pq)$ and $(q,kp)$  basis functions following the $|\lambda - l| \le \tilde{\lambda} \le \lambda +l $ and $|\lambda - l| \le \tilde{l} \le \lambda +l $ conditions. Obtained analytical equations can be useful for a calculating other matrix elements. 
 
-Your Conclusion text comes here...
+On the example of the $^9$Be nucleus the weights of $\gamma$ components and correlation density function for each $\gamma$'s were listed in the table. The same results of the normalizations within the both approaches were obtained in comparing with the values in Ref. \cite{voronchev1994analysis}, what means correctness of the deduced expressions.
 
-\section*{Acknowledgments }
-
-
-Also, use this section to provide information about funding by including specific grant numbers and titles. If you need to include funding information, list the name(s) of the funding organization(s) in full, and identify which authors received funding for what.
-
-\section*{References }
-
-\textbf{For books: }
-Author, \textit{Book title} (Publisher, place year) page numbers.(DOI or ISBN) Example:
-
-[1]	Bass R, Nuclear Reactions with Heavy IonsBerlin (Heidelberg, New York: Springer-Verlag, 1980) 410 p.(DOI or ISBN)
-
-\textbf{For articles from journals:}
-Author, Journal \textbf{Volume} (year) page numbers.(DOI) Example:
-
-[2] Tanihata I. et al., Phys.Lett.B. \textbf{206} (1988) 592-600.(DOI)
-
-\textbf{For conference materials, proceedings, etc.:}
-Author, Publication title: Type of publication \textbf{Volume} (year) page numbers.(DOI) Example:
-
-[3] Oganessian Y.Ts., Proceeding of the International Conference on Nuclear Physics, Munich \textbf{73} (1975) 351-360.(DOI)
-
-\begin{flushleft}
-\textbf{Example: }
+The contour plot was demonstrated of the ground state wave function of the $^9$Be nucleus. Coordinates of the three main geometrical configurations were extracted. Such kind of structure plays important role in nuclear transfer reactions and will useful for the DWBA calculations. 
 
 
-[1] Bass R, Nuclear Reactions with Heavy IonsBerlin (Heidelberg, New York: Springer-Verlag, 1980) 410 p.(DOI or ISBN)
 
-[2] Tanihata I. et al., Phys.Lett.B. \textbf{206} (1988) 592-600.(DOI)
-
-[3] Oganessian Y.Ts., Proceeding of the International Conference on Nuclear Physics, Munich \textbf{73} (1975) 351-360.(DOI)
-
-\end{flushleft}
+\bibliographystyle{naturemag}
+\bibliography{urazbekov}
 \end{document}
