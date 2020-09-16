@@ -268,57 +268,100 @@ Soon
 
 % Chapter 1
 
-\chapter{Theoretical model} % Main chapter title
+\chapter{Some scattering theory} % Main chapter title
 
 \label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
 %----------------------------------------------------------------------------------------
 
-\section{Optical model}
+\section{The description of elastic scattering}
+Descriptions of the scattering of two nuclei are considered in this chapter when the interaction between them is a potential $U$ which may depend on the spins of the two nuclei but not on their internal coordinates. Thus, it cannot excite the nuclei internally or cause the transfer between them. It can only change their relative motion and, perhaps, reorient spins to each other or to the orbital motion. In general, $U$ will be complex. 
 
-
-The theoretical calculations  of the deuteron  elastic scattering  on  ${}^9$Be  at 19.5 and 35 MeV energies have been performed in the framework of the OM with the OM potential given by:
-
-\begin{equation}\label{eqn:OP}
- U(R)=-V^{V}(R)-iW^{V}(R)+V^{SO}(R)( \mathbf{l} \cdot \sigma )+V^C(R),
-\end{equation}
-where $V^{V}, W^{V}, V^{SO},$ and $V^C$ are real volume,  imaginary volume, spin-orbit and Coulomb potentials, respectively. In this work, the real part of the OM potential was obtained by means of the double-folding (DF) model
+In the case of the colliding the  $a$ + $A$  particles without spin the potential $U\left( r \right)$ is central, depending only on the magnitude of the channel coordinate ${\bf r}$.
+The corresponding Shr\"{o}dinger equation may be written explicitly
 \begin{equation}
-V^V(R) = N_R V^{DF}(R)
+\left( E + \frac{\hbar^2}{2 \mu} {\bf \nabla}^2 - U \left( r \right) \right) 
+\chi \left( {\bf r} \right) =0 
+\label{es_she1}
 \end{equation}
-with normalization factor $N_R$. For convenience, in the OM and CC (CRC) calculations the potential can be fitted by means of the sum of three Woods-Saxon potentials:
+where $\mu$ is the reduced mass of the $a$+$A$ system, $E$ is the energy in the centre-of-mass system.
+The $\chi \left( {\bf r} \right)$ wave function is known as distorted waves describing elastic scattering. The expression "distorted wave" is meant to denote distortion away from the plane wave form due to the presence   of the distorting potential $U \left( r \right)$. Asymptotically, it has the form of an incident plane wave plus outgoing (scattered) spherical waves
 \begin{equation}
-V^V(R) =  \sum_{i=1}^{3} V^i f^{R_i, a_i}(R), 
- f^{R_V,a_V}(R)=\frac{1}{1+exp{\frac{R-R_V}{a_V}}}.
+\chi^{(+)} \left( {\bf k}, {\bf r} \right) \rightarrow
+e^{i {\bf k} \cdot {\bf r}} + f \left( \theta \right) \frac{1}{{\bf r}}
+e^{i k r}
+\label{es_chi_assymp_with_f}
 \end{equation}
-
-
-The DF potential was calculated using the effective M3Y-Paris nucleon-nucleon potential and the nuclear-matter-densities of projectile and target nuclei. In order to calculate the ${}^9$Be matter distribution we applied the $\alpha+\alpha+n$ three-body model (for more details, see Ref.~\cite{urazbekov2016}), while the matter density distribution of the deuteron projectile was chosen to be of the form
+where $f \left( \theta \right)$ is the scattering amplitude. The $(+)$ superscript stands for outgoing plane wave, while incoming spherical waves is the time-reverse of the $\chi^{(+)}$
 \begin{equation}
-\rho\left( \frac{1}{2}r \right) =\int \vert \Psi (\textbf{r}) \vert ^2 d \Omega_r.
+\chi^{(-)} \left( {\bf k}, {\bf r} \right) = 
+\left( \chi^{(+)} \left(- {\bf k}, {\bf r} \right) \right)^{*}
 \end{equation}
 
-
-%The surface and 
-The spin-orbit term of the OM potential has standard form
-\begin{align}
-\begin{aligned}
-W^D(R) &= -4 a_D W_0^D \frac{d}{dR} f^{R_D,a_D}(R),  \\
-V^{SO}(R) &= V_0^{SO}\left(\frac{\hbar}{m_\pi c}\right)^2 \frac{1}{R} \frac{d}{dR} f^{R_{SO} a_{SO}}(R).
-\end{aligned}
-\end{align}
-The Coulomb term has been taken as the interaction of a point-charge with a uniformly charged sphere
+Using the partial wave expansion 
 \begin{equation}
-\label{coul}
-V^C(R)=
-\begin{cases}
-\frac{Z_1 Z_2 e^2}{2 R_C} \left( 3- \frac{R^2}{R_C^2} \right), & for  R \leq R_C, \\
-\frac{Z_1 Z_2 e^2}{R}, & for  R > R_C .
-\end{cases}
+\chi^{(+)} \left( {\bf k}, {\bf r} \right) = 
+\frac{4 \pi}{kr} \sum_{LM} i^{L} \chi_L \left( k,r \right) 
+Y_{LM}\left( \hat{{\bf r}}\right) \left( Y_{LM}( \hat{{\bf k}})\right)^{*},
 \end{equation}
+A solution for Eq. (\ref{es_she1}) in the absence of any interaction potential, $U \left( r \right) = 0$, is given by 
+\begin{equation}
+\chi^{(+)} \left( {\bf k}, {\bf r} \right) \rightarrow
+e^{i {\bf k} \cdot {\bf r}},
+\end{equation}
+for radial part only is written as
+\begin{equation}
+\chi_L \left( k,r \right)  \rightarrow kr~j_L \left(kr \right)
+\end{equation}
+where $j_L \left(kr \right)$ is the usual spherical Bessel function. The $\chi_L \left( k,r \right)$ radial function satisfies the radial Shr\"{o}dinger equation
+\begin{equation}
+\left( \nabla_r + k^2 - \frac{L(L+1)}{r^2} - \frac{2 \mu}{\hbar2} U \left( r \right)\right) \chi_L \left( k,r \right) =0,
+\label{es_she_radial}
+\end{equation}
+where $k^2 = \frac{2\mu E}{\hbar^2}$.
 
-\section{Distorted wave Born approximation}
-\section{Coupled reaction channel method}
+In the case of the interaction potential has a more sophisticated form, including both Coulomb and nuclear short-range  potentials, the radial Shr\"{o}dinger equation (\ref{es_she_radial}) may be rewritten as
+\begin{equation}
+\left( \nabla_r + k^2 - \frac{2 \eta k}{r} - \frac{L(L+1)}{r^2} - \frac{2 \mu}{\hbar2} U \left( r \right) \right) \chi_L \left( k,r \right) =0,
+\label{es_she2}
+\end{equation}
+where $\eta$ is the usual Sommerfeld parameter with the $Z$ charge numbers
+\begin{equation*}
+\eta=\frac{Z_a Z_A e^2 \mu}{\hbar^2 k}
+\end{equation*}
+At the radius $r_0$, where the nuclear potential is negligible, Eq.~(\ref{es_she2}) has the solution, which can be expressed in terms of the $\text{H}_L$ outgoing  and $\text{H}_L^*$ incoming Coulomb functions, as follow
+\begin{equation}
+\chi_L \left( k,r_0 \right)= \frac{i}{2}e^{i \sigma_L} \left( \text{H}_L(kr_0)^*
+-S_L \text{H}_L(kr_0)\right).
+\label{es_assymp_chi}
+\end{equation} 
+where $\sigma_L$ is the Coulomb phase shift, and it is given with the $\Gamma$ Gamma function as follow
+\begin{equation*}
+\sigma_L=Arg\left( \Gamma \left( L+1+i \eta \right) \right)
+\end{equation*}
+In practice, the radial Eq.~(\ref{es_she2}) is solved by numerical integration from $r \approx 0$, then, matched the value and the slope of the result onto the form (\ref{es_assymp_chi}) ar $r=r_0$. This procedure then gives a value for the $S_L$ scattering matrix elements. Having the $S_L$ matrix elements, the amplitude  of the elastic scattering, analogous  from Eq.~(\ref{es_chi_assymp_with_f}), for the $\chi_L \left( k,r \right)$ wave function in the Eq.~(\ref{es_she2}) is given by
+\begin{equation}
+f(\theta)=\frac{1}{2ik} \sum_{L} (2L+1) e^{2i\sigma_L} \left( S_L - 1 \right)
+\text{P}_L(\text{cos}(\theta))
+\label{es_amplitude_nuclear}
+\end{equation}
+where $\text{P}_L(x)$ is the Legendre polynomials, which are solutions to the Legendre differential equation.
+By means of the Rutherford scattering amplitude 
+\begin{equation}
+f_C(\theta)=-\frac{\eta}{2 k {\text{sin}}^2 \left( \tfrac{1}{2} \theta \right) }
+e^{\left( i \eta \text{ln}\left( \text{sin}^2 \left( \tfrac{1}{2} \theta \right) \right)
++2i \sigma_{0} \right)}
+\end{equation}
+the differential cross section of the elastic scattering has the form
+\begin{equation}
+\frac{\text{d} \sigma_{el}}{\text{d} \Omega} = \vert f_C(\theta) + f(\theta) \vert^2.
+\label{es_diff_cross_section}
+\end{equation} 
+The expression (\ref{es_diff_cross_section}) allows thus to provide comparison with the obtained  experimental data.   
+
+
+\section{The coupled channels method for inelastic scattering}
+\section{The coupled-reaction-channels method for the transfer reactions}
 \section{Double folding model}
 \section{Wave function of scattering and bound state}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  24 AUG 2020 17:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  15 SEP 2020 17:08
 entering extended mode
 **./Chapter1.tex
 (Chapter1.tex
@@ -2743,6 +2743,38 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 25--26
+[]
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--26
+[]$
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--26
+[]$
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--26
+[]$
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 I
+      t is widely acknowledged that 8Be and 5He nuclei do not exist in nature.
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 Missing character: There is no I in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -3088,125 +3120,6 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no K in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no B in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 5 in font nullfont!
-
-! Package inputenc Error: Unicode character Н (U+041D)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 ...is of the $^{9}$Be nucleus through the 5Н
-                                                  е nucleus becomes dominant.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character е (U+0435)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 ... of the $^{9}$Be nucleus through the 5Не
-                                                   nucleus becomes dominant.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-Missing character: There is no n in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -12614,202 +12527,182 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 25--38
+Overfull \hbox (20.0pt too wide) in paragraph at lines 27--44
 []
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
-[]$
- []
-
-
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
-[]$
- []
-
-
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
-[]$
- []
-
-
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
-[]$
- []
-
-
-Overfull \hbox (6.43404pt too wide) in paragraph at lines 25--38
+Overfull \hbox (6.43404pt too wide) in paragraph at lines 27--44
 \OML/cmm/m/it/10 $
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 25--38
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 27--44
 \OT1/cmr/m/n/10 |
  []
 
 
-Overfull \hbox (6.43404pt too wide) in paragraph at lines 25--38
+Overfull \hbox (6.43404pt too wide) in paragraph at lines 27--44
 \OML/cmm/m/it/10 $
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (6.43404pt too wide) in paragraph at lines 25--38
+Overfull \hbox (6.43404pt too wide) in paragraph at lines 27--44
 \OML/cmm/m/it/10 $
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (6.43404pt too wide) in paragraph at lines 25--38
+Overfull \hbox (6.43404pt too wide) in paragraph at lines 27--44
 \OML/cmm/m/it/10 $
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (6.43404pt too wide) in paragraph at lines 25--38
+Overfull \hbox (6.43404pt too wide) in paragraph at lines 27--44
 \OML/cmm/m/it/10 $
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 25--38
+Overfull \hbox (8.47226pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (6.43404pt too wide) in paragraph at lines 25--38
+Overfull \hbox (6.43404pt too wide) in paragraph at lines 27--44
 \OML/cmm/m/it/10 $
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 25--38
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 27--44
 \OT1/cmr/m/n/10 {
  []
 
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 25--38
+Overfull \hbox (8.47226pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 25--38
+Overfull \hbox (8.47226pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (10.00003pt too wide) in paragraph at lines 25--38
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 27--44
 \OT1/cmr/m/n/10 \"
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 25--38
+Overfull \hbox (8.47226pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 25--38
+Overfull \hbox (8.47226pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (8.47226pt too wide) in paragraph at lines 25--38
+Overfull \hbox (8.47226pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (6.43404pt too wide) in paragraph at lines 25--38
+Overfull \hbox (6.43404pt too wide) in paragraph at lines 27--44
 \OML/cmm/m/it/10 $
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 27--44
 []$
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 25--38
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 27--44
 []$
  []
 
 ! Undefined control sequence.
-l.52 \section
+l.58 \section
              {Nuclear reactions}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12824,7 +12717,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 \section{N
+l.58 \section{N
                uclear reactions}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -12846,12 +12739,12 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 52--53
+Overfull \hbox (20.0pt too wide) in paragraph at lines 58--59
 []
  []
 
 ! Undefined control sequence.
-l.54 \subsection
+l.60 \subsection
                 {Elastic scattering}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12866,7 +12759,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 \subsection{E
+l.60 \subsection{E
                   lastic scattering}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -12889,7 +12782,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
-l.55 \subsection
+l.61 \subsection
                 {Inelastic scattering}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12917,7 +12810,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
-l.56 \subsection
+l.62 \subsection
                 {Transfer reactions}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12943,12 +12836,12 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 54--57
+Overfull \hbox (20.0pt too wide) in paragraph at lines 60--63
 []
  []
 
 ! Undefined control sequence.
-l.58 \section
+l.64 \section
              {Mechanisms of nuclear reactions}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12963,7 +12856,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 \section{M
+l.64 \section{M
                echanisms of nuclear reactions}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -12997,7 +12890,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.59 \section
+l.65 \section
              {Cluster phenomenon}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13023,7 +12916,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 58--60
+Overfull \hbox (20.0pt too wide) in paragraph at lines 64--66
 []
  []
 
@@ -13035,10 +12928,10 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 58--60
 
  
 Here is how much of TeX's memory you used:
- 32 strings out of 480790
- 619 string characters out of 2895425
- 248890 words of memory out of 3000000
- 16144 multiletter control sequences out of 15000+200000
+ 30 strings out of 480790
+ 609 string characters out of 2895425
+ 247890 words of memory out of 3000000
+ 16142 multiletter control sequences out of 15000+200000
  532338 words of font info for 24 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  18i,2n,15p,1852b,56s stack positions out of 5000i,500n,10000p,200000b,50000s

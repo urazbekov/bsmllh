@@ -1,0 +1,72 @@
+
+
+The optical model is one of the most successfully applied models for describing elastic scattering of nuclear reactions. It is called optical because the scattered nucleus is considered by a semitransparent substance. By analogy with the passing of light through a partially transparent substance, in which the incident wave has both absorption and scattering, a plane wave of incident particles has all those interactions that a plane electromagnetic wave passing through a semitransparent substance. 
+
+The Schr\"{o}dinger equation describing the collision of two nuclei, $a$ + $A$, can be given by 
+\begin{equation}
+\left( - \frac{\hbar^2}{2\mu_\alpha} {\bf \nabla } + \hat{h}_\xi +\hat{h}_\nu 
++ U \left( {\bf R}, {\bf \xi}, {\bf \nu} \right) \right) \Phi \left( {\bf R}, {\bf \xi}, {\bf \nu} \right) = E \Phi \left( {\bf R}, {\bf \xi}, {\bf \nu} \right)
+\label{om_srodinger}
+\end{equation}
+where $\mu_\alpha$ is the reduced mass, $U \left( {\bf R}, {\bf \xi}, {\bf \nu} \right)$ - nucleus-nucleus interaction potential, $ {\bf \xi}, {\bf \nu}$ -  the internal degrees of freedom of $a$ and $A$ nuclei, $\hat{h}_\xi,~\hat{h}_\nu$ - are Hamiltonians describing the internal states of $a$ and $A$ nuclei, ${\bf R}$  is the vector radius of relative motion in the center of mass (c.m.)  and  $E$ is the total energy of the $a$ + $A$ system in the c.m.
+Let us expand total wave function $ \Phi \left( {\bf R}, {\bf \xi}, {\bf \nu} \right) $  over the basis of eigenfunctions of the operators $\hat{h}_\xi$ and $\hat{h}_\nu$
+\begin{equation}
+\Phi \left( {\bf R}, {\bf \xi}, {\bf \nu} \right)  = \sum_{ij}
+\psi_{ai} \left( {\bf \xi} \right)
+\psi_{Aj} \left( {\bf \nu} \right)
+\chi_{ij} \left(   {\bf R} \right)
+\label{om_tot_wf_expansion}
+\end{equation}
+where $\chi_{ij} \left(   {\bf R} \right)$ is the wave function of the relative motion of nuclei in different reaction channels, and indices $i$ and $j$ correspond to all rules for selecting the states of colliding nuclei. The $\chi_{00} \left(   {\bf R} \right)$ component in particular describes the elastic channel. Substituting expansion  \ref{om_tot_wf_expansion} into Eq. \ref{om_srodinger},  the system of coupled differential equations for unknown functions $\chi_{ij} \left(   {\bf R} \right)$ is obtained. Within the generalized optical model \cite{FESHBACH1962287}, the system of equations for $\chi_{ij} \left(   {\bf R} \right)$ can be reduced to the equation for function $\chi_{00} \left(   {\bf R} \right)$ in the elastic channel
+\begin{equation}
+\left( - \frac{\hbar^2}{2\mu_\alpha} {\nabla }_R 
++ U \left( {\bf R} \right) \right) \chi_{00} \left( {\bf R} \right)
+ =\left(  E - \varepsilon_\xi -\varepsilon_\nu \right)
+ \chi_{00} \left( {\bf R}\right)
+\end{equation}
+where the generalized optical interaction potential has the form
+\begin{align}
+U &=V_{00}+\sum_{kk^{\prime}} V_{0k}
+\left( \frac{1}{E-H+ i \eta} \right)_{kk^{\prime}} V_{k^{\prime}0} =
+\nonumber \\
+~&= V + \Delta W,
+\label{om_gener_opt_pot}
+\end{align}
+here summing is performed over all excited states of the projectile and target $k={i,j}$, and the  $V_{kk^{\prime}}$ matrix element have the form 
+\begin{equation}
+ V_{kk^{\prime}} \left( {\bf R} \right) = \langle \psi_{a0} \psi_{A0} \vert
+U\left( {\bf R}, {\bf \xi}, {\bf \nu}\right)  \vert
+ \psi_{a0} \psi_{A0}  \rangle 
+\end{equation}
+
+The first term in (\ref{om_gener_opt_pot}) is a real function, while the second term is  a complex function that depends on the energy referred to as the polarization potential, and it describes coupling of the elastic and excitation channels. 
+
+A more realistic optical potential of two colliding nuclei for this type of interaction can be given by:
+
+\begin{equation}\label{eqn:OP}
+ U(R)=-V^{V}(R)-iW^{V}(R)+V^{SO}(R)( \mathbf{l} \cdot \sigma )+V^C(R),
+\end{equation}
+where $V^{V}, W^{V}, V^{SO},$ and $V^C$ are real volume,  imaginary volume, spin-orbit and Coulomb potentials, respectively. 
+For medium-heavy nuclei with a spherical shape, the nuclear forces are centrally symmetric, that is, they are not dependent on angular variables, but only on the interaction radius. A potential of this kind that is often used can have the form:
+\begin{equation}
+V^V(R) =- \frac{V_i}{1+exp{\frac{R-R_V}{a_V}}}, 
+\end{equation}
+It was first presented by the authors from Ref. \cite{woods1954}, therefore this potential is most often called the Woods-Saxon potential.
+
+%The surface and 
+The spin-orbit term of the OM potential has standard form
+\begin{align}
+\begin{aligned}
+W^D(R) &= -4 a_D W_0^D \frac{d}{dR} f^{R_D,a_D}(R),  \\
+V^{SO}(R) &= V_0^{SO}\left(\frac{\hbar}{m_\pi c}\right)^2 \frac{1}{R} \frac{d}{dR} f^{R_{SO} a_{SO}}(R).
+\end{aligned}
+\end{align}
+The Coulomb term has been taken as the interaction of a point-charge with a uniformly charged sphere
+\begin{equation}
+\label{coul}
+V^C(R)=
+\begin{cases}
+\frac{Z_1 Z_2 e^2}{2 R_C} \left( 3- \frac{R^2}{R_C^2} \right), & for  R \leq R_C, \\
+\frac{Z_1 Z_2 e^2}{R}, & for  R > R_C .
+\end{cases}
+\end{equation}
