@@ -361,6 +361,89 @@ The expression (\ref{es_diff_cross_section}) allows thus to provide comparison w
 
 
 \section{The coupled channels method for inelastic scattering}
+The elastic scattering of the projectile $a$ by the nucleus $A$ has been denoted by $\alpha=a+A$. 
+ Let $\alpha^{\prime}=a+A^{*}$ be an inelastic channel , in which only the $A$ nucleus has an extra excitation. In the framework of the coupled channel (CC) approach  the total wave function $\Psi$ for the system may be written as
+\begin{equation}
+\Psi =  \phi_\alpha \left( { x} \right) \chi_\alpha \left( {\bf r}_\alpha \right)+
+\phi_{\alpha^{\prime}}  \left( { x} \right) \chi_{\alpha^{\prime}} \left( {\bf r}_{\alpha^{\prime}} \right)
+\label{cc_tot_wf}
+\end{equation}
+ where ${\bf r}$ is the channel coordinate for the partitions $\alpha$ or $\alpha^{\prime}$, $x$ represents the corresponding internal coordinates.
+ The total wave function can be part of the Shr\"{o}dinger equation kind of
+ \begin{equation}
+ H\Psi=E\Psi
+ \label{cc_she1}
+ \end{equation}
+with the Hamiltonian appropriate particular for the $\alpha$ partition
+\begin{equation}
+H=H_\alpha + K_\alpha + V_\alpha.
+\end{equation}
+where $H_\alpha \equiv H_a + H_A$ is the internal Hamiltonian for the nuclei $a$ and $A$, $K_\alpha$ is the kinetic energy operator of relative motion and $V_\alpha$ is the interaction potential operator. The wave functions of ground $ \phi_\alpha \left( { x} \right) $ and excited state $ \phi_{\alpha^{\prime}}  \left( { x} \right)$, being eigenfunctions of the internal Hamiltonian $H_\alpha$
+ \begin{align}
+H_\alpha  \phi_\alpha \left( { x} \right) =& \varepsilon_\alpha \phi_\alpha \left( { x} \right) \nonumber \\
+H_\alpha  \phi_{\alpha^{\prime}} \left( { x} \right) =& \varepsilon_{\alpha^{\prime}} \phi_{\alpha^{\prime}} \left( { x} \right),
+ \end{align}
+have an orthonormality property  of the form 
+\begin{equation}
+\int {d x} \left( \phi_\alpha \left( { x} \right)  \right)^{*} \phi_{\alpha^{\prime}} \left( { x}\right) =
+\delta_{\alpha \alpha^{\prime}}.
+\label{cc_orthonorm}
+\end{equation}
+ Using the expression of total wave function (\ref{cc_tot_wf}), multiplying Eq.~(\ref{cc_she1}) from the left by the $\phi^{*}_\alpha$ function, then, by the $\phi^{*}_{\alpha^{\prime}}$ function, the two coupled equations can be defined in the following form 
+ \begin{align}
+\left( E -\varepsilon_\alpha - K_\alpha - \langle \alpha \vert V_\alpha \vert \alpha \rangle \right) \chi_\alpha \left( {\bf r} \right) = & \langle \alpha \vert V_{\alpha} \vert \alpha^{\prime} \rangle \chi_{\alpha^{\prime}} \left( {\bf r} \right) 
+\nonumber \\
+\left( E -\varepsilon_\alpha - K_\alpha - \langle \alpha^{\prime} \vert V_\alpha \vert \alpha^{\prime} \rangle \right) \chi_{\alpha^{\prime}} \left( {\bf r} \right) =&  \langle \alpha^{\prime} \vert V_{\alpha} \vert \alpha \rangle \chi_{\alpha} \left( {\bf r} \right) 
+ \end{align}
+where $\langle \alpha \vert V_\alpha \vert \alpha \rangle$, or $\langle \alpha^{\prime} \vert V_{\alpha} \vert \alpha \rangle$, is  the matrix element of $V_\alpha$. In particular,  the matrix element $\langle \alpha^{\prime} \vert V_\alpha \vert \alpha \rangle$ is given by
+\begin{align}
+\langle \alpha^{\prime} \vert V_\alpha \vert \alpha \rangle = & \int d x \phi_\alpha^{\prime} \left( { x} \right)  V_\alpha \left( x,  {\bf r} \right) \phi_\alpha \left( { x} \right) =\nonumber \\
+= & V_{\alpha^{\prime} \alpha} \left(  {\bf r} \right).
+\end{align}
+
+An expansion of the coupling potential $V_{\alpha^{\prime} \alpha} \left( {\bf r} \right)$ into the $\lambda$ multipoles can be given as follow
+\begin{equation}
+V_{\alpha^{\prime} \alpha} \left( {\bf r} \right) = \sum_{\lambda \mu} V^{\lambda \mu}_{\alpha^{\prime} \alpha} (r) Y_{\lambda \mu} \left( \hat{r} \right)
+\end{equation}
+
+If the potential shape has a deformation, the nuclear potential can be constructed as
+\begin{equation}
+V_\alpha \left( x, {\bf r}\right) \equiv U\left( r -\delta\left( \hat{r}^{\prime} \right) \right)
+\label{cc_coup_pot_def}
+\end{equation}
+where $\hat{r}^{\prime}$ denotes angular coordinates of $(\theta,~\phi)$ referred to the intrinsic reference frame. The function $\delta\left( \hat{r}^{\prime} \right)$ is normally expanded in multipoles
+\begin{equation}
+\delta\left( \hat{r}^{\prime} \right) = \sum_{\lambda} \delta_\lambda Y_{\lambda 0} (\hat{r}^{\prime}).
+\label{cc_delta_def}
+\end{equation}
+
+
+In the collective model, the ground and excited states are characterized by their angular momenta $I_i$ and $I_{f}$ with projections $M_i$ and $M_{f}$, respectively. For these state the relevant matrix element of the $V_{\alpha \alpha}^{\lambda \mu}$ operator is described using the Wigner-Eckart theorem by
+\begin{equation}
+\langle I_{i} M_{i} \vert V^{\lambda \mu}_{\alpha^{\prime} \alpha}  \vert I_f M_f \rangle 
+= \sqrt{2I_i + 1} 
+\langle I_f M_f \lambda \mu \vert I_i M_i\rangle
+ \langle I^{\prime} \vert \vert V^{\lambda}_{\alpha^{\prime} \alpha} \vert \vert	 I \rangle.
+ \label{cc_we}
+\end{equation} 
+
+Using the definitions, (\ref{cc_coup_pot_def}) and (\ref{cc_delta_def}), the reduced matrix element of radial multipoles from Eq.~(\ref{cc_we}) can be rewritten as follow 
+ \begin{equation}
+ \langle I_{i} \vert \vert V^{\lambda \mu}_{\alpha^{\prime} \alpha}  \vert \vert I_f \rangle = -\frac{\langle I_{i} \vert \vert \delta_\lambda \vert \vert I_f \rangle}{\sqrt{4 \pi}} 
+ \frac{\text{d}U(r)}{\text{d}r}
+ \end{equation}
+ where 
+\begin{equation}
+\langle I_{i} \vert \vert \delta_\lambda \vert \vert I_f \rangle = \sqrt{2 I_f+1} 
+\langle I_f M_f \lambda 0 \vert I_i M_i \rangle 
+\langle \chi \vert \delta \vert \chi \rangle \delta_{M_i M_f}.
+\end{equation}
+The matrix element $\langle \chi \vert \delta \vert \chi \rangle$ is the expectation value of the operator $\delta_\lambda$ in the internal state of the  deformed nucleus. In the framework of the rotational model it can be given with the deformation length $\beta_\lambda$ as follow
+\begin{equation}
+\langle \chi \vert \delta \vert \chi \rangle = R_0 \beta_\lambda
+\end{equation}
+where $R_0$ is an average radius of the interaction potential.
+
 \section{The coupled-reaction-channels method for the transfer reactions}
 \section{Double folding model}
 \section{Wave function of scattering and bound state}
