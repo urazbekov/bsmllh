@@ -14,22 +14,22 @@
 \contentsline {section}{\numberline {2.1}The description of elastic scattering}{7}{section.16}%
 \contentsline {section}{\numberline {2.2}The coupled channels method for inelastic scattering}{9}{section.29}%
 \contentsline {section}{\numberline {2.3}The coupled-reaction-channels method for the transfer reactions}{11}{section.47}%
-\contentsline {section}{\numberline {2.4}Double folding model}{12}{section.54}%
-\contentsline {section}{\numberline {2.5}Wave function of scattering and bound state}{12}{section.55}%
-\contentsline {section}{\numberline {2.6}Matter density distribution}{13}{section.64}%
-\contentsline {chapter}{\numberline {3}Results and discussions}{15}{chapter.68}%
-\contentsline {section}{\numberline {3.1}The d+$^9$Be nuclear reactions}{15}{section.69}%
-\contentsline {subsection}{\numberline {3.1.1}d+$^9$Be $\rightarrow $ d+$^9$Be}{16}{subsection.70}%
-\contentsline {subsection}{\numberline {3.1.2}d+$^9$Be $\rightarrow $ d+$^9$Be$^*$}{17}{subsection.71}%
-\contentsline {subsection}{\numberline {3.1.3}d+$^9$Be $\rightarrow $ p+$^{10}$Be and d+$^9$Be $\rightarrow $ t+$^{8}$Be}{18}{subsection.73}%
-\contentsline {subsection}{\numberline {3.1.4}d+$^9$Be $\rightarrow \alpha $ +$^{7}$Li}{19}{subsection.76}%
-\contentsline {section}{\numberline {3.2}The $\alpha $+$^9$Be nuclear reactions}{22}{section.80}%
-\contentsline {subsection}{\numberline {3.2.1}$\alpha $+$^9$Be $\rightarrow $ $\alpha $+$^9$Be}{22}{subsection.81}%
-\contentsline {subsection}{\numberline {3.2.2}$\alpha $+$^9$Be $\rightarrow $ $\alpha $+$^9$Be$^*$}{22}{subsection.82}%
-\contentsline {section}{\numberline {3.3}The $\alpha $+$^6$He nuclear reaction}{22}{section.83}%
-\contentsline {section}{\numberline {3.4}The $\alpha $+$^6$Li nuclear reaction}{22}{section.84}%
-\contentsline {chapter}{\numberline {4}Conclusion}{23}{chapter.85}%
-\contentsline {chapter}{\numberline {A}Parameters of the three body wave function}{25}{appendix.86}%
-\contentsline {section}{\numberline {A.1}Hellium-6}{25}{section.87}%
-\contentsline {section}{\numberline {A.2}Lithium-6}{25}{section.88}%
-\contentsline {section}{\numberline {A.3}Berillium-9}{25}{section.89}%
+\contentsline {section}{\numberline {2.4}Double folding model}{12}{section.56}%
+\contentsline {section}{\numberline {2.5}Wave function of scattering and bound state}{12}{section.57}%
+\contentsline {section}{\numberline {2.6}Matter density distribution}{14}{section.66}%
+\contentsline {chapter}{\numberline {3}Results and discussions}{17}{chapter.70}%
+\contentsline {section}{\numberline {3.1}The d+$^9$Be nuclear reactions}{17}{section.71}%
+\contentsline {subsection}{\numberline {3.1.1}d+$^9$Be $\rightarrow $ d+$^9$Be}{18}{subsection.72}%
+\contentsline {subsection}{\numberline {3.1.2}d+$^9$Be $\rightarrow $ d+$^9$Be$^*$}{19}{subsection.73}%
+\contentsline {subsection}{\numberline {3.1.3}d+$^9$Be $\rightarrow $ p+$^{10}$Be and d+$^9$Be $\rightarrow $ t+$^{8}$Be}{20}{subsection.75}%
+\contentsline {subsection}{\numberline {3.1.4}d+$^9$Be $\rightarrow \alpha $ +$^{7}$Li}{21}{subsection.78}%
+\contentsline {section}{\numberline {3.2}The $\alpha $+$^9$Be nuclear reactions}{24}{section.82}%
+\contentsline {subsection}{\numberline {3.2.1}$\alpha $+$^9$Be $\rightarrow $ $\alpha $+$^9$Be}{24}{subsection.83}%
+\contentsline {subsection}{\numberline {3.2.2}$\alpha $+$^9$Be $\rightarrow $ $\alpha $+$^9$Be$^*$}{24}{subsection.84}%
+\contentsline {section}{\numberline {3.3}The $\alpha $+$^6$He nuclear reaction}{24}{section.85}%
+\contentsline {section}{\numberline {3.4}The $\alpha $+$^6$Li nuclear reaction}{24}{section.86}%
+\contentsline {chapter}{\numberline {4}Conclusion}{25}{chapter.87}%
+\contentsline {chapter}{\numberline {A}Parameters of the three body wave function}{27}{appendix.88}%
+\contentsline {section}{\numberline {A.1}Hellium-6}{27}{section.89}%
+\contentsline {section}{\numberline {A.2}Lithium-6}{27}{section.90}%
+\contentsline {section}{\numberline {A.3}Berillium-9}{27}{section.91}%

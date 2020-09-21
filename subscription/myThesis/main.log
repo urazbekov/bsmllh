@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  21 SEP 2020 13:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.18)  21 SEP 2020 17:11
 entering extended mode
 **./main.tex
 (main.tex
@@ -1065,691 +1065,691 @@ Chapter 1.
 Chapter 2.
 1: section
 [7] [8] [9] [10]
-Overfull \hbox (3.3277pt too wide) in paragraph at lines 495--497
-\T1/cmr/m/n/10.95 These are the coupled-reaction-channels (CRC) equa-tions. The
-y are integro-differential
+Overfull \hbox (1.75172pt too wide) in paragraph at lines 496--498
+\T1/cmr/m/n/10.95 These are \T1/cmr/m/it/10.95 the coupled-reaction-channels \T
+1/cmr/m/n/10.95 (CRC) equa-tions. They are integro-differential
  []
 
 [11]
 
-LaTeX Warning: Citation 'Kukulin1977' on page 12 undefined on input line 524.
+LaTeX Warning: Citation 'Kukulin1977' on page 12 undefined on input line 555.
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 583--592
+[12] [13]
+Underfull \hbox (badness 10000) in paragraph at lines 614--623
 
  []
 
 
-LaTeX Warning: Citation 'SATCHLER1979' on page 13 undefined on input line 600.
+LaTeX Warning: Citation 'SATCHLER1979' on page 14 undefined on input line 631.
 
-[13] [14]
+[14] [15] [16
+
+]
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 669.
+(hyperref)                removing `math shift' on input line 700.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 669.
+(hyperref)                removing `superscript' on input line 700.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 669.
+(hyperref)                removing `math shift' on input line 700.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--673
+Underfull \hbox (badness 10000) in paragraph at lines 701--704
 
  []
 
 
-LaTeX Warning: Citation 'separationneutron' on page 15 undefined on input line 
-675.
+LaTeX Warning: Citation 'separationneutron' on page 17 undefined on input line 
+706.
 
 
-LaTeX Warning: Citation 'quadrupole' on page 15 undefined on input line 676.
+LaTeX Warning: Citation 'quadrupole' on page 17 undefined on input line 707.
 
 
-LaTeX Warning: Citation 'kukulin2010' on page 15 undefined on input line 683.
+LaTeX Warning: Citation 'kukulin2010' on page 17 undefined on input line 714.
 
 
-LaTeX Warning: Citation 'seksembayev2018' on page 15 undefined on input line 68
-3.
+LaTeX Warning: Citation 'seksembayev2018' on page 17 undefined on input line 71
+4.
 
 
-LaTeX Warning: Citation 'seksembayev2018' on page 15 undefined on input line 68
-7.
+LaTeX Warning: Citation 'seksembayev2018' on page 17 undefined on input line 71
+8.
 
 
-Overfull \hbox (42.93845pt too wide) in paragraph at lines 683--689
+Overfull \hbox (42.93845pt too wide) in paragraph at lines 714--720
 \T1/cmr/m/n/10.95 value of some dozens of per-cent of $[]$Be is ex-pected in th
 e soft wall ma-te-rial [[]].
  []
 
 
-LaTeX Warning: Citation 'lukyanov2014' on page 15 undefined on input line 692.
+LaTeX Warning: Citation 'lukyanov2014' on page 17 undefined on input line 723.
 
 
-LaTeX Warning: Citation 'lukyanov2015' on page 15 undefined on input line 692.
+LaTeX Warning: Citation 'lukyanov2015' on page 17 undefined on input line 723.
 
 
-LaTeX Warning: Citation 'janseitov2018' on page 15 undefined on input line 692.
+LaTeX Warning: Citation 'janseitov2018' on page 17 undefined on input line 723.
 
 
 1: section
-[15
-
-]
-
-LaTeX Warning: Citation 'brown2007' on page 16 undefined on input line 694.
-
-
-LaTeX Warning: Citation 'papka2007' on page 16 undefined on input line 694.
-
-
-LaTeX Warning: Citation 'detraz1970' on page 16 undefined on input line 697.
-
-
-LaTeX Warning: Citation 'detraz1974' on page 16 undefined on input line 697.
-
-
-LaTeX Warning: Citation 'urazbekov2016' on page 16 undefined on input line 699.
-
-
-
-LaTeX Warning: Citation 'urazbekov2017' on page 16 undefined on input line 699.
-
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 701.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 701.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 701.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 701.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 701.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 701.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 701.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 701.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 701.
-
-
-LaTeX Warning: Reference `potpar' on page 16 undefined on input line 702.
-
-
-LaTeX Warning: Reference `fig3' on page 16 undefined on input line 704.
-
-
-LaTeX Warning: Reference `potpar' on page 16 undefined on input line 706.
-
-[16]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 708.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 708.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 708.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 708.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 708.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 708.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 708.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 708.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 708.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 708.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 708.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 708.
-
-
-LaTeX Warning: Citation 'fresco' on page 17 undefined on input line 710.
-
-
-LaTeX Warning: Citation 'kunz' on page 17 undefined on input line 710.
-
-
-LaTeX Warning: Citation 'nrv' on page 17 undefined on input line 710.
-
-
-LaTeX Warning: Reference `fig4' on page 17 undefined on input line 719.
-
-
-LaTeX Warning: Reference `potpar' on page 17 undefined on input line 719.
-
-
-LaTeX Warning: Reference `fig4' on page 17 undefined on input line 721.
-
-
-LaTeX Warning: Citation 'lukyanov2014' on page 17 undefined on input line 721.
-
-
-LaTeX Warning: Citation 'harakeh1980' on page 17 undefined on input line 721.
-
-
-LaTeX Warning: Reference `potpar' on page 17 undefined on input line 723.
-
-
-LaTeX Warning: Reference `fig4' on page 17 undefined on input line 723.
-
-
-LaTeX Warning: Citation 'bodek1989' on page 17 undefined on input line 723.
-
-
-LaTeX Warning: Citation 'votava1973' on page 17 undefined on input line 723.
-
 [17]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 728.
+LaTeX Warning: Citation 'brown2007' on page 18 undefined on input line 725.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 728.
+LaTeX Warning: Citation 'papka2007' on page 18 undefined on input line 725.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 728.
+LaTeX Warning: Citation 'detraz1970' on page 18 undefined on input line 728.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 728.
+LaTeX Warning: Citation 'detraz1974' on page 18 undefined on input line 728.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 728.
+LaTeX Warning: Citation 'urazbekov2016' on page 18 undefined on input line 730.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 728.
+
+LaTeX Warning: Citation 'urazbekov2017' on page 18 undefined on input line 730.
+
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 728.
+(hyperref)                removing `math shift' on input line 732.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 728.
+(hyperref)                removing `superscript' on input line 732.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 728.
+(hyperref)                removing `math shift' on input line 732.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 728.
+(hyperref)                removing `math shift' on input line 732.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 728.
+(hyperref)                removing `\rightarrow' on input line 732.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 728.
+(hyperref)                removing `math shift' on input line 732.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 728.
+(hyperref)                removing `math shift' on input line 732.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 728.
+(hyperref)                removing `superscript' on input line 732.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 728.
+(hyperref)                removing `math shift' on input line 732.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 728.
+LaTeX Warning: Reference `potpar' on page 18 undefined on input line 733.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 728.
+LaTeX Warning: Reference `fig3' on page 18 undefined on input line 735.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 728.
-
-
-LaTeX Warning: Reference `potpar' on page 18 undefined on input line 732.
-
-
-LaTeX Warning: Citation 'globalProton' on page 18 undefined on input line 732.
-
-
-LaTeX Warning: Citation 'globalTriton' on page 18 undefined on input line 732.
-
-
-LaTeX Warning: Reference `fig5' on page 18 undefined on input line 732.
-
-
-LaTeX Warning: Citation 'harakeh1980' on page 18 undefined on input line 734.
-
-
-LaTeX Warning: Citation 'antoine' on page 18 undefined on input line 746.
-
-
-LaTeX Warning: Citation 'cohen1965' on page 18 undefined on input line 746.
-
-
-LaTeX Warning: Reference `SA' on page 18 undefined on input line 746.
-
-
-LaTeX Warning: Reference `fig6' on page 18 undefined on input line 750.
-
-
-LaTeX Warning: Citation 'rocca2018' on page 18 undefined on input line 752.
-
-
-LaTeX Warning: Citation 'harakeh1980' on page 18 undefined on input line 752.
-
-
-LaTeX Warning: Citation 'galanina2012' on page 18 undefined on input line 756.
-
-
-LaTeX Warning: Citation 'bodek1989' on page 18 undefined on input line 756.
+LaTeX Warning: Reference `potpar' on page 18 undefined on input line 737.
 
 [18]
 
-LaTeX Warning: Reference `fig7' on page 19 undefined on input line 763.
-
-
-LaTeX Warning: Citation 'harakeh1980' on page 19 undefined on input line 769.
-
-
-LaTeX Warning: Citation 'rudchik2016' on page 19 undefined on input line 769.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 739.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 772.
+(hyperref)                removing `superscript' on input line 739.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 772.
+(hyperref)                removing `math shift' on input line 739.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 772.
+(hyperref)                removing `math shift' on input line 739.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 772.
+(hyperref)                removing `\rightarrow' on input line 739.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 772.
+(hyperref)                removing `math shift' on input line 739.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 772.
+(hyperref)                removing `math shift' on input line 739.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 772.
+(hyperref)                removing `superscript' on input line 739.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 772.
+(hyperref)                removing `math shift' on input line 739.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 772.
+(hyperref)                removing `math shift' on input line 739.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 772.
+(hyperref)                removing `superscript' on input line 739.
 
 
-LaTeX Warning: Reference `fig9' on page 19 undefined on input line 774.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 739.
+
+
+LaTeX Warning: Citation 'fresco' on page 19 undefined on input line 741.
+
+
+LaTeX Warning: Citation 'kunz' on page 19 undefined on input line 741.
+
+
+LaTeX Warning: Citation 'nrv' on page 19 undefined on input line 741.
+
+
+LaTeX Warning: Reference `fig4' on page 19 undefined on input line 750.
+
+
+LaTeX Warning: Reference `potpar' on page 19 undefined on input line 750.
+
+
+LaTeX Warning: Reference `fig4' on page 19 undefined on input line 752.
+
+
+LaTeX Warning: Citation 'lukyanov2014' on page 19 undefined on input line 752.
+
+
+LaTeX Warning: Citation 'harakeh1980' on page 19 undefined on input line 752.
+
+
+LaTeX Warning: Reference `potpar' on page 19 undefined on input line 754.
+
+
+LaTeX Warning: Reference `fig4' on page 19 undefined on input line 754.
+
+
+LaTeX Warning: Citation 'bodek1989' on page 19 undefined on input line 754.
+
+
+LaTeX Warning: Citation 'votava1973' on page 19 undefined on input line 754.
 
 [19]
 
-LaTeX Warning: Reference `potpar' on page 20 undefined on input line 797.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 759.
 
 
-LaTeX Warning: Citation 'globalTriton' on page 20 undefined on input line 797.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 759.
 
 
-LaTeX Warning: Citation 'globalAlpha' on page 20 undefined on input line 797.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 759.
 
 
-LaTeX Warning: Citation 'global6Li' on page 20 undefined on input line 797.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 759.
 
 
-LaTeX Warning: Citation 'fiveSA' on page 20 undefined on input line 800.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 759.
 
 
-LaTeX Warning: Reference `SA' on page 20 undefined on input line 800.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 759.
 
 
-LaTeX Warning: Citation 'volya2017' on page 20 undefined on input line 800.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 759.
 
 
-LaTeX Warning: Reference `fig8' on page 20 undefined on input line 802.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 759.
 
 
-LaTeX Warning: Citation 'tanaka1978' on page 20 undefined on input line 804.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 759.
 
 
-LaTeX Warning: Citation 'bodek1989' on page 20 undefined on input line 804.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 759.
 
 
-LaTeX Warning: Reference `fig8' on page 20 undefined on input line 806.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 759.
 
 
-LaTeX Warning: Citation 'bodek1989' on page 20 undefined on input line 806.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 759.
 
 
-LaTeX Warning: Citation 'jarczyk1996' on page 20 undefined on input line 806.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 759.
 
 
-LaTeX Warning: Reference `fig8' on page 20 undefined on input line 808.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 759.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 759.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 759.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 759.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 759.
+
+
+LaTeX Warning: Reference `potpar' on page 20 undefined on input line 763.
+
+
+LaTeX Warning: Citation 'globalProton' on page 20 undefined on input line 763.
+
+
+LaTeX Warning: Citation 'globalTriton' on page 20 undefined on input line 763.
+
+
+LaTeX Warning: Reference `fig5' on page 20 undefined on input line 763.
+
+
+LaTeX Warning: Citation 'harakeh1980' on page 20 undefined on input line 765.
+
+
+LaTeX Warning: Citation 'antoine' on page 20 undefined on input line 777.
+
+
+LaTeX Warning: Citation 'cohen1965' on page 20 undefined on input line 777.
+
+
+LaTeX Warning: Reference `SA' on page 20 undefined on input line 777.
+
+
+LaTeX Warning: Reference `fig6' on page 20 undefined on input line 781.
+
+
+LaTeX Warning: Citation 'rocca2018' on page 20 undefined on input line 783.
+
+
+LaTeX Warning: Citation 'harakeh1980' on page 20 undefined on input line 783.
+
+
+LaTeX Warning: Citation 'galanina2012' on page 20 undefined on input line 787.
+
+
+LaTeX Warning: Citation 'bodek1989' on page 20 undefined on input line 787.
 
 [20]
 
-LaTeX Warning: Reference `fig8' on page 21 undefined on input line 812.
+LaTeX Warning: Reference `fig7' on page 21 undefined on input line 794.
 
 
-LaTeX Warning: Reference `fig10' on page 21 undefined on input line 814.
+LaTeX Warning: Citation 'harakeh1980' on page 21 undefined on input line 800.
 
 
-LaTeX Warning: Reference `fig10' on page 21 undefined on input line 814.
+LaTeX Warning: Citation 'rudchik2016' on page 21 undefined on input line 800.
 
 
-LaTeX Warning: Reference `fig11' on page 21 undefined on input line 819.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 803.
 
 
-LaTeX Warning: Reference `fig9' on page 21 undefined on input line 819.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 803.
 
 
-LaTeX Warning: Citation 'brown2007' on page 21 undefined on input line 819.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 803.
 
 
-LaTeX Warning: Citation 'papka2007' on page 21 undefined on input line 819.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 803.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 803.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 803.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 803.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 803.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 803.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 803.
+
+
+LaTeX Warning: Reference `fig9' on page 21 undefined on input line 805.
 
 [21]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 821.
+LaTeX Warning: Reference `potpar' on page 22 undefined on input line 828.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 821.
+LaTeX Warning: Citation 'globalTriton' on page 22 undefined on input line 828.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 821.
+LaTeX Warning: Citation 'globalAlpha' on page 22 undefined on input line 828.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 821.
+LaTeX Warning: Citation 'global6Li' on page 22 undefined on input line 828.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 821.
+LaTeX Warning: Citation 'fiveSA' on page 22 undefined on input line 831.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 821.
+LaTeX Warning: Reference `SA' on page 22 undefined on input line 831.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 822.
+LaTeX Warning: Citation 'volya2017' on page 22 undefined on input line 831.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 822.
+LaTeX Warning: Reference `fig8' on page 22 undefined on input line 833.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 822.
+LaTeX Warning: Citation 'tanaka1978' on page 22 undefined on input line 835.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 822.
+LaTeX Warning: Citation 'bodek1989' on page 22 undefined on input line 835.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 822.
+LaTeX Warning: Reference `fig8' on page 22 undefined on input line 837.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 822.
+LaTeX Warning: Citation 'bodek1989' on page 22 undefined on input line 837.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 822.
+LaTeX Warning: Citation 'jarczyk1996' on page 22 undefined on input line 837.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 822.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 822.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 822.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 822.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 822.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 822.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 822.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 822.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 825.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 825.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 825.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 825.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 825.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 825.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 827.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 827.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 827.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 827.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 827.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 827.
+LaTeX Warning: Reference `fig8' on page 22 undefined on input line 839.
 
 [22]
+
+LaTeX Warning: Reference `fig8' on page 23 undefined on input line 843.
+
+
+LaTeX Warning: Reference `fig10' on page 23 undefined on input line 845.
+
+
+LaTeX Warning: Reference `fig10' on page 23 undefined on input line 845.
+
+
+LaTeX Warning: Reference `fig11' on page 23 undefined on input line 850.
+
+
+LaTeX Warning: Reference `fig9' on page 23 undefined on input line 850.
+
+
+LaTeX Warning: Citation 'brown2007' on page 23 undefined on input line 850.
+
+
+LaTeX Warning: Citation 'papka2007' on page 23 undefined on input line 850.
+
+[23]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 852.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 852.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 852.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 852.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 852.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 852.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 853.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 853.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 853.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 853.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 853.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 853.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 853.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 853.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 853.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 853.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 853.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 853.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 853.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 853.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 853.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 856.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 856.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 856.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 856.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 856.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 856.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 858.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 858.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 858.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 858.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 858.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 858.
+
+[24]
 Chapter 4.
 1: section
-[23
+[25
 
 ]
 \openout2 = `Appendices/AppendixA.aux'.
 
- (Appendices/AppendixA.tex [24
+ (Appendices/AppendixA.tex [26
 
 
 ]
 Appendix A.
 )
 1: section
-[25]
+[27]
 
-LaTeX Warning: Empty bibliography on input line 852.
+LaTeX Warning: Empty bibliography on input line 883.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 856.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 856.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 887.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 887.
 (main.aux (Chapters/Chapter1.aux) (Appendices/AppendixA.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 856.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 856.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 887.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 887.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C2386B4BF84CB38AF02850F6B4F7499F;5790.
+(rerunfilecheck)             Checksum: 3CDA480ACEDC10AA0B37EE535156C93D;5790.
 
 
 LaTeX Warning: There were undefined references.
@@ -1767,10 +1767,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27262 strings out of 480790
- 562285 string characters out of 2895425
- 1041386 words of memory out of 3000000
- 42802 multiletter control sequences out of 15000+200000
+ 27268 strings out of 480790
+ 562353 string characters out of 2895425
+ 1041570 words of memory out of 3000000
+ 42804 multiletter control sequences out of 15000+200000
  564604 words of font info for 97 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,21n,82p,1876b,2426s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1814,9 +1814,9 @@ ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/urazbekov/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/urazbekov/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/urazbe
 kov/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (43 pages, 506295 bytes).
+Output written on main.pdf (45 pages, 515725 bytes).
 PDF statistics:
- 1050 PDF objects out of 1200 (max. 8388607)
- 133 named destinations out of 1000 (max. 500000)
+ 1078 PDF objects out of 1200 (max. 8388607)
+ 137 named destinations out of 1000 (max. 500000)
  270 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -487,13 +487,14 @@ one can get a pair of coupled equations for $\chi_\alpha$ and $\chi_\beta$:
 \left[ ~\left(E-\varepsilon_\alpha \right)  -K_\alpha -
 \langle \alpha \vert V_\alpha \vert \alpha \rangle ~\right] 
 \chi_\alpha ({\bf r}_\alpha) = 
-\langle \phi_\alpha \vert H-E \vert \chi_\beta \phi_\beta \rangle \nonumber \\
+\langle \alpha \vert H-E \vert  \beta \rangle \chi_\beta \nonumber \\
 \left[ ~\left(E-\varepsilon_\beta \right)  -K_\beta -
 \langle \beta \vert V_\beta \vert \beta \rangle ~\right] 
 \chi_\beta ({\bf r}_\beta) = 
-\langle \phi_\beta \vert H-E \vert \chi_\alpha \phi_\alpha \rangle.
+\langle \beta \vert H-E \vert \alpha \rangle \chi_\alpha .
+\label{crc_couple_eq1}
 \end{align}
-These are the coupled-reaction-channels (CRC) equations. They are integro-differential equations, as may be seen more explicitly in the form
+These are \textit{the coupled-reaction-channels} (CRC) equations. They are integro-differential equations, as may be seen more explicitly in the form
 \begin{align}
 \left[ ~\left(E-\varepsilon_\alpha \right)  -K_\alpha -
 \langle \alpha \vert V_\alpha \vert \alpha \rangle ~\right] 
@@ -517,6 +518,36 @@ J_{\beta \alpha}
 (H-E) \phi_\alpha \left( x_\alpha \right).
 \end{align}
 Here the internal coordinates have been transformed from the set $x_\alpha$ to the set $\left( \zeta_\alpha, {\bf r}_\beta \right)$, where the $\zeta_\alpha$ are independent of ${\bf r}_\beta$. Also, $J_{\alpha \beta}$ is the Jacobian of this transformation. Then $J_{\beta \alpha}$ is the Jacobian for the analogous transformation form $x_\beta$ to $\left( \zeta_\beta,{\bf r}_\alpha  \right)$.
+
+Since the off-diagonal matrix elements of $V_\alpha$ are small, they have little effect on the elastic scattering and may be neglected on the right side. 
+This implies that the elastic scattering in the entrance $\alpha$ channel is described well by the potential $\langle \alpha \vert V_\alpha \vert \alpha \rangle$, and the potential $\langle \beta \vert V_\beta \vert \beta \rangle$ describes well the elastic scattering in the $\beta$ channel.
+%Furthermore, if we have one more channel, it is assumed that all couplings, except the direct coupling to the entrance $\alpha$ channel, can be neglected on the right side of the equation for the $\beta$ channel, so that the potential $\langle \beta \vert V_\beta \vert \beta \rangle$ describes well the elastic scattering in this channel. 
+By doing this approximation, Eq.~(\ref{crc_couple_eq1}) may be rewritten as
+\begin{align}
+\left[ ~\left(E-\varepsilon_\alpha \right)  -K_\alpha -
+\langle \alpha \vert V_\alpha \vert \alpha \rangle ~\right] 
+\chi_\alpha ({\bf r}_\alpha) \approx & 0
+ \nonumber \\
+\left[ ~\left(E-\varepsilon_\beta \right)  -K_\beta -
+\langle \beta \vert V_\beta \vert \beta \rangle ~\right] 
+\chi_\beta ({\bf r}_\beta) \approx &
+\langle \beta \vert H-E \vert \alpha \rangle \chi_\alpha
+\nonumber \\
+\approx &
+\langle \beta \vert V_\alpha \vert  \alpha \rangle \chi_\alpha + \langle \beta \vert \alpha \rangle (H_\alpha - E_\alpha) \chi_\alpha 
+\nonumber \\
+\approx & \langle \beta \vert V_\alpha \vert  \alpha \rangle \chi_\alpha
+\label{crc_couple_eq2}
+\end{align}
+ Here the prior interaction, that is the interaction of the $\alpha$ channel, is used. The non-orthogonal term $\langle \beta \vert \alpha \rangle (H_\alpha - E_\alpha) \chi_\alpha$ vanishes because of the $\chi_\alpha$ is on-shell. The usual Green function techniques may then be used to solve these equations and give \textit{the  distorted wave Born approximation transition} (DWBA) amplitude 
+ \begin{align}
+ T_{\beta \alpha}^{DWBA} =& \langle \chi_\beta^{(-)} \phi_\beta  \vert V_\alpha \vert
+ \chi_\alpha^{(+)} \phi_\alpha \rangle = \nonumber \\
+= & \int \int \text{d}x_\beta \text{d}{\bf r}_\beta \chi_\beta^{(-)*} \left( {\bf r}_\beta \right)\phi_\beta^{*} \left( x_\beta \right) V_\alpha 
+ \chi_\alpha^{(+)} \left( {\bf r}_\alpha \right)\phi_\alpha \left( x_\alpha \right)
+ \end{align}
+ 
+
 
 \section{Double folding model}
 \section{Wave function of scattering and bound state}
