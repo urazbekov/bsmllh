@@ -289,7 +289,7 @@ The $\chi \left( {\bf r} \right)$ wave function is known as distorted waves desc
 \begin{equation}
 \chi^{(+)} \left( {\bf k}, {\bf r} \right) \rightarrow
 e^{i {\bf k} \cdot {\bf r}} + f \left( \theta \right) \frac{1}{{\bf r}}
-e^{i k r}
+e^{i k r}, ~~  {\bf r} \rightarrow \infty
 \label{es_chi_assymp_with_f}
 \end{equation}
 where $f \left( \theta \right)$ is the scattering amplitude. The $(+)$ superscript stands for outgoing plane wave, while incoming spherical waves is the time-reverse of the $\chi^{(+)}$
@@ -307,11 +307,12 @@ Y_{LM}\left( \hat{{\bf r}}\right) \left( Y_{LM}( \hat{{\bf k}})\right)^{*},
 A solution for Eq. (\ref{es_she1}) in the absence of any interaction potential, $U \left( r \right) = 0$, is given by 
 \begin{equation}
 \chi^{(+)} \left( {\bf k}, {\bf r} \right) \rightarrow
-e^{i {\bf k} \cdot {\bf r}},
+e^{i {\bf k} \cdot {\bf r}}, ~~ {\bf r} \rightarrow \infty, 
 \end{equation}
 for radial part only is written as
 \begin{equation}
-\chi_L \left( k,r \right)  \rightarrow kr~j_L \left(kr \right)
+\chi_L \left( k,r \right)  \rightarrow kr~j_L \left(kr \right),
+~~ r \rightarrow \infty,
 \end{equation}
 where $j_L \left(kr \right)$ is the usual spherical Bessel function. The $\chi_L \left( k,r \right)$ radial function satisfies the radial Shr\"{o}dinger equation
 \begin{equation}
@@ -331,8 +332,9 @@ where $\eta$ is the usual Sommerfeld parameter with the $Z$ charge numbers
 \end{equation*}
 At the radius $r_0$, where the nuclear potential is negligible, Eq.~(\ref{es_she2}) has the solution, which can be expressed in terms of the $\text{H}_L$ outgoing  and $\text{H}_L^*$ incoming Coulomb functions, as follow
 \begin{equation}
-\chi_L \left( k,r_0 \right)= \frac{i}{2}e^{i \sigma_L} \left( \text{H}_L(kr_0)^*
--S_L \text{H}_L(kr_0)\right).
+\chi_L \left( k,r \right) \rightarrow \frac{i}{2}e^{i \sigma_L} \left( \text{H}_L(kr_0)^*
+-S_L \text{H}_L(kr_0)\right), 
+~~ r \rightarrow r_0
 \label{es_assymp_chi}
 \end{equation} 
 where $\sigma_L$ is the Coulomb phase shift, and it is given with the $\Gamma$ Gamma function as follow
@@ -354,7 +356,7 @@ e^{\left( i \eta \text{ln}\left( \text{sin}^2 \left( \tfrac{1}{2} \theta \right)
 \end{equation}
 the differential cross section of the elastic scattering has the form
 \begin{equation}
-\frac{\text{d} \sigma_{el}}{\text{d} \Omega} = \vert f_C(\theta) + f(\theta) \vert^2.
+\frac{\text{d} \sigma_{\alpha}}{\text{d} \Omega} = \vert f_C(\theta) + f(\theta) \vert^2.
 \label{es_diff_cross_section}
 \end{equation} 
 The expression (\ref{es_diff_cross_section}) allows thus to provide comparison with the obtained  experimental data.   
@@ -444,7 +446,78 @@ The matrix element $\langle \chi \vert \delta \vert \chi \rangle$ is the expecta
 \end{equation}
 where $R_0$ is an average radius of the interaction potential.
 
+The general asymptotic behaviour of the $\chi_{\alpha}$ elastic channel can be taken from Eq.~(\ref{es_chi_assymp_with_f}), while the inelastic channel $\chi_{\alpha^{\prime}}$ may have 
+\begin{equation}
+\chi_{\alpha^{\prime}} \left( {\bf r}_{\alpha^{\prime}} \right) \rightarrow 
+f_{\alpha^{\prime}} \left( \theta \right)
+\frac{e^{i k r_{\alpha^{\prime}}}}{r}, 
+~~ {\bf r}_{\alpha^{\prime}} \rightarrow \infty
+\end{equation}
+Note, that the plane wave expression doesn't not present in this equation - only outgoing wave presents. 
+A relevant differential cross section for the inelastic channel is obtained from the coefficient of the outgoing wave as follow
+\begin{equation}
+\frac{\text{d}\sigma_{\alpha^{\prime}} \left( \theta\right)}{\text{d}\Omega} =
+\frac{k_{\alpha^{\prime}}}{k_{\alpha}}
+\vert f_{\alpha^{\prime}} \left( \theta \right) \vert^2.
+\end{equation}
+The wave numbers $k_{\alpha}$ and $k_{\alpha^{\prime}}$ follow from the energy conservation 
+\begin{equation}
+E=\varepsilon_\alpha + \frac{\hbar^2 k_\alpha}{2 \mu} = 
+\varepsilon_{\alpha^{\prime}} + \frac{\hbar^2 k_{\alpha^{\prime}}}{2 \mu}.
+\end{equation}
+
 \section{The coupled-reaction-channels method for the transfer reactions}
+Consider a model for the $a+A\rightarrow b+B$ nuclear reaction, in which entrance and exit channels are denoted as $\alpha$ and $\beta$ respectively. The $\Psi$ total wave function for this model may be given as
+\begin{equation}
+\Psi = \chi_{\alpha} \left( {\bf r}_\alpha \right) \phi_\alpha \left( x_\alpha \right) + 
+ \chi_{\beta} \left( {\bf r}_\beta \right) \phi_\beta \left( x_\beta \right).
+\end{equation}
+with a model Hamiltonian $H$ such that $\left( E-H \right) \Psi =0$. From the projections of this equation onto the two channels,
+\begin{align}
+\langle \chi_\alpha \vert \left( E-H \right) \vert \Psi \rangle = 0 \nonumber \\
+\langle \chi_\beta \vert \left( E-H \right) \vert \Psi \rangle = 0
+\end{align}
+with the two equivalent forms of $H$,
+\begin{align}
+H= H_\alpha +K_\alpha + V_\alpha \nonumber \\
+H= H_\beta +K_\beta + V_\beta
+\end{align}
+one can get a pair of coupled equations for $\chi_\alpha$ and $\chi_\beta$:
+\begin{align}
+\left[ ~\left(E-\varepsilon_\alpha \right)  -K_\alpha -
+\langle \alpha \vert V_\alpha \vert \alpha \rangle ~\right] 
+\chi_\alpha ({\bf r}_\alpha) = 
+\langle \phi_\alpha \vert H-E \vert \chi_\beta \phi_\beta \rangle \nonumber \\
+\left[ ~\left(E-\varepsilon_\beta \right)  -K_\beta -
+\langle \beta \vert V_\beta \vert \beta \rangle ~\right] 
+\chi_\beta ({\bf r}_\beta) = 
+\langle \phi_\beta \vert H-E \vert \chi_\alpha \phi_\alpha \rangle.
+\end{align}
+These are the coupled-reaction-channels (CRC) equations. They are integro-differential equations, as may be seen more explicitly in the form
+\begin{align}
+\left[ ~\left(E-\varepsilon_\alpha \right)  -K_\alpha -
+\langle \alpha \vert V_\alpha \vert \alpha \rangle ~\right] 
+\chi_\alpha ({\bf r}_\alpha) = 
+\int \text{d} {\bf r}_\beta K_{\alpha \beta} \left( {\bf r}_\alpha, {\bf r}_\beta \right) \chi_\beta \left(  {\bf r}_\beta \right)
+ \nonumber \\
+\left[ ~\left(E-\varepsilon_\beta \right)  -K_\beta -
+\langle \beta \vert V_\beta \vert \beta \rangle ~\right] 
+\chi_\beta ({\bf r}_\beta) = 
+\int \text{d} {\bf r}_\alpha K_{\beta \alpha} \left( {\bf r}_\beta, {\bf r}_\alpha \right) \chi_\alpha \left(  {\bf r}_\alpha \right)
+\end{align}
+where the kernels are
+\begin{align}
+K_{\alpha \beta} \left( {\bf r}_\alpha, {\bf r}_\beta \right) = 
+J_{\alpha \beta}
+\int \text{d} \zeta_\alpha \phi_\alpha^* \left( x_\alpha \right)
+(H-E) \phi_\beta \left( x_\beta \right) \nonumber \\
+K_{\beta \alpha} \left( {\bf r}_\beta, {\bf r}_\alpha \right) = 
+J_{\beta \alpha}
+\int \text{d} \zeta_\beta \phi_\beta^* \left( x_\beta \right)
+(H-E) \phi_\alpha \left( x_\alpha \right).
+\end{align}
+Here the internal coordinates have been transformed from the set $x_\alpha$ to the set $\left( \zeta_\alpha, {\bf r}_\beta \right)$, where the $\zeta_\alpha$ are independent of ${\bf r}_\beta$. Also, $J_{\alpha \beta}$ is the Jacobian of this transformation. Then $J_{\beta \alpha}$ is the Jacobian for the analogous transformation form $x_\beta$ to $\left( \zeta_\beta,{\bf r}_\alpha  \right)$.
+
 \section{Double folding model}
 \section{Wave function of scattering and bound state}
 
