@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.6)  20 SEP 2020 12:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.6)  24 SEP 2020 11:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -648,16 +648,12 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <14.4> not available
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-[3] <pic1.jpg, id=20, 1508.63625pt x 602.25pt>
-File: pic1.jpg Graphic file (type jpg)
- <use pic1.jpg>
-Package pdftex.def Info: pic1.jpg used on input line 219.
-(pdftex.def)             Requested size: 226.28568pt x 90.33359pt.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 220.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 220.
- [4] [5 <./pic1.jpg>] [6] [7]
+[3] <pic1.pdf, id=20, 285.065pt x 85.31876pt>
+File: pic1.pdf Graphic file (type pdf)
+ <use pic1.pdf>
+Package pdftex.def Info: pic1.pdf used on input line 219.
+(pdftex.def)             Requested size: 256.55612pt x 76.78615pt.
+ [4] [5 <./pic1.pdf>] [6] [7]
 Overfull \hbox (8.89465pt too wide) in paragraph at lines 435--435
 []\T1/pplx/b/n/14.4 Normalization and cor-re-la-tion den-sity of the three-body
  wave
@@ -668,6 +664,10 @@ Overfull \hbox (8.89465pt too wide) in paragraph at lines 435--435
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 477.
 
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 479.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 479.
 Package epstopdf Info: Source file: <W1_1.eps>
 (epstopdf)                    date: 2020-09-07 19:36:34
 (epstopdf)                    size: 255336 bytes
@@ -682,7 +682,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./W1_1-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<W1_1-eps-converted-to.pdf, id=37, 155.58125pt x 216.81pt>
+<W1_1-eps-converted-to.pdf, id=49, 155.58125pt x 216.81pt>
 File: W1_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use W1_1-eps-converted-to.pdf>
@@ -702,7 +702,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./W1_2-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<W1_2-eps-converted-to.pdf, id=38, 155.58125pt x 216.81pt>
+<W1_2-eps-converted-to.pdf, id=50, 155.58125pt x 216.81pt>
 File: W1_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use W1_2-eps-converted-to.pdf>
@@ -722,7 +722,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./W1_3-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<W1_3-eps-converted-to.pdf, id=39, 155.58125pt x 216.81pt>
+<W1_3-eps-converted-to.pdf, id=51, 155.58125pt x 216.81pt>
 File: W1_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use W1_3-eps-converted-to.pdf>
@@ -742,7 +742,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./W1_4-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<W1_4-eps-converted-to.pdf, id=40, 164.615pt x 216.81pt>
+<W1_4-eps-converted-to.pdf, id=52, 164.615pt x 216.81pt>
 File: W1_4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use W1_4-eps-converted-to.pdf>
@@ -762,7 +762,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./W1_5-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<W1_5-eps-converted-to.pdf, id=41, 164.615pt x 216.81pt>
+<W1_5-eps-converted-to.pdf, id=53, 164.615pt x 216.81pt>
 File: W1_5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use W1_5-eps-converted-to.pdf>
@@ -782,7 +782,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./W1_6-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<W1_6-eps-converted-to.pdf, id=42, 164.615pt x 216.81pt>
+<W1_6-eps-converted-to.pdf, id=54, 164.615pt x 216.81pt>
 File: W1_6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use W1_6-eps-converted-to.pdf>
@@ -802,7 +802,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./W1_7-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<W1_7-eps-converted-to.pdf, id=43, 165.61874pt x 216.81pt>
+<W1_7-eps-converted-to.pdf, id=55, 165.61874pt x 216.81pt>
 File: W1_7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use W1_7-eps-converted-to.pdf>
@@ -822,7 +822,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./W1_all-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<W1_all-eps-converted-to.pdf, id=44, 155.58125pt x 216.81pt>
+<W1_all-eps-converted-to.pdf, id=56, 155.58125pt x 216.81pt>
 File: W1_all-eps-converted-to.pdf Graphic file (type pdf)
 
 <use W1_all-eps-converted-to.pdf>
@@ -843,7 +843,7 @@ Package epstopdf Info: Source file: <counter_plot.eps>
 (epstopdf)             \includegraphics on input line 539.
 Package epstopdf Info: Output file is already uptodate.
 
-<counter_plot-eps-converted-to.pdf, id=75, 178.6675pt x 184.69pt>
+<counter_plot-eps-converted-to.pdf, id=87, 178.6675pt x 184.69pt>
 File: counter_plot-eps-converted-to.pdf Graphic file (type pdf)
 
 <use counter_plot-eps-converted-to.pdf>
@@ -859,7 +859,7 @@ Here is how much of TeX's memory you used:
  10898 multiletter control sequences out of 15000+600000
  87126 words of font info for 358 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,14n,43p,963b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,14n,43p,963b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips
 /base/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
@@ -870,10 +870,10 @@ fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/lo
 cal/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/tex
 live/2017/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "some aspects 2020.pdf" (13 pages, 2679666 bytes).
+Output written on "some aspects 2020.pdf" (13 pages, 1905712 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 145 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  45619 words of extra memory for PDF output out of 51595 (max. 10000000)
 
