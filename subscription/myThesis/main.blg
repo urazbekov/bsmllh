@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+A level-1 auxiliary file: Appendices/AppendixA.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: main-blx.bib
+Database file #2: example.bib
+Warning--I didn't find a database entry for "Kukulin1977"
+Warning--I didn't find a database entry for "SATCHLER1979"
+Biblatex version: 3.13
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 25 entries,
+            6365 wiz_defined-function locations,
+            1350 strings with 14013 characters,
+and the built_in function-call counts, 269750 in all, are:
+= -- 22605
+> -- 3121
+< -- 593
++ -- 7344
+- -- 1323
+* -- 21411
+:= -- 33612
+add.period$ -- 0
+call.type$ -- 25
+change.case$ -- 261
+chr.to.int$ -- 43
+cite$ -- 48
+duplicate$ -- 25920
+empty$ -- 23574
+format.name$ -- 2484
+if$ -- 53048
+int.to.chr$ -- 0
+int.to.str$ -- 49
+missing$ -- 0
+newline$ -- 1243
+num.names$ -- 1012
+pop$ -- 9765
+preamble$ -- 1
+purify$ -- 549
+quote$ -- 0
+skip$ -- 4515
+stack$ -- 0
+substring$ -- 45458
+swap$ -- 4594
+text.length$ -- 701
+text.prefix$ -- 24
+top$ -- 1
+type$ -- 838
+warning$ -- 0
+while$ -- 4369
+width$ -- 0
+write$ -- 1219
+(There were 2 warnings)

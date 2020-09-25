@@ -41,8 +41,8 @@ headsepline, % Uncomment to get a line under the header
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage{amsmath}
-%\usepackage{mathpazo} % Use the Palatino font by default
-
+\usepackage{mathpazo} % Use the Palatino font by default
+\usepackage{booktabs}
 \usepackage[backend=bibtex,style=numeric-comp,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 
 \addbibresource{example.bib} % The filename of the bibliography
@@ -121,14 +121,15 @@ headsepline, % Uncomment to get a line under the header
 \end{flushright}
 \end{minipage}\\[3cm]
  
-\vfill
+%\vfill
 
-\large \textit{A thesis submitted in fulfillment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
-\textit{in the}\\[0.4cm]
+%\large \textit{A thesis submitted in fulfillment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
+%\textit{in the}\\[0.4cm]
 %\groupname\\
-\deptname\\[2cm] % Research group name and department name
+\deptname
+\\[1cm] % Research group name and department name
  
-\vfill
+%\vfill
 
 %{\normalsize \today}\\[4cm] % Date
 \includegraphics[scale=0.07]{logo} % University/department logo - uncomment to place it
@@ -264,7 +265,7 @@ $\omega$ & angular frequency & \si{\radian} \\
 % Include the chapters of the thesis as separate files from the Chapters folder
 % Uncomment the lines as you write the chapters
 
-\chapter{Introduction} % Main chapter title
+\chapter{Introduction to the nuclear reactions and cluster phenomenon} % Main chapter title
 In recent years, the study of light weakly bound nuclei  has not lost interest due to the successful development of experimental technology. 
 In particular, it should be noted a significant achievement in the field of production of secondary radioactive beams. 
 It is known that in light nuclei nucleons tend to group into clusters, the relative motion of which mainly determines the properties and characteristics of the being explored nuclei. 
@@ -319,16 +320,11 @@ The project is expected to obtain a number of new and relevant results. The new 
 
 %----------------------------------------------------------------------------------------
 
-\section*{Nuclear reactions}
-
-\section*{Mechanisms of nuclear reactions}
-\section*{Cluster phenomenon}
 
 
+\chapter{Theoretical models describing the nuclear reactions} % Main chapter title
 
-\chapter{Theoretical model} % Main chapter title
-
-\label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+\label{Chapter2} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
 
 
@@ -717,9 +713,91 @@ By doing this approximation, Eq.~(\ref{crc_couple_eq1}) may be rewritten as
 
 The differential cross section for the transfer channel $\beta$ can be deduced in the similar way as in Eq.~(\ref{cc_dsigma_domega})
 
+\section{Interaction potentials. The double folding model}
 
-\section{The three body wave function}
-\subsection{The three-body wave function}
+The numerical calculations  of the elastic scattering  can be performed in the framework of the OM with the OM potential given by:
+
+\begin{equation}\label{eqn:OP}
+\begin{array}{l}
+ U(R)=-V^{V}(R)-iW^{V}(R)+V^{SO}(R)( \mathbf{l} \cdot \sigma )\\
+~~~ ~~~~~~~+V^C(R),
+\end{array}
+\end{equation}
+where $V^{V}, W^{V}, V^{SO},$ and $V^C$ are real volume,  imaginary volume, spin-orbit and Coulomb potentials, respectively. The volume potentials of colliding two spherical nuclei may be represented as parametrized function. For example, in practice the Woods-Saxon potential is often used, and it has the form
+\begin{align}
+V^V\left( r \right) = & V_0^V f_{r_V, a_V} \left( r \right), \nonumber \\
+W^V\left( r \right) = & V_0^W f_{r_W, a_W} \left( r \right), \nonumber \\
+f_{r_0, a_0} \left( r \right) = &  \frac{1}{1+ \text{exp} \left( \frac{r-r_0}{a_0} \right) },
+\end{align}
+where $V_0$ is depth of the potential, $r_0$ is  average distance and $a_0$ is  diffusion parameter. 
+
+%The surface and 
+The spin-orbit term of the OM potential has standard form
+\begin{eqnarray}
+%W^D(R) &= -4 a_D W_0^D \frac{d}{dR} f^{R_D,a_D}(R), \\
+V^{SO}(r) &= V_0^{SO}\left(\frac{\hbar}{m_\pi c}\right)^2 \frac{1}{r} \frac{d}{dR} f_{R_{SO} a_{SO}}(r).
+\end{eqnarray}
+The Coulomb term has been taken as the interaction of a point-charge with a uniformly charged sphere
+\[
+\label{coul}
+V^C(r)=
+\begin{cases}
+\frac{Z_1 Z_2 e^2}{2 r_C} \left( 3- \frac{r^2}{r_C^2} \right), &\text{  for } r \leq r_C, \\
+\frac{Z_1 Z_2 e^2}{r}, & \text{ for } r > r_C .
+\end{cases}
+\]
+
+
+
+The situation changes, when the colliding nuclei have sophisticated shape. Assume, that there are nuclear matter distribution of the projectile $\rho_a \left( { r}_a \right) $ and target $\rho_A \left( { r}_a \right)$, depending on internal their own radii. Folding the nucleon-nucleon interaction potential $V_{nn}$ over the density distributions of nuclear matter, in the framework of \textit{the Double folding model} an interaction potential may be constructed as follow 
+\begin{align}
+V^V\left( r \right) = & N_0 V^{DF} \left( r \right) \nonumber \\ 
+V^{DF} \left( {\bf r} \right) = & \int \int \text{d} {\bf r}_a\text{d} {\bf r}_A
+\rho_a \left( {\bf r}_a \right) V_{nn} \left( r_{aA}\right)  \rho_A \left( {\bf r}_A \right). 
+\end{align}
+where $r_{aA}=\vert {\bf r} + {\bf r}_A - {\bf r}_a \vert$ (see Fig.~\ref{fig:df_scheme}). The $N_0$ normalization parameter is usually fitted in accordance with the dynamics of nuclear reaction of elastic scattering.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.8]{df_scheme}
+\caption{Radius vectors for the double folding model}
+\label{fig:df_scheme}
+\end{figure}
+
+The DF potential may be calculated using the effective M3Y-Paris nucleon-nucleon potential and the nuclear-matter-densities of projectile and target nuclei. 
+For the particles $t$, $^3$He, $\alpha$, which have simple structure, the density distribution of nuclear matter can be represented as parametrized Gaussian function as follow
+ \begin{equation}
+ \rho \left( r \right) = N {\mathrm{exp}}\left( - a r^2 \right)
+ \end{equation}
+ where the parameters $a$ and $A$ are defined in condition to reproduce the rms matter radii
+ \begin{equation}
+ a = \frac{3}{2\langle r_{m}^{2} \rangle}, 
+ N = A  \left( \frac{a}{\pi} \right)^{3/2}
+ \end{equation}
+ here $A$ -- atomic number of projectile. 
+ %Для ядер $^3$He величина $\langle r^2_m \rangle^{1/2}= 1.703$ фм \cite{pomerantsev2005dibaryon}.
+ 
+ 
+As regards target nuclei, having cluster structure, the density distribution of nuclear matter are calculated by means of the three body wave function, and its details are set out in the next chapter.
+
+
+\chapter{The three body model}
+\section{The basis function}
+The model \cite{Kukulin1977} uses three pair pseudo-potentials to describe the three-body system, taking into account forbidden states by the Pauli principle:
+\begin{equation}
+\label{pseudopot}
+\widetilde{V}_{ij}=V_{ij}+\Delta_{ij},
+\end{equation}
+where $V_{ij}$ is  an interaction potential of $(ij)$ subsystem and $\Delta_{ij}=\lambda \Gamma$ is a orthogonalizer with the $\lambda$ constant and with $\Gamma$ projector, which  for  forbidden $f$ state is as follows:
+\begin{equation}
+\label{projector}
+\Gamma=\Gamma(f)=\sum\limits_{m_f}\vert \phi_{fm_f} ({\mathbf x})\rangle \langle  \phi_{fm_f} ({\mathbf x'}) \vert \delta({\mathbf y - \mathbf y'}).
+\end{equation}
+The principle plays a huge role in the structure of the nucleus, which does not allow overlapping of two constituent particles. Thus, the three body pseudo-Hamiltonian including kinetic energy and pseudo potentials looks like this
+\begin{equation}
+\label{pseudohamiltonian}
+\widetilde{H}=H_0+\sum_{i < j} \widetilde{V }_{ij}.
+\end{equation}
 
 As an example, in this work the $2\alpha-n$ three body model of the $^9$Be nucleus is taken. The three-body wave function of the $^9$Be nucleus with total spin $ J $ and spin projection $ M_J $ is represented as
  \begin{equation}
@@ -731,8 +809,8 @@ The coefficients $ C_{i} $ in Eq.~(\ ref {totwf}) are the parameters of the wave
 
 \begin{figure}[b]
 \centering
-\includegraphics[scale=0.15]{pic1}\\
-\caption{The schemes of the three-body system on the example of ${}^9$Be.}
+\includegraphics[scale=0.8]{pic1}\\
+\caption{The schemes of Jacobi coordinate sets for the three body system.}
 \label{fig:jacobiSet}
 \end{figure}
 
@@ -751,7 +829,7 @@ here the index $\gamma$ includes the quantum numbers $L \lambda l$. The spatial 
  \end{equation}
 where $ L $ and $ M_L $ are the total orbital momentum of the system and its projection, $ \lambda $, $ l $ are the orbital moments conjugated to the coordinates $ {\bf x} _k $ and $ {\bf y} _k $ respectively, $ \alpha^{(k)} _ {i} $, $ \beta^{(k)}_{i}$ are the linear parameters of the three-body wave function.
 %, the values of which are given in the work \ cite {voronchev1994analysis}.
- \subsection{Transformation of the basis function }
+ \section{Transformation of the basis function }
  The chosen form of the basis function (\ref{subwf}) is convenient in that it can be easily transformed for use with an alternative set of Jacobi coordinates. A rotation matrix connecting different sets of the Jacobi coordinates is provided through
  
 \begin{equation}
@@ -827,7 +905,7 @@ A_{\tilde{\gamma}\gamma}\left( {\bf T}^{(kq)} \right) = & \sum_{\lambda_1 \lambd
 \label{trans_coef}
 \end{align}
 
-\subsection{Overlap matrix elements}
+\section{Overlap matrix elements}
 Within the $\left(k, pq \right)$ scheme an overlap matrix element, in particular for the space part $ \phi_{i}^{\gamma}\left(k, pq \right)$ of the basis function, is expressed by
 \begin{equation}
 \langle \phi_{i}^{\gamma}\left(k, pq \right) \vert 
@@ -852,7 +930,7 @@ However, to calculate overlap matrix elements for arbitrary basis functions, for
 \label{me_arb}
 \end{equation}
 one must handle with the scalar product $exp\left(- \rho {\bf x} \cdot {\bf y} \right)$ in  Eq.~(\ref{newBasis}), in which radial and angular parts are mixed. It makes a problem in integration procedure, consequently, mathematical techniques must be applied. There are two tricks to solve this problem.  First is the solution of problem is in expansion of  the exponential function into the partial waves. Another one is in projection of the factor of scalar product into the rotation matrix ${\bf T}$. Both approaches give the same results in calculation of the matrix elements. 
-\subsubsection{By means of the  exponential function expansion}
+\subsection{By means of the  exponential function expansion}
 \label{overlap_by_exp}
 The expansion of exponential function is given by 
 \begin{equation}
@@ -917,11 +995,11 @@ Accordingly, the determinant $\vert {\bf J}^{(kq)} \vert$ is a determinant of th
 \end{align}
 with $\rho_{ij}^{(q)}=\rho_{i}^{(q)}+\rho_{j}^{(q)}$.
 
-\subsubsection{By means of the projection into the ${\bf T}$ matrix}
+\subsection{By means of the projection into the ${\bf T}$ matrix}
 \label{overlap_by_proj}
 In this approach the rotation matrix ${\bf Q}$, projecting the scalar product in the radial part of the wave function, is implemented by
 \begin{equation}
-{\bf Q}_i^{(kq^)}= {\bf T}^{(kq)} \times
+{\bf Q}_i^{(kq)}= {\bf T}^{(kq)} \times
 \begin{pmatrix}
 1 & -\tfrac{\rho^{(q)}_{i}}{\alpha^{(q)}_i} \\ 
 0 & 1
@@ -947,7 +1025,7 @@ A_{\gamma\tilde{\gamma}}\left( {\bf Q}_{ij}^{(kq)} \right)
 Analogously, changing the integration variables is carried out with no factorizations due to the $\vert {\bf Q}_i^{(kq)} \vert = 1$. Notably,   rotation matrix becomes depended on the $ij$ indexes in this approach.
 
 
-\subsection{Normalization and correlation density of the three-body wave function}
+\section{Normalization and correlation density of the three-body wave function}
 Using the overlap matrix elements the normalization of the total three-body wave function is given by
 \begin{align}
 \mathcal{N}^{(k)}= & \langle \Psi^{JM_J} \vert \Psi^{JM_J} \rangle = \sum_{\gamma} \mathcal{N}^{(k)}_{\gamma},    \nonumber \\
@@ -983,13 +1061,12 @@ A_{\gamma\tilde{\gamma}}\left( {\bf Q}_{ij}^{(kq)} \right)
 A correlation density function of the total wave function (\ref{totwf})  can be expressed in the following way
 \begin{align}
 W\left( x_k,y_k \right) =& \sum_{\gamma} W_{\gamma}\left( x_k,y_k \right) \nonumber \\
-W_{\gamma}\left( x_k,y_k \right) =& \sum_{ij} C_i C_j x^{2+2\lambda}_k y^{2+2l}_k exp\left( - \tfrac{1}{2} \alpha^{(k)}_{ij} x_k^2 -  \tfrac{1}{2} \beta^{(k)}_{ij} y_k^2 \right) .
+W_{\gamma}\left( x_k,y_k \right) =& \sum_{ij} C_i C_j x^{2+2\lambda}_k y^{2+2l}_k \text{exp}\left( - \tfrac{1}{2} \alpha^{(k)}_{ij} x_k^2 -  \tfrac{1}{2} \beta^{(k)}_{ij} y_k^2 \right) .
 \end{align}
  
-
 % Please add the following required packages to your document preamble:
 % \usepackage{booktabs}
-\begin{table}[]
+\begin{table}[bp]
 \footnotesize
 \begin{tabular}{@{}ccccc@{}}
 \toprule
@@ -1019,79 +1096,7 @@ $W_{\gamma}\left(x_k,y_k\right)$
 \end{table}
 
 
-\section{Wave function of scattering and bound state}
-
-The model \cite{Kukulin1977} uses three pair pseudo-potentials to describe the three-body system, taking into account forbidden states by the Pauli principle:
-\begin{equation}
-\label{pseudopot}
-\widetilde{V}_{ij}=V_{ij}+\Delta_{ij},
-\end{equation}
-where $V_{ij}$ is  an interaction potential of $(ij)$ subsystem and $\Delta_{ij}=\lambda \Gamma$ is a orthogonalizer with the $\lambda$ constant and with $\Gamma$ projector, which  for  forbidden $f$ state is as follows:
-\begin{equation}
-\label{projector}
-\Gamma=\Gamma(f)=\sum\limits_{m_f}\vert \phi_{fm_f} ({\mathbf x})\rangle \langle  \phi_{fm_f} ({\mathbf x'}) \vert \delta({\mathbf y - \mathbf y'}).
-\end{equation}
-The principle plays a huge role in the structure of the nucleus, which does not allow overlapping of two constituent particles. Thus, the three body pseudo-Hamiltonian including kinetic energy and pseudo potentials looks like this
-\begin{equation}
-\label{pseudohamiltonian}
-\widetilde{H}=H_0+\sum_{i < j} \widetilde{V }_{ij}.
-\end{equation}
-The trial function is given in the form:
-\begin{equation}
-\Psi_{JM_J TM_T}=\sum_{\imath=1}^N C_{\imath} \varphi_{\imath}^{{\gamma}}(1,23)
-\end{equation}
-with expansion coefficients $C_{\imath}$ and  dimension $N$. A basis function $\varphi_{\imath}^{\widetilde{\gamma}}(i,jk)$ is taken by a product of space, spin and isospin parts
-\begin{equation}
-\label{basisfunction}
-\varphi_{\imath}^{{\gamma}}(i,jk)=[   \Phi^{\lambda,l}_L(i,jk) \times \chi_S^s(i,jk)   ]_{JM_J} \tau^t_{TM_T}(i,jk),
-\end{equation}
-where ${{\gamma}}$ is a set containing all of moments. Spatial part $\Phi^{\lambda,l}_L(i,jk)$  is constructed with the Gaussian
-\begin{equation}
-\Phi^{\lambda,l}_L(i,jk)=x^{\lambda}_iy^{l}_i \exp(-\alpha x^2_i-\beta y^2_i)[Y_\lambda(\widehat{x}) \times Y_l(\widehat{y})]_{LM_L},
-\end{equation} 
-where $\lambda$ is a orbital moment of the $jk$ pair   conjugated to the $x$ Jacobi coordinate, while $l$ is the moment of  $i$ spectator conjugated to the $y$ relative coordinate (see Fig. 1) and $\alpha$, $\beta$ are non linear parameters.
-
-
-The basis function \eqref{basisfunction} is convenient for the ability to convert into other sets of relative Jacobi coordinates. In particular, in the spatial part a transformation of the  set $i$ set into the set $j$  is
-\begin{equation}
-\label{basistransfortmation}
-\Phi^{\lambda,l}_L(i,jk)=\sum_{\widetilde{\gamma}} A_{\Omega}^{j \leftarrow i}  \Phi^{\widetilde{\lambda},\widetilde{l}}_L(j,ki),
-\end{equation}
-where the sum is constrained by $\lambda+l=\widetilde{\lambda}+\widetilde{l}$  condition. A recouple coefficient $A_{\Omega}^{j \leftarrow i}$ with rotation matrix $\Omega_{j \leftarrow i}$ is
-\begin{equation}
-\begin{gathered}
- A_{\Omega}^{j \leftarrow i} =(-1)^{\lambda+l}  \sum_{\lambda_1, \lambda_2, l_1, l_2}
-  \Omega^{\lambda_1}_{11}
-  \Omega^{\lambda_2}_{12}
-   \Omega^{l_1}_{21}
-    \Omega^{l_2}_{22}
-   \sqrt{\frac{ [\lambda]! [l]! [\lambda] [l] [\lambda_1] [\lambda_2] [l_1] [l_2] [\widetilde{\lambda}] [\widetilde{l}]  }{   [\lambda_1]!   [\lambda_2]! [l_1]!  [l_2]!  }       }  \times\\
- \begin{pmatrix}
- \lambda_1 & \lambda_2 & {\lambda} \\ 
- 0 & 0 & 0
- \end{pmatrix} 
- \begin{pmatrix}
- l_1 & l_2 & {l} \\ 
- 0 & 0 & 0
- \end{pmatrix} 
- \begin{pmatrix}
- \lambda_1 & \lambda_2 & \lambda \\ 
- l_1 & l_2 & l \\ 
- \widetilde{\lambda} & \widetilde{l} & L
- \end{pmatrix} ,
- \end{gathered}
-\end{equation}
-where $[x]$ = $2x+1$, $ \begin{pmatrix}
- j_1 & j_2 & j_3 \\ 
- m_1 & m_2 & m_3
- \end{pmatrix}  $ and $\begin{pmatrix}
- j_1 & j_2 & j_3 \\ 
- j_4 & j_5 & j_6 \\ 
- j_7 & j_8 & j_9
- \end{pmatrix} $ are the Wigner 3-j and 9-j symbols consequently. \\
-
-
-\section{Matter  density distribution}
+\section{The density distribution function of nuclear matter}
 
 An operator of matter density distribution of the three body system takes the sums of all three clusters and brings it from the center of  system mass 
 \begin{equation}
@@ -1167,46 +1172,52 @@ where $y_0=\frac{m_j+m_k}{m_i+m_j+m_k}$, $ i_k(x)$ - modified spherical Bessel f
 
 \chapter{Results and discussions}
 \section{The d+$^9$Be nuclear reactions}
-The cluster structure of nuclei arises from a correlated motion of nucleons inside a nucleus. In this regime, a simple subgroup of nucleons can be considered as a single particle.
-This kind of behaviour can give insights into and better understanding of certain characteristics of the nucleus, as well as affect the processes of nuclear reactions. 
-Investigation  of the cluster structure in nuclei is still a priority in modern nuclear physics strongly driven by intensive developments of experimental devices.\\
 
-There are many stable nuclei in the $p$, $sd$ and $pf$ shells exhibiting a cluster structure, but $^9$Be is particularly worthy of attention due to the following reasons: \begin{itemize}
-\item[$-$] a stable nucleus with low binding energies of neutron S$_n$=1.665 MeV, and $\alpha$-particle S$_\alpha$=2.462 MeV \cite{separationneutron}; 
-\item[$-$] the deformed shape reflected in the nuclear quadrupole moment, Q$=+52.9 $ mb \cite{quadrupole}; 
-\item[$-$]  the Borromean structure of the ground state;
-%\item[$-$] the significant large ratio of neutrons to protons number.
-\end{itemize}
-These aspects led to take $^9$Be as a subject for fundamental  as well as applied research  studies.
-% Especially the latter characteristics play important role in nuclear reactor devices as a neutron moderator or  a reflector.
+\subsection*{The elastic channel}
+The DF potential was calculated using the effective M3Y-Paris nucleon-nucleon potential and the nuclear-matter-densities of projectile and target nuclei. In order to calculate the ${}^9$Be matter distribution we applied the $\alpha+\alpha+n$ three-body model (for more details, see Ref.~\cite{urazbekov2016}), while the matter density distribution of the deuteron projectile was chosen to be of the form
+\begin{equation}
+\rho\left( \frac{1}{2}r \right) =\int \vert \Psi (\textbf{r}) \vert ^2 d \Omega_r.
+\end{equation}
 
-Regarding nuclear technologies, $^9$Be is a good wall material in thermonuclear devices \cite{kukulin2010, seksembayev2018}.
-%As a rule of thumb low Z nuclei, such as $^9$Be, to have an efficient fusion fuel burning the value of admixtured material needs to be high.
-%As a rule of thumb, in order to have an efficient fusion fuel burning the maximum permissible value of the admixture of wall material can be provided by low Z nuclei. %, such as $^9$Be.
-%The reason is in the fact that radiation losses are caused mainly by the electronic component of the fuel and the contribution of electrons of non-fuel nuclei depends directly on their Z numbers.
-For instance, for fusion-type devices a value of some dozens of percent  of $^9$Be is expected in the soft wall material \cite{seksembayev2018}.
-The $^9$Be nucleus has been chosen as it represents the best compromise based  on its characteristic to split by using $\gamma$'s and $e^-$'s into two energetic $\alpha$-particles, which are efficient promoters of thermonuclear burning since they can be confined by electromagnetic fields and their energy affects the temperature of the burning zone.
+For convenience, in the OM and CC (CRC) calculations the potentials have been fitted by means of the sum of three Woods-Saxon potentials:
+\begin{eqnarray}
+V^V(R) =  \sum_{i=1}^{3} V^i f^{R_i, a_i}(R), \\
+ f^{R_V,a_V}(R)=\frac{1}{1+exp{\frac{R-R_V}{a_V}}}.
+\end{eqnarray}
 
-Scattering of the simplest projectiles, such as ${}^{1,2}$H or ${}^{3,4}$He, off a target is a standard tool for fundamental study of the structure of nuclei. This method involves measuring the angular distributions of the nuclear reaction products. It is well known that the energies and angular distributions of projectile-like particles give information about the internal structure of target-like nuclei.
-	
-In our previous works \cite{lukyanov2014, lukyanov2015, janseitov2018}, the ${}^3$He interaction with ${}^9$Be was studied and angular distributions of the reaction products in the following exit channels: ${}^3$He+$^9$Be, ${}^5$He+$^7$Be, ${}^5$Li+$^7$Li, ${}^6$Be+$^6$He, and ${}^6$Li+$^6$Li, were measured. The obtained data were analysed within the framework of the optical-model (OM), the coupled-channel (CC) and the distorted-wave Born approximation (DWBA) approaches. The performed analysis of the experimental data showed sensitivity of the cross sections on the potential parameters in the exit channels. Moreover, these experiments were designed to study the breakup reactions with ${}^9$Be in an attempt to determine contributions of the channels with the ${}^8$Be+n  and  ${}^5$He+$\alpha$ structure to the inclusive measurements. It was found that these two channels contribute in the ratio of 2.7~to~1, respectively. The determined value justifies that the ${}^5$He+$\alpha$ breakup channel plays an important role as well.
+The parameters of the imaginary part of the optical potential were obtained by fitting the theoretical cross sections to the experimental data at 19.5 MeV and 35 MeV incident energies. As a starting point, the same parameterizations of the real part were used. The obtained potential parameters after fitting are listed in Table~\ref{dbe_potpar} for both 19.5 MeV and 35.0 MeV incident energies.
 
-Based on the Borromean structure of ${}^9$Be, special attention was focused on the breakup processes resulting from the ${}^9$Be($^6$Li, ${}^6$Li$^\prime$)$^9$Be$^*$ nuclear reaction \cite{brown2007, papka2007}. The excited nucleus ${}^9$Be$^*$ can decay either directly into the $\alpha+\alpha+n$ three-body system or through one of the unstable nuclei, such as ${}^5$He and ${}^8$Be. These relatively recent experimental studies explicitly confirm the cluster structure of ${}^9$Be.
-The calculated branching ratios show that the low-lying excited states, at E$_x <$~4.0 MeV, are mostly populated with the ${}^8$Be+n configuration. In other conditions, the ${}^5$He+$\alpha$ configuration plays a significant  role.
+\begin{figure}[tp]
+\centering
+\includegraphics[width=8.2cm]{dbe_fig3.pdf}
+\caption{ \label{dbe_fig3} \footnotesize The angular distribution of elastic scattering data of $d$ from ${}^9$Be at laboratory energy 19.5~MeV in comparison with theoretical calculations within the OM (solid curve). }
+\end{figure}
 
-Another aspect of finding the cluster structure is its  effect on the nuclear reaction mechanisms. Indeed, since the papers of Detraz \textit{et al}~\cite{detraz1970, detraz1974}, the multi-particle-multi-hole structures have been expected at rather low excitation energies in nuclei. In such a case, it can be understood that the correlated nucleons are transferred as a whole strongly correlated cluster, which has the internal quantum numbers of a free particle.
-
-The interaction of deuteron and alpha particles with ${}^9$Be was studied with regard to the cluster structure \cite{urazbekov2016, urazbekov2017}. The interaction potential of colliding nuclei was built within the framework of the double-folding model using the three-body wave function. Tests of the double-folded potential were carried out within the OM and DWBA at laboratory energies $~$10-30 MeV/nucleon. The good agreement obtained in comparison of theoretical cross sections with experimental data led to application of the double-folding potential based on the three-body wave function to study of reactions on $^9$Be.
-
-\subsection{d+$^9$Be $\rightarrow$ d+$^9$Be}
-The parameters of the imaginary part of the optical potential were obtained by fitting the theoretical cross sections to the experimental data at 19.5 MeV and 35 MeV incident energies. As a starting point, the same parameterizations of the real part were used. The obtained potential parameters after fitting are listed in Table~\ref{potpar} for both 19.5 MeV and 35.0 MeV incident energies.
-
-The comparison of the results of the theoretical calculations with  the measured data for elastic scattering at 19.5 MeV and 35.0 MeV energies are plotted in Fig.~\ref{fig3}. 
+The comparison of the results of the theoretical calculations with  the measured data for elastic scattering at 19.5 MeV and 35.0 MeV energies are plotted in Fig.~\ref{dbe_fig3}. 
 The cross sections obtained in the framework of the OM with the DF potential are shown as solid curves. 
-Theoretical results obtained by means of the OM give an excellent agreement, $\chi^2\approx2.5$, with the experimental data. The  parameters of  parameterized double-folding potential are listed in Table \ref{potpar}. 
+Theoretical results obtained by means of the OM give an excellent agreement, $\chi^2\approx2.5$, with the experimental data. The  parameters of  parameterized double-folding potential are listed in Table \ref{dbe_potpar}. 
 
-\subsection{d+$^9$Be $\rightarrow$ d+$^9$Be$^*$}
+\begin{table*}[bp]
+\footnotesize
+\caption{\label{dbe_potpar} Parameterized double-folding potentials of the $d$+$^9$Be system used in the OM, CC and DWBA calculations.}
+\begin{tabular*}{\textwidth}{ll@{\extracolsep{\fill}}llllllllll}
+\toprule
+E$_d$, & i & V$_0$, & r$_v^{a}$, & a$_v$, & W$_0$, & r$_w^{a}$, & a$_w$, & V$_0^{SO}$, & N$_R$, & r$_C^{a}$, & $\chi^2/N$ \\
+MeV   &   & MeV   & fm    & fm    & MeV   & fm    & fm    & MeV        &       & fm   						& \\ \midrule
+19.5  & 1 & 6.18  & 0.328 & 0.308 & 3.99  & 0.328 & 0.127 & 3.275      & 1.22  & 0.809 			& 	2.490	\\
+      & 2 & 70.97 & 0.746 & 0.831 & 25.50 (17.5$^{b}$) & 0.746 & 0.766 &            &       &    						&   \\
+      & 3 & 0.605 & 1.491 & 1.724 & 0.924 & 1.491 & 2.238 &            &       &   							&    \\ \midrule
+35.0  & 1 & 5.941 & 0.328 & 0.308 & 7.07  & 0.612 & 0.108 & 3.275      & 1.17  & 0.809 			&	2.503\\
+      & 2 & 68.68 & 0.746 & 0.831 & 22.50 (17.5$^{b}$)& 0.838 & 0.731 &            &       &       						&\\
+      & 3 & 0.58  & 1.491 & 1.724 & 0.999 & 1.377 & 1.856 &            &       &      							& \\ \bottomrule
+\end{tabular*}
+\scriptsize
+$^{a}$ Radii are defined as $R_i = r_i \left( A^{1/3}_P+A^{1/3}_T \right)$.  \\
+$^{b}$ The values are used in CRC calculations. \\
+\end{table*}
 
+
+\subsection*{Inelastic scattering}
 The CC and DWBA approaches have been applied to analyse the measured inelastic scattering data corresponding to the ${}^9$Be($5/2^-, 2.43$ MeV) excitation. Calculations were performed employing the FRESCO code \cite{fresco} and the DWUCK5 code \cite{kunz} which are available in the NRV knowledge-base \cite{nrv}.
 
 In order to describe the measured experimental data one has to consider the ${}^9$Be target having a quadrupole deformation. Thus, the ${}^9$Be spectrum consists of the rotational band including the  $3/2^-$ ground state, $5/2^-$ state at 2.43 MeV and $7/2^-$ state at 6.38 MeV. Couplings to these states were taken into account within the coupled-channel approach. The spin reorientations were also taken into account. The coupling interaction has the usual form:
@@ -1215,27 +1226,53 @@ V_\lambda(R)=-\beta_\lambda R_V \left|\frac{d V^V}{dR}\right| - i \beta_\lambda 
 \end{equation}
 where $\beta_\lambda$ is the deformation parameter of $\lambda$ multipole describing the target-nucleus form. Here, we neglect as usual the contribution of the Coulomb interaction.
 
+\begin{figure}[tp]
+\centering
+\includegraphics[width=8.2cm]{dbe_fig4.pdf}
+\caption{\label{dbe_fig4}The cross sections of inelastic scattering ${}^9$Be($d,d$)$^9$Be* (E$_{exc}$=2.43 MeV) at laboratory energies 19.5 MeV (full circle) and 35 MeV (full triangle). Theoretical curves are described in the text.}
+\end{figure} 
 
-The calculated cross sections for inelastic scattering to the $5/2^-$ state at 2.43 MeV are shown in Fig.~\ref{fig4}. The solid curves correspond to the results obtained within the CC approach, while the dashed and dotted curves were obtained within the DWBA approach using  different values of the deformation parameter $\beta_2$. The used potential parameters are listed in Table~\ref{potpar}.
 
-All the results in Fig.~\ref{fig4} are in good agreement with the experimental data, except for the cross sections around 60$^\circ$ at 19.5 MeV incident energy. The quadrupole deformation parameter $\beta_2 = 0.64$ extracted within the coupled-channel model is consistent with the previous studies \cite{lukyanov2014, harakeh1980}.
+\begin{figure}[tp]
+\centering
+\includegraphics[scale=0.85]{dbe_fig5.pdf}
+\caption{ \label{dbe_fig5} The target coupling schemes in the ${}^9$Be($d,p$)$^{10}$Be (upper) and the ${}^9$Be($d,t$)$^8$Be (lower) nuclear reactions. The bold two-headed arrows indicate E$\lambda$ transitions. The spin re-orientation effects are indicated as back-pointing arrows.}
+\end{figure} 
 
-In the case of DWBA calculations, one uses the DF potential (see Table~\ref{potpar}) for both the entrance and the exit channels. The DWBA angular distributions very well reproduce the structure of experimental data but clearly underestimate them when the deformation parameter $\beta_2 = 0.64$ is used (see the dotted curves in Fig.~\ref{fig4}). In order to get the best fit the deformation parameter must be increased up to $\beta_2 = 0.93$, which is quite close to the values reported in previous studies (see, for example, \cite{bodek1989, votava1973}).
+The calculated cross sections for inelastic scattering to the $5/2^-$ state at 2.43 MeV are shown in Fig.~\ref{dbe_fig4}. The solid curves correspond to the results obtained within the CC approach, while the dashed and dotted curves were obtained within the DWBA approach using  different values of the deformation parameter $\beta_2$. The used potential parameters are listed in Table~\ref{potpar}.
 
+
+All the results in Fig.~\ref{dbe_fig4} are in good agreement with the experimental data, except for the cross sections around 60$^\circ$ at 19.5 MeV incident energy. The quadrupole deformation parameter $\beta_2 = 0.64$ extracted within the coupled-channel model is consistent with the previous studies \cite{lukyanov2014, harakeh1980}.
+
+In the case of DWBA calculations, one uses the DF potential (see Table~\ref{dbe_potpar}) for both the entrance and the exit channels. The DWBA angular distributions very well reproduce the structure of experimental data but clearly underestimate them when the deformation parameter $\beta_2 = 0.64$ is used (see the dotted curves in Fig.~\ref{dbe_fig4}). In order to get the best fit the deformation parameter must be increased up to $\beta_2 = 0.93$, which is quite close to the values reported in previous studies (see, for example, \cite{bodek1989, votava1973}).
 
 Thus, one may confirm that channel coupling and the effects of spin reorientation enhance the cross section that results in the reduction of the deformation parameter. However, the DWBA approach takes into account only first-order contributions to the transition amplitude. In particular, it also describes only general features of the angular distributions and overestimates the deformation parameter in order to compensate the difference between the experimental data and the DWBA cross sections.
 
-\subsection{d+$^9$Be $\rightarrow$ p+$^{10}$Be and d+$^9$Be $\rightarrow$ t+$^{8}$Be}
+\subsection*{One-nucleon transfer reactions }
 
 The one-neutron pick-up ${}^9$Be($d,t$)${}^8$Be and stripping ${}^9$Be($d,p$)${}^{10}$Be reactions were analyzed here within the framework of  the Coupled Reaction Channels (CRC).
 
-The double-folding potential given in Table \ref{potpar} was used in the CRC calculations for the entrance channel and the global optical parameterizations from Ref. \cite{globalProton, globalTriton} were used for the exit channels. The coupling schemes of target and daughter nuclei for the ${}^9$Be($d,p$)${}^{10}$Be and ${}^9$Be($d,t$)${}^8$Be  reactions  are illustrated in Fig. \ref{fig5}. The states of ${}^{10}$Be, $2^+_{1}$ and $2^+_{2}$, as well as the low-lying excited states of ${}^8$Be, $2^+$ and $4^+$, were included in the coupling scheme. Also, the schemes take into account the spin reorientations of states on the condition $J \neq 0$.
+The double-folding potential given in Table \ref{dbe_potpar} was used in the CRC calculations for the entrance channel and the global optical parameterizations from Ref. \cite{globalProton, globalTriton} were used for the exit channels. The coupling schemes of target and daughter nuclei for the ${}^9$Be($d,p$)${}^{10}$Be and ${}^9$Be($d,t$)${}^8$Be  reactions  are illustrated in Fig. \ref{dbe_fig5}. The states of ${}^{10}$Be, $2^+_{1}$ and $2^+_{2}$, as well as the low-lying excited states of ${}^8$Be, $2^+$ and $4^+$, were included in the coupling scheme. Also, the schemes take into account the spin reorientations of states on the condition $J \neq 0$.
 
 In order to construct the bound-state wave functions of the transferred particle in the entrance and exit channels, the common method, i.e. fitting the depth of the corresponding Woods-Saxon potential to the known binding energy, was employed. The reduced radius and diffuseness in this case are set to be $r = 1.25$ fm and $a$ = 0.65 fm, respectively. If the transfer takes place to a final unbound state, the depth of the potential for this state was adjusted to yield a binding energy equal to $-0.1$ MeV in accordance with the procedure used in Ref. \cite{harakeh1980}.
+
+\begin{figure}[tp]
+\centering
+\includegraphics[scale=0.8]{dbe_fig6.pdf}
+\caption{\label{dbe_fig6} Differential cross sections for the ${}^9$Be($d,p$)${}^{10}$Be$^*$ reactions at 19.5 MeV leading to different final states (labelled in the figure) in ${}^{10}$Be. The experimental data are shown in comparison with theoretical results obtained within the CRC method.}
+\end{figure}
 
 If the core and the composite nuclei have internal excitation energies, a renewed binding energy $BE^{\star}$ of the transferred particle is expressed by the formula:
 \begin{equation} BE^{\star}=BE - E_{com}^*+E_{core}^* \end{equation}
 where $BE$ $-$ the binding energy of the transferred particle, $E_{com}^*,~E_{core}^*~-$  excitation energies of the composite and  core nuclei, respectively.
+
+\begin{figure}[tp]
+\centering
+\includegraphics[scale=0.7]{dbe_fig7.pdf}
+\caption{
+\label{dbe_fig7}
+Differential cross sections for the ${}^9$Be($d,t$)${}^{8}$Be$^*$ reactions at 19.5 and 35 MeV leading to different final states (labelled in the figure) in ${}^{8}$Be. The experimental data are shown in comparison with  theoretical results obtained within the CRC method.}
+\end{figure}
 
 The spectroscopic amplitude  $\mathcal{S}$ for the addition of a particle to a core with angular momentum $J_{core}$ to form a composite with $J_{com}$ is related to the matrix element of the creation operator~$\hat{a}^\dagger$:
 %\cite{brown2017}:
@@ -1243,16 +1280,70 @@ The spectroscopic amplitude  $\mathcal{S}$ for the addition of a particle to a c
 \mathcal{S}_{Nlj} = \frac{\langle J_{com} \| \hat{a}^\dagger _{Nlj} \| J_{core}  \rangle}{\sqrt{2J_{com}+1}}
 %= (-)^{j+J-J'} \frac{\langle J_{core}  \| \hat{a} _{NL_J} \| J_{com}  \rangle}{\sqrt{2J+1}}
 \end{eqnarray}
-where $Nlj$ is the set of particle quantum numbers. The spectroscopic amplitudes for one particle states were calculated by means of the $ANTOINE$ code \cite{antoine}  using the effective Cohen-Kurath interaction for $p$-shell nuclei \cite{cohen1965}. The calculated spectroscopic amplitudes for the one-nucleon transfer reactions are listed in Table~\ref{SA}.
+where $Nlj$ is the set of particle quantum numbers. The spectroscopic amplitudes for one particle states were calculated by means of the $ANTOINE$ code \cite{antoine}  using the effective Cohen-Kurath interaction for $p$-shell nuclei \cite{cohen1965}. The calculated spectroscopic amplitudes for the one-nucleon transfer reactions are listed in Table~\ref{dbe_SA}.
 
+\begin{table*}[tp]
+\footnotesize
+\caption{\label{dbe_SA} Spectroscopic amplitudes used in CRC calculations for the Composite = Core + Nucleon system. The one-nucleon spectroscopic amplitudes have been calculated by means of the $ANTOINE$ code \cite{antoine}. The alpha spectroscopic amplitudes were taken from  \cite{volya, volya2017}. }
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llllllrl@{\extracolsep{\fill}}llllllr@{\extracolsep{\fill}}}
+\toprule
+Com & 2J$_{1}$ & Core & 2J$_{2}$ & N & 2J & SA &    & Com & 2J$_{1}$ & Core & 2J$_{2}$ & N & 2J & SA      \\
+\midrule 
+$^9$Be  & 3  & ${}^8$Be   & 0   & $n$       & 3   & $-$0.761 &  & ${}^9$Be  & 3  & ${}^8$Li   & 2$_1$    & $p$       & 1   & $-$0.444  \\
+$^9$Be  & 3  & ${}^8$Be   & 4   & $n$       & 3   & 0.816  &  & ${}^9$Be  & 3  & ${}^8$Li    & 6   & $p$       & 3   & $-$0.592  \\
+$^9$Be  & 3  & ${}^8$Be   & 4   & $n$       & 1   & $-$0.242 &  & ${}^9$Be  & 3  & ${}^8$Li    & 2$_2$   & $p$       & 3   & $-$0.236  \\
+$^9$Be  & 5  & ${}^8$Be   & 4   & $n$       & 3   & 0.986  &  & ${}^9$Be  & 3  & ${}^8$Li    & 2$_2$   & $p$       & 1   & 0.036   \\
+$^9$Be  & 5  & ${}^8$Be   & 4   & $n$       & 1   & $-$0.417 &  & ${}^9$Be  & 5  & ${}^8$Li    & 4   & $p$       & 3   & 0.593   \\
+$^9$Be  & 5  & ${}^8$Be   & 8   & $n$       & 3   & $-$0.374 &  & ${}^9$Be  & 5  & ${}^8$Li    & 4   & $p$       & 1   & 0.515   \\
+$^9$Be  & 7  & ${}^8$Be   & 4   & $n$       & 3   & $-$0.457 &  & ${}^9$Be  & 5  & ${}^8$Li   & 2$_1$    & $p$       & 3   & $-$0.672  \\
+$^9$Be  & 7  & ${}^8$Be   & 8   & $n$       & 3   & 0.919  &  & ${}^9$Be  & 5  & ${}^8$Li    & 6   & $p$       & 3   & $-$0.571  \\
+$^9$Be  & 7  & ${}^8$Be   & 8   & $n$       & 1   & $-$0.429 &  & ${}^9$Be  & 5  & ${}^8$Li    & 6   & $p$       & 1   & $-$0.171  \\
+$^8$Be  & 0  & ${}^7$Li   & 3   & $p$       & 3   & $-$1.204 &  & ${}^9$Be  & 5  & ${}^8$Li    & 2$_2$   & $p$       & 3   & 0.200     \\
+$^8$Be  & 0  & ${}^7$Li   & 1   & $p$       & 1   & 0.736  &  & ${}^9$Be  & 7  & ${}^8$Li    & 4   & $p$       & 3   & $-$0.323  \\
+$^8$Be  & 4  & ${}^7$Li   & 3   & $p$       & 3   & $-$0.748 &  & ${}^9$Be  & 7  & ${}^8$Li    & 6   & $p$       & 3   & $-$0.899  \\
+$^8$Be  & 4  & ${}^7$Li   & 3   & $p$       & 1   & $-$0.612 &  & ${}^9$Be  & 7  & ${}^8$Li    & 6   & $p$       & 1   & $-$0.564  \\
+$^8$Be  & 4  & ${}^7$Li   & 1   & $p$       & 3   & 0.667  &  & ${}^7$Li  & 3  & ${}^6$Li   & 2   & $n$       & 3   & 0.657   \\
+$^8$Be  & 4  & ${}^7$Li   & 7   & $p$       & 3   & 0.624  &  & ${}^7$Li  & 3  & ${}^6$Li   & 2   & $n$       & 1   & $-$0.538  \\
+$^8$Be  & 4  & ${}^7$Li   & 5$_2$   & $p$       & 3   & 0.079  &  & ${}^7$Li  & 3  & ${}^6$Li   & 6   & $n$       & 3   & 0.744   \\
+$^8$Be  & 4  & ${}^7$Li   & 5$_2$   & $p$       & 3   & $-$0.146 &  & ${}^7$Li  & 3  & ${}^6$Li   & 4   & $n$       & 3   & $-$0.032  \\
+$^8$Be  & 8  & ${}^7$Li   & 7   & $p$       & 3   & 0.864  &  & ${}^7$Li  & 3  & ${}^6$Li   & 4   & $n$       & 1   & 0.399   \\
+$^8$Be  & 8  & ${}^7$Li   & 7   & $p$       & 1   & 0.687  &  & ${}^7$Li  & 1  & ${}^6$Li   & 2   & $n$       & 3   & $-$0.925  \\
+$^8$Be  & 8  & ${}^7$Li   & 5$_2$   & $p$       & 3   & 0.374  &  & ${}^7$Li  & 1  & ${}^6$Li   & 2   & $n$       & 1   & 0.197   \\
+$^8$Li  & 4  & ${}^7$Li   & 3   & $n$       & 3   & $-$0.988 &  & ${}^7$Li  & 1  & ${}^6$Li   & 4   & $n$       & 3   & $-$0.555  \\
+$^8$Li  & 4  & ${}^7$Li   & 3   & $n$       & 1   & 0.237  &  & ${}^7$Li  & 7  & ${}^6$Li   & 6   & $n$       & 3   & $-$0.936  \\
+$^8$Li  & 4  & ${}^7$Li   & 1   & $n$       & 3   & 0.430   &  & ${}^7$Li  & 7  & ${}^6$Li   & 6   & $n$       & 1   & 0.645   \\
+$^8$Li  & 4  & ${}^7$Li   & 7   & $n$       & 3   & $-$0.496 &  & ${}^7$Li  & 7  & ${}^6$Li   & 4   & $n$       & 3   & $-$0.456  \\
+$^8$Li  & 4  & ${}^7$Li   & 5   & $n$       & 3   & $-$0.665 &  & ${}^7$Li  & 5$_2$  & ${}^6$Li   & 2   & $n$       & 3   & $-$0.650   \\
+$^8$Li  & 4  & ${}^7$Li   & 5$_2$   & $n$       & 1   & $-$0.275 &  & ${}^7$Li  & 5$_2$  & ${}^6$Li   & 6   & $n$       & 3   & 0.732   \\
+$^8$Li  & 2$_1$  & ${}^7$Li   & 3   & $n$       & 3   & 0.567  &  & ${}^7$Li  & 5$_2$  & ${}^6$Li   & 6   & $n$       & 1   & 0.549   \\
+$^8$Li  & 2$_1$  & ${}^7$Li   & 3   & $n$       & 1   & 0.351  &  & ${}^7$Li  & 5$_2$  & ${}^6$Li   & 4   & $n$       & 3   & 0.200     \\
+$^8$Li  & 2$_1$  & ${}^7$Li   & 1   & $n$       & 3   & 0.905  &  & ${}^7$Li  & 5$_2$  & ${}^6$Li   & 4   & $n$       & 1   & $-$0.114  \\
+$^8$Li  & 2$_1$  & ${}^7$Li   & 1   & $n$       & 1   & 0.331  &  & ${}^6$Li  & 2  & $d$     & 2   & $\alpha$     & 0   & 0.907  \\
+$^8$Li  & 2$_1$  & ${}^7$Li   & 5$_2$   & $n$       & 3   & 0.767  &  & ${}^6$Li  & 2  & $d$     & 2   & $\alpha$     & 4   & 0.077   \\
+$^8$Li  & 6  & ${}^7$Li   & 3   & $n$       & 3   & 0.581  &  & ${}^6$Li  & 6  & $d$     & 2   & $\alpha$     & 4   & 0.943   \\
+$^8$Li  & 6  & ${}^7$Li   & 5$_2$   & $n$       & 3   & $-$0.660  &  & ${}^6$Li  & 6  & $d$     & 2   & $\alpha$     & 8   & 0.028   \\
+$^8$Li  & 6  & ${}^7$Li   & 5$_2$   & $n$       & 1   & $-$0.541 &  & ${}^6$Li  & 4  & $d$     & 2   & $\alpha$     & 4   & 0.929   \\
+$^8$Li  & 6  & ${}^7$Li   & 7   & $n$       & 3   & 0.973  &  & ${}^9$Be  & 3  & ${}^5$He   & 3   & $\alpha$     & 0   & $-$0.925  \\
+$^8$Li  & 6  & ${}^7$Li   & 7   & $n$       & 1   & $-$0.404 &  & ${}^9$Be  & 3  & ${}^5$He   & 3   & $\alpha$     & 4   & 0.784   \\
+$^8$Li  & 2$_2$  & ${}^7$Li   & 3   & $n$       & 3   & $-$0.617 &  & ${}^9$Be  & 5  & ${}^5$He   & 3   & $\alpha$     & 4   & 0.974   \\
+$^8$Li  & 2$_2$  & ${}^7$Li   & 3   & $n$       & 1   & $-$0.841 &  & ${}^9$Be  & 5  & ${}^5$He   & 3   & $\alpha$     & 8   & $-$0.260   \\
+$^8$Li  & 2$_2$  & ${}^7$Li   & 1   & $n$       & 3   & 0.178  &  & ${}^9$Be  & 7  & ${}^5$He   & 3   & $\alpha$     & 4   & 0.882   \\
+$^8$Li  & 2$_2$  & ${}^7$Li   & 1   & $n$       & 1   & 0.331  &  & ${}^9$Be  & 7  & ${}^5$He   & 3   & $\alpha$     & 8   & $-$0.737  \\
+$^8$Li  & 2$_2$  & ${}^7$Li   & 5   & $n$       & 3   & 0.231  &  & ${}^7$Li  & 3  & $t$     & 1   & $\alpha$     & 1   & 0.970       \\
+$^9$Be  & 3  & ${}^8$Li    & 4   & $p$       & 3   & $-$0.947 &  & ${}^7$Li  & 1  & $t$     & 1   & $\alpha$     & 1   & 0.961       \\
+$^9$Be  & 3  & ${}^8$Li    & 4   & $p$       & 1   & $-$0.319 &  & ${}^7$Li  & 7  & $t$     & 1   & $\alpha$     & 3   & 0.952       \\
+$^9$Be  & 3  & ${}^8$Li    & 2$_1$   & $p$       & 3   & 0.454  &  & ${}^7$Li  & 5$_2$  & $t$     & 1   & $\alpha$     & 3   & 0.223  \\
+\bottomrule
+\end{tabular*}
+\end{table*}
 
-
-Angular distributions of the ${}^9$Be($d,p$)${}^{10}$Be nuclear reaction at E$_d$=19.5 MeV are shown in comparison with the theoretical curves  calculated in the framework of the CRC method in Fig. \ref{fig6}.
+Angular distributions of the ${}^9$Be($d,p$)${}^{10}$Be nuclear reaction at E$_d$=19.5 MeV are shown in comparison with the theoretical curves  calculated in the framework of the CRC method in Fig. \ref{dbe_fig6}.
 
 In order to study the couplings of the input  channels, the outputs  were fixed using the deformation parameter of $^8$Be from Ref. \cite{rocca2018}, and for $^{10}$Be from Ref. \cite{harakeh1980}. 
 The direct transition from the ground state is indicated by the dotted line (DWBA). 
 The contributions of the transitions from excited states (CC), and from spin reorientations (SR) are indicated by dashed and solid lines, respectively.
 During the analysis, it was found that spin reorientation has a significant contribution in the $p$ + $^{10}$Be$_{gs}$ channel, especially in the range of 40-60 degrees. 
+
 It is interesting to note that we managed to describe within the CRC method the differential cross section of the ${}^9$Be($d,p$)${}^{10}$Be$_{gs}$ reaction at all scattering angles, including the range 40$^\circ$-60$^\circ$, where they were not covered in Refs. \cite{galanina2012, bodek1989}.
  
 An appreciable contribution of the \begin{small}
@@ -1260,7 +1351,7 @@ $3/2^- \rightarrow 2^+_1,~5/2^- \rightarrow 2^+_1,~7/2^-\rightarrow 2^+_1$
 \end{small} transitions was observed in the $p$~+~$^{10}$Be$_{3.37}$ channel in the entire range of scattering angles. 
 In the cross section of the  $p$~+~$^{10}$Be$_{5.96}$ channel, the theoretical calculation underestimates the experimental data starting from 70$^\circ$. Possibly, other higher excited states of $^9$Be should be taken into account.
 
-Figure \ref{fig7} displays the cross sections of the ${}^9$Be($d,t$)${}^{8}$Be nuclear reaction at both 19.5 MeV and 35 MeV incident energies. As in the case of the ($d,p$) reactions, the ($d,t$) reactions also show the strong channel-coupling effects. We see a manifestation of spin-reorientation effects in the $t$+$^8$Be$_{gs}$ channels and a significant contribution of the  \begin{small}
+Figure \ref{dbe_fig7} displays the cross sections of the ${}^9$Be($d,t$)${}^{8}$Be nuclear reaction at both 19.5 MeV and 35 MeV incident energies. As in the case of the ($d,p$) reactions, the ($d,t$) reactions also show the strong channel-coupling effects. We see a manifestation of spin-reorientation effects in the $t$+$^8$Be$_{gs}$ channels and a significant contribution of the  \begin{small}
 $3/2^- \rightarrow 2^+,~ 5/2^- \rightarrow 2^+,~ 7/2^-\rightarrow 2^+$
 \end{small} transitions in the $t$+$^8$Be$_{3.03}$ channel.
 Disagreements around 30$^\circ$ in the $t$+$^8$Be$_{gs}$ channel for both 19.5 MeV and 35 MeV incident energies and around 60$^\circ$ in the $t$+$^8$Be$_{3.03}$ channel for 19.5 MeV incident energy are possibly caused by the uncertainty in the $t$+$^8$Be interaction potential.
@@ -1268,14 +1359,19 @@ Disagreements around 30$^\circ$ in the $t$+$^8$Be$_{gs}$ channel for both 19.5 M
 Theoretical calculations made within the CRC method show, in general, good agreement with the experimental data for both ($d,p$)  and ($d,t$) reactions.
 The analysis showed strong coupling effects in both entrance and exit channels. The effects of such couplings were also emphasized in Refs. \cite{harakeh1980, rudchik2016}.
 
-
-\subsection{d+$^9$Be $\rightarrow \alpha$ +$^{7}$Li}
-
-Differential cross sections for the nuclear reaction ${^9}$Be($d,\alpha$)${}^7$Li are of particular interest. This is due to the specific behaviour of the cross section at large scattering angles, which indicates a ${}^5$He cluster transfer. In addition, the cross section calculated within the DWBA approach underestimates the data even at forward scattering angles. Therefore, in order to understand the difference between theory and experiment, the following transfer mechanisms are suggested (see Fig. \ref{fig9}):
+\subsection*{Cluster-transfer reaction}
+Differential cross sections for the nuclear reaction ${^9}$Be($d,\alpha$)${}^7$Li are of particular interest. This is due to the specific behaviour of the cross section at large scattering angles, which indicates a ${}^5$He cluster transfer. In addition, the cross section calculated within the DWBA approach underestimates the data even at forward scattering angles. Therefore, in order to understand the difference between theory and experiment, the following transfer mechanisms are suggested (see Fig. \ref{dbe_fig9}):
 \begin{itemize}
 \item[$-$] direct transfer of heavy clusters $d$ and ${}^5$He;
 \item[$-$] sequential two-step transfer of $n$-$p$, $p$-$n$, $n$-$\alpha$ and $\alpha$-$n$;
 \end{itemize}
+
+
+\begin{figure}[tp]
+\centering
+\includegraphics[width=8.2cm]{dbe_fig9.pdf}
+\caption{\label{dbe_fig9} The scheme illustrates the reaction mechanisms taken into account in CRC calculations of the cross sections for ${}^9$Be($d,\alpha$)${}^7$Li reaction.}
+\end{figure}
 
 
 The resulting differential cross section for the ${^9}$Be($d$,$\alpha$)${}^7$Li reaction has the form of a coherent sum of two amplitudes
@@ -1293,38 +1389,50 @@ f_{II}(\theta)=f_{d}(\theta) + f_{n\textrm{-}p}( \theta) + f_{p\textrm{-}n}(\the
 corresponds to the deuteron pick-up and sequential two-step transfer of $n$-$p$ and $p$-$n$.
 
 
+\begin{figure*}[tp]
+\centering
+\includegraphics[scale=0.8]{dbe_fig8.pdf}
+\caption{ Differential cross sections for the ${}^9$Be($d$,$\alpha$)${}^7$Li reactions measured at 19.5 MeV and 35 MeV energy with the ${}^{7}$Li observed in the ground or low-lying excited states in the exit channels.}
+\label{dbe_fig8}
+\end{figure*}	
 
-The DF potential (see Table~\ref{potpar}) for the entrance channel and global optical potential parameterizations from Refs. \cite{globalTriton, globalAlpha, global6Li} for intermediate and exit channels were used in the analysis.
+
+The DF potential (see Table~\ref{dbe_potpar}) for the entrance channel and global optical potential parameterizations from Refs. \cite{globalTriton, globalAlpha, global6Li} for intermediate and exit channels were used in the analysis.
 The prior form for the first coupling and the post form for the second coupling were chosen for two-step transfer reactions in order to avoid the non-orthogonal terms in the calculations of transition amplitudes.
 
-The spectroscopic amplitudes of the $d$ and ${}^5$He clusters were taken from Ref. \cite{fiveSA}, while the alpha-cluster spectroscopic amplitudes given in Table~\ref{SA} were provided by Dr. A. Volya within the method reported in Ref. \cite{volya2017}.
+%Important ingredients of the CRC method are the spectroscopic amplitudes of the composite configurations in the entrance, exit and intermediate states. In order to calculate the one nucleon spectroscopic amplitudes we applied the \textit{ANTOINE} code \cite{antoine} that reproduces the excitation functions of all p-shell nuclei well.
 
-The calculated cross sections are shown in Fig.~\ref{fig8} with the $\alpha$-particle angular distributions formed in the ${}^9$Be(d,$\alpha$)${}^7$Li$^*$ reaction at incident energies of 19.5 and 35 MeV and corresponding to the low-lying excitation of the ${}^7$Li nucleus in the exit channels. The transfer of the deuteron (dash-dotted curve) provides the dominant contribution in all the channels. Despite the fact that the spectroscopic amplitude of the deuteron $\mathcal{S}_{1{D}_3}=0.558$ in the ${}^9$Be nucleus is not of great importance, a noticeable cross section is due to the large value of the deuteron spectroscopic amplitude $\mathcal{S}_{1{S}_1}=1.732$  of ${}^4$He.
+The spectroscopic amplitudes of the $d$ and ${}^5$He clusters were taken from Ref. \cite{fiveSA}, while the alpha-cluster spectroscopic amplitudes given in Table~\ref{dbe_SA} were provided by Dr. A. Volya within the method reported in Ref. \cite{volya2017}.
+
+The calculated cross sections are shown in Fig.~\ref{dbe_fig8} with the $\alpha$-particle angular distributions formed in the ${}^9$Be(d,$\alpha$)${}^7$Li$^*$ reaction at incident energies of 19.5 and 35 MeV and corresponding to the low-lying excitation of the ${}^7$Li nucleus in the exit channels. The transfer of the deuteron (dash-dotted curve) provides the dominant contribution in all the channels. Despite the fact that the spectroscopic amplitude of the deuteron $\mathcal{S}_{1{D}_3}=0.558$ in the ${}^9$Be nucleus is not of great importance, a noticeable cross section is due to the large value of the deuteron spectroscopic amplitude $\mathcal{S}_{1{S}_1}=1.732$  of ${}^4$He.
 
 The angular distribution of deuteron transfer has a significant cross section also at the backward scattering angles, which is mainly caused by the contribution of the $D$ wave. This symmetrical behaviour of the cross section of $D$ waves is very similar to the cross section of evaporation residues. Tanaka \textit{et al} \cite{tanaka1978} analyzed the role of the compound process in ${}^9$Be($d,\alpha$)${}^7$Li reaction and claimed the domination of the compound nucleus channels at the energies of 12.17 MeV and 14.43 MeV. However, in Ref. \cite{bodek1989} the negligible contribution of the compound-nucleus mechanism was shown at 7 MeV using the DWBA analysis. In this regard, our theoretical results based on the CRC method show that there is no need to take into account the mechanism through the compound-nucleus formation at energies of 19.5 and 35.0 MeV.
 
-Starting from scattering angle $\theta_{c.m.} =$ 120$^\circ$, the transfer of the ${}^5$He cluster, labeled as ${}^5$He in Fig. \ref{fig8}, has a predominant contribution in all channels. It should be noted that a similar result was reported earlier in Ref. \cite{bodek1989}. One-step transfer of the ${}^5$He cluster was also indicated as a dominant process by Jarczyk \textit{et~al} \cite{jarczyk1996} in studying the ${}^{12}$C(${}^{11}$B,${}^6$Li)${}^{17}$O and ${}^{12}$C($d$,${}^7$Li)${}^{7}$Be reactions.
+Starting from scattering angle $\theta_{c.m.} =$ 120$^\circ$, the transfer of the ${}^5$He cluster, labeled as ${}^5$He in Fig. \ref{dbe_fig8}, has a predominant contribution in all channels. It should be noted that a similar result was reported earlier in Ref. \cite{bodek1989}. One-step transfer of the ${}^5$He cluster was also indicated as a dominant process by Jarczyk \textit{et al} \cite{jarczyk1996} in studying the ${}^{12}$C(${}^{11}$B,${}^6$Li)${}^{17}$O and ${}^{12}$C($d$,${}^7$Li)${}^{7}$Be reactions.
 
-Using the CRC method, we are able to estimate the contribution of the sequential transfer of ${}^5$He, which was not studied before. Corresponding cross sections are shown in Fig.~\ref{fig8} as curves labeled $n\alpha$ and $\alpha n$.
+Using the CRC method, we are able to estimate the contribution of the sequential transfer of ${}^5$He, which was not studied before. Corresponding cross sections are shown in Fig.~\ref{dbe_fig8} as curves labeled $n\alpha$ and $\alpha n$.
 It turned out that the $n$-$\alpha$ and $\alpha$-$n$ transfer processes provide indeed a contribution more than one order of magnitude smaller in comparison with the one-step ${}^5$He transfer. Nevertheless, it should be noted that the contribution of the $n$-$\alpha$ and the $\alpha$-$n$ transfer channels increases with the increase in the ${}^7$Li excitation energy, where they should not be ignored.
 
+\begin{figure}%[tp]
+\centering
+\includegraphics[width=8.2cm]{dbe_fig10.pdf}
+\caption{\label{dbe_fig10} The scheme illustrates the energy balance of the different intermediate stages for the two-step mechanisms of ${}^9$Be($d,\alpha$)${}^7$Li transfer reaction. The $Q$-values for the different intermediate channels are shown near the corresponding lines. The numbers near the arrows correspond to the spectroscopic amplitudes of the heaviest reaction participants. For example, spectroscopic amplitude for the ${}^9$Be = ${}^8$Li + $p$ configuration is equal $\mathcal{S} = -0.947$.}
+\end{figure}
 
-The two-step $n$-$p$ transfer is another mechanism providing a noticeable contribution to the cross section. It is due to the prominent cluster structure of the ${}^9$Be nucleus having the weakly bound neutron. This structural feature explains also the weakness of the $p$-$n$ sequential transfer contribution to the cross section corresponding to the ${}^7$Li(g.s.) in the exit channel. However, with increasing the ${}^7$Li excitation energy these two mechanisms are interchanged in the significance of their contributions, as depicted by the curves in Fig.~\ref{fig8}, and the $p$-$n$ transfer begins to play a leading role, providing, in particular, almost 10 times larger contribution in the case of reaction at $E_{lab}$ = 35 MeV with ${}^7$Li$^*$(7.46 MeV) in exit channel.
+The two-step $n$-$p$ transfer is another mechanism providing a noticeable contribution to the cross section. It is due to the prominent cluster structure of the ${}^9$Be nucleus having the weakly bound neutron. This structural feature explains also the weakness of the $p$-$n$ sequential transfer contribution to the cross section corresponding to the ${}^7$Li(g.s.) in the exit channel. However, with increasing the ${}^7$Li excitation energy these two mechanisms are interchanged in the significance of their contributions, as depicted by the curves in Fig.~\ref{dbe_fig8}, and the $p$-$n$ transfer begins to play a leading role, providing, in particular, almost 10 times larger contribution in the case of reaction at $E_{lab}$ = 35 MeV with ${}^7$Li$^*$(7.46 MeV) in exit channel.
 
-In Fig.~\ref{fig10}, the possible scenarios for the $n$-$p$ and $p$-$n$ sequential transfer for the reaction under consideration are shown in respect to the $Q$-values. One may see that all the steps of the $n$-$p$ sequential transfer have positive $Q$-values, while the $p$-$n$ transfer goes through the intermediate channel ${}^8$Li + ${}^3$He that has a considerably negative $Q$-value. Together with the large values of the spectroscopic amplitudes (shown near to the arrows in Fig. \ref{fig10}), this explains the leading role of the ($d,t;t,\alpha$) mechanism in populating the ground state of ${}^7$Li in the exit channel.
+In Fig.~\ref{dbe_fig10}, the possible scenarios for the $n$-$p$ and $p$-$n$ sequential transfer for the reaction under consideration are shown in respect to the $Q$-values. One may see that all the steps of the $n$-$p$ sequential transfer have positive $Q$-values, while the $p$-$n$ transfer goes through the intermediate channel ${}^8$Li + ${}^3$He that has a considerably negative $Q$-value. Together with the large values of the spectroscopic amplitudes (shown near to the arrows in Fig. \ref{dbe_fig10}), this explains the leading role of the ($d,t;t,\alpha$) mechanism in populating the ground state of ${}^7$Li in the exit channel.
 
+\begin{figure}[tp]
+\centering
+\includegraphics[width=8.2cm]{dbe_fig11.pdf}
+\caption{\label{dbe_fig11} Contributions of the different mechanisms to the cross section of the ${}^9$Be($d,\alpha$)${}^7$Li$_{g.s.}$ reaction. See Fig.~\ref{fig9} for explanation of the curve notations.}
+\end{figure}	
 
 The situation becomes quite different in the case of the ${}^7$Li$^*$(5/2$^-$) in the exit channel. First, the population of this state through the $n$-$p$ transfer involves the ${}^9$Be~=~${}^8$Be$^*(2^+)$~+~$n$ intermediate configuration where the ${}^8$Be cluster has to be in the $2^+$ excited state. Note that the ${}^8$Be($0^+$) ground state is inappropriate because of angular-momentum-coupling mismatch in the entrance and exit configurations. Second, the extremely small spectroscopic amplitude of the ${}^8$Be$^*(2^+)$~=~${}^7$Li$^*(5/2^-)$~+~$p$ configuration, which is $\mathcal{S} = 0.079$, influences the transfer amplitude. These two factors lead to the suppression of the contribution of ($d,t;t,\alpha$) mechanism in population of the ${}^7$Li$^*$(5/2$^-$) state in the exit channel. Therefore, the $p$-$n$ sequential transfer prevails over the $n$-$p$ one. 
 
-Figure \ref{fig11} shows the contributions of all the mechanisms mentioned above to the total cross section of the ${}^9$Be($d,\alpha$)${}^7$Li$_{g.s.}$ reaction (see Fig.~\ref{fig9}) as a function of the deuteron energy. One may conclude that mainly four mechanisms contribute to the cross section of this reaction. The transfer of the deuteron-cluster is the predominant channel at all collision energies. The sequential $n$-$p$ and $p$-$n$ transfers play a significant role at the high energies. The ${}^5$He-cluster transfer gives almost 20\% of the cross section at low energies and outdoes the sequential $p$-$n$ transfer in this energy domain. This allows us to claim that the configurations $n+^8$Be and $\alpha+{}^5$He provide noticeable contributions to the ground-state wave function of the ${}^9$Be nucleus. These conclusions agree well with the previous experimental studies \cite{brown2007, papka2007}.
+Figure \ref{dbe_fig11} shows the contributions of all the mechanisms mentioned above to the total cross section of the ${}^9$Be($d,\alpha$)${}^7$Li$_{g.s.}$ reaction (see Fig.~\ref{dbe_fig9}) as a function of the deuteron energy. One may conclude that mainly four mechanisms contribute to the cross section of this reaction. The transfer of the deuteron-cluster is the predominant channel at all collision energies. The sequential $n$-$p$ and $p$-$n$ transfers play a significant role at the high energies. The ${}^5$He-cluster transfer gives almost 20\% of the cross section at low energies and outdoes the sequential $p$-$n$ transfer in this energy domain. This allows us to claim that the configurations $n+^8$Be and $\alpha+{}^5$He provide noticeable contributions to the ground-state wave function of the ${}^9$Be nucleus. These conclusions agree well with the previous experimental studies \cite{brown2007, papka2007}.
 
-\section{The $\alpha$+$^9$Be nuclear reactions}
-\subsection{$\alpha$+$^9$Be $\rightarrow$ $\alpha$+$^9$Be}
-\subsection{$\alpha$+$^9$Be $\rightarrow$ $\alpha$+$^9$Be$^*$}
-
-\section{The $\alpha$+$^6$He nuclear reaction}
-
-\section{The $\alpha$+$^6$Li nuclear reaction}
 
 \chapter{Conclusion}
 %\include{Chapters/Chapter2} 
