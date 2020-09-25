@@ -1,35 +1,36 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
-\contentsline {chapter}{Declaration of Authorship}{iii}{section*.1}%
-\contentsline {chapter}{Abstract}{vii}{section*.2}%
-\contentsline {chapter}{Acknowledgements}{ix}{section*.3}%
-\contentsline {chapter}{\numberline {1}Introduction to nuclear reactions}{1}{chapter.8}%
-\contentsline {section}{\numberline {1.1}Nuclear reactions}{5}{section.9}%
-\contentsline {subsection}{\numberline {1.1.1}Elastic scattering}{5}{subsection.10}%
-\contentsline {subsection}{\numberline {1.1.2}Inelastic scattering}{5}{subsection.11}%
-\contentsline {subsection}{\numberline {1.1.3}Transfer reactions}{5}{subsection.12}%
-\contentsline {section}{\numberline {1.2}Mechanisms of nuclear reactions}{5}{section.13}%
-\contentsline {section}{\numberline {1.3}Cluster phenomenon}{5}{section.14}%
-\contentsline {chapter}{\numberline {2}Some scattering theory}{7}{chapter.15}%
-\contentsline {section}{\numberline {2.1}The description of elastic scattering}{7}{section.16}%
-\contentsline {section}{\numberline {2.2}The coupled channels method for inelastic scattering}{9}{section.29}%
-\contentsline {section}{\numberline {2.3}The coupled-reaction-channels method for the transfer reactions}{11}{section.47}%
-\contentsline {section}{\numberline {2.4}Double folding model}{12}{section.56}%
-\contentsline {section}{\numberline {2.5}Wave function of scattering and bound state}{12}{section.57}%
-\contentsline {section}{\numberline {2.6}Matter density distribution}{14}{section.66}%
-\contentsline {chapter}{\numberline {3}Results and discussions}{17}{chapter.70}%
-\contentsline {section}{\numberline {3.1}The d+$^9$Be nuclear reactions}{17}{section.71}%
-\contentsline {subsection}{\numberline {3.1.1}d+$^9$Be $\rightarrow $ d+$^9$Be}{18}{subsection.72}%
-\contentsline {subsection}{\numberline {3.1.2}d+$^9$Be $\rightarrow $ d+$^9$Be$^*$}{19}{subsection.73}%
-\contentsline {subsection}{\numberline {3.1.3}d+$^9$Be $\rightarrow $ p+$^{10}$Be and d+$^9$Be $\rightarrow $ t+$^{8}$Be}{20}{subsection.75}%
-\contentsline {subsection}{\numberline {3.1.4}d+$^9$Be $\rightarrow \alpha $ +$^{7}$Li}{21}{subsection.78}%
-\contentsline {section}{\numberline {3.2}The $\alpha $+$^9$Be nuclear reactions}{24}{section.82}%
-\contentsline {subsection}{\numberline {3.2.1}$\alpha $+$^9$Be $\rightarrow $ $\alpha $+$^9$Be}{24}{subsection.83}%
-\contentsline {subsection}{\numberline {3.2.2}$\alpha $+$^9$Be $\rightarrow $ $\alpha $+$^9$Be$^*$}{24}{subsection.84}%
-\contentsline {section}{\numberline {3.3}The $\alpha $+$^6$He nuclear reaction}{24}{section.85}%
-\contentsline {section}{\numberline {3.4}The $\alpha $+$^6$Li nuclear reaction}{24}{section.86}%
-\contentsline {chapter}{\numberline {4}Conclusion}{25}{chapter.87}%
-\contentsline {chapter}{\numberline {A}Parameters of the three body wave function}{27}{appendix.88}%
-\contentsline {section}{\numberline {A.1}Hellium-6}{27}{section.89}%
-\contentsline {section}{\numberline {A.2}Lithium-6}{27}{section.90}%
-\contentsline {section}{\numberline {A.3}Berillium-9}{27}{section.91}%
+\contentsline {chapter}{Declaration of Authorship}{i}{section*.1}%
+\contentsline {chapter}{Abstract}{iii}{section*.2}%
+\contentsline {chapter}{Acknowledgements}{iv}{section*.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.14}%
+\contentsline {chapter}{\numberline {2}Theoretical model}{7}{chapter.18}%
+\contentsline {section}{\numberline {2.1}Some aspects from the quantum theory of angular momenta}{7}{section.19}%
+\contentsline {section}{\numberline {2.2}The description of elastic scattering}{9}{section.34}%
+\contentsline {section}{\numberline {2.3}The coupled channels method for inelastic scattering}{11}{section.47}%
+\contentsline {section}{\numberline {2.4}The coupled-reaction-channels method for the transfer reactions}{14}{section.65}%
+\contentsline {section}{\numberline {2.5}The three body wave function}{16}{section.74}%
+\contentsline {subsection}{\numberline {2.5.1}The three-body wave function}{16}{subsection.75}%
+\contentsline {subsection}{\numberline {2.5.2}Transformation of the basis function }{17}{subsection.80}%
+\contentsline {subsection}{\numberline {2.5.3}Overlap matrix elements}{18}{subsection.87}%
+\contentsline {subsubsection}{By means of the exponential function expansion}{19}{section*.92}%
+\contentsline {subsubsection}{By means of the projection into the ${\bf T}$ matrix}{20}{section*.101}%
+\contentsline {subsection}{\numberline {2.5.4}Normalization and correlation density of the three-body wave function}{21}{subsection.105}%
+\contentsline {section}{\numberline {2.6}Wave function of scattering and bound state}{22}{section.112}%
+\contentsline {section}{\numberline {2.7}Matter density distribution}{24}{section.121}%
+\contentsline {chapter}{\numberline {3}Results and discussions}{26}{chapter.125}%
+\contentsline {section}{\numberline {3.1}The d+$^9$Be nuclear reactions}{26}{section.126}%
+\contentsline {subsection}{\numberline {3.1.1}d+$^9$Be $\rightarrow $ d+$^9$Be}{28}{subsection.127}%
+\contentsline {subsection}{\numberline {3.1.2}d+$^9$Be $\rightarrow $ d+$^9$Be$^*$}{28}{subsection.128}%
+\contentsline {subsection}{\numberline {3.1.3}d+$^9$Be $\rightarrow $ p+$^{10}$Be and d+$^9$Be $\rightarrow $ t+$^{8}$Be}{29}{subsection.130}%
+\contentsline {subsection}{\numberline {3.1.4}d+$^9$Be $\rightarrow \alpha $ +$^{7}$Li}{31}{subsection.133}%
+\contentsline {section}{\numberline {3.2}The $\alpha $+$^9$Be nuclear reactions}{34}{section.137}%
+\contentsline {subsection}{\numberline {3.2.1}$\alpha $+$^9$Be $\rightarrow $ $\alpha $+$^9$Be}{34}{subsection.138}%
+\contentsline {subsection}{\numberline {3.2.2}$\alpha $+$^9$Be $\rightarrow $ $\alpha $+$^9$Be$^*$}{34}{subsection.139}%
+\contentsline {section}{\numberline {3.3}The $\alpha $+$^6$He nuclear reaction}{34}{section.140}%
+\contentsline {section}{\numberline {3.4}The $\alpha $+$^6$Li nuclear reaction}{34}{section.141}%
+\contentsline {chapter}{\numberline {4}Conclusion}{35}{chapter.142}%
+\contentsline {chapter}{\numberline {A}Parameters of the three body wave function}{36}{appendix.143}%
+\contentsline {section}{\numberline {A.1}Hellium-6}{36}{section.144}%
+\contentsline {section}{\numberline {A.2}Lithium-6}{36}{section.145}%
+\contentsline {section}{\numberline {A.3}Berillium-9}{36}{section.146}%
