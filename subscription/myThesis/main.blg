@@ -22,52 +22,50 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'field_info' (item size: 4) to 10040 items.
 Database file #1: main-blx.bib
 Database file #2: example.bib
-Warning--I didn't find a database entry for "Kukulin1977"
-Warning--I didn't find a database entry for "SATCHLER1979"
-Biblatex version: 3.13
+Biblatex version: 3.15
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 25 entries,
-            6365 wiz_defined-function locations,
-            1350 strings with 14013 characters,
-and the built_in function-call counts, 269750 in all, are:
-= -- 22605
-> -- 3121
-< -- 593
-+ -- 7344
-- -- 1323
-* -- 21411
-:= -- 33612
+You've used 36 entries,
+            6393 wiz_defined-function locations,
+            1425 strings with 15656 characters,
+and the built_in function-call counts, 327268 in all, are:
+= -- 26661
+> -- 4243
+< -- 777
++ -- 9283
+- -- 1761
+* -- 24580
+:= -- 40316
 add.period$ -- 0
-call.type$ -- 25
-change.case$ -- 261
+call.type$ -- 36
+change.case$ -- 372
 chr.to.int$ -- 43
-cite$ -- 48
-duplicate$ -- 25920
-empty$ -- 23574
-format.name$ -- 2484
-if$ -- 53048
+cite$ -- 70
+duplicate$ -- 33651
+empty$ -- 28440
+format.name$ -- 3258
+if$ -- 63931
 int.to.chr$ -- 0
-int.to.str$ -- 49
+int.to.str$ -- 83
 missing$ -- 0
-newline$ -- 1243
-num.names$ -- 1012
-pop$ -- 9765
+newline$ -- 1613
+num.names$ -- 1487
+pop$ -- 13757
 preamble$ -- 1
-purify$ -- 549
+purify$ -- 777
 quote$ -- 0
-skip$ -- 4515
+skip$ -- 6298
 stack$ -- 0
-substring$ -- 45458
-swap$ -- 4594
-text.length$ -- 701
-text.prefix$ -- 24
+substring$ -- 50618
+swap$ -- 6047
+text.length$ -- 869
+text.prefix$ -- 18
 top$ -- 1
-type$ -- 838
+type$ -- 1212
 warning$ -- 0
-while$ -- 4369
+while$ -- 5487
 width$ -- 0
-write$ -- 1219
-(There were 2 warnings)
+write$ -- 1578

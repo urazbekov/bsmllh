@@ -19,10 +19,19 @@
 \contentsline {section}{\numberline {3.4}Normalization and correlation density of the three-body wave function}{24}{section.113}%
 \contentsline {section}{\numberline {3.5}The density distribution function of nuclear matter}{25}{section.120}%
 \contentsline {chapter}{\numberline {4}Results and discussions}{28}{chapter.124}%
-\contentsline {section}{\numberline {4.1}The d+$^9$Be nuclear reactions}{28}{section.125}%
-\contentsline {chapter}{\numberline {5}Conclusion}{41}{chapter.149}%
-\contentsline {chapter}{\numberline {A}Parameters of the three body wave function}{42}{appendix.150}%
-\contentsline {section}{\numberline {A.1}Hellium-6}{42}{section.151}%
-\contentsline {section}{\numberline {A.2}Lithium-6}{42}{section.152}%
-\contentsline {section}{\numberline {A.3}Berillium-9}{42}{section.153}%
-\contentsline {chapter}{Bibliography}{43}{appendix*.154}%
+\contentsline {section}{\numberline {4.1}The distribution function of nuclear matter}{28}{section.125}%
+\contentsline {section}{\numberline {4.2}The $\alpha $ + $^9$Be nuclear reactions}{28}{section.127}%
+\contentsline {subsection}{\numberline {4.2.1}Elastic scattering}{28}{subsection.128}%
+\contentsline {subsection}{\numberline {4.2.2}Inelastic scattering}{31}{subsection.133}%
+\contentsline {subsection}{\numberline {4.2.3}One nucleon transfer reactions}{31}{subsection.135}%
+\contentsline {section}{\numberline {4.3}The d+$^9$Be nuclear reactions}{33}{section.137}%
+\contentsline {subsection}{\numberline {4.3.1}The elastic channel}{33}{subsection.138}%
+\contentsline {subsection}{\numberline {4.3.2}Inelastic scattering}{35}{subsection.143}%
+\contentsline {subsection}{\numberline {4.3.3}One-nucleon transfer reactions }{36}{subsection.147}%
+\contentsline {subsection}{\numberline {4.3.4}Cluster-transfer reaction}{40}{subsection.153}%
+\contentsline {chapter}{\numberline {5}Conclusion}{46}{chapter.161}%
+\contentsline {chapter}{\numberline {A}Parameters of the three body wave function}{47}{appendix.162}%
+\contentsline {section}{\numberline {A.1}Hellium-6}{47}{section.163}%
+\contentsline {section}{\numberline {A.2}Lithium-6}{47}{section.164}%
+\contentsline {section}{\numberline {A.3}Berillium-9}{47}{section.165}%
+\contentsline {chapter}{Bibliography}{48}{appendix*.166}%

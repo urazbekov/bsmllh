@@ -5,7 +5,9 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces Values of the $\mathcal {N}_{\gamma }^{(k)}$ and $\mathcal {N}_{\gamma \gamma }^{(q)}$ normalizations for each $\gamma $'s, and 3-d plot of the correlation density function $W_{\gamma }\left (x_k,y_k\right )$ of the wave function depending on $\gamma $.\relax }}{26}{table.caption.119}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Parameterized double-folding potentials of the $d$+$^9$Be system used in the OM, CC and DWBA calculations.\relax }}{29}{table.caption.130}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Spectroscopic amplitudes used in CRC calculations for the Composite = Core + Nucleon system. The one-nucleon spectroscopic amplitudes have been calculated by means of the $ANTOINE$ code \cite {antoine}. The alpha spectroscopic amplitudes were taken from \cite {volya, volya2017}. \relax }}{34}{table.caption.140}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Parameters of imaginary part of the optical potential for calculating elastic scattering cross section $\alpha $ + $^9$Be. The $a_w$ parameter for all energies is 0.97 fm \relax }}{31}{table.caption.132}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Parameters of the optical potentials for calculations using the distorted waves and channel coupling methods\relax }}{33}{table.caption.136}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Parameterized double-folding potentials of the $d$+$^9$Be system used in the OM, CC and DWBA calculations.\relax }}{34}{table.caption.142}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Spectroscopic amplitudes used in CRC calculations for the Composite = Core + Nucleon system. The one-nucleon spectroscopic amplitudes have been calculated by means of the $ANTOINE$ code \cite {antoine}. The alpha spectroscopic amplitudes were taken from \cite {volya, volya2017}. \relax }}{39}{table.caption.152}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
