@@ -26,7 +26,7 @@
 \contentsline {subsection}{\numberline {4.2.3}One nucleon transfer reactions}{31}{subsection.135}%
 \contentsline {section}{\numberline {4.3}The d+$^9$Be nuclear reactions}{33}{section.137}%
 \contentsline {subsection}{\numberline {4.3.1}The elastic channel}{33}{subsection.138}%
-\contentsline {subsection}{\numberline {4.3.2}Inelastic scattering}{35}{subsection.143}%
+\contentsline {subsection}{\numberline {4.3.2}Inelastic scattering}{33}{subsection.143}%
 \contentsline {subsection}{\numberline {4.3.3}One-nucleon transfer reactions }{36}{subsection.147}%
 \contentsline {subsection}{\numberline {4.3.4}Cluster-transfer reaction}{40}{subsection.153}%
 \contentsline {chapter}{\numberline {5}Conclusion}{46}{chapter.161}%
