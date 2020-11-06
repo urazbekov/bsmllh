@@ -26,7 +26,7 @@
 12pt, % The default document font size, options: 10pt, 11pt, 12pt
 oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
 english, % ngerman for German
-onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
+doublespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
 %draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
 %onehalfspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
 %liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
@@ -756,11 +756,12 @@ V^C(r)=
 
 The situation changes, when the colliding nuclei have sophisticated shape. Assume, that there are nuclear matter distribution of the projectile $\rho_a \left( { r}_a \right) $ and target $\rho_A \left( { r}_a \right)$, depending on internal their own radii. Folding the nucleon-nucleon interaction potential $V_{nn}$ over the density distributions of nuclear matter, in the framework of \textit{the Double folding model} an interaction potential may be constructed as follow 
 \begin{align}
-V^V\left( r \right) = & N_0 V^{DF} \left( r \right) \nonumber \\ 
+V^V\left( r \right) = & N_f V^{DF} \left( r \right) \nonumber \\ 
 V^{DF} \left( {\bf r} \right) = & \int \int \text{d} {\bf r}_a\text{d} {\bf r}_A
 \rho_a \left( {\bf r}_a \right) V_{nn} \left( r_{aA}\right)  \rho_A \left( {\bf r}_A \right). 
+\label{df_potential}
 \end{align}
-where $r_{aA}=\vert {\bf r} + {\bf r}_A - {\bf r}_a \vert$ (see Fig.~\ref{fig:df_scheme}). The $N_0$ normalization parameter is usually fitted in accordance with the dynamics of nuclear reaction of elastic scattering.
+where $r_{aA}=\vert {\bf r} + {\bf r}_A - {\bf r}_a \vert$ (see Fig.~\ref{fig:df_scheme}). The $N_f$ normalization parameter is usually fitted in accordance with the dynamics of nuclear reaction of elastic scattering.
 
 \begin{figure}
 \centering
@@ -771,17 +772,63 @@ where $r_{aA}=\vert {\bf r} + {\bf r}_A - {\bf r}_a \vert$ (see Fig.~\ref{fig:df
 \end{figure}
 
 The DF potential may be calculated using the effective M3Y-Paris \cite{anantaraman1983effective} nucleon-nucleon potential and the nuclear-matter-densities of projectile and target nuclei. 
-For the particles $t$, $^3$He, $\alpha$, which have simple structure, the density distribution of nuclear matter can be represented as parametrized Gaussian function as follow
+
+ The $V_{nn}$ effective nucleon-nucleon interactions usually are taken as a sum of the three Yukawa potentials, i.e. M3Y-potentials:
+ % According to Ref. \cite{anantaraman1983effective, bertsch1977interactions}, for both isoscalar and isovector M3Y-potentials have a form as
  \begin{equation}
- \rho \left( r \right) = N {\mathrm{exp}}\left( - a r^2 \right)
+ V_{nn}(r)=\sum_{i=1}^{3} N_i \frac{\text{exp}(-\mu_i r)}{\mu_i r}.
  \end{equation}
- where the parameters $a$ and $A$ are defined in condition to reproduce the rms matter radii
+ 
+ 
+The parameters  $N_i$, $\mu_i$ of the M3Y-Reid effective NN-potential \cite{bertsch1977interactions}, often used in the double folding calculations, are given in Tab.\ref{m3y_reid_potpar}.
+The potential depending on the collision energy of the projectile, undergoes a change by multiplying a factor
+\begin{equation}
+g(E)= 1-0.002 \frac{E}{A} .
+\end{equation}
+An additional dependence of the $V_{nn}$ potential on the total density of colliding nuclei in the region of their overlap may given as
+\begin{equation}
+F(\rho)=C \left( 1+ \alpha \text{exp} \left( - \beta \rho \right) \right).
+\label{F_dependence}
+\end{equation}
+  Studies from Ref. \cite{khoa1994double} has revealed the best agreement of calculated differential cross sections of the $ {}^{12}C+{}^{16}O$  elastic scattering at low and medium energies with the experimental data in conditions, if parameters from Eq.~(\ref{F_dependence}) take the following values: $C=0.2845,~\alpha=3.64, \text{and}~\beta=2.96$.
+
+Another effective potential often used in the double folding calculations is M3Y-Paris \citep{anantaraman1983effective}. 
+
+
+ For the particles $t$, $^3$He, $\alpha$, which have simple structure, the density distribution of nuclear matter can be represented as parametrized Gaussian function as follow
  \begin{equation}
- a = \frac{3}{2\langle r_{m}^{2} \rangle}, 
- N = A  \left( \frac{a}{\pi} \right)^{3/2}
+ \rho \left( r \right) = \rho _0{\mathrm{exp}}\left( - \alpha_0 r^2 \right)
  \end{equation}
- here $A$ -- atomic number of projectile. 
+ where the parameters $\rho_0$ and $\alpha_0$ are defined in condition to reproduce the rms matter radii
+ \begin{equation}
+ \alpha_0 = \frac{3}{2\langle r_{m}^{2} \rangle}, 
+ \rho_0 = a  \left( \frac{\alpha_0}{\pi} \right)^{3/2}
+ \end{equation}
+ here $a$ -- atomic number of projectile. 
  %Для ядер $^3$He величина $\langle r^2_m \rangle^{1/2}= 1.703$ фм \cite{pomerantsev2005dibaryon}.
+ 
+ The density distributions in (\ref{df_potential}) are normalized so that
+ \begin{align}
+ \int \rho_A ({\bf r}) \text{d} {\bf r} & =A \\ \nonumber
+ \int \rho_a ({\bf r}) \text{d} {\bf r} & =a
+ \end{align}
+ where $A, a$ are the number of nucleons in the respective nuclei. 
+ 
+\begin{table*}[bp]
+\footnotesize
+\caption{\label{m3y_reid_potpar} \footnotesize Parameters of the Reid-Elliot M3Y potential.}
+\begin{tabular*}{\textwidth}{lr@{\extracolsep{\fill}}rrrl}
+\toprule
+$i$ & $N_i$, MeV &  ~ & ~ & ~ &$\mu_i$, $fm^{-1}$ \\
+~& Direct T=0~  & Exchange T=0 & Direct T=1 & Exchange T=1&  \\
+ \midrule
+1  & 7999.0 & 4631.4  & -4885.5 & -1517.9 & 4.0000 	\\
+2 & -2134.3  & -1787.1 & 1175.5 & 828.4 & 2.5000  \\ 
+3 & 0.0  & -7.8 & 0.0 & 2.6 & 0.7072  \\ 
+\bottomrule
+\end{tabular*}
+\end{table*}
+ 
  
  
 As regards target nuclei, having cluster structure, the density distribution of nuclear matter are calculated by means of the three body wave function, and its details are set out in the next chapter.

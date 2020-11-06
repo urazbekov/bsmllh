@@ -1,0 +1,418 @@
+    2.0     2020  8  8
+    2.0      220  8  8
+    2.0     1111  7  7
+    2.0     1121  5  5
+    2.0     2220  5  5
+    2.0     3311  4  4
+   1.0000000000000000        1.0000000000000000     
+  I-----------------------------POTENTIALS :-------------------------------I
+  I         FORBIDDEN STATE A-N WITH  1 GAUSSOIDS  GAMMA=  0.3271D+01      I
+  I         SACK (N-A)                                                       I
+  I         Reid SC(NN) L1,L2,A,IX,IP,J1,IS =******  1.0000  3  1  0  0
+  WARNING: NN  RSC POTENTIAL: L1=*** L2=***J1=  0 IS=  0
+        REID=   0.00000
+  I--------------------------------------------------------------------------I
+  I    < LR >  < LI >  *  < – >   < ƒ >   < SL1>  <SL2 >  <SL23>  <TEN23>    I
+  I--------------------------------------------------------------------------I
+  I      2020    2020       3       1       0       0       0       0        I
+  I--------------------------------------------------------------------------I
+  I       220    2020       3       1       0       0       0       0        I
+  I--------------------------------------------------------------------------I
+  I      1111    2020       0       0       2       4       0       0        I
+  I--------------------------------------------------------------------------I
+  I      1121    2020       0       0       4       6       0       0        I
+  I--------------------------------------------------------------------------I
+  I      2220    2020       8       2       0       0       0       0        I
+  I--------------------------------------------------------------------------I
+  I      3311    2020       0       0       6      16       0       0        I
+  I--------------------------------------------------------------------------I
+  I       220     220       3       1       0       0       0       0        I
+  I--------------------------------------------------------------------------I
+  I      1111     220       0       0       2       4       0       0        I
+  I--------------------------------------------------------------------------I
+  I      1121     220       0       0       4       6       0       0        I
+  I--------------------------------------------------------------------------I
+  I      2220     220       8       2       0       0       0       0        I
+  I--------------------------------------------------------------------------I
+  I      3311     220       0       0       6      16       0       0        I
+  I--------------------------------------------------------------------------I
+  I      1111    1111       5       0       4       0       0       0        I
+  I--------------------------------------------------------------------------I
+  I      1121    1111       0       0       6       4       0       0        I
+  I--------------------------------------------------------------------------I
+  I      2220    1111       0       0      12      10       0       0        I
+  I--------------------------------------------------------------------------I
+  I      3311    1111      13       0      12       8       0       0        I
+  I--------------------------------------------------------------------------I
+  I      1121    1121       6       1       7       8       0       0        I
+  I--------------------------------------------------------------------------I
+  I      2220    1121       0       0      14      18       0       0        I
+  I--------------------------------------------------------------------------I
+  I      3311    1121       0       0      12      20       0       0        I
+  I--------------------------------------------------------------------------I
+  I      2220    2220      31       4       0       0       0       0        I
+  I--------------------------------------------------------------------------I
+  I      3311    2220       0       0      74      52       0       0        I
+  I--------------------------------------------------------------------------I
+  I      3311    3311      65       0     220      64       0       0        I
+  I--------------------------------------------------------------------------I
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  2 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  3 IS=  1
+  WARNING: NN  RSC POTENTIAL: L1=  3 L2=  3J1=  4 IS=  1

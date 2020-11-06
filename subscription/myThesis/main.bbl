@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.1 $
+% $ biblatex bbl format version 2.8 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,7 +16,7 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}
+\sortlist[entry]{none/global/}
   \entry{anantaraman1983effective}{article}{}
     \name{author}{3}{}{%
       {{hash=AN}{%
@@ -52,6 +52,86 @@
     \field{volume}{398}
     \field{journaltitle}{Nuclear Physics A}
     \field{year}{1983}
+  \endentry
+
+  \entry{bertsch1977interactions}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BG}{%
+         family={Bertsch},
+         familyi={B\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+      {{hash=BJ}{%
+         family={Borysowicz},
+         familyi={B\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=MH}{%
+         family={McManus},
+         familyi={M\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+      {{hash=LW}{%
+         family={Love},
+         familyi={L\bibinitperiod},
+         given={WG},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{BG+1}
+    \strng{fullhash}{BGBJMHLW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{399\bibrangedash 419}
+    \field{title}{Interactions for inelastic scattering derived from realistic
+  potentials}
+    \field{volume}{284}
+    \field{journaltitle}{Nuclear Physics A}
+    \field{year}{1977}
+  \endentry
+
+  \entry{khoa1994double}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KDT}{%
+         family={Khoa},
+         familyi={K\bibinitperiod},
+         given={Dao\bibnamedelima T},
+         giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=VOW}{%
+         family={Von\bibnamedelima Oertzen},
+         familyi={V\bibinitperiod\bibinitdelim O\bibinitperiod},
+         given={W},
+         giveni={W},
+      }}%
+      {{hash=BH}{%
+         family={Bohlen},
+         familyi={B\bibinitperiod},
+         given={HG},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{KDTVOWBH1}
+    \strng{fullhash}{KDTVOWBH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{1652}
+    \field{title}{Double-folding model for heavy-ion optical potential: Revised
+  and applied to study C 12 and O 16 elastic scattering}
+    \field{volume}{49}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{1994}
   \endentry
 
   \entry{kukulin1977stochastic}{article}{}
@@ -534,7 +614,6 @@
 
   \entry{lukyanov2014study}{article}{}
     \true{moreauthor}
-    \true{morelabelname}
     \name{author}{10}{}{%
       {{hash=LS}{%
          family={Lukyanov},
@@ -904,7 +983,7 @@
       }}%
       {{hash=MPG}{%
          family={Mart\'{\i}nez-Pinedo},
-         familyi={M\bibinithyphendelim P\bibinitperiod},
+         familyi={M\bibinitperiod-P\bibinitperiod},
          given={G.},
          giveni={G\bibinitperiod},
       }}%
@@ -1630,5 +1709,5 @@
     \field{journaltitle}{Phys. Rev.}
     \field{year}{2007}
   \endentry
-\enddatalist
+\endsortlist
 \endinput

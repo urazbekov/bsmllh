@@ -53,13 +53,12 @@
     <requires type="static">
       <file>blx-dm.def</file>
       <file>blx-compat.def</file>
-      <file>blx-case-expl3.def</file>
       <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
       <file>blx-natbib.def</file>
-      <file>standard.bbx</file>
-      <file>numeric.bbx</file>
       <file>numeric-comp.bbx</file>
+      <file>numeric.bbx</file>
+      <file>standard.bbx</file>
       <file>numeric-comp.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
