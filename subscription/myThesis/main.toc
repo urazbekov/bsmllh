@@ -4,35 +4,37 @@
 \contentsline {chapter}{Declaration of Authorship}{i}{section*.1}
 \contentsline {chapter}{Abstract}{iii}{section*.2}
 \contentsline {chapter}{Acknowledgements}{iv}{section*.3}
-\contentsline {chapter}{\numberline {1}Introduction to the nuclear reactions and cluster phenomenon}{1}{chapter.14}
-\contentsline {chapter}{\numberline {2}Theoretical models describing the nuclear reactions}{9}{chapter.15}
-\contentsline {section}{\numberline {2.1}Some aspects from the quantum theory of angular momenta}{9}{section.16}
-\contentsline {section}{\numberline {2.2}The description of elastic scattering}{12}{section.31}
-\contentsline {section}{\numberline {2.3}The coupled channels method for inelastic scattering}{15}{section.44}
-\contentsline {section}{\numberline {2.4}The coupled-reaction-channels method for the transfer reactions}{18}{section.62}
-\contentsline {section}{\numberline {2.5}Interaction potentials. The double folding model}{20}{section.71}
-\contentsline {chapter}{\numberline {3}The three body model}{25}{chapter.84}
-\contentsline {section}{\numberline {3.1}The basis function}{25}{section.85}
-\contentsline {section}{\numberline {3.2}Transformation of the basis function }{27}{section.93}
-\contentsline {section}{\numberline {3.3}Overlap matrix elements}{28}{section.100}
-\contentsline {subsection}{\numberline {3.3.1}By means of the exponential function expansion}{29}{subsection.105}
-\contentsline {subsection}{\numberline {3.3.2}By means of the projection into the ${\bf T}$ matrix}{31}{subsection.114}
-\contentsline {section}{\numberline {3.4}Normalization and correlation density of the three-body wave function}{32}{section.118}
-\contentsline {section}{\numberline {3.5}The density distribution function of nuclear matter}{33}{section.125}
-\contentsline {chapter}{\numberline {4}Results and discussions}{37}{chapter.129}
-\contentsline {section}{\numberline {4.1}The distribution function of nuclear matter}{37}{section.130}
-\contentsline {section}{\numberline {4.2}The $\alpha $ + $^9$Be nuclear reactions}{38}{section.132}
-\contentsline {subsection}{\numberline {4.2.1}Elastic scattering}{38}{subsection.133}
-\contentsline {subsection}{\numberline {4.2.2}Inelastic scattering}{41}{subsection.138}
-\contentsline {subsection}{\numberline {4.2.3}One nucleon transfer reactions}{41}{subsection.140}
-\contentsline {section}{\numberline {4.3}The d+$^9$Be nuclear reactions}{43}{section.142}
-\contentsline {subsection}{\numberline {4.3.1}The elastic channel}{43}{subsection.143}
-\contentsline {subsection}{\numberline {4.3.2}Inelastic scattering}{45}{subsection.148}
-\contentsline {subsection}{\numberline {4.3.3}One-nucleon transfer reactions }{47}{subsection.152}
-\contentsline {subsection}{\numberline {4.3.4}Cluster-transfer reaction}{52}{subsection.158}
-\contentsline {chapter}{\numberline {5}Conclusion}{58}{chapter.166}
-\contentsline {chapter}{\numberline {A}Parameters of the three body wave function}{59}{appendix.167}
-\contentsline {section}{\numberline {A.1}Hellium-6}{59}{section.168}
-\contentsline {section}{\numberline {A.2}Lithium-6}{59}{section.169}
-\contentsline {section}{\numberline {A.3}Berillium-9}{59}{section.170}
-\contentsline {chapter}{Bibliography}{60}{appendix*.171}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.14}
+\contentsline {chapter}{\numberline {2}The three body model}{7}{chapter.15}
+\contentsline {section}{\numberline {2.1}The basis function}{7}{section.16}
+\contentsline {section}{\numberline {2.2}Transformation of the basis function }{9}{section.24}
+\contentsline {section}{\numberline {2.3}Overlap matrix elements}{10}{section.31}
+\contentsline {subsection}{\numberline {2.3.1}By means of the exponential function expansion}{11}{subsection.36}
+\contentsline {subsection}{\numberline {2.3.2}By means of the projection into the ${\bf T}$ matrix}{12}{subsection.45}
+\contentsline {section}{\numberline {2.4}Normalization and correlation density of the three-body wave function}{13}{section.49}
+\contentsline {section}{\numberline {2.5}The density distribution function of nuclear matter}{15}{section.56}
+\contentsline {chapter}{\numberline {3}Theoretical models describing nuclear reactions}{17}{chapter.60}
+\contentsline {section}{\numberline {3.1}Description of elastic scattering}{17}{section.61}
+\contentsline {section}{\numberline {3.2}The coupled channels method for inelastic scattering}{19}{section.75}
+\contentsline {section}{\numberline {3.3}The coupled-reaction-channels method for the transfer reactions}{22}{section.93}
+\contentsline {section}{\numberline {3.4}Distorted Wave Born Approximation}{24}{section.102}
+\contentsline {section}{\numberline {3.5}Spectroscopic Amplitudes within the Shell Model}{24}{section.103}
+\contentsline {section}{\numberline {3.6}Interaction potentials. The double folding model}{24}{section.104}
+\contentsline {chapter}{\numberline {4}Results and discussions}{28}{chapter.117}
+\contentsline {section}{\numberline {4.1}The distribution function of nuclear matter}{28}{section.118}
+\contentsline {section}{\numberline {4.2}The $\alpha $ + $^9$Be nuclear reactions}{28}{section.120}
+\contentsline {subsection}{\numberline {4.2.1}Elastic scattering}{28}{subsection.121}
+\contentsline {subsection}{\numberline {4.2.2}Inelastic scattering}{31}{subsection.126}
+\contentsline {subsection}{\numberline {4.2.3}One nucleon transfer reactions}{31}{subsection.128}
+\contentsline {section}{\numberline {4.3}The d+$^9$Be nuclear reactions}{33}{section.130}
+\contentsline {subsection}{\numberline {4.3.1}The elastic channel}{33}{subsection.131}
+\contentsline {subsection}{\numberline {4.3.2}Inelastic scattering}{33}{subsection.136}
+\contentsline {subsection}{\numberline {4.3.3}One-nucleon transfer reactions }{36}{subsection.140}
+\contentsline {subsection}{\numberline {4.3.4}Cluster-transfer reaction}{40}{subsection.146}
+\contentsline {chapter}{\numberline {5}Conclusion}{46}{chapter.154}
+\contentsline {chapter}{\numberline {A}Some aspects from the quantum theory of angular momenta}{47}{appendix.155}
+\contentsline {chapter}{\numberline {B}Parameters of the three body wave function}{50}{appendix.170}
+\contentsline {section}{\numberline {B.1}Hellium-6}{50}{section.171}
+\contentsline {section}{\numberline {B.2}Lithium-6}{50}{section.172}
+\contentsline {section}{\numberline {B.3}Berillium-9}{50}{section.173}
+\contentsline {chapter}{Bibliography}{51}{appendix*.174}

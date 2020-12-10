@@ -26,9 +26,9 @@
 12pt, % The default document font size, options: 10pt, 11pt, 12pt
 oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
 english, % ngerman for German
-doublespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
+onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
 %draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
-%onehalfspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
+onehalfspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
 %liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
 %toctotoc, % Uncomment to add the main table of contents to the table of contents
 %parskip, % Uncomment to add space between paragraphs
@@ -42,7 +42,7 @@ headsepline, % Uncomment to get a line under the header
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage{amsmath}
 \usepackage{multirow}
-\usepackage{mathpazo} % Use the Palatino font by default
+%\usepackage{mathpazo} % Use the Palatino font by default
 \usepackage{booktabs}
 \usepackage[backend=bibtex,style=numeric-comp,natbib=true,sorting=none]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 
@@ -68,7 +68,7 @@ headsepline, % Uncomment to get a line under the header
 %	THESIS INFORMATION
 %----------------------------------------------------------------------------------------
 
-\thesistitle{Correlation of the cluster configurations of weakly bound light nuclei in the direct nuclear reactions} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
+\thesistitle{Manifestation of the cluster structure of weakly bound light nuclei in the direct nuclear reactions} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
 \supervisor{Prof. Nunzio \textsc{Itaco}} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
 \examiner{} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
 \degree{Doctor of Philosophy} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
@@ -100,7 +100,7 @@ headsepline, % Uncomment to get a line under the header
 \begin{titlepage}
 \begin{center}
 
-\vspace*{.06\textheight}
+%\vspace*{.06\textheight}
 {\scshape\LARGE \univname\par}\vspace{1.5cm} % University name
 \textsc{\Large Doctoral Thesis}\\[0.5cm] % Thesis type
 
@@ -118,9 +118,11 @@ headsepline, % Uncomment to get a line under the header
 \begin{flushright} \large
 \emph{Supervisor:} \\
 \href{https://www.researchgate.net/profile/Nunzio_Itaco}{\supname} % Supervisor name - remove the \href bracket to remove the link  
+\emph{Co-Supervisor:} \\
+\href{https://www.researchgate.net/profile/A_Denikin}{Prof. Andrey \textsc{Denikin}} %
 \end{flushright}
-\end{minipage}\\[3cm]
- 
+\end{minipage}
+\\[3cm] 
 %\vfill
 
 %\large \textit{A thesis submitted in fulfillment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
@@ -171,14 +173,11 @@ headsepline, % Uncomment to get a line under the header
 \vspace*{0.2\textheight}
 
 \noindent\enquote{\itshape 
-Soon... %You do not see in the creation of the Most Merciful any inconsistency. \\
-%So return your vision to the sky; do you see any breaks? \\
- %Then return  vision twice again. \\
- %Your vision will return to you humbled while it is fatigued.
+By the love of God, the nations are created, and you love them like yourself. Love people as brothers, like freedom, then truth and life are for you. 
 }
 \bigbreak
 
-\hfill  %Quran 67:3
+\hfill  Abay Qunanbayev
 
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE
@@ -186,7 +185,11 @@ Soon... %You do not see in the creation of the Most Merciful any inconsistency. 
 
 \begin{abstract}
 \addchaptertocentry{\abstractname} % Add the abstract to the table of contents
-Soon
+
+In this work, the following light weakly bound atomic nuclei were studied: $^6$He, $^6$Li and $^9$Be. A three-body model $\alpha$ + 2N for $^6$He and $^6$Li, and 2$\alpha$ + N model for $^9$Be are proposed. The wave function of the three-body system was obtained within the framework of variational calculations based on the Gaussian basis. The interaction potentials for three-body systems have a Pauli projector, which excludes forbidden states. An analytical expression is obtained for the density distribution function of nuclear matter using the three-body wave function. Calculated and given comparisons of root-mean-square matter radii.
+
+The interactions of $^6$He, $^6$Li and $^9$Be have been studied in detail with the simplest particles, such as $\alpha$, $d$, $^3$He. On the basis of the obtained calculations on the density distribution function of nuclear matter, the folding interaction potential was obtained, and shown their comparison with optical potentials with global optical parametrizations. The resulting folding interaction potential is used to calculate the differential cross section for elastic scattering. Using the Coupled Channels approach for $^9$Be the contribution of channels  is studied, and deformation parameters are derived. Comparisons of theoretical cross sections with experimental data in inelastic channels for nuclear reactions $\alpha$ + $^9$Be, $d$ + $^9$Be are given. Within the framework of the Coupled Reaction Channels method, the cross sections for nuclear reactions of single-nucleon and cluster transfers were calculated taking into account the internal structure of atomic nuclei $^6$He, $^6$Li and $^9$Be. Features of the internal structure of these nuclei in direct nuclear reactions are manifested in their mechanism of transfer of clusters and nucleons. In this regard, several mechanisms have been proposed for the transfer of clusters and nucleons in $^6$He, $^6$Li and $^9$Be.
+
 \end{abstract}
 
 %----------------------------------------------------------------------------------------
@@ -195,7 +198,19 @@ Soon
 
 \begin{acknowledgements}
 \addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
-~\ldots
+I believe that if it were not for these people, then the thesis in the form in which you are reading, would not have taken place.
+
+I am very grateful to my scientific supervisors Prof. Nunzio Itaco and Prof. Andrey Denikin, who gave a great chance to implement my scientific ideas. Their suggestions, ideas and comments always gave me goals, raised my understanding of science higher and higher.
+
+Undoubtedly, I think it is worthwhile to thank the staff of the Department of Physics and Astronomy and the CIRCE laboratory: Prof. D'Onofrio, Prof. Gialanella, Giuseppe Porzio, Liz, and all members.
+
+In addition, I would like to express my gratitude to Prof. Vladimir Kukulin (Moscow Sate University), who gave advice on a scientific career, Prof Sayabek Sakhiyev (Abay State University), who gave not only scientific guides but also about life.
+
+I also want to thank my dear friends Riccardo Mancino and Felice Pignatelli, without whom I could not just cope with simple life questions in Caserta.
+
+Thanks to Prof. Ian Thompson (LLNL) for explaining the input file for the FRESCO code, Prof. Alexandr Volya (MSU), for providing the values of the spectroscopic amplitudes of alpha particles for p-shell nuclei.
+
+I also dedicate my big thanks to my wife Mervet, who has always supported me at all stages of my scientific career, and my newborn daughter Dina, who has been a source of strength and positiveness.
 \end{acknowledgements}
 
 %----------------------------------------------------------------------------------------
@@ -257,7 +272,7 @@ $\omega$ & angular frequency & \si{\radian} \\
 %	DEDICATION
 %----------------------------------------------------------------------------------------
 
-\dedicatory{To my mother \ldots} 
+\dedicatory{to my mom \\~ \\ whom we had immeasurable love of mother and child\ldots} 
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - CHAPTERS
@@ -270,7 +285,7 @@ $\omega$ & angular frequency & \si{\radian} \\
 % Include the chapters of the thesis as separate files from the Chapters folder
 % Uncomment the lines as you write the chapters
 
-\chapter{Introduction to the nuclear reactions and cluster phenomenon} % Main chapter title
+\chapter{Introduction} % Main chapter title
 In recent years, the study of light weakly bound nuclei  has not lost interest due to the successful development of experimental technology. 
 In particular, it should be noted a significant achievement in the field of production of secondary radioactive beams. 
 It is known that in light nuclei nucleons tend to group into clusters, the relative motion of which mainly determines the properties and characteristics of the being explored nuclei. 
@@ -325,516 +340,17 @@ The project is expected to obtain a number of new and relevant results. The new 
 
 %----------------------------------------------------------------------------------------
 
-
-
-\chapter{Theoretical models describing the nuclear reactions} % Main chapter title
-
-\label{Chapter2} % For referencing the chapter elsewhere, use \ref{Chapter1} 
-
-
-
-\section{Some aspects from the quantum theory of angular momenta}
-A total angular momentum $\mathbf{j}$ are decomposed into two angular momenta $\mathbf{j}_1$ and $\mathbf{j}_2$ by means of the Clebsch-Gordan coefficient. For example, to quote a basis $\vert ~ jm \rangle $ with the angular momentum $ j$ with its $z$-component $m$, the Clebsch-Gordan coefficient can be represented as follow
-\begin{equation}
-\label{the_CG_coefficient}
-\vert ~ jm \rangle =\sum_{m_1 m_2} \langle ~ j_1 m_1~j_2 m_2~ \vert ~j m~  \rangle ~ \vert ~j_1 m_1 \rangle~ \vert ~j_2 m_2 \rangle,
-\end{equation}
-For non-zero values of the coefficient (\ref{the_CG_coefficient}) vectors $\mathbf{j}_1$, $\mathbf{j}_2$ and $\mathbf{j}$ must satisfy the rule of triangle:
-\begin{align*}
-\vert j_1 - j_2 \vert \leq j \leq j_1 + j_2 \\
-\vert j - j_2 \vert \leq j_1 \leq j + j_2 \\ 
-\vert j_1 - j \vert \leq j_2 \leq j_1 + j 
-\end{align*}
-and the condition
-\begin{equation*}
-m=m_1+m_2.
-\end{equation*}
-
-
-If there are three vectors $\mathbf{j}_1, \mathbf{j}_2$ and $\mathbf{j}_3$, one can get a total angular momentum $\bf j$ in two ways
-
-\begin{align}
-\label{6j_basis1}
-\bf j & =\bf \left( j_1 + j_2 \right) + j_3 = j_{12} + j_3 \\
-\label{6j_basis2}		
-& = \bf j_1 + \left( j_2  + j_3 \right) = j_1 +j_{23}
-\end{align}
-
-The Basis $ \vert (j_1 j_2)j_{12},j_3; jm \rangle$ and the basis $\vert j_1,(j_2 j_3); ~jm \rangle$ corresponding to Eq.~(\ref{6j_basis1}) and Eq.~(\ref{6j_basis2}) are related through a factor $U(~j_1 j_2 j j_3;~ j_{12} j_{23})$, which is the Racah coefficient:
-\begin{equation}
-\vert (j_1 j_2)j_{12},j_3; jm \rangle = \sum_{j_{23}} U(~j_1 j_2 j j_3;~ j_{12} j_{23}) ~ \vert j_1,(j_2 j_3); ~jm \rangle.
-\end{equation}
-
-Four angular momenta, $\bf j_1,~j_2,~j_3$ and $\bf j_4$, are added into the total momentum $\bf j$ by
-\begin{align}
-\label{9j_basis1}
-\bf j & =\bf \left( j_1 + j_2 \right) + ( j_3 + j_4) = j_{12} + j_{34} \\
-\label{9j_basis2}		
-& = \bf ( j_1 + j_3 ) + \left( j_2  + j_4 \right) = j_{13} +j_{24}
-\end{align}
-
-Two basis  $\vert~ j_1 j_2 (j_{12}),~j_3 j_4 (j_{34});~jm \rangle$ and $\vert~ j_1 j_3 (j_{13}),~j_2 j_4 (j_{24});~jm \rangle $, constructed respectively on the scheme Eq.~\ref{9j_basis1} and Eq.~\ref{9j_basis2},  are related as follow
-\begin{align}
-\label{9j}
-\vert~ j_1 j_2 (j_{12}),~j_3 j_4 (j_{34});~jm \rangle = \sum_{j_{13},j_{24}} 
-\begin{bmatrix}
-j_1 & j_2 & j_{12} \\ 
-j_3 & j_4 & j_{34} \\ 
-j_{13} & j_{24} & j
-\end{bmatrix} 
-\vert~ j_1 j_3 (j_{13}),~j_2 j_4 (j_{24});~jm \rangle 
-\end{align}
-where transformation coefficient with square brackets is called a unitary 9j-symbol.
-
-
-  A spacial spherical harmonics is expressed like
-  \begin{equation}
-  \mathcal{Y}_{lm}({\bf r}) = r^{l} Y_{lm}(\hat{r})
-  \end{equation}
-  where $Y_{lm}(\hat{r})$  -- spherical function, which is a eigenfunction of angular part the $\Delta_{\hat{r}}$ Laplace operator.
-  For ${\bf r} = a{\bf r}_1+b {\bf r}_2$ a decomposition of the spacial spherical harmonics $\mathcal{Y}_{lm}({\bf r})$ leads to the following equality
-  \begin{align}
-  \mathcal{Y}_{lm}({\bf r} = a{\bf r}_1+b {\bf r}_2)=& \sum_{l_1,l_2,m_1,m_2} a^{l_1} b^{l_2}
-  \langle ~ l_1 m_1~l_2 m_2~ \vert ~l m~  \rangle \mathcal{D}(l,l_1,l_2) \times \nonumber \\
-   & \times \mathcal{Y}_{l_l m_1}({\bf r_1})  \mathcal{Y}_{l_2 m_2}({\bf r_2}) \nonumber \\
-   = & \sum_{l_1,l_2} a^{l_1} b^{l_2}
-   \mathcal{D}(l,l_1,l_2) \left[ \mathcal{Y}_{l_l}({\bf r_1}) \times \mathcal{Y}_{l_2}({\bf r_2}) \right]_{lm} 
-   \label{sphHarmDecomp}
-  \end{align}
-  with the condition $l=l_1+l_2$, and $\mathcal{D}(l,l_1,l_2) $ is given by
-  \begin{equation}
-  \mathcal{D}(l,l_1,l_2)  = \sqrt{\frac{4 \pi (2l+1)!}{(2l_1+1)! (2l_2+1)!}}
-  \end{equation}
-Spherical harmonics with the argument are coupled as follow
-\begin{equation}
-\left[ Y_{l_1}(\hat{r}) \times Y_{l_2}(\hat{r})\right]_{lm} =  \mathcal{C}(l_1,l_2,l) Y_{lm}(\hat{r})
-\end{equation}
-where the $\mathcal{C}(l_1,l_2,l)$ coefficient reads as
-\begin{equation}
-\mathcal{C}(l_1,l_2,l) = \sqrt{\frac{(2l_1+1)(2l_2+1)}{4 \pi (2l+1)}} \langle ~ l_1 0~l_2 0~ \vert ~l 0~  \rangle
-\end{equation}
-
-It would be useful also note a coupling between two spherical hyper harmonics kind of
-\begin{equation}
-\left[ Y^{(l_1l_2)}_{l_{12}}(\hat{{\bf r}}_1,\hat{{\bf r}}_2) \times Y^{(l_3l_4)}_{l_{34}}(\hat{{\bf r}}_1,\hat{{ \bf r}}_2) \right]_{lm}= \sum_{l_{13}l_{24}} {E}^{l_1l_2l_{12}l_2l_4l_{34}l}_{l_{13}l_{24}}  Y^{(l_{13}l_{24})}_{lm}(\hat{{\bf r}}_1,\hat{{\bf r}}_2)
-\label{hyperSphTrans}
-\end{equation}
-where the coupling coefficient ${E}^{l_1l_2l_{12}l_2l_4l_{34}l}_{l_{13}l_{24}}$ is given as
-\begin{equation}
-{E}^{l_1l_2l_{12}l_2l_4l_{34}l}_{l_{13}l_{24}} = 
-\begin{bmatrix}
-l_1 & l_2 & l_{12} \\ 
-l_3 & l_4 & l_{34} \\ 
-l_{13} & l_{24} & l
-\end{bmatrix}
-\mathcal{C}(l_1,l_3,l_{13})\mathcal{C}(l_2,l_4,l_{24}).
-\end{equation}
-
-  
-%----------------------------------------------------------------------------------------
-
-\section{The description of elastic scattering}
-Descriptions of the scattering of two nuclei are considered in this chapter when the interaction between them is a potential $U$ which may depend on the spins of the two nuclei but not on their internal coordinates. Thus, it cannot excite the nuclei internally or cause the transfer between them. It can only change their relative motion and, perhaps, reorient spins to each other or to the orbital motion. In general, $U$ will be complex. 
-
-In the case of the colliding the  $a$ + $A$  particles without spin the potential $U\left( r \right)$ is central, depending only on the magnitude of the channel coordinate ${\bf r}$.
-The corresponding Shr\"{o}dinger equation may be written explicitly
-\begin{equation}
-\left( E + \frac{\hbar^2}{2 \mu} {\bf \nabla}^2 - U \left( r \right) \right) 
-\chi \left( {\bf r} \right) =0 
-\label{es_she1}
-\end{equation}
-where $\mu$ is the reduced mass of the $a$+$A$ system, $E$ is the energy in the centre-of-mass system.
-The $\chi \left( {\bf r} \right)$ wave function is known as distorted waves describing elastic scattering. The expression "distorted wave" is meant to denote distortion away from the plane wave form due to the presence   of the distorting potential $U \left( r \right)$. Asymptotically, it has the form of an incident plane wave plus outgoing (scattered) spherical waves
-\begin{equation}
-\chi^{(+)} \left( {\bf k}, {\bf r} \right) \rightarrow
-e^{i {\bf k} \cdot {\bf r}} + f \left( \theta \right) \frac{1}{{\bf r}}
-e^{i k r}, ~~  {\bf r} \rightarrow \infty
-\label{es_chi_assymp_with_f}
-\end{equation}
-where $f \left( \theta \right)$ is the scattering amplitude. The $(+)$ superscript stands for outgoing plane wave, while incoming spherical waves is the time-reverse of the $\chi^{(+)}$
-\begin{equation}
-\chi^{(-)} \left( {\bf k}, {\bf r} \right) = 
-\left( \chi^{(+)} \left(- {\bf k}, {\bf r} \right) \right)^{*}
-\end{equation}
-
-Using the partial wave expansion 
-\begin{equation}
-\chi^{(+)} \left( {\bf k}, {\bf r} \right) = 
-\frac{4 \pi}{kr} \sum_{LM} i^{L} \chi_L \left( k,r \right) 
-Y_{LM}\left( \hat{{\bf r}}\right) \left( Y_{LM}( \hat{{\bf k}})\right)^{*},
-\end{equation}
-A solution for Eq. (\ref{es_she1}) in the absence of any interaction potential, $U \left( r \right) = 0$, is given by 
-\begin{equation}
-\chi^{(+)} \left( {\bf k}, {\bf r} \right) \rightarrow
-e^{i {\bf k} \cdot {\bf r}}, ~~ {\bf r} \rightarrow \infty, 
-\end{equation}
-for radial part only is written as
-\begin{equation}
-\chi_L \left( k,r \right)  \rightarrow kr~j_L \left(kr \right),
-~~ r \rightarrow \infty,
-\end{equation}
-where $j_L \left(kr \right)$ is the usual spherical Bessel function. The $\chi_L \left( k,r \right)$ radial function satisfies the radial Shr\"{o}dinger equation
-\begin{equation}
-\left( \nabla_r + k^2 - \frac{L(L+1)}{r^2} - \frac{2 \mu}{\hbar2} U \left( r \right)\right) \chi_L \left( k,r \right) =0,
-\label{es_she_radial}
-\end{equation}
-where $k^2 = \frac{2\mu E}{\hbar^2}$.
-
-In the case of the interaction potential has a more sophisticated form, including both Coulomb and nuclear short-range  potentials, the radial Shr\"{o}dinger equation (\ref{es_she_radial}) may be rewritten as
-\begin{equation}
-\left( \nabla_r + k^2 - \frac{2 \eta k}{r} - \frac{L(L+1)}{r^2} - \frac{2 \mu}{\hbar2} U \left( r \right) \right) \chi_L \left( k,r \right) =0,
-\label{es_she2}
-\end{equation}
-where $\eta$ is the usual Sommerfeld parameter with the $Z$ charge numbers
-\begin{equation*}
-\eta=\frac{Z_a Z_A e^2 \mu}{\hbar^2 k}
-\end{equation*}
-At the radius $r_0$, where the nuclear potential is negligible, Eq.~(\ref{es_she2}) has the solution, which can be expressed in terms of the $\text{H}_L$ outgoing  and $\text{H}_L^*$ incoming Coulomb functions, as follow
-\begin{equation}
-\chi_L \left( k,r \right) \rightarrow \frac{i}{2}e^{i \sigma_L} \left( \text{H}_L(kr_0)^*
--S_L \text{H}_L(kr_0)\right), 
-~~ r \rightarrow r_0
-\label{es_assymp_chi}
-\end{equation} 
-where $\sigma_L$ is the Coulomb phase shift, and it is given with the $\Gamma$ Gamma function as follow
-\begin{equation*}
-\sigma_L=Arg\left( \Gamma \left( L+1+i \eta \right) \right)
-\end{equation*}
-In practice, the radial Eq.~(\ref{es_she2}) is solved by numerical integration from $r \approx 0$, then, matched the value and the slope of the result onto the form (\ref{es_assymp_chi}) ar $r=r_0$. This procedure then gives a value for the $S_L$ scattering matrix elements. Having the $S_L$ matrix elements, the amplitude  of the elastic scattering, analogous  from Eq.~(\ref{es_chi_assymp_with_f}), for the $\chi_L \left( k,r \right)$ wave function in the Eq.~(\ref{es_she2}) is given by
-\begin{equation}
-f(\theta)=\frac{1}{2ik} \sum_{L} (2L+1) e^{2i\sigma_L} \left( S_L - 1 \right)
-\text{P}_L(\text{cos}(\theta))
-\label{es_amplitude_nuclear}
-\end{equation}
-where $\text{P}_L(x)$ is the Legendre polynomials, which are solutions to the Legendre differential equation.
-By means of the Rutherford scattering amplitude 
-\begin{equation}
-f_C(\theta)=-\frac{\eta}{2 k {\text{sin}}^2 \left( \tfrac{1}{2} \theta \right) }
-e^{\left( i \eta \text{ln}\left( \text{sin}^2 \left( \tfrac{1}{2} \theta \right) \right)
-+2i \sigma_{0} \right)}
-\end{equation}
-the differential cross section of the elastic scattering has the form
-\begin{equation}
-\frac{\text{d} \sigma_{\alpha}}{\text{d} \Omega} = \vert f_C(\theta) + f(\theta) \vert^2.
-\label{es_diff_cross_section}
-\end{equation} 
-The expression (\ref{es_diff_cross_section}) allows thus to provide comparison with the obtained  experimental data.   
-
-
-\section{The coupled channels method for inelastic scattering}
-The elastic scattering of the projectile $a$ by the nucleus $A$ has been denoted by $\alpha=a+A$. 
- Let $\alpha^{\prime}=a+A^{*}$ be an inelastic channel , in which only the $A$ nucleus has an extra excitation. In the framework of the coupled channel (CC) approach  the total wave function $\Psi$ for the system may be written as
-\begin{equation}
-\Psi =  \phi_\alpha \left( { x} \right) \chi_\alpha \left( {\bf r}_\alpha \right)+
-\phi_{\alpha^{\prime}}  \left( { x} \right) \chi_{\alpha^{\prime}} \left( {\bf r}_{\alpha^{\prime}} \right)
-\label{cc_tot_wf}
-\end{equation}
- where ${\bf r}$ is the channel coordinate for the partitions $\alpha$ or $\alpha^{\prime}$, $x$ represents the corresponding internal coordinates.
- The total wave function can be part of the Shr\"{o}dinger equation kind of
- \begin{equation}
- H\Psi=E\Psi
- \label{cc_she1}
- \end{equation}
-with the Hamiltonian appropriate particular for the $\alpha$ partition
-\begin{equation}
-H=H_\alpha + K_\alpha + V_\alpha.
-\end{equation}
-where $H_\alpha \equiv H_a + H_A$ is the internal Hamiltonian for the nuclei $a$ and $A$, $K_\alpha$ is the kinetic energy operator of relative motion and $V_\alpha$ is the interaction potential operator. The wave functions of ground $ \phi_\alpha \left( { x} \right) $ and excited state $ \phi_{\alpha^{\prime}}  \left( { x} \right)$, being eigenfunctions of the internal Hamiltonian $H_\alpha$
- \begin{align}
-H_\alpha  \phi_\alpha \left( { x} \right) =& \varepsilon_\alpha \phi_\alpha \left( { x} \right) \nonumber \\
-H_\alpha  \phi_{\alpha^{\prime}} \left( { x} \right) =& \varepsilon_{\alpha^{\prime}} \phi_{\alpha^{\prime}} \left( { x} \right),
- \end{align}
-have an orthonormality property  of the form 
-\begin{equation}
-\int {d x} \left( \phi_\alpha \left( { x} \right)  \right)^{*} \phi_{\alpha^{\prime}} \left( { x}\right) =
-\delta_{\alpha \alpha^{\prime}}.
-\label{cc_orthonorm}
-\end{equation}
- Using the expression of total wave function (\ref{cc_tot_wf}), multiplying Eq.~(\ref{cc_she1}) from the left by the $\phi^{*}_\alpha$ function, then, by the $\phi^{*}_{\alpha^{\prime}}$ function, the two coupled equations can be defined in the following form 
- \begin{align}
-\left( E -\varepsilon_\alpha - K_\alpha - \langle \alpha \vert V_\alpha \vert \alpha \rangle \right) \chi_\alpha \left( {\bf r} \right) = & \langle \alpha \vert V_{\alpha} \vert \alpha^{\prime} \rangle \chi_{\alpha^{\prime}} \left( {\bf r} \right) 
-\nonumber \\
-\left( E -\varepsilon_\alpha - K_\alpha - \langle \alpha^{\prime} \vert V_\alpha \vert \alpha^{\prime} \rangle \right) \chi_{\alpha^{\prime}} \left( {\bf r} \right) =&  \langle \alpha^{\prime} \vert V_{\alpha} \vert \alpha \rangle \chi_{\alpha} \left( {\bf r} \right) 
- \end{align}
-where $\langle \alpha \vert V_\alpha \vert \alpha \rangle$, or $\langle \alpha^{\prime} \vert V_{\alpha} \vert \alpha \rangle$, is  the matrix element of $V_\alpha$. In particular,  the matrix element $\langle \alpha^{\prime} \vert V_\alpha \vert \alpha \rangle$ is given by
-\begin{align}
-\langle \alpha^{\prime} \vert V_\alpha \vert \alpha \rangle = & \int d x \phi_\alpha^{\prime} \left( { x} \right)  V_\alpha \left( x,  {\bf r} \right) \phi_\alpha \left( { x} \right) =\nonumber \\
-= & V_{\alpha^{\prime} \alpha} \left(  {\bf r} \right).
-\end{align}
-
-An expansion of the coupling potential $V_{\alpha^{\prime} \alpha} \left( {\bf r} \right)$ into the $\lambda$ multipoles can be given as follow
-\begin{equation}
-V_{\alpha^{\prime} \alpha} \left( {\bf r} \right) = \sum_{\lambda \mu} V^{\lambda \mu}_{\alpha^{\prime} \alpha} (r) Y_{\lambda \mu} \left( \hat{r} \right)
-\end{equation}
-
-If the potential shape has a deformation, the nuclear potential can be constructed as
-\begin{equation}
-V_\alpha \left( x, {\bf r}\right) \equiv U\left( r -\delta\left( \hat{r}^{\prime} \right) \right)
-\label{cc_coup_pot_def}
-\end{equation}
-where $\hat{r}^{\prime}$ denotes angular coordinates of $(\theta,~\phi)$ referred to the intrinsic reference frame. The function $\delta\left( \hat{r}^{\prime} \right)$ is normally expanded in multipoles
-\begin{equation}
-\delta\left( \hat{r}^{\prime} \right) = \sum_{\lambda} \delta_\lambda Y_{\lambda 0} (\hat{r}^{\prime}).
-\label{cc_delta_def}
-\end{equation}
-
-
-In the collective model, the ground and excited states are characterized by their angular momenta $I_i$ and $I_{f}$ with projections $M_i$ and $M_{f}$, respectively. For these state the relevant matrix element of the $V_{\alpha \alpha}^{\lambda \mu}$ operator is described using the Wigner-Eckart theorem by
-\begin{equation}
-\langle I_{i} M_{i} \vert V^{\lambda \mu}_{\alpha^{\prime} \alpha}  \vert I_f M_f \rangle 
-= \sqrt{2I_i + 1} 
-\langle I_f M_f \lambda \mu \vert I_i M_i\rangle
- \langle I^{\prime} \vert \vert V^{\lambda}_{\alpha^{\prime} \alpha} \vert \vert	 I \rangle.
- \label{cc_we}
-\end{equation} 
-
-Using the definitions, (\ref{cc_coup_pot_def}) and (\ref{cc_delta_def}), the reduced matrix element of radial multipoles from Eq.~(\ref{cc_we}) can be rewritten as follow 
- \begin{equation}
- \langle I_{i} \vert \vert V^{\lambda \mu}_{\alpha^{\prime} \alpha}  \vert \vert I_f \rangle = -\frac{\langle I_{i} \vert \vert \delta_\lambda \vert \vert I_f \rangle}{\sqrt{4 \pi}} 
- \frac{\text{d}U(r)}{\text{d}r}
- \end{equation}
- where 
-\begin{equation}
-\langle I_{i} \vert \vert \delta_\lambda \vert \vert I_f \rangle = \sqrt{2 I_f+1} 
-\langle I_f M_f \lambda 0 \vert I_i M_i \rangle 
-\langle \chi \vert \delta \vert \chi \rangle \delta_{M_i M_f}.
-\end{equation}
-The matrix element $\langle \chi \vert \delta \vert \chi \rangle$ is the expectation value of the operator $\delta_\lambda$ in the internal state of the  deformed nucleus. In the framework of the rotational model it can be given with the deformation length $\beta_\lambda$ as follow
-\begin{equation}
-\langle \chi \vert \delta \vert \chi \rangle = R_0 \beta_\lambda
-\end{equation}
-where $R_0$ is an average radius of the interaction potential.
-
-The general asymptotic behaviour of the $\chi_{\alpha}$ elastic channel can be taken from Eq.~(\ref{es_chi_assymp_with_f}), while the inelastic channel $\chi_{\alpha^{\prime}}$ may have 
-\begin{equation}
-\chi_{\alpha^{\prime}} \left( {\bf r}_{\alpha^{\prime}} \right) \rightarrow 
-f_{\alpha^{\prime}} \left( \theta \right)
-\frac{e^{i k r_{\alpha^{\prime}}}}{r}, 
-~~ {\bf r}_{\alpha^{\prime}} \rightarrow \infty
-\end{equation}
-Note, that the plane wave expression doesn't not present in this equation - only outgoing wave presents. 
-A relevant differential cross section for the inelastic channel is obtained from the coefficient of the outgoing wave as follow
-\begin{equation}
-\frac{\text{d}\sigma_{\alpha^{\prime}} \left( \theta\right)}{\text{d}\Omega} =
-\frac{k_{\alpha^{\prime}}}{k_{\alpha}}
-\vert f_{\alpha^{\prime}} \left( \theta \right) \vert^2.
-\label{cc_dsigma_domega}
-\end{equation}
-The wave numbers $k_{\alpha}$ and $k_{\alpha^{\prime}}$ follow from the energy conservation 
-\begin{equation}
-E=\varepsilon_\alpha + \frac{\hbar^2 k_\alpha}{2 \mu} = 
-\varepsilon_{\alpha^{\prime}} + \frac{\hbar^2 k_{\alpha^{\prime}}}{2 \mu}.
-\end{equation}
-
-\section{The coupled-reaction-channels method for the transfer reactions}
-Consider a model for the $a+A\rightarrow b+B$ nuclear reaction, in which entrance and exit channels are denoted as $\alpha$ and $\beta$ respectively. The $\Psi$ total wave function for this model may be given as
-\begin{equation}
-\Psi = \chi_{\alpha} \left( {\bf r}_\alpha \right) \phi_\alpha \left( x_\alpha \right) + 
- \chi_{\beta} \left( {\bf r}_\beta \right) \phi_\beta \left( x_\beta \right).
-\end{equation}
-with a model Hamiltonian $H$ such that $\left( E-H \right) \Psi =0$. From the projections of this equation onto the two channels,
-\begin{align}
-\langle \chi_\alpha \vert \left( E-H \right) \vert \Psi \rangle = 0 \nonumber \\
-\langle \chi_\beta \vert \left( E-H \right) \vert \Psi \rangle = 0
-\end{align}
-with the two equivalent forms of $H$,
-\begin{align}
-H= H_\alpha +K_\alpha + V_\alpha \nonumber \\
-H= H_\beta +K_\beta + V_\beta
-\end{align}
-one can get a pair of coupled equations for $\chi_\alpha$ and $\chi_\beta$:
-\begin{align}
-\left[ ~\left(E-\varepsilon_\alpha \right)  -K_\alpha -
-\langle \alpha \vert V_\alpha \vert \alpha \rangle ~\right] 
-\chi_\alpha ({\bf r}_\alpha) = 
-\langle \alpha \vert H-E \vert  \beta \rangle \chi_\beta \nonumber \\
-\left[ ~\left(E-\varepsilon_\beta \right)  -K_\beta -
-\langle \beta \vert V_\beta \vert \beta \rangle ~\right] 
-\chi_\beta ({\bf r}_\beta) = 
-\langle \beta \vert H-E \vert \alpha \rangle \chi_\alpha .
-\label{crc_couple_eq1}
-\end{align}
-These are \textit{the coupled-reaction-channels} (CRC) equations. They are integro-differential equations, as may be seen more explicitly in the form
-\begin{align}
-\left[ ~\left(E-\varepsilon_\alpha \right)  -K_\alpha -
-\langle \alpha \vert V_\alpha \vert \alpha \rangle ~\right] 
-\chi_\alpha ({\bf r}_\alpha) = 
-\int \text{d} {\bf r}_\beta K_{\alpha \beta} \left( {\bf r}_\alpha, {\bf r}_\beta \right) \chi_\beta \left(  {\bf r}_\beta \right)
- \nonumber \\
-\left[ ~\left(E-\varepsilon_\beta \right)  -K_\beta -
-\langle \beta \vert V_\beta \vert \beta \rangle ~\right] 
-\chi_\beta ({\bf r}_\beta) = 
-\int \text{d} {\bf r}_\alpha K_{\beta \alpha} \left( {\bf r}_\beta, {\bf r}_\alpha \right) \chi_\alpha \left(  {\bf r}_\alpha \right)
-\end{align}
-where the kernels are
-\begin{align}
-K_{\alpha \beta} \left( {\bf r}_\alpha, {\bf r}_\beta \right) = 
-J_{\alpha \beta}
-\int \text{d} \zeta_\alpha \phi_\alpha^* \left( x_\alpha \right)
-(H-E) \phi_\beta \left( x_\beta \right) \nonumber \\
-K_{\beta \alpha} \left( {\bf r}_\beta, {\bf r}_\alpha \right) = 
-J_{\beta \alpha}
-\int \text{d} \zeta_\beta \phi_\beta^* \left( x_\beta \right)
-(H-E) \phi_\alpha \left( x_\alpha \right).
-\end{align}
-Here the internal coordinates have been transformed from the set $x_\alpha$ to the set $\left( \zeta_\alpha, {\bf r}_\beta \right)$, where the $\zeta_\alpha$ are independent of ${\bf r}_\beta$. Also, $J_{\alpha \beta}$ is the Jacobian of this transformation. Then $J_{\beta \alpha}$ is the Jacobian for the analogous transformation form $x_\beta$ to $\left( \zeta_\beta,{\bf r}_\alpha  \right)$.
-
-Since the off-diagonal matrix elements of $V_\alpha$ are small, they have little effect on the elastic scattering and may be neglected on the right side. 
-This implies that the elastic scattering in the entrance $\alpha$ channel is described well by the potential $\langle \alpha \vert V_\alpha \vert \alpha \rangle$, and the potential $\langle \beta \vert V_\beta \vert \beta \rangle$ describes well the elastic scattering in the $\beta$ channel.
-%Furthermore, if we have one more channel, it is assumed that all couplings, except the direct coupling to the entrance $\alpha$ channel, can be neglected on the right side of the equation for the $\beta$ channel, so that the potential $\langle \beta \vert V_\beta \vert \beta \rangle$ describes well the elastic scattering in this channel. 
-By doing this approximation, Eq.~(\ref{crc_couple_eq1}) may be rewritten as
-\begin{align}
-\left[ ~\left(E-\varepsilon_\alpha \right)  -K_\alpha -
-\langle \alpha \vert V_\alpha \vert \alpha \rangle ~\right] 
-\chi_\alpha ({\bf r}_\alpha) \approx & 0
- \nonumber \\
-\left[ ~\left(E-\varepsilon_\beta \right)  -K_\beta -
-\langle \beta \vert V_\beta \vert \beta \rangle ~\right] 
-\chi_\beta ({\bf r}_\beta) \approx &
-\langle \beta \vert H-E \vert \alpha \rangle \chi_\alpha
-\nonumber \\
-\approx &
-\langle \beta \vert V_\alpha \vert  \alpha \rangle \chi_\alpha + \langle \beta \vert \alpha \rangle (H_\alpha - E_\alpha) \chi_\alpha 
-\nonumber \\
-\approx & \langle \beta \vert V_\alpha \vert  \alpha \rangle \chi_\alpha
-\label{crc_couple_eq2}
-\end{align}
- Here the prior interaction, that is the interaction of the $\alpha$ channel, is used. The non-orthogonal term $\langle \beta \vert \alpha \rangle (H_\alpha - E_\alpha) \chi_\alpha$ vanishes because of the $\chi_\alpha$ is on-shell. The usual Green function techniques may then be used to solve these equations and give \textit{the  distorted wave Born approximation transition} (DWBA) amplitude 
- \begin{align}
- T_{\beta \alpha}^{DWBA} =& \langle \chi_\beta^{(-)} \phi_\beta  \vert V_\alpha \vert
- \chi_\alpha^{(+)} \phi_\alpha \rangle = \nonumber \\
-= & \int \int \text{d}x_\beta \text{d}{\bf r}_\beta \chi_\beta^{(-)*} \left( {\bf r}_\beta \right)\phi_\beta^{*} \left( x_\beta \right) V_\alpha 
- \chi_\alpha^{(+)} \left( {\bf r}_\alpha \right)\phi_\alpha \left( x_\alpha \right)
- \end{align}
- where $\chi^{(+)}$ and $\chi^{(-)}$ obey the homogeneous equations
- \begin{align}
- \left[ ~\left(E-\varepsilon_\alpha \right)  -K_\alpha -
-\langle \alpha \vert V_\alpha \vert \alpha \rangle ~\right] 
-\chi_\alpha^{(+)} ({\bf r}_\alpha) = & 0 \nonumber \\
- \left[ ~\left(E-\varepsilon_\beta \right)  -K_\beta -
-\langle \beta \vert V_\beta^{\dagger} \vert \beta \rangle ~\right] 
-\chi_\alpha^{(-)} ({\bf r}_\alpha) = & 0 \nonumber
- \end{align}
-
-The differential cross section for the transfer channel $\beta$ can be deduced in the similar way as in Eq.~(\ref{cc_dsigma_domega})
-
-\section{Interaction potentials. The double folding model}
-
-The numerical calculations  of the elastic scattering  can be performed in the framework of the OM with the OM potential given by:
-
-\begin{equation}\label{eqn:OP}
-\begin{array}{l}
- U(R)=-V^{V}(R)-iW^{V}(R)+V^{SO}(R)( \mathbf{l} \cdot \sigma )\\
-~~~ ~~~~~~~+V^C(R),
-\end{array}
-\end{equation}
-where $V^{V}, W^{V}, V^{SO},$ and $V^C$ are real volume,  imaginary volume, spin-orbit and Coulomb potentials, respectively. The volume potentials of colliding two spherical nuclei may be represented as parametrized function. For example, in practice the Woods-Saxon potential is often used, and it has the form
-\begin{align}
-V^V\left( r \right) = & V_0^V f_{r_V, a_V} \left( r \right), \nonumber \\
-W^V\left( r \right) = & V_0^W f_{r_W, a_W} \left( r \right), \nonumber \\
-f_{r_0, a_0} \left( r \right) = &  \frac{1}{1+ \text{exp} \left( \frac{r-r_0}{a_0} \right) },
-\end{align}
-where $V_0$ is depth of the potential, $r_0$ is  average distance and $a_0$ is  diffusion parameter. 
-
-%The surface and 
-The spin-orbit term of the OM potential has standard form
-\begin{eqnarray}
-%W^D(R) &= -4 a_D W_0^D \frac{d}{dR} f^{R_D,a_D}(R), \\
-V^{SO}(r) &= V_0^{SO}\left(\frac{\hbar}{m_\pi c}\right)^2 \frac{1}{r} \frac{d}{dR} f_{R_{SO} a_{SO}}(r).
-\end{eqnarray}
-The Coulomb term has been taken as the interaction of a point-charge with a uniformly charged sphere
-\[
-\label{coul}
-V^C(r)=
-\begin{cases}
-\frac{Z_1 Z_2 e^2}{2 r_C} \left( 3- \frac{r^2}{r_C^2} \right), &\text{  for } r \leq r_C, \\
-\frac{Z_1 Z_2 e^2}{r}, & \text{ for } r > r_C .
-\end{cases}
-\]
-
-
-
-The situation changes, when the colliding nuclei have sophisticated shape. Assume, that there are nuclear matter distribution of the projectile $\rho_a \left( { r}_a \right) $ and target $\rho_A \left( { r}_a \right)$, depending on internal their own radii. Folding the nucleon-nucleon interaction potential $V_{nn}$ over the density distributions of nuclear matter, in the framework of \textit{the Double folding model} an interaction potential may be constructed as follow 
-\begin{align}
-V^V\left( r \right) = & N_f V^{DF} \left( r \right) \nonumber \\ 
-V^{DF} \left( {\bf r} \right) = & \int \int \text{d} {\bf r}_a\text{d} {\bf r}_A
-\rho_a \left( {\bf r}_a \right) V_{nn} \left( r_{aA}\right)  \rho_A \left( {\bf r}_A \right). 
-\label{df_potential}
-\end{align}
-where $r_{aA}=\vert {\bf r} + {\bf r}_A - {\bf r}_a \vert$ (see Fig.~\ref{fig:df_scheme}). The $N_f$ normalization parameter is usually fitted in accordance with the dynamics of nuclear reaction of elastic scattering.
-
-\begin{figure}
-\centering
-\includegraphics[scale=0.8]{df_scheme}
-\decoRule
-\caption{ \footnotesize Radius vectors for the double folding model}
-\label{fig:df_scheme}
-\end{figure}
-
-The DF potential may be calculated using the effective M3Y-Paris \cite{anantaraman1983effective} nucleon-nucleon potential and the nuclear-matter-densities of projectile and target nuclei. 
-
- The $V_{nn}$ effective nucleon-nucleon interactions usually are taken as a sum of the three Yukawa potentials, i.e. M3Y-potentials:
- % According to Ref. \cite{anantaraman1983effective, bertsch1977interactions}, for both isoscalar and isovector M3Y-potentials have a form as
- \begin{equation}
- V_{nn}(r)=\sum_{i=1}^{3} N_i \frac{\text{exp}(-\mu_i r)}{\mu_i r}.
- \end{equation}
- 
- 
-The parameters  $N_i$, $\mu_i$ of the M3Y-Reid effective NN-potential \cite{bertsch1977interactions}, often used in the double folding calculations, are given in Tab.\ref{m3y_reid_potpar}.
-The potential depending on the collision energy of the projectile, undergoes a change by multiplying a factor
-\begin{equation}
-g(E)= 1-0.002 \frac{E}{A} .
-\end{equation}
-An additional dependence of the $V_{nn}$ potential on the total density of colliding nuclei in the region of their overlap may given as
-\begin{equation}
-F(\rho)=C \left( 1+ \alpha \text{exp} \left( - \beta \rho \right) \right).
-\label{F_dependence}
-\end{equation}
-  Studies from Ref. \cite{khoa1994double} has revealed the best agreement of calculated differential cross sections of the $ {}^{12}C+{}^{16}O$  elastic scattering at low and medium energies with the experimental data in conditions, if parameters from Eq.~(\ref{F_dependence}) take the following values: $C=0.2845,~\alpha=3.64, \text{and}~\beta=2.96$.
-
-Another effective potential often used in the double folding calculations is M3Y-Paris \citep{anantaraman1983effective}. 
-
-
- For the particles $t$, $^3$He, $\alpha$, which have simple structure, the density distribution of nuclear matter can be represented as parametrized Gaussian function as follow
- \begin{equation}
- \rho \left( r \right) = \rho _0{\mathrm{exp}}\left( - \alpha_0 r^2 \right)
- \end{equation}
- where the parameters $\rho_0$ and $\alpha_0$ are defined in condition to reproduce the rms matter radii
- \begin{equation}
- \alpha_0 = \frac{3}{2\langle r_{m}^{2} \rangle}, 
- \rho_0 = a  \left( \frac{\alpha_0}{\pi} \right)^{3/2}
- \end{equation}
- here $a$ -- atomic number of projectile. 
- %Для ядер $^3$He величина $\langle r^2_m \rangle^{1/2}= 1.703$ фм \cite{pomerantsev2005dibaryon}.
- 
- The density distributions in (\ref{df_potential}) are normalized so that
- \begin{align}
- \int \rho_A ({\bf r}) \text{d} {\bf r} & =A \\ \nonumber
- \int \rho_a ({\bf r}) \text{d} {\bf r} & =a
- \end{align}
- where $A, a$ are the number of nucleons in the respective nuclei. 
- 
-\begin{table*}[bp]
-\footnotesize
-\caption{\label{m3y_reid_potpar} \footnotesize Parameters of the Reid-Elliot M3Y potential.}
-\begin{tabular*}{\textwidth}{lr@{\extracolsep{\fill}}rrrl}
-\toprule
-$i$ & $N_i$, MeV &  ~ & ~ & ~ &$\mu_i$, $fm^{-1}$ \\
-~& Direct T=0~  & Exchange T=0 & Direct T=1 & Exchange T=1&  \\
- \midrule
-1  & 7999.0 & 4631.4  & -4885.5 & -1517.9 & 4.0000 	\\
-2 & -2134.3  & -1787.1 & 1175.5 & 828.4 & 2.5000  \\ 
-3 & 0.0  & -7.8 & 0.0 & 2.6 & 0.7072  \\ 
-\bottomrule
-\end{tabular*}
-\end{table*}
- 
- 
- 
-As regards target nuclei, having cluster structure, the density distribution of nuclear matter are calculated by means of the three body wave function, and its details are set out in the next chapter.
-
-
 \chapter{The three body model}
+The wave function for the three-body system in the current work was taken from \cite{kukulin1977stochastic}. The work \cite{kukulin1977stochastic} great progress has been made in understanding the structure and properties of the $^6$He, $^6$Li, $^9$Be nuclei based on a three-particle model. It should be noted the progress achieved as a result of the study of the three-body structure, reproduced by the three-body wave function:
+\begin{itemize}
+\item  structure and static characteristics of the ground state;
+\item low-lying excited states and geometric structure;
+\item processes of $^6$Li interaction with hadrons, including quasi-elastic scattering ($ \alpha $, 2 $\alpha $), ($ p $, $ d $) and (p, p$\alpha$), high energy proton scattering, and the lightest nuclei on $^6$Li
+\item processes of absorption and scattering of $\pi^{\pm}$-mesons by $^6$Li
+\item electromagnetic structure;
+\item $\beta$-decay of $^6$He and $\mu$-capture by $^6$Li and \textit{etc}.
+\end{itemize}
+
 \section{The basis function}
 The model \cite{kukulin1977stochastic} uses three pair pseudo-potentials to describe the three-body system, taking into account forbidden states by the Pauli principle:
 \begin{equation}
@@ -1224,6 +740,428 @@ one able to obtain equation \eqref{densities}  analytically for both nucleon and
  \end{gathered} 
 \end{equation}
 where $y_0=\frac{m_j+m_k}{m_i+m_j+m_k}$, $ i_k(x)$ - modified spherical Bessel function  of the first kind, $L_{l}^{k+1/2}(x)$ - associated Laguerre polynomial and $\Gamma (x)$ - Gamma function.
+
+
+\chapter{Theoretical models describing nuclear reactions} % Main chapter title
+
+\label{Chapter2} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+%----------------------------------------------------------------------------------------
+
+\section{Description of elastic scattering}
+Descriptions of the scattering of two nuclei are considered in this chapter when the interaction between them is a potential $U$ which may depend on the spins of the two nuclei but not on their internal coordinates. Thus, it cannot excite the nuclei internally or cause the transfer between them. It can only change their relative motion and, perhaps, reorient spins to each other or to the orbital motion. In general, $U$ will be complex. 
+
+In the case of the colliding the  $a$ + $A$  particles without spin the potential $U\left( r \right)$ is central, depending only on the magnitude of the channel coordinate ${\bf r}$.
+The corresponding Shr\"{o}dinger equation may be written explicitly
+\begin{equation}
+\left( E + \frac{\hbar^2}{2 \mu} {\bf \nabla}^2 - U \left( r \right) \right) 
+\chi \left( {\bf r} \right) =0 
+\label{es_she1}
+\end{equation}
+where $\mu$ is the reduced mass of the $a$+$A$ system, $E$ is the energy in the centre-of-mass system.
+The $\chi \left( {\bf r} \right)$ wave function is known as distorted waves describing elastic scattering. The expression "distorted wave" is meant to denote distortion away from the plane wave form due to the presence   of the distorting potential $U \left( r \right)$ (see Fig. \ref{fig:scattering_scheme}). Asymptotically, it has the form of an incident plane wave plus outgoing (scattered) spherical waves
+\begin{equation}
+\chi^{(+)} \left( {\bf k}, {\bf r} \right) \rightarrow
+e^{i {\bf k} \cdot {\bf r}} + f \left( \theta \right) \frac{1}{{\bf r}}
+e^{i k r}, ~~  {\bf r} \rightarrow \infty
+\label{es_chi_assymp_with_f}
+\end{equation}
+where $f \left( \theta \right)$ is the scattering amplitude. The $(+)$ superscript stands for outgoing plane wave, while incoming spherical waves is the time-reverse of the $\chi^{(+)}$
+\begin{equation}
+\chi^{(-)} \left( {\bf k}, {\bf r} \right) = 
+\left( \chi^{(+)} \left(- {\bf k}, {\bf r} \right) \right)^{*}
+\end{equation}
+
+
+\begin{figure}
+\centering
+\includegraphics[scale=1]{scattering_scheme}
+\decoRule
+\caption{ \footnotesize An incoming plane wave scattering off a body making a distorted wave}
+\label{fig:scattering_scheme}
+\end{figure}
+
+Using the partial wave expansion 
+\begin{equation}
+\chi^{(+)} \left( {\bf k}, {\bf r} \right) = 
+\frac{4 \pi}{kr} \sum_{LM} i^{L} \chi_L \left( k,r \right) 
+Y_{LM}\left( \hat{{\bf r}}\right) \left( Y_{LM}( \hat{{\bf k}})\right)^{*},
+\end{equation}
+A solution for Eq. (\ref{es_she1}) in the absence of any interaction potential, $U \left( r \right) = 0$, is given by 
+\begin{equation}
+\chi^{(+)} \left( {\bf k}, {\bf r} \right) \rightarrow
+e^{i {\bf k} \cdot {\bf r}}, ~~ {\bf r} \rightarrow \infty, 
+\end{equation}
+for radial part only is written as
+\begin{equation}
+\chi_L \left( k,r \right)  \rightarrow kr~j_L \left(kr \right),
+~~ r \rightarrow \infty,
+\end{equation}
+where $j_L \left(kr \right)$ is the usual spherical Bessel function. The $\chi_L \left( k,r \right)$ radial function satisfies the radial Shr\"{o}dinger equation
+\begin{equation}
+\left( \nabla_r + k^2 - \frac{L(L+1)}{r^2} - \frac{2 \mu}{\hbar2} U \left( r \right)\right) \chi_L \left( k,r \right) =0,
+\label{es_she_radial}
+\end{equation}
+where $k^2 = \frac{2\mu E}{\hbar^2}$.
+
+In the case of the interaction potential has a more sophisticated form, including both Coulomb and nuclear short-range  potentials, the radial Shr\"{o}dinger equation (\ref{es_she_radial}) may be rewritten as
+\begin{equation}
+\left( \nabla_r + k^2 - \frac{2 \eta k}{r} - \frac{L(L+1)}{r^2} - \frac{2 \mu}{\hbar2} U \left( r \right) \right) \chi_L \left( k,r \right) =0,
+\label{es_she2}
+\end{equation}
+where $\eta$ is the usual Sommerfeld parameter with the $Z$ charge numbers
+\begin{equation*}
+\eta=\frac{Z_a Z_A e^2 \mu}{\hbar^2 k}
+\end{equation*}
+At the radius $r_0$, where the nuclear potential is negligible, Eq.~(\ref{es_she2}) has the solution, which can be expressed in terms of the $\text{H}_L$ outgoing  and $\text{H}_L^*$ incoming Coulomb functions, as follow
+\begin{equation}
+\chi_L \left( k,r \right) \rightarrow \frac{i}{2}e^{i \sigma_L} \left( \text{H}_L(kr_0)^*
+-S_L \text{H}_L(kr_0)\right), 
+~~ r \rightarrow r_0
+\label{es_assymp_chi}
+\end{equation} 
+where $\sigma_L$ is the Coulomb phase shift, and it is given with the $\Gamma$ Gamma function as follow
+\begin{equation*}
+\sigma_L=Arg\left( \Gamma \left( L+1+i \eta \right) \right)
+\end{equation*}
+In practice, the radial Eq.~(\ref{es_she2}) is solved by numerical integration from $r \approx 0$, then, matched the value and the slope of the result onto the form (\ref{es_assymp_chi}) ar $r=r_0$. This procedure then gives a value for the $S_L$ scattering matrix elements. Having the $S_L$ matrix elements, the amplitude  of the elastic scattering, analogous  from Eq.~(\ref{es_chi_assymp_with_f}), for the $\chi_L \left( k,r \right)$ wave function in the Eq.~(\ref{es_she2}) is given by
+\begin{equation}
+f(\theta)=\frac{1}{2ik} \sum_{L} (2L+1) e^{2i\sigma_L} \left( S_L - 1 \right)
+\text{P}_L(\text{cos}(\theta))
+\label{es_amplitude_nuclear}
+\end{equation}
+where $\text{P}_L(x)$ is the Legendre polynomials, which are solutions to the Legendre differential equation.
+By means of the Rutherford scattering amplitude 
+\begin{equation}
+f_C(\theta)=-\frac{\eta}{2 k {\text{sin}}^2 \left( \tfrac{1}{2} \theta \right) }
+e^{\left( i \eta \text{ln}\left( \text{sin}^2 \left( \tfrac{1}{2} \theta \right) \right)
++2i \sigma_{0} \right)}
+\end{equation}
+the differential cross section of the elastic scattering has the form
+\begin{equation}
+\frac{\text{d} \sigma_{\alpha}}{\text{d} \Omega} = \vert f_C(\theta) + f(\theta) \vert^2.
+\label{es_diff_cross_section}
+\end{equation} 
+The expression (\ref{es_diff_cross_section}) allows thus to provide comparison with the obtained  experimental data.   
+
+
+\section{The coupled channels method for inelastic scattering}
+The elastic scattering of the projectile $a$ by the nucleus $A$ has been denoted by $\alpha=a+A$. 
+ Let $\alpha^{\prime}=a+A^{*}$ be an inelastic channel , in which only the $A$ nucleus has an extra excitation. In the framework of the coupled channel (CC) approach  the total wave function $\Psi$ for the system may be written as
+\begin{equation}
+\Psi =  \phi_\alpha \left( { x} \right) \chi_\alpha \left( {\bf r}_\alpha \right)+
+\phi_{\alpha^{\prime}}  \left( { x} \right) \chi_{\alpha^{\prime}} \left( {\bf r}_{\alpha^{\prime}} \right)
+\label{cc_tot_wf}
+\end{equation}
+ where ${\bf r}$ is the channel coordinate for the partitions $\alpha$ or $\alpha^{\prime}$, $x$ represents the corresponding internal coordinates.
+ The total wave function can be part of the Shr\"{o}dinger equation kind of
+ \begin{equation}
+ H\Psi=E\Psi
+ \label{cc_she1}
+ \end{equation}
+with the Hamiltonian appropriate particular for the $\alpha$ partition
+\begin{equation}
+H=H_\alpha + K_\alpha + V_\alpha.
+\end{equation}
+where $H_\alpha \equiv H_a + H_A$ is the internal Hamiltonian for the nuclei $a$ and $A$, $K_\alpha$ is the kinetic energy operator of relative motion and $V_\alpha$ is the interaction potential operator. The wave functions of ground $ \phi_\alpha \left( { x} \right) $ and excited state $ \phi_{\alpha^{\prime}}  \left( { x} \right)$, being eigenfunctions of the internal Hamiltonian $H_\alpha$
+ \begin{align}
+H_\alpha  \phi_\alpha \left( { x} \right) =& \varepsilon_\alpha \phi_\alpha \left( { x} \right) \nonumber \\
+H_\alpha  \phi_{\alpha^{\prime}} \left( { x} \right) =& \varepsilon_{\alpha^{\prime}} \phi_{\alpha^{\prime}} \left( { x} \right),
+ \end{align}
+have an orthonormality property  of the form 
+\begin{equation}
+\int {d x} \left( \phi_\alpha \left( { x} \right)  \right)^{*} \phi_{\alpha^{\prime}} \left( { x}\right) =
+\delta_{\alpha \alpha^{\prime}}.
+\label{cc_orthonorm}
+\end{equation}
+ Using the expression of total wave function (\ref{cc_tot_wf}), multiplying Eq.~(\ref{cc_she1}) from the left by the $\phi^{*}_\alpha$ function, then, by the $\phi^{*}_{\alpha^{\prime}}$ function, the two coupled equations can be defined in the following form 
+ \begin{align}
+\left( E -\varepsilon_\alpha - K_\alpha - \langle \alpha \vert V_\alpha \vert \alpha \rangle \right) \chi_\alpha \left( {\bf r} \right) = & \langle \alpha \vert V_{\alpha} \vert \alpha^{\prime} \rangle \chi_{\alpha^{\prime}} \left( {\bf r} \right) 
+\nonumber \\
+\left( E -\varepsilon_\alpha - K_\alpha - \langle \alpha^{\prime} \vert V_\alpha \vert \alpha^{\prime} \rangle \right) \chi_{\alpha^{\prime}} \left( {\bf r} \right) =&  \langle \alpha^{\prime} \vert V_{\alpha} \vert \alpha \rangle \chi_{\alpha} \left( {\bf r} \right) 
+ \end{align}
+where $\langle \alpha \vert V_\alpha \vert \alpha \rangle$, or $\langle \alpha^{\prime} \vert V_{\alpha} \vert \alpha \rangle$, is  the matrix element of $V_\alpha$. In particular,  the matrix element $\langle \alpha^{\prime} \vert V_\alpha \vert \alpha \rangle$ is given by
+\begin{align}
+\langle \alpha^{\prime} \vert V_\alpha \vert \alpha \rangle = & \int d x \phi_\alpha^{\prime} \left( { x} \right)  V_\alpha \left( x,  {\bf r} \right) \phi_\alpha \left( { x} \right) =\nonumber \\
+= & V_{\alpha^{\prime} \alpha} \left(  {\bf r} \right).
+\end{align}
+
+An expansion of the coupling potential $V_{\alpha^{\prime} \alpha} \left( {\bf r} \right)$ into the $\lambda$ multipoles can be given as follow
+\begin{equation}
+V_{\alpha^{\prime} \alpha} \left( {\bf r} \right) = \sum_{\lambda \mu} V^{\lambda \mu}_{\alpha^{\prime} \alpha} (r) Y_{\lambda \mu} \left( \hat{r} \right)
+\end{equation}
+
+If the potential shape has a deformation, the nuclear potential can be constructed as
+\begin{equation}
+V_\alpha \left( x, {\bf r}\right) \equiv U\left( r -\delta\left( \hat{r}^{\prime} \right) \right)
+\label{cc_coup_pot_def}
+\end{equation}
+where $\hat{r}^{\prime}$ denotes angular coordinates of $(\theta,~\phi)$ referred to the intrinsic reference frame. The function $\delta\left( \hat{r}^{\prime} \right)$ is normally expanded in multipoles
+\begin{equation}
+\delta\left( \hat{r}^{\prime} \right) = \sum_{\lambda} \delta_\lambda Y_{\lambda 0} (\hat{r}^{\prime}).
+\label{cc_delta_def}
+\end{equation}
+
+
+In the collective model, the ground and excited states are characterized by their angular momenta $I_i$ and $I_{f}$ with projections $M_i$ and $M_{f}$, respectively. For these state the relevant matrix element of the $V_{\alpha \alpha}^{\lambda \mu}$ operator is described using the Wigner-Eckart theorem by
+\begin{equation}
+\langle I_{i} M_{i} \vert V^{\lambda \mu}_{\alpha^{\prime} \alpha}  \vert I_f M_f \rangle 
+= \sqrt{2I_i + 1} 
+\langle I_f M_f \lambda \mu \vert I_i M_i\rangle
+ \langle I^{\prime} \vert \vert V^{\lambda}_{\alpha^{\prime} \alpha} \vert \vert	 I \rangle.
+ \label{cc_we}
+\end{equation} 
+
+Using the definitions, (\ref{cc_coup_pot_def}) and (\ref{cc_delta_def}), the reduced matrix element of radial multipoles from Eq.~(\ref{cc_we}) can be rewritten as follow 
+ \begin{equation}
+ \langle I_{i} \vert \vert V^{\lambda \mu}_{\alpha^{\prime} \alpha}  \vert \vert I_f \rangle = -\frac{\langle I_{i} \vert \vert \delta_\lambda \vert \vert I_f \rangle}{\sqrt{4 \pi}} 
+ \frac{\text{d}U(r)}{\text{d}r}
+ \end{equation}
+ where 
+\begin{equation}
+\langle I_{i} \vert \vert \delta_\lambda \vert \vert I_f \rangle = \sqrt{2 I_f+1} 
+\langle I_f M_f \lambda 0 \vert I_i M_i \rangle 
+\langle \chi \vert \delta \vert \chi \rangle \delta_{M_i M_f}.
+\end{equation}
+The matrix element $\langle \chi \vert \delta \vert \chi \rangle$ is the expectation value of the operator $\delta_\lambda$ in the internal state of the  deformed nucleus. In the framework of the rotational model it can be given with the deformation length $\beta_\lambda$ as follow
+\begin{equation}
+\langle \chi \vert \delta \vert \chi \rangle = R_0 \beta_\lambda
+\end{equation}
+where $R_0$ is an average radius of the interaction potential.
+
+The general asymptotic behaviour of the $\chi_{\alpha}$ elastic channel can be taken from Eq.~(\ref{es_chi_assymp_with_f}), while the inelastic channel $\chi_{\alpha^{\prime}}$ may have 
+\begin{equation}
+\chi_{\alpha^{\prime}} \left( {\bf r}_{\alpha^{\prime}} \right) \rightarrow 
+f_{\alpha^{\prime}} \left( \theta \right)
+\frac{e^{i k r_{\alpha^{\prime}}}}{r}, 
+~~ {\bf r}_{\alpha^{\prime}} \rightarrow \infty
+\end{equation}
+Note, that the plane wave expression doesn't not present in this equation - only outgoing wave presents. 
+A relevant differential cross section for the inelastic channel is obtained from the coefficient of the outgoing wave as follow
+\begin{equation}
+\frac{\text{d}\sigma_{\alpha^{\prime}} \left( \theta\right)}{\text{d}\Omega} =
+\frac{k_{\alpha^{\prime}}}{k_{\alpha}}
+\vert f_{\alpha^{\prime}} \left( \theta \right) \vert^2.
+\label{cc_dsigma_domega}
+\end{equation}
+The wave numbers $k_{\alpha}$ and $k_{\alpha^{\prime}}$ follow from the energy conservation 
+\begin{equation}
+E=\varepsilon_\alpha + \frac{\hbar^2 k_\alpha}{2 \mu} = 
+\varepsilon_{\alpha^{\prime}} + \frac{\hbar^2 k_{\alpha^{\prime}}}{2 \mu}.
+\end{equation}
+
+\section{The coupled-reaction-channels method for the transfer reactions}
+Consider a model for the $a+A\rightarrow b+B$ nuclear reaction, in which entrance and exit channels are denoted as $\alpha$ and $\beta$ respectively. The $\Psi$ total wave function for this model may be given as
+\begin{equation}
+\Psi = \chi_{\alpha} \left( {\bf r}_\alpha \right) \phi_\alpha \left( x_\alpha \right) + 
+ \chi_{\beta} \left( {\bf r}_\beta \right) \phi_\beta \left( x_\beta \right).
+\end{equation}
+with a model Hamiltonian $H$ such that $\left( E-H \right) \Psi =0$. From the projections of this equation onto the two channels,
+\begin{align}
+\langle \chi_\alpha \vert \left( E-H \right) \vert \Psi \rangle = 0 \nonumber \\
+\langle \chi_\beta \vert \left( E-H \right) \vert \Psi \rangle = 0
+\end{align}
+with the two equivalent forms of $H$,
+\begin{align}
+H= H_\alpha +K_\alpha + V_\alpha \nonumber \\
+H= H_\beta +K_\beta + V_\beta
+\end{align}
+one can get a pair of coupled equations for $\chi_\alpha$ and $\chi_\beta$:
+\begin{align}
+\left[ ~\left(E-\varepsilon_\alpha \right)  -K_\alpha -
+\langle \alpha \vert V_\alpha \vert \alpha \rangle ~\right] 
+\chi_\alpha ({\bf r}_\alpha) = 
+\langle \alpha \vert H-E \vert  \beta \rangle \chi_\beta \nonumber \\
+\left[ ~\left(E-\varepsilon_\beta \right)  -K_\beta -
+\langle \beta \vert V_\beta \vert \beta \rangle ~\right] 
+\chi_\beta ({\bf r}_\beta) = 
+\langle \beta \vert H-E \vert \alpha \rangle \chi_\alpha .
+\label{crc_couple_eq1}
+\end{align}
+These are \textit{the coupled-reaction-channels} (CRC) equations. They are integro-differential equations, as may be seen more explicitly in the form
+\begin{align}
+\left[ ~\left(E-\varepsilon_\alpha \right)  -K_\alpha -
+\langle \alpha \vert V_\alpha \vert \alpha \rangle ~\right] 
+\chi_\alpha ({\bf r}_\alpha) = 
+\int \text{d} {\bf r}_\beta K_{\alpha \beta} \left( {\bf r}_\alpha, {\bf r}_\beta \right) \chi_\beta \left(  {\bf r}_\beta \right)
+ \nonumber \\
+\left[ ~\left(E-\varepsilon_\beta \right)  -K_\beta -
+\langle \beta \vert V_\beta \vert \beta \rangle ~\right] 
+\chi_\beta ({\bf r}_\beta) = 
+\int \text{d} {\bf r}_\alpha K_{\beta \alpha} \left( {\bf r}_\beta, {\bf r}_\alpha \right) \chi_\alpha \left(  {\bf r}_\alpha \right)
+\end{align}
+where the kernels are
+\begin{align}
+K_{\alpha \beta} \left( {\bf r}_\alpha, {\bf r}_\beta \right) = 
+J_{\alpha \beta}
+\int \text{d} \zeta_\alpha \phi_\alpha^* \left( x_\alpha \right)
+(H-E) \phi_\beta \left( x_\beta \right) \nonumber \\
+K_{\beta \alpha} \left( {\bf r}_\beta, {\bf r}_\alpha \right) = 
+J_{\beta \alpha}
+\int \text{d} \zeta_\beta \phi_\beta^* \left( x_\beta \right)
+(H-E) \phi_\alpha \left( x_\alpha \right).
+\end{align}
+Here the internal coordinates have been transformed from the set $x_\alpha$ to the set $\left( \zeta_\alpha, {\bf r}_\beta \right)$, where the $\zeta_\alpha$ are independent of ${\bf r}_\beta$. Also, $J_{\alpha \beta}$ is the Jacobian of this transformation. Then $J_{\beta \alpha}$ is the Jacobian for the analogous transformation form $x_\beta$ to $\left( \zeta_\beta,{\bf r}_\alpha  \right)$.
+
+Since the off-diagonal matrix elements of $V_\alpha$ are small, they have little effect on the elastic scattering and may be neglected on the right side. 
+This implies that the elastic scattering in the entrance $\alpha$ channel is described well by the potential $\langle \alpha \vert V_\alpha \vert \alpha \rangle$, and the potential $\langle \beta \vert V_\beta \vert \beta \rangle$ describes well the elastic scattering in the $\beta$ channel.
+%Furthermore, if we have one more channel, it is assumed that all couplings, except the direct coupling to the entrance $\alpha$ channel, can be neglected on the right side of the equation for the $\beta$ channel, so that the potential $\langle \beta \vert V_\beta \vert \beta \rangle$ describes well the elastic scattering in this channel. 
+By doing this approximation, Eq.~(\ref{crc_couple_eq1}) may be rewritten as
+\begin{align}
+\left[ ~\left(E-\varepsilon_\alpha \right)  -K_\alpha -
+\langle \alpha \vert V_\alpha \vert \alpha \rangle ~\right] 
+\chi_\alpha ({\bf r}_\alpha) \approx & 0
+ \nonumber \\
+\left[ ~\left(E-\varepsilon_\beta \right)  -K_\beta -
+\langle \beta \vert V_\beta \vert \beta \rangle ~\right] 
+\chi_\beta ({\bf r}_\beta) \approx &
+\langle \beta \vert H-E \vert \alpha \rangle \chi_\alpha
+\nonumber \\
+\approx &
+\langle \beta \vert V_\alpha \vert  \alpha \rangle \chi_\alpha + \langle \beta \vert \alpha \rangle (H_\alpha - E_\alpha) \chi_\alpha 
+\nonumber \\
+\approx & \langle \beta \vert V_\alpha \vert  \alpha \rangle \chi_\alpha
+\label{crc_couple_eq2}
+\end{align}
+ Here the prior interaction, that is the interaction of the $\alpha$ channel, is used. The non-orthogonal term $\langle \beta \vert \alpha \rangle (H_\alpha - E_\alpha) \chi_\alpha$ vanishes because of the $\chi_\alpha$ is on-shell. The usual Green function techniques may then be used to solve these equations and give \textit{the  distorted wave Born approximation transition} (DWBA) amplitude 
+ \begin{align}
+ T_{\beta \alpha}^{DWBA} =& \langle \chi_\beta^{(-)} \phi_\beta  \vert V_\alpha \vert
+ \chi_\alpha^{(+)} \phi_\alpha \rangle = \nonumber \\
+= & \int \int \text{d}x_\beta \text{d}{\bf r}_\beta \chi_\beta^{(-)*} \left( {\bf r}_\beta \right)\phi_\beta^{*} \left( x_\beta \right) V_\alpha 
+ \chi_\alpha^{(+)} \left( {\bf r}_\alpha \right)\phi_\alpha \left( x_\alpha \right)
+ \end{align}
+ where $\chi^{(+)}$ and $\chi^{(-)}$ obey the homogeneous equations
+ \begin{align}
+ \left[ ~\left(E-\varepsilon_\alpha \right)  -K_\alpha -
+\langle \alpha \vert V_\alpha \vert \alpha \rangle ~\right] 
+\chi_\alpha^{(+)} ({\bf r}_\alpha) = & 0 \nonumber \\
+ \left[ ~\left(E-\varepsilon_\beta \right)  -K_\beta -
+\langle \beta \vert V_\beta^{\dagger} \vert \beta \rangle ~\right] 
+\chi_\alpha^{(-)} ({\bf r}_\alpha) = & 0 \nonumber
+ \end{align}
+
+The differential cross section for the transfer channel $\beta$ can be deduced in the similar way as in Eq.~(\ref{cc_dsigma_domega})
+
+\section{Distorted Wave Born Approximation}
+
+\section{Spectroscopic Amplitudes within the Shell Model}
+
+\section{Interaction potentials. The double folding model}
+
+The numerical calculations  of the elastic scattering  can be performed in the framework of the OM with the OM potential given by:
+
+\begin{equation}\label{eqn:OP}
+\begin{array}{l}
+ U(R)=-V^{V}(R)-iW^{V}(R)+V^{SO}(R)( \mathbf{l} \cdot \sigma )\\
+~~~ ~~~~~~~+V^C(R),
+\end{array}
+\end{equation}
+where $V^{V}, W^{V}, V^{SO},$ and $V^C$ are real volume,  imaginary volume, spin-orbit and Coulomb potentials, respectively. The volume potentials of colliding two spherical nuclei may be represented as parametrized function. For example, in practice the Woods-Saxon potential is often used, and it has the form
+\begin{align}
+V^V\left( r \right) = & V_0^V f_{r_V, a_V} \left( r \right), \nonumber \\
+W^V\left( r \right) = & V_0^W f_{r_W, a_W} \left( r \right), \nonumber \\
+f_{r_0, a_0} \left( r \right) = &  \frac{1}{1+ \text{exp} \left( \frac{r-r_0}{a_0} \right) },
+\end{align}
+where $V_0$ is depth of the potential, $r_0$ is  average distance and $a_0$ is  diffusion parameter. 
+
+%The surface and 
+The spin-orbit term of the OM potential has standard form
+\begin{eqnarray}
+%W^D(R) &= -4 a_D W_0^D \frac{d}{dR} f^{R_D,a_D}(R), \\
+V^{SO}(r) &= V_0^{SO}\left(\frac{\hbar}{m_\pi c}\right)^2 \frac{1}{r} \frac{d}{dR} f_{R_{SO} a_{SO}}(r).
+\end{eqnarray}
+The Coulomb term has been taken as the interaction of a point-charge with a uniformly charged sphere
+\[
+\label{coul}
+V^C(r)=
+\begin{cases}
+\frac{Z_1 Z_2 e^2}{2 r_C} \left( 3- \frac{r^2}{r_C^2} \right), &\text{  for } r \leq r_C, \\
+\frac{Z_1 Z_2 e^2}{r}, & \text{ for } r > r_C .
+\end{cases}
+\]
+
+
+
+The situation changes, when the colliding nuclei have sophisticated shape. Assume, that there are nuclear matter distribution of the projectile $\rho_a \left( { r}_a \right) $ and target $\rho_A \left( { r}_a \right)$, depending on internal their own radii. Folding the nucleon-nucleon interaction potential $V_{nn}$ over the density distributions of nuclear matter, in the framework of \textit{the Double folding model} an interaction potential may be constructed as follow 
+\begin{align}
+V^V\left( r \right) = & N_f V^{DF} \left( r \right) \nonumber \\ 
+V^{DF} \left( {\bf r} \right) = & \int \int \text{d} {\bf r}_a\text{d} {\bf r}_A
+\rho_a \left( {\bf r}_a \right) V_{nn} \left( r_{aA}\right)  \rho_A \left( {\bf r}_A \right). 
+\label{df_potential}
+\end{align}
+where $r_{aA}=\vert {\bf r} + {\bf r}_A - {\bf r}_a \vert$ (see Fig.~\ref{fig:df_scheme}). The $N_f$ normalization parameter is usually fitted in accordance with the dynamics of nuclear reaction of elastic scattering.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.8]{df_scheme}
+\decoRule
+\caption{ \footnotesize Radius vectors for the double folding model}
+\label{fig:df_scheme}
+\end{figure}
+
+The DF potential may be calculated using the effective M3Y-Paris \cite{anantaraman1983effective} nucleon-nucleon potential and the nuclear-matter-densities of projectile and target nuclei. 
+
+ The $V_{nn}$ effective nucleon-nucleon interactions usually are taken as a sum of the three Yukawa potentials, i.e. M3Y-potentials:
+ % According to Ref. \cite{anantaraman1983effective, bertsch1977interactions}, for both isoscalar and isovector M3Y-potentials have a form as
+ \begin{equation}
+ V_{nn}(r)=\sum_{i=1}^{3} N_i \frac{\text{exp}(-\mu_i r)}{\mu_i r}.
+ \end{equation}
+ 
+ 
+The parameters  $N_i$, $\mu_i$ of the M3Y-Reid effective NN-potential \cite{bertsch1977interactions}, often used in the double folding calculations, are given in Tab.\ref{m3y_reid_potpar}.
+The potential depending on the collision energy of the projectile, undergoes a change by multiplying a factor
+\begin{equation}
+g(E)= 1-0.002 \frac{E}{A} .
+\end{equation}
+An additional dependence of the $V_{nn}$ potential on the total density of colliding nuclei in the region of their overlap may given as
+\begin{equation}
+F(\rho)=C \left( 1+ \alpha \text{exp} \left( - \beta \rho \right) \right).
+\label{F_dependence}
+\end{equation}
+  Studies from Ref. \cite{khoa1994double} has revealed the best agreement of calculated differential cross sections of the $ {}^{12}C+{}^{16}O$  elastic scattering at low and medium energies with the experimental data in conditions, if parameters from Eq.~(\ref{F_dependence}) take the following values: $C=0.2845,~\alpha=3.64, \text{and}~\beta=2.96$.
+
+Another effective potential often used in the double folding calculations is M3Y-Paris \citep{anantaraman1983effective}. 
+
+
+ For the particles $t$, $^3$He, $\alpha$, which have simple structure, the density distribution of nuclear matter can be represented as parametrized Gaussian function as follow
+ \begin{equation}
+ \rho \left( r \right) = \rho _0{\mathrm{exp}}\left( - \alpha_0 r^2 \right)
+ \end{equation}
+ where the parameters $\rho_0$ and $\alpha_0$ are defined in condition to reproduce the rms matter radii
+ \begin{equation}
+ \alpha_0 = \frac{3}{2\langle r_{m}^{2} \rangle}, 
+ \rho_0 = a  \left( \frac{\alpha_0}{\pi} \right)^{3/2}
+ \end{equation}
+ here $a$ -- atomic number of projectile. 
+ %Для ядер $^3$He величина $\langle r^2_m \rangle^{1/2}= 1.703$ фм \cite{pomerantsev2005dibaryon}.
+ 
+ The density distributions in (\ref{df_potential}) are normalized so that
+ \begin{align}
+ \int \rho_A ({\bf r}) \text{d} {\bf r} & =A \\ \nonumber
+ \int \rho_a ({\bf r}) \text{d} {\bf r} & =a
+ \end{align}
+ where $A, a$ are the number of nucleons in the respective nuclei. 
+ 
+\begin{table*}[bp]
+\footnotesize
+\caption{\label{m3y_reid_potpar} \footnotesize Parameters of the Reid-Elliot M3Y potential.}
+\begin{tabular*}{\textwidth}{lr@{\extracolsep{\fill}}rrrl}
+\toprule
+$i$ & $N_i$, MeV &  ~ & ~ & ~ &$\mu_i$, $fm^{-1}$ \\
+~& Direct T=0~  & Exchange T=0 & Direct T=1 & Exchange T=1&  \\
+ \midrule
+1  & 7999.0 & 4631.4  & -4885.5 & -1517.9 & 4.0000 	\\
+2 & -2134.3  & -1787.1 & 1175.5 & 828.4 & 2.5000  \\ 
+3 & 0.0  & -7.8 & 0.0 & 2.6 & 0.7072  \\ 
+\bottomrule
+\end{tabular*}
+\end{table*}
+ 
+ 
+ 
+As regards target nuclei, having cluster structure, the density distribution of nuclear matter are calculated by means of the three body wave function, and its details are set out in the next chapter.
+
+
 
 
 \chapter{Results and discussions}
@@ -1645,7 +1583,7 @@ Figure \ref{dbe_fig11} shows the contributions of all the mechanisms mentioned a
 % Uncomment the lines as you write the Appendices
 
 \include{Appendices/AppendixA}
-%\include{Appendices/AppendixB}
+\include{Appendices/AppendixB}
 %\include{Appendices/AppendixC}
 
 %----------------------------------------------------------------------------------------

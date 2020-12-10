@@ -1,12 +1,100 @@
 % Appendix A
 
-\chapter{Parameters of the three body wave function} % Main appendix title
+\chapter{Some aspects from the quantum theory of angular momenta} % Main appendix title
 
 \label{AppendixA} % For referencing this appendix elsewhere, use \ref{AppendixA}
+A total angular momentum $\mathbf{j}$ are decomposed into two angular momenta $\mathbf{j}_1$ and $\mathbf{j}_2$ by means of the Clebsch-Gordan coefficient. For example, to quote a basis $\vert ~ jm \rangle $ with the angular momentum $ j$ with its $z$-component $m$, the Clebsch-Gordan coefficient can be represented as follow
+\begin{equation}
+\label{the_CG_coefficient}
+\vert ~ jm \rangle =\sum_{m_1 m_2} \langle ~ j_1 m_1~j_2 m_2~ \vert ~j m~  \rangle ~ \vert ~j_1 m_1 \rangle~ \vert ~j_2 m_2 \rangle,
+\end{equation}
+For non-zero values of the coefficient (\ref{the_CG_coefficient}) vectors $\mathbf{j}_1$, $\mathbf{j}_2$ and $\mathbf{j}$ must satisfy the rule of triangle:
+\begin{align*}
+\vert j_1 - j_2 \vert \leq j \leq j_1 + j_2 \\
+\vert j - j_2 \vert \leq j_1 \leq j + j_2 \\ 
+\vert j_1 - j \vert \leq j_2 \leq j_1 + j 
+\end{align*}
+and the condition
+\begin{equation*}
+m=m_1+m_2.
+\end{equation*}
 
-\section{Hellium-6}
 
-\section{Lithium-6}
+If there are three vectors $\mathbf{j}_1, \mathbf{j}_2$ and $\mathbf{j}_3$, one can get a total angular momentum $\bf j$ in two ways
 
-\section{Berillium-9}
+\begin{align}
+\label{6j_basis1}
+\bf j & =\bf \left( j_1 + j_2 \right) + j_3 = j_{12} + j_3 \\
+\label{6j_basis2}		
+& = \bf j_1 + \left( j_2  + j_3 \right) = j_1 +j_{23}
+\end{align}
 
+The Basis $ \vert (j_1 j_2)j_{12},j_3; jm \rangle$ and the basis $\vert j_1,(j_2 j_3); ~jm \rangle$ corresponding to Eq.~(\ref{6j_basis1}) and Eq.~(\ref{6j_basis2}) are related through a factor $U(~j_1 j_2 j j_3;~ j_{12} j_{23})$, which is the Racah coefficient:
+\begin{equation}
+\vert (j_1 j_2)j_{12},j_3; jm \rangle = \sum_{j_{23}} U(~j_1 j_2 j j_3;~ j_{12} j_{23}) ~ \vert j_1,(j_2 j_3); ~jm \rangle.
+\end{equation}
+
+Four angular momenta, $\bf j_1,~j_2,~j_3$ and $\bf j_4$, are added into the total momentum $\bf j$ by
+\begin{align}
+\label{9j_basis1}
+\bf j & =\bf \left( j_1 + j_2 \right) + ( j_3 + j_4) = j_{12} + j_{34} \\
+\label{9j_basis2}		
+& = \bf ( j_1 + j_3 ) + \left( j_2  + j_4 \right) = j_{13} +j_{24}
+\end{align}
+
+Two basis  $\vert~ j_1 j_2 (j_{12}),~j_3 j_4 (j_{34});~jm \rangle$ and $\vert~ j_1 j_3 (j_{13}),~j_2 j_4 (j_{24});~jm \rangle $, constructed respectively on the scheme Eq.~\ref{9j_basis1} and Eq.~\ref{9j_basis2},  are related as follow
+\begin{align}
+\label{9j}
+\vert~ j_1 j_2 (j_{12}),~j_3 j_4 (j_{34});~jm \rangle = \sum_{j_{13},j_{24}} 
+\begin{bmatrix}
+j_1 & j_2 & j_{12} \\ 
+j_3 & j_4 & j_{34} \\ 
+j_{13} & j_{24} & j
+\end{bmatrix} 
+\vert~ j_1 j_3 (j_{13}),~j_2 j_4 (j_{24});~jm \rangle 
+\end{align}
+where transformation coefficient with square brackets is called a unitary 9j-symbol.
+
+
+  A spacial spherical harmonics is expressed like
+  \begin{equation}
+  \mathcal{Y}_{lm}({\bf r}) = r^{l} Y_{lm}(\hat{r})
+  \end{equation}
+  where $Y_{lm}(\hat{r})$  -- spherical function, which is a eigenfunction of angular part the $\Delta_{\hat{r}}$ Laplace operator.
+  For ${\bf r} = a{\bf r}_1+b {\bf r}_2$ a decomposition of the spacial spherical harmonics $\mathcal{Y}_{lm}({\bf r})$ leads to the following equality
+  \begin{align}
+  \mathcal{Y}_{lm}({\bf r} = a{\bf r}_1+b {\bf r}_2)=& \sum_{l_1,l_2,m_1,m_2} a^{l_1} b^{l_2}
+  \langle ~ l_1 m_1~l_2 m_2~ \vert ~l m~  \rangle \mathcal{D}(l,l_1,l_2) \times \nonumber \\
+   & \times \mathcal{Y}_{l_l m_1}({\bf r_1})  \mathcal{Y}_{l_2 m_2}({\bf r_2}) \nonumber \\
+   = & \sum_{l_1,l_2} a^{l_1} b^{l_2}
+   \mathcal{D}(l,l_1,l_2) \left[ \mathcal{Y}_{l_l}({\bf r_1}) \times \mathcal{Y}_{l_2}({\bf r_2}) \right]_{lm} 
+   \label{sphHarmDecomp}
+  \end{align}
+  with the condition $l=l_1+l_2$, and $\mathcal{D}(l,l_1,l_2) $ is given by
+  \begin{equation}
+  \mathcal{D}(l,l_1,l_2)  = \sqrt{\frac{4 \pi (2l+1)!}{(2l_1+1)! (2l_2+1)!}}
+  \end{equation}
+Spherical harmonics with the argument are coupled as follow
+\begin{equation}
+\left[ Y_{l_1}(\hat{r}) \times Y_{l_2}(\hat{r})\right]_{lm} =  \mathcal{C}(l_1,l_2,l) Y_{lm}(\hat{r})
+\end{equation}
+where the $\mathcal{C}(l_1,l_2,l)$ coefficient reads as
+\begin{equation}
+\mathcal{C}(l_1,l_2,l) = \sqrt{\frac{(2l_1+1)(2l_2+1)}{4 \pi (2l+1)}} \langle ~ l_1 0~l_2 0~ \vert ~l 0~  \rangle
+\end{equation}
+
+It would be useful also note a coupling between two spherical hyper harmonics kind of
+\begin{equation}
+\left[ Y^{(l_1l_2)}_{l_{12}}(\hat{{\bf r}}_1,\hat{{\bf r}}_2) \times Y^{(l_3l_4)}_{l_{34}}(\hat{{\bf r}}_1,\hat{{ \bf r}}_2) \right]_{lm}= \sum_{l_{13}l_{24}} {E}^{l_1l_2l_{12}l_2l_4l_{34}l}_{l_{13}l_{24}}  Y^{(l_{13}l_{24})}_{lm}(\hat{{\bf r}}_1,\hat{{\bf r}}_2)
+\label{hyperSphTrans}
+\end{equation}
+where the coupling coefficient ${E}^{l_1l_2l_{12}l_2l_4l_{34}l}_{l_{13}l_{24}}$ is given as
+\begin{equation}
+{E}^{l_1l_2l_{12}l_2l_4l_{34}l}_{l_{13}l_{24}} = 
+\begin{bmatrix}
+l_1 & l_2 & l_{12} \\ 
+l_3 & l_4 & l_{34} \\ 
+l_{13} & l_{24} & l
+\end{bmatrix}
+\mathcal{C}(l_1,l_3,l_{13})\mathcal{C}(l_2,l_4,l_{24}).
+\end{equation}

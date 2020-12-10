@@ -17,6 +17,67 @@
 \endgroup
 
 \sortlist[entry]{none/global/}
+  \entry{kukulin1977stochastic}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KV}{%
+         family={Kukulin},
+         familyi={K\bibinitperiod},
+         given={VI},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Krasnopol'sky},
+         familyi={K\bibinitperiod},
+         given={VM},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{KVKV1}
+    \strng{fullhash}{KVKV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{6}
+    \field{pages}{795}
+    \field{title}{A stochastic variational method for few-body systems}
+    \field{volume}{3}
+    \field{journaltitle}{Journal of Physics G: Nuclear Physics}
+    \field{year}{1977}
+  \endentry
+
+  \entry{satchler1979folding}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SGR}{%
+         family={Satchler},
+         familyi={S\bibinitperiod},
+         given={George\bibnamedelima Raymond},
+         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=LWG}{%
+         family={Love},
+         familyi={L\bibinitperiod},
+         given={W\bibnamedelima Gary},
+         giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{SGRLWG1}
+    \strng{fullhash}{SGRLWG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{183\bibrangedash 254}
+    \field{title}{Folding model potentials from realistic interactions for
+  heavy-ion scattering}
+    \field{volume}{55}
+    \field{journaltitle}{Physics Reports}
+    \field{year}{1979}
+  \endentry
+
   \entry{anantaraman1983effective}{article}{}
     \name{author}{3}{}{%
       {{hash=AN}{%
@@ -132,67 +193,6 @@
     \field{volume}{49}
     \field{journaltitle}{Physical Review C}
     \field{year}{1994}
-  \endentry
-
-  \entry{kukulin1977stochastic}{article}{}
-    \name{author}{2}{}{%
-      {{hash=KV}{%
-         family={Kukulin},
-         familyi={K\bibinitperiod},
-         given={VI},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=KV}{%
-         family={Krasnopol'sky},
-         familyi={K\bibinitperiod},
-         given={VM},
-         giveni={V\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {IOP Publishing}%
-    }
-    \strng{namehash}{KVKV1}
-    \strng{fullhash}{KVKV1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{6}
-    \field{pages}{795}
-    \field{title}{A stochastic variational method for few-body systems}
-    \field{volume}{3}
-    \field{journaltitle}{Journal of Physics G: Nuclear Physics}
-    \field{year}{1977}
-  \endentry
-
-  \entry{satchler1979folding}{article}{}
-    \name{author}{2}{}{%
-      {{hash=SGR}{%
-         family={Satchler},
-         familyi={S\bibinitperiod},
-         given={George\bibnamedelima Raymond},
-         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=LWG}{%
-         family={Love},
-         familyi={L\bibinitperiod},
-         given={W\bibnamedelima Gary},
-         giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{SGRLWG1}
-    \strng{fullhash}{SGRLWG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{3}
-    \field{pages}{183\bibrangedash 254}
-    \field{title}{Folding model potentials from realistic interactions for
-  heavy-ion scattering}
-    \field{volume}{55}
-    \field{journaltitle}{Physics Reports}
-    \field{year}{1979}
   \endentry
 
   \entry{jansen1972nuclear}{article}{}
