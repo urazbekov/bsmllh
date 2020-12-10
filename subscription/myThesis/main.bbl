@@ -195,6 +195,42 @@
     \field{year}{1994}
   \endentry
 
+  \entry{sack1954elastic}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SS}{%
+         family={Sack},
+         familyi={S\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=BL}{%
+         family={Biedenharn},
+         familyi={B\bibinitperiod},
+         given={LC},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Breit},
+         familyi={B\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{SSBLBG1}
+    \strng{fullhash}{SSBLBG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{321}
+    \field{title}{The Elastic Scattering of Protons by Alpha Particles}
+    \field{volume}{93}
+    \field{journaltitle}{Physical Review}
+    \field{year}{1954}
+  \endentry
+
   \entry{jansen1972nuclear}{article}{}
     \name{author}{3}{}{%
       {{hash=JJ}{%
