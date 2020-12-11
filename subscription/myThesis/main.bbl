@@ -195,6 +195,30 @@
     \field{year}{1994}
   \endentry
 
+  \entry{day1981three}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DB}{%
+         family={Day},
+         familyi={D\bibinitperiod},
+         given={BD},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{DB1}
+    \strng{fullhash}{DB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{1203}
+    \field{title}{Three-body correlations in nuclear matter}
+    \field{volume}{24}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{1981}
+  \endentry
+
   \entry{sack1954elastic}{article}{}
     \name{author}{3}{}{%
       {{hash=SS}{%
@@ -231,23 +255,23 @@
     \field{year}{1954}
   \endentry
 
-  \entry{jansen1972nuclear}{article}{}
+  \entry{buck1977local}{article}{}
     \name{author}{3}{}{%
-      {{hash=JJ}{%
-         family={Jansen},
-         familyi={J\bibinitperiod},
-         given={JA},
-         giveni={J\bibinitperiod},
+      {{hash=BB}{%
+         family={Buck},
+         familyi={B\bibinitperiod},
+         given={B},
+         giveni={B},
       }}%
-      {{hash=PRT}{%
-         family={Peerdeman},
-         familyi={P\bibinitperiod},
-         given={R\bibnamedelima Th},
-         giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+      {{hash=FH}{%
+         family={Friedrich},
+         familyi={F\bibinitperiod},
+         given={H},
+         giveni={H},
       }}%
-      {{hash=DVC}{%
-         family={De\bibnamedelima Vries},
-         familyi={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+      {{hash=WC}{%
+         family={Wheatley},
+         familyi={W\bibinitperiod},
          given={C},
          giveni={C},
       }}%
@@ -255,59 +279,71 @@
     \list{publisher}{1}{%
       {Elsevier}%
     }
-    \strng{namehash}{JJPRTDVC1}
-    \strng{fullhash}{JJPRTDVC1}
+    \strng{namehash}{BBFHWC1}
+    \strng{fullhash}{BBFHWC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{number}{2}
-    \field{pages}{337\bibrangedash 352}
-    \field{title}{Nuclear charge radii of 12C and 9Be}
-    \field{volume}{188}
+    \field{number}{1}
+    \field{pages}{246\bibrangedash 268}
+    \field{title}{Local potential models for the scattering of complex nuclei}
+    \field{volume}{275}
     \field{journaltitle}{Nuclear Physics A}
-    \field{year}{1972}
+    \field{year}{1977}
   \endentry
 
-  \entry{fey1973nuclear}{article}{}
-    \name{author}{4}{}{%
-      {{hash=FG}{%
-         family={Fey},
+  \entry{zhukov1993bound}{article}{}
+    \name{author}{6}{}{%
+      {{hash=ZM}{%
+         family={Zhukov},
+         familyi={Z\bibinitperiod},
+         given={MV},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DB}{%
+         family={Danilin},
+         familyi={D\bibinitperiod},
+         given={BV},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Fedorov},
          familyi={F\bibinitperiod},
-         given={G},
-         giveni={G},
+         given={D\_V},
+         giveni={D\bibinitperiod},
       }}%
-      {{hash=FH}{%
-         family={Frank},
-         familyi={F\bibinitperiod},
-         given={H},
-         giveni={H},
+      {{hash=BJ}{%
+         family={Bang},
+         familyi={B\bibinitperiod},
+         given={JM},
+         giveni={J\bibinitperiod},
       }}%
-      {{hash=SW}{%
-         family={Sch{\"u}tz},
-         familyi={S\bibinitperiod},
-         given={W},
-         giveni={W},
-      }}%
-      {{hash=TH}{%
-         family={Theissen},
+      {{hash=TI}{%
+         family={Thompson},
          familyi={T\bibinitperiod},
-         given={H},
-         giveni={H},
+         given={IJ},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Vaagen},
+         familyi={V\bibinitperiod},
+         given={JS},
+         giveni={J\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {Springer}%
+      {Elsevier}%
     }
-    \strng{namehash}{FG+1}
-    \strng{fullhash}{FGFHSWTH1}
+    \strng{namehash}{ZM+1}
+    \strng{fullhash}{ZMDBFDBJTIVJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{number}{4}
-    \field{pages}{401\bibrangedash 403}
-    \field{title}{Nuclear Rms charge radii from relative electron scattering
-  measurements at low energies}
-    \field{volume}{265}
-    \field{journaltitle}{Zeitschrift f{\"u}r Physik}
-    \field{year}{1973}
+    \field{pages}{151\bibrangedash 199}
+    \field{title}{Bound state properties of Borromean halo nuclei: 6He and
+  11Li}
+    \field{volume}{231}
+    \field{journaltitle}{Physics reports}
+    \field{year}{1993}
   \endentry
 
   \entry{nrv}{article}{}
