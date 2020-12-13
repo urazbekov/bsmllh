@@ -115,49 +115,6 @@
     \field{year}{1983}
   \endentry
 
-  \entry{bertsch1977interactions}{article}{}
-    \name{author}{4}{}{%
-      {{hash=BG}{%
-         family={Bertsch},
-         familyi={B\bibinitperiod},
-         given={G},
-         giveni={G},
-      }}%
-      {{hash=BJ}{%
-         family={Borysowicz},
-         familyi={B\bibinitperiod},
-         given={J},
-         giveni={J},
-      }}%
-      {{hash=MH}{%
-         family={McManus},
-         familyi={M\bibinitperiod},
-         given={H},
-         giveni={H},
-      }}%
-      {{hash=LW}{%
-         family={Love},
-         familyi={L\bibinitperiod},
-         given={WG},
-         giveni={W\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{BG+1}
-    \strng{fullhash}{BGBJMHLW1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{3}
-    \field{pages}{399\bibrangedash 419}
-    \field{title}{Interactions for inelastic scattering derived from realistic
-  potentials}
-    \field{volume}{284}
-    \field{journaltitle}{Nuclear Physics A}
-    \field{year}{1977}
-  \endentry
-
   \entry{khoa1994double}{article}{}
     \name{author}{3}{}{%
       {{hash=KDT}{%
@@ -344,6 +301,262 @@
     \field{volume}{231}
     \field{journaltitle}{Physics reports}
     \field{year}{1993}
+  \endentry
+
+  \entry{voronchev1994study}{article}{}
+    \name{author}{5}{}{%
+      {{hash=VV}{%
+         family={Voronchev},
+         familyi={V\bibinitperiod},
+         given={VT},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Kukulin},
+         familyi={K\bibinitperiod},
+         given={VI},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=PV}{%
+         family={Pomerantsev},
+         familyi={P\bibinitperiod},
+         given={VN},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=RKD}{%
+         family={Razikov},
+         familyi={R\bibinitperiod},
+         given={Kh\bibnamedelima D},
+         giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Ryzhikh},
+         familyi={R\bibinitperiod},
+         given={GG},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VV+1}
+    \strng{fullhash}{VVKVPVRKDRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{1964\bibrangedash 1980}
+    \field{title}{Study of the Structure and Properties of Nuclei with A= 9 (9
+  Be-9 B) in Terms of Multicluster Dynamic Model 2$\alpha$+ N}
+    \field{volume}{57}
+    \field{journaltitle}{Yad. Fiz}
+    \field{year}{1994}
+  \endentry
+
+  \entry{pomerantsevPrivate}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PV}{%
+         family={Pomerantsev},
+         familyi={P\bibinitperiod},
+         given={VN},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PV1}
+    \strng{fullhash}{PV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Private comunication}
+  \endentry
+
+  \entry{antonov2005charge}{article}{}
+    \name{author}{9}{}{%
+      {{hash=AA}{%
+         family={Antonov},
+         familyi={A\bibinitperiod},
+         given={AN},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kadrev},
+         familyi={K\bibinitperiod},
+         given={DN},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gaidarov},
+         familyi={G\bibinitperiod},
+         given={MK},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=dGEM}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Guerra},
+         familyi={G\bibinitperiod},
+         given={E\bibnamedelima Moya},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Sarriguren},
+         familyi={S\bibinitperiod},
+         given={Pedro},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=UJ}{%
+         family={Udias},
+         familyi={U\bibinitperiod},
+         given={JM},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LV}{%
+         family={Lukyanov},
+         familyi={L\bibinitperiod},
+         given={VK},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=ZE}{%
+         family={Zemlyanaya},
+         familyi={Z\bibinitperiod},
+         given={EV},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=KG}{%
+         family={Krumova},
+         familyi={K\bibinitperiod},
+         given={GZ},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{AA+1}
+    \strng{fullhash}{AAKDGMGEMdSPUJLVZEKG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{4}
+    \field{pages}{044307}
+    \field{title}{Charge and matter distributions and form factors of light,
+  medium, and heavy neutron-rich nuclei}
+    \field{volume}{72}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{2005}
+  \endentry
+
+  \entry{egelhof2003nuclear}{incollection}{}
+    \true{moreauthor}
+    \name{author}{10}{}{%
+      {{hash=EP}{%
+         family={Egelhof},
+         familyi={E\bibinitperiod},
+         given={P},
+         giveni={P},
+      }}%
+      {{hash=AG}{%
+         family={Alkhazov},
+         familyi={A\bibinitperiod},
+         given={GD},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Andronenko},
+         familyi={A\bibinitperiod},
+         given={MN},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bauchet},
+         familyi={B\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=DA}{%
+         family={Dobrovolsky},
+         familyi={D\bibinitperiod},
+         given={AV},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={Fritz},
+         familyi={F\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=GG}{%
+         family={Gavrilov},
+         familyi={G\bibinitperiod},
+         given={GE},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GH}{%
+         family={Geissel},
+         familyi={G\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+      {{hash=GC}{%
+         family={Gross},
+         familyi={G\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=KA}{%
+         family={Khanzadeev},
+         familyi={K\bibinitperiod},
+         given={AV},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{EP+1}
+    \strng{fullhash}{EPAGAMBADAFSGGGHGCKA+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Exotic Nuclei and Atomic Masses}
+    \field{pages}{61\bibrangedash 67}
+    \field{title}{Nuclear-matter distributions of halo nuclei from elastic
+  proton scattering in inverse kinematics}
+    \field{year}{2003}
+  \endentry
+
+  \entry{hirai2011clustering}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HM}{%
+         family={Hirai},
+         familyi={H\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=KS}{%
+         family={Kumano},
+         familyi={K\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=SK}{%
+         family={Saito},
+         familyi={S\bibinitperiod},
+         given={Koichi},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=WT}{%
+         family={Watanabe},
+         familyi={W\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{HM+2}
+    \strng{fullhash}{HMKSSKWT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{035202}
+    \field{title}{Clustering aspects in nuclear structure functions}
+    \field{volume}{83}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{2011}
   \endentry
 
   \entry{nrv}{article}{}

@@ -41,10 +41,16 @@ headsepline, % Uncomment to get a line under the header
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage{amsmath}
+\usepackage{fixltx2e}
 \usepackage{multirow}
 %\usepackage{mathpazo} % Use the Palatino font by default
 \usepackage{booktabs}
 \usepackage[backend=bibtex,style=numeric-comp,natbib=true,sorting=none]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+
+\usepackage{xspace} 
+\newcommand{\he}{\textsuperscript{6}He\xspace}
+\newcommand{\li}{\textsuperscript{6}Li\xspace}
+\newcommand{\be}{\textsuperscript{9}Be\xspace}
 
 \addbibresource{example.bib} % The filename of the bibliography
 
@@ -1217,63 +1223,85 @@ As regards target nuclei, having cluster structure, the density distribution of 
 
 
 
-
+\renewcommand\floatpagefraction{0.1}
 \chapter{Results and discussions}
 
 \section{The three-body wave function}
-The chosen three-body wave function are obtained by variational method, and its parameters for ground state of $^6$He, $^6$Li and $^9$Be are listed in Application B. The process of minimization of eigen-energy of the three-body systems was done with the RSC potential \cite{day1981three} for nucleon-nucleon interaction, the SBB potential \cite{sack1954elastic} for  $\alpha$-$N$ interaction and the BFW potential \cite{buck1977local} for $\alpha$-$\alpha$ interaction. 
-
-\begin{figure}
+The chosen three-body wave function are obtained by variational method, and its parameters for ground state of $^6$He, $^6$Li and $^9$Be are listed in Application B. The process of minimization of eigen-energy of the three-body systems was done with the RSC potential \cite{day1981three} for nucleon-nucleon interaction, the SBB potential \cite{sack1954elastic} for  $\alpha$-$N$ interaction and the BFW potential \cite{buck1977local} for $\alpha$-$\alpha$ interaction.  In Tab. \ref{tab:variational_data} the used and obtained data of variational calculations are listed \footnote{The obtained data of the variational calculations are not the subject of our research, since the results, perhaps better ones, have already been published and discussed. The purpose of  the section result of the three-body wave function   is to familiarize with what wave function we are dealing with, and its features will be needed in further discussions.}.
+ 
+\begin{figure}[bp]
 \centering
-\includegraphics[scale=0.6]{be0_the3D}
-\includegraphics[scale=0.6]{be0_theCP}
+\includegraphics[scale=0.6]{he0_the3D}
+\includegraphics[scale=0.6]{he0_theCP} \\
+{\footnotesize $a$)}~~~~~~~~~~~~~~~~~~~~~~{\footnotesize $b$)}\\
 \decoRule
-\caption{ \footnotesize The correlation function illustrated in the 3D-Plot and its contour-plot of the three-body wave function of the ground state of $^9$Be}
-\label{fig:be0_the3D}
+\caption{ \footnotesize The correlation function $W(x ,y)$ of the three-body wave function of the ground state of \he in the $a$) 3D-Plot  and $b$)  contour-plot.}
+\label{fig:he0_the3D}
 \end{figure}
+ 
+ 
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[tp]
+\caption{ Results of the search for the minimum energy of three-body systems found by means of the variational approach: \he, \li ~and \be. The obtained minimum energy $E_{min}$, used set of quantum numbers $\gamma\equiv \lambda l L S$, the dimension $D$ and the probability $P$ of each $\gamma$ are listed. }
+\label{tab:variational_data}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lllllllll@{}}
+\toprule
+\multicolumn{3}{l}{$^6$He}           & \multicolumn{3}{l}{$^6$Li}           & \multicolumn{3}{l}{$^9$Be}           \\ \midrule
+\multicolumn{3}{l}{$E_{min}=-0.228$} & \multicolumn{3}{l}{$E_{min}=-3.258$} & \multicolumn{3}{l}{$E_{min}=-1.417$} \\ \midrule
+$\gamma$         & $D$       & $P$       & $\gamma$         & $D      $ & $P$       & $\gamma$         & $D$       & $P$       \\
+\begin{tabular}[c]{@{}l@{}}0 0 0 0\\ 1 1 1 1\\ 2 2 0 0\\ 3 3 1 1\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}$ 9 \times  9$\\ $ 9 \times  9$\\ $ 5 \times  5$\\ $ 5 \times  5$\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}0.884\\ 0.102\\ 0.010\\ 0.004\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}0 0 0 1\\ 2 0 2 1\\ 1 1 1 0\\ 2 2 0 1\\ 2 2 1 1\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}$ 8 \times 8 $\\ $ 7 \times 7 $\\ $ 7 \times 7 $\\ $ 5 \times 5 $\\ $ 5 \times 5 $\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}0.898\\  0.073\\  0.021\\  0.005\\  0.002\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}0 1 1 1 \\ 2 1 1 1\\ 2 1 2 1 \\ 2 3 1 1 \\ 2 3 2 1 \\ 4 3 1 1 \\ 4 3 2 1\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}$ 7 \times 7 $\\ $ 7 \times 7 $\\ $ 7 \times 7 $\\ $ 6 \times 6 $\\ $ 5 \times 5 $\\ $ 4 \times 4 $\\ $ 4 \times 4 $\end{tabular} &
+  \begin{tabular}[c]{@{}l@{}}0.403\\ 0.328\\ 0.235\\ 0.017\\ 0.004\\ 0.009\\ 0.003\end{tabular} \\ \bottomrule
+\end{tabular*}
+\end{table}
 
 The obtained  results of eigen-energies of the three-body systems in the ground state are equal to $-0.228$ MeV for $^6$He, $-3.258$ MeV for $^6$Li and $-1.417$ MeV for $^9$Be. These theoretical data are differ from experimental data slightly. For example slightly difference has $^9$Be, its experimental established energy in the three-body system is $E_{exp}=-1.417$ MeV. The significant differences between variational eigen-energy were in  $^6$He  and $^6$Li. Corresponding value of the energy are  $E_{exp}=-0.975$ MeV for $^6$He,  $E_{exp}=-3.700$ MeV for $^6$Li. 
 Such kind of discrepancy of variational calculations with experimental data are probably in the non-completeness of the basis function. The basis function taken in this work has no symmetrization, and doesn't enfold an alternative coordinate space.  
 
-\begin{figure}
+
+
+
+In Figures \ref{fig:he0_the3D}, \ref{fig:li0_the3D} and \ref{fig:be0_the3D} the correlation density of the three-body wave function are illustrated in the 3D-Plot for $^6$He,  $^6$Li and $^9$Be. For the purpose of good visibility the contour-plot are given along. 
+
+\begin{figure}[tp]
 \centering
 \includegraphics[scale=0.6]{li0_the3D}
 \includegraphics[scale=0.6]{li0_theCP}
 \decoRule
-\caption{ \footnotesize The same caption as in the Fig.\ref{fig:be0_the3D}, but for $^6$Li.}
+\caption{ \footnotesize The same caption as in the Fig.\ref{fig:he0_the3D}, but for \li.}
 \label{fig:li0_the3D}
-\end{figure}
+\end{figure} 
 
-In Figures \ref{fig:be0_the3D}, \ref{fig:li0_the3D} and \ref{fig:he0_the3D} the correlation density of the three-body wave function are illustrated in the 3D-Plot for $^6$He,  $^6$Li and $^9$Be. For the purpose of good visibility the contour-plot are given along. 
+In the Figures \ref{fig:he0_the3D} and \ref{fig:li0_the3D}, two main geometric configurations can be distinguished, cigar-shaped within coordinates $(4.0, 1.0)$, and helicopter-shaped within coordinates $(1.8, 3.0)$, both for $^6$He and  $^6$Li nuclei. The striking highlight of such geometrical configurations is clear evidence of the cluster structure. In particular, we see that in $^6$He, the effect of pairing two nucleons stands out against the background of comparison with $^6$Li. Similar results were described in works \cite{kukulin1977stochastic}, and were obtained in the method using hyperspherical harmonics \cite{zhukov1993bound}. 
 
-The Fig. \ref{fig:be0_the3D} shows the locality of the wave function, which indicates the bound state of the ground state of $^9$Be. Moreover, the maximum of the correlation density function is shown at the coordinates $(3.0, 2.0)$, that is $x \simeq 3$, $y \simeq 2$. This allows us to make the assumption that basically the pair of $\alpha$-particles are relatively farther than the distance of the valence neutron from the center of mass of the pair. In the Figures \ref{fig:li0_the3D} and \ref{fig:he0_the3D} , two main geometric configurations can be distinguished, cigar-shaped within coordinates $(4.0, 1.0)$, and helicopter-shaped within coordinates $(1.8, 3.0)$, both for $^6$He and  $^6$Li nuclei . The striking highlight of such geometrical configurations is clear evidence of the cluster structure. In particular, we see that in $^6$He, the effect of pairing two nucleons stands out against the background of comparison with $^6$Li. Similar results were described in works \cite{kukulin1977stochastic}, and were obtained in the method using hyperspherical harmonics \cite{zhukov1993bound}.
-
-
-
-
-
-
-\begin{figure}
+\begin{figure}[bp]
 \centering
-\includegraphics[scale=0.6]{he0_the3D}
-\includegraphics[scale=0.6]{he0_theCP}
+\includegraphics[scale=0.6]{be0_the3D}
+\includegraphics[scale=0.6]{be0_theCP}
 \decoRule
-\caption{ \footnotesize The same caption as in the Fig.\ref{fig:be0_the3D}, but for $^6$He.}
-\label{fig:he0_the3D}
-\end{figure}
+\caption{ \footnotesize The same caption as in the Fig.\ref{fig:he0_the3D}, but for \be.}
+\label{fig:be0_the3D}
+\end{figure} 
 
 
+The Fig. \ref{fig:be0_the3D} shows the locality of the wave function, which indicates the bound state of the ground state of $^9$Be. Moreover, the maximum of the correlation density function is shown at the coordinates $(3.0, 2.0)$, that is $x \simeq 3$, $y \simeq 2$. This allows us to make the assumption that basically the pair of $\alpha$-particles are relatively farther than the distance of the valence neutron from the center of mass of the pair. 
 
 \section{The density distribution function of nuclear matter}
-On the basis of the three-body wave function \ref{totwf}, the distribution function of the density of nuclear matter was calculated using Eq. \ref{kpq_density}, \ref{pqk_density_N} and \ref{pqk_density_a} for $^6$He, $^6$Li and $^9$Be in the ground states. The calculation results are shown in the Figures \ref{he0_theDD}, \ref{li0_theDD} and \ref{be0_theDD} .
-
-
+On the basis of the three-body wave function in Eq.\ref{totwf}, the distribution function of the density of nuclear matter was calculated using Equations \ref{kpq_density}, \ref{pqk_density_N} and \ref{pqk_density_a} for $^6$He, $^6$Li and $^9$Be in the ground states. The calculation results are shown in the Figures \ref{he0_theDD}, \ref{li0_theDD} and \ref{be0_theDD}.
+The plotted the density functions of \he, \li and \be  are normalized to their own atomic masses. 
 
 \begin{figure}[tp]
 \centering
 \includegraphics[scale=0.8]{he0_theDD}
 \decoRule
-\caption{  \footnotesize  aaa text. }
+\caption{  \footnotesize  The density distribution function of nuclear matter $\rho(R)=\rho_{\alpha}^{(k)}+\rho_{N}^{(p)}+\rho_{N}^{(q)}$  illustrated with the densities of the \he constituents. }
 \label{he0_theDD}
 \end{figure}
 
@@ -1281,17 +1309,66 @@ On the basis of the three-body wave function \ref{totwf}, the distribution funct
 \centering
 \includegraphics[scale=0.8]{li0_theDD}
 \decoRule
-\caption{  \footnotesize  aaa text. }
+\caption{  \footnotesize  The same caption as in Fig. \ref{he0_theDD}, but for $^6$Li. }
 \label{li0_theDD}
 \end{figure}
 
-\begin{figure}
+A distinctive feature of the obtained results is in the extended tail of the density function for \he in Fig.\ref{he0_theDD}. This is caused by the nucleons in the three-body system. In particular, the density function of the alpha particle $\rho_\alpha^{(k)}(R)$ inside \he tends to zero rapidly as the radius $R$ increases. The density function of two neutrons $\rho_N^{(p)}(R)+\rho_N^{(q)}(R)$ starts near zero, reaching a maximum near $R \simeq 2.5$, and decreases more slowly than the density function of the alpha particle. What is obvious is that the start of the value of the  density function $\rho_N^{(p)}(R)+\rho_N^{(q)}(R)$ near zero means that these two neutrons lie in the $p$-shell. Thus, we see that the main contribution to the density function starting from $R \simeq 3.0$ is due to two neutrons.
+
+A similar structure of the  nucleus \li is seen in Fig. \ref{li0_theDD}. The density function of the alpha particle $\rho_\alpha^{(k)}(R)$ inside \li is visible, rapidly tending to zero as the radius $R$ increases. And the density function of the two nucleons $\rho_N^{(p)}(R)+\rho_N^{(q)}(R)$, starting around zero, reaches a maximum near $R\simeq 2.5$, and decreases more slowly than the density function of the $\alpha$-particle $\rho_\alpha^{(k)}(R)$.
+  The beginning of the value of the density function $\rho_N^{(p)}(R)+\rho_N^{(q)}(R)$ near zero means that these two nucleons lie in the $p$-shell. In fact, we see, again as in the case with \he, that the main contribution to the density function is due to two nucleons starting from $R \simeq 3.0$.
+
+\begin{figure}[tp]
 \centering
 \includegraphics[scale=0.8]{be0_theDD}
 \decoRule
-\caption{  \footnotesize  aaa text. }
+\caption{  \footnotesize  The density distribution function of nuclear matter $\rho(R)=\rho_{N}^{(k)}+\rho_{\alpha}^{(p)}+\rho_{\alpha}^{(q)}$  illustrated with the densities of the \be constituents. }
 \label{be0_theDD}
 \end{figure}
+
+The density function $\rho(R)$ of \be has a different shape than the other two previous nuclei (see Fig.\ref{be0_theDD}). The alpha particle density function has become much more voluminous. The nuclear matter density distribution function $\rho_{\alpha}^{(p)}+\rho_{\alpha}^{(q)}$ tends to zero faster than the valence neutron density function $\rho_{N}^{(k)}$ with increasing distance $R$. Starting from the $R \simeq 5.0 $ distance, the valence neutron density function $\rho_{N}^{(k)}$  prevails in the nuclear matter contribution. The spectator in the (k, pq) scheme has such distribution function starting near zero, which is characteristic of $p$-shell nucleons.
+
+The formulas obtained by us for calculating the distribution function of the density of nuclear matter in the framework of the three-body model were tested using the parameters of the wave function of the ground state of \be and \li nuclei presented from the sources \cite{voronchev1994study, pomerantsevPrivate}. In particular, for verification, calculations were made for the rms charge radius. The results obtained $\langle R_{ch}^2 \rangle^{\frac{1}{2}} = 2.54 fm$  and $\langle R_{ch}^2 \rangle^{\frac{1}{2}} = 2.34 fm$ for \li and \be nuclei, respectively, are in excellent agreement with the data indicated in those sources, which means that the chosen method is correct. And also, in addition to the fact that all formulas have been carefully checked at every stage, this excludes the presence of errors in the calculation formulas.
+
+The density function of nuclear matter is an excellent subject for studying rms matter radii. Given the function $\rho(R)$, we can represent the formula for calculating the rms matter radii  $\langle R_{m}^2 \rangle$ as
+\begin{equation}
+\langle R_{m}^2 \rangle = 
+\frac{
+\int_0^{\infty} dR~ R^{4} \rho(R)
+}{
+\int_0^{\infty} dR~ R^{2} \rho(R)
+}.
+\end{equation}
+
+
+\begin{table}[bp]
+\caption{Comparisons of the binding energies obtained by means of variational approach $BE_{min}$ with the experimental data $BE_{exp}$ and the rms matter radii $\langle R_m^2 \rangle^{\frac{1}{2}}$ with other sources.  }
+\label{tab:rms_matter}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccc@{}}
+\toprule
+ & $^6$He                                                                                                                                                  $(0^+)$ & $^6$Li                                                                                                                                                                                                                                                                                                  $(1^+)$  & $^9$Be                                                                                                                                                                                                                                                                                                  $(\frac{3}{2}^-)$  \\ \midrule
+$BE_{min}$                                 & $0.228$                                                                                                                                                                                          & $3.258$                                                                                                                                                                                                                                                                                                 & $1.417$                                                                                                                                                                                                                                                                                                 \\
+$BE_{exp}$                                & $0.97$                                                                                                                                                                                           & $3.70$                                                                                                                                                                                                                                                                                                  & $1.57$                                                                                                                                                                                                                                                                                                  \\
+\multirow{2}{*}{$\langle R^{2}_m\rangle^{\frac{1}{2}}$, fm} & 2.97                                                                                                                                                                                              & 2.69                                                                                                                                                                                                                                                                                                     & 2.78                                                                                                                                                                                                                                                                                                     \\
+                                       & 2.62 \cite{antonov2005charge}                                                                                                                                                                                       & 2.45 \cite{egelhof2003nuclear}
+                                       & 2.62 \cite{hirai2011clustering} \\  \bottomrule
+\end{tabular*}
+\end{table}
+
+The results of calculated rms matter radii are presented in Tab.\ref{tab:rms_matter} with the values of the binding energy $BE_{min}$ for the three-body system obtained by the variational method for nuclei. 
+The general picture of the obtained radii shows an overestimation in comparison with other sources \cite{antonov2005charge, egelhof2003nuclear, hirai2011clustering} . 
+For example, the radius of the \he nucleus obtained in our calculations shows 2.97 $fm$, while the another source gives 0.35 $fm$ less. 
+The difference with another radius in the case of \li is 0.24 $fm$, and for \be 0.16 $fm$. 
+That is, if you list the nuclei from the table from left to right, the difference in radii decreases. 
+If we look at the obtained theoretical calculations of the binding energy $BE_{min}$ and compare with the experimental data, there is an opposite tendency in the energy differences -- the difference decreases -- 0.742 MeV, 0.442 MeV, 0.153 MeV. 
+Thus, it can be assumed that the greater the underestimation in the binding energy, the more overestimation in the rms matter radii.
+
+
+In accordance with this proposal, the dependence of the binding energy with the $\langle R_{m}^2 \rangle^{1/2}$ was studied using the example of \he. In order to obtain the binding energy close to the experimental data, the depth of the $\alpha-N$ interaction potential, which has a Gaussian shape, was increased from 47 MeV to 49 MeV. Thus, it was possible to reproduce the experimental value of the binding energy. However, the obtained rms radius $\langle R_{m}^2 \rangle^{1/2}=2.93 fm$ decreased by only 0.04 fm.
+
+The reason for the discrepancy between our results obtained from calculations of the rms matter radii with other sources could not be explained. Perhaps, the problem lies in the basis function, which has not been symmetrized or antisymmetrized. Moreover, the basis function is not complete, that it should have enclosed the entire basis space. Nevertheless, knowing the very weak dependence of the density distribution function on the binding energy of the three-body systems, we can use this wave function in calculations to construct interaction potentials within the framework of the folding model.
+
+In the process of calculating the rms matter radii, it was found that elements from the set $\gamma$, that have a contribution to the wave function below 0.1 (see Tab.\ref{tab:variational_data}), do not affect the obtained values. Therefore, such elements of the $\gamma$ were excluded from  the density function calculations.
 
 
 
