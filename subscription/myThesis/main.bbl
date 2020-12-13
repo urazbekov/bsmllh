@@ -78,6 +78,35 @@
     \field{year}{1979}
   \endentry
 
+  \entry{de1963nuclear}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=dSA}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Shalit},
+         familyi={S\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=TI}{%
+         family={Talmi},
+         familyi={T\bibinitperiod},
+         given={I},
+         giveni={I},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Academic Press, New York}%
+      {London}%
+    }
+    \strng{namehash}{dSATI1}
+    \strng{fullhash}{dSATI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Nuclear shell theory}
+    \field{year}{1963}
+  \endentry
+
   \entry{anantaraman1983effective}{article}{}
     \name{author}{3}{}{%
       {{hash=AN}{%
@@ -102,7 +131,7 @@
     \list{publisher}{1}{%
       {Elsevier}%
     }
-    \strng{namehash}{ANTHBG1}
+    \strng{namehash}{AN+1}
     \strng{fullhash}{ANTHBG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -139,7 +168,7 @@
     \list{publisher}{1}{%
       {APS}%
     }
-    \strng{namehash}{KDTVOWBH1}
+    \strng{namehash}{KDT+1}
     \strng{fullhash}{KDTVOWBH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -200,7 +229,7 @@
     \list{publisher}{1}{%
       {APS}%
     }
-    \strng{namehash}{SSBLBG1}
+    \strng{namehash}{SS+1}
     \strng{fullhash}{SSBLBG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -236,7 +265,7 @@
     \list{publisher}{1}{%
       {Elsevier}%
     }
-    \strng{namehash}{BBFHWC1}
+    \strng{namehash}{BB+1}
     \strng{fullhash}{BBFHWC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -427,7 +456,7 @@
       {APS}%
     }
     \strng{namehash}{AA+1}
-    \strng{fullhash}{AAKDGMGEMdSPUJLVZEKG1}
+    \strng{fullhash}{AAKDGMdGEMSPUJLVZEKG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{number}{4}
@@ -648,7 +677,7 @@
     \list{publisher}{1}{%
       {APS}%
     }
-    \strng{namehash}{LBCSJO1}
+    \strng{namehash}{LB+1}
     \strng{fullhash}{LBCSJO1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -675,8 +704,8 @@
          familyi={a\bibinitperiod},
       }}%
     }
-    \strng{namehash}{BNae1}
-    \strng{fullhash}{BNae1}
+    \strng{namehash}{BNea1}
+    \strng{fullhash}{BNea1}
     \field{labelnamesource}{author}
     \field{number}{2}
     \field{pages}{137}
@@ -763,7 +792,7 @@
     \list{publisher}{1}{%
       {APS}%
     }
-    \strng{namehash}{AVHPAM1}
+    \strng{namehash}{AV+1}
     \strng{fullhash}{AVHPAM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -1247,7 +1276,7 @@
          giveni={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{LXLCCC1}
+    \strng{namehash}{LX+1}
     \strng{fullhash}{LXLCCC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -1586,7 +1615,7 @@
          giveni={M\bibinitperiod},
       }}%
     }
-    \strng{namehash}{AVHPEAM1}
+    \strng{namehash}{AV+2}
     \strng{fullhash}{AVHPEAM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}

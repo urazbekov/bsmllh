@@ -45,7 +45,10 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{multirow}
 %\usepackage{mathpazo} % Use the Palatino font by default
 \usepackage{booktabs}
-\usepackage[backend=bibtex,style=numeric-comp,natbib=true,sorting=none]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\usepackage[backend=bibtex,style=nature,natbib=true,sorting=none]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+
+\usepackage{longtable}
+
 
 \usepackage{xspace} 
 \newcommand{\he}{\textsuperscript{6}He\xspace}
@@ -138,6 +141,7 @@ headsepline, % Uncomment to get a line under the header
 \\[1cm] % Research group name and department name
  
 %\vfill
+\renewcommand\floatpagefraction{0.1}
 
 %{\normalsize \today}\\[4cm] % Date
 \includegraphics[scale=0.07]{logo} % University/department logo - uncomment to place it
@@ -646,12 +650,13 @@ W_{\gamma}\left( x_k,y_k \right) =& \sum_{ij} C_i C_j x^{2+2\lambda}_k y^{2+2l}_
 \end{align}
 
 \section{The density distribution function of nuclear matter}
+\label{section_density_function}
 
 An operator of matter density distribution of the three body system takes the sums of all three clusters and brings it from the center of  system mass (see. Fig. \ref{fig:density_scheme_1}, \ref{fig:density_scheme_2})
 \begin{equation}
-\rho({R})=\sum_{\scriptscriptstyle{i}=k,p,q} \rho^{(i)}_{\mathcal{A}}({R}),
+\rho({R})=\sum_{\scriptscriptstyle{i}=k,p,q} \rho^{(i)}_{{\iota}}({R}),
 \end{equation}
-where $\mathcal{A}$ stands for the $\alpha$ particle or the nucleon inside the three-body system.
+where $0{\iota}$ stands for the $\alpha$ particle or the nucleon inside the three-body system.
 
 \begin{figure}[b]
 \centering
@@ -1083,28 +1088,309 @@ By doing this approximation, Eq.~(\ref{crc_couple_eq1}) may be rewritten as
 \approx & \langle \beta \vert V_\alpha \vert  \alpha \rangle \chi_\alpha
 \label{crc_couple_eq2}
 \end{align}
- Here the prior interaction, that is the interaction of the $\alpha$ channel, is used. The non-orthogonal term $\langle \beta \vert \alpha \rangle (H_\alpha - E_\alpha) \chi_\alpha$ vanishes because of the $\chi_\alpha$ is on-shell. The usual Green function techniques may then be used to solve these equations and give \textit{the  distorted wave Born approximation transition} (DWBA) amplitude 
- \begin{align}
- T_{\beta \alpha}^{DWBA} =& \langle \chi_\beta^{(-)} \phi_\beta  \vert V_\alpha \vert
- \chi_\alpha^{(+)} \phi_\alpha \rangle = \nonumber \\
-= & \int \int \text{d}x_\beta \text{d}{\bf r}_\beta \chi_\beta^{(-)*} \left( {\bf r}_\beta \right)\phi_\beta^{*} \left( x_\beta \right) V_\alpha 
- \chi_\alpha^{(+)} \left( {\bf r}_\alpha \right)\phi_\alpha \left( x_\alpha \right)
- \end{align}
- where $\chi^{(+)}$ and $\chi^{(-)}$ obey the homogeneous equations
- \begin{align}
- \left[ ~\left(E-\varepsilon_\alpha \right)  -K_\alpha -
-\langle \alpha \vert V_\alpha \vert \alpha \rangle ~\right] 
-\chi_\alpha^{(+)} ({\bf r}_\alpha) = & 0 \nonumber \\
- \left[ ~\left(E-\varepsilon_\beta \right)  -K_\beta -
-\langle \beta \vert V_\beta^{\dagger} \vert \beta \rangle ~\right] 
-\chi_\alpha^{(-)} ({\bf r}_\alpha) = & 0 \nonumber
- \end{align}
-
-The differential cross section for the transfer channel $\beta$ can be deduced in the similar way as in Eq.~(\ref{cc_dsigma_domega})
+ Here the prior interaction, that is the interaction of the $\alpha$ channel, is used. The non-orthogonal term $\langle \beta \vert \alpha \rangle (H_\alpha - E_\alpha) \chi_\alpha$ vanishes because of the $\chi_\alpha$ is on-shell. The usual Green function techniques may then be used to solve these equations and give \textit{the  distorted wave Born approximation transition} (DWBA) amplitude. A detailed representation of the amplitude will be done in the next section. 
+% \begin{align}
+ %T_{\beta \alpha}^{DWBA} =& \langle \chi_\beta^{(-)} \phi_\beta  \vert V_\alpha \vert
+% \chi_\alpha^{(+)} \phi_\alpha \rangle = \nonumber \\
+%= & \int \int \text{d}x_\beta \text{d}{\bf r}_\beta \chi_\beta^{(-)*} \left( {\bf r}_\beta \right)\phi_\beta^{*} \left( x_\beta \right) V_\alpha 
+% \chi_\alpha^{(+)} \left( {\bf r}_\alpha \right)\phi_\alpha \left( x_\alpha \right)
+% \end{align}
+% where $\chi^{(+)}$ and $\chi^{(-)}$ obey the homogeneous equations
+% \begin{align}
+% \left[ ~\left(E-\varepsilon_\alpha \right)  -K_\alpha -
+%\langle \alpha \vert V_\alpha \vert \alpha \rangle ~\right] 
+%\chi_\alpha^{(+)} ({\bf r}_\alpha) = & 0 \nonumber \\
+% \left[ ~\left(E-\varepsilon_\beta \right)  -K_\beta -
+%\langle \beta \vert V_\beta^{\dagger} \vert \beta \rangle ~\right] 
+%\chi_\alpha^{(-)} ({\bf r}_\alpha) = & 0 \nonumber
+% \end{align}
+%The differential cross section for the transfer channel $\beta$ can be deduced in the similar way as in Eq.~(\ref{cc_dsigma_domega})
 
 \section{Distorted Wave Born Approximation}
+Let consider the nuclear reaction of transfer $\nu$ particle from a $A$ nucleus into a $B$ nucleus:  
+\begin{align}
+A+b \rightarrow a + B \nonumber \\
+A= a + \nu, ~ B=b+\nu
+\end{align}
+In the case of weak coupling between intermediate channels, it is reasonable to evaluate the transition amplitude in Born Approximation.
 
+In the rearrangement reactions there are few ways to describe the interaction between the different fragments, one for each partition. 
+For example,if we choose to describe the scattering in terms of the nuclei of the entrance partition, the projectile-target interaction will be written as
+\begin{equation}
+V_{Ab}=V_{\nu b} + U_{ab}.
+\end{equation}
+Here, $V_{\nu b}$ -- a binding potential of the $\nu$ valence particle with the $b$ core, and it is real potential, $U_{ab}$ -- a complex optical potential describing the scattering state of the $a+b$ system.  
+In this representation, known as prior mode, the transition amplitude for the transfer process is given by
+ \begin{align}
+ T_{prior} =& \langle \chi_\beta^{(-)} \phi_a \phi_B  \vert
+  V_{\nu b}+U_{ab}-U_{\alpha} \vert
+   \chi_\alpha^{(+)} \phi_A \phi_b \rangle = 
+   \nonumber \\
+= & \int \int d {\bf r}_\alpha  d {\bf r}_\beta
+\chi^{-}_\beta \left( {\bf r}_\beta \right)^* 
+I_{\beta \alpha}  \left( \left( {\bf r}_\beta ,  {\bf r}_\alpha \right) \right)
+\chi^{+}_\alpha \left( {\bf r}_\alpha \right),
+ \end{align}
+where ${\bf r}_\alpha$ and ${\bf r}_\beta$ -- the radius vectors, illustrated in Fig.\ref{fig:dwba_scheme}, describing relative distance of the $b+A$ and $a+B$ systems respectively,  $U_\alpha$ -- the optical potential describing elastic scattering of $\alpha$-channel, and $I_{\beta \alpha}$ is the kernel function having form
+\begin{equation}
+I_{\beta \alpha}  \left( \left( {\bf r}_\beta ,  {\bf r}_\alpha \right) \right) =
+\left( \phi_a \phi_B  \vert 
+ V_{\nu b}+U_{ab}-U_{\alpha} \vert
+ \phi_A \phi_b  \right).
+\end{equation}
+ 
+\begin{figure}[tp]
+\centering
+\includegraphics[scale=0.8]{dwba_scheme}
+\decoRule
+\caption{ \footnotesize The arrangement of radial vectors in the DWBA 
+on example of the $A+b \rightarrow a + B$ nuclear reaction. Here $A=a+\nu$ 
+and $B=b+\nu$. }
+\label{fig:dwba_scheme}
+\end{figure} 
+ 
+ Analogously, for the exit channel with $V_{aB}= V_{a \nu}+U_{ab}$ the transition amplitude turns to
+\begin{equation}
+T_{post}=  \langle \chi_\beta^{(-)} \phi_a \phi_B  \vert
+  V_{a \nu}+U_{ab}-U_{\beta} \vert
+   \chi_\alpha^{(+)} \phi_A \phi_b \rangle.
+\end{equation}
+Here, $U_\beta$ stands for the optical potential corresponding to $\beta$ elastic channel. 
+ 
+ The differential cross section for the rearrangement nuclear reaction within the DWBA, in particular for prior form, may be written as
+ \begin{equation}
+ \frac{d \sigma}{d \Omega}_{DWBA} = \frac{\mu_\beta \mu_\alpha}{2 \pi \hbar^2}
+ \left( \frac{k_\beta}{k_\alpha}\right)
+ \vert T_{prior} \left( {\bf k}_\beta, {\bf k}_\alpha \right) \vert^2
+ \end{equation}
+ For the post form the differential cross section is written analogously replacing the corresponding transition amplitude.
+ 
+ In accordance with the DWBA calculations the main ingredients are the internal wave functions for the initial $\left( \phi_A, \phi_b \right)$ and final $\left( \phi_a, \phi_B \right)$ nuclei. 
+ In this scheme, the valence particle $\nu$ is bound to the $b$ core to give the composite $B$.
+In the simplest picture, the valence particle can be considered a pure single-particle state. 
+This means that within this model there is only one possible configuration of the core and valence particle to give the nucleus $B$. Thus, the wave function for the nucleus $B$ can be written as
+\begin{equation}
+\phi^{JM}_B \left( \xi,~{\bf r} \right) = 
+\left[ \phi_b^I (\xi)  \times \phi_{lsj} ({\bf r}) \right]_{JM}
+\end{equation}
+ In a more sophisticated model, however, the state of the composite contains components of many single particle states coupled to all possible core states.
+ Therefore, the wave function $\phi^{JM}_B \left( \xi,~{\bf r} \right) $ may be built as a superposition of the form
+ \begin{equation}
+ \phi^{JM}_B \left( \xi,~{\bf r} \right)  =
+ \frac{1}{\sqrt{n_B}}
+ \sum_{Ilj} \mathcal{A}_{lsj}^{IJ} 
+ \left[ \phi_b^I (\xi)  \times \phi_{lsj} ({\bf r}) \right]_{JM}
+ \label{eq:composite_expansion}
+ \end{equation}
+ where the coefficients $\mathcal{A}_{lsj}^{IJ} $ are the so called coefficients of fractional parentage of spectroscopic amplitudes. 
+ More information about the spectroscopic amplitudes will be introduced in the next section. 
+  The squared value of the amplitude is
+ \begin{equation}
+ S^{IJ}_{lsj} = \vert \mathcal{A}_{lsj}^{IJ}  \vert^2,
+ \end{equation}
+ which is called spectroscopic factors. 
+ The spectroscopic factors can be regarded as the probability of finding the valence particle $\nu$ in a single particle state $l, s, j$ coupled to the core with spin $I$.
+ The quantity $n_B$ is the number of nucleons or clusters in the composite system. 
+ 
+Note that the kernel function $I_{\beta \alpha}   \left( {\bf r}_\beta ,  {\bf r}_\alpha \right)  $ involve the overlap between the composite and core wave functions. 
+Using the Eq.\ref{eq:composite_expansion} the internal variable $\xi$ in the integral can be explicitly performed giving just unity by normalization
+\begin{equation}
+\left( \phi^{JM}_B \left( \xi,~{\bf r} \right), \phi_b^I ( \xi ) \right)
+\equiv 
+\int d \xi \phi^{JM}_B \left( \xi,~{\bf r} \right)  \phi_b^I ( \xi ) = 
+\frac{1}{\sqrt{n_B}}
+ \sum_{Ilj} \mathcal{A}_{lsj}^{IJ}  \phi_{lsj} ({\bf r})
+\end{equation}
+ 
+ The bound wave function $ \phi_{lsj} ({\bf r})$ obey the Shr\"{o}dinger equation 
+ \begin{equation}
+ \left( T + V_{\nu b} ({\bf r}) + \epsilon - E \right) \phi_{lsj} ({\bf r}) = 0
+ \end{equation}
+ where $\epsilon$ is the binding energy of the valence particle.
+ 
+ 
+ 
 \section{Spectroscopic Amplitudes within the Shell Model}
+Spectroscopic amplitudes for nuclear reactions can be obtained by calculations within the shell model. However, this approach is limited in calculating the amount of transferred particles. The calculation of matrix elements for the creation operator is suitable only in the case of the one-particle transfers, or at best two particle transfer. In nuclear reactions with the cluster transfer, one should use other theoretical approaches, or achieve certain values by fitting for the best reproduction of the observables.
+
+Observables for the removal or addition of a nucleon from a specific initial state to a
+specific final state are related to the matrix elements of the creation and destruction
+operators.
+The creation operator $a^+_{km}$ is a tensor of rank $j$ since it creates the single-particle state $\vert km \rangle$. Here, $k$ stands for the set of single-particle quantum numbers $nlj$.
+ The destruction operator $a_{km}$ is not a tensor of rank $j$, however,
+ \begin{equation}
+ \tilde{a}_{km}=(-1)^{j+m} \left[ a^+_{k,-m} \right]^+ =
+ (-1)^{j+m} a_{k,-m}
+ \end{equation}
+is a tensor of rank $j$. And its inverse is $ a_{km}=(-1)^{j-m}\tilde{a}_{k,-m}$. 
+Corresponding matrix elements of these operators can be written as
+\begin{equation}
+\langle
+ k^{n-1} \omega^{\prime} J^{\prime}
+\vert \vert
+\tilde{a}_k
+ \vert \vert
+ k^{n} \omega^{} J^{}
+  \rangle 
+  = 
+  (-1)^{j+J^{\prime}-J}
+  \langle
+  k^{n} \omega^{} J^{}
+\vert \vert
+{a}^{+}_k
+ \vert \vert
+ k^{n-1} \omega^{\prime} J^{\prime}
+  \rangle 
+  \label{matrix_elements_of_sa}
+\end{equation}
+where $\omega$ -- the harmonic oscillator parameter chosen to reproduce the observed mean-square charge radius, $J$ -- total spin of the $n$-particle state.
+All many-body matrix elements of $a^+$ can be reduced to these involving a single
+$k$-state.
+
+Wave-function expansion relations and sum-rules for the states in the $n-1$ particle system can be obtained by operating with the number operator
+\begin{equation}
+\hat{N}_k=\sum_m {a}^{+}_{km} {a}_{km}
+\end{equation}
+on the $k^n$ configuration and then inserting a complete set of states with $n-1$ particles
+\begin{align}
+\hat{N}_k \vert  k^{n} \omega J M   \rangle   
+  &=\sum_m {a}^{+}_{km} {a}_{km} \vert  k^{n} \omega  J M \rangle
+   =   n \vert  k^{n} \omega^{} J^{}   \rangle =  \nonumber \\
+  &=
+  \sum_{m\omega' J' M'}  {a}^{+}_{km} 
+  \vert k^{n-1} \omega' J' M' \rangle
+  \langle k^{n-1} \omega' J' M'  \vert
+  {a}_{km} \vert k^{n} \omega J M \rangle.
+\end{align}
+The matrix element of $a_{k,m}$ can be reduced with the Wigner-Eckhart theorem
+\begin{align}
+ \langle k^{n-1} \omega' J' M'  \vert
+  {a}_{km} \vert k^{n} \omega J M \rangle = &
+  (-1)^{j-m+J'-M'} 
+  \begin{pmatrix}
+  J' & j & J \\ 
+  -M' & -m & M
+  \end{pmatrix} \times \nonumber \\
+  & \times
+  \langle k^{n-1} \omega' J' \vert \vert
+  {a}_{km} \vert  \vert k^{n} \omega J  \rangle.
+\end{align}
+By Eq. \ref{matrix_elements_of_sa} the reduced matrix element of $\tilde{a}$ can be converted in a reduced matrix element of $a^+$ to obtain the final result:
+\begin{align}
+\hat{N}_k \vert  k^{n} \omega J M   \rangle   &= n \vert  k^{n} \omega J M   \rangle = 
+\sum_{m\omega J M} (-1)^{-m-M'+J} 
+\begin{pmatrix}
+  J' & j & J \\ 
+  -M' & -m & M
+  \end{pmatrix} \times \nonumber \\
+  & \times 
+   {a}^{+}_{km} 
+  \vert k^{n-1} \omega' J' M' \rangle
+  \langle k^{n} \omega' J   \vert \vert
+  {a}_{k}^+ 
+  \vert \vert
+   k^{n-1} \omega' J' M \rangle.
+   \label{knmo_basis}
+\end{align}
+Denoting the $n$-particle wave function by
+\begin{equation}
+\vert k^n \omega J M \rangle \equiv Z^+ (k^n \omega J M ) \vert	 \rangle
+\end{equation}
+where $Z^+$ is the linear combination of $a^+$ operator which create the antisymmetric $n$-particle state,
+we can thus expand the $k^n$ wave function in terms of those in the $k^{n-1}$ basis:
+\begin{equation}
+\vert  k^{n} \omega J M   \rangle = 
+(-1)^n \sum_{\omega'J'} 
+\frac{\langle k^{n} \omega' J   \vert \vert
+  {a}_{k}^+ 
+  \vert \vert
+   k^{n-1} \omega' J' M \rangle }{n\sqrt{2J+1}}
+   \left[ Z^+ (k^{(n-1)} \omega' J') \times a^+_k \right]_{JM} \vert \rangle
+\end{equation}
+A phase factor $(-1)^{n-1}$ arises from commuting $a^+$ with the $n-1$ particles in the state $k^{n-1}$
+
+A sum rule for the matrix elements of $a^+$ can be obtained by multiplying both sides of Eq. \ref{knmo_basis} by $\langle k^n \omega'' J'' M'' \vert$ to obtain
+\begin{align}
+n \delta_{JJ''}\delta_{MM''}\delta_{\omega \omega''}  &=
+\sum_{m\omega' J' M'} (-1)^{-m-M'+J} 
+\begin{pmatrix}
+  J' & j & J \\ 
+  -M' & -m & M
+  \end{pmatrix} 
+  \times \nonumber \\
+  \times &\langle k^n \omega'' J'' M'' \vert a^+_{km} \vert k^{n-1} \omega' J' M'\rangle
+  \langle k^{n} \omega J   \vert \vert
+  {a}_{k}^+ 
+  \vert \vert
+   k^{n-1} \omega' J'  \rangle  = \nonumber \\
+   =& \sum_{m\omega' J'M'} 
+   \begin{pmatrix}
+  J' & j & J \\ 
+  -M' & -m & M
+  \end{pmatrix}
+  \begin{pmatrix}
+  J'' & j & J' \\ 
+  -M'' & -m & M'
+  \end{pmatrix} \times \nonumber \\
+  \times & 
+  \langle k^n \omega'' J'' \vert \vert a^+_{k} \vert \vert k^{n-1} \omega' J' \rangle
+    \langle k^{n} \omega J   \vert \vert
+  {a}_{k}^+ 
+  \vert \vert
+   k^{n-1} \omega' J'  \rangle  = \nonumber \\
+   = & 
+   \frac{\delta_{JJ''}\delta_{MM''}}{2J+1}
+   \sum_{\omega' J'} 
+   \langle k^n \omega'' J'' \vert \vert a^+_{k} \vert \vert k^{n-1} \omega' J' \rangle
+    \langle k^{n} \omega J   \vert \vert
+  {a}_{k}^+ 
+  \vert \vert
+   k^{n-1} \omega' J'  \rangle.
+\end{align} 
+Then, one finds the sum-rule:
+\begin{equation}
+\sum_{\omega' J'}
+\langle k^n \omega'' J'' \vert \vert a^+_{k} \vert \vert k^{n-1} \omega' J' \rangle
+    \langle k^{n} \omega J   \vert \vert
+  {a}_{k}^+ 
+  \vert \vert
+   k^{n-1} \omega' J'  \rangle
+   =
+   n(2J+1) \delta_{\omega \omega''} \delta_{JJ''}
+\end{equation} 
+Thus:
+\begin{equation}
+\sum_{\omega' J'}
+\vert 
+\langle k^{n} \omega J   \vert \vert
+  {a}_{k}^+ 
+  \vert \vert
+   k^{n-1} \omega' J'  \rangle
+\vert^2
+=
+\sum_{\omega' J'} 
+\vert	
+\langle k^{n-1} \omega' J'   \vert \vert
+  \tilde{a}_{k} 
+  \vert \vert
+   k^{n} \omega J  \rangle
+\vert	^2
+=
+n(2J+1)
+\end{equation}
+The matrix elements in which the sum over final states is normalized to unity are historically called coefficients of fractional parentage \cite{de1963nuclear} (CFP) defined by:
+\begin{equation}
+\mathcal{A}^{JJ'}_{lsj}=\frac{\langle k^{n} \omega J   \vert \vert
+  {a}_{k}^+ 
+  \vert \vert
+   k^{n-1} \omega' J'  \rangle}{\sqrt{n (2J+1)}}
+\end{equation}
+
+
+The reduced matrix elements of the creation and destruction operators
+are used to define the spectroscopic amplitudes associated with nuclear reactions.
+They are also the building blocks for the more complicated operators associated with
+one-body (such as electromagnetic and $\beta$-decay) and two-body transition amplitudes.
 
 \section{Interaction potentials. The double folding model}
 
@@ -1155,7 +1441,7 @@ where $r_{aA}=\vert {\bf r} + {\bf r}_A - {\bf r}_a \vert$ (see Fig.~\ref{fig:df
 \centering
 \includegraphics[scale=0.8]{df_scheme}
 \decoRule
-\caption{ \footnotesize Radius vectors for the double folding model}
+\caption{ \footnotesize Radius vectors for the double folding model. }
 \label{fig:df_scheme}
 \end{figure}
 
@@ -1168,20 +1454,23 @@ The DF potential may be calculated using the effective M3Y-Paris \cite{anantaram
  \end{equation}
  
  
-The parameters  $N_i$, $\mu_i$ of the M3Y-Reid effective NN-potential \cite{bertsch1977interactions}, often used in the double folding calculations, are given in Tab.\ref{m3y_reid_potpar}.
+The parameters  $N_i$, $\mu_i$ of the M3Y-Paris effective NN-potential \cite{anantaraman1983effective}, often used in the double folding calculations, are given in Tab.\ref{m3y_potpar}.
+
+The dependence $g(E)$ of the folding potential on the collision energy and an additional dependence on the nuclear matter density in the region of their overlap $F(\rho)$ have been phenomenologically established. The folding potential is usually taken as the real part of the optical potential, adjusting its depth to better reproduce the experimental data. The imaginary part of the optical potential is selected in the form of the Woods-Saxon potential, or the same folding potential, while varying its depth.
+
 The potential depending on the collision energy of the projectile, undergoes a change by multiplying a factor
 \begin{equation}
-g(E)= 1-0.002 \frac{E}{A} .
+g(E)= 1-0.003 \frac{E}{A} .
 \end{equation}
 An additional dependence of the $V_{nn}$ potential on the total density of colliding nuclei in the region of their overlap may given as
 \begin{equation}
-F(\rho)=C \left( 1+ \alpha \text{exp} \left( - \beta \rho \right) \right).
+F(\rho)=C \left( 1+ \alpha \text{exp} \left( - \beta \rho \right) - \gamma \rho({\bf r})\right).
 \label{F_dependence}
 \end{equation}
-  Studies from Ref. \cite{khoa1994double} has revealed the best agreement of calculated differential cross sections of the $ {}^{12}C+{}^{16}O$  elastic scattering at low and medium energies with the experimental data in conditions, if parameters from Eq.~(\ref{F_dependence}) take the following values: $C=0.2845,~\alpha=3.64, \text{and}~\beta=2.96$.
-
-Another effective potential often used in the double folding calculations is M3Y-Paris \citep{anantaraman1983effective}. 
-
+with the parameters
+\begin{equation}
+C=0.2658 ~~ \alpha=3.8033 \beta=1.4099 ~~ \gamma=4.0
+\end{equation} 
 
  For the particles $t$, $^3$He, $\alpha$, which have simple structure, the density distribution of nuclear matter can be represented as parametrized Gaussian function as follow
  \begin{equation}
@@ -1197,52 +1486,42 @@ Another effective potential often used in the double folding calculations is M3Y
  
  The density distributions in (\ref{df_potential}) are normalized so that
  \begin{align}
- \int \rho_A ({\bf r}) \text{d} {\bf r} & =A \\ \nonumber
- \int \rho_a ({\bf r}) \text{d} {\bf r} & =a
+ \int \rho_A ({\bf r}) \text{d} {\bf r}  =A ~~
+ \int \rho_a ({\bf r}) \text{d} {\bf r}  =a
  \end{align}
  where $A, a$ are the number of nucleons in the respective nuclei. 
  
-\begin{table*}[bp]
+\begin{table}[tp]
 \footnotesize
-\caption{\label{m3y_reid_potpar} \footnotesize Parameters of the Reid-Elliot M3Y potential.}
+\caption{\label{m3y_potpar} \footnotesize Parameters of the M3Y-Paris \cite{anantaraman1983effective}  NN-potential used in double-folding calculations.}
 \begin{tabular*}{\textwidth}{lr@{\extracolsep{\fill}}rrrl}
 \toprule
 $i$ & $N_i$, MeV &  ~ & ~ & ~ &$\mu_i$, $fm^{-1}$ \\
 ~& Direct T=0~  & Exchange T=0 & Direct T=1 & Exchange T=1&  \\
  \midrule
-1  & 7999.0 & 4631.4  & -4885.5 & -1517.9 & 4.0000 	\\
-2 & -2134.3  & -1787.1 & 1175.5 & 828.4 & 2.5000  \\ 
-3 & 0.0  & -7.8 & 0.0 & 2.6 & 0.7072  \\ 
+1  & 11061.60 & -1524.25  & 313.62 & -4118.9 & 4.0000 	\\
+2 & -2537.5  & -518.75 & 223.5 & 1054.75 & 2.5000  \\ 
+3 & 0.0  & -7.84 & 0.0 & 2.62 & 0.7072  \\ 
 \bottomrule
 \end{tabular*}
-\end{table*}
+\end{table}
  
- 
- 
-As regards target nuclei, having cluster structure, the density distribution of nuclear matter are calculated by means of the three body wave function, and its details are set out in the next chapter.
+  
+As regards target nuclei, having cluster structure, the density distribution of nuclear matter are calculated by means of the three body wave function, and its details are set out in the Section \ref{section_density_function} .
 
-
-
-\renewcommand\floatpagefraction{0.1}
 \chapter{Results and discussions}
 
 \section{The three-body wave function}
-The chosen three-body wave function are obtained by variational method, and its parameters for ground state of $^6$He, $^6$Li and $^9$Be are listed in Application B. The process of minimization of eigen-energy of the three-body systems was done with the RSC potential \cite{day1981three} for nucleon-nucleon interaction, the SBB potential \cite{sack1954elastic} for  $\alpha$-$N$ interaction and the BFW potential \cite{buck1977local} for $\alpha$-$\alpha$ interaction.  In Tab. \ref{tab:variational_data} the used and obtained data of variational calculations are listed \footnote{The obtained data of the variational calculations are not the subject of our research, since the results, perhaps better ones, have already been published and discussed. The purpose of  the section result of the three-body wave function   is to familiarize with what wave function we are dealing with, and its features will be needed in further discussions.}.
- 
-\begin{figure}[bp]
-\centering
-\includegraphics[scale=0.6]{he0_the3D}
-\includegraphics[scale=0.6]{he0_theCP} \\
-{\footnotesize $a$)}~~~~~~~~~~~~~~~~~~~~~~{\footnotesize $b$)}\\
-\decoRule
-\caption{ \footnotesize The correlation function $W(x ,y)$ of the three-body wave function of the ground state of \he in the $a$) 3D-Plot  and $b$)  contour-plot.}
-\label{fig:he0_the3D}
-\end{figure}
- 
- 
+
+The chosen three-body wave function are obtained by variational method, and its parameters for ground state of $^6$He, $^6$Li and $^9$Be are listed in Application B. The process of minimization of eigen-energy of the three-body systems was done with the RSC potential \cite{day1981three} for nucleon-nucleon interaction, the SBB potential \cite{sack1954elastic} for  $\alpha$-$N$ interaction and the BFW potential \cite{buck1977local} for $\alpha$-$\alpha$ interaction.  In Tab. \ref{tab:variational_data} the used and obtained data of variational calculations are listed\footnote{The obtained data of the variational calculations are not the subject of our research, since the results, perhaps better ones, have already been published and discussed. The purpose of  the section result of the three-body wave function   is to familiarize with what wave function we are dealing with, and its features will be needed in further discussions.}.
+
+The obtained  results of eigen-energies of the three-body systems in the ground state are equal to $-0.228$ MeV for $^6$He, $-3.258$ MeV for $^6$Li and $-1.417$ MeV for $^9$Be. These theoretical data are differ from experimental data slightly. For example slightly difference has $^9$Be, its experimental established energy in the three-body system is $E_{exp}=-1.417$ MeV. The significant differences between variational eigen-energy were in  $^6$He  and $^6$Li. Corresponding value of the energy are  $E_{exp}=-0.975$ MeV for $^6$He,  $E_{exp}=-3.700$ MeV for $^6$Li. 
+Such kind of discrepancy of variational calculations with experimental data are probably in the non-completeness of the basis function. The basis function taken in this work has no symmetrization, and doesn't enfold an alternative coordinate space.  
+
+
 % Please add the following required packages to your document preamble:
 % \usepackage{booktabs}
-\begin{table}[tp]
+\begin{table}[p!]
 \caption{ Results of the search for the minimum energy of three-body systems found by means of the variational approach: \he, \li ~and \be. The obtained minimum energy $E_{min}$, used set of quantum numbers $\gamma\equiv \lambda l L S$, the dimension $D$ and the probability $P$ of each $\gamma$ are listed. }
 \label{tab:variational_data}
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lllllllll@{}}
@@ -1261,16 +1540,25 @@ $\gamma$         & $D$       & $P$       & $\gamma$         & $D      $ & $P$   
   \begin{tabular}[c]{@{}l@{}}0.403\\ 0.328\\ 0.235\\ 0.017\\ 0.004\\ 0.009\\ 0.003\end{tabular} \\ \bottomrule
 \end{tabular*}
 \end{table}
-
-The obtained  results of eigen-energies of the three-body systems in the ground state are equal to $-0.228$ MeV for $^6$He, $-3.258$ MeV for $^6$Li and $-1.417$ MeV for $^9$Be. These theoretical data are differ from experimental data slightly. For example slightly difference has $^9$Be, its experimental established energy in the three-body system is $E_{exp}=-1.417$ MeV. The significant differences between variational eigen-energy were in  $^6$He  and $^6$Li. Corresponding value of the energy are  $E_{exp}=-0.975$ MeV for $^6$He,  $E_{exp}=-3.700$ MeV for $^6$Li. 
-Such kind of discrepancy of variational calculations with experimental data are probably in the non-completeness of the basis function. The basis function taken in this work has no symmetrization, and doesn't enfold an alternative coordinate space.  
+\clearpage
 
 
+
+ 
+\begin{figure}[tp]
+\centering
+\includegraphics[scale=0.6]{he0_the3D}
+\includegraphics[scale=0.6]{he0_theCP} \\
+{\footnotesize $a$)}~~~~~~~~~~~~~~~~~~~~~~{\footnotesize $b$)}\\
+\decoRule
+\caption{ \footnotesize The correlation function $W(x ,y)$ of the three-body wave function of the ground state of \he in the $a$) 3D-Plot  and $b$)  contour-plot.}
+\label{fig:he0_the3D}
+\end{figure}
 
 
 In Figures \ref{fig:he0_the3D}, \ref{fig:li0_the3D} and \ref{fig:be0_the3D} the correlation density of the three-body wave function are illustrated in the 3D-Plot for $^6$He,  $^6$Li and $^9$Be. For the purpose of good visibility the contour-plot are given along. 
 
-\begin{figure}[tp]
+\begin{figure}[bp]
 \centering
 \includegraphics[scale=0.6]{li0_the3D}
 \includegraphics[scale=0.6]{li0_theCP}
@@ -1281,7 +1569,7 @@ In Figures \ref{fig:he0_the3D}, \ref{fig:li0_the3D} and \ref{fig:be0_the3D} the 
 
 In the Figures \ref{fig:he0_the3D} and \ref{fig:li0_the3D}, two main geometric configurations can be distinguished, cigar-shaped within coordinates $(4.0, 1.0)$, and helicopter-shaped within coordinates $(1.8, 3.0)$, both for $^6$He and  $^6$Li nuclei. The striking highlight of such geometrical configurations is clear evidence of the cluster structure. In particular, we see that in $^6$He, the effect of pairing two nucleons stands out against the background of comparison with $^6$Li. Similar results were described in works \cite{kukulin1977stochastic}, and were obtained in the method using hyperspherical harmonics \cite{zhukov1993bound}. 
 
-\begin{figure}[bp]
+\begin{figure}[tp]
 \centering
 \includegraphics[scale=0.6]{be0_the3D}
 \includegraphics[scale=0.6]{be0_theCP}
@@ -1297,7 +1585,7 @@ The Fig. \ref{fig:be0_the3D} shows the locality of the wave function, which indi
 On the basis of the three-body wave function in Eq.\ref{totwf}, the distribution function of the density of nuclear matter was calculated using Equations \ref{kpq_density}, \ref{pqk_density_N} and \ref{pqk_density_a} for $^6$He, $^6$Li and $^9$Be in the ground states. The calculation results are shown in the Figures \ref{he0_theDD}, \ref{li0_theDD} and \ref{be0_theDD}.
 The plotted the density functions of \he, \li and \be  are normalized to their own atomic masses. 
 
-\begin{figure}[tp]
+\begin{figure}[bp]
 \centering
 \includegraphics[scale=0.8]{he0_theDD}
 \decoRule
@@ -1305,7 +1593,11 @@ The plotted the density functions of \he, \li and \be  are normalized to their o
 \label{he0_theDD}
 \end{figure}
 
-\begin{figure}[bp]
+
+A distinctive feature of the obtained results is in the extended tail of the density function for \he in Fig.\ref{he0_theDD}. This is caused by the nucleons in the three-body system. In particular, the density function of the alpha particle $\rho_\alpha^{(k)}(R)$ inside \he tends to zero rapidly as the radius $R$ increases. The density function of two neutrons $\rho_N^{(p)}(R)+\rho_N^{(q)}(R)$ starts near zero, reaching a maximum near $R \simeq 2.5$, and decreases more slowly than the density function of the alpha particle. What is obvious is that the start of the value of the  density function $\rho_N^{(p)}(R)+\rho_N^{(q)}(R)$ near zero means that these two neutrons lie in the $p$-shell. Thus, we see that the main contribution to the density function starting from $R \simeq 3.0$ is due to two neutrons.
+
+
+\begin{figure}[tp]
 \centering
 \includegraphics[scale=0.8]{li0_theDD}
 \decoRule
@@ -1313,12 +1605,10 @@ The plotted the density functions of \he, \li and \be  are normalized to their o
 \label{li0_theDD}
 \end{figure}
 
-A distinctive feature of the obtained results is in the extended tail of the density function for \he in Fig.\ref{he0_theDD}. This is caused by the nucleons in the three-body system. In particular, the density function of the alpha particle $\rho_\alpha^{(k)}(R)$ inside \he tends to zero rapidly as the radius $R$ increases. The density function of two neutrons $\rho_N^{(p)}(R)+\rho_N^{(q)}(R)$ starts near zero, reaching a maximum near $R \simeq 2.5$, and decreases more slowly than the density function of the alpha particle. What is obvious is that the start of the value of the  density function $\rho_N^{(p)}(R)+\rho_N^{(q)}(R)$ near zero means that these two neutrons lie in the $p$-shell. Thus, we see that the main contribution to the density function starting from $R \simeq 3.0$ is due to two neutrons.
-
 A similar structure of the  nucleus \li is seen in Fig. \ref{li0_theDD}. The density function of the alpha particle $\rho_\alpha^{(k)}(R)$ inside \li is visible, rapidly tending to zero as the radius $R$ increases. And the density function of the two nucleons $\rho_N^{(p)}(R)+\rho_N^{(q)}(R)$, starting around zero, reaches a maximum near $R\simeq 2.5$, and decreases more slowly than the density function of the $\alpha$-particle $\rho_\alpha^{(k)}(R)$.
   The beginning of the value of the density function $\rho_N^{(p)}(R)+\rho_N^{(q)}(R)$ near zero means that these two nucleons lie in the $p$-shell. In fact, we see, again as in the case with \he, that the main contribution to the density function is due to two nucleons starting from $R \simeq 3.0$.
 
-\begin{figure}[tp]
+\begin{figure}[bp]
 \centering
 \includegraphics[scale=0.8]{be0_theDD}
 \decoRule
@@ -1751,7 +2041,7 @@ The situation becomes quite different in the case of the ${}^7$Li$^*$(5/2$^-$) i
 Figure \ref{dbe_fig11} shows the contributions of all the mechanisms mentioned above to the total cross section of the ${}^9$Be($d,\alpha$)${}^7$Li$_{g.s.}$ reaction (see Fig.~\ref{dbe_fig9}) as a function of the deuteron energy. One may conclude that mainly four mechanisms contribute to the cross section of this reaction. The transfer of the deuteron-cluster is the predominant channel at all collision energies. The sequential $n$-$p$ and $p$-$n$ transfers play a significant role at the high energies. The ${}^5$He-cluster transfer gives almost 20\% of the cross section at low energies and outdoes the sequential $p$-$n$ transfer in this energy domain. This allows us to claim that the configurations $n+^8$Be and $\alpha+{}^5$He provide noticeable contributions to the ground-state wave function of the ${}^9$Be nucleus. These conclusions agree well with the previous experimental studies \cite{brown2007, papka2007}.
 
 
-\chapter{Conclusion}
+\chapter{Conclusion}   
 %\include{Chapters/Chapter2} 
 %\include{Chapters/Chapter3}
 %\include{Chapters/Chapter4} 
