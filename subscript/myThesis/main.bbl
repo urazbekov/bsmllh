@@ -144,43 +144,6 @@
     \field{year}{1983}
   \endentry
 
-  \entry{khoa1994double}{article}{}
-    \name{author}{3}{}{%
-      {{hash=KDT}{%
-         family={Khoa},
-         familyi={K\bibinitperiod},
-         given={Dao\bibnamedelima T},
-         giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-      {{hash=VOW}{%
-         family={Von\bibnamedelima Oertzen},
-         familyi={V\bibinitperiod\bibinitdelim O\bibinitperiod},
-         given={W},
-         giveni={W},
-      }}%
-      {{hash=BH}{%
-         family={Bohlen},
-         familyi={B\bibinitperiod},
-         given={HG},
-         giveni={H\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {APS}%
-    }
-    \strng{namehash}{KDT+1}
-    \strng{fullhash}{KDTVOWBH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{3}
-    \field{pages}{1652}
-    \field{title}{Double-folding model for heavy-ion optical potential: Revised
-  and applied to study C 12 and O 16 elastic scattering}
-    \field{volume}{49}
-    \field{journaltitle}{Physical Review C}
-    \field{year}{1994}
-  \endentry
-
   \entry{day1981three}{article}{}
     \name{author}{1}{}{%
       {{hash=DB}{%
@@ -588,6 +551,67 @@
     \field{year}{2011}
   \endentry
 
+  \entry{fresco}{article}{}
+    \name{author}{1}{}{%
+      {{hash=TIJ}{%
+         family={Thompson},
+         familyi={T\bibinitperiod},
+         given={Ian\bibnamedelima J.},
+         giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TIJ1}
+    \strng{fullhash}{TIJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/0167-7977(88)90005-6
+    \endverb
+    \field{number}{4}
+    \field{pages}{167 \bibrangedash  212}
+    \field{title}{Coupled reaction channels calculations in nuclear physics}
+    \field{volume}{7}
+    \field{journaltitle}{Comp. Phys. Rep.}
+    \field{year}{1988}
+  \endentry
+
+  \entry{oganessian1999dynamics}{article}{}
+    \name{author}{3}{}{%
+      {{hash=OYT}{%
+         family={Oganessian},
+         familyi={O\bibinitperiod},
+         given={Yu\bibnamedelima Ts},
+         giveni={Y\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=ZV}{%
+         family={Zagrebaev},
+         familyi={Z\bibinitperiod},
+         given={VI},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Vaagen},
+         familyi={V\bibinitperiod},
+         given={JS},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{OYT+1}
+    \strng{fullhash}{OYTZVVJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{4}
+    \field{pages}{044605}
+    \field{title}{Dynamics of two-neutron transfer reactions with the Borromean
+  nucleus 6 He}
+    \field{volume}{60}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{1999}
+  \endentry
+
   \entry{nrv}{article}{}
     \name{author}{8}{}{%
       {{hash=KA}{%
@@ -802,30 +826,6 @@
     \field{volume}{49}
     \field{journaltitle}{Physical Review C}
     \field{year}{1994}
-  \endentry
-
-  \entry{fresco}{article}{}
-    \name{author}{1}{}{%
-      {{hash=TIJ}{%
-         family={Thompson},
-         familyi={T\bibinitperiod},
-         given={Ian\bibnamedelima J.},
-         giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{TIJ1}
-    \strng{fullhash}{TIJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb https://doi.org/10.1016/0167-7977(88)90005-6
-    \endverb
-    \field{number}{4}
-    \field{pages}{167 \bibrangedash  212}
-    \field{title}{Coupled reaction channels calculations in nuclear physics}
-    \field{volume}{7}
-    \field{journaltitle}{Comp. Phys. Rep.}
-    \field{year}{1988}
   \endentry
 
   \entry{harakeh1980strong}{article}{}
@@ -1377,7 +1377,7 @@
     \strng{namehash}{VA1}
     \strng{fullhash}{VA1}
     \field{labelnamesource}{author}
-    \field{journaltitle}{Private communication. Unpublished}
+    \field{journaltitle}{Private communication.}
   \endentry
 
   \entry{volya2017}{article}{}
