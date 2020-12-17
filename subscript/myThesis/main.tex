@@ -1660,16 +1660,24 @@ The reason for the discrepancy between our results obtained from calculations of
 
 In the process of calculating the rms matter radii, it was found that elements from the set $\gamma$, that have a contribution to the wave function below 0.1 (see Tab.\ref{tab:variational_data}), do not affect the obtained values. Therefore, such elements of the $\gamma$ were excluded from  the density function calculations.
 
-\newpage
-\section{The $\alpha$ + \he nuclear reaction}
+
+\section{The $\alpha$ + \he nuclear reactions }
 \subsection{Elastic scattering}
 
 Theoretical calculations of the differential cross section of the elastic colliding of the \he$ + \alpha$ system has been carried out within the framework of the OM. 
-The calculations were done by means of $FRESCO$ code \cite{fresco}. 
+The calculations were done by means of $FRESCO$
+\footnote{further, when it comes to calculations within the framework of the OM, CC and CRC methods, it will mean that all calculations were carried out using the FRESCO code \cite{fresco}.} 
+code \cite{fresco}. 
 As the interaction potential of the \he$ + \alpha$ system were taken the double folding potential. The potential was built using the three-body wave function of the ground state of \he. The interactions of its $\alpha$-cluster and two nucleon with the $\alpha$-projectile are presented in Fig. \ref{he_df}. The calculated double folding potential has a specific structure.
 It is worth noting that the potential of the $\alpha$ cluster with the projectile decreases rapidly as the distance $r$ increases, while the potential of interaction of two nucleons with the projectile decreases slowly.
 
-\begin{figure}
+The potential obtained within the framework of the double folding model based on the three-body wave function was used to calculate the differential cross section for elastic scattering \he by alpha particles at energy $ E_{lab} = 151~MeV $. 
+The results obtained using different potentials, including the double folding potentials, are shown in Fig.\ref{he_elastic}. 
+
+In addition to the folding potential, two other potentials (WS1 and WS2) are presented as the Woods-Saxon potential taken from \cite{oganessian1999dynamics}. The parameters of the potentials used in the calculations of the theoretical curves within the optical model and the corresponding $ \chi^2 $ are presented in Tab. \ref{tab:he_elastic}.
+Comparison of theoretical curves with the experimental data is in good agreement, if we do not take into account the backward angles caused by another interaction mechanism, which will be discussed in the next section. The difference in cross sections with different potentials is insignificant, except for the folding potential, which does not describe the first experimental point. 
+
+\begin{figure}[tp]
 \centering
 \includegraphics[scale=1]{he_df}
 \decoRule
@@ -1678,27 +1686,45 @@ It is worth noting that the potential of the $\alpha$ cluster with the projectil
 \label{he_df}
 \end{figure}
 
-The potential obtained within the framework of the double folding model based on the three-body wave function was used to calculate the differential cross section for elastic scattering \he by alpha particles at energy $ E_{lab} = 151~MeV $. 
-The results obtained using different potentials, including the double folding potentials, are shown in Fig.\ref{he_elastic}. 
+The advantage of folding potential in comparison with others consists of a less number of adjustable parameters to the experimental data. If these parameters in the  both phenomenological potential WS1 and potential WS2 are six, then folding potential depends on only two parameters. The overhead in this case is a small concession in the $ \chi^2$ test.
+
+
+
+\subsection{Elastic transfer}
+In Fig. \ref{he_elastic}.$a)$ theoretical curves were presented to describe the experimental data on elastic scattering. The calculations made within the framework of the optical model showed a good result. However, this is only at the front scattering angles. The backscattering angles are far from the description of optical calculations. Therefore, in order to explain this difference, we propose mechanisms for the transfer of two nucleons: sequential and simultaneous transfer. A schematic representation of the mechanisms can be seen in Fig. \ref{he_transfer_scheme}.  Thus, the differential cross section of these mechanisms can be written as follows
+\begin{equation}
+\dfrac{d\sigma}{d\Omega}(\theta) =
+ \vert f(\theta)_{OM} + f_{sim}(\pi - \theta)+ f_{seq}(\pi - \theta)  \vert^2
+\end{equation}
+
 
 \begin{figure}
 \centering
 \includegraphics[scale=1]{he_elastic}
-\includegraphics[scale=1]{he_elastic_transfer}
-$a)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~b)$
+\includegraphics[scale=1]{he_elastic_transfer} \\
+$~~~~~~a)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~b)$
 \decoRule
 \caption{  \footnotesize  $a)$ The differential cross section of the elastic scattering of \he by $\alpha$-particles at $E_{lab}=151MeV$ with the different potentials: the double folding potential (blue solid), the WS2  (gray dashed) \cite{oganessian1999dynamics} and  WS1 (gray dotted) \cite{oganessian1999dynamics}. $b)$ The cross sections of the elastic transfer reaction in terms of the transfer mechanisms: elastic scattering (solid gray), simultanious transfer of $2N$ (gray dashed), sequaential transfer of $2N$ (dotted) and teit coherent sum (solid blue). Experimanetal data taken from \cite{oganessian1999dynamics}.
 }
 \label{he_elastic}
 \end{figure}
 
-In addition to the folding potential, two other potentials (WS1 and WS2) are presented as the Woods-Saxon potential taken from \cite{oganessian1999dynamics}. The parameters of the potentials used in the calculations of the theoretical curves within the optical model and the corresponding $ \chi^2 $ are presented in Tab. \ref{tab:he_elastic}.
-Comparison of theoretical curves with the experimental data is in good agreement, if we do not take into account the backward angles caused by another interaction mechanism, which will be discussed in the next section. The difference in cross sections with different potentials is insignificant, except for the folding potential, which does not describe the first experimental point. 
+Calculations for obtaining the differential cross section of the elastic transfer were carried out within the framework of the CRC method. Potential for the input and output channels was taken the double folding potential, and the potential for the intermediate channel was taken the optical potential with global optical parametrizations for $\alpha$ particles \cite{avrigeanu1994global}. Trial calculations have shown that the results depend very little on the selected potential for the intermediate channel.
+The results of calculations for elastic transfer made in the framework of CRC are shown in Fig. \ref{he_elastic}.$b)$. 
+The sequential transfer of two nucleons is shown by gray dotted curves, their simultaneous transfer by dashed gray curves, the elastic scattering cross section by solid gray curves, and, finally, their coherent sum is shown as a blue solid curve. 
+The wave function of the bound states was chosen by fitting the potential depth to the binding energy of the composite systems. 
+In particular, the binding energy of one neutron with $^6$He was 1.8 MeV,  neutron with $^5$He -- 0.1 MeV, and two neutrons with  $\alpha$  -- 0.9 MeV. 
 
-The advantage of folding potential in comparison with others consists of a less number of adjustable parameters to the experimental data. If these parameters in the  both phenomenological potential WS1 and potential WS2 are six, then folding potential depends on only two parameters. The overhead in this case is a small concession in the $ \chi^2$ test.
+\begin{figure}[tp]
+\centering
+\includegraphics[scale=1]{he_transfer_scheme}
+\decoRule
+\caption{  \footnotesize  Schematic representation of the elastic transfer nuclear reaction, on the left - the simultaneous transfer of two nucleons, on the right - the sequential transfer of two nucleons.
+}
+\label{he_transfer_scheme}
+\end{figure}
 
-
-\begin{table}[]
+\begin{table}[bp]
 \footnotesize
 \caption{The optical parameters of the potentials (DF, WS1, WS2) used in calculations of differential cross section of \he by $\alpha$-particle at $E_{lab}=151$ MeV within the optical model.}
 \label{tab:he_elastic}
@@ -1711,6 +1737,50 @@ WS2 & 102.5       & 1.54      & 0.904     & 7.0         & 4.28      & 0.569     
 \end{tabular*}
 \end{table}
 
+As mentioned in the previous section, the elastic collision mechanism prevails at the forward scattering angles. Beginning at an angle of 90 degrees, the contribution to the cross section is mainly due to the simultaneous transfer of two nucleons. It is worth noting here that two neutrons have the $nlj$ $2S_0$ configuration, which, possibly, leads to an oscillatory cross section. Ten times less is the contribution of the sequential transfer of neutrons, having the $1P_{\frac{3}{2}}$ configuration. Note that the spectroscopic amplitudes for two neutrons in \he, one neutron in $^5$He and in \he were taken to be equal to unity for the beginning. The results showed a difference in cross-sections for sequential and simultaneous transmissions of about ten. For the best reproduction of the experimental data, the spectroscopic amplitude of two neutrons was taken  $\mathcal{A}^{00}_{2S_0}=1.3$, while the others remained unchanged.
+
+Thus, it was possible to achieve good agreement between the calculated differential cross section, using the double-folding potential and the proposed transfer mechanisms, with the experimental data.
+
+
+
+\clearpage
+
+\section{The $\alpha$ + \li nuclear reactions }
+\subsection{Elastic scattering}
+
+To calculate the elastic scattering cross section, we used the potential obtained by the folding model method based on the three body model. Therefore, it is possible to look at the structure of the interaction of alpha particles, which are a projectile, with a deuteron and an alpha particle inside the nucleus \li (see, Fig. \ref{li_df}). The function of the interaction potential of the projectile with the internal alpha particle rapidly tends to zero, while the function of the interaction potential of the projectile with the internal deuteron slowly decreases. It should also be noted that, starting from the distance $r \simeq 4.0$, the main contribution is due to the interaction of the projectile with the internal deuteron.
+
+\begin{figure}[bp!]
+\centering
+\includegraphics[scale=1]{li_df}
+\decoRule
+\caption{  \footnotesize  The folding potential $V^{DF}(r)$ in the framework of the three-body model. The potential is for the interaction of the $\alpha$ particle with the constituents of \li.
+}
+\label{li_df}
+\end{figure}
+
+The potential obtained within the framework of the double folding model based on the three-body wave function was used to calculate the differential cross section for elastic scattering \he by alpha particles at energy $ E_{lab} = 151~MeV $. 
+The results obtained using different potentials, including the double folding potentials, are shown in Fig.\ref{he_elastic}. 
+
+\begin{figure}
+\centering
+\includegraphics[scale=1]{li_elastic}
+\includegraphics[scale=1]{li_elastic_transfer}\\
+$~~~~~~a)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~b)$
+\decoRule
+\caption{  \footnotesize  $a)$ The differential cross section of the elastic scattering of \he by $\alpha$-particles at $E_{lab}=151MeV$ with the different potentials: the double folding potential (blue solid), the WS2  (gray dashed) \cite{oganessian1999dynamics} and  WS1 (gray dotted) \cite{oganessian1999dynamics}. $b)$ The cross sections of the elastic transfer reaction in terms of the transfer mechanisms: elastic scattering (solid gray), simultanious transfer of $2N$ (gray dashed), sequaential transfer of $2N$ (dotted) and teit coherent sum (solid blue). Experimanetal data taken from \cite{oganessian1999dynamics}.
+}
+\label{li_elastic}
+\end{figure}
+
+In addition to the folding potential, two other potentials (WS1 and WS2) are presented as the Woods-Saxon potential taken from \cite{oganessian1999dynamics}. The parameters of the potentials used in the calculations of the theoretical curves within the optical model and the corresponding $ \chi^2 $ are presented in Tab. \ref{tab:he_elastic}.
+Comparison of theoretical curves with the experimental data is in good agreement, if we do not take into account the backward angles caused by another interaction mechanism, which will be discussed in the next section. The difference in cross sections with different potentials is insignificant, except for the folding potential, which does not describe the first experimental point. 
+
+The advantage of folding potential in comparison with others consists of a less number of adjustable parameters to the experimental data. If these parameters in the  both phenomenological potential WS1 and potential WS2 are six, then folding potential depends on only two parameters. The overhead in this case is a small concession in the $ \chi^2$ test.
+
+
+
+
 \subsection{Elastic transfer}
 In Fig. \ref{he_elastic}.$a)$ theoretical curves were presented to describe the experimental data on elastic scattering. The calculations made within the framework of the optical model showed a good result. However, this is only at the front scattering angles. The backscattering angles are far from the description of optical calculations. Therefore, in order to explain this difference, we propose mechanisms for the transfer of two nucleons: sequential and simultaneous transfer. A schematic representation of the mechanisms can be seen in Fig. \ref{he_transfer_scheme}.  Thus, the differential cross section of these mechanisms can be written as follows
 \begin{equation}
@@ -1720,27 +1790,40 @@ In Fig. \ref{he_elastic}.$a)$ theoretical curves were presented to describe the 
 
 Calculations for obtaining the differential cross section of the elastic transfer were carried out within the framework of the CRC method. Potential for the input and output channels was taken the double folding potential, and the potential for the intermediate channel was taken the optical potential with global optical parametrizations for $\alpha$ particles \cite{avrigeanu1994global}. Trial calculations have shown that the results depend very little on the selected potential for the intermediate channel.
 The results of calculations for elastic transfer made in the framework of CRC are shown in Fig. \ref{he_elastic}.$b)$. 
-The sequential transfer of two nucleons is shown by gray dotted curves, their simultaneous transfer by dashed gray curves, the elastic scattering cross section by straight gray curves, and, finally, their coherent sum is shown as a blue straight curve. 
+The sequential transfer of two nucleons is shown by gray dotted curves, their simultaneous transfer by dashed gray curves, the elastic scattering cross section by solid gray curves, and, finally, their coherent sum is shown as a blue solid curve. 
 The wave function of the bound states was chosen by fitting the potential depth to the binding energy of the composite systems. 
 In particular, the binding energy of one neutron with $^6$He was 1.8 MeV,  neutron with $^5$He -- 0.1 MeV, and two neutrons with  $\alpha$  -- 0.9 MeV. 
+
+\begin{figure}[tp!]
+\centering
+\includegraphics[scale=1]{li_transfer_scheme}
+\decoRule
+\caption{  \footnotesize  Schematic representation of the elastic transfer nuclear reaction, on the left - the simultaneous transfer of two nucleons, on the right - the sequential transfer of two nucleons.
+}
+\label{li_transfer_scheme}
+\end{figure}
+
+\begin{table}[bp!]
+\footnotesize
+\caption{The optical parameters of the potentials (DF, WS1, WS2) used in calculations of differential cross section of \he by $\alpha$-particle at $E_{lab}=151$ MeV within the optical model.}
+\label{tab:li_elastic}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llllllll}
+\hline
+    & $-V_0$, MeV & $R_v$, fm & $a_v$, fm & $-W_0$, MeV & $R_w$, fm & $a_w$, fm & $\chi^2/N$ \\ \hline
+DF  & \multicolumn{3}{c}{$N_r$=1.4}        & \multicolumn{3}{c}{$N_i$=0.5}        & 7.32      \\
+WS1 & 102.5       & 1.78      & 0.920     & 13.0        & 3.85      & 0.5       & 5.75      \\
+WS2 & 102.5       & 1.54      & 0.904     & 7.0         & 4.28      & 0.569     & 6.31      \\ \hline
+\end{tabular*}
+\end{table}
 
 As mentioned in the previous section, the elastic collision mechanism prevails at the forward scattering angles. Beginning at an angle of 90 degrees, the contribution to the cross section is mainly due to the simultaneous transfer of two nucleons. It is worth noting here that two neutrons have the $nlj$ $2S_0$ configuration, which, possibly, leads to an oscillatory cross section. Ten times less is the contribution of the sequential transfer of neutrons, having the $1P_{\frac{3}{2}}$ configuration. Note that the spectroscopic amplitudes for two neutrons in \he, one neutron in $^5$He and in \he were taken to be equal to unity for the beginning. The results showed a difference in cross-sections for sequential and simultaneous transmissions of about ten. For the best reproduction of the experimental data, the spectroscopic amplitude of two neutrons was taken  $\mathcal{A}^{00}_{2S_0}=1.3$, while the others remained unchanged.
 
 Thus, it was possible to achieve good agreement between the calculated differential cross section, using the double-folding potential and the proposed transfer mechanisms, with the experimental data.
 
-\begin{figure}
-\centering
-\includegraphics[scale=1]{he_transfer_scheme}
-\decoRule
-\caption{  \footnotesize  Schematic representation of the elastic transfer nuclear reaction, on the left - the simultaneous transfer of two nucleons, on the right - the sequential transfer of two nucleons.
-}
-\label{he_transfer_scheme}
-\end{figure}
+
+\clearpage
 
 
-
-
-\newpage
 \section{The $\alpha$ + $^9$Be nuclear reactions}
 \subsection{Elastic scattering}
 We chose the DDM3YY Paris potential \cite{anantaraman1983effective} as our effective nucleon–nucleon interaction for calculating the folding potential. 
