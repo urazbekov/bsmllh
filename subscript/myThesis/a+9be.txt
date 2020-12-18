@@ -1,0 +1,107 @@
+\section{The $\alpha$ + $^9$Be nuclear reactions}
+\subsection{Elastic scattering}
+The Paris potential was chosen \cite{anantaraman1983effective} as the  effective nucleon–nucleon interaction for calculating the double folding potential. 
+The results from calculating the interaction potential for $\alpha$ and \be nuclei are shown in Fig. \ref{be_df}.
+ %The depth of the obtained potential on the whole agrees with the known global parameterizations of the optical potential for $\alpha$ nuclei. 
+ It should be noted that the potential diffusivity is determined by the extended spatial distribution of \be (see Fig. \ref{be0_theDD}).
+
+
+\begin{figure}[bp!]
+\centering
+\includegraphics[scale=1]{be_df}
+\decoRule
+\caption{  \footnotesize  Folding potential of $\alpha$ interaction with $^9$Be nucleus with allowance for the Coulomb interaction.
+}
+\label{be_df}
+\end{figure}
+
+
+The obtained folding potential was used to calculate the differential cross section of elastic scattering for ${}^9$Be($\alpha$,~$\alpha$)${}^9$Be within the OM. 
+Figure \ref{abe_fig4} shows the angular distributions obtained in the range of collision energies from 4.5 to 25.1 MeV/nucleon, compared to the available experimental data \cite{lucas1964scattering,burtebaev2002,hauser1969elastic}. 
+
+\begin{figure}
+\centering
+\includegraphics[scale=1]{abe_fig4}
+\decoRule
+\caption{  \footnotesize   Differential cross sections of elastic scattering ${}^9$Be($\alpha$, $\alpha$)${}^9$Be for different collision energies, compared to the experimental data in \cite{lucas1964scattering,burtebaev2002,hauser1969elastic} : (1) 4.5, (2) 7.25, (3)10.00, (4) 11.25, (5) 12.62, and (6) 26.00 MeV/nucleon.
+}
+\label{abe_fig4}
+\end{figure}
+
+
+In our calculations, folding potential   was used as the real part of the optical potential  $U_{opt}$ without additional coefficients.
+ The optical potential was added using an imaginary term in the form of a Woods–Saxon function with parameters chosen by matching the theoretical cross section to the experimental data (see Table 1).
+  The curves in Fig. \ref{abe_fig4} are in good agreement with the data in the region of small and intermediate scattering angles. 
+ % For large scattering angles at these energies, the elastic scattering cross section is influenced by the mechanism of transfer of heavy $^5$He clusters, which is not explicitly considered in the optical model.
+
+The parameters found for the imaginary part of the optical potential (see Table \ref{abe_tab1}) allow us to study the dependence of the optical potential on the collision energy. In particular, the depth parameter of the imaginary part of the optical potential can be approximately described as
+\begin{equation}
+W_0(E)=-(23.2+0.15E).
+\label{abe_w0}
+\end{equation}
+The form of the dependence and the found slope coefficient in expression \ref{abe_w0} are in good agreement with the corresponding parameters of the known global parameterizations for optical potentials \cite{avrigeanu1994global}.
+
+
+\begin{table}[tp!]
+\caption{
+\footnotesize
+Parameters of imaginary part of the optical potential for calculating elastic scattering cross section $\alpha$ + $^9$Be. The $a_w$ parameter for all energies is 0.97 fm
+}
+
+\label{abe_tab1}
+\centering
+\footnotesize
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lll}
+\hline
+$E_{lab}$, MeV & $-W_0$, MeV & $r_w$, fm \\ \hline
+18             & 26.5        & 1.35      \\
+29             & 27.5        & 1.3       \\
+40             & 28.5        & 1.25      \\
+45             & 30.5        & 1.25      \\
+50.5           & 31.5        & 1.1       \\
+104            & 39.5        & 1.05      \\ \hline
+\end{tabular*}
+\end{table}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table}[bp!]
+\caption{\footnotesize Parameters of the optical potentials for calculations using the distorted waves and channel coupling methods}
+\label{abe_tab2}
+\centering
+\footnotesize
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llllllll@{}}
+\toprule
+$E_{lab}$       & $-V_0$, MeV           & $r_v$, fm             & $a_v$, fm             & $-W_0$, MeV          & $r_w$, fm             & $a_w$, fm             & $r_c$, fm             \\ \midrule
+$\alpha+^9$Be   & \multicolumn{3}{l}{The folding potential}                             & 32.65                & 1.14                  & 0.97                  & 1.30                  \\
+$^3$He+$^{10}B$ & 132.9                 & 1.54                  & 0.57                  & 19.5                 & 1.82                  & 0.22                  & 0.81                  \\
+$t+^{10}$B      & \multirow{2}{*}{95.0} & \multirow{2}{*}{0.95} & \multirow{2}{*}{0.82} & \multirow{2}{*}{8.0} & \multirow{2}{*}{1.60} & \multirow{2}{*}{0.73} & \multirow{2}{*}{1.07} \\
+$t+^{10}$Be     &                       &                       &                       &                      &                       &                       &                       \\ \bottomrule
+\end{tabular*}
+\end{table}
+
+\subsection{Inelastic scattering}
+The obtained optical potentials were used to calculate the differential cross sections of inelastic channels within strong channel coupling using the FRESCO code \cite{fresco}. 
+%We calculated the excitation cross sections for the low-lying $5/2^{-}$ (2.43 MeV) and $7/2^{-}$ (6.38 MeV) states of the rotational band in $^9$Be nucleus. 
+The corresponding angular distributions shown in Fig. \ref{abe_fig5}.a are in good agreement with the experimental data. 
+Calculations yield an estimate for the parameter of quadrupole deformation of the target
+nucleus:  $\beta_2($\be$)=0.79$ which is in good agreement with other sources \cite{harakeh1980strong, roy1995coupled, lukyanov2014study}.
+
+
+\begin{figure}[tp]
+\centering
+\includegraphics[scale=1]{abe_fig5}
+\decoRule
+\caption{\footnotesize  Differential cross sections for $E_{lab}$ =16.25 MeV/nucleon: (a) inelastic scattering $^9$Be($\alpha$, $\alpha$)$^9$Be$^*$ with excitation of:  (1) 5/2${}^{-}$ states, (2) 7/2$^{-}$ states; (b) single nucleon transfer reactions: (1)  ${}^{9}$Be($\alpha$, $t$)${}^{10}$B and (2) ${}^{9}$Be($\alpha$,  ${}^{3}$He)${}^{10}$Be. Experimental data are taken from \cite{harakeh1980strong, roy1995coupled, lukyanov2014study}
+}
+\label{abe_fig5}
+\end{figure}
+
+
+\subsection{One nucleon transfer reactions}
+We also calculated the nucleon transfer cross sections within the distorted waves approach using the DWUCK5 code \cite{kunz}. The parameters of the potentials for the input and output reaction channels are given in Table \ref{abe_tab2}. 
+Figure \ref{abe_fig5}.b shows the calculated differential cross sections for the transfer reactions ${}^{9}$Be($\alpha$,  ${}^{3}$He)${}^{10}$Be and ${}^{9}$Be($\alpha$, $t$)${}^{10}$B; these describe experimental data quite well. 
+A comparison with the measured cross section yields information on the value of the spectroscopic factor   for the ground state of a final nucleus, $^{10}$Be = (${}^{9}$Be + $n$) and $^{10}$B = (${}^{9}$Be + $p$). The obtained values of  ( $^{10}$Be) = 1.1 and  ( $^{10}$B) =
+0.6 in particular differ only slightly from the published values \cite{harakeh1980strong, lukyanov2014study, galanina2012mechanisms}. 
+The values of the neutron structure factor in ${}^{9}$Be obtained in \cite{galanina2012mechanisms} by analyzing reactions ${}^{9}$Be($d$, $p$)${}^{10}$Be and ${}^{10}$B($d$, $p$)${}^{11}$B are in excellent agreement with the results obtained in this work.

@@ -1529,15 +1529,16 @@ Such kind of discrepancy of variational calculations with experimental data are 
 \multicolumn{3}{l}{$^6$He}           & \multicolumn{3}{l}{$^6$Li}           & \multicolumn{3}{l}{$^9$Be}           \\ \midrule
 \multicolumn{3}{l}{$E_{min}=-0.228$} & \multicolumn{3}{l}{$E_{min}=-3.258$} & \multicolumn{3}{l}{$E_{min}=-1.417$} \\ \midrule
 $\gamma$         & $D$       & $P$       & $\gamma$         & $D      $ & $P$       & $\gamma$         & $D$       & $P$       \\
-\begin{tabular}[c]{@{}l@{}}0 0 0 0\\ 1 1 1 1\\ 2 2 0 0\\ 3 3 1 1\end{tabular} &
-  \begin{tabular}[c]{@{}l@{}}$ 9 \times  9$\\ $ 9 \times  9$\\ $ 5 \times  5$\\ $ 5 \times  5$\end{tabular} &
-  \begin{tabular}[c]{@{}l@{}}0.884\\ 0.102\\ 0.010\\ 0.004\end{tabular} &
-  \begin{tabular}[c]{@{}l@{}}0 0 0 1\\ 2 0 2 1\\ 1 1 1 0\\ 2 2 0 1\\ 2 2 1 1\end{tabular} &
-  \begin{tabular}[c]{@{}l@{}}$ 8 \times 8 $\\ $ 7 \times 7 $\\ $ 7 \times 7 $\\ $ 5 \times 5 $\\ $ 5 \times 5 $\end{tabular} &
-  \begin{tabular}[c]{@{}l@{}}0.898\\  0.073\\  0.021\\  0.005\\  0.002\end{tabular} &
-  \begin{tabular}[c]{@{}l@{}}0 1 1 1 \\ 2 1 1 1\\ 2 1 2 1 \\ 2 3 1 1 \\ 2 3 2 1 \\ 4 3 1 1 \\ 4 3 2 1\end{tabular} &
-  \begin{tabular}[c]{@{}l@{}}$ 7 \times 7 $\\ $ 7 \times 7 $\\ $ 7 \times 7 $\\ $ 6 \times 6 $\\ $ 5 \times 5 $\\ $ 4 \times 4 $\\ $ 4 \times 4 $\end{tabular} &
-  \begin{tabular}[c]{@{}l@{}}0.403\\ 0.328\\ 0.235\\ 0.017\\ 0.004\\ 0.009\\ 0.003\end{tabular} \\ \bottomrule
+$ \lambda~l~L~S$  &  & & $\lambda~l~L~S$ & && $ \lambda~l~L~S$        &      &      \\
+\begin{tabular}[t]{@{}l@{}}0 0 0 0\\ 1 1 1 1\\ 2 2 0 0\\ 3 3 1 1\end{tabular} &
+  \begin{tabular}[t]{@{}l@{}}$ 9 \times  9$\\ $ 9 \times  9$\\ $ 5 \times  5$\\ $ 5 \times  5$\end{tabular} &
+  \begin{tabular}[t]{@{}l@{}}0.884\\ 0.102\\ 0.010\\ 0.004\end{tabular} &
+  \begin{tabular}[t]{@{}l@{}}0 0 0 1\\ 2 0 2 1\\ 1 1 1 0\\ 2 2 0 1\\ 2 2 1 1\end{tabular} &
+  \begin{tabular}[t]{@{}l@{}}$ 8 \times 8 $\\ $ 7 \times 7 $\\ $ 7 \times 7 $\\ $ 5 \times 5 $\\ $ 5 \times 5 $\end{tabular} &
+  \begin{tabular}[t]{@{}l@{}}0.898\\  0.073\\  0.021\\  0.005\\  0.002\end{tabular} &
+  \begin{tabular}[t]{@{}l@{}}0 1 1 1 \\ 2 1 1 1\\ 2 1 2 1 \\ 2 3 1 1 \\ 2 3 2 1 \\ 4 3 1 1 \\ 4 3 2 1\end{tabular} &
+  \begin{tabular}[t]{@{}l@{}}$ 7 \times 7 $\\ $ 7 \times 7 $\\ $ 7 \times 7 $\\ $ 6 \times 6 $\\ $ 5 \times 5 $\\ $ 4 \times 4 $\\ $ 4 \times 4 $\end{tabular} &
+  \begin{tabular}[t]{@{}l@{}}0.403\\ 0.328\\ 0.235\\ 0.017\\ 0.004\\ 0.009\\ 0.003\end{tabular} \\ \bottomrule
 \end{tabular*}
 \end{table}
 \clearpage
@@ -1695,6 +1696,7 @@ In Fig. \ref{he_elastic}.$a)$ theoretical curves were presented to describe the 
 \begin{equation}
 \dfrac{d\sigma}{d\Omega}(\theta) =
  \vert f(\theta)_{OM} + f_{sim}(\pi - \theta)+ f_{seq}(\pi - \theta)  \vert^2
+\label{eq:he_cs}
 \end{equation}
 
 
@@ -1726,14 +1728,17 @@ In particular, the binding energy of one neutron with $^6$He was 1.8 MeV,  neutr
 
 \begin{table}[bp]
 \footnotesize
-\caption{The optical parameters of the potentials (DF, WS1, WS2) used in calculations of differential cross section of \he by $\alpha$-particle at $E_{lab}=151$ MeV within the optical model.}
+\caption{The parameters of the potentials used in OM calculations for both $\alpha$ + \he and $\alpha$ + \li nuclear reactions. For more details, see the text}
 \label{tab:he_elastic}
-\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llllllll}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}rlllllll}
 \hline
     & $-V_0$, MeV & $R_v$, fm & $a_v$, fm & $-W_0$, MeV & $R_w$, fm & $a_w$, fm & $\chi^2/N$ \\ \hline
-DF  & \multicolumn{3}{c}{$N_r$=1.4}        & \multicolumn{3}{c}{$N_i$=0.5}        & 7.32      \\
-WS1 & 102.5       & 1.78      & 0.920     & 13.0        & 3.85      & 0.5       & 5.75      \\
-WS2 & 102.5       & 1.54      & 0.904     & 7.0         & 4.28      & 0.569     & 6.31      \\ \hline
+DF-\he  & \multicolumn{3}{c}{$N_r$=1.4}        & \multicolumn{3}{c}{$N_i$=0.5}        & 7.32      \\
+DF-\li  & \multicolumn{3}{c}{$N_r$=2.0}        & \multicolumn{3}{c}{$N_i$=1.8}        & 11.61      \\
+WS1-\he & 102.5       & 1.78      & 0.920     & 13.0        & 3.85      & 0.5       & 5.75      \\
+WS2-\he & 102.5       & 1.54      & 0.904     & 7.0         & 4.28      & 0.569     & 6.31      \\ 
+WS1-\li & 102.5       & 1.78      & 0.820     & 11.8         & 4.11      & 0.950     & 15.43      \\
+\hline
 \end{tabular*}
 \end{table}
 
@@ -1742,8 +1747,6 @@ As mentioned in the previous section, the elastic collision mechanism prevails a
 Thus, it was possible to achieve good agreement between the calculated differential cross section, using the double-folding potential and the proposed transfer mechanisms, with the experimental data.
 
 
-
-\clearpage
 
 \section{The $\alpha$ + \li nuclear reactions }
 \subsection{Elastic scattering}
@@ -1759,8 +1762,13 @@ To calculate the elastic scattering cross section, we used the potential obtaine
 \label{li_df}
 \end{figure}
 
-The potential obtained within the framework of the double folding model based on the three-body wave function was used to calculate the differential cross section for elastic scattering \he by alpha particles at energy $ E_{lab} = 151~MeV $. 
-The results obtained using different potentials, including the double folding potentials, are shown in Fig.\ref{he_elastic}. 
+The results of calculating the differential cross section of elastic collision of the $ \alpha $ + \li system are shown in Fig. \ref{li_elastic}~$a)$.
+ The cross section based on the folding potential (DF-\li), represented by the blue curve, is in better agreement than the potential (WS1-\li) taken from \cite{oganessian1999dynamics}, which is shaped like the Woods-Saxon potential. 
+ The proof comes from the value of the $\chi^2$ test for each potential. 
+ The potential parameters and $\chi^2$ values are listed in Tab. \ref{tab:he_elastic}.
+ The \li structure is very similar to the \he structure. Therefore, as in the case of \he, the calculations made in the framework of the OM are well described only at the forward scattering angles. 
+ Differential cross sections belonging to the backward angles have the character of another mechanism - the transfer of $d$ inside \li. 
+ How exactly this subsystem is transferred will be discussed in the next section devoted to elastic transfer for the $ \alpha$ + \he reaction.
 
 \begin{figure}
 \centering
@@ -1768,31 +1776,30 @@ The results obtained using different potentials, including the double folding po
 \includegraphics[scale=1]{li_elastic_transfer}\\
 $~~~~~~a)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~b)$
 \decoRule
-\caption{  \footnotesize  $a)$ The differential cross section of the elastic scattering of \he by $\alpha$-particles at $E_{lab}=151MeV$ with the different potentials: the double folding potential (blue solid), the WS2  (gray dashed) \cite{oganessian1999dynamics} and  WS1 (gray dotted) \cite{oganessian1999dynamics}. $b)$ The cross sections of the elastic transfer reaction in terms of the transfer mechanisms: elastic scattering (solid gray), simultanious transfer of $2N$ (gray dashed), sequaential transfer of $2N$ (dotted) and teit coherent sum (solid blue). Experimanetal data taken from \cite{oganessian1999dynamics}.
+\caption{  \footnotesize  $a)$ The differential cross section of the elastic scattering of \li by $\alpha$-particles at $E_{lab} = 166 MeV$ with the different potentials: the double folding potential DF-\li (blue solid), the WS1-\li  (gray dashed) \cite{oganessian1999dynamics}. $b)$ The cross sections of the elastic transfer reaction are represented in terms of the transfer mechanisms: elastic scattering (solid gray), simultanious transfer of $d$ (gray dashed), sequential transfer of $2N$ (dotted) and their coherent sum (solid blue). Experimanetal data taken from \cite{oganessian1999dynamics}.
 }
 \label{li_elastic}
 \end{figure}
 
-In addition to the folding potential, two other potentials (WS1 and WS2) are presented as the Woods-Saxon potential taken from \cite{oganessian1999dynamics}. The parameters of the potentials used in the calculations of the theoretical curves within the optical model and the corresponding $ \chi^2 $ are presented in Tab. \ref{tab:he_elastic}.
-Comparison of theoretical curves with the experimental data is in good agreement, if we do not take into account the backward angles caused by another interaction mechanism, which will be discussed in the next section. The difference in cross sections with different potentials is insignificant, except for the folding potential, which does not describe the first experimental point. 
-
-The advantage of folding potential in comparison with others consists of a less number of adjustable parameters to the experimental data. If these parameters in the  both phenomenological potential WS1 and potential WS2 are six, then folding potential depends on only two parameters. The overhead in this case is a small concession in the $ \chi^2$ test.
-
+Potential WS1-\li describes the experimental data not so much better than it was expected from the source taken \cite{oganessian1999dynamics}.
+ It is possible that an error was overlooked at the typing stage for the publisher. It should be noted that omissions in our calculations for elastic scattering $\alpha$ + \li are excluded, since the approach perfectly reproduces the theoretical curves of the potential WS1-\he and WS2-\he for elastic scattering $\alpha$ + \he exactly the same as it looks in its own source. 
+ 
+ It should be noted that the corresponding double folding potential  for the elastic scattering $\alpha$ + \li  reaction depends only on two parameters adjusted to the experimental data.
 
 
 
 \subsection{Elastic transfer}
-In Fig. \ref{he_elastic}.$a)$ theoretical curves were presented to describe the experimental data on elastic scattering. The calculations made within the framework of the optical model showed a good result. However, this is only at the front scattering angles. The backscattering angles are far from the description of optical calculations. Therefore, in order to explain this difference, we propose mechanisms for the transfer of two nucleons: sequential and simultaneous transfer. A schematic representation of the mechanisms can be seen in Fig. \ref{he_transfer_scheme}.  Thus, the differential cross section of these mechanisms can be written as follows
-\begin{equation}
-\dfrac{d\sigma}{d\Omega}(\theta) =
- \vert f(\theta)_{OM} + f_{sim}(\pi - \theta)+ f_{seq}(\pi - \theta)  \vert^2
-\end{equation}
+An increase in the cross section for the elastic scattering $\alpha$ + \li  reaction starting from 90$^\circ$ suggests the existence of additional reaction mechanisms.
+ In this case, in order to register the same particle as the elastically scattered projectile, a deuteron particle must be transferred to the target at angles above 90$^\circ$. 
+ That is, the incident particle \li transfers its deuteron to the $\alpha$-target. Then, the remaining alpha particle of \li continues its path, while the newly formed nucleus \li flies in the opposite direction according to the law of momentum conservation. 
+ In particular, the presence of a deuteron transfer mechanism is not excluded. 
+ These transfer mechanisms are shown schematically in Fig \ref{li_transfer_scheme}.
 
-Calculations for obtaining the differential cross section of the elastic transfer were carried out within the framework of the CRC method. Potential for the input and output channels was taken the double folding potential, and the potential for the intermediate channel was taken the optical potential with global optical parametrizations for $\alpha$ particles \cite{avrigeanu1994global}. Trial calculations have shown that the results depend very little on the selected potential for the intermediate channel.
-The results of calculations for elastic transfer made in the framework of CRC are shown in Fig. \ref{he_elastic}.$b)$. 
+As in the case of \he, calculations for obtaining the differential cross section of the elastic transfer were carried out within the framework of the CRC method. For the input and output channels the double folding potential was taken, and for the intermediate channel the optical potential with global optical parametrizations for $\alpha$ particles \cite{avrigeanu1994global}  was chosen. Preliminary calculations have shown that the cross sections depend weakly on the selected potential for the intermediate channel.
 The sequential transfer of two nucleons is shown by gray dotted curves, their simultaneous transfer by dashed gray curves, the elastic scattering cross section by solid gray curves, and, finally, their coherent sum is shown as a blue solid curve. 
 The wave function of the bound states was chosen by fitting the potential depth to the binding energy of the composite systems. 
-In particular, the binding energy of one neutron with $^6$He was 1.8 MeV,  neutron with $^5$He -- 0.1 MeV, and two neutrons with  $\alpha$  -- 0.9 MeV. 
+In particular, the binding energy of one neutron with $^5$Li was 5.663 MeV, as neutron with $^5$He taken 0.9 MeV, and as $d$ with  $\alpha$  taken 1.474 MeV. 
+The differential cross section for this reaction is determined using the same formula \ref{eq:he_cs}.
 
 \begin{figure}[tp!]
 \centering
@@ -1803,135 +1810,22 @@ In particular, the binding energy of one neutron with $^6$He was 1.8 MeV,  neutr
 \label{li_transfer_scheme}
 \end{figure}
 
-\begin{table}[bp!]
-\footnotesize
-\caption{The optical parameters of the potentials (DF, WS1, WS2) used in calculations of differential cross section of \he by $\alpha$-particle at $E_{lab}=151$ MeV within the optical model.}
-\label{tab:li_elastic}
-\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llllllll}
-\hline
-    & $-V_0$, MeV & $R_v$, fm & $a_v$, fm & $-W_0$, MeV & $R_w$, fm & $a_w$, fm & $\chi^2/N$ \\ \hline
-DF  & \multicolumn{3}{c}{$N_r$=1.4}        & \multicolumn{3}{c}{$N_i$=0.5}        & 7.32      \\
-WS1 & 102.5       & 1.78      & 0.920     & 13.0        & 3.85      & 0.5       & 5.75      \\
-WS2 & 102.5       & 1.54      & 0.904     & 7.0         & 4.28      & 0.569     & 6.31      \\ \hline
-\end{tabular*}
-\end{table}
+The results of calculations for elastic transfer are shown in Fig. \ref{li_elastic}.$b)$. 
+The mechanism of elastic collision in the reaction of $\alpha$ + \li   prevails over other mechanisms at the forward scattering angles. 
+However, starting from 90$^\circ$ we see that the main contribution to the cross section is caused by the simultaneous transfer of two nucleons of  \li, that is, the deuteron. 
+The difference from the reaction $ \alpha $ + \he, where two nucleons are transferred, the reaction $\alpha $ + \li consists reaction of the deuteron transfer, which has spin $S(d)=1$, therefore, and also in the spin structure of the composite nucleus \li = $ \alpha + d $. That is, according to the law of conservation of moments and parity, a deuteron can be transferred by $2S1$ and $2D1$ configurations.
 
-As mentioned in the previous section, the elastic collision mechanism prevails at the forward scattering angles. Beginning at an angle of 90 degrees, the contribution to the cross section is mainly due to the simultaneous transfer of two nucleons. It is worth noting here that two neutrons have the $nlj$ $2S_0$ configuration, which, possibly, leads to an oscillatory cross section. Ten times less is the contribution of the sequential transfer of neutrons, having the $1P_{\frac{3}{2}}$ configuration. Note that the spectroscopic amplitudes for two neutrons in \he, one neutron in $^5$He and in \he were taken to be equal to unity for the beginning. The results showed a difference in cross-sections for sequential and simultaneous transmissions of about ten. For the best reproduction of the experimental data, the spectroscopic amplitude of two neutrons was taken  $\mathcal{A}^{00}_{2S_0}=1.3$, while the others remained unchanged.
-
-Thus, it was possible to achieve good agreement between the calculated differential cross section, using the double-folding potential and the proposed transfer mechanisms, with the experimental data.
-
+Calculations on the cross section showed that the cross section with the $2S1$ wave has an oscillatory character, as in the case with the elastic transfer reaction $\alpha$ + \he, then with the $2D1$ wave the cross section takes a smooth form. 
+The spectroscopic amplitude for the $2S1$ configuration of the deuteron in \li was taken $ \mathcal {A}^{10} _ {2S1} \simeq 0.7 $, and for the $2D1$ configuration of the transferred deuteron $ \mathcal{A}^ {10}_{2D1} \simeq 0.5 $, considering that this wave has a much smaller contribution to the structure \li (see, Tab. \ref{tab:variational_data}). Therefore, the resulting section is more or less smooth compared to the case with the elastic transfer reaction $\alpha$ + \he.
+As for the sequential transfer of the $d$ system, it has a contribution much less than the simultaneous transfer by one order of magnitude. This is when first neutron is transferred then proton. And the reverse order of transfer is greatly underestimated due to the Coulomb repulsion of proton with the $\alpha$-projectile.
 
 \clearpage
 
 
-\section{The $\alpha$ + $^9$Be nuclear reactions}
-\subsection{Elastic scattering}
-We chose the DDM3YY Paris potential \cite{anantaraman1983effective} as our effective nucleon–nucleon interaction for calculating the folding potential. 
-The results from calculating the interaction potential for $\alpha$ and ${}^9$Be nuclei are shown in Fig. \ref{abe_fig3}.
- The depth of the obtained potential on the whole agrees with the known global parameterizations of the optical potential for $\alpha$ nuclei. 
- It should be noted that the potential diffusivity, which is to a large extent determined by the extended spatial distribution of ${}^9$Be (see Fig. \ref{abe_fig2}), is considerable.
 
 
-\begin{figure}
-\centering
-\includegraphics[scale=1]{abe_fig3}
-\decoRule
-\caption{  \footnotesize  Folding potential of $\alpha$ interaction with $^9$Be nucleus with allowance for the Coulomb interaction.
-}
-\label{abe_fig3}
-\end{figure}
 
-
-The obtained folding potential was used to calculate the differential cross section of elastic scattering for ${}^9$Be($\alpha$,~$\alpha$)${}^9$Be within the optical model using the data base in \citep{nrv}. 
-Figure \ref{abe_fig4} shows the angular distributions obtained in the range of collision energies from 4.5 to 25.1 MeV/nucleon, compared to the available experimental data \cite{lucas1964scattering,burtebaev2002,hauser1969elastic}. 
-
-\begin{figure}[tp]
-\centering
-\includegraphics[scale=1]{abe_fig4}
-\decoRule
-\caption{  \footnotesize   Differential cross sections of elastic scattering ${}^9$Be($\alpha$, $\alpha$)${}^9$Be for different collision energies, compared to the experimental data in \cite{lucas1964scattering,burtebaev2002,hauser1969elastic} : (1) 4.5, (2) 7.25, (3)10.00, (4) 11.25, (5) 12.62, and (6) 26.00 MeV/nucleon.
-}
-\label{abe_fig4}
-\end{figure}
-
-
-In our calculations, folding potential   was used as the real part of the optical potential  $U_{opt}$ without additional coefficients.
- The optical potential was added using an imaginary term in the form of a Woods–Saxon function with parameters chosen by matching the theoretical cross section to the experimental data (see Table 1).
-  The curves in Fig. \ref{abe_fig4} are in good agreement with the data in the region of small and intermediate scattering angles. 
-  For large scattering angles at these energies, the elastic scattering cross section is influenced by the mechanism of transfer of heavy $^5$He clusters, which is not explicitly considered in the optical model.
-
-The parameters found for the imaginary part of the optical potential (see Table \ref{abe_tab1}) allow us to study the dependence of the optical potential on the collision energy. In particular, the depth parameter of the imaginary part of the optical potential can be approximately described as
-\begin{equation}
-W_0(E)=-(23.2+0.15E).
-\label{abe_w0}
-\end{equation}
-The form of the dependence and the found slope coefficient in expression \ref{abe_w0} are in good agreement with the corresponding parameters of the known global parameterizations for optical potentials \cite{avrigeanu1994global}.
-
-
-\begin{table}[bp]
-\caption{
-\footnotesize
-Parameters of imaginary part of the optical potential for calculating elastic scattering cross section $\alpha$ + $^9$Be. The $a_w$ parameter for all energies is 0.97 fm
-}
-\label{abe_tab1}
-\centering
-\footnotesize
-\begin{tabular}{lll}
-\hline
-$E_{lab}$, MeV & $-W_0$, MeV & $r_w$, fm \\ \hline
-18             & 26.5        & 1.35      \\
-29             & 27.5        & 1.3       \\
-40             & 28.5        & 1.25      \\
-45             & 30.5        & 1.25      \\
-50.5           & 31.5        & 1.1       \\
-104            & 39.5        & 1.05      \\ \hline
-\end{tabular}
-\end{table}
-
-\subsection{Inelastic scattering}
-The obtained optical potentials were used to calculate the differential cross sections of inelastic channels within strong channel coupling using the FRESCO code \cite{fresco}. 
-%We calculated the excitation cross sections for the low-lying $5/2^{-}$ (2.43 MeV) and $7/2^{-}$ (6.38 MeV) states of the rotational band in $^9$Be nucleus. 
-The corresponding angular distributions shown in Fig. \ref{abe_fig5}.a are in good agreement with the experimental data. 
-Calculations yield an estimate for the parameter of quadrupole deformation of the target
-nucleus:   which is in good agreement with other sources \cite{harakeh1980strong, roy1995coupled, lukyanov2014study}.
-
-
-\begin{figure}[tp]
-\centering
-\includegraphics[scale=1]{abe_fig5}
-\decoRule
-\caption{\footnotesize  Differential cross sections for $E_{lab}$ =16.25 MeV/nucleon: (a) inelastic scattering $^9$Be($\alpha$, $\alpha$)$^9$Be$^*$ with excitation of:  (1) 5/2${}^{-}$ states, (2) 7/2$^{-}$ states; (b) single nucleon transfer reactions: (1)  ${}^{9}$Be($\alpha$, $t$)${}^{10}$B and (2) ${}^{9}$Be($\alpha$,  ${}^{3}$He)${}^{10}$Be. Experimental data are taken from \cite{harakeh1980strong, roy1995coupled, lukyanov2014study}
-}
-\label{abe_fig5}
-\end{figure}
-
-
-\subsection{One nucleon transfer reactions}
-We also calculated the nucleon transfer cross sections within the distorted waves approach using the DWUCK5 code \cite{kunz}. The parameters of the potentials for the input and output reaction channels are given in Table \ref{abe_tab2}. 
-Figure \ref{abe_fig5}.b shows the calculated differential cross sections for the transfer reactions ${}^{9}$Be($\alpha$,  ${}^{3}$He)${}^{10}$Be and ${}^{9}$Be($\alpha$, $t$)${}^{10}$B; these describe experimental data quite well. 
-A comparison with the measured cross section yields information on the value of the spectroscopic factor   for the ground state of a final nucleus, $^{10}$Be = (${}^{9}$Be + $n$) and $^{10}$B = (${}^{9}$Be + $p$). The obtained values of  ( $^{10}$Be) = 1.1 and  ( $^{10}$B) =
-0.6 in particular differ only slightly from the published values \cite{harakeh1980strong, lukyanov2014study, galanina2012mechanisms}. 
-The values of the neutron structure factor in ${}^{9}$Be obtained in \cite{galanina2012mechanisms} by analyzing reactions ${}^{9}$Be($d$, $p$)${}^{10}$Be and ${}^{10}$B($d$, $p$)${}^{11}$B are in excellent agreement with the results obtained in this work.
-
-% Please add the following required packages to your document preamble:
-% \usepackage{booktabs}
-% \usepackage{multirow}
-\begin{table}[bp]
-\caption{\footnotesize Parameters of the optical potentials for calculations using the distorted waves and channel coupling methods}
-\label{abe_tab2}
-\centering
-\footnotesize
-\begin{tabular}{@{}llllllll@{}}
-\toprule
-$E_{lab}$       & $-V_0$, MeV           & $r_v$, fm             & $a_v$, fm             & $-W_0$, MeV          & $r_w$, fm             & $a_w$, fm             & $r_c$, fm             \\ \midrule
-$\alpha+^9$Be   & \multicolumn{3}{l}{The folding potential}                             & 32.65                & 1.14                  & 0.97                  & 1.30                  \\
-$^3$He+$^{10}B$ & 132.9                 & 1.54                  & 0.57                  & 19.5                 & 1.82                  & 0.22                  & 0.81                  \\
-$t+^{10}$B      & \multirow{2}{*}{95.0} & \multirow{2}{*}{0.95} & \multirow{2}{*}{0.82} & \multirow{2}{*}{8.0} & \multirow{2}{*}{1.60} & \multirow{2}{*}{0.73} & \multirow{2}{*}{1.07} \\
-$t+^{10}$Be     &                       &                       &                       &                      &                       &                       &                       \\ \bottomrule
-\end{tabular}
-\end{table}
-
-\section{The d+$^9$Be nuclear reactions}
+\section{The d + $^9$Be nuclear reactions}
 
 \subsection{The elastic channel}
 The DF potential was calculated using the effective M3Y-Paris nucleon-nucleon potential and the nuclear-matter-densities of projectile and target nuclei. In order to calculate the ${}^9$Be matter distribution we applied the $\alpha+\alpha+n$ three-body model (for more details, see Ref.~\cite{urazbekov2016}), while the matter density distribution of the deuteron projectile was chosen to be of the form
@@ -1945,14 +1839,14 @@ V^V(R) =  \sum_{i=1}^{3} V^i f^{R_i, a_i}(R), \\
  f^{R_V,a_V}(R)=\frac{1}{1+exp{\frac{R-R_V}{a_V}}}.
 \end{eqnarray}
 
-The parameters of the imaginary part of the optical potential were obtained by fitting the theoretical cross sections to the experimental data at 19.5 MeV and 35 MeV incident energies. As a starting point, the same parameterizations of the real part were used. The obtained potential parameters after fitting are listed in Table~\ref{dbe_potpar} for both 19.5 MeV and 35.0 MeV incident energies.
-
-\begin{figure}[tp]
+\begin{figure}[bp!]
 \centering
 \includegraphics[width=8.2cm]{dbe_fig3.pdf}
 \decoRule
 \caption{ \label{dbe_fig3} \footnotesize The angular distribution of elastic scattering data of $d$ from ${}^9$Be at laboratory energy 19.5~MeV in comparison with theoretical calculations within the OM (solid curve). }
 \end{figure}
+
+The parameters of the imaginary part of the optical potential were obtained by fitting the theoretical cross sections to the experimental data at 19.5 MeV and 35 MeV incident energies. As a starting point, the same parameterizations of the real part were used. The obtained potential parameters after fitting are listed in Table~\ref{dbe_potpar} for both 19.5 MeV and 35.0 MeV incident energies.
 
 The comparison of the results of the theoretical calculations with  the measured data for elastic scattering at 19.5 MeV and 35.0 MeV energies are plotted in Fig.~\ref{dbe_fig3}. 
 The cross sections obtained in the framework of the OM with the DF potential are shown as solid curves. 
@@ -1995,7 +1889,7 @@ where $\beta_\lambda$ is the deformation parameter of $\lambda$ multipole descri
 \end{figure} 
 
 
-\begin{figure}[tp]
+\begin{figure}[bp]
 \centering
 \includegraphics[scale=0.85]{dbe_fig5.pdf}
 \decoRule
@@ -2203,7 +2097,7 @@ The situation becomes quite different in the case of the ${}^7$Li$^*$(5/2$^-$) i
 Figure \ref{dbe_fig11} shows the contributions of all the mechanisms mentioned above to the total cross section of the ${}^9$Be($d,\alpha$)${}^7$Li$_{g.s.}$ reaction (see Fig.~\ref{dbe_fig9}) as a function of the deuteron energy. One may conclude that mainly four mechanisms contribute to the cross section of this reaction. The transfer of the deuteron-cluster is the predominant channel at all collision energies. The sequential $n$-$p$ and $p$-$n$ transfers play a significant role at the high energies. The ${}^5$He-cluster transfer gives almost 20\% of the cross section at low energies and outdoes the sequential $p$-$n$ transfer in this energy domain. This allows us to claim that the configurations $n+^8$Be and $\alpha+{}^5$He provide noticeable contributions to the ground-state wave function of the ${}^9$Be nucleus. These conclusions agree well with the previous experimental studies \cite{brown2007, papka2007}.
 
 
-\chapter{Conclusion}   
+\chapter{Key findings and Conclusion}   
 %\include{Chapters/Chapter2} 
 %\include{Chapters/Chapter3}
 %\include{Chapters/Chapter4} 
