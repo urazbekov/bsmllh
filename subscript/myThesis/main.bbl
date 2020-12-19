@@ -17,6 +17,857 @@
 \endgroup
 
 \sortlist[entry]{none/global/}
+  \entry{donoghue2014dynamics}{book}{}
+    \name{author}{3}{}{%
+      {{hash=DJF}{%
+         family={Donoghue},
+         familyi={D\bibinitperiod},
+         given={John\bibnamedelima F},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=GE}{%
+         family={Golowich},
+         familyi={G\bibinitperiod},
+         given={Eugene},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=HBR}{%
+         family={Holstein},
+         familyi={H\bibinitperiod},
+         given={Barry\bibnamedelima R},
+         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge university press}%
+    }
+    \strng{namehash}{DJF+1}
+    \strng{fullhash}{DJFGEHBR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Dynamics of the standard model}
+    \field{volume}{35}
+    \field{year}{2014}
+  \endentry
+
+  \entry{griffiths2020introduction}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GD}{%
+         family={Griffiths},
+         familyi={G\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley \& Sons}%
+    }
+    \strng{namehash}{GD1}
+    \strng{fullhash}{GD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Introduction to elementary particles}
+    \field{year}{2020}
+  \endentry
+
+  \entry{ramond1999journeys}{book}{}
+    \name{author}{1}{}{%
+      {{hash=RP}{%
+         family={Ramond},
+         familyi={R\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Perseus Books Cambridge}%
+    }
+    \strng{namehash}{RP1}
+    \strng{fullhash}{RP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Journeys beyond the standard model}
+    \field{year}{1999}
+  \endentry
+
+  \entry{ter2004radioactive}{article}{}
+    \name{author}{10}{}{%
+      {{hash=TAG}{%
+         family={Ter-Akopian},
+         familyi={T\bibinitperiod-A\bibinitperiod},
+         given={GM},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=OYT}{%
+         family={Oganessian},
+         familyi={O\bibinitperiod},
+         given={Yu\bibnamedelima Ts},
+         giveni={Y\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Itkis},
+         familyi={I\bibinitperiod},
+         given={MG},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GG}{%
+         family={Gulbekian},
+         familyi={G\bibinitperiod},
+         given={GG},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Bogdanov},
+         familyi={B\bibinitperiod},
+         given={DD},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Fomichev},
+         familyi={F\bibinitperiod},
+         given={AS},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Golovkov},
+         familyi={G\bibinitperiod},
+         given={MS},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rodin},
+         familyi={R\bibinitperiod},
+         given={AM},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Stepantsov},
+         familyi={S\bibinitperiod},
+         given={SV},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Wolski},
+         familyi={W\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{TAG+1}
+    \strng{fullhash}{TAGOYTIMGGBDFAGMRASSWR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{295\bibrangedash 302}
+    \field{title}{Radioactive ion beam research made in Dubna}
+    \field{volume}{734}
+    \field{journaltitle}{Nuclear Physics A}
+    \field{year}{2004}
+  \endentry
+
+  \entry{yano2007riken}{article}{}
+    \name{author}{1}{}{%
+      {{hash=YY}{%
+         family={Yano},
+         familyi={Y\bibinitperiod},
+         given={Yasushige},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{YY1}
+    \strng{fullhash}{YY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1-2}
+    \field{pages}{1009\bibrangedash 1013}
+    \field{title}{The RIKEN RI beam factory project: A status report}
+    \field{volume}{261}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
+  Section B: Beam Interactions with Materials and Atoms}
+    \field{year}{2007}
+  \endentry
+
+  \entry{gade2016nscl}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GA}{%
+         family={Gade},
+         familyi={G\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=SB}{%
+         family={Sherrill},
+         familyi={S\bibinitperiod},
+         given={BM},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{GASB1}
+    \strng{fullhash}{GASB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{5}
+    \field{pages}{053003}
+    \field{title}{NSCL and FRIB at Michigan State University: Nuclear science
+  at the limits of stability}
+    \field{volume}{91}
+    \field{journaltitle}{Physica Scripta}
+    \field{year}{2016}
+  \endentry
+
+  \entry{hong2014plan}{article}{}
+    \true{moreauthor}
+    \name{author}{10}{}{%
+      {{hash=HB}{%
+         family={Hong},
+         familyi={H\bibinitperiod},
+         given={Byungsik},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=AJK}{%
+         family={Ahn},
+         familyi={A\bibinitperiod},
+         given={Jung\bibnamedelima Keun},
+         giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=GY}{%
+         family={Go},
+         familyi={G\bibinitperiod},
+         given={Y},
+         giveni={Y},
+      }}%
+      {{hash=JG}{%
+         family={Jhang},
+         familyi={J\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+      {{hash=JE}{%
+         family={Joo},
+         familyi={J\bibinitperiod},
+         given={E},
+         giveni={E},
+      }}%
+      {{hash=KD}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={DG},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KE}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={EJ},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={HH},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=KY}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={YH},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KY}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={YJ},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{HB+1}
+    \strng{fullhash}{HBAJKGYJGJEKDKEKHKYKY+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{49}
+    \field{title}{Plan for nuclear symmetry energy experiments using the LAMPS
+  system at the RIB facility RAON in Korea}
+    \field{volume}{50}
+    \field{journaltitle}{The European Physical Journal A}
+    \field{year}{2014}
+  \endentry
+
+  \entry{fukuda2013identification}{article}{}
+    \name{author}{7}{}{%
+      {{hash=FN}{%
+         family={Fukuda},
+         familyi={F\bibinitperiod},
+         given={N},
+         giveni={N},
+      }}%
+      {{hash=KT}{%
+         family={Kubo},
+         familyi={K\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=OT}{%
+         family={Ohnishi},
+         familyi={O\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=IN}{%
+         family={Inabe},
+         familyi={I\bibinitperiod},
+         given={N},
+         giveni={N},
+      }}%
+      {{hash=TH}{%
+         family={Takeda},
+         familyi={T\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+      {{hash=KD}{%
+         family={Kameda},
+         familyi={K\bibinitperiod},
+         given={D},
+         giveni={D},
+      }}%
+      {{hash=SH}{%
+         family={Suzuki},
+         familyi={S\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{FN+1}
+    \strng{fullhash}{FNKTOTINTHKDSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{323\bibrangedash 332}
+    \field{title}{Identification and separation of radioactive isotope beams by
+  the BigRIPS separator at the RIKEN RI Beam Factory}
+    \field{volume}{317}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
+  Section B: Beam Interactions with Materials and Atoms}
+    \field{year}{2013}
+  \endentry
+
+  \entry{rutherford1899viii}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RE}{%
+         family={Rutherford},
+         familyi={R\bibinitperiod},
+         given={Ernest},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor \& Francis}%
+    }
+    \strng{namehash}{RE1}
+    \strng{fullhash}{RE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{284}
+    \field{pages}{109\bibrangedash 163}
+    \field{title}{VIII. Uranium radiation and the electrical conduction
+  produced by it}
+    \field{volume}{47}
+    \field{journaltitle}{The London, Edinburgh, and Dublin Philosophical
+  Magazine and Journal of Science}
+    \field{year}{1899}
+  \endentry
+
+  \entry{stuewer1986gamow}{incollection}{}
+    \name{author}{1}{}{%
+      {{hash=SRH}{%
+         family={Stuewer},
+         familyi={S\bibinitperiod},
+         given={Roger\bibnamedelima H},
+         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{SRH1}
+    \strng{fullhash}{SRH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{The kaleidoscope of science}
+    \field{pages}{147\bibrangedash 186}
+    \field{title}{Gamow’s theory of alpha-decay}
+    \field{year}{1986}
+  \endentry
+
+  \entry{poenaru2012cluster}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PD}{%
+         family={Poenaru},
+         familyi={P\bibinitperiod},
+         given={DN},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Gherghescu},
+         familyi={G\bibinitperiod},
+         given={RA},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GW}{%
+         family={Greiner},
+         familyi={G\bibinitperiod},
+         given={W},
+         giveni={W},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{PD+1}
+    \strng{fullhash}{PDGRGW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{034615}
+    \field{title}{Cluster decay of superheavy nuclei}
+    \field{volume}{85}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{2012}
+  \endentry
+
+  \entry{descouvemont200112be}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DP}{%
+         family={Descouvemont},
+         familyi={D\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Baye},
+         familyi={B\bibinitperiod},
+         given={D},
+         giveni={D},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{DPBD1}
+    \strng{fullhash}{DPBD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1-4}
+    \field{pages}{71\bibrangedash 74}
+    \field{title}{12Be molecular states in a microscopic cluster model}
+    \field{volume}{505}
+    \field{journaltitle}{Physics Letters B}
+    \field{year}{2001}
+  \endentry
+
+  \entry{tohsaki2001alpha}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TA}{%
+         family={Tohsaki},
+         familyi={T\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=HH}{%
+         family={Horiuchi},
+         familyi={H\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+      {{hash=SP}{%
+         family={Schuck},
+         familyi={S\bibinitperiod},
+         given={P},
+         giveni={P},
+      }}%
+      {{hash=RG}{%
+         family={R{\"o}pke},
+         familyi={R\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{TA+1}
+    \strng{fullhash}{TAHHSPRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{19}
+    \field{pages}{192501}
+    \field{title}{Alpha Cluster Condensation in C 12 and O 16}
+    \field{volume}{87}
+    \field{journaltitle}{Physical Review Letters}
+    \field{year}{2001}
+  \endentry
+
+  \entry{kanada1995structure}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KEY}{%
+         family={Kanada-En’yo},
+         familyi={K\bibinitperiod-E\bibinitperiod},
+         given={Yoshiko},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HH}{%
+         family={Horiuchi},
+         familyi={H\bibinitperiod},
+         given={Hisashi},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=OA}{%
+         family={Ono},
+         familyi={O\bibinitperiod},
+         given={Akira},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{KEY+1}
+    \strng{fullhash}{KEYHHOA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{628}
+    \field{title}{Structure of Li and Be isotopes studied with antisymmetrized
+  molecular dynamics}
+    \field{volume}{52}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{1995}
+  \endentry
+
+  \entry{pudliner1997quantum}{article}{}
+    \name{author}{5}{}{%
+      {{hash=PB}{%
+         family={Pudliner},
+         familyi={P\bibinitperiod},
+         given={BS},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=PV}{%
+         family={Pandharipande},
+         familyi={P\bibinitperiod},
+         given={VR},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Carlson},
+         familyi={C\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=PSC}{%
+         family={Pieper},
+         familyi={P\bibinitperiod},
+         given={Steven\bibnamedelima C},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=WRB}{%
+         family={Wiringa},
+         familyi={W\bibinitperiod},
+         given={Robert\bibnamedelima B},
+         giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{PB+1}
+    \strng{fullhash}{PBPVCJPSCWRB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{4}
+    \field{pages}{1720}
+    \field{title}{Quantum Monte Carlo calculations of nuclei with A<\~{} 7}
+    \field{volume}{56}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{1997}
+  \endentry
+
+  \entry{zhukov1993bound}{article}{}
+    \name{author}{6}{}{%
+      {{hash=ZM}{%
+         family={Zhukov},
+         familyi={Z\bibinitperiod},
+         given={MV},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DB}{%
+         family={Danilin},
+         familyi={D\bibinitperiod},
+         given={BV},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Fedorov},
+         familyi={F\bibinitperiod},
+         given={D\_V},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bang},
+         familyi={B\bibinitperiod},
+         given={JM},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TI}{%
+         family={Thompson},
+         familyi={T\bibinitperiod},
+         given={IJ},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Vaagen},
+         familyi={V\bibinitperiod},
+         given={JS},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{ZM+1}
+    \strng{fullhash}{ZMDBFDBJTIVJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{4}
+    \field{pages}{151\bibrangedash 199}
+    \field{title}{Bound state properties of Borromean halo nuclei: 6He and
+  11Li}
+    \field{volume}{231}
+    \field{journaltitle}{Physics reports}
+    \field{year}{1993}
+  \endentry
+
+  \entry{navratil2009recent}{article}{}
+    \name{author}{4}{}{%
+      {{hash=NP}{%
+         family={Navr{\'a}til},
+         familyi={N\bibinitperiod},
+         given={Petr},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=QS}{%
+         family={Quaglioni},
+         familyi={Q\bibinitperiod},
+         given={Sofia},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Stetcu},
+         familyi={S\bibinitperiod},
+         given={Ionel},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=BBR}{%
+         family={Barrett},
+         familyi={B\bibinitperiod},
+         given={Bruce\bibnamedelima R},
+         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{NP+1}
+    \strng{fullhash}{NPQSSIBBR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{8}
+    \field{pages}{083101}
+    \field{title}{Recent developments in no-core shell-model calculations}
+    \field{volume}{36}
+    \field{journaltitle}{Journal of Physics G: Nuclear and Particle Physics}
+    \field{year}{2009}
+  \endentry
+
+  \entry{forssen2005large}{article}{}
+    \name{author}{4}{}{%
+      {{hash=FC}{%
+         family={Forss{\'e}n},
+         familyi={F\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Navr{\'a}til},
+         familyi={N\bibinitperiod},
+         given={P},
+         giveni={P},
+      }}%
+      {{hash=OW}{%
+         family={Ormand},
+         familyi={O\bibinitperiod},
+         given={WE},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Caurier},
+         familyi={C\bibinitperiod},
+         given={E},
+         giveni={E},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{FC+1}
+    \strng{fullhash}{FCNPOWCE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{4}
+    \field{pages}{044312}
+    \field{title}{Large basis ab initio shell model investigation of Be 9 and
+  Be 11}
+    \field{volume}{71}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{2005}
+  \endentry
+
+  \entry{navratil2003ab}{article}{}
+    \name{author}{2}{}{%
+      {{hash=NP}{%
+         family={Navratil},
+         familyi={N\bibinitperiod},
+         given={Petr},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=OWE}{%
+         family={Ormand},
+         familyi={O\bibinitperiod},
+         given={W\bibnamedelima Erich},
+         giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{NPOWE1}
+    \strng{fullhash}{NPOWE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{034305}
+    \field{title}{Ab initio shell model with a genuine three-nucleon force for
+  the p-shell nuclei}
+    \field{volume}{68}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{2003}
+  \endentry
+
+  \entry{navratil2002ab}{article}{}
+    \name{author}{2}{}{%
+      {{hash=NP}{%
+         family={Navratil},
+         familyi={N\bibinitperiod},
+         given={Petr},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=OWE}{%
+         family={Ormand},
+         familyi={O\bibinitperiod},
+         given={W\bibnamedelima Erich},
+         giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{NPOWE1}
+    \strng{fullhash}{NPOWE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{15}
+    \field{pages}{152502}
+    \field{title}{Ab initio shell model calculations with three-body effective
+  interactions for p-shell nuclei}
+    \field{volume}{88}
+    \field{journaltitle}{Physical review letters}
+    \field{year}{2002}
+  \endentry
+
+  \entry{tang1978resonating}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TYC}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Yau-Chien},
+         giveni={Y\bibinitperiod-C\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={LeMere},
+         familyi={L\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TD}{%
+         family={Thompsom},
+         familyi={T\bibinitperiod},
+         given={DR},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{TYC+1}
+    \strng{fullhash}{TYCLMTD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{167\bibrangedash 223}
+    \field{title}{Resonating-group method for nuclear many-body problems}
+    \field{volume}{47}
+    \field{journaltitle}{Physics Reports}
+    \field{year}{1978}
+  \endentry
+
+  \entry{wheeler1937mathematical}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WJA}{%
+         family={Wheeler},
+         familyi={W\bibinitperiod},
+         given={John\bibnamedelima A},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{WJA1}
+    \strng{fullhash}{WJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{11}
+    \field{pages}{1107}
+    \field{title}{On the mathematical description of light nuclei by the method
+  of resonating group structure}
+    \field{volume}{52}
+    \field{journaltitle}{Physical Review}
+    \field{year}{1937}
+  \endentry
+
   \entry{kukulin1977stochastic}{article}{}
     \name{author}{2}{}{%
       {{hash=KV}{%
@@ -45,6 +896,296 @@
     \field{volume}{3}
     \field{journaltitle}{Journal of Physics G: Nuclear Physics}
     \field{year}{1977}
+  \endentry
+
+  \entry{voronchev1994study}{article}{}
+    \name{author}{5}{}{%
+      {{hash=VV}{%
+         family={Voronchev},
+         familyi={V\bibinitperiod},
+         given={VT},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Kukulin},
+         familyi={K\bibinitperiod},
+         given={VI},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=PV}{%
+         family={Pomerantsev},
+         familyi={P\bibinitperiod},
+         given={VN},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=RKD}{%
+         family={Razikov},
+         familyi={R\bibinitperiod},
+         given={Kh\bibnamedelima D},
+         giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Ryzhikh},
+         familyi={R\bibinitperiod},
+         given={GG},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VV+1}
+    \strng{fullhash}{VVKVPVRKDRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{1964\bibrangedash 1980}
+    \field{title}{Study of the Structure and Properties of Nuclei with A= 9 (9
+  Be-9 B) in Terms of Multicluster Dynamic Model 2$\alpha$+ N}
+    \field{volume}{57}
+    \field{journaltitle}{Yad. Fiz}
+    \field{year}{1994}
+  \endentry
+
+  \entry{kukulin1986detailed}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KV}{%
+         family={Kukulin},
+         familyi={K\bibinitperiod},
+         given={VI},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Krasnopol'Sky},
+         familyi={K\bibinitperiod},
+         given={VM},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Voronchev},
+         familyi={V\bibinitperiod},
+         given={VT},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Sazonov},
+         familyi={S\bibinitperiod},
+         given={PB},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{KV+1}
+    \strng{fullhash}{KVKVVVSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{365\bibrangedash 388}
+    \field{title}{Detailed study of the cluster structure of light nuclei in a
+  three-body model:(II). The spectrum of low-lying states of nuclei with A= 6}
+    \field{volume}{453}
+    \field{journaltitle}{Nuclear Physics A}
+    \field{year}{1986}
+  \endentry
+
+  \entry{kukulin1984detailed}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KV}{%
+         family={Kukulin},
+         familyi={K\bibinitperiod},
+         given={VI},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Krasnopol'sky},
+         familyi={K\bibinitperiod},
+         given={VM},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Voronchev},
+         familyi={V\bibinitperiod},
+         given={VT},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Sazonov},
+         familyi={S\bibinitperiod},
+         given={PB},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{KV+1}
+    \strng{fullhash}{KVKVVVSP2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{128\bibrangedash 156}
+    \field{title}{Detailed study of the cluster structure of light nuclei in a
+  three-body model:(I). Ground state of 6Li}
+    \field{volume}{417}
+    \field{journaltitle}{Nuclear Physics A}
+    \field{year}{1984}
+  \endentry
+
+  \entry{feshbach1958optical}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FH}{%
+         family={Feshbach},
+         familyi={F\bibinitperiod},
+         given={Herman},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Annual Reviews 4139 El Camino Way PO Box 10139 Palo Alto CA 94303-0139
+  USA}%
+    }
+    \strng{namehash}{FH1}
+    \strng{fullhash}{FH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{49\bibrangedash 104}
+    \field{title}{The optical model and its justification}
+    \field{volume}{8}
+    \field{journaltitle}{Annual Review of Nuclear Science}
+    \field{year}{1958}
+  \endentry
+
+  \entry{satchler1960gamma}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SG}{%
+         family={Satchler},
+         familyi={S\bibinitperiod},
+         given={GR},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TW}{%
+         family={Tobocman},
+         familyi={T\bibinitperiod},
+         given={W},
+         giveni={W},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{SGTW1}
+    \strng{fullhash}{SGTW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{6}
+    \field{pages}{1566}
+    \field{title}{Gamma Rays from Deuteron Stripping Reactions}
+    \field{volume}{118}
+    \field{journaltitle}{Physical Review}
+    \field{year}{1960}
+  \endentry
+
+  \entry{satchler1983}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SG}{%
+         family={Satchler},
+         familyi={S\bibinitperiod},
+         given={G.R.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Clarendon Press}%
+    }
+    \strng{namehash}{SG1}
+    \strng{fullhash}{SG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9780198512691}
+    \field{series}{International series of monographs on physics}
+    \field{title}{Direct Nuclear Reactions}
+    \field{year}{1983}
+  \endentry
+
+  \entry{de2014continuum}{article}{}
+    \name{author}{4}{}{%
+      {{hash=dDR}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Diego},
+         familyi={D\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=AJ}{%
+         family={Arias},
+         familyi={A\bibinitperiod},
+         given={JM},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Lay},
+         familyi={L\bibinitperiod},
+         given={JA},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Moro},
+         familyi={M\bibinitperiod},
+         given={AM},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{dDR+1}
+    \strng{fullhash}{dDRAJLJMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{6}
+    \field{pages}{064609}
+    \field{title}{Continuum-discretized coupled-channels calculations with core
+  excitation}
+    \field{volume}{89}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{2014}
+  \endentry
+
+  \entry{sailaubek2018charged}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SD}{%
+         family={Sailaubek},
+         familyi={S\bibinitperiod},
+         given={DA},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RO}{%
+         family={Rubtsova},
+         familyi={R\bibinitperiod},
+         given={OA},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Kukulin},
+         familyi={K\bibinitperiod},
+         given={VI},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{SD+1}
+    \strng{fullhash}{SDROKV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{7}
+    \field{pages}{126}
+    \field{title}{Charged particle scattering problem with a complex-range
+  Gaussian basis}
+    \field{volume}{54}
+    \field{journaltitle}{The European Physical Journal A}
+    \field{year}{2018}
   \endentry
 
   \entry{satchler1979folding}{article}{}
@@ -238,106 +1379,6 @@
     \field{volume}{275}
     \field{journaltitle}{Nuclear Physics A}
     \field{year}{1977}
-  \endentry
-
-  \entry{zhukov1993bound}{article}{}
-    \name{author}{6}{}{%
-      {{hash=ZM}{%
-         family={Zhukov},
-         familyi={Z\bibinitperiod},
-         given={MV},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=DB}{%
-         family={Danilin},
-         familyi={D\bibinitperiod},
-         given={BV},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=FD}{%
-         family={Fedorov},
-         familyi={F\bibinitperiod},
-         given={D\_V},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=BJ}{%
-         family={Bang},
-         familyi={B\bibinitperiod},
-         given={JM},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=TI}{%
-         family={Thompson},
-         familyi={T\bibinitperiod},
-         given={IJ},
-         giveni={I\bibinitperiod},
-      }}%
-      {{hash=VJ}{%
-         family={Vaagen},
-         familyi={V\bibinitperiod},
-         given={JS},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{ZM+1}
-    \strng{fullhash}{ZMDBFDBJTIVJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{4}
-    \field{pages}{151\bibrangedash 199}
-    \field{title}{Bound state properties of Borromean halo nuclei: 6He and
-  11Li}
-    \field{volume}{231}
-    \field{journaltitle}{Physics reports}
-    \field{year}{1993}
-  \endentry
-
-  \entry{voronchev1994study}{article}{}
-    \name{author}{5}{}{%
-      {{hash=VV}{%
-         family={Voronchev},
-         familyi={V\bibinitperiod},
-         given={VT},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=KV}{%
-         family={Kukulin},
-         familyi={K\bibinitperiod},
-         given={VI},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=PV}{%
-         family={Pomerantsev},
-         familyi={P\bibinitperiod},
-         given={VN},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=RKD}{%
-         family={Razikov},
-         familyi={R\bibinitperiod},
-         given={Kh\bibnamedelima D},
-         giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=RG}{%
-         family={Ryzhikh},
-         familyi={R\bibinitperiod},
-         given={GG},
-         giveni={G\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{VV+1}
-    \strng{fullhash}{VVKVPVRKDRG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{1964\bibrangedash 1980}
-    \field{title}{Study of the Structure and Properties of Nuclei with A= 9 (9
-  Be-9 B) in Terms of Multicluster Dynamic Model 2$\alpha$+ N}
-    \field{volume}{57}
-    \field{journaltitle}{Yad. Fiz}
-    \field{year}{1994}
   \endentry
 
   \entry{pomerantsevPrivate}{article}{}
@@ -612,6 +1653,101 @@
     \field{year}{1999}
   \endentry
 
+  \entry{avrigeanu1994global}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AV}{%
+         family={Avrigeanu},
+         familyi={A\bibinitperiod},
+         given={V},
+         giveni={V},
+      }}%
+      {{hash=HP}{%
+         family={Hodgson},
+         familyi={H\bibinitperiod},
+         given={PE},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Avrigeanu},
+         familyi={A\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{AV+1}
+    \strng{fullhash}{AVHPAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{4}
+    \field{pages}{2136}
+    \field{title}{Global optical potentials for emitted alpha particles}
+    \field{volume}{49}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{1994}
+  \endentry
+
+  \entry{urazbekov2016}{article}{}
+    \name{author}{4}{}{%
+      {{hash=UBA}{%
+         family={{Urazbekov}},
+         familyi={U\bibinitperiod},
+         given={B.\bibnamedelima A.},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=DAS}{%
+         family={{Denikin}},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima S.},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SSK}{%
+         family={{Sakhiev}},
+         familyi={S\bibinitperiod},
+         given={S.\bibnamedelima K.},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=BNT}{%
+         family={{Burtebaev}},
+         familyi={B\bibinitperiod},
+         given={N.\bibnamedelima T.},
+         giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{UBA+1}
+    \strng{fullhash}{UBADASSSKBNT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{247}
+    \field{title}{Manifestation of the cluster structure of the $^{9}$Be
+  nucleus in direct nuclear reactions}
+    \field{volume}{80}
+    \field{journaltitle}{Bull. Rus. Acad. Sci. Phys.}
+    \field{year}{2016}
+  \endentry
+
+  \entry{kunz}{unpublished}{}
+    \name{author}{1}{}{%
+      {{hash=KPD}{%
+         family={Kunz},
+         familyi={K\bibinitperiod},
+         given={P.\bibnamedelima D.},
+         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KPD1}
+    \strng{fullhash}{KPD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{unpublished}
+    \field{title}{Computer code $\mathrm{DWUCK}5$}
+    \verb{url}
+    \verb https://www.oecd-nea.org/tools/abstract/detail/nesc9872
+    \endverb
+  \endentry
+
   \entry{nrv}{article}{}
     \name{author}{8}{}{%
       {{hash=KA}{%
@@ -675,255 +1811,6 @@
     \field{volume}{A859}
     \field{journaltitle}{Nucl. Instr. and Meth. Phys. Res.t}
     \field{year}{2017}
-  \endentry
-
-  \entry{lucas1964scattering}{article}{}
-    \name{author}{3}{}{%
-      {{hash=LB}{%
-         family={Lucas},
-         familyi={L\bibinitperiod},
-         given={BT},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=CS}{%
-         family={Cosper},
-         familyi={C\bibinitperiod},
-         given={SW},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=JO}{%
-         family={Johnson},
-         familyi={J\bibinitperiod},
-         given={OE},
-         giveni={O\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {APS}%
-    }
-    \strng{namehash}{LB+1}
-    \strng{fullhash}{LBCSJO1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{4B}
-    \field{pages}{B963}
-    \field{title}{Scattering of 18.4-MeV Alpha Particles by Beryllium}
-    \field{volume}{133}
-    \field{journaltitle}{Physical Review}
-    \field{year}{1964}
-  \endentry
-
-  \entry{burtebaev2002}{article}{}
-    \name{author}{2}{}{%
-      {{hash=BN}{%
-         family={Burtebaev},
-         familyi={B\bibinitperiod},
-         given={N},
-         giveni={N},
-      }}%
-      {{hash=ea}{%
-         prefix={et},
-         prefixi={e\bibinitperiod},
-         family={al},
-         familyi={a\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BNea1}
-    \strng{fullhash}{BNea1}
-    \field{labelnamesource}{author}
-    \field{number}{2}
-    \field{pages}{137}
-    \field{volume}{2002}
-    \field{journaltitle}{Vopr. At. Nauki Tekh., Ser.: Fiz. Yad. Reakt.}
-    \field{year}{2002}
-  \endentry
-
-  \entry{hauser1969elastic}{article}{}
-    \name{author}{6}{}{%
-      {{hash=HG}{%
-         family={Hauser},
-         familyi={H\bibinitperiod},
-         given={G},
-         giveni={G},
-      }}%
-      {{hash=LR}{%
-         family={L{\"o}hken},
-         familyi={L\bibinitperiod},
-         given={R},
-         giveni={R},
-      }}%
-      {{hash=RH}{%
-         family={Rebel},
-         familyi={R\bibinitperiod},
-         given={H},
-         giveni={H},
-      }}%
-      {{hash=SG}{%
-         family={Schatz},
-         familyi={S\bibinitperiod},
-         given={G},
-         giveni={G},
-      }}%
-      {{hash=SG}{%
-         family={Schweimer},
-         familyi={S\bibinitperiod},
-         given={GW},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=SJ}{%
-         family={Specht},
-         familyi={S\bibinitperiod},
-         given={J},
-         giveni={J},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{HG+1}
-    \strng{fullhash}{HGLRRHSGSGSJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{1}
-    \field{pages}{81\bibrangedash 109}
-    \field{title}{Elastic scattering of 104 MeV alpha particles}
-    \field{volume}{128}
-    \field{journaltitle}{Nuclear Physics A}
-    \field{year}{1969}
-  \endentry
-
-  \entry{avrigeanu1994global}{article}{}
-    \name{author}{3}{}{%
-      {{hash=AV}{%
-         family={Avrigeanu},
-         familyi={A\bibinitperiod},
-         given={V},
-         giveni={V},
-      }}%
-      {{hash=HP}{%
-         family={Hodgson},
-         familyi={H\bibinitperiod},
-         given={PE},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=AM}{%
-         family={Avrigeanu},
-         familyi={A\bibinitperiod},
-         given={M},
-         giveni={M},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {APS}%
-    }
-    \strng{namehash}{AV+1}
-    \strng{fullhash}{AVHPAM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{4}
-    \field{pages}{2136}
-    \field{title}{Global optical potentials for emitted alpha particles}
-    \field{volume}{49}
-    \field{journaltitle}{Physical Review C}
-    \field{year}{1994}
-  \endentry
-
-  \entry{harakeh1980strong}{article}{}
-    \name{author}{4}{}{%
-      {{hash=HM}{%
-         family={Harakeh},
-         familyi={H\bibinitperiod},
-         given={MN},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=VPJ}{%
-         family={Van\bibnamedelima Popta},
-         familyi={V\bibinitperiod\bibinitdelim P\bibinitperiod},
-         given={J},
-         giveni={J},
-      }}%
-      {{hash=SA}{%
-         family={Saha},
-         familyi={S\bibinitperiod},
-         given={A},
-         giveni={A},
-      }}%
-      {{hash=SR}{%
-         family={Siemssen},
-         familyi={S\bibinitperiod},
-         given={RH},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{HM+1}
-    \strng{fullhash}{HMVPJSASR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{1}
-    \field{pages}{15\bibrangedash 40}
-    \field{title}{Strong coupled-channels effects in the 9Be ($\alpha$, t) 10B
-  reaction}
-    \field{volume}{344}
-    \field{journaltitle}{Nuclear Physics A}
-    \field{year}{1980}
-  \endentry
-
-  \entry{roy1995coupled}{article}{}
-    \name{author}{6}{}{%
-      {{hash=RS}{%
-         family={Roy},
-         familyi={R\bibinitperiod},
-         given={Subinit},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=CJ}{%
-         family={Chatterjee},
-         familyi={C\bibinitperiod},
-         given={JM},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=MH}{%
-         family={Majumdar},
-         familyi={M\bibinitperiod},
-         given={H},
-         giveni={H},
-      }}%
-      {{hash=DS}{%
-         family={Datta},
-         familyi={D\bibinitperiod},
-         given={SK},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=BS}{%
-         family={Banerjee},
-         familyi={B\bibinitperiod},
-         given={SR},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=CS}{%
-         family={Chintalapudi},
-         familyi={C\bibinitperiod},
-         given={SN},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {APS}%
-    }
-    \strng{namehash}{RS+1}
-    \strng{fullhash}{RSCJMHDSBSCS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{3}
-    \field{pages}{1524}
-    \field{title}{Coupled channel folding model description of $\alpha$
-  scattering from Be 9}
-    \field{volume}{52}
-    \field{journaltitle}{Physical Review C}
-    \field{year}{1995}
   \endentry
 
   \entry{lukyanov2014study}{article}{}
@@ -1006,94 +1893,47 @@
     \field{year}{2014}
   \endentry
 
-  \entry{kunz}{unpublished}{}
-    \name{author}{1}{}{%
-      {{hash=KPD}{%
-         family={Kunz},
-         familyi={K\bibinitperiod},
-         given={P.\bibnamedelima D.},
-         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+  \entry{harakeh1980strong}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HM}{%
+         family={Harakeh},
+         familyi={H\bibinitperiod},
+         given={MN},
+         giveni={M\bibinitperiod},
       }}%
-    }
-    \strng{namehash}{KPD1}
-    \strng{fullhash}{KPD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{note}{unpublished}
-    \field{title}{Computer code $\mathrm{DWUCK}5$}
-    \verb{url}
-    \verb https://www.oecd-nea.org/tools/abstract/detail/nesc9872
-    \endverb
-  \endentry
-
-  \entry{galanina2012mechanisms}{article}{}
-    \name{author}{2}{}{%
-      {{hash=GL}{%
-         family={Galanina},
-         familyi={G\bibinitperiod},
-         given={LI},
-         giveni={L\bibinitperiod},
+      {{hash=VPJ}{%
+         family={Van\bibnamedelima Popta},
+         familyi={V\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={J},
+         giveni={J},
       }}%
-      {{hash=ZN}{%
-         family={Zelenskaya},
-         familyi={Z\bibinitperiod},
-         given={NS},
-         giveni={N\bibinitperiod},
+      {{hash=SA}{%
+         family={Saha},
+         familyi={S\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=SR}{%
+         family={Siemssen},
+         familyi={S\bibinitperiod},
+         given={RH},
+         giveni={R\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {Springer}%
+      {Elsevier}%
     }
-    \strng{namehash}{GLZN1}
-    \strng{fullhash}{GLZN1}
+    \strng{namehash}{HM+1}
+    \strng{fullhash}{HMVPJSASR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{number}{2}
-    \field{pages}{147\bibrangedash 186}
-    \field{title}{Mechanisms of sequential particle transfer and
-  characteristics of light neutron-excess and oriented nuclei}
-    \field{volume}{43}
-    \field{journaltitle}{Physics of Particles and Nuclei}
-    \field{year}{2012}
-  \endentry
-
-  \entry{urazbekov2016}{article}{}
-    \name{author}{4}{}{%
-      {{hash=UBA}{%
-         family={{Urazbekov}},
-         familyi={U\bibinitperiod},
-         given={B.\bibnamedelima A.},
-         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=DAS}{%
-         family={{Denikin}},
-         familyi={D\bibinitperiod},
-         given={A.\bibnamedelima S.},
-         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=SSK}{%
-         family={{Sakhiev}},
-         familyi={S\bibinitperiod},
-         given={S.\bibnamedelima K.},
-         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=BNT}{%
-         family={{Burtebaev}},
-         familyi={B\bibinitperiod},
-         given={N.\bibnamedelima T.},
-         giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{UBA+1}
-    \strng{fullhash}{UBADASSSKBNT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{247}
-    \field{title}{Manifestation of the cluster structure of the $^{9}$Be
-  nucleus in direct nuclear reactions}
-    \field{volume}{80}
-    \field{journaltitle}{Bull. Rus. Acad. Sci. Phys.}
-    \field{year}{2016}
+    \field{number}{1}
+    \field{pages}{15\bibrangedash 40}
+    \field{title}{Strong coupled-channels effects in the 9Be ($\alpha$, t) 10B
+  reaction}
+    \field{volume}{344}
+    \field{journaltitle}{Nuclear Physics A}
+    \field{year}{1980}
   \endentry
 
   \entry{bodek1989}{article}{}
