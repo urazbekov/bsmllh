@@ -448,6 +448,296 @@
     \field{year}{2012}
   \endentry
 
+  \entry{canto2006fusion}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CL}{%
+         family={Canto},
+         familyi={C\bibinitperiod},
+         given={LF},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Gomes},
+         familyi={G\bibinitperiod},
+         given={PRS},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Donangelo},
+         familyi={D\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=HM}{%
+         family={Hussein},
+         familyi={H\bibinitperiod},
+         given={MS},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{CL+1}
+    \strng{fullhash}{CLGPDRHM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1-2}
+    \field{pages}{1\bibrangedash 111}
+    \field{title}{Fusion and breakup of weakly bound nuclei}
+    \field{volume}{424}
+    \field{journaltitle}{Physics reports}
+    \field{year}{2006}
+  \endentry
+
+  \entry{brown2007}{article}{}
+    \name{author}{18}{}{%
+      {{hash=BTAD}{%
+         family={{Brown}},
+         familyi={B\bibinitperiod},
+         given={T.\bibnamedelima A.\bibnamedelima D.},
+         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  D\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={{Papka}},
+         familyi={P\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=FBR}{%
+         family={{Fulton}},
+         familyi={F\bibinitperiod},
+         given={B.\bibnamedelima R.},
+         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WDL}{%
+         family={{Watson}},
+         familyi={W\bibinitperiod},
+         given={D.\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=FSP}{%
+         family={{Fox}},
+         familyi={F\bibinitperiod},
+         given={S.\bibnamedelima P.},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={{Groombridge}},
+         familyi={G\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={{Freer}},
+         familyi={F\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CNM}{%
+         family={{Clarke}},
+         familyi={C\bibinitperiod},
+         given={N.\bibnamedelima M.},
+         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=ANI}{%
+         family={{Ashwood}},
+         familyi={A\bibinitperiod},
+         given={N.\bibnamedelima I.},
+         giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=CN}{%
+         family={{Curtis}},
+         familyi={C\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=ZV}{%
+         family={{Ziman}},
+         familyi={Z\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={{McEwan}},
+         familyi={M\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={{Ahmed}},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CWN}{%
+         family={{Catford}},
+         familyi={C\bibinitperiod},
+         given={W.\bibnamedelima N.},
+         giveni={W\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={{Mahboub}},
+         familyi={M\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=TCN}{%
+         family={{Timis}},
+         familyi={T\bibinitperiod},
+         given={C.\bibnamedelima N.},
+         giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=BTD}{%
+         family={{Baldwin}},
+         familyi={B\bibinitperiod},
+         given={T.\bibnamedelima D.},
+         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=WDC}{%
+         family={{Weisser}},
+         familyi={W\bibinitperiod},
+         given={D.\bibnamedelima C.},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BTAD+1}
+    \strng{fullhash}{BTADPPFBRWDLFSPGDFMCNMANICNZVMPASCWNMDTCNBTDWDC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{054605}
+    \field{title}{Decay studies for states in $^{9}$Be up to 11 MeV: Insights
+  into the n+$^{8}$Be and $\alpha$+$^{5}$He cluster structure}
+    \field{volume}{C76}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{2007}
+  \endentry
+
+  \entry{papka2007}{article}{}
+    \name{author}{18}{}{%
+      {{hash=PP}{%
+         family={{Papka}},
+         familyi={P\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BTAD}{%
+         family={{Brown}},
+         familyi={B\bibinitperiod},
+         given={T.\bibnamedelima A.\bibnamedelima D.},
+         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  D\bibinitperiod},
+      }}%
+      {{hash=FBR}{%
+         family={{Fulton}},
+         familyi={F\bibinitperiod},
+         given={B.\bibnamedelima R.},
+         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WDL}{%
+         family={{Watson}},
+         familyi={W\bibinitperiod},
+         given={D.\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=FSP}{%
+         family={{Fox}},
+         familyi={F\bibinitperiod},
+         given={S.\bibnamedelima P.},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={{Groombridge}},
+         familyi={G\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={{Freer}},
+         familyi={F\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CNM}{%
+         family={{Clarke}},
+         familyi={C\bibinitperiod},
+         given={N.\bibnamedelima M.},
+         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=ANI}{%
+         family={{Ashwood}},
+         familyi={A\bibinitperiod},
+         given={N.\bibnamedelima I.},
+         giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=CN}{%
+         family={{Curtis}},
+         familyi={C\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=ZV}{%
+         family={{Ziman}},
+         familyi={Z\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={{McEwan}},
+         familyi={M\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={{Ahmed}},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CWN}{%
+         family={{Catford}},
+         familyi={C\bibinitperiod},
+         given={W.\bibnamedelima N.},
+         giveni={W\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={{Mahboub}},
+         familyi={M\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=TCN}{%
+         family={{Timis}},
+         familyi={T\bibinitperiod},
+         given={C.\bibnamedelima N.},
+         giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=BTD}{%
+         family={{Baldwin}},
+         familyi={B\bibinitperiod},
+         given={T.\bibnamedelima D.},
+         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=WDC}{%
+         family={{Weisser}},
+         familyi={W\bibinitperiod},
+         given={D.\bibnamedelima C.},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PP+1}
+    \strng{fullhash}{PPBTADFBRWDLFSPGDFMCNMANICNZVMPASCWNMDTCNBTDWDC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{045803}
+    \field{title}{Decay path measurements for the 2.429 MeV state in $^{9}$Be:
+  Implications for the astrophysical $\alpha$ + $\alpha$ + n reaction}
+    \field{volume}{C75}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{2007}
+  \endentry
+
   \entry{descouvemont200112be}{article}{}
     \name{author}{2}{}{%
       {{hash=DP}{%
@@ -2614,254 +2904,6 @@
     \field{volume}{C54}
     \field{journaltitle}{Phys. Rev.}
     \field{year}{1996}
-  \endentry
-
-  \entry{brown2007}{article}{}
-    \name{author}{18}{}{%
-      {{hash=BTAD}{%
-         family={{Brown}},
-         familyi={B\bibinitperiod},
-         given={T.\bibnamedelima A.\bibnamedelima D.},
-         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
-  D\bibinitperiod},
-      }}%
-      {{hash=PP}{%
-         family={{Papka}},
-         familyi={P\bibinitperiod},
-         given={P.},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=FBR}{%
-         family={{Fulton}},
-         familyi={F\bibinitperiod},
-         given={B.\bibnamedelima R.},
-         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=WDL}{%
-         family={{Watson}},
-         familyi={W\bibinitperiod},
-         given={D.\bibnamedelima L.},
-         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=FSP}{%
-         family={{Fox}},
-         familyi={F\bibinitperiod},
-         given={S.\bibnamedelima P.},
-         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=GD}{%
-         family={{Groombridge}},
-         familyi={G\bibinitperiod},
-         given={D.},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=FM}{%
-         family={{Freer}},
-         familyi={F\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=CNM}{%
-         family={{Clarke}},
-         familyi={C\bibinitperiod},
-         given={N.\bibnamedelima M.},
-         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=ANI}{%
-         family={{Ashwood}},
-         familyi={A\bibinitperiod},
-         given={N.\bibnamedelima I.},
-         giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod},
-      }}%
-      {{hash=CN}{%
-         family={{Curtis}},
-         familyi={C\bibinitperiod},
-         given={N.},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=ZV}{%
-         family={{Ziman}},
-         familyi={Z\bibinitperiod},
-         given={V.},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=MP}{%
-         family={{McEwan}},
-         familyi={M\bibinitperiod},
-         given={P.},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=AS}{%
-         family={{Ahmed}},
-         familyi={A\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=CWN}{%
-         family={{Catford}},
-         familyi={C\bibinitperiod},
-         given={W.\bibnamedelima N.},
-         giveni={W\bibinitperiod\bibinitdelim N\bibinitperiod},
-      }}%
-      {{hash=MD}{%
-         family={{Mahboub}},
-         familyi={M\bibinitperiod},
-         given={D.},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=TCN}{%
-         family={{Timis}},
-         familyi={T\bibinitperiod},
-         given={C.\bibnamedelima N.},
-         giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
-      }}%
-      {{hash=BTD}{%
-         family={{Baldwin}},
-         familyi={B\bibinitperiod},
-         given={T.\bibnamedelima D.},
-         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=WDC}{%
-         family={{Weisser}},
-         familyi={W\bibinitperiod},
-         given={D.\bibnamedelima C.},
-         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BTAD+1}
-    \strng{fullhash}{BTADPPFBRWDLFSPGDFMCNMANICNZVMPASCWNMDTCNBTDWDC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{054605}
-    \field{title}{Decay studies for states in $^{9}$Be up to 11 MeV: Insights
-  into the n+$^{8}$Be and $\alpha$+$^{5}$He cluster structure}
-    \field{volume}{C76}
-    \field{journaltitle}{Phys. Rev.}
-    \field{year}{2007}
-  \endentry
-
-  \entry{papka2007}{article}{}
-    \name{author}{18}{}{%
-      {{hash=PP}{%
-         family={{Papka}},
-         familyi={P\bibinitperiod},
-         given={P.},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=BTAD}{%
-         family={{Brown}},
-         familyi={B\bibinitperiod},
-         given={T.\bibnamedelima A.\bibnamedelima D.},
-         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
-  D\bibinitperiod},
-      }}%
-      {{hash=FBR}{%
-         family={{Fulton}},
-         familyi={F\bibinitperiod},
-         given={B.\bibnamedelima R.},
-         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=WDL}{%
-         family={{Watson}},
-         familyi={W\bibinitperiod},
-         given={D.\bibnamedelima L.},
-         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=FSP}{%
-         family={{Fox}},
-         familyi={F\bibinitperiod},
-         given={S.\bibnamedelima P.},
-         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=GD}{%
-         family={{Groombridge}},
-         familyi={G\bibinitperiod},
-         given={D.},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=FM}{%
-         family={{Freer}},
-         familyi={F\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=CNM}{%
-         family={{Clarke}},
-         familyi={C\bibinitperiod},
-         given={N.\bibnamedelima M.},
-         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=ANI}{%
-         family={{Ashwood}},
-         familyi={A\bibinitperiod},
-         given={N.\bibnamedelima I.},
-         giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod},
-      }}%
-      {{hash=CN}{%
-         family={{Curtis}},
-         familyi={C\bibinitperiod},
-         given={N.},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=ZV}{%
-         family={{Ziman}},
-         familyi={Z\bibinitperiod},
-         given={V.},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=MP}{%
-         family={{McEwan}},
-         familyi={M\bibinitperiod},
-         given={P.},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=AS}{%
-         family={{Ahmed}},
-         familyi={A\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=CWN}{%
-         family={{Catford}},
-         familyi={C\bibinitperiod},
-         given={W.\bibnamedelima N.},
-         giveni={W\bibinitperiod\bibinitdelim N\bibinitperiod},
-      }}%
-      {{hash=MD}{%
-         family={{Mahboub}},
-         familyi={M\bibinitperiod},
-         given={D.},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=TCN}{%
-         family={{Timis}},
-         familyi={T\bibinitperiod},
-         given={C.\bibnamedelima N.},
-         giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
-      }}%
-      {{hash=BTD}{%
-         family={{Baldwin}},
-         familyi={B\bibinitperiod},
-         given={T.\bibnamedelima D.},
-         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=WDC}{%
-         family={{Weisser}},
-         familyi={W\bibinitperiod},
-         given={D.\bibnamedelima C.},
-         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{PP+1}
-    \strng{fullhash}{PPBTADFBRWDLFSPGDFMCNMANICNZVMPASCWNMDTCNBTDWDC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{045803}
-    \field{title}{Decay path measurements for the 2.429 MeV state in $^{9}$Be:
-  Implications for the astrophysical $\alpha$ + $\alpha$ + n reaction}
-    \field{volume}{C75}
-    \field{journaltitle}{Phys. Rev.}
-    \field{year}{2007}
   \endentry
 \endsortlist
 \endinput
