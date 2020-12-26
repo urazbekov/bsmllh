@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.8 $
+% $ biblatex bbl format version 3.1 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,7 +16,7 @@
   {}
 \endgroup
 
-\sortlist[entry]{none/global/}
+\datalist[entry]{none/global//global/global}
   \entry{donoghue2014dynamics}{book}{}
     \name{author}{3}{}{%
       {{hash=DJF}{%
@@ -94,7 +94,7 @@
     \name{author}{10}{}{%
       {{hash=TAG}{%
          family={Ter-Akopian},
-         familyi={T\bibinitperiod-A\bibinitperiod},
+         familyi={T\bibinithyphendelim A\bibinitperiod},
          given={GM},
          giveni={G\bibinitperiod},
       }}%
@@ -225,6 +225,7 @@
 
   \entry{hong2014plan}{article}{}
     \true{moreauthor}
+    \true{morelabelname}
     \name{author}{10}{}{%
       {{hash=HB}{%
          family={Hong},
@@ -814,7 +815,7 @@
     \name{author}{3}{}{%
       {{hash=KEY}{%
          family={Kanada-En’yo},
-         familyi={K\bibinitperiod-E\bibinitperiod},
+         familyi={K\bibinithyphendelim E\bibinitperiod},
          given={Yoshiko},
          giveni={Y\bibinitperiod},
       }}%
@@ -1103,7 +1104,7 @@
          family={Tang},
          familyi={T\bibinitperiod},
          given={Yau-Chien},
-         giveni={Y\bibinitperiod-C\bibinitperiod},
+         giveni={Y\bibinithyphendelim C\bibinitperiod},
       }}%
       {{hash=LM}{%
          family={LeMere},
@@ -1478,6 +1479,420 @@
     \field{year}{2018}
   \endentry
 
+  \entry{golovkov1981cross}{article}{}
+    \name{author}{5}{}{%
+      {{hash=GM}{%
+         family={Golovkov},
+         familyi={G\bibinitperiod},
+         given={MS},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Kulikauskas},
+         familyi={K\bibinitperiod},
+         given={VS},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Voronchev},
+         familyi={V\bibinitperiod},
+         given={VT},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Krasnopol'skii},
+         familyi={K\bibinitperiod},
+         given={VM},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Kukulin},
+         familyi={K\bibinitperiod},
+         given={VI},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GM+1}
+    \strng{fullhash}{GMKVVVKVKV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{480\bibrangedash 481}
+    \field{title}{Cross sections for low-energy deuteron reactions in 6 Li}
+    \field{volume}{34}
+    \field{journaltitle}{Soviet Journal of Nuclear Physics}
+    \field{year}{1981}
+  \endentry
+
+  \entry{glozman1984study}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GLY}{%
+         family={Glozman},
+         familyi={G\bibinitperiod},
+         given={L\bibnamedelima Ya},
+         giveni={L\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Kukulin},
+         familyi={K\bibinitperiod},
+         given={VI},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=NV}{%
+         family={Neudatchin},
+         familyi={N\bibinitperiod},
+         given={VG},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{GLY+1}
+    \strng{fullhash}{GLYKVNV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{589\bibrangedash 604}
+    \field{title}{A study of the 6Li ($\pi$+, pp) 4He reaction within the
+  three-body problem}
+    \field{volume}{430}
+    \field{journaltitle}{Nuclear Physics A}
+    \field{year}{1984}
+  \endentry
+
+  \entry{zhusupov1994elastic}{article}{}
+    \name{author}{4}{}{%
+      {{hash=ZM}{%
+         family={Zhusupov},
+         familyi={Z\bibinitperiod},
+         given={MA},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=IE}{%
+         family={Ibraeva},
+         familyi={I\bibinitperiod},
+         given={ET},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Kukulin},
+         familyi={K\bibinitperiod},
+         given={VI},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=PV}{%
+         family={Peresypkin},
+         familyi={P\bibinitperiod},
+         given={VV},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZM+2}
+    \strng{fullhash}{ZMIEKVPV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{11}
+    \field{pages}{1937\bibrangedash 1948}
+    \field{title}{Elastic and inelastic scattering of protons and antiprotons
+  by the 6 Li nucleus at intermediate energies}
+    \field{volume}{57}
+    \field{journaltitle}{Physics of Atomic Nuclei}
+    \field{year}{1994}
+  \endentry
+
+  \entry{kukulin2010}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KVI}{%
+         family={{Kukulin}},
+         familyi={K\bibinitperiod},
+         given={V.\bibnamedelima I.},
+         giveni={V\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=VVT}{%
+         family={{Voronchev}},
+         familyi={V\bibinitperiod},
+         given={V.\bibnamedelima T.},
+         giveni={V\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KVIVVT1}
+    \strng{fullhash}{KVIVVT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{1376}
+    \field{title}{Pinch-based thermonuclear D$^{3}$He fusion driven by a
+  femtosecond laser}
+    \field{volume}{73}
+    \field{journaltitle}{Phys. At. Nucl.}
+    \field{year}{2010}
+  \endentry
+
+  \entry{seksembayev2018}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SZ}{%
+         family={Seksembayev},
+         familyi={S\bibinitperiod},
+         given={Zh},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Kukulin},
+         familyi={K\bibinitperiod},
+         given={V},
+         giveni={V},
+      }}%
+      {{hash=SS}{%
+         family={Sakhiyev},
+         familyi={S\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+    }
+    \strng{namehash}{SZ+1}
+    \strng{fullhash}{SZKVSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{8}
+    \field{pages}{085602}
+    \field{title}{Study of a dense hot plasma’s burning in Z -pinch devices
+  with inertial-magnetic confinement}
+    \field{volume}{93}
+    \field{journaltitle}{Phys. Scr.}
+    \field{year}{2018}
+  \endentry
+
+  \entry{kakenov2020properties}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KM}{%
+         family={Kakenov},
+         familyi={K\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=KV}{%
+         family={Kukulin},
+         familyi={K\bibinitperiod},
+         given={VI},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=PV}{%
+         family={Pomerantsev},
+         familyi={P\bibinitperiod},
+         given={VN},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=BO}{%
+         family={Bayakhmetov},
+         familyi={B\bibinitperiod},
+         given={O},
+         giveni={O},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{KM+1}
+    \strng{fullhash}{KMKVPVBO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{10}
+    \field{pages}{1\bibrangedash 18}
+    \field{title}{Properties of dibaryons in nuclear medium}
+    \field{volume}{56}
+    \field{journaltitle}{The European Physical Journal A}
+    \field{year}{2020}
+  \endentry
+
+  \entry{kukulin1978orthogonal}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KV}{%
+         family={Kukulin},
+         familyi={K\bibinitperiod},
+         given={VI},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=PV}{%
+         family={Pomerantsev},
+         familyi={P\bibinitperiod},
+         given={VN},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{KVPV1}
+    \strng{fullhash}{KVPV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{330\bibrangedash 363}
+    \field{title}{The orthogonal projection method in scattering theory}
+    \field{volume}{111}
+    \field{journaltitle}{Annals of Physics}
+    \field{year}{1978}
+  \endentry
+
+  \entry{blokhintsev1993determination}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BL}{%
+         family={Blokhintsev},
+         familyi={B\bibinitperiod},
+         given={LD},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Kukulin},
+         familyi={K\bibinitperiod},
+         given={VI},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sakharuk},
+         familyi={S\bibinitperiod},
+         given={AA},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Savin},
+         familyi={S\bibinitperiod},
+         given={DA},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KE}{%
+         family={Kuznetsova},
+         familyi={K\bibinitperiod},
+         given={EV},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{BL+1}
+    \strng{fullhash}{BLKVSASDKE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{5}
+    \field{pages}{2390}
+    \field{title}{Determination of the $\alpha$ 6+ d vertex constant
+  (asymptotic coefficient) from the He 4+ d phase-shift analysis}
+    \field{volume}{48}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{1993}
+  \endentry
+
+  \entry{tursunov2016theoretical}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TE}{%
+         family={Tursunov},
+         familyi={T\bibinitperiod},
+         given={EM},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kadyrov},
+         familyi={K\bibinitperiod},
+         given={AS},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Turakulov},
+         familyi={T\bibinitperiod},
+         given={SA},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BI}{%
+         family={Bray},
+         familyi={B\bibinitperiod},
+         given={Igor},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{TE+1}
+    \strng{fullhash}{TEKATSBI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{015801}
+    \field{title}{Theoretical study of the $\alpha$+ d→ Li 6+ $\gamma$
+  astrophysical capture process in a three-body model}
+    \field{volume}{94}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{2016}
+  \endentry
+
+  \entry{suzuki1998stochastic}{book}{}
+    \name{author}{3}{}{%
+      {{hash=SY}{%
+         family={Suzuki},
+         familyi={S\bibinitperiod},
+         given={Yasuyuki},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Suzuki},
+         familyi={S\bibinitperiod},
+         given={Miki},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=VK}{%
+         family={Varga},
+         familyi={V\bibinitperiod},
+         given={Kalman},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Science \& Business Media}%
+    }
+    \strng{namehash}{SY+1}
+    \strng{fullhash}{SYSMVK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Stochastic variational approach to quantum-mechanical
+  few-body problems}
+    \field{volume}{54}
+    \field{year}{1998}
+  \endentry
+
+  \entry{kukulin1990dynamic}{report}{}
+    \name{author}{3}{}{%
+      {{hash=KV}{%
+         family={Kukulin},
+         familyi={K\bibinitperiod},
+         given={VI},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Voronchev},
+         familyi={V\bibinitperiod},
+         given={VT},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=RKD}{%
+         family={Razikov},
+         familyi={R\bibinitperiod},
+         given={Kh\bibnamedelima D},
+         giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KV+1}
+    \strng{fullhash}{KVVVRKD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Dynamic multicluster model of light nuclei. Main formalism}
+    \list{institution}{1}{%
+      {Moskovskij Gosudarstvennyj Univ.}%
+    }
+    \field{type}{techreport}
+    \field{year}{1990}
+  \endentry
+
   \entry{satchler1979folding}{article}{}
     \name{author}{2}{}{%
       {{hash=SGR}{%
@@ -1764,6 +2179,7 @@
 
   \entry{egelhof2003nuclear}{incollection}{}
     \true{moreauthor}
+    \true{morelabelname}
     \name{author}{10}{}{%
       {{hash=EP}{%
          family={Egelhof},
@@ -1967,7 +2383,7 @@
     \list{publisher}{1}{%
       {APS}%
     }
-    \strng{namehash}{AV+1}
+    \strng{namehash}{AV+2}
     \strng{fullhash}{AVHPAM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -2105,6 +2521,7 @@
 
   \entry{lukyanov2014study}{article}{}
     \true{moreauthor}
+    \true{morelabelname}
     \name{author}{10}{}{%
       {{hash=LS}{%
          family={Lukyanov},
@@ -2427,7 +2844,7 @@
       }}%
       {{hash=MPG}{%
          family={Mart\'{\i}nez-Pinedo},
-         familyi={M\bibinitperiod-P\bibinitperiod},
+         familyi={M\bibinithyphendelim P\bibinitperiod},
          given={G.},
          giveni={G\bibinitperiod},
       }}%
@@ -2745,7 +3162,7 @@
          giveni={M\bibinitperiod},
       }}%
     }
-    \strng{namehash}{AV+2}
+    \strng{namehash}{AV+1}
     \strng{fullhash}{AVHPEAM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -2905,5 +3322,5 @@
     \field{journaltitle}{Phys. Rev.}
     \field{year}{1996}
   \endentry
-\endsortlist
+\enddatalist
 \endinput

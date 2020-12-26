@@ -32,6 +32,7 @@ If there are three vectors $\mathbf{j}_1, \mathbf{j}_2$ and $\mathbf{j}_3$, one 
 The Basis $ \vert (j_1 j_2)j_{12},j_3; jm \rangle$ and the basis $\vert j_1,(j_2 j_3); ~jm \rangle$ corresponding to Eq.~(\ref{6j_basis1}) and Eq.~(\ref{6j_basis2}) are related through a factor $U(~j_1 j_2 j j_3;~ j_{12} j_{23})$, which is the Racah coefficient:
 \begin{equation}
 \vert (j_1 j_2)j_{12},j_3; jm \rangle = \sum_{j_{23}} U(~j_1 j_2 j j_3;~ j_{12} j_{23}) ~ \vert j_1,(j_2 j_3); ~jm \rangle.
+\label{racah_U}
 \end{equation}
 
 Four angular momenta, $\bf j_1,~j_2,~j_3$ and $\bf j_4$, are added into the total momentum $\bf j$ by
@@ -68,10 +69,10 @@ where transformation coefficient with square brackets is called a unitary 9j-sym
    & \times \mathcal{Y}_{l_l m_1}({\bf r_1})  \mathcal{Y}_{l_2 m_2}({\bf r_2}) \nonumber \\
    = & \sum_{l_1,l_2} a^{l_1} b^{l_2}
    \mathcal{D}(l,l_1,l_2) \left[ \mathcal{Y}_{l_l}({\bf r_1}) \times \mathcal{Y}_{l_2}({\bf r_2}) \right]_{lm} 
-   \label{sphHarmDecomp}
   \end{align}
   with the condition $l=l_1+l_2$, and $\mathcal{D}(l,l_1,l_2) $ is given by
   \begin{equation}
+  \label{sphHarmDecomp}
   \mathcal{D}(l,l_1,l_2)  = \sqrt{\frac{4 \pi (2l+1)!}{(2l_1+1)! (2l_2+1)!}}
   \end{equation}
 Spherical harmonics with the argument are coupled as follow
@@ -86,10 +87,10 @@ where the $\mathcal{C}(l_1,l_2,l)$ coefficient reads as
 It would be useful also note a coupling between two spherical hyper harmonics kind of
 \begin{equation}
 \left[ Y^{(l_1l_2)}_{l_{12}}(\hat{{\bf r}}_1,\hat{{\bf r}}_2) \times Y^{(l_3l_4)}_{l_{34}}(\hat{{\bf r}}_1,\hat{{ \bf r}}_2) \right]_{lm}= \sum_{l_{13}l_{24}} {E}^{l_1l_2l_{12}l_2l_4l_{34}l}_{l_{13}l_{24}}  Y^{(l_{13}l_{24})}_{lm}(\hat{{\bf r}}_1,\hat{{\bf r}}_2)
-\label{hyperSphTrans}
 \end{equation}
 where the coupling coefficient ${E}^{l_1l_2l_{12}l_2l_4l_{34}l}_{l_{13}l_{24}}$ is given as
 \begin{equation}
+\label{hyperSphTrans}
 {E}^{l_1l_2l_{12}l_2l_4l_{34}l}_{l_{13}l_{24}} = 
 \begin{bmatrix}
 l_1 & l_2 & l_{12} \\ 
