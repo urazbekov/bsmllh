@@ -352,23 +352,34 @@ Moreover, it should be noted that the interaction of pairs inside these nuclei i
 There are many theoretical approaches \cite{descouvemont200112be, tohsaki2001alpha, kanada1995structure, pudliner1997quantum, zhukov1993bound}  devoted to studying the structure of exotic nuclei. In particular, the nuclear excitation function for light exotic nuclei is well reproduced by the No Core Shell Model (NCSM) method \cite{navratil2009recent, forssen2005large, navratil2003ab, navratil2002ab}. 
 The method uses one-particle basis function of the harmonic oscillator,  realistic NN, NNN interactions. 
 This method is reduced to solving the $A$-nucleon Schr\"{o}dinger equation on a basis containing all possible configurations of $A$-nucleon oscillator functions. 
-Oscillatory functions are written in the form of Slater determinants (DS) with a projection of the total angular momentum fixed for each nucleon.
-Calculation of the wave functions of the ground and lowest excited states is reduced to finding the eigenfunctions and eigenvalues of the matrix of the Hamiltonian operator in the basis of the DS. 
-Since this matrix is characterized by large dimensions and a high degree of sparseness, the determination of eigenfunctions and eigenvectors is usually carried out by the Lanczos algorithm.
-However, the size of the basis grows rapidly with the number of nucleons, and the reliability of the NCSM model calculations in the case of heavy nuclei decreases. At present, the capabilities of modern computational machines make it possible to calculate with sufficient accuracy of nuclei with masses $A \le 16$.
+However, the size of the basis grows rapidly with the number of nucleons, the reliability of the NCSM model calculations decreases in the case of heavy nuclei. At present, the capabilities of modern computational machines make it possible to calculate with sufficient accuracy of nuclei with masses $A \le 16$.
 For example, in Ref. \cite{forssen2005large} within the framework of this model, the excitation spectrum of the one-particle basis for the \be nucleus is in good agreement with the experimental data. 
-The calculations were carried out for positive and negative parities with the AV8 potential.
 
-The microscopic description, that is, taking into account the NN potential, of the two-fragment break-up reaction was presented in the Resonating Group Method (RGM) \cite{tang1978resonating, wheeler1937mathematical}. Generalization of the RGM consists in constructing general, mathematically equivalent methods for the simultaneous calculation of nuclear structure and nuclear reactions. This model allows one to calculate bound states and states of the continuous spectrum in a two-cluster representation with the correct asymptotic behavior of the two-body solution.
+The microscopic description, that is, taking into account the NN effective potential, of the break-up reaction was presented in the Resonating Group Method (RGM) \cite{horiuchi1970generator, tang1978resonating, wheeler1937mathematical}. Generalization of the RGM consists in constructing overall mathematically equivalent methods for the simultaneous calculation in the nuclear structures and nuclear reactions. 
+The practical application of this method is also limited in the region of the lightest nuclei due to the lack of computational power in the antisymmetrization process.
+In the work \cite{nesterov2010three} the algebraic RGM was successfully applied in describing the internal structure \he, \li and $^8$He nuclei, calculated their rms matter and proton
+and neutron radii, as well as nuclear matter distribution density. Also the fusion reactions at low energies participating \he were presented.
 
-In addition to the above theoretical approaches, there is a variational method \cite{kukulin1977stochastic, voronchev1994study, kukulin1986detailed, kukulin1984detailed}. The method uses the Gaussian function as a basis function, which is convenient for deriving analytically matrix elements of the Hamiltonian. The Hamiltonian contains a Pauli projector, which removes forbidden states from the problem of finding the minimum energy. The Schrödinger equation for the three-body system is solved by the method of the Hill-Wheeler intergal equation. The reduced matrix form of the equation is solved by the generalized eigenvalue problem. This method describes well the internal structures of \he, \li and \be. In particular, the static characteristics, geometric structures and component weights are in good agreement with the methods, where they are obtained by real solutions of three-body problems. In this work the wave functions obtained by this method are used.
+Similar to the RGM \cite{horiuchi1970generator}, is the Generator Coordinate Method (GCM), if one takes the full model space of the basis Bloch-Brink wave functions \cite{brink1966proceedings}. 
+In the framework of the GCM it is possible to carry out calculations for the nuclei with medium masses implementing many clusters. 
+%For scattering problems, the RGM can be applied rather straightforwardly because the inter-cluster wave function is explicitly treated. On the other hand, in the application of the GCM to scattering problems, it is necessary to connect the basis wave functions in the internal region with continuum states in the asymptotic region at a chosen channel radius \cite{descouvemont2010r}. 
+ Microscopic three-body calculations for two valence neutrons around a core nucleus have been achieved by many groups to investigate the neutron halo and two-neutron correlation in drip-line nuclei such as \he and $^{14}$Be \cite{arai1999structure, descouvemont1995halo}. 
+ The $^{12}$Be using the GCM has been studied \cite{descouvemont200112be}. 
+ In this work a negative-parity band was found, electromagnetic transition probabilities and partial widths of molecular states were calculated.
+ 
 
-In addition to studying internal structures, there are several widely used methods for representing quantum scattering states. To describe the state of elastic scattering in the field of a complex potential, one usually uses the Optical Model, first presented in Ref. \cite{feshbach1958optical}. Within the framework of this model, the nucleus is considered as a transparent substance that has the ability to absorb. In practice, this method describes the experimental data well. However, there are several disadvantages. One of them is not a single choice of optical potentials. Another follows from the ambiguity that the model can pick up a potential with  an unrealistic potential depth in the concrete.
+In addition to the above theoretical approaches, there is a variational method \cite{kukulin1977stochastic, voronchev1994study, kukulin1986detailed, kukulin1984detailed}. 
+The method uses the Gaussian function as a basis function, which is convenient for analytical deriving matrix elements of the Hamiltonian. The corresponding Hamiltonian contains a Pauli projector \cite{kukulin1978orthogonal}, that removes forbidden states. 
+The variational method describes well the internal structures of \he, \li and \be \cite{kukulin1984detailed, kukulin1986detailed, voronchev1994study}. 
+In particular, the electromagnetic properties, geometric parameters and configuration weights are in good agreement with the methods, where they are obtained by real solutions of three-body problems. 
 
-To study the inelastic channels, transfer reactions and their use to describe experimental data the Distorted Wave Born Approximation (DWBA) method has been successfully applied \cite{satchler1960gamma}. The distorted wave method is a good tool for describing nuclear reactions with products registered in the ground state. For transfer channels with excited states, calculations using the DWBA method in many cases give disagreement with the experimental data. In this case, the disagreement is explained by the fact that the wave function of the bound state for the output channel corresponds to a discrete eigenvalue, while the state of this excited nucleus in the experimental data has a resonance with a certain width in the order of several $MeV$. An adequate theoretical analysis of such problems requires other approaches that require taking into account the couplings between channels.
+To describe the elastic scattering in the field of a complex potential, one usually uses the Optical Model, first presented in Ref. \cite{feshbach1958optical}. Within the framework of this model, the nucleus is considered as a transparent substance that has the ability to absorb. In practice, this method describes the experimental data well providing the direct information on the nucleus-nucleus interaction potential.
+However, the ambiguity of the optical potantial parameters reduces the merits of optical model.
 
-There is an overlap of transferred particles or moments between the reaction channels. Therefore, methods such as Coupled Channels (CC), Couples Reaction Channels (CRC), Continuum Discretized Coupled Channels (CDCC) are used \cite{satchler1983}. The CC method is usually applied to inelastic scatterings, while the CRC is for transfer reactions.
-In accordance with the name of the CDCC, the essence of the method consists in discretizing the continuum and in coupling them with the reaction channels. As in the DWBA method, CDCC requires data which take into account the internal structure of colliding nuclei. There is another method developed on the basis of the CDCC method, this is XCDCC \cite{de2014continuum}. The addition to the name “X” means taking into account the excited state of the target nucleus. Recently, a continuum discretization method was proposed based on imaginary correlated gaussian functions \cite{sailaubek2018charged}. This approach successfully describes the displacement phases of elastic scattering of charged particles and reproduces the real Coulomb functions well.
+To study the inelastic channels, transfer reactions and their use to describe experimental data the Distorted Wave Born Approximation (DWBA) method has been successfully applied \cite{satchler1960gamma}.
+The DWBA method proved to be appropriate and successful in describing the cross section of nuclear reactions involving ground and low-lying excited nuclear states of single particle type as well as collective nature.
+The method becomes inadequate, since the reaction leads to the broad or strongly overlapped final states.
+In this case the couples channel formalism has to be applied.
 
 
 \label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
@@ -546,18 +557,20 @@ Within the $\left(k, pq \right)$ scheme an overlap matrix element, in particular
 \nonumber \\
 =& \int_0^\infty \int_0^\infty  dx_k dy_k~ x^{2\lambda+2}y^{2 l +2} exp\left( - \tfrac{1}{2}\alpha^{(k)}_{ij} x^2_k - \tfrac{1}{2} \beta^{(k)}_{ij} y^2_k \right) \delta_{\gamma \gamma'} =
 \nonumber \\
-=&~ \mathcal{I}_k \left( \lambda,l,\alpha_{ij}^{(k)},\beta_{ij}^{(k)} \right) ,
+=&~ \mathcal{I}_1 \left( 2\lambda+2,\alpha_{ij}^{(k)} \right)~ \mathcal{I}_1 \left(2l+2,\beta_{ij}^{(k)} \right),
 \end{align}
-where $\mathcal{I}_k$ may be expressed as  
+where 
+$
+\alpha_{ij}^{(k)}=\alpha_{i}^{(k)}+\alpha_{j}^{(k)}$ and $
+\beta_{ij}^{(k)}=\beta_{i}^{(k)}+\beta_{j}^{(k)}
+$,
+the table integral $\mathcal{I}_1$ may be expressed as  
 \begin{equation}
-\mathcal{I}_k \left( \lambda,l,\alpha_{ij}^{(k)},\beta_{ij}^{(k)} \right)= 2^{1+\lambda+l}\frac{\Gamma \left( \frac{3}{2}+\lambda \right) \Gamma \left( \frac{3}{2}+l \right) }{ \left( \alpha_{ij}^{(k)} \right) ^{\frac{3}{2}+\lambda} \left( \beta_{ij}^{(k)} \right) ^{\frac{3}{2}+l}} .
+\mathcal{I}_1 \left( \lambda,\alpha\right)=
+ 2^{1+\lambda}\frac{\Gamma \left( 1+\lambda \right)  }{ \left( \alpha \right) ^{1+\lambda}} .
 \label{table_integral_1}
 \end{equation}
-with 
-\begin{equation}
-\alpha_{ij}^{(k)}=\alpha_{i}^{(k)}+\alpha_{j}^{(k)}~~~~~~
-\beta_{ij}^{(k)}=\beta_{i}^{(k)}+\beta_{j}^{(k)}
-\end{equation}
+
 
 According to the Eq. \ref{newBasis}, the new basis function  contains the $\rho^{(q)}_i {\bf x}_{q} \cdot {\bf y}_{q}$ scalar product. In order to treat this problem,  in this section the overlap matrix elements of the basis functions for the $\left(q, kp \right)$ scheme are given by means of two methods.  
 The first is based on the expansion of the exponential function \cite{suzuki1998stochastic}, another is in the implementing of $\rho^{(q)}_i$ into the rotation matrix ${\bf T}$ \cite{kukulin1990dynamic}. Both methods give the same result. 
@@ -587,11 +600,11 @@ where $i_{n}(x) $ -- modified spherical Bessel function of the first kind, $\eps
 Once radial part is separated, then it can be defined as
 \begin{align}
  \int_0^\infty \int_0^\infty  dx dy~& x^{2\lambda+n+2}y^{2 l +n+2} exp\left( -\tfrac{1}{2}\alpha x^2 - \tfrac{1}{2}\beta y^2 \right) i_{n}(|\rho|xy) \nonumber = \\
-& = \mathcal{I}_q(\lambda, l, n, \alpha, \beta, |\rho|) 
+& = \mathcal{I}_2(\lambda, l, n, \alpha, \beta, |\rho|) 
 \end{align}
-where, $\mathcal{I}_q$ is
+where, the integral $\mathcal{I}_2$ has analytical form as
 \begin{align}
-\mathcal{I}_q(\lambda, l, n, \alpha, \beta, |\rho|) =& \sqrt{\frac{\pi}{8}}(2l)!!~ \Gamma(l+n+\tfrac{3}{2})~|\rho|^{n} ~\beta^{-l-n-\tfrac{3}{2}} \times \nonumber \\
+\mathcal{I}_2(\lambda, l, n, \alpha, \beta, |\rho|) =& \sqrt{\frac{\pi}{8}}(2l)!!~ \Gamma(l+n+\tfrac{3}{2})~|\rho|^{n} ~\beta^{-l-n-\tfrac{3}{2}} \times \nonumber \\
 & \times \sum_{\kappa=0}^{l} \frac{\Gamma(\kappa+\lambda+n+\tfrac{3}{2})}{\kappa! (l-\kappa)! \Gamma(\kappa+n+\tfrac{3}{2})}
 \left(\frac{\rho^2}{2\beta}\right)^{\kappa} \left( \frac{\alpha}{2} - \frac{\rho^2}{2\beta}  \right)^{-\kappa-\lambda-n-\tfrac{3}{2}}.
 \label{overlap1}
@@ -633,7 +646,7 @@ Accordingly, the determinant $\vert {\bf J}^{(kq)} \vert$ is a determinant of th
 \int \int d{\bf x}_k d{\bf y}_k  ~\phi_{i}^{\tilde{\gamma}}\left(q,kp \right) \left( \phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \right)^{*}  = \nonumber 
 \\ & = 4 \pi \sum_{\tilde{\gamma}\tilde{\gamma}^{\prime}}  A_{\gamma\tilde{\gamma}}^{ T^{(kq)} } A_{\gamma\tilde{\gamma}^{\prime}}^{ T^{(kq)} }
  \sum_{\kappa} \sqrt{2\kappa+1}~ \epsilon(\kappa, \rho) {E}^{\kappa \kappa 0 \lambda^{\prime} l^{\prime} L L}_{\lambda l} \times  \nonumber \\
- &\times \mathcal{I}_q\left(
+ &\times \mathcal{I}_2\left(
  \tfrac{\tilde{\lambda}+\tilde{\lambda^{\prime}}-\kappa}{2}, ~
  \tfrac{\tilde{l}+\tilde{l^{\prime}}-\kappa}{2},~
  \kappa,~
@@ -667,8 +680,10 @@ One can get easily the expression of the overlap matrix element for the $(q,kp)$
 \phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \rangle =
 \int \int d{\bf x}_k d{\bf y}_k  ~\phi_{i}^{\tilde{\gamma}}\left(q,kp \right) \left( \phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \right)^{*} =  \nonumber \\
 =& \sum_{\tilde{\gamma}\tilde{\gamma}^{\prime}}  
-A_{\gamma\tilde{\gamma}}^{ {\bf Q}_{ij}^{(kq)} }
- A_{\gamma\tilde{\gamma}^{\prime}}^{ {\bf Q}_{ij}^{(kq)} } \mathcal{I}_k \left( \tilde{\lambda}, \tilde{l}, \alpha^{(q)}_{ij}, \left(  \beta^{(q)}_{ij} - \tfrac{\left(\rho^{(q)}_{ij}\right)^2}{\alpha^{(q)}_{ij}} \right) \right) \delta_{\tilde{\gamma}\tilde{\gamma}^{\prime}}.
+\left( A_{\gamma\tilde{\gamma}}^{ {\bf Q}_{ij}^{(kq)} } \right)^2 
+ \mathcal{I}_1 \left( 2 \tilde{\lambda}+2, \alpha^{(q)}_{ij} \right)
+\mathcal{I}_1 \left( 2 \tilde{l}+2, \left(  \beta^{(q)}_{ij} - \tfrac{\left(\rho^{(q)}_{ij}\right)^2}{\alpha^{(q)}_{ij}} \right) \right)
+  \delta_{\tilde{\gamma}\tilde{\gamma}^{\prime}}.
  \label{projectionMethod}
 \end{align}
 Analogously, changing the integration variables is carried out with no factorizations due to the $\vert {\bf Q}_i^{(kq)} \vert = 1$. Notably, in this case of  the rotation matrix ${\bf Q}_{ij}$  the coefficient $A_{\gamma\tilde{\gamma}}^{ {\bf Q}_{ij}^{(kq)} }$  becomes depended on the $ij$ indexes as well.
@@ -678,7 +693,9 @@ Analogously, changing the integration variables is carried out with no factoriza
 Using the overlap matrix elements the normalization of the total three-body wave function is given by
 \begin{align}
 \mathcal{N}^{(k)}= & \langle \Psi^{JM_J} \vert \Psi^{JM_J} \rangle = \sum_{\gamma} \mathcal{N}^{(k)}_{\gamma},    \nonumber \\
- \mathcal{N}^{(k)}_{\gamma} = & \sum_{ij} C_i C_j \mathcal{I} \left( \lambda,l,\alpha_{ij}^{(k)},\beta_{ij}^{(k)} \right).
+ \mathcal{N}^{(k)}_{\gamma} = & \sum_{ij} C_i C_j 
+ \mathcal{I}_1 \left( \lambda,\alpha_{ij}^{(k)} \right)
+ \mathcal{I}_1 \left( l,\beta_{ij}^{(k)} \right).
 \end{align}
 For the alternative set of Jacobi coordinates the overlap of the total wave function is given by
 \begin{equation}
@@ -704,7 +721,7 @@ or using the Eq.~(\ref{projectionMethod})
 \left( A_{\gamma\tilde{\gamma}}^{ {\bf Q}_{ij}^{(kq)}} \right)^2
  \times\nonumber \\
  & \times
-  \mathcal{I} \left( \tilde{\lambda}, \tilde{l}, \alpha^{(q)}_{ij}, \left(  \beta^{(q)}_{ij} - \tfrac{\left(\rho^{(q)}_{ij}\right)^2}{\alpha^{(q)}_{ij}} \right) \right).
+  \mathcal{I}_2 \left( \tilde{\lambda}, \tilde{l}, \alpha^{(q)}_{ij}, \left(  \beta^{(q)}_{ij} - \tfrac{\left(\rho^{(q)}_{ij}\right)^2}{\alpha^{(q)}_{ij}} \right) \right).
 \end{align}  
 
 A correlation density function of the total wave function (\ref{totwf})  can be expressed in the following way
@@ -755,7 +772,8 @@ while the $\alpha$-cluster has own density distribution function of nuclear matt
 \vert \varphi^{{\gamma}}_j(k, pq)\rangle \\
 \end{gathered}
 \end{equation}
-Here the $\textbf{r}$ radius is from Eq. \ref{alpha_density}, and it has the relation  $\textbf{r}=y_0^{(k)}\textbf{y}_k+\textbf{R}$.
+Here $\textbf{r}$ is the radius-vector, shown in Figures \ref{fig:density_scheme_1} and \ref{fig:density_scheme_2}.
+%, and equal $\textbf{r}=y_0^{(k)}\textbf{y}_k+\textbf{R}$.
 
 \begin{figure}[t]
 \centering
@@ -766,8 +784,8 @@ Here the $\textbf{r}$ radius is from Eq. \ref{alpha_density}, and it has the rel
 \end{figure}
 
 
-Using the basis function in the (k, pq) coordinate set, one can express the density function of the spectator of the three body system (p, qk) by means of the  equation \eqref{transformbasisfunction} for tranformation into the (p, qk) set as follows: 
-\begin{align*}
+Using the basis function in the (k, pq) coordinate set, one can express the density function of the spectator of the three body system (p, qk), i.e. of the p-particle within the (p, qk) scheme,   using the transformation \eqref{transformbasisfunction} into the (p, qk) set as follows: 
+\begin{align}
 \begin{gathered}
 \rho_{N}^{(q)}({R})=
 \sum_{\gamma \tilde{\gamma}}
@@ -784,7 +802,7 @@ Using the basis function in the (k, pq) coordinate set, one can express the dens
 \vert \rho_{\alpha}(\textbf{r})
 \vert \varphi^{\widetilde{\gamma}}(q,kp)\rangle.\\
 \end{gathered}
-\end{align*}
+\end{align}
 
 The superscript $(kq)$  in the rotation matrix $ {\bf Q}_{ij}^{(kq)}$ is omitted here, and it will be done further for simplicity.
 With the properties of the spherical functions, partial expansion of the exponent function (\ref{exponent_expantion}) and pre-defined table integrals (\ref{overlap1}) and (\ref{table_integral_1})
@@ -793,13 +811,13 @@ above mentioned six and eight dimensional integrals  may be expressed analytical
 \rho_k^{(N)}(R)=&
 \sum_{\gamma }
 \sum_{i j} C_{i} C_j R^{2+2l} 
-\mathcal{I} \left( 2+2\lambda, \tfrac{1}{2} \alpha^{(k)}_{ij} \right)
+\mathcal{I}_1 \left( 2+2\lambda,\alpha^{(k)}_{ij} \right)
 exp\left( - \tfrac{1}{2} \beta^{(k)}_{ij} \left( y^{(k)}_0 R \right)^2\right) \nonumber \\
 \rho_{k}^{(\alpha)}(R)=&\left( 4 \pi \right)^2 \rho_0 exp\left( - \gamma_0 R^2 \right)  
 \sum_{\gamma }
-\sum_{ij}  \mathcal{I}\left( 2+2\lambda, \frac{1}{2}\alpha^{(k)}_{ij} \right) \times \nonumber \\
+\sum_{ij}  \mathcal{I}_1\left( 2+2\lambda, \alpha^{(k)}_{ij} \right) \times \nonumber \\
 & \times
-\mathcal{I} \left( l, 0, (\beta^{(k)}_{ij}+2 \gamma_0) \left( y^{(k)}_0\right)^2, 2\gamma_0 R \right).
+\mathcal{I}_2 \left( l, 0, (\beta^{(k)}_{ij}+2 \gamma_0) \left( y^{(k)}_0\right)^2, 2\gamma_0 R \right).
 \label{kpq_density}
 \end{align}
 The density distribution function of the nuclear matter for the $N$ spectators in the (p, qk) three-body system can be written as follow
@@ -820,17 +838,17 @@ The coefficient of transformation of the basis function  (\ref{trans_coef}) now 
 
  \begin{align}
 \tilde{A}^{(N)}_{\tilde{\gamma}\gamma}\left( {\bf Q}_{ij}, R \right) = & \sum_{\lambda_1 \lambda_2 l_1 l_2} 
-\left({\bf Q}_{11} \right)^{\lambda_1} 
-\left({\bf Q}_{12} \right)^{\lambda_2} 
-\left({\bf Q}_{21} \right)^{l_1} 
-\left({\bf Q}_{22} \right)^{l_2} 
+\left({ Q}_{11} \right)^{\lambda_1} 
+\left({ Q}_{12} \right)^{\lambda_2} 
+\left({ Q}_{21} \right)^{l_1} 
+\left({ Q}_{22} \right)^{l_2} 
 \times \nonumber
 \\
 & \times {E}^{\lambda_1 \lambda_2 \lambda l_1 l_2 l L}_{\tilde{\lambda} \tilde{l} } \mathcal{D}(\lambda,\lambda_1,\lambda_2) \mathcal{D}(l,l_1,l_2)
 \times  \nonumber    \\
 & \times R^{\lambda+l-\ell/2}~
-\mathcal{I}\left( \ell +2
-, \tfrac{1}{2} \alpha^{(q)}_{ij} \right)^{1/2},
+\mathcal{I}_1\left( \ell +2
+, \alpha^{(q)}_{ij} \right)^{1/2},
 \end{align}
 where $\ell=\lambda_1+\lambda_2+l_1+l_2$, and the sum is carried out in conditions: $\lambda_1+\lambda_2=\lambda$, $l_1+l_2=l$ and $\lambda+l=\tilde{\lambda}+\tilde{l}$.
 
@@ -851,21 +869,21 @@ exp \left( -\tfrac{1}{2}
 where its transformation coefficient also depends on $R$, and  turns to
 \begin{align}
 \tilde{A}^{(\alpha)}_{\tilde{\gamma}\gamma}\left( {\bf Q}_{ij}, R \right) = & \sum_{\lambda_1 \lambda_2 l_1 l_2} 
-\left({\bf Q}_{11} \right)^{\lambda_1} 
-\left({\bf Q}_{12} \right)^{\lambda_2} 
-\left({\bf Q}_{21} \right)^{l_1} 
-\left({\bf Q}_{22}\right)^{l_2} 
+\left({ Q}_{11} \right)^{\lambda_1} 
+\left({ Q}_{12} \right)^{\lambda_2} 
+\left({ Q}_{21} \right)^{l_1} 
+\left({ Q}_{22}\right)^{l_2} 
 \times \nonumber
 \\
 & \times {E}^{\lambda_1 \lambda_2 \lambda l_1 l_2 l L}_{\tilde{\lambda} \tilde{l} } \mathcal{D}(\lambda,\lambda_1,\lambda_2) \mathcal{D}(l,l_1,l_2)
 \times  \nonumber    \\
  \times 
- \mathcal{I} & \left( \lambda + l - \tfrac{1}{2} \ell, 
+ \mathcal{I}_2 & \left( \lambda + l - \tfrac{1}{2} \ell, 
 ~0, 
 \left( \left(  \beta^{(q)}_{ij} - \tfrac{\left(\rho^{(q)}_{ij}\right)^2}{\alpha^{(q)}_{ij}} \right) +2 \gamma_0 \right) {y_0^{(q)}}^2,~
 2\gamma_0 R
  \right)^{1/2} \times \nonumber \\
-& \times  \mathcal{I} \left( \ell +2,~ \tfrac{1}{2} \alpha_{ij}^{(q)} \right)
+& \times  \mathcal{I}_1 \left( \ell +2,~ \alpha_{ij}^{(q)} \right)
  ,
 \end{align}
 where $\ell=\lambda_1+\lambda_2+l_1+l_2$, and the sum is carried out in conditions: $\lambda_1+\lambda_2=\lambda$, $l_1+l_2=l$ and $\lambda+l=\tilde{\lambda}+\tilde{l}$.

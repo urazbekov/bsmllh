@@ -1098,6 +1098,31 @@
     \field{year}{2002}
   \endentry
 
+  \entry{horiuchi1970generator}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HH}{%
+         family={Horiuchi},
+         familyi={H\bibinitperiod},
+         given={Hisashi},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{HH1}
+    \strng{fullhash}{HH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{375\bibrangedash 389}
+    \field{title}{Generator coordinate treatment of composite particle reaction
+  and molecule-like structures}
+    \field{volume}{43}
+    \field{journaltitle}{Progress of Theoretical Physics}
+    \field{year}{1970}
+  \endentry
+
   \entry{tang1978resonating}{article}{}
     \name{author}{3}{}{%
       {{hash=TYC}{%
@@ -1157,6 +1182,138 @@
     \field{volume}{52}
     \field{journaltitle}{Physical Review}
     \field{year}{1937}
+  \endentry
+
+  \entry{nesterov2010three}{article}{}
+    \name{author}{4}{}{%
+      {{hash=NA}{%
+         family={Nesterov},
+         familyi={N\bibinitperiod},
+         given={AV},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AF}{%
+         family={Arickx},
+         familyi={A\bibinitperiod},
+         given={F},
+         giveni={F},
+      }}%
+      {{hash=BJ}{%
+         family={Broeckhove},
+         familyi={B\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=VV}{%
+         family={Vasilevsky},
+         familyi={V\bibinitperiod},
+         given={VS},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{NA+1}
+    \strng{fullhash}{NAAFBJVV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{5}
+    \field{pages}{716\bibrangedash 765}
+    \field{title}{Three-cluster description of properties of light neutron-and
+  proton-rich nuclei in the framework of the algebraic version of the
+  resonating group method}
+    \field{volume}{41}
+    \field{journaltitle}{Physics of Particles and Nuclei}
+    \field{year}{2010}
+  \endentry
+
+  \entry{brink1966proceedings}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=BD}{%
+         family={Brink},
+         familyi={B\bibinitperiod},
+         given={DM},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Bloch},
+         familyi={B\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Academic New York}%
+    }
+    \strng{namehash}{BDBC1}
+    \strng{fullhash}{BDBC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Proceedings of the International School of Physics “enrico
+  fermi” Course XXXVI}
+    \field{year}{1966}
+  \endentry
+
+  \entry{arai1999structure}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AK}{%
+         family={Arai},
+         familyi={A\bibinitperiod},
+         given={K},
+         giveni={K},
+      }}%
+      {{hash=SY}{%
+         family={Suzuki},
+         familyi={S\bibinitperiod},
+         given={Y},
+         giveni={Y},
+      }}%
+      {{hash=LR}{%
+         family={Lovas},
+         familyi={L\bibinitperiod},
+         given={RG},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{AK+1}
+    \strng{fullhash}{AKSYLR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{1432}
+    \field{title}{Structure of 6 He with an extended three-cluster model}
+    \field{volume}{59}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{1999}
+  \endentry
+
+  \entry{descouvemont1995halo}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DP}{%
+         family={Descouvemont},
+         familyi={D\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{DP1}
+    \strng{fullhash}{DP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{704}
+    \field{title}{Halo structure of Be 14 in a microscopic Be 12+ n+n cluster
+  model}
+    \field{volume}{52}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{1995}
   \endentry
 
   \entry{kukulin1977stochastic}{article}{}
@@ -1320,6 +1477,36 @@
     \field{year}{1984}
   \endentry
 
+  \entry{kukulin1978orthogonal}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KV}{%
+         family={Kukulin},
+         familyi={K\bibinitperiod},
+         given={VI},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=PV}{%
+         family={Pomerantsev},
+         familyi={P\bibinitperiod},
+         given={VN},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{KVPV1}
+    \strng{fullhash}{KVPV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{330\bibrangedash 363}
+    \field{title}{The orthogonal projection method in scattering theory}
+    \field{volume}{111}
+    \field{journaltitle}{Annals of Physics}
+    \field{year}{1978}
+  \endentry
+
   \entry{feshbach1958optical}{article}{}
     \name{author}{1}{}{%
       {{hash=FH}{%
@@ -1373,110 +1560,6 @@
     \field{volume}{118}
     \field{journaltitle}{Physical Review}
     \field{year}{1960}
-  \endentry
-
-  \entry{satchler1983}{book}{}
-    \name{author}{1}{}{%
-      {{hash=SG}{%
-         family={Satchler},
-         familyi={S\bibinitperiod},
-         given={G.R.},
-         giveni={G\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Clarendon Press}%
-    }
-    \strng{namehash}{SG1}
-    \strng{fullhash}{SG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{isbn}{9780198512691}
-    \field{series}{International series of monographs on physics}
-    \field{title}{Direct Nuclear Reactions}
-    \field{year}{1983}
-  \endentry
-
-  \entry{de2014continuum}{article}{}
-    \name{author}{4}{}{%
-      {{hash=dDR}{%
-         prefix={de},
-         prefixi={d\bibinitperiod},
-         family={Diego},
-         familyi={D\bibinitperiod},
-         given={R},
-         giveni={R},
-      }}%
-      {{hash=AJ}{%
-         family={Arias},
-         familyi={A\bibinitperiod},
-         given={JM},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=LJ}{%
-         family={Lay},
-         familyi={L\bibinitperiod},
-         given={JA},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=MA}{%
-         family={Moro},
-         familyi={M\bibinitperiod},
-         given={AM},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {APS}%
-    }
-    \strng{namehash}{dDR+1}
-    \strng{fullhash}{dDRAJLJMA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{6}
-    \field{pages}{064609}
-    \field{title}{Continuum-discretized coupled-channels calculations with core
-  excitation}
-    \field{volume}{89}
-    \field{journaltitle}{Physical Review C}
-    \field{year}{2014}
-  \endentry
-
-  \entry{sailaubek2018charged}{article}{}
-    \name{author}{3}{}{%
-      {{hash=SD}{%
-         family={Sailaubek},
-         familyi={S\bibinitperiod},
-         given={DA},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=RO}{%
-         family={Rubtsova},
-         familyi={R\bibinitperiod},
-         given={OA},
-         giveni={O\bibinitperiod},
-      }}%
-      {{hash=KV}{%
-         family={Kukulin},
-         familyi={K\bibinitperiod},
-         given={VI},
-         giveni={V\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer}%
-    }
-    \strng{namehash}{SD+1}
-    \strng{fullhash}{SDROKV1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{7}
-    \field{pages}{126}
-    \field{title}{Charged particle scattering problem with a complex-range
-  Gaussian basis}
-    \field{volume}{54}
-    \field{journaltitle}{The European Physical Journal A}
-    \field{year}{2018}
   \endentry
 
   \entry{golovkov1981cross}{article}{}
@@ -1702,36 +1785,6 @@
     \field{volume}{56}
     \field{journaltitle}{The European Physical Journal A}
     \field{year}{2020}
-  \endentry
-
-  \entry{kukulin1978orthogonal}{article}{}
-    \name{author}{2}{}{%
-      {{hash=KV}{%
-         family={Kukulin},
-         familyi={K\bibinitperiod},
-         given={VI},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=PV}{%
-         family={Pomerantsev},
-         familyi={P\bibinitperiod},
-         given={VN},
-         giveni={V\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{KVPV1}
-    \strng{fullhash}{KVPV1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{2}
-    \field{pages}{330\bibrangedash 363}
-    \field{title}{The orthogonal projection method in scattering theory}
-    \field{volume}{111}
-    \field{journaltitle}{Annals of Physics}
-    \field{year}{1978}
   \endentry
 
   \entry{blokhintsev1993determination}{article}{}
