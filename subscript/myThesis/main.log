@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.29)  27 DEC 2020 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.29)  28 DEC 2020 12:45
 entering extended mode
 **./main.tex
 (main.tex
@@ -1098,347 +1098,346 @@ $[]$
 [1
 
 
-]
-<Figures/exotic_nuclei.pdf, id=500, 285.065pt x 170.6375pt>
+] [2]
+<Figures/exotic_nuclei.pdf, id=536, 285.065pt x 170.6375pt>
 File: Figures/exotic_nuclei.pdf Graphic file (type pdf)
 <use Figures/exotic_nuclei.pdf>
-Package pdftex.def Info: Figures/exotic_nuclei.pdf  used on input line 346.
+Package pdftex.def Info: Figures/exotic_nuclei.pdf  used on input line 368.
 (pdftex.def)             Requested size: 285.0643pt x 170.63707pt.
- [2 <./Figures/exotic_nuclei.pdf>] [3] [4]
+ [3 <./Figures/exotic_nuclei.pdf>] [4] [5]
 Chapter 1.
 1: section
-[5
+[6
 
 ]
 
 pdfTeX warning: pdflatex (file ./Figures/pic1.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Figures/pic1.pdf, id=577, 284.62335pt x 85.2786pt>
+<Figures/pic1.pdf, id=597, 284.62335pt x 85.2786pt>
 File: Figures/pic1.pdf Graphic file (type pdf)
 <use Figures/pic1.pdf>
-Package pdftex.def Info: Figures/pic1.pdf  used on input line 430.
+Package pdftex.def Info: Figures/pic1.pdf  used on input line 470.
 (pdftex.def)             Requested size: 284.62265pt x 85.27837pt.
-[6 <./Figures/pic1.pdf>] [7]
-Overfull \hbox (23.07999pt too wide) detected at line 561
-[]
- []
-
-[8]
-Overfull \hbox (4.6371pt too wide) detected at line 611
+[7 <./Figures/pic1.pdf>] [8]
+Overfull \hbox (23.07999pt too wide) detected at line 601
 []
  []
 
 [9]
+Overfull \hbox (4.6371pt too wide) detected at line 651
+[]
+ []
+
+[10]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 660.
+(hyperref)                removing `math shift' on input line 700.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 660.
+(hyperref)                removing `math shift' on input line 700.
 
-[10] [11]
-<Figures/density_scheme_1.pdf, id=685, 341.275pt x 170.6375pt>
+[11] [12]
+<Figures/density_scheme_1.pdf, id=705, 341.275pt x 170.6375pt>
 File: Figures/density_scheme_1.pdf Graphic file (type pdf)
 <use Figures/density_scheme_1.pdf>
-Package pdftex.def Info: Figures/density_scheme_1.pdf  used on input line 744.
+Package pdftex.def Info: Figures/density_scheme_1.pdf  used on input line 784.
 (pdftex.def)             Requested size: 273.02036pt x 136.51016pt.
- [12]
-<Figures/density_scheme_2.pdf, id=698, 341.275pt x 170.6375pt>
+ [13]
+<Figures/density_scheme_2.pdf, id=718, 341.275pt x 170.6375pt>
 File: Figures/density_scheme_2.pdf Graphic file (type pdf)
 <use Figures/density_scheme_2.pdf>
-Package pdftex.def Info: Figures/density_scheme_2.pdf  used on input line 780.
+Package pdftex.def Info: Figures/density_scheme_2.pdf  used on input line 820.
 (pdftex.def)             Requested size: 273.02036pt x 136.51016pt.
- [13 <./Figures/density_scheme_1.pdf>] [14 <./Figures/density_scheme_2.pdf>] [1
-5]
+ [14 <./Figures/density_scheme_1.pdf>] [15 <./Figures/density_scheme_2.pdf>] [1
+6]
 Chapter 2.
-<Figures/scattering_scheme.pdf, id=774, 314.8563pt x 180.1932pt>
+<Figures/scattering_scheme.pdf, id=795, 314.8563pt x 180.1932pt>
 File: Figures/scattering_scheme.pdf Graphic file (type pdf)
 <use Figures/scattering_scheme.pdf>
-Package pdftex.def Info: Figures/scattering_scheme.pdf  used on input line 924.
+Package pdftex.def Info: Figures/scattering_scheme.pdf  used on input line 964.
 
 (pdftex.def)             Requested size: 314.85551pt x 180.19275pt.
 1: section
-[16
+[17
 
-] [17 <./Figures/scattering_scheme.pdf>] [18] [19] [20]
-Overfull \hbox (6.75182pt too wide) in paragraph at lines 1099--1099
+] [18 <./Figures/scattering_scheme.pdf>] [19] [20] [21]
+Overfull \hbox (6.75182pt too wide) in paragraph at lines 1139--1139
 []\T1/cmr/bx/n/17.28 The coupled-reaction-channels method for the
  []
 
-[21] [22]
-<Figures/dwba_scheme.pdf, id=938, 285.065pt x 227.85126pt>
+[22] [23]
+<Figures/dwba_scheme.pdf, id=958, 285.065pt x 227.85126pt>
 File: Figures/dwba_scheme.pdf Graphic file (type pdf)
 <use Figures/dwba_scheme.pdf>
-Package pdftex.def Info: Figures/dwba_scheme.pdf  used on input line 1225.
+Package pdftex.def Info: Figures/dwba_scheme.pdf  used on input line 1265.
 (pdftex.def)             Requested size: 228.0523pt x 182.28123pt.
- [23] [24 <./Figures/dwba_scheme.pdf>] [25] [26] [27] [28]
-<Figures/df_scheme.pdf, id=1020, 285.065pt x 170.6375pt>
+ [24] [25 <./Figures/dwba_scheme.pdf>] [26] [27] [28] [29]
+<Figures/df_scheme.pdf, id=1040, 285.065pt x 170.6375pt>
 File: Figures/df_scheme.pdf Graphic file (type pdf)
 <use Figures/df_scheme.pdf>
-Package pdftex.def Info: Figures/df_scheme.pdf  used on input line 1523.
+Package pdftex.def Info: Figures/df_scheme.pdf  used on input line 1563.
 (pdftex.def)             Requested size: 228.0523pt x 136.51016pt.
- [29 <./Figures/df_scheme.pdf>] [30]
+ [30 <./Figures/df_scheme.pdf>] [31]
 Chapter 3.
 1: section
-[31
+[32
 
-] [32]
-<Figures/he0_the3D.jpg, id=1092, 155.66959pt x 199.24838pt>
+] [33]
+<Figures/he0_the3D.jpg, id=1112, 155.66959pt x 199.24838pt>
 File: Figures/he0_the3D.jpg Graphic file (type jpg)
 <use Figures/he0_the3D.jpg>
-Package pdftex.def Info: Figures/he0_the3D.jpg  used on input line 1632.
+Package pdftex.def Info: Figures/he0_the3D.jpg  used on input line 1672.
 (pdftex.def)             Requested size: 93.40245pt x 119.54994pt.
-<Figures/he0_theCP.jpg, id=1093, 180.675pt x 204.3073pt>
+<Figures/he0_theCP.jpg, id=1113, 180.675pt x 204.3073pt>
 File: Figures/he0_theCP.jpg Graphic file (type jpg)
 <use Figures/he0_theCP.jpg>
-Package pdftex.def Info: Figures/he0_theCP.jpg  used on input line 1633.
+Package pdftex.def Info: Figures/he0_theCP.jpg  used on input line 1673.
 (pdftex.def)             Requested size: 108.40582pt x 122.58531pt.
-<Figures/li0_the3D.jpg, id=1097, 155.30823pt x 198.88704pt>
+<Figures/li0_the3D.jpg, id=1117, 155.30823pt x 198.88704pt>
 File: Figures/li0_the3D.jpg Graphic file (type jpg)
 <use Figures/li0_the3D.jpg>
-Package pdftex.def Info: Figures/li0_the3D.jpg  used on input line 1645.
+Package pdftex.def Info: Figures/li0_the3D.jpg  used on input line 1685.
 (pdftex.def)             Requested size: 93.18564pt x 119.33313pt.
-<Figures/li0_theCP.jpg, id=1098, 180.675pt x 204.3073pt>
+<Figures/li0_theCP.jpg, id=1118, 180.675pt x 204.3073pt>
 File: Figures/li0_theCP.jpg Graphic file (type jpg)
 <use Figures/li0_theCP.jpg>
-Package pdftex.def Info: Figures/li0_theCP.jpg  used on input line 1646.
+Package pdftex.def Info: Figures/li0_theCP.jpg  used on input line 1686.
 (pdftex.def)             Requested size: 108.40582pt x 122.58531pt.
-<Figures/be0_the3D.jpg, id=1105, 155.74185pt x 200.54926pt>
+<Figures/be0_the3D.jpg, id=1125, 155.74185pt x 200.54926pt>
 File: Figures/be0_the3D.jpg Graphic file (type jpg)
 <use Figures/be0_the3D.jpg>
-Package pdftex.def Info: Figures/be0_the3D.jpg  used on input line 1656.
+Package pdftex.def Info: Figures/be0_the3D.jpg  used on input line 1696.
 (pdftex.def)             Requested size: 93.44583pt x 120.33047pt.
-<Figures/be0_theCP.jpg, id=1106, 180.675pt x 204.3073pt>
+<Figures/be0_theCP.jpg, id=1126, 180.675pt x 204.3073pt>
 File: Figures/be0_theCP.jpg Graphic file (type jpg)
 <use Figures/be0_theCP.jpg>
-Package pdftex.def Info: Figures/be0_theCP.jpg  used on input line 1657.
+Package pdftex.def Info: Figures/be0_theCP.jpg  used on input line 1697.
 (pdftex.def)             Requested size: 108.40582pt x 122.58531pt.
- [33
+ [34
 
  <./Figures/he0_the3D.jpg> <./Figures/he0_theCP.jpg> <./Figures/li0_the3D.jpg> 
 <./Figures/li0_theCP.jpg>]
-<Figures/he0_theDD.pdf, id=1121, 180.675pt x 166.94371pt>
+<Figures/he0_theDD.pdf, id=1142, 180.675pt x 166.94371pt>
 File: Figures/he0_theDD.pdf Graphic file (type pdf)
 <use Figures/he0_theDD.pdf>
-Package pdftex.def Info: Figures/he0_theDD.pdf  used on input line 1672.
+Package pdftex.def Info: Figures/he0_theDD.pdf  used on input line 1712.
 (pdftex.def)             Requested size: 144.54018pt x 133.55513pt.
- [34 <./Figures/be0_the3D.jpg> <./Figures/be0_theCP.jpg> <./Figures/he0_theDD.p
+ [35 <./Figures/be0_the3D.jpg> <./Figures/be0_theCP.jpg> <./Figures/he0_theDD.p
 df>]
-<Figures/li0_theDD.pdf, id=1140, 180.675pt x 166.94371pt>
+<Figures/li0_theDD.pdf, id=1160, 180.675pt x 166.94371pt>
 File: Figures/li0_theDD.pdf Graphic file (type pdf)
 <use Figures/li0_theDD.pdf>
-Package pdftex.def Info: Figures/li0_theDD.pdf  used on input line 1684.
+Package pdftex.def Info: Figures/li0_theDD.pdf  used on input line 1724.
 (pdftex.def)             Requested size: 144.54018pt x 133.55513pt.
-<Figures/be0_theDD.pdf, id=1144, 180.675pt x 166.94371pt>
+<Figures/be0_theDD.pdf, id=1164, 180.675pt x 166.94371pt>
 File: Figures/be0_theDD.pdf Graphic file (type pdf)
 <use Figures/be0_theDD.pdf>
-Package pdftex.def Info: Figures/be0_theDD.pdf  used on input line 1695.
+Package pdftex.def Info: Figures/be0_theDD.pdf  used on input line 1735.
 (pdftex.def)             Requested size: 144.54018pt x 133.55513pt.
- [35 <./Figures/li0_theDD.pdf> <./Figures/be0_theDD.pdf
+ [36 <./Figures/li0_theDD.pdf> <./Figures/be0_theDD.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/be0_theDD.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
->] [36]
+>] [37]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1746.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 1746.
+(hyperref)                removing `math shift' on input line 1786.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1746.
+(hyperref)                removing `\alpha' on input line 1786.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 1746.
+(hyperref)                removing `math shift' on input line 1786.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 1746.
+(hyperref)                removing `\mathsurround' on input line 1786.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 1746.
+(hyperref)                removing `\z@' on input line 1786.
 
-[37]
-<Figures/he_df.pdf, id=1232, 180.675pt x 185.493pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 1786.
+
+[38]
+<Figures/he_df.pdf, id=1252, 180.675pt x 185.493pt>
 File: Figures/he_df.pdf Graphic file (type pdf)
 <use Figures/he_df.pdf>
-Package pdftex.def Info: Figures/he_df.pdf  used on input line 1764.
+Package pdftex.def Info: Figures/he_df.pdf  used on input line 1804.
 (pdftex.def)             Requested size: 180.67455pt x 185.49254pt.
- [38 <./Figures/he_df.pdf>]
-<Figures/he_elastic.pdf, id=1251, 122.4575pt x 156.585pt>
+ [39 <./Figures/he_df.pdf>]
+<Figures/he_elastic.pdf, id=1271, 122.4575pt x 156.585pt>
 File: Figures/he_elastic.pdf Graphic file (type pdf)
 <use Figures/he_elastic.pdf>
-Package pdftex.def Info: Figures/he_elastic.pdf  used on input line 1786.
+Package pdftex.def Info: Figures/he_elastic.pdf  used on input line 1826.
 (pdftex.def)             Requested size: 122.45718pt x 156.58461pt.
-<Figures/he_elastic_transfer.pdf, id=1252, 122.4575pt x 156.585pt>
+<Figures/he_elastic_transfer.pdf, id=1272, 122.4575pt x 156.585pt>
 File: Figures/he_elastic_transfer.pdf Graphic file (type pdf)
 <use Figures/he_elastic_transfer.pdf>
-Package pdftex.def Info: Figures/he_elastic_transfer.pdf  used on input line 17
-87.
+Package pdftex.def Info: Figures/he_elastic_transfer.pdf  used on input line 18
+27.
 (pdftex.def)             Requested size: 122.45718pt x 156.58461pt.
- [39 <./Figures/he_elastic.pdf> <./Figures/he_elastic_transfer.pdf
+ [40 <./Figures/he_elastic.pdf> <./Figures/he_elastic_transfer.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/he_elastic_transfer.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
 >]
-<Figures/he_transfer_scheme.pdf, id=1358, 227.85126pt x 85.31876pt>
+<Figures/he_transfer_scheme.pdf, id=1379, 227.85126pt x 85.31876pt>
 File: Figures/he_transfer_scheme.pdf Graphic file (type pdf)
 <use Figures/he_transfer_scheme.pdf>
-Package pdftex.def Info: Figures/he_transfer_scheme.pdf  used on input line 180
+Package pdftex.def Info: Figures/he_transfer_scheme.pdf  used on input line 184
 3.
 (pdftex.def)             Requested size: 227.8507pt x 85.31853pt.
- [40 <./Figures/he_transfer_scheme.pdf>]
+ [41 <./Figures/he_transfer_scheme.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1832.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 1832.
+(hyperref)                removing `math shift' on input line 1872.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1832.
+(hyperref)                removing `\alpha' on input line 1872.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 1832.
+(hyperref)                removing `math shift' on input line 1872.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 1832.
+(hyperref)                removing `\mathsurround' on input line 1872.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 1832.
+(hyperref)                removing `\z@' on input line 1872.
 
-<Figures/li_df.pdf, id=1383, 180.675pt x 185.493pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 1872.
+
+<Figures/li_df.pdf, id=1403, 180.675pt x 185.493pt>
 File: Figures/li_df.pdf Graphic file (type pdf)
 <use Figures/li_df.pdf>
-Package pdftex.def Info: Figures/li_df.pdf  used on input line 1839.
+Package pdftex.def Info: Figures/li_df.pdf  used on input line 1879.
 (pdftex.def)             Requested size: 180.67455pt x 185.49254pt.
-[41 <./Figures/li_df.pdf>]
-<Figures/li_elastic.pdf, id=1403, 122.4575pt x 156.585pt>
+[42 <./Figures/li_df.pdf>]
+<Figures/li_elastic.pdf, id=1423, 122.4575pt x 156.585pt>
 File: Figures/li_elastic.pdf Graphic file (type pdf)
 <use Figures/li_elastic.pdf>
-Package pdftex.def Info: Figures/li_elastic.pdf  used on input line 1856.
+Package pdftex.def Info: Figures/li_elastic.pdf  used on input line 1896.
 (pdftex.def)             Requested size: 122.45718pt x 156.58461pt.
-<Figures/li_elastic_transfer.pdf, id=1404, 119.44624pt x 156.585pt>
+<Figures/li_elastic_transfer.pdf, id=1424, 119.44624pt x 156.585pt>
 File: Figures/li_elastic_transfer.pdf Graphic file (type pdf)
 <use Figures/li_elastic_transfer.pdf>
 Package pdftex.def Info: Figures/li_elastic_transfer.pdf  used on input line 18
-57.
+97.
 (pdftex.def)             Requested size: 119.44594pt x 156.58461pt.
- [42 <./Figures/li_elastic.pdf> <./Figures/li_elastic_transfer.pdf
+ [43 <./Figures/li_elastic.pdf> <./Figures/li_elastic_transfer.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/li_elastic_transfer.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
 >]
-<Figures/li_transfer_scheme.pdf, id=1508, 227.85126pt x 85.31876pt>
+<Figures/li_transfer_scheme.pdf, id=1528, 227.85126pt x 85.31876pt>
 File: Figures/li_transfer_scheme.pdf Graphic file (type pdf)
 <use Figures/li_transfer_scheme.pdf>
-Package pdftex.def Info: Figures/li_transfer_scheme.pdf  used on input line 188
+Package pdftex.def Info: Figures/li_transfer_scheme.pdf  used on input line 192
 7.
 (pdftex.def)             Requested size: 227.8507pt x 85.31853pt.
- [43 <./Figures/li_transfer_scheme.pdf>] [44]
+ [44 <./Figures/li_transfer_scheme.pdf>] [45]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1909.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 1909.
+(hyperref)                removing `math shift' on input line 1949.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1909.
+(hyperref)                removing `superscript' on input line 1949.
 
-<Figures/dbe_fig3.pdf, id=1538, 285.065pt x 227.85126pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1949.
+
+<Figures/dbe_fig3.pdf, id=1558, 285.065pt x 227.85126pt>
 File: Figures/dbe_fig3.pdf Graphic file (type pdf)
 <use Figures/dbe_fig3.pdf>
-Package pdftex.def Info: Figures/dbe_fig3.pdf  used on input line 1925.
+Package pdftex.def Info: Figures/dbe_fig3.pdf  used on input line 1965.
 (pdftex.def)             Requested size: 233.3125pt x 186.4846pt.
-[45
+[46
 
  <./Figures/dbe_fig3.pdf>]
-Overfull \hbox (10.40485pt too wide) in alignment at lines 1939--1949
+Overfull \hbox (10.40485pt too wide) in alignment at lines 1979--1989
 [][] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1939--1953
+Underfull \hbox (badness 10000) in paragraph at lines 1979--1993
 
  []
 
 
-Overfull \hbox (7.48996pt too wide) in paragraph at lines 1957--1958
+Overfull \hbox (7.48996pt too wide) in paragraph at lines 1997--1998
 \T1/cmr/m/n/12 Cal-cu-la-tions were per-formed em-ploy-ing the FRESCO code [[][
-]58[][]] and the DWUCK5
+]64[][]] and the DWUCK5
  []
 
-<Figures/dbe_fig4.pdf, id=1589, 285.065pt x 227.85126pt>
+<Figures/dbe_fig4.pdf, id=1610, 285.065pt x 227.85126pt>
 File: Figures/dbe_fig4.pdf Graphic file (type pdf)
 <use Figures/dbe_fig4.pdf>
-Package pdftex.def Info: Figures/dbe_fig4.pdf  used on input line 1967.
+Package pdftex.def Info: Figures/dbe_fig4.pdf  used on input line 2007.
 (pdftex.def)             Requested size: 233.3125pt x 186.4846pt.
 
-Underfull \hbox (badness 3701) in paragraph at lines 1969--1969
+Underfull \hbox (badness 3701) in paragraph at lines 2009--2009
  []\T1/cmr/m/sc/10.95 Figure 3.14: |[] \T1/cmr/m/n/10 The cross sec-tions of in
 -elas-tic scat-ter-ing 
  []
 
-<Figures/dbe_fig5.pdf, id=1590, 203.76125pt x 194.7275pt>
+<Figures/dbe_fig5.pdf, id=1611, 203.76125pt x 194.7275pt>
 File: Figures/dbe_fig5.pdf Graphic file (type pdf)
 <use Figures/dbe_fig5.pdf>
-Package pdftex.def Info: Figures/dbe_fig5.pdf  used on input line 1975.
+Package pdftex.def Info: Figures/dbe_fig5.pdf  used on input line 2015.
 (pdftex.def)             Requested size: 173.19786pt x 165.51913pt.
 
-LaTeX Warning: Reference `potpar' on page 46 undefined on input line 1980.
+LaTeX Warning: Reference `potpar' on page 47 undefined on input line 2020.
 
-[46] [47 <./Figures/dbe_fig4.pdf> <./Figures/dbe_fig5.pdf>] [48]
-<Figures/dbe_fig6.pdf, id=1686, 285.065pt x 343.2825pt>
+[47] [48 <./Figures/dbe_fig4.pdf> <./Figures/dbe_fig5.pdf>] [49]
+<Figures/dbe_fig6.pdf, id=1706, 285.065pt x 343.2825pt>
 File: Figures/dbe_fig6.pdf Graphic file (type pdf)
 <use Figures/dbe_fig6.pdf>
-Package pdftex.def Info: Figures/dbe_fig6.pdf  used on input line 1999.
+Package pdftex.def Info: Figures/dbe_fig6.pdf  used on input line 2039.
 (pdftex.def)             Requested size: 228.0523pt x 274.62636pt.
-<Figures/dbe_fig7.pdf, id=1687, 285.065pt x 343.2825pt>
+<Figures/dbe_fig7.pdf, id=1707, 285.065pt x 343.2825pt>
 File: Figures/dbe_fig7.pdf Graphic file (type pdf)
 <use Figures/dbe_fig7.pdf>
-Package pdftex.def Info: Figures/dbe_fig7.pdf  used on input line 2010.
+Package pdftex.def Info: Figures/dbe_fig7.pdf  used on input line 2050.
 (pdftex.def)             Requested size: 199.54413pt x 240.2961pt.
- [49 <./Figures/dbe_fig6.pdf>] [50 <./Figures/dbe_fig7.pdf>] [51]
-<Figures/dbe_fig9.pdf, id=1824, 234.8775pt x 114.4275pt>
+ [50 <./Figures/dbe_fig6.pdf>] [51 <./Figures/dbe_fig7.pdf>] [52]
+<Figures/dbe_fig9.pdf, id=1845, 234.8775pt x 114.4275pt>
 File: Figures/dbe_fig9.pdf Graphic file (type pdf)
 <use Figures/dbe_fig9.pdf>
-Package pdftex.def Info: Figures/dbe_fig9.pdf  used on input line 2112.
+Package pdftex.def Info: Figures/dbe_fig9.pdf  used on input line 2152.
 (pdftex.def)             Requested size: 233.3125pt x 113.66594pt.
- [52]
-<Figures/dbe_fig8.pdf, id=1833, 483.8075pt x 342.27875pt>
+ [53]
+<Figures/dbe_fig8.pdf, id=1853, 483.8075pt x 342.27875pt>
 File: Figures/dbe_fig8.pdf Graphic file (type pdf)
 <use Figures/dbe_fig8.pdf>
-Package pdftex.def Info: Figures/dbe_fig8.pdf  used on input line 2135.
+Package pdftex.def Info: Figures/dbe_fig8.pdf  used on input line 2175.
 (pdftex.def)             Requested size: 387.04652pt x 273.82335pt.
- [53 <./Figures/dbe_fig9.pdf>] [54 <./Figures/dbe_fig8.pdf>]
-<Figures/dbe_fig10.pdf, id=1940, 341.43309pt x 256.0748pt>
+ [54 <./Figures/dbe_fig9.pdf>] [55 <./Figures/dbe_fig8.pdf>]
+<Figures/dbe_fig10.pdf, id=1960, 341.43309pt x 256.0748pt>
 File: Figures/dbe_fig10.pdf Graphic file (type pdf)
 <use Figures/dbe_fig10.pdf>
-Package pdftex.def Info: Figures/dbe_fig10.pdf  used on input line 2160.
+Package pdftex.def Info: Figures/dbe_fig10.pdf  used on input line 2200.
 (pdftex.def)             Requested size: 233.3125pt x 174.98817pt.
-<Figures/dbe_fig11.pdf, id=1944, 285.065pt x 227.85126pt>
+<Figures/dbe_fig11.pdf, id=1964, 285.065pt x 227.85126pt>
 File: Figures/dbe_fig11.pdf Graphic file (type pdf)
 <use Figures/dbe_fig11.pdf>
-Package pdftex.def Info: Figures/dbe_fig11.pdf  used on input line 2171.
+Package pdftex.def Info: Figures/dbe_fig11.pdf  used on input line 2211.
 (pdftex.def)             Requested size: 233.3125pt x 186.4846pt.
- [55 <./Figures/dbe_fig10.pdf>] [56 <./Figures/dbe_fig11.pdf>]
-Chapter 4.
+ [56 <./Figures/dbe_fig10.pdf>] [57 <./Figures/dbe_fig11.pdf>]
 1: section
-[57
+[58
 
 ]
 \openout2 = `Appendices/AppendixA.aux'.
@@ -1446,10 +1445,10 @@ Chapter 4.
  (Appendices/AppendixA.tex
 Appendix A.
 1: section
-[58
+[59
 
 
-] [59]) [60]
+] [60]) [61]
 \openout2 = `Appendices/AppendixB.aux'.
 
  (Appendices/AppendixB.tex
@@ -1459,47 +1458,45 @@ Underfull \vbox (badness 10000) detected at line 48
  []
 
 1: section
-[61
+[62
 
 
 
-] [62] [63] [64] [65] [66] [67]
+] [63] [64] [65] [66] [67] [68]
 Underfull \vbox (badness 10000) detected at line 293
  []
 
-[68] [69] [70] [71] [72] [73] [74] [75]
+[69] [70] [71] [72] [73] [74] [75] [76]
 Underfull \vbox (badness 10000) detected at line 593
  []
 
-[76] [77] [78] [79] [80] [81] [82]) [83]
+[77] [78] [79] [80] [81] [82] [83]) [84]
 1: section
-[84
+[85
 
 
-] [85]
-Overfull \hbox (8.43991pt too wide) in paragraph at lines 2204--2204
+] [86] [87]
+Overfull \hbox (8.43991pt too wide) in paragraph at lines 2257--2257
 []\T1/cmr/m/n/12 Golovkov, M., Ku-likauskas, V., Voronchev, V., Krasnopol'skii,
  V. & Kukulin,
  []
 
-[86] [87]
+[88]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-204.
-
-(C:\Users\CAMPIT\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+257.
+ (C:\Users\CAMPIT\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-[88]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2208.
- [89]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2208.
+[89] [90]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2261.
+ [91]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2261.
  (main.aux (Appendices/AppendixA.aux) (Appendices/AppendixB.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2208.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2208.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2261.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2261.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B4CC9B54D100A17B9426170FAE6547CD;8343.
-
+(rerunfilecheck)             Checksum: 66EFFA78BDAC3401D7D0E2E54EB00CD8;8255.
 
 LaTeX Warning: There were undefined references.
 
@@ -1508,10 +1505,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28547 strings out of 481199
- 595430 string characters out of 2905126
- 1104177 words of memory out of 3000000
- 43365 multiletter control sequences out of 15000+200000
+ 28569 strings out of 481199
+ 596171 string characters out of 2905126
+ 1108533 words of memory out of 3000000
+ 43380 multiletter control sequences out of 15000+200000
  570998 words of font info for 112 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,21n,89p,1820b,2958s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1561,9 +1558,9 @@ AMPIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C
 :/Users/CAMPIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
 y7.pfb><C:/Users/CAMPIT/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb>
-Output written on main.pdf (104 pages, 12374359 bytes).
+Output written on main.pdf (106 pages, 12383482 bytes).
 PDF statistics:
- 3053 PDF objects out of 3580 (max. 8388607)
- 409 named destinations out of 1000 (max. 500000)
+ 3072 PDF objects out of 3580 (max. 8388607)
+ 416 named destinations out of 1000 (max. 500000)
  491 words of extra memory for PDF output out of 10000 (max. 10000000)
 
