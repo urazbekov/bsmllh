@@ -2401,20 +2401,97 @@
     \field{year}{1977}
   \endentry
 
-  \entry{pomerantsevPrivate}{article}{}
-    \name{author}{1}{}{%
-      {{hash=PV}{%
-         family={Pomerantsev},
+  \entry{papadimitriou2011charge}{article}{}
+    \name{author}{6}{}{%
+      {{hash=PG}{%
+         family={Papadimitriou},
          familyi={P\bibinitperiod},
-         given={VN},
-         giveni={V\bibinitperiod},
+         given={Georgios},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kruppa},
+         familyi={K\bibinitperiod},
+         given={AT},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Michel},
+         familyi={M\bibinitperiod},
+         given={N},
+         giveni={N},
+      }}%
+      {{hash=NW}{%
+         family={Nazarewicz},
+         familyi={N\bibinitperiod},
+         given={W},
+         giveni={W},
+      }}%
+      {{hash=PM}{%
+         family={P{\l}oszajczak},
+         familyi={P\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=RJ}{%
+         family={Rotureau},
+         familyi={R\bibinitperiod},
+         given={J},
+         giveni={J},
       }}%
     }
-    \strng{namehash}{PV1}
-    \strng{fullhash}{PV1}
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{PG+1}
+    \strng{fullhash}{PGKAMNNWPMRJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{Private comunication}
+    \field{number}{5}
+    \field{pages}{051304}
+    \field{title}{Charge radii and neutron correlations in helium halo nuclei}
+    \field{volume}{84}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{2011}
+  \endentry
+
+  \entry{hussein2015low}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HM}{%
+         family={Hussein},
+         familyi={H\bibinitperiod},
+         given={Mahir},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DP}{%
+         family={Descouvemont},
+         familyi={D\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DT}{%
+         family={Druet},
+         familyi={D\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=CLF}{%
+         family={Canto},
+         familyi={C\bibinitperiod},
+         given={L\bibnamedelima Felipe},
+         giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HM+3}
+    \strng{fullhash}{HMDPDTCLF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{T1\bibrangedash 008}
+    \field{title}{Low-energy 9 Be+ 208 Pb scattering, breakup and fusion within
+  a four-body model}
+    \field{volume}{2015}
+    \field{journaltitle}{APS}
+    \field{year}{2015}
   \endentry
 
   \entry{antonov2005charge}{article}{}
@@ -2492,83 +2569,77 @@
     \field{year}{2005}
   \endentry
 
-  \entry{egelhof2003nuclear}{incollection}{}
-    \true{moreauthor}
-    \true{morelabelname}
-    \name{author}{10}{}{%
-      {{hash=EP}{%
-         family={Egelhof},
-         familyi={E\bibinitperiod},
-         given={P},
-         giveni={P},
+  \entry{tanihata1985measurements}{article}{}
+    \name{author}{9}{}{%
+      {{hash=TI}{%
+         family={Tanihata},
+         familyi={T\bibinitperiod},
+         given={I},
+         giveni={I},
       }}%
-      {{hash=AG}{%
-         family={Alkhazov},
-         familyi={A\bibinitperiod},
-         given={GD},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=AM}{%
-         family={Andronenko},
-         familyi={A\bibinitperiod},
-         given={MN},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=BA}{%
-         family={Bauchet},
-         familyi={B\bibinitperiod},
-         given={A},
-         giveni={A},
-      }}%
-      {{hash=DA}{%
-         family={Dobrovolsky},
-         familyi={D\bibinitperiod},
-         given={AV},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=FS}{%
-         family={Fritz},
-         familyi={F\bibinitperiod},
-         given={S},
-         giveni={S},
-      }}%
-      {{hash=GG}{%
-         family={Gavrilov},
-         familyi={G\bibinitperiod},
-         given={GE},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=GH}{%
-         family={Geissel},
-         familyi={G\bibinitperiod},
+      {{hash=HH}{%
+         family={Hamagaki},
+         familyi={H\bibinitperiod},
          given={H},
          giveni={H},
       }}%
-      {{hash=GC}{%
-         family={Gross},
-         familyi={G\bibinitperiod},
-         given={C},
-         giveni={C},
+      {{hash=HO}{%
+         family={Hashimoto},
+         familyi={H\bibinitperiod},
+         given={Oe},
+         giveni={O\bibinitperiod},
       }}%
-      {{hash=KA}{%
-         family={Khanzadeev},
+      {{hash=SY}{%
+         family={Shida},
+         familyi={S\bibinitperiod},
+         given={Y},
+         giveni={Y},
+      }}%
+      {{hash=YN}{%
+         family={Yoshikawa},
+         familyi={Y\bibinitperiod},
+         given={N},
+         giveni={N},
+      }}%
+      {{hash=SK}{%
+         family={Sugimoto},
+         familyi={S\bibinitperiod},
+         given={K},
+         giveni={K},
+      }}%
+      {{hash=YO}{%
+         family={Yamakawa},
+         familyi={Y\bibinitperiod},
+         given={O},
+         giveni={O},
+      }}%
+      {{hash=KT}{%
+         family={Kobayashi},
          familyi={K\bibinitperiod},
-         given={AV},
-         giveni={A\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=TN}{%
+         family={Takahashi},
+         familyi={T\bibinitperiod},
+         given={N},
+         giveni={N},
       }}%
     }
     \list{publisher}{1}{%
-      {Springer}%
+      {APS}%
     }
-    \strng{namehash}{EP+1}
-    \strng{fullhash}{EPAGAMBADAFSGGGHGCKA+1}
+    \strng{namehash}{TI+1}
+    \strng{fullhash}{TIHHHOSYYNSKYOKTTN1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{booktitle}{Exotic Nuclei and Atomic Masses}
-    \field{pages}{61\bibrangedash 67}
-    \field{title}{Nuclear-matter distributions of halo nuclei from elastic
-  proton scattering in inverse kinematics}
-    \field{year}{2003}
+    \field{number}{24}
+    \field{pages}{2676}
+    \field{title}{Measurements of interaction cross sections and nuclear radii
+  in the light p-shell region}
+    \field{volume}{55}
+    \field{journaltitle}{Physical Review Letters}
+    \field{year}{1985}
   \endentry
 
   \entry{hirai2011clustering}{article}{}
@@ -2611,6 +2682,22 @@
     \field{volume}{83}
     \field{journaltitle}{Physical Review C}
     \field{year}{2011}
+  \endentry
+
+  \entry{pomerantsevPrivate}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PV}{%
+         family={Pomerantsev},
+         familyi={P\bibinitperiod},
+         given={VN},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PV1}
+    \strng{fullhash}{PV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Private comunication}
   \endentry
 
   \entry{fresco}{article}{}
