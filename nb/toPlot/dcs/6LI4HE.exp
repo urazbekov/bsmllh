@@ -1,13 +1,3 @@
-# Digitized by GSYS2.4.7
-# Date =  24.Nov.2020,  21:46:0
-# Number of data = 34
-# set xrange[0.0, 180.0]
-# set yrange[1.0E-4, 10000.0]
-# Set Logscale y
-# MD5Fig : 98ab9fd9a4fccc130cc24a8dd32936e3
-# Axis_X : 3fc39d6c22334cf33fecd0214d0214d03fef1eae05078b513fecd0214d0214d0
-# Axis_Y : 3fc35d0b915a070b3fe58748d8748d873fc35d0b915a070b3f92bb512bb512bb
-#     x           y           dy         -dy
  9.4964E+00  1.0144E+03  0.0000E+00   0.0000E+00
  1.1655E+01  2.7213E+02  0.0000E+00   0.0000E+00
  1.4676E+01  6.5113E+01  0.0000E+00   0.0000E+00

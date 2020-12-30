@@ -27,7 +27,7 @@
 \contentsline {subsection}{\numberline {3.3.2}Elastic transfer}{39}{subsection.165}%
 \contentsline {section}{\numberline {3.4}The $\alpha $ + \textsuperscript {6}Li\xspace nuclear reactions }{41}{section.170}%
 \contentsline {subsection}{\numberline {3.4.1}Elastic scattering}{41}{subsection.171}%
-\contentsline {subsection}{\numberline {3.4.2}Elastic transfer}{42}{subsection.174}%
+\contentsline {subsection}{\numberline {3.4.2}Elastic transfer}{43}{subsection.174}%
 \contentsline {section}{\numberline {3.5}The d + $^9$Be nuclear reactions}{45}{section.176}%
 \contentsline {subsection}{\numberline {3.5.1}The elastic channel}{45}{subsection.177}%
 \contentsline {subsection}{\numberline {3.5.2}Inelastic scattering}{46}{subsection.182}%
