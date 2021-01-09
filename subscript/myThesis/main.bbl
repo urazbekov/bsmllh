@@ -2239,6 +2239,48 @@
     \field{year}{1979}
   \endentry
 
+  \entry{satchler1983}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SG}{%
+         family={Satchler},
+         familyi={S\bibinitperiod},
+         given={G.R.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Clarendon Press}%
+    }
+    \strng{namehash}{SG1}
+    \strng{fullhash}{SG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9780198512691}
+    \field{series}{International series of monographs on physics}
+    \field{title}{Direct Nuclear Reactions}
+    \field{year}{1983}
+  \endentry
+
+  \entry{brown2017}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BA}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={A.B.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Michigan State University}%
+    }
+    \strng{namehash}{BA1}
+    \strng{fullhash}{BA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Lecture Notes in Nuclear Structure Physics}
+    \field{year}{2017}
+  \endentry
+
   \entry{de1963nuclear}{misc}{}
     \name{author}{2}{}{%
       {{hash=dSA}{%

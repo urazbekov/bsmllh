@@ -159,12 +159,12 @@ headsepline, % Uncomment to get a line under the header
 \noindent I, \authorname, declare that this thesis titled, \enquote{\ttitle} and the work presented in it are my own. I confirm that:
 
 \begin{itemize} 
-\item This work was done wholly or mainly while in candidature for a research degree at this University.
-\item Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
+\item This work was done wholly while in candidature for a research degree at \univname.
+%\item Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
 \item Where I have consulted the published work of others, this is always clearly attributed.
 \item Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
 \item I have acknowledged all main sources of help.
-\item Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
+%\item Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
 \end{itemize}
  
 \noindent Signed:\\
@@ -198,17 +198,19 @@ By the love of God, the nations are created, and you love them like yourself. Lo
 
 In this work, the following light weakly bound atomic nuclei are studied: $^6$He, $^6$Li and $^9$Be. 
 A three-body model $\alpha$ + 2N for $^6$He and $^6$Li, and 2$\alpha$ + N model for $^9$Be are applied. 
-The wave function of the three-body system is obtained within the framework of variational calculations based on the Gaussian basis. 
+The wave function of the three-body system is obtained within the framework of the Stochastic Variational Model based on the Gaussian basis. 
 The interaction potentials for three-body systems have a Pauli projector, which excludes forbidden states. 
 An analytical expression is obtained for the density distribution function of nuclear matter using the three-body wave function. 
 The root-mean-square matter radii of the $^6$He, $^6$Li, $^9$Be nuclei are calculated and given comparisons with other sources.
 
-The interactions of $^6$He, $^6$Li and $^9$Be with the simplest particles, such as $\alpha$, $d$, $^3$He are studied in detail. 
-On the basis of the calculated density distribution functions of the complex projectiles nuclear matter, the folding interaction potentials are obtained, and the comparison with global optical potentials are performed. 
+The interactions of $^6$He, $^6$Li and $^9$Be with the simplest particles, such as $\alpha$, $d$ are studied in detail. 
+On the basis of the calculated density distribution functions of the complex projectiles nuclear matter, the folding interaction potentials are obtained
+%, and the comparison with global optical potentials are performed
+. 
 The resulting folding interaction potential is applied to calculate the differential cross sections of elastic scattering. 
 Using the Coupled Channels approach for the $^9$Be induced reactions role  of different reaction channels is studied, and deformation parameters are derived. 
-Comparisons of theoretical cross sections with experimental data in inelastic channels for nuclear reactions $\alpha$ + $^9$Be, $d$ + $^9$Be are given. 
-Within the framework of the Coupled Reaction Channels method, the cross sections for nuclear reactions of single-nucleon and cluster transfers are calculated taking into account the internal structure of the $^6$He, $^6$Li and $^9$Be nuclei . 
+Comparisons of theoretical cross sections with experimental data in inelastic channels for nuclear reaction $d$ + $^9$Be $\rightarrow$ $d$ + $^9$Be$^*$ are given. 
+Within the framework of the Coupled Reaction Channels method, the cross sections for nuclear reactions of single-nucleon and cluster transfers are calculated taking into account the internal structure of the $^6$He, $^6$Li and $^9$Be nuclei. 
 %Features of the internal structure of these nuclei in direct nuclear reactions are manifested in their mechanism of transfer of clusters and nucleons. 
 The mechanisms are revealed providing the contribution to the transfer of clusters and nucleons in the reactions induced by the $^6$He, $^6$Li and $^9$Be.
 
@@ -251,13 +253,18 @@ I also dedicate my big thanks to my wife Mervet, who has always supported me at 
 
 \begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
 
+NCSM & No Core Shell Model \\
+RGM & Resonating Group Method \\
+GCM & Generator Coordinate Method  \\
+SVM & Stochastic Variational Method \\
+DWBA & distorted wave Born approximation\\
+CRC & coupled reaction channels \\
 OM & optical model\\
 DF & double folding\\
 CC & coupled channel \\
-CRC & coupled reaction channels \\
-DWBA & distorted wave Born approximation\\
 SA & spectroscopic amplitude \\
 cm & center of mass \\
+rms & root-mean-square \\
 
 
 \end{abbreviations}
@@ -269,9 +276,10 @@ cm & center of mass \\
 \begin{constants}{lr@{${}={}$}l} % The list of physical constants is a three column table
 
 % The \SI{}{} command is provided by the siunitx package, see its documentation for instructions on how to use it
+%Constant Name & $Symbol$ & $Constant Value$ with units\\
+Elementary electric charge & $e$ & 1.602 $\cdot~10^{-16}$ C \\
+Reduced Planck constant & $\hbar$ & 6.582$ \cdot~10^{-16}$ eV$\cdot$s
 
-Speed of Light & $c_{0}$ & \SI{2.99792458e8}{\meter\per\second} (exact)\\
-Constant Name & $Symbol$ & $Constant Value$ with units\\
 
 \end{constants}
 
@@ -281,13 +289,20 @@ Constant Name & $Symbol$ & $Constant Value$ with units\\
 
 \begin{symbols}{lll} % Include a list of Symbols (a three column table)
 
-%$a$ & distance & \si{\meter} \\
 %$P$ & power & \si{\watt} (\si{\joule\per\second}) \\
 Symbol & Name & Unit \\
 
 \addlinespace % Gap to separate the Roman symbols from the Greek
 
-$\omega$ & angular frequency & \si{\radian} \\
+$r$ & distance & fm \\
+$k$ & wavenumber & fm$^{-1}$ \\
+$E$ & energy & MeV \\
+$\rho$ & density of nuclear matter  & fm$^{-3}$ \\
+$A$ & atomic mass & u \\
+$\sigma$ & cross section & mb\\
+%$\Omega$ & angular frequency & \si{\radian} \\
+${d \sigma \setminus d \Omega}$ & differential cross section & ${\rm{mb}}\setminus{\rm{sr}}$ 
+
 
 \end{symbols}
 
@@ -351,12 +366,13 @@ For scattering problems, the RGM can be applied rather straightforwardly because
  In this work a negative-parity band was found, electromagnetic transition probabilities and partial widths of molecular states were calculated.
  
 
-In addition to the above theoretical approaches, there is a variational method \cite{kukulin1977stochastic, voronchev1994study, kukulin1986detailed, kukulin1984detailed}. 
-The method uses the Gaussian function as a basis function, which is convenient for analytical deriving matrix elements of the Hamiltonian. The corresponding Hamiltonian contains a Pauli projector \cite{kukulin1978orthogonal}, that removes forbidden states. 
+In addition to the above theoretical approaches, there is the Stochastic Variational Method (SVM) \cite{kukulin1977stochastic, voronchev1994study, kukulin1986detailed, kukulin1984detailed}. 
+The SVM uses the Gaussian function as a basis function, which is convenient for analytical deriving matrix elements of the Hamiltonian. 
+The corresponding Hamiltonian contains a Pauli projector \cite{kukulin1978orthogonal}, that removes forbidden states. 
 The variational method describes well the internal structures of \he, \li and \be \cite{kukulin1984detailed, kukulin1986detailed, voronchev1994study}. 
 In particular, the electromagnetic properties, geometric parameters and configuration weights are in good agreement with the methods, where they are obtained by real solutions of three-body problems. 
 
-To describe the elastic scattering in the field of a complex potential, one usually uses the Optical Model, first presented in Ref. \cite{feshbach1958optical}. Within the framework of this model, the nucleus is considered as a transparent substance that has the ability to absorb. In practice, this method describes the experimental data well providing the direct information on the nucleus-nucleus interaction potential.
+To describe the elastic scattering in the field of a complex potential, one usually uses the Optical Model (OM), first presented in Ref. \cite{feshbach1958optical}. Within the framework of this model, the nucleus is considered as a transparent substance that has the ability to absorb. In practice, this method describes the experimental data well providing the direct information on the nucleus-nucleus interaction potential.
 However, the ambiguity of the optical potential parameters reduces the merits of optical model.
 To study the inelastic channels, transfer reactions and their use to describe experimental data the Distorted Wave Born Approximation (DWBA) method has been successfully applied \cite{satchler1960gamma}.
 The DWBA method proved to be appropriate and successful in describing the cross section of nuclear reactions involving ground and low-lying excited nuclear states of single particle type as well as collective nature.
@@ -410,8 +426,8 @@ In the present work, the three-body structure of nuclei and their role in the me
 
 This work is organized as follows. The first chapter is devoted to an introduction to the three-body model based on the SVM method. This chapter details the advantage of using the Gaussian basis function, the Hamiltonian, which includes the Pauli principle, the transformation of the basis function, and provides formulas for calculating the density function of nuclear matter within the three-body model. 
 The next chapter presents widely used theoretical approaches to describe the scattering wave function. 
-Methods for calculating differential cross sections of elastic (Optical model), inelastic (Coupled channel) and nuclear transmission reactions (Coupled Reactions Channels) are presented here. 
-For a complete understanding of how one-particle spectroscopic amplitudes are calculated within the framework of the shell model used in CRC calculations, a separate section is devoted.
+Methods for calculating differential cross sections  are presented. For elastic scattering -- Optical model, inelastic scattering -- Coupled channel, and nuclear transfer reactions -- Coupled Reactions Channels. 
+For a complete understanding of how one-particle spectroscopic amplitudes (SA) are calculated within the framework of the shell model used in CRC calculations, a separate section is devoted.
 Details of building the potential of interaction in the framework of double folding are presented.
 The last third chapter presents the results of calculations. 
 In this chapter the geometric structure of the obtained three-body wave function is illustrated. 
@@ -510,7 +526,7 @@ The three body pseudo-Hamiltonian including kinetic energy and pseudo potentials
 This approach, so-called the method of orthogonalizing pseudo-potentials, was previously developed by the group of V. Kukulin \cite{kukulin1978orthogonal}, and is widely used not only in the construction of the wave function of the bound state, but also in the scattering theory \cite{blokhintsev1993determination, tursunov2016theoretical}.
 
  \section{Transformation of the basis function }
-The main advantage of the basis function  (\ref{subwf}) ofrm is the simplicity of the wave function transformation to an alternative set of Jacobi coordinates.
+The main advantage of the basis function  (\ref{subwf}) ofrm is the simplicity of the wave function transformation to an alternative set of Jacobi coordinates \cite{suzuki1998stochastic}.
 This transformation may be expressed as follows:
 \begin{equation}
 \begin{pmatrix}
@@ -936,7 +952,7 @@ where $\ell=\lambda_1+\lambda_2+l_1+l_2$, and the sum is carried out in conditio
 %----------------------------------------------------------------------------------------
 
 \section{Description of elastic scattering}
-Descriptions of the scattering of two nuclei are considered in this chapter when the interaction between them is a potential $U$ which may depend on the spins of the two nuclei but not on their internal coordinates. Thus, it cannot excite the nuclei internally or cause the transfer between them. It can only change their relative motion and, perhaps, reorient spins to each other or to the orbital motion. In general, $U$ will be complex. 
+Descriptions of the scattering of two nuclei are considered in this chapter when the interaction between them is a potential $U$ which may depend on the spins of the two nuclei but not on their internal coordinates. Thus, it cannot excite the nuclei internally or cause the transfer between them. It can only change their relative motion and, perhaps, reorient spins to each other or to the orbital motion. In general, $U$ will be complex \cite{satchler1983}. 
 
 In the case of the colliding the  $a$ + $A$  particles without spin the potential $U\left( r \right)$ is central, depending only on the magnitude of the channel coordinate ${\bf r}$.
 The corresponding Shr\"{o}dinger equation may be written explicitly
@@ -986,14 +1002,14 @@ for radial part only is written as
 \end{equation}
 where $j_L \left(kr \right)$ is the usual spherical Bessel function. The $\chi_L \left( k,r \right)$ radial function satisfies the radial Shr\"{o}dinger equation
 \begin{equation}
-\left( \nabla_r + k^2 - \frac{L(L+1)}{r^2} - \frac{2 \mu}{\hbar2} U \left( r \right)\right) \chi_L \left( k,r \right) =0,
+\left( \nabla_r + k^2 - \frac{L(L+1)}{r^2} - \frac{2 \mu}{\hbar^2} U \left( r \right)\right) \chi_L \left( k,r \right) =0,
 \label{es_she_radial}
 \end{equation}
 where $k^2 = \frac{2\mu E}{\hbar^2}$.
 
 In the case of the interaction potential has a more sophisticated form, including both Coulomb and nuclear short-range  potentials, the radial Shr\"{o}dinger equation (\ref{es_she_radial}) may be rewritten as
 \begin{equation}
-\left( \nabla_r + k^2 - \frac{2 \eta k}{r} - \frac{L(L+1)}{r^2} - \frac{2 \mu}{\hbar2} U \left( r \right) \right) \chi_L \left( k,r \right) =0,
+\left( \nabla_r + k^2 - \frac{2 \eta k}{r} - \frac{L(L+1)}{r^2} - \frac{2 \mu}{\hbar^2} U \left( r \right) \right) \chi_L \left( k,r \right) =0,
 \label{es_she2}
 \end{equation}
 where $\eta$ is the usual Sommerfeld parameter with the $Z$ charge numbers
@@ -1304,8 +1320,8 @@ This means that within this model there is only one possible configuration of th
  \left[ \phi_b^I (\xi)  \times \phi_{lsj} ({\bf r}) \right]_{JM}
  \label{eq:composite_expansion}
  \end{equation}
- where the coefficients $\mathcal{A}_{lsj}^{IJ} $ are the so called coefficients of fractional parentage of spectroscopic amplitudes. 
- More information about the spectroscopic amplitudes will be introduced in the next section. 
+ where the coefficients $\mathcal{A}_{lsj}^{IJ} $ are the so called coefficients of fractional parentage or spectroscopic amplitudes. 
+ More information about the SA will be introduced in the next section. 
   The squared value of the amplitude is
  \begin{equation}
  S^{IJ}_{lsj} = \vert \mathcal{A}_{lsj}^{IJ}  \vert^2,
@@ -1333,7 +1349,7 @@ Using the Eq.\ref{eq:composite_expansion} the internal variable $\xi$ in the int
  
  
 \section{Spectroscopic Amplitudes within the Shell Model}
-Spectroscopic amplitudes for nuclear reactions can be obtained by calculations within the shell model. However, this approach is limited in calculating the amount of transferred particles. The calculation of matrix elements for the creation operator is suitable only in the case of the one-particle transfers, or at best two particle transfer. In nuclear reactions with the cluster transfer, one should use other theoretical approaches, or achieve certain values by fitting for the best reproduction of the observables.
+Spectroscopic amplitudes for nuclear reactions can be obtained by calculations within the shell model. However, this approach is limited in calculating the amount of transferred particles. The calculation of matrix elements for the creation operator is suitable only in the case of the one-particle transfers, or at best two particle transfer. In nuclear reactions with the cluster transfer, one should use other theoretical approaches, or achieve certain values by fitting for the best reproduction of the observables \cite{brown2017}.
 
 Observables for the removal or addition of a nucleon from a specific initial state to a
 specific final state are related to the matrix elements of the creation and destruction
@@ -1510,7 +1526,7 @@ The matrix elements in which the sum over final states is normalized to unity ar
 
 
 The reduced matrix elements of the creation and destruction operators
-are used to define the spectroscopic amplitudes associated with nuclear reactions.
+are used to define the SA associated with nuclear reactions.
 They are also the building blocks for the more complicated operators associated with
 one-body (such as electromagnetic and $\beta$-decay) and two-body transition amplitudes.
 
@@ -1896,7 +1912,7 @@ WS1-\li & 102.5       & 1.78      & 0.820     & 11.8         & 4.11      & 0.950
 \end{tabular*}
 \end{table}
 
-As mentioned in the previous section, the elastic collision mechanism prevails at the forward scattering angles. Beginning at an angle of 90 degrees, the contribution to the cross section is mainly due to the simultaneous transfer of two nucleons. It is worth noting here that two neutrons have the $nlj$ $2S_0$ configuration, which, possibly, leads to an oscillatory cross section. Ten times less is the contribution of the sequential transfer of neutrons, having the $1P_{\frac{3}{2}}$ configuration. Note that the spectroscopic amplitudes for two neutrons in \he, one neutron in $^5$He and in \he were taken to be equal to unity for the beginning. The results showed a difference in cross-sections for sequential and simultaneous transmissions of about ten. For the best reproduction of the experimental data, the spectroscopic amplitude of two neutrons was taken  $\mathcal{A}^{00}_{2S_0}=1.3$, while the others remained unchanged.
+As mentioned in the previous section, the elastic collision mechanism prevails at the forward scattering angles. Beginning at an angle of 90 degrees, the contribution to the cross section is mainly due to the simultaneous transfer of two nucleons. It is worth noting here that two neutrons have the $nlj$ $2S_0$ configuration, which, possibly, leads to an oscillatory cross section. Ten times less is the contribution of the sequential transfer of neutrons, having the $1P_{\frac{3}{2}}$ configuration. Note that the SA for two neutrons in \he, one neutron in $^5$He and in \he were taken to be equal to unity for the beginning. The results showed a difference in cross-sections for sequential and simultaneous transmissions of about ten. For the best reproduction of the experimental data, the SA of two neutrons was taken  $\mathcal{A}^{00}_{2S_0}=1.3$, while the others remained unchanged.
 
 Thus, it was possible to achieve good agreement between the calculated differential cross section, using the double-folding potential and the proposed transfer mechanisms, with the experimental data.
 
@@ -1970,7 +1986,7 @@ However, starting from 90$^\circ$ we see that the main contribution to the cross
 The difference from the reaction $ \alpha $ + \he, where two nucleons are transferred, the reaction $\alpha $ + \li consists reaction of the deuteron transfer, which has spin $S(d)=1$, therefore, and also in the spin structure of the composite nucleus \li = $ \alpha + d $. That is, according to the law of conservation of moments and parity, a deuteron can be transferred by $2S1$ and $2D1$ configurations.
 
 Calculations on the cross section showed that the cross section with the $2S1$ wave has an oscillatory character, as in the case with the elastic transfer reaction $\alpha$ + \he, then with the $2D1$ wave the cross section takes a smooth form. 
-The spectroscopic amplitude for the $2S1$ configuration of the deuteron in \li was taken $ \mathcal {A}^{10} _ {2S1} \simeq 0.7 $, and for the $2D1$ configuration of the transferred deuteron $ \mathcal{A}^ {10}_{2D1} \simeq 0.5 $, considering that this wave has a much smaller contribution to the structure \li (see, Tab. \ref{tab:variational_data}). Therefore, the resulting section is more or less smooth compared to the case with the elastic transfer reaction $\alpha$ + \he.
+The SA for the $2S1$ configuration of the deuteron in \li was taken $ \mathcal {A}^{10} _ {2S1} \simeq 0.7 $, and for the $2D1$ configuration of the transferred deuteron $ \mathcal{A}^ {10}_{2D1} \simeq 0.5 $, considering that this wave has a much smaller contribution to the structure \li (see, Tab. \ref{tab:variational_data}). Therefore, the resulting section is more or less smooth compared to the case with the elastic transfer reaction $\alpha$ + \he.
 As for the sequential transfer of the $d$ system, it has a contribution much less than the simultaneous transfer by one order of magnitude. This is when first neutron is transferred then proton. And the reverse order of transfer is greatly underestimated due to the Coulomb repulsion of proton with the $\alpha$-projectile.
 
 \clearpage
@@ -2087,17 +2103,17 @@ where $BE$ $-$ the binding energy of the transferred particle, $E_{com}^*,~E_{co
 \footnotesize Differential cross sections for the ${}^9$Be($d,t$)${}^{8}$Be$^*$ reactions at 19.5 and 35 MeV leading to different final states (labelled in the figure) in ${}^{8}$Be. The experimental data are shown in comparison with  theoretical results obtained within the CRC method.}
 \end{figure}
 
-The spectroscopic amplitude  $\mathcal{A}$ for the addition of a particle to a core with angular momentum $J_{core}$ to form a composite with $J_{com}$ is related to the matrix element of the creation operator~$\hat{a}^\dagger$:
+The SA  $\mathcal{A}$ for the addition of a particle to a core with angular momentum $J_{core}$ to form a composite with $J_{com}$ is related to the matrix element of the creation operator~$\hat{a}^\dagger$:
 %\cite{brown2017}:
 \begin{eqnarray}\label{eq:SA}
 \mathcal{A}_{Nlj} = \frac{\langle J_{com} \| \hat{a}^\dagger _{Nlj} \| J_{core}  \rangle}{\sqrt{2J_{com}+1}}
 %= (-)^{j+J-J'} \frac{\langle J_{core}  \| \hat{a} _{NL_J} \| J_{com}  \rangle}{\sqrt{2J+1}}
 \end{eqnarray}
-where $Nlj$ is the set of particle quantum numbers. The spectroscopic amplitudes for one particle states were calculated by means of the $ANTOINE$ code \cite{antoine}  using the effective Cohen-Kurath interaction for $p$-shell nuclei \cite{cohen1965}. The calculated spectroscopic amplitudes for the one-nucleon transfer reactions are listed in Table~\ref{dbe_SA}.
+where $Nlj$ is the set of particle quantum numbers. The spectroscopic amplitudes for one particle states were calculated by means of the $ANTOINE$ code \cite{antoine}  using the effective Cohen-Kurath interaction for $p$-shell nuclei \cite{cohen1965}. The calculated SA for the one-nucleon transfer reactions are listed in Table~\ref{dbe_SA}.
 
 \begin{table*}[tp]
 \footnotesize
-\caption{\label{dbe_SA} \footnotesize Spectroscopic amplitudes used in CRC calculations for the Composite = Core + Nucleon system. The one-nucleon spectroscopic amplitudes have been calculated by means of the $ANTOINE$ code \cite{antoine}. The alpha spectroscopic amplitudes were taken from  \cite{volya, volya2017}. }
+\caption{\label{dbe_SA} \footnotesize Spectroscopic amplitudes used in CRC calculations for the Composite = Core + Nucleon system. The one-nucleon SA have been calculated by means of the $ANTOINE$ code \cite{antoine}. The alpha spectroscopic amplitudes were taken from  \cite{volya, volya2017}. }
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llllllrl@{\extracolsep{\fill}}llllllr@{\extracolsep{\fill}}}
 \toprule
 Com & 2J$_{1}$ & Core & 2J$_{2}$ & N & 2J & SA &    & Com & 2J$_{1}$ & Core & 2J$_{2}$ & N & 2J & SA      \\

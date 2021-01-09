@@ -8,7 +8,7 @@
 \contentsline {table}{\numberline {3.2}{\ignorespaces Comparison the rms matter radii $\langle R_m^2 \rangle ^{\frac {1}{2}}$ obtained within the three-body model with other sources.\relax }}{37}{table.caption.160}%
 \contentsline {table}{\numberline {3.3}{\ignorespaces The parameters of the potentials used in OM calculations for both $\alpha $ + \textsuperscript {6}He\xspace and $\alpha $ + \textsuperscript {6}Li\xspace nuclear reactions. For more details, see the text\relax }}{41}{table.caption.169}%
 \contentsline {table}{\numberline {3.4}{\ignorespaces \footnotesize Parameterized double-folding potentials of the $d$+$^9$Be system used in the OM, CC and DWBA calculations.\relax }}{46}{table.caption.181}%
-\contentsline {table}{\numberline {3.5}{\ignorespaces \footnotesize Spectroscopic amplitudes used in CRC calculations for the Composite = Core + Nucleon system. The one-nucleon spectroscopic amplitudes have been calculated by means of the $ANTOINE$ code \cite {antoine}. The alpha spectroscopic amplitudes were taken from \cite {volya, volya2017}. \relax }}{51}{table.caption.191}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces \footnotesize Spectroscopic amplitudes used in CRC calculations for the Composite = Core + Nucleon system. The one-nucleon SA have been calculated by means of the $ANTOINE$ code \cite {antoine}. The alpha spectroscopic amplitudes were taken from \cite {volya, volya2017}. \relax }}{51}{table.caption.191}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {B.1}{\ignorespaces The three-body wave function parameters found by means of variational approach for the ground state of \textsuperscript {6}He\xspace \relax }}{61}{table.218}%
