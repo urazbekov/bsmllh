@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.2)  2 JAN 2021 16:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.2)  15 JAN 2021 11:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1272,11 +1272,11 @@ File: Figures/li_df.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/li_df.pdf  used on input line 1928.
 (pdftex.def)             Requested size: 180.67455pt x 185.49254pt.
 [41]
-<Figures/li_elastic.pdf, id=1422, 169.63374pt x 216.81pt>
+<Figures/li_elastic.pdf, id=1422, 122.4575pt x 156.585pt>
 File: Figures/li_elastic.pdf Graphic file (type pdf)
 <use Figures/li_elastic.pdf>
 Package pdftex.def Info: Figures/li_elastic.pdf  used on input line 1945.
-(pdftex.def)             Requested size: 135.70717pt x 173.44823pt.
+(pdftex.def)             Requested size: 122.45718pt x 156.58461pt.
 <Figures/li_elastic_transfer.pdf, id=1423, 164.615pt x 216.81pt>
 File: Figures/li_elastic_transfer.pdf Graphic file (type pdf)
 <use Figures/li_elastic_transfer.pdf>
@@ -1289,7 +1289,7 @@ c_transfer.pdf
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/li_elastic_transfe
 r.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Figures/li_transfer_scheme.pdf, id=1494, 227.85126pt x 85.31876pt>
+<Figures/li_transfer_scheme.pdf, id=1519, 227.85126pt x 85.31876pt>
 File: Figures/li_transfer_scheme.pdf Graphic file (type pdf)
 <use Figures/li_transfer_scheme.pdf>
 Package pdftex.def Info: Figures/li_transfer_scheme.pdf  used on input line 197
@@ -1308,7 +1308,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1998.
 
-<Figures/dbe_fig3.pdf, id=1520, 285.065pt x 227.85126pt>
+<Figures/dbe_fig3.pdf, id=1545, 285.065pt x 227.85126pt>
 File: Figures/dbe_fig3.pdf Graphic file (type pdf)
 <use Figures/dbe_fig3.pdf>
 Package pdftex.def Info: Figures/dbe_fig3.pdf  used on input line 2014.
@@ -1331,7 +1331,7 @@ Overfull \hbox (7.48996pt too wide) in paragraph at lines 2046--2047
 ]68[][]] and the DWUCK5
  []
 
-<Figures/dbe_fig4.pdf, id=1571, 285.065pt x 227.85126pt>
+<Figures/dbe_fig4.pdf, id=1596, 285.065pt x 227.85126pt>
 File: Figures/dbe_fig4.pdf Graphic file (type pdf)
 <use Figures/dbe_fig4.pdf>
 Package pdftex.def Info: Figures/dbe_fig4.pdf  used on input line 2056.
@@ -1342,41 +1342,41 @@ Underfull \hbox (badness 3701) in paragraph at lines 2058--2058
 -elas-tic scat-ter-ing 
  []
 
-<Figures/dbe_fig5.pdf, id=1572, 203.76125pt x 194.7275pt>
+<Figures/dbe_fig5.pdf, id=1597, 203.76125pt x 194.7275pt>
 File: Figures/dbe_fig5.pdf Graphic file (type pdf)
 <use Figures/dbe_fig5.pdf>
 Package pdftex.def Info: Figures/dbe_fig5.pdf  used on input line 2064.
 (pdftex.def)             Requested size: 173.19786pt x 165.51913pt.
 [46] [47 <./Figures/dbe_fig4.pdf> <./Figures/dbe_fig5.pdf>] [48]
-<Figures/dbe_fig6.pdf, id=1670, 285.065pt x 343.2825pt>
+<Figures/dbe_fig6.pdf, id=1695, 285.065pt x 343.2825pt>
 File: Figures/dbe_fig6.pdf Graphic file (type pdf)
 <use Figures/dbe_fig6.pdf>
 Package pdftex.def Info: Figures/dbe_fig6.pdf  used on input line 2088.
 (pdftex.def)             Requested size: 228.0523pt x 274.62636pt.
-<Figures/dbe_fig7.pdf, id=1671, 285.065pt x 343.2825pt>
+<Figures/dbe_fig7.pdf, id=1696, 285.065pt x 343.2825pt>
 File: Figures/dbe_fig7.pdf Graphic file (type pdf)
 <use Figures/dbe_fig7.pdf>
 Package pdftex.def Info: Figures/dbe_fig7.pdf  used on input line 2099.
 (pdftex.def)             Requested size: 199.54413pt x 240.2961pt.
  [49 <./Figures/dbe_fig6.pdf>] [50 <./Figures/dbe_fig7.pdf>] [51]
-<Figures/dbe_fig9.pdf, id=1808, 234.8775pt x 114.4275pt>
+<Figures/dbe_fig9.pdf, id=1833, 234.8775pt x 114.4275pt>
 File: Figures/dbe_fig9.pdf Graphic file (type pdf)
 <use Figures/dbe_fig9.pdf>
 Package pdftex.def Info: Figures/dbe_fig9.pdf  used on input line 2201.
 (pdftex.def)             Requested size: 233.3125pt x 113.66594pt.
  [52]
-<Figures/dbe_fig8.pdf, id=1817, 483.8075pt x 342.27875pt>
+<Figures/dbe_fig8.pdf, id=1842, 483.8075pt x 342.27875pt>
 File: Figures/dbe_fig8.pdf Graphic file (type pdf)
 <use Figures/dbe_fig8.pdf>
 Package pdftex.def Info: Figures/dbe_fig8.pdf  used on input line 2224.
 (pdftex.def)             Requested size: 387.04652pt x 273.82335pt.
  [53 <./Figures/dbe_fig9.pdf>] [54 <./Figures/dbe_fig8.pdf>]
-<Figures/dbe_fig10.pdf, id=1925, 341.43309pt x 256.0748pt>
+<Figures/dbe_fig10.pdf, id=1950, 341.43309pt x 256.0748pt>
 File: Figures/dbe_fig10.pdf Graphic file (type pdf)
 <use Figures/dbe_fig10.pdf>
 Package pdftex.def Info: Figures/dbe_fig10.pdf  used on input line 2249.
 (pdftex.def)             Requested size: 233.3125pt x 174.98817pt.
-<Figures/dbe_fig11.pdf, id=1929, 285.065pt x 227.85126pt>
+<Figures/dbe_fig11.pdf, id=1954, 285.065pt x 227.85126pt>
 File: Figures/dbe_fig11.pdf Graphic file (type pdf)
 <use Figures/dbe_fig11.pdf>
 Package pdftex.def Info: Figures/dbe_fig11.pdf  used on input line 2260.
@@ -1497,10 +1497,10 @@ ti1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti
 1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti24
 88.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1200
 .pfb>
-Output written on main.pdf (105 pages, 12983928 bytes).
+Output written on main.pdf (105 pages, 13001710 bytes).
 PDF statistics:
- 2382 PDF objects out of 2487 (max. 8388607)
- 1748 compressed objects within 18 object streams
+ 2407 PDF objects out of 2487 (max. 8388607)
+ 1765 compressed objects within 18 object streams
  419 named destinations out of 1000 (max. 500000)
  496 words of extra memory for PDF output out of 10000 (max. 10000000)
 
