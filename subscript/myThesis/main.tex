@@ -458,7 +458,7 @@ The wave function for the three-body system in the current work was calculated w
 \begin{itemize}
 \item electromagnetic properties;
 \item  low lying excitation spectra;
-\item root-mean-square charge radii $\langle r_{ch}\rangle^{1/2}$,  magnetic $\mu$, quadrupole $Q$ and octupole $\Omega$  moments;
+\item root-mean-square charge radii $\langle r_{ch}^2\rangle^{1/2}$,  magnetic $\mu$, quadrupole $Q$ and octupole $\Omega$  moments;
 \item processes of $^6$Li interaction with hadrons, including quasi-elastic scattering ($ \alpha $, 2$\alpha $), ($ p $, $ d $) and ($p$, $p\alpha$);
 \item high energy proton and the lightest nuclei scattering on $^6$Li
 \item scattering of $\pi^{\pm}$-mesons and $\mu$-capture by $^6$Li
@@ -473,13 +473,42 @@ Since this wave function was widely used, we chose it as the wave function to de
 \section{The basis function}
 
 %As an example, in this section the $2\alpha-n$ three body model of the $^9$Be nucleus is taken.
- The three-body wave function of the $^9$Be nucleus with total spin $ J $ and spin projection $ M_J $ is represented as
+Consider the three body system containing one boson, $k$, and two fermions, $p$ and $q$. 
+ A total wave function of this system with total spin $ J $ and spin projection $ M_J $ can be represented as
  \begin{equation}
- \Psi^{JM_J}= \sum_{i} C_{i} \psi_{i}^{JM_J} \left( k,pq \right).
+ \Psi^{JM_J}_{tot}= \phi_{\alpha}\left( {\bf r} \right) 
+ \Psi^{JM_J}\left( {\bf x}_k, {\bf y}_k \right).
  \label{totwf}
  \end{equation}
-For simplicity the Jacobi coordinates $ {\bf x}_k $ and $ {\bf y}_k $ are down, the symbols $ k $, $ p $ and $ q $ comply with the cluster indices (see Fig. \ref{fig:jacobiSet}), and the combination of indices ($ k $, $ pq $) corresponds to a certain choice of Jacobi coordinates $ {\bf x}_k $ and $ {\bf y}_k $ of the three-body system, where $ {\bf x}_k $ is a vector of the relative distance between the pair of particles $ pq $ and $ k $, and $ {\bf y}_k $ is the vector of the relative distance between the center of mass of the pair $ pq $ and the particle $ k $. 
-The coefficients $ C_{i} $ in Eq.~(\ ref {totwf}) are the parameters of the wave function expansion and are found as a result of solving the generalized eigenvalue problem. 
+Here, $\phi_{\alpha}\left( {\bf r} \right)$ -- internal wave function of the $\alpha$-particle, $\Psi^{JM_J}\left( {\bf x}_k, {\bf y}_k \right)$ -- wave function of the relative motion depending on the Jacobi coordinates $ {\bf x}_k $ and $ {\bf y}_k $. The vector $ {\bf x}_k $ is a vector of the relative distance between the pair of particles $ pq $ and $ k $, and $ {\bf y}_k $ is the vector of the relative distance between the center of mass of the pair $ pq $ and the particle $ k $. The wave function of relative motion may be expanded into a components as
+\begin{equation}
+\Psi^{JM_J}\left( {\bf x}_k, {\bf y}_k \right)=\sum_\gamma\Psi^{JM_J}_\gamma\left( {\bf x}_k, {\bf y}_k \right),
+\end{equation}
+where  $\gamma \equiv \{\lambda l L S\}$.
+The momenta $ \lambda $, $ l $ are the orbital momenta conjugated to the coordinates $ {\bf x} _k $ and $ {\bf y} _k $ respectively, $ L $ is the total orbital momentum of the system and $S$ is the total spin of the pair $pq$.  
+The each component defines spatial and spin parts as follow
+\begin{equation}
+\Psi^{JM_J}_\gamma\left( {\bf x}_k, {\bf y}_k \right) = \left[
+\Phi_L^\gamma \left({\bf x}_k, {\bf y}_k \right) \times
+\chi_S(pq)
+\right]_{JM_J}
+\end{equation}
+The spin function of the pair $pq$ is given by
+\begin{equation}
+\chi_{SM_S}(pq)=\left[ \chi_{\tfrac{1}{2}}(p) \times \chi_{\tfrac{1}{2}}(q)	\right]_{SM_S}.
+\end{equation}
+The spatial part of the wave function is then expressed as
+\begin{align}
+\Phi_{LM_L}^\gamma \left({\bf x}_k, {\bf y}_k \right)=&
+x^\lambda y^l 
+\sum_i C_i 
+exp\left( - \alpha_i^{(k)} x^2_k - \beta_i^{(k)} y^2_k \right)~
+\times \nonumber \\
+& \times \left[ 
+Y_\lambda \left(\hat{x}_k \right) \times Y_l \left(\hat{y}_k \right)
+\right]_{LM_L}.
+\end{align}
+Here, the coefficients $ C_{i} $ are the parameters of the wave function expansion and are found as a result of solving the generalized eigenvalue problem,  $ \alpha^{(k)} _ {i} $, $ \beta^{(k)}_{i}$ are the linear parameters of the three-body wave function. 
 
 \begin{figure}[b]
 \centering
@@ -1646,7 +1675,7 @@ $i$ & $N_i$, MeV &  ~ & ~ & ~ &$\mu_i$, $fm^{-1}$ \\
   
 As regards target nuclei, having cluster structure, the density distribution of nuclear matter are calculated by means of the three body wave function, and its details are set out in the Section \ref{section_density_function} .
 
-\chapter{Results and discussions}
+\chapter{The three-body wave functions and their properties}
 
 \section{The three-body wave functions}
 \label{section:3bwf}
@@ -1827,7 +1856,7 @@ The same test has been done for \li, the wave function parameters of which were 
 
 In the following calculations the components of three body wave function, contributing less than $10\%$, have been omitted (see Tab.\ref{tab:variational_data}), since the  influence in significantly on the results.
 
-
+\chapter{Helium-6}
 \section{The $\alpha$ + \he nuclear reactions }
 \subsection{Elastic scattering}
 
@@ -1917,7 +1946,7 @@ As mentioned in the previous section, the elastic collision mechanism prevails a
 Thus, it was possible to achieve good agreement between the calculated differential cross section, using the double-folding potential and the proposed transfer mechanisms, with the experimental data.
 
 
-
+\chapter{Lithium-6}
 \section{The $\alpha$ + \li nuclear reactions }
 \subsection{Elastic scattering}
 
@@ -1994,7 +2023,7 @@ As for the sequential transfer of the $d$ system, it has a contribution much les
 
 
 
-
+\chapter{Beryllium-9}
 \section{The d + $^9$Be nuclear reactions}
 
 \subsection{The elastic channel}
