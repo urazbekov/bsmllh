@@ -471,44 +471,71 @@ Since this wave function was widely used, we chose it as the wave function to de
 
 
 \section{The basis function}
-
-%As an example, in this section the $2\alpha-n$ three body model of the $^9$Be nucleus is taken.
-Consider the three body system containing one boson, $k$, and two fermions, $p$ and $q$. 
- A total wave function of this system with total spin $ J $ and spin projection $ M_J $ can be represented as
+Consider the three body system containing a boson $k$ and two fermions, $p$ and $q$. 
+ A total wave function of this system with total spin $ J $ and spin projection $ M $ can be represented as
  \begin{equation}
- \Psi^{JM_J}_{tot}= \phi_{\alpha}\left( {\bf r} \right) 
- \Psi^{JM_J}\left( {\bf x}_k, {\bf y}_k \right).
+ \Psi^{JM}_{tot}
+ = \phi\left( k \right) 
+ \Psi^{JM}\left( {\bf x}_k, {\bf y}_k \right).
  \label{totwf}
  \end{equation}
-Here, $\phi_{\alpha}\left( {\bf r} \right)$ -- internal wave function of the $\alpha$-particle, $\Psi^{JM_J}\left( {\bf x}_k, {\bf y}_k \right)$ -- wave function of the relative motion depending on the Jacobi coordinates $ {\bf x}_k $ and $ {\bf y}_k $. The vector $ {\bf x}_k $ is a vector of the relative distance between the pair of particles $ pq $ and $ k $, and $ {\bf y}_k $ is the vector of the relative distance between the center of mass of the pair $ pq $ and the particle $ k $. The wave function of relative motion may be expanded into a components as
+Here, $\phi\left( k \right)$ -- internal wave function of the $k$-particle, $\Psi^{JM}\left( {\bf x}_k, {\bf y}_k \right)$ -- wave function of the relative motion depending on the Jacobi coordinates $ {\bf x}_k $ and $ {\bf y}_k $. The vector $ {\bf x}_k $ is a vector of the relative distance between the pair of particles $ pq $ and $ k $, and $ {\bf y}_k $ is the vector of the relative distance between the center of mass of the pair $ pq $ and the particle $ k $ (see Fig. \ref{fig:jacobiSet}). The wave function of relative motion may be expanded into a components as
 \begin{equation}
-\Psi^{JM_J}\left( {\bf x}_k, {\bf y}_k \right)=\sum_\gamma\Psi^{JM_J}_\gamma\left( {\bf x}_k, {\bf y}_k \right),
+\Psi^{JM}\left( {\bf x}_k, {\bf y}_k \right)=\sum_\gamma\Psi_\gamma\left( {\bf x}_k, {\bf y}_k \right),
 \end{equation}
-where  $\gamma \equiv \{\lambda l L S\}$.
+where  $\gamma \equiv \{\lambda l L S J M\}$.
 The momenta $ \lambda $, $ l $ are the orbital momenta conjugated to the coordinates $ {\bf x} _k $ and $ {\bf y} _k $ respectively, $ L $ is the total orbital momentum of the system and $S$ is the total spin of the pair $pq$.  
 The each component defines spatial and spin parts as follow
-\begin{equation}
-\Psi^{JM_J}_\gamma\left( {\bf x}_k, {\bf y}_k \right) = \left[
-\Phi_L^\gamma \left({\bf x}_k, {\bf y}_k \right) \times
-\chi_S(pq)
-\right]_{JM_J}
-\end{equation}
-The spin function of the pair $pq$ is given by
-\begin{equation}
-\chi_{SM_S}(pq)=\left[ \chi_{\tfrac{1}{2}}(p) \times \chi_{\tfrac{1}{2}}(q)	\right]_{SM_S}.
-\end{equation}
-The spatial part of the wave function is then expressed as
 \begin{align}
-\Phi_{LM_L}^\gamma \left({\bf x}_k, {\bf y}_k \right)=&
+\Psi_\gamma\left( {\bf x}_k, {\bf y}_k \right) = & \left[
+\Phi^{(\lambda,l)}_L \left({\bf x}_k, {\bf y}_k \right) \otimes
+\chi_S(pq)
+\right]_{JM} =  \\
+=& 
+\sum_{M_L M_S} (LM_LSM_S | JM) ~
+\Phi^{(\lambda,l)}_{LM_L}\left( {\bf x}_k, {\bf y}_k \right)~
+\chi_{SM_S}(pq) \nonumber
+\end{align}
+The spin function of the pair ($pq$) is given by
+\begin{equation}
+\chi_{SM_S}(pq)=\left[ \chi_{\tfrac{1}{2}}(p) \otimes \chi_{\tfrac{1}{2}}(q)	\right]_{SM_S}.
+\end{equation}
+The spatial part of the wave function is chosen to be multidimensional Gaussian functions of the form
+\begin{align}
+\Phi^{(\lambda,l)}_{LM_L} \left({\bf x}_k, {\bf y}_k \right)=&
 x^\lambda y^l 
 \sum_i C_i 
-exp\left( - \alpha_i^{(k)} x^2_k - \beta_i^{(k)} y^2_k \right)~
+\exp\left( - \alpha_i^{(k)} x^2_k - \beta_i^{(k)} y^2_k \right)~
 \times \nonumber \\
 & \times \left[ 
-Y_\lambda \left(\hat{x}_k \right) \times Y_l \left(\hat{y}_k \right)
+Y_\lambda \left(\hat{x}_k \right) \otimes Y_l \left(\hat{y}_k \right)
 \right]_{LM_L}.
+\label{spatial_part}
 \end{align}
-Here, the coefficients $ C_{i} $ are the parameters of the wave function expansion and are found as a result of solving the generalized eigenvalue problem,  $ \alpha^{(k)} _ {i} $, $ \beta^{(k)}_{i}$ are the linear parameters of the three-body wave function. 
+Here, the coefficients $ C_{i} $ are the parameters of the wave function expansion and are found as a result of solving the generalized eigenvalue problem. 
+The linear parameters  $ \alpha^{(k)} _ {i} $, $ \beta^{(k)}_{i}$ 
+make the wave function more complete, if they are represented in the following form
+\begin{align}
+\alpha^{(k)} _ {i} = \alpha_0~ \tan 
+\left( \frac{\pi}{2} \frac{2i-1}{2N_\alpha} \right),
+ ~~~ i=1...N_\alpha \\
+\beta^{(k)} _ {i} = \beta_0~  \tan 
+\left( \frac{\pi}{2} \frac{2i-1}{2N_\beta} \right),
+~~~ i=1...N_\beta
+\end{align}
+Finally, the basis function for the three body system $(k,~pq)$ can be represented in form 
+\begin{align}
+\phi_{i}^{\gamma} \left(k, pq \right)=&
+C_i  x^\lambda y^l 
+\exp\left( - \tfrac{1}{2} \alpha_i^{(k)} x^2_k - \tfrac{1}{2} \beta_i^{(k)} y^2_k \right)~
+\phi \left( k \right) 
+\times \nonumber \\
+& \times \left[ \left[ 
+Y_\lambda \left(\hat{x}_k \right) \otimes Y_l \left(\hat{y}_k \right)
+\right]_{L} \otimes \chi_S (pq) \right]_{JM}.
+\label{basis_function_1}
+\end{align}
+Here, the coordinate arguments, ${\bf x}_k$ and ${\bf y}_k$,   are down for convenience.
 
 \begin{figure}[b]
 \centering
@@ -518,45 +545,55 @@ Here, the coefficients $ C_{i} $ are the parameters of the wave function expansi
 \label{fig:jacobiSet}
 \end{figure}
 
-The explicit form of the basis functions $ \psi_{i}^{\gamma} \left(k, pq \right) $ is chosen in the form of the multiplication of the spatial and spin wave functions:
+If the three body system consisted of a fermion $k$ and two boson $(pq)$, the total wave function (\ref{totwf}) may be rewritten as follows:
 \begin{equation}
-\psi_{i}^{JM_J}\left(k, pq \right) = \left[ \phi_{i}^{\gamma} \left(k, pq \right) 
-\times \chi^{S} \right] _{JM_{J}},
-\label{subwf}
-\end{equation}
-here the index $\gamma$ includes the quantum numbers $L \lambda l$. The spatial part $\phi_{i}^{\gamma} \left(k, pq \right) $ of the wave function (\ref {subwf}) is constructed using the Gaussian functions:
- \begin{equation}
- \phi_{i}^{\gamma} \left(k, pq \right) =
- x_{k}^{\lambda} y_{k}^{l} exp\left(- \tfrac{1}{2}\alpha^{(k)}_{i} x_{k}^{2} - \tfrac{1}{2} \beta^{(k)}_{i}  y_{k}^{2} \right) 
- \left[ Y_\lambda \left(  \hat{ \bf x}_k \right) \times Y_l \left( \hat{\bf y}_k \right) \right]_{LM_L},
- \label{radial_wf}
- \end{equation}
-where $ L $ and $ M_L $ are the total orbital momentum of the system and its projection, $ \lambda $, $ l $ are the orbital moments conjugated to the coordinates $ {\bf x} _k $ and $ {\bf y} _k $ respectively, $ \alpha^{(k)} _ {i} $, $ \beta^{(k)}_{i}$ are the linear parameters of the three-body wave function.
-%, the values of which are given in the work \ cite {voronchev1994analysis}.
+\Psi^{JM}_{tot} 
+ = \phi\left( p \right) 
+ \phi\left( q \right) 
+ \Psi^{JM}\left( {\bf x}_k, {\bf y}_k \right),
+\end{equation} 
+where $\phi\left( p \right)$ and $\phi\left( q \right) $ -- internal wave functions of the $p$ and $q$ particles correspondingly.
+The wave function of relative motion $\Psi^{JM}\left( {\bf x}_k, {\bf y}_k \right)$ has the similar form, except the spin part $\chi(k)_{\tfrac{1}{2}m_s}$. Thus, the basis function for the three body system having only one fermion $k$ can be expressed as
+\begin{align}
+\phi_{i}^{\gamma} \left(k, pq \right)=&
+C_i  x^\lambda y^l 
+\exp\left( - \alpha_i^{(k)} x^2_k - \beta_i^{(k)} y^2_k \right)~
+\phi\left( p \right) 
+ \phi\left( q \right) 
+\times \nonumber \\
+& \times \left[ \left[ 
+Y_\lambda \left(\hat{x}_k \right) \otimes Y_l \left(\hat{y}_k \right)
+\right]_{L} \otimes \chi(k)_{\tfrac{1}{2}} \right]_{JM}.
+\label{basis_function_2}
+\end{align}
 
-In order  to describe the three-body system within the model \cite{kukulin1977stochastic} one uses three pair pseudo-potential, taking into account forbidden states by the Pauli principle:
+A pair of the three body system may have forbidden states according to the principle Pauli. 
+For instance, lets say, the pair $(kp)$ has the state $f$ must be excluded.  
+This forbidden state $f$ is projected out by implementing the pseudo-potential \cite{kukulin1978orthogonal}:
 \begin{equation}
 \label{pseudopot}
-\widetilde{V}_{kp}=V_{kp}+\Delta_{kp},
+\widetilde{V}_{kp}=V_{kp}+\lambda \Gamma_f,
 \end{equation}
-where $V_{kp}$ is  an interaction potential of $kp$ subsystem, $\Delta_{kp}=\lambda \Gamma$ is an orthogonalizer, $\lambda$ -- constant and $\Gamma$ is a projector, which  for  forbidden state $f$ reads:
+where $V_{kp}$ is  a regular interaction potential between $p$ and $k$ particles,  $\lambda$ -- a constant usually equal to $10^5$. The operator $\Gamma_f$ is given by:
 \begin{equation}
 \label{projector}
-\Gamma=\Gamma(f)=\sum\limits_{m_f}\vert \phi_{fm_f} ({\mathbf x})\rangle \langle  \phi_{fm_f} ({\mathbf x'}) \vert \delta({\mathbf y - \mathbf y'}).
+\Gamma(f)=~
+\sum\limits_{m_f}\vert \phi_{fm_f} ({\mathbf x})\rangle~ 
+ \langle  \phi_{fm_f} ({\mathbf x'}) \vert ~
+ \delta({\mathbf y - \mathbf y'}).
 \end{equation}
-The Pauli principle plays a huge role in the structure of the nucleus, particularly it does not allow overlapping of two constituent particles. 
-
-The three body pseudo-Hamiltonian including kinetic energy and pseudo potentials looks like this
+So the three body Hamiltonian including kinetic energy and pseudo potentials looks as
 \begin{equation}
 \label{pseudohamiltonian}
-\widetilde{H}=H_0+\sum_{k < p} \widetilde{V }_{kp}.
+H=H_0+\sum_{k < p} \widetilde{V }_{kp}.
 \end{equation}
 
+The Pauli principle plays a huge role in the structure of the nucleus, particularly it does not allow overlapping of two constituent particles, while maintaining the Paili principle.
 This approach, so-called the method of orthogonalizing pseudo-potentials, was previously developed by the group of V. Kukulin \cite{kukulin1978orthogonal}, and is widely used not only in the construction of the wave function of the bound state, but also in the scattering theory \cite{blokhintsev1993determination, tursunov2016theoretical}.
 
  \section{Transformation of the basis function }
-The main advantage of the basis function  (\ref{subwf}) ofrm is the simplicity of the wave function transformation to an alternative set of Jacobi coordinates \cite{suzuki1998stochastic}.
-This transformation may be expressed as follows:
+The main advantage of the basis functions,  (\ref{basis_function_1}) and (\ref{basis_function_2}), is in simplicity of transformation into an alternative set of Jacobi coordinates \cite{suzuki1998stochastic}.
+The transformation from the sets $(k,pq)$ to $(q,kp)$ may be accomplished as follows:
 \begin{equation}
 \begin{pmatrix}
 {\bf x}_k \\ 
@@ -567,48 +604,65 @@ This transformation may be expressed as follows:
 {\bf y}_q
 \end{pmatrix},
 \end{equation}
-where, the ${\bf T}^{(kq)}$ matrix reads  
+where, the ${\bf T}^{(kq)}$ matrix elements is given by  
 \begin{equation}
 {\bf T}^{(kq)} = 
  \begin{pmatrix}
- { T}^{(kq)}_{11} & { T}^{(kq)}_{12} \\
- { T}^{(kq)}_{21}  &  { T}^{(kq)}_{22}
- \end{pmatrix}
-=
- \begin{pmatrix}
- -\tfrac{m_p}{m_p+m_q} & 1 \\
- -\tfrac{m_q(m_k+m_p+m_q)}{(m_p+m_q)(m_k+m_q)}  &  -\tfrac{m_k}{(m_k+m_q)}
+ {\rm T}^{(kq)}_{11} & {\rm T}^{(kq)}_{12} \\
+ {\rm T}^{(kq)}_{21}  &  {\rm T}^{(kq)}_{22}
  \end{pmatrix}.
 \end{equation}
-
+In this work the transformation matrices ${\bf T}^{(kq)}$ and ${\bf T}^{(kp)}$ are mostly used. Therefore, the matrix ${\bf T}^{(kp)}$ can be expressed as
+\begin{equation}
+{\bf T}^{(kp)} = 
+ \begin{pmatrix}
+ -\tfrac{m_k}{m_q+m_k} & -1 \\
+-\tfrac{m_q(m_k+m_p+m_q)}{(m_q+m_k)(m_p+m_q)}  & -\tfrac{m_p}{m_p+m_q}
+ \end{pmatrix}
+\end{equation}
+ and the matrix ${\bf T}^{(kq)}$ has form
+ \begin{equation}
+{\bf T}^{(kq)} = 
+ \begin{pmatrix}
+ -\tfrac{m_k}{m_k+m_p} & 1 \\
+-\tfrac{m_p(m_k+m_p+m_q)}{(m_k+m_p)(m_p+m_q)}  & -\tfrac{m_q}{m_p+m_q}
+ \end{pmatrix}.
+\end{equation}
 %There is no need to consider the transformation of spin part of the basis function. The reason is that the $S$ spin of the $2\alpha+n$ three-body system is defined only by the vacant nucleon, and it doesn't depend on the choice of the Jacobi coordinate. That is to say, the coupling of the vacant nucleon spin with the $\alpha-\alpha$ subsystem spin gives again the spin of the nucleon due to the $\alpha$ particles having a spin of zero.  
 
-The transformation of the spatial part of the wave function from the set $ \left(k, qp \right) $ into the set $ \left(q, kp \right) $ can be expressed in the following way \cite{suzuki1998stochastic, kukulin1990dynamic}
+The transformation of the spatial part (\ref{spatial_part}) of the wave function can be expressed in the following way \cite{suzuki1998stochastic, kukulin1990dynamic}
 
   \begin{equation}
- \label{transformbasisfunction}
- \phi_{i}^{\gamma}\left(k, pq \right) = \sum_{\tilde{\gamma}} A_{\tilde{\gamma}\gamma}^{{\bf T}^{(kq)} }
-  \phi_{i}^{\tilde{\gamma} } \left(q, kp \right) ,
+ \label{transform_spatial_part}
+ \Phi^{(\lambda,l)}_{LM_L}\left( {\bf x}_k, {\bf y}_k \right) = \sum_{\tilde{\lambda}, \tilde{l}} A^{\tilde{\lambda} \tilde{l} \lambda l}_{{\bf T}^{(kq)} }~
+  \Phi_{LM_L}^{(\tilde{\lambda},\tilde{l}) } \left(  {\bf x}_q, {\bf y}_q \right) ,
  \end{equation}
-where the sum is over quantum numbers of the $ \tilde {\gamma} $ new set, and the new basis function is
+where the summation is proceeded over new quantum numbers $\tilde{\lambda},~\tilde{l}$ in condition $\lambda+l=\tilde{\lambda}+\tilde{l}$, and the new spacial part is given by
 \begin{align}
-\phi_{i}^{\tilde{\gamma} } \left(q, kp \right)  =  &
- x_{q}^{\tilde{\lambda}} y_{q}^{\tilde{l}} exp\left(- \tfrac{1}{2} \alpha^{(q)}_{i} x_{q}^{2} - \tfrac{1}{2} \beta^{(q)}_{i}  y_{q}^{2} - \rho^{(q)}_i {\bf x}_{q} \cdot {\bf y}_{q}  \right) 
-\times  \nonumber \\ 
-&\times  \left[ Y_{\tilde{\lambda}} \left(  \hat{ \bf x}_q \right) \times Y_{\tilde{l}} \left( \hat{\bf y}_q \right) \right]_{LM_L},
-\label{newBasis}
+ \Phi_{LM_L}^{(\tilde{\lambda},\tilde{l}) } \left(  {\bf x}_q, {\bf y}_q \right)  =  &
+x^{\tilde{\lambda}}_q y^{\tilde{l}}_q 
+\sum_i C_i 
+\exp\left( - \tfrac{1}{2} \alpha_i^{(q)} x^2_q -\tfrac{1}{2}  \beta_i^{(q)} y^2_q 
+- \alpha_i^{(q)} \beta_i^{(q)}  {\bf x}_q \cdot {\bf y}_q 
+   \right)~
+\times \nonumber \\
+& \times \left[ 
+Y_{\tilde{\lambda}} \left(\hat{x}_k \right) \times Y_{\tilde{l}} \left(\hat{y}_k \right)
+\right]_{LM_L}.
+\label{new_spacial_part}
 \end{align}
 %, !taking into account the condition $ \tilde{\lambda} + \tilde{l} = \lambda + l $!.
-where new parameters of the wave function are given by
+where new linear parameters can be expressed as
 \begin{align}
 \begin{pmatrix}
 \alpha_i^{(q)} & \rho_i^{(q)} \\ 
 \rho_i^{(q)} & \beta_i^{(q)}
-\end{pmatrix}  = \left( {\bf T}^{(kq)} \right)^{T}  ~
+\end{pmatrix}  = \left( {\bf T}^{(kq)} \right)^{T} \times  ~
 \begin{pmatrix}
 \alpha_i^{(k)} & \rho_i^{(k)} \\ 
 \rho_i^{(k)} & \beta_i^{(k)}
-\end{pmatrix} ~  {\bf T}^{(kq)}.
+\end{pmatrix} ~ \times
+  {\bf T}^{(kq)}.
 \end{align}
 %\nonumber \\
 %\alpha^{(q)}_{i} =& \alpha^{(k)}_{i} T_{11}^2 + \beta^{(k)}_{i} T_{21}^2 
@@ -616,98 +670,64 @@ where new parameters of the wave function are given by
 %\beta^{(q)}_{i} =& \alpha^{(k)}_{i} T_{12}^2 + \beta^{(k)}_{i} T_{22}^2 
 %\nonumber \\
 %\rho^{(q)}_{i} =& 2 \alpha^{(k)}_{i} T_{11} T_{12} + 2 \beta^{(k)}_{i} T_{21}  T_{22} 
-Note, that for the $(k,pq)$ coordinate set the radial wave function (\ref{radial_wf}) does not include the scalar product ${\bf x}_k \cdot {\bf y}_k$, which means $\rho_i^{(k)}=0$.  
- For the transformation of basis functions~(\ref{transformbasisfunction}) the coupling coefficient $A_{\tilde{\gamma} \gamma} ^{ {\bf T}^{(kq)}}$ is defined as follow 
+Note, that for the initial  coordinate set $(k,pq)$ the radial wave function (\ref{spatial_part}) does not include the scalar product ${\bf x}_k \cdot {\bf y}_k$, which means $\rho_i^{(k)}=0$.  
+
+The coupling coefficient $A^{\tilde{\lambda} \tilde{l} \lambda l}_{{\bf T}^{(kq)} }$  given in ~(\ref{transform_spatial_part}) is defined as follows
  \begin{align}
- A_{\tilde{\gamma} \gamma} ^{ {\bf T}^{(kq)}} = & \sum_{\lambda_1 \lambda_2 l_1 l_2} 
-\left({\bf T}_{11}^{(kq)} \right)^{\lambda_1} 
-\left({\bf T}_{12}^{(kq)} \right)^{\lambda_2} 
-\left({\bf T}_{21}^{(kq)} \right)^{l_1} 
-\left({\bf T}_{22}^{(kq)} \right)^{l_2} 
+ A^{\tilde{\lambda} \tilde{l} \lambda l}_{{\bf T}^{(kq)} } = & \sum_{\lambda_1 \lambda_2 l_1 l_2} 
+\left({\rm T}_{11}^{(kq)} \right)^{\lambda_1} 
+\left({\rm T}_{12}^{(kq)} \right)^{\lambda_2} 
+\left({\rm T}_{21}^{(kq)} \right)^{l_1} 
+\left({\rm T}_{22}^{(kq)} \right)^{l_2} 
 \times \nonumber
 \\
-& \times {E}^{\lambda_1 \lambda_2 \lambda l_1 l_2 l L}_{\tilde{\lambda} \tilde{l} } \mathcal{D}(\lambda,\lambda_1,\lambda_2) \mathcal{D}(l,l_1,l_2),    
+& \times {E}^{\lambda_1 \lambda_2 \lambda l_1 l_2 l L}_{\tilde{\lambda} \tilde{l} } \mathcal{D}(\lambda,\lambda_1,\lambda_2) \mathcal{D}(l,l_1,l_2).    
 \label{trans_coef}
 \end{align}
-where, ${E}^{\lambda_1 \lambda_2 \lambda l_1 l_2 l L}_{\tilde{\lambda} \tilde{l} }$ and $\mathcal{D}(\lambda,\lambda_1,\lambda_2)$ come from re-coupling of spherical harmonic functions, which are explicitly given in Appendix \ref{AppendixA} in equations (\ref{sphHarmDecomp}) and~(\ref{hyperSphTrans}).
-The summation is satisfied to the conditions: $\lambda_1+\lambda_2=\lambda$, $l_1+l_2=l$ and $\lambda+l=\tilde{\lambda}+\tilde{l}$.
+Here, the summation is satisfied to the conditions $\lambda_1+\lambda_2=\lambda$, $l_1+l_2=l$, $\lambda+l=\tilde{\lambda}+\tilde{l}$, the coefficients ${E}^{\lambda_1 \lambda_2 \lambda l_1 l_2 l L}_{\tilde{\lambda} \tilde{l} }$ and $\mathcal{D}(\lambda,\lambda_1,\lambda_2)$ come from re-coupling of the solid spherical harmonics , which are given in Appendix \ref{AppendixA}. Switching into the Jacobi set $(p,qk)$ is carried out in analogous way.
 
+The spin part $\chi_{SM_S}(pq)$ of the wave function transforms as
+\begin{equation}
+\chi_{SM_S}(pq) = (-1)^{s_p+s_q-S} \chi_{SM_S}(qp).
+\end{equation}
+As for the one fermionic system the spin part remains unchanged.
 
 \section{Overlap matrix elements}
-
-Within the $\left(k, pq \right)$ scheme an overlap matrix element, in particular for the space part $ \phi_{i}^{\gamma}\left(k, pq \right)$ of the basis function, is expressed by
-\begin{align}
+The overlap matrix elements for the basis function (\ref{basis_function_1}) is expressed as follows
+\begin{equation}
 \langle \phi_{i}^{\gamma}\left(k, pq \right) \vert 
-\phi_{j}^{\gamma^{\prime}}\left(k, pq \right) \rangle=& \int \int d{\bf x}_k d{\bf y}_k ~\phi_{i}^{\gamma}\left(k, pq \right) \left( \phi_{j}^{\gamma^{\prime}}\left(k, pq \right) \right)^{*} =
-\nonumber \\
-=& \int_0^\infty \int_0^\infty  dx_k dy_k~ x^{2\lambda+2}y^{2 l +2} exp\left( - \tfrac{1}{2}\alpha^{(k)}_{ij} x^2_k - \tfrac{1}{2} \beta^{(k)}_{ij} y^2_k \right) \delta_{\gamma \gamma'} =
-\nonumber \\
-=&~ \mathcal{I}_1 \left( 2\lambda+2,\alpha_{ij}^{(k)} \right)~ \mathcal{I}_1 \left(2l+2,\beta_{ij}^{(k)} \right),
-\end{align}
-where 
+\phi_{j}^{\gamma^{\prime}}\left(k, pq \right) \rangle= \int \int d{\bf x}_k d{\bf y}_k ~\phi_{i}^{\gamma}\left(k, pq \right) \left( \phi_{j}^{\gamma^{\prime}}\left(k, pq \right) \right)^{*}.
+\end{equation}
+Using the properties of spherical harmonics it possible to reduce above six dimensional into two dimensional integral. It gives an explicit form like
+\begin{align}
+\int_0^\infty \int_0^\infty  dx_k dy_k~ & x^{2\lambda+2}y^{2 l +2} {\rm exp}\left( - \tfrac{1}{2}\alpha^{(k)}_{ij} x^2_k - \tfrac{1}{2} \beta^{(k)}_{ij} y^2_k \right) \delta_{\gamma \gamma'} =
+ \\
+=&~ \mathcal{I} \left( 2\lambda+2,\alpha_{ij}^{(k)} \right)~ \mathcal{I} \left(2l+2,\beta_{ij}^{(k)} \right) ,\nonumber
+\end{align} 
+where
 $
 \alpha_{ij}^{(k)}=\alpha_{i}^{(k)}+\alpha_{j}^{(k)}$ and $
 \beta_{ij}^{(k)}=\beta_{i}^{(k)}+\beta_{j}^{(k)}
 $,
-the table integral $\mathcal{I}_1$ may be expressed as  
+the table integral $\mathcal{I}_1$ is  
 \begin{equation}
-\mathcal{I}_1 \left( \lambda,\alpha\right)=
+\mathcal{I} \left( \lambda,\alpha\right)=
  2^{1+\lambda}\frac{\Gamma \left( 1+\lambda \right)  }{ \left( \alpha \right) ^{1+\lambda}} .
 \label{table_integral_1}
 \end{equation}
 
-
-According to the Eq. \ref{newBasis}, the new basis function  contains the $\rho^{(q)}_i {\bf x}_{q} \cdot {\bf y}_{q}$ scalar product. In order to treat this problem,  in this section the overlap matrix elements of the basis functions for the $\left(q, kp \right)$ scheme are given by means of two methods.  
-The first is based on the expansion of the exponential function \cite{suzuki1998stochastic}, another is in the implementing of $\rho^{(q)}_i$ into the rotation matrix ${\bf T}$ \cite{kukulin1990dynamic}. Both methods give the same result. 
-It is important to present these two methods, since both will be used further to derive the density distribution function of nuclear matter in the three-body system.
-
-
-
-\subsection{Partial wave expansion}
-\label{overlap_by_exp}
-
-Overlap matrix elements of the basis functions for the $\left(q, kp \right)$ scheme may be written as
+It is also useful to give an expression of overlap matrix elements for alternative Jacobi coordinate set. For instance, the matrix elements for the $(q,kp)$ three body system may be given as follows
 \begin{equation}
+\langle \phi_{i}^{\gamma}\left(k,pq \right) \vert 
+\phi_{j}^{\gamma^{\prime}}\left(k,pq \right) \rangle
+=
+\sum_{\tilde{\gamma} \tilde{\gamma}'}
+A^{\tilde{\lambda}' \tilde{l}' \lambda' l'}_{{\bf T}^{(kq)} }
+A^{\tilde{\lambda} \tilde{l} \lambda l}_{{\bf T}^{(kq)} }
 \langle \phi_{i}^{\tilde{\gamma}}\left(q,kp \right) \vert 
-\phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \rangle =
-\int \int d{\bf x}_k d{\bf y}_k ~\phi_{i}^{\tilde{\gamma}}\left(q,kp \right) \left( \phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \right)^{*}.
-\label{me_arb}
+\phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \rangle
+\label{overlap_alternative}
 \end{equation}
-One must handle with the scalar product $exp\left(- \rho {\bf x} \cdot {\bf y} \right)$ in  Eq.~(\ref{newBasis}), in which radial and angular parts are mixed. It gives a problem in integration procedure, consequently, special mathematical techniques must be applied. 
-%There are two tricks to solve this problem.  First is the solution of problem is in expansion of  the exponential function into the partial waves. Another one is in projection of the factor of scalar product into the rotation matrix ${\bf T}$. Both approaches give the same results in calculation of the matrix elements. 
-Thus, the expansion of exponential function is given by 
-\begin{equation}
-exp(-\rho {\bf x} \cdot {\bf y}) = 4 \pi \sum_{n m} \sqrt{2n+1} 
-\epsilon(n, \rho)i_{n}(|\rho|xy)Y_{n m}(\hat{{\bf x}}) Y_{n m}(\hat{{\bf y}})^{\star}
-\label{exponent_expantion}
-\end{equation} 
-where $i_{n}(x) $ -- modified spherical Bessel function of the first kind, $\epsilon(n, \rho)=(-1)^{n}$ for $\rho \le 0$, otherwise it equals to $1$.
-Once radial part is separated, then it can be defined as
-\begin{align}
- \int_0^\infty \int_0^\infty  dx dy~& x^{2\lambda+n+2}y^{2 l +n+2} exp\left( -\tfrac{1}{2}\alpha x^2 - \tfrac{1}{2}\beta y^2 \right) i_{n}(|\rho|xy) \nonumber = \\
-& = \mathcal{I}_2(\lambda, l, n, \alpha, \beta, |\rho|) 
-\end{align}
-where, the integral $\mathcal{I}_2$ has analytical form as
-\begin{align}
-\mathcal{I}_2(\lambda, l, n, \alpha, \beta, |\rho|) =& \sqrt{\frac{\pi}{8}}(2l)!!~ \Gamma(l+n+\tfrac{3}{2})~|\rho|^{n} ~\beta^{-l-n-\tfrac{3}{2}} \times \nonumber \\
-& \times \sum_{\kappa=0}^{l} \frac{\Gamma(\kappa+\lambda+n+\tfrac{3}{2})}{\kappa! (l-\kappa)! \Gamma(\kappa+n+\tfrac{3}{2})}
-\left(\frac{\rho^2}{2\beta}\right)^{\kappa} \left( \frac{\alpha}{2} - \frac{\rho^2}{2\beta}  \right)^{-\kappa-\lambda-n-\tfrac{3}{2}}.
-\label{overlap1}
-\end{align}
-
-Integration over angular variables can be expressed analytically in the following way
-\begin{align}
-\int \int d\hat{\bf x}~d\hat{\bf y}~ Y_{00}^{(\kappa\kappa)}(\hat{{\bf x}},\hat{{\bf y}})  Y_{L^{\prime}M_{L^{\prime}}}^{(\lambda^{\prime} l^{\prime})}(\hat{{\bf x}},\hat{{\bf y}}) \left(  Y_{LM_L}^{(\lambda l)}(\hat{{\bf x}},\hat{{\bf y}}) \right)^{*} =  {E}^{\kappa \kappa 0 \lambda^{\prime} l^{\prime} L L}_{\lambda l} \delta_{LL^{\prime}} 
-\label{angular_part_overlap1}
-\end{align}
-
-Using the property of the 9-j symbol with one of the moments equals to zero, ${E}^{\kappa \kappa 0 \lambda^{\prime} l^{\prime} L L}_{\lambda l}$ can be reduced as
-\begin{equation}
-{E}^{\kappa \kappa 0 \lambda^{\prime} l^{\prime} L L}_{\lambda l}
-=U\left(  \lambda L \kappa l^{\prime};~ l \lambda^{\prime} \right) \frac{\mathcal{C} \left( \lambda^{\prime}, \lambda, \kappa \right) \mathcal{C} \left( l^{\prime}, l, \kappa \right) }{ \sqrt{\left( 2L+1 \right) \left( 2\kappa +1 \right)}}.
-\end{equation}
-Here, $U\left(  \lambda L \kappa l^{\prime};~ l \lambda^{\prime} \right)$ -- the Racah coefficient  (see definition in Appendix \ref{AppendixA}, Eq. \ref{racah_U}).
-
 The Jacobian  matrix ${\bf J}^{(kq)}$ for transformation from the ${\bf x}_k, {\bf y}_k$ coordinates to the ${\bf x}_q, {\bf y}_q$ coordinates gives the ${\bf T}^{(kq)}$ matrix
 \begin{equation}
 {\bf J}^{(kq)} = 
@@ -722,101 +742,106 @@ Accordingly, the determinant $\vert {\bf J}^{(kq)} \vert$ is a determinant of th
 \begin{equation}
 \vert {\bf J}^{(kq)} \vert = \vert {\bf T}^{(kq)} \vert =1.
 \end{equation}
-  Therefore, the integration variables in Eq.~(\ref{me_arb}) can be changed without any factorization. 
-  
-  Finally, an expression for the overlap matrix element of the $(q,kp)$ coordinate sets ~(\ref{me_arb}) can be determined as follow
-\begin{align}
-\langle \phi_{i}^{\tilde{\gamma}}\left(q,kp \right) & \vert 
-\phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \rangle =
-\int \int d{\bf x}_k d{\bf y}_k  ~\phi_{i}^{\tilde{\gamma}}\left(q,kp \right) \left( \phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \right)^{*}  = \nonumber 
-\\ & = 4 \pi \sum_{\tilde{\gamma}\tilde{\gamma}^{\prime}}  A_{\gamma\tilde{\gamma}}^{ T^{(kq)} } A_{\gamma\tilde{\gamma}^{\prime}}^{ T^{(kq)} }
- \sum_{\kappa} \sqrt{2\kappa+1}~ \epsilon(\kappa, \rho) {E}^{\kappa \kappa 0 \lambda^{\prime} l^{\prime} L L}_{\lambda l} \times  \nonumber \\
- &\times \mathcal{I}_2\left(
- \tfrac{\tilde{\lambda}+\tilde{\lambda^{\prime}}-\kappa}{2}, ~
- \tfrac{\tilde{l}+\tilde{l^{\prime}}-\kappa}{2},~
- \kappa,~
- \alpha^{(q)}_{ij},~
- \beta^{(q)}_{ij} ,~
- \vert \rho^{(q)}_{ij} \vert ~
-  \right),
-\end{align}
-where, $\rho_{ij}^{(q)}=\rho_{i}^{(q)}+\rho_{j}^{(q)}$.
+  Therefore, the integration variables in Eq.~(\ref{overlap_alternative}) can be changed without any factorization. 
 
-\subsection{Projection into ${\bf T}$ matrix}
-\label{overlap_by_proj}
-In this approach the rotation matrix ${\bf Q}$, projecting the scalar product in the radial part of the wave function, is implemented by
-\begin{equation}
+The spacial part (\ref{new_spacial_part}) in the alternative coordinate set has the scalar product, $\exp \left(- \alpha_i^{(q)} \beta_i^{(q)}  {\bf x}_q \cdot {\bf y}_q  \right)$. With this form the overlap matrix elements can be calculated directly, using the expansion of the exponential function \cite{suzuki1998stochastic}. However it is possible  to project the scalar product into ${\bf T}$ matrix \cite{kukulin1990dynamic} as follows:
+ \begin{equation}
 {\bf Q}_i^{(kq)}= {\bf T}^{(kq)} \times
 \begin{pmatrix}
-1 & -\tfrac{\rho^{(q)}_{i}}{\alpha^{(q)}_i} \\ 
-0 & 1
+1 &  0 \\ 
+-\tfrac{\rho^{(q)}_{i}}{\alpha^{(q)}_i} & 1
 \end{pmatrix} .
 \end{equation}
-Consequently, the radial part of the wave function can be rewritten with no scalar product term as
+Consequently, the radial part (\ref{new_spacial_part}) of the wave function can be rewritten without the scalar product term as
 \begin{align}
-\phi_{i}^{\tilde{\gamma} } \left(q, kp \right)  =  &
- x_{q}^{\tilde{\lambda}} y_{q}^{\tilde{l}} exp\left(- \tfrac{1}{2} \alpha^{(q)}_{i} x_{q}^{2} - \tfrac{1}{2} \left(  \beta^{(q)}_{i} - \tfrac{\left(\rho^{(q)}_i\right)^2}{\alpha^{(q)}_i} \right)  y_{q}^{2}  \right) 
-\times  \nonumber \\ 
-&\times  \left[ Y_{\tilde{\lambda}} \left(  \hat{ \bf x}_q \right) \times Y_{\tilde{l}} \left( \hat{\bf y}_q \right) \right]_{LM_L}.
+ \Phi_{LM_L}^{(\tilde{\lambda},\tilde{l}) } \left(  {\bf x}_q, {\bf y}_q \right)  =  &
+x^{\tilde{\lambda}}_q y^{\tilde{l}}_q 
+\sum_i C_i 
+\exp\left( - \tfrac{1}{2} 
+\left( \alpha^{(q)}_{ij}-\tfrac{\rho^{(q)}_{ij}{}^2}{\beta^{(q)}_{ij}} \right)
+ x^2_q -\tfrac{1}{2}  \beta_i^{(q)} y^2_q \right)
+\times \nonumber \\
+& \times \left[ 
+Y_{\tilde{\lambda}} \left(\hat{x}_k \right) \times Y_{\tilde{l}} \left(\hat{y}_k \right)
+\right]_{LM_L}.
+\label{new_spacial_part}
 \end{align}
-One can get easily the expression of the overlap matrix element for the $(q,kp)$ coordinate sets ~(\ref{me_arb}) can be determined as follow
+One can get easily then an expression for the overlap matrix element from Eq. (\ref{overlap_alternative}) as follows
 \begin{align}
 \langle \phi_{i}^{\tilde{\gamma}}\left(q,kp \right) & \vert 
 \phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \rangle =
-\int \int d{\bf x}_k d{\bf y}_k  ~\phi_{i}^{\tilde{\gamma}}\left(q,kp \right) \left( \phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \right)^{*} =  \nonumber \\
-=& \sum_{\tilde{\gamma}\tilde{\gamma}^{\prime}}  
-\left( A_{\gamma\tilde{\gamma}}^{ {\bf Q}_{ij}^{(kq)} } \right)^2 
- \mathcal{I}_1 \left( 2 \tilde{\lambda}+2, \alpha^{(q)}_{ij} \right)
-\mathcal{I}_1 \left( 2 \tilde{l}+2, \left(  \beta^{(q)}_{ij} - \tfrac{\left(\rho^{(q)}_{ij}\right)^2}{\alpha^{(q)}_{ij}} \right) \right)
-  \delta_{\tilde{\gamma}\tilde{\gamma}^{\prime}}.
+   \\
+=& 
+ \mathcal{I} \left( 2 \tilde{\lambda}+2,~
+\alpha^{(q)}_{ij}-\tfrac{\rho^{(q)}_{ij}{}^2}{\beta^{(q)}_{ij}} 
+  \right)
+\mathcal{I} \left( 2 \tilde{l}+2, ~
+\beta_i^{(q)} \right)
+  \delta_{\tilde{\gamma}\tilde{\gamma}^{\prime}}. \nonumber
  \label{projectionMethod}
 \end{align}
-Analogously, changing the integration variables is carried out with no factorizations due to the $\vert {\bf Q}_i^{(kq)} \vert = 1$. Notably, in this case of  the rotation matrix ${\bf Q}_{ij}$  the coefficient $A_{\gamma\tilde{\gamma}}^{ {\bf Q}_{ij}^{(kq)} }$  becomes depended on the $ij$ indexes as well.
+Notably, the coefficient $A^{\tilde{\lambda}' \tilde{l}' \lambda' l'}_{ \tiny {\bf Q}^{(kq)}_{ij} }$  presented in Eq. (\ref{overlap_alternative}) should now become depended on the rotation matrix ${\bf Q}^{(kq)}_{ij}$. For simplicity the indexes of the rotation matrix are down in the next sections, consequently, the recoupling coefficient becomes $A^{\tilde{\lambda}' \tilde{l}' \lambda' l'}_{  {\bf Q} }$.
 
 
 \section{Normalization and correlation density of the three-body wave function}
-Using the overlap matrix elements the normalization of the total three-body wave function is given by
-\begin{align}
-\mathcal{N}^{(k)}= & \langle \Psi^{JM_J} \vert \Psi^{JM_J} \rangle = \sum_{\gamma} \mathcal{N}^{(k)}_{\gamma},    \nonumber \\
- \mathcal{N}^{(k)}_{\gamma} = & \sum_{ij} C_i C_j 
- \mathcal{I}_1 \left( \lambda,\alpha_{ij}^{(k)} \right)
- \mathcal{I}_1 \left( l,\beta_{ij}^{(k)} \right).
-\end{align}
-For the alternative set of Jacobi coordinates the overlap of the total wave function is given by
+Using the overlap matrix elements the normalization of the total three-body wave function can be expressed as follows
 \begin{equation}
-\mathcal{N}^{(q)}= \langle \Psi^{JM_J} \vert \Psi^{JM_J} \rangle = \sum_{\gamma} \sum_{\gamma^{\prime}} \mathcal{N}^{(q)}_{\gamma \gamma^{\prime}}
+\mathcal{N} \equiv  \langle \Psi^{JM}_{tot} \vert \Psi^{JM}_{tot} \rangle = \sum_{\gamma \gamma'}
+ \langle \Psi^{JM}_{\gamma} \vert \Psi^{JM}_{\gamma'} \rangle = \sum_{\gamma} \mathcal{N}^{(k)}_{\gamma} \delta_{\gamma \gamma'},    
 \end{equation}
-According to the Eq.~(\ref{angular_part_overlap1}) the sum in the latter expression is limited with the condition $\delta_{LL^{\prime}}$ only. Using the analytical form  of overlap matrix element (\ref{overlap1}), $\mathcal{N}^{(q)}_{\gamma \gamma^{\prime}}$ can be given by
-\begin{align}
-\mathcal{N}^{(q)}_{\gamma \gamma^{\prime}}= & 4 \pi \sum_{ij} C_i C_j \sum_{\tilde{\gamma}\tilde{\gamma}^{\prime}}  A_{\gamma\tilde{\gamma}}^{ {\bf T}^{(kq)} } A_{\gamma\tilde{\gamma}^{\prime}}^{ {\bf T}^{(kq)}} \times
-\nonumber \\
- & \times \sum_{\kappa} \sqrt{2\kappa+1}~ \epsilon(\kappa, \rho^{(k)}_{ij}) {E}^{\kappa \kappa 0 \lambda^{\prime} l^{\prime} L L}_{\lambda l} \times  \nonumber 
- \\ & \times \mathcal{I}\left(
- \tfrac{\tilde{\lambda}+\tilde{\lambda^{\prime}}-\kappa}{2}, ~
- \tfrac{\tilde{l}+\tilde{l^{\prime}}-\kappa}{2},~
- \kappa,~
- \alpha^{(q)}_{ij},~
- \beta^{(q)}_{ij} ,~
- \vert \rho^{(q)}_{ij} \vert ~
-  \right),
-\end{align}
-or using the Eq.~(\ref{projectionMethod})
-\begin{align}
-\mathcal{N}^{(q)}_{\gamma \gamma^{\prime}}= & \sum_{ij} C_i C_j  \sum_{\tilde{\gamma}}
-\left( A_{\gamma\tilde{\gamma}}^{ {\bf Q}_{ij}^{(kq)}} \right)^2
- \times\nonumber \\
- & \times
-  \mathcal{I}_2 \left( \tilde{\lambda}, \tilde{l}, \alpha^{(q)}_{ij}, \left(  \beta^{(q)}_{ij} - \tfrac{\left(\rho^{(q)}_{ij}\right)^2}{\alpha^{(q)}_{ij}} \right) \right).
-\end{align}  
-
+where 
+\begin{equation}
+\mathcal{N}_{\gamma} =  \sum_{ij} C_i C_j 
+ \mathcal{I} \left( 2\lambda+2,~\alpha_{ij}^{(k)} \right)
+ \mathcal{I} \left( 2l+2,~\beta_{ij}^{(k)} \right).
+\end{equation}
 A correlation density function of the total wave function (\ref{totwf})  can be expressed in the following way
-\begin{align}
-W\left( x_k,y_k \right) =& \sum_{\gamma} W_{\gamma}\left( x_k,y_k \right) \nonumber \\
-W_{\gamma}\left( x_k,y_k \right) =& \sum_{ij} C_i C_j x^{2+2\lambda}_k y^{2+2l}_k \text{exp}\left( - \tfrac{1}{2} \alpha^{(k)}_{ij} x_k^2 -  \tfrac{1}{2} \beta^{(k)}_{ij} y_k^2 \right) .
-\end{align}
+\begin{equation}
+W\left( x_k,y_k \right) =
+\int \int d\hat{x}_k~ d\hat{y}_k~ \vert \Psi^{JM}_{tot} \vert^2
+=
+ \sum_{\gamma} W_{\gamma}\left( x_k,y_k \right)
+\end{equation}
+with the component function 
+\begin{equation}
+W_{\gamma}\left( x_k,y_k \right) = \sum_{ij} C_i C_j x^{2+2\lambda}_k y^{2+2l}_k \text{exp}\left( - \tfrac{1}{2} \alpha^{(k)}_{ij} x_k^2 -  \tfrac{1}{2} \beta^{(k)}_{ij} y_k^2 \right) .
+\end{equation}
+Here, the summation goes over $i=1,~...,~N_\alpha$ and $j=1,~...,~N_\beta$.
+
 
 \section{The density distribution function of nuclear matter}
 \label{section_density_function}
+
+The density distribution function of nuclear matter within the three body model can be expressed as follows
+\begin{equation}
+\rho({\bf R}) = \sum_{i=\{kpq\}} \rho_{i}^{\varepsilon} ({\bf R})
+\end{equation}
+where $\varepsilon=\{N,~\alpha\}$ defines $i$-th cluster either it's nucleon or $\alpha$-particle.
+The density function of a cluster is given by
+\begin{equation}
+\rho^{\varepsilon}_{i}({\bf R})=
+\langle~ \Psi_{tot}^{JM} ~\vert~ \hat{\rho}_i~ \vert~ \Psi_{tot}^{JM} ~\rangle,
+\end{equation}
+where the operator of density may be expressed as
+\begin{equation}
+\hat{\rho}_i\equiv
+\begin{cases}
+\delta \left( {\bf y}_i - y_0^{(i)} {\bf R} \right) 
+& ~{\rm for}~ i{\rm \text -th~nucleons} , \\
+\rho_{\alpha} \left( {\bf y}_i - y_0^{(i)} {\bf R} \right)  & 
+~{\rm for}~ i{\rm \text -th~\alpha\text -clusters},
+\end{cases}.
+\end{equation}
+Here, $\delta({\bf z})$ -- delta function, $\rho_\alpha({\bf r})$ -- internal density distribution function of $\alpha$-cluster:
+\begin{equation}
+\rho_{\alpha}({\bf r}) = \rho_0 \exp \left( - \gamma_0 {\bf r}^2 \right)
+\end{equation}
+with parameters giving normalization to unity:
+\begin{equation}
+\gamma_0=\frac{3}{2} \frac{1}{<r_\alpha^2>},~~~\rho_0=4\sqrt{\frac{\gamma_0}{\pi}}.
+\end{equation}
+Here,  the square root of $<r_\alpha^2>$ -- r.m.s. matter radius of $\alpha$-particle, which equals to 1.461 $fm$ \cite{satchler1979folding}.
+
 
 An operator of matter density distribution of the three body system takes the sums of all three clusters and brings it from the center of  system mass (see. Fig. \ref{fig:density_scheme_1}, \ref{fig:density_scheme_2})
 \begin{equation}
@@ -898,8 +923,8 @@ above mentioned six and eight dimensional integrals  may be expressed analytical
 \sum_{\gamma }
 \sum_{i j} C_{i} C_j R^{2+2l} 
 \mathcal{I}_1 \left( 2+2\lambda,\alpha^{(k)}_{ij} \right)
-exp\left( - \tfrac{1}{2} \beta^{(k)}_{ij} \left( y^{(k)}_0 R \right)^2\right) \nonumber \\
-\rho_{k}^{(\alpha)}(R)=&\left( 4 \pi \right)^2 \rho_0 exp\left( - \gamma_0 R^2 \right)  
+{\rm exp}\left( - \tfrac{1}{2} \beta^{(k)}_{ij} \left( y^{(k)}_0 R \right)^2\right) \nonumber \\
+\rho_{k}^{(\alpha)}(R)=&\left( 4 \pi \right)^2 \rho_0 {\rm exp}\left( - \gamma_0 R^2 \right)  
 \sum_{\gamma }
 \sum_{ij}  \mathcal{I}_1\left( 2+2\lambda, \alpha^{(k)}_{ij} \right) \times \nonumber \\
 & \times
@@ -915,7 +940,7 @@ C_i C_j
 \tilde{A}^{(N)}_{\gamma\tilde{\gamma}}\left( {\bf Q}_{ij}, R \right)^2
 \times \nonumber \\
 & \times
-exp \left( -\frac{1}{2} 
+{\rm exp} \left( -\frac{1}{2} 
 \left(  \beta^{(q)}_{ij} - \tfrac{\left(\rho^{(q)}_{ij}\right)^2}{\alpha^{(q)}_{ij}} \right) 
 \left( y_0^{(q)} R\right)^2\right)
 \label{pqk_density_N}
@@ -947,7 +972,7 @@ C_i C_j
 \tilde{A}^{(\alpha)}_{\gamma\tilde{\gamma}}\left( {\bf Q}_{ij}, R \right)^2
 \times \nonumber \\
 & \times
-exp \left( -\tfrac{1}{2} 
+{\rm exp} \left( -\tfrac{1}{2} 
 \gamma_0 R^2
 \right)
 \label{pqk_density_a}

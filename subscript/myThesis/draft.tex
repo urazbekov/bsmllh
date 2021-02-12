@@ -1,0 +1,81 @@
+\subsection{Partial wave expansion}
+\label{overlap_by_exp}
+
+Overlap matrix elements of the basis functions for the $\left(q, kp \right)$ scheme may be written as
+\begin{equation}
+\langle \phi_{i}^{\tilde{\gamma}}\left(q,kp \right) \vert 
+\phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \rangle =
+\int \int d{\bf x}_k d{\bf y}_k ~\phi_{i}^{\tilde{\gamma}}\left(q,kp \right) \left( \phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \right)^{*}.
+\label{me_arb}
+\end{equation}
+One must handle with the scalar product ${\rm exp}\left(- \rho {\bf x} \cdot {\bf y} \right)$ in  Eq.~(\ref{newBasis}), in which radial and angular parts are mixed. It gives a problem in integration procedure, consequently, special mathematical techniques must be applied. 
+%There are two tricks to solve this problem.  First is the solution of problem is in expansion of  the exponential function into the partial waves. Another one is in projection of the factor of scalar product into the rotation matrix ${\bf T}$. Both approaches give the same results in calculation of the matrix elements. 
+Thus, the expansion of exponential function is given by 
+\begin{equation}
+{\rm exp}(-\rho {\bf x} \cdot {\bf y}) = 4 \pi \sum_{n m} \sqrt{2n+1} 
+\epsilon(n, \rho)i_{n}(|\rho|xy)Y_{n m}(\hat{{\bf x}}) Y_{n m}(\hat{{\bf y}})^{\star}
+\label{exponent_expantion}
+\end{equation} 
+where $i_{n}(x) $ -- modified spherical Bessel function of the first kind, $\epsilon(n, \rho)=(-1)^{n}$ for $\rho \le 0$, otherwise it equals to $1$.
+Once radial part is separated, then it can be defined as
+\begin{align}
+ \int_0^\infty \int_0^\infty  dx dy~& x^{2\lambda+n+2}y^{2 l +n+2} {\rm exp}\left( -\tfrac{1}{2}\alpha x^2 - \tfrac{1}{2}\beta y^2 \right) i_{n}(|\rho|xy) \nonumber = \\
+& = \mathcal{I}_2(\lambda, l, n, \alpha, \beta, |\rho|) 
+\end{align}
+where, the integral $\mathcal{I}_2$ has analytical form as
+\begin{align}
+\mathcal{I}_2(\lambda, l, n, \alpha, \beta, |\rho|) =& \sqrt{\frac{\pi}{8}}(2l)!!~ \Gamma(l+n+\tfrac{3}{2})~|\rho|^{n} ~\beta^{-l-n-\tfrac{3}{2}} \times \nonumber \\
+& \times \sum_{\kappa=0}^{l} \frac{\Gamma(\kappa+\lambda+n+\tfrac{3}{2})}{\kappa! (l-\kappa)! \Gamma(\kappa+n+\tfrac{3}{2})}
+\left(\frac{\rho^2}{2\beta}\right)^{\kappa} \left( \frac{\alpha}{2} - \frac{\rho^2}{2\beta}  \right)^{-\kappa-\lambda-n-\tfrac{3}{2}}.
+\label{overlap1}
+\end{align}
+
+Integration over angular variables can be expressed analytically in the following way
+\begin{align}
+\int \int d\hat{\bf x}~d\hat{\bf y}~ Y_{00}^{(\kappa\kappa)}(\hat{{\bf x}},\hat{{\bf y}})  Y_{L^{\prime}M_{L^{\prime}}}^{(\lambda^{\prime} l^{\prime})}(\hat{{\bf x}},\hat{{\bf y}}) \left(  Y_{LM_L}^{(\lambda l)}(\hat{{\bf x}},\hat{{\bf y}}) \right)^{*} =  {E}^{\kappa \kappa 0 \lambda^{\prime} l^{\prime} L L}_{\lambda l} \delta_{LL^{\prime}} 
+\label{angular_part_overlap1}
+\end{align}
+
+Using the property of the 9-j symbol with one of the moments equals to zero, ${E}^{\kappa \kappa 0 \lambda^{\prime} l^{\prime} L L}_{\lambda l}$ can be reduced as
+\begin{equation}
+{E}^{\kappa \kappa 0 \lambda^{\prime} l^{\prime} L L}_{\lambda l}
+=U\left(  \lambda L \kappa l^{\prime};~ l \lambda^{\prime} \right) \frac{\mathcal{C} \left( \lambda^{\prime}, \lambda, \kappa \right) \mathcal{C} \left( l^{\prime}, l, \kappa \right) }{ \sqrt{\left( 2L+1 \right) \left( 2\kappa +1 \right)}}.
+\end{equation}
+Here, $U\left(  \lambda L \kappa l^{\prime};~ l \lambda^{\prime} \right)$ -- the Racah coefficient  (see definition in Appendix \ref{AppendixA}, Eq. \ref{racah_U}).
+
+The Jacobian  matrix ${\bf J}^{(kq)}$ for transformation from the ${\bf x}_k, {\bf y}_k$ coordinates to the ${\bf x}_q, {\bf y}_q$ coordinates gives the ${\bf T}^{(kq)}$ matrix
+\begin{equation}
+{\bf J}^{(kq)} = 
+\begin{pmatrix}
+\frac{\partial {\bf x}_k \left({\bf x}_q,{\bf y}_q \right)}{ \partial {\bf x}_q }  
+& \frac{\partial {\bf x}_k \left({\bf x}_q,{\bf y}_q \right)}{ \partial {\bf y}_q } \\
+\frac{\partial {\bf y}_k \left({\bf x}_q,{\bf y}_q \right)}{ \partial {\bf x}_q }  
+& \frac{\partial {\bf y}_k \left({\bf x}_q,{\bf y}_q \right)}{ \partial {\bf y}_q } 
+\end{pmatrix} = {\bf T}^{(kq)}.
+\end{equation}
+Accordingly, the determinant $\vert {\bf J}^{(kq)} \vert$ is a determinant of the ${\bf T}^{(kq)}$ matrix, which equals to $1$:
+\begin{equation}
+\vert {\bf J}^{(kq)} \vert = \vert {\bf T}^{(kq)} \vert =1.
+\end{equation}
+  Therefore, the integration variables in Eq.~(\ref{me_arb}) can be changed without any factorization. 
+  
+  Finally, an expression for the overlap matrix element of the $(q,kp)$ coordinate sets ~(\ref{me_arb}) can be determined as follow
+\begin{align}
+\langle \phi_{i}^{\tilde{\gamma}}\left(q,kp \right) & \vert 
+\phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \rangle =
+\int \int d{\bf x}_k d{\bf y}_k  ~\phi_{i}^{\tilde{\gamma}}\left(q,kp \right) \left( \phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \right)^{*}  = \nonumber 
+\\ & = 4 \pi \sum_{\tilde{\gamma}\tilde{\gamma}^{\prime}}  A_{\gamma\tilde{\gamma}}^{ T^{(kq)} } A_{\gamma\tilde{\gamma}^{\prime}}^{ T^{(kq)} }
+ \sum_{\kappa} \sqrt{2\kappa+1}~ \epsilon(\kappa, \rho) {E}^{\kappa \kappa 0 \lambda^{\prime} l^{\prime} L L}_{\lambda l} \times  \nonumber \\
+ &\times \mathcal{I}_2\left(
+ \tfrac{\tilde{\lambda}+\tilde{\lambda^{\prime}}-\kappa}{2}, ~
+ \tfrac{\tilde{l}+\tilde{l^{\prime}}-\kappa}{2},~
+ \kappa,~
+ \alpha^{(q)}_{ij},~
+ \beta^{(q)}_{ij} ,~
+ \vert \rho^{(q)}_{ij} \vert ~
+  \right),
+\end{align}
+where, $\rho_{ij}^{(q)}=\rho_{i}^{(q)}+\rho_{j}^{(q)}$.
+
+\subsection{Projection into ${\bf T}$ matrix}
+\label{overlap_by_proj}
