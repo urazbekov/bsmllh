@@ -475,19 +475,19 @@ Consider the three body system containing a boson $k$ and two fermions, $p$ and 
  A total wave function of this system with total spin $ J $ and spin projection $ M $ can be represented as
  \begin{equation}
  \Psi^{JM}_{tot}
- = \phi\left( k \right) 
+ = \psi\left( k \right) 
  \Psi^{JM}\left( {\bf x}_k, {\bf y}_k \right).
  \label{totwf}
  \end{equation}
-Here, $\phi\left( k \right)$ -- internal wave function of the $k$-particle, $\Psi^{JM}\left( {\bf x}_k, {\bf y}_k \right)$ -- wave function of the relative motion depending on the Jacobi coordinates $ {\bf x}_k $ and $ {\bf y}_k $. The vector $ {\bf x}_k $ is a vector of the relative distance between the pair of particles $ pq $ and $ k $, and $ {\bf y}_k $ is the vector of the relative distance between the center of mass of the pair $ pq $ and the particle $ k $ (see Fig. \ref{fig:jacobiSet}). The wave function of relative motion may be expanded into a components as
+Here, $\psi\left( k \right)$ -- internal wave function of the $k$-particle, $\Psi^{JM}\left( {\bf x}_k, {\bf y}_k \right)$ -- wave function of the relative motion depending on the Jacobi coordinates $ {\bf x}_k $ and $ {\bf y}_k $. The vector $ {\bf x}_k $ is a vector of the relative distance between the pair of particles $ pq $ and $ k $, and $ {\bf y}_k $ is the vector of the relative distance between the center of mass of the pair $ pq $ and the particle $ k $ (see Fig. \ref{fig:jacobiSet}). The wave function of relative motion may be expanded into a components as
 \begin{equation}
-\Psi^{JM}\left( {\bf x}_k, {\bf y}_k \right)=\sum_\gamma\Psi_\gamma\left( {\bf x}_k, {\bf y}_k \right),
+\Psi^{JM}\left( {\bf x}_k, {\bf y}_k \right)=\sum_\gamma\Psi^{ J M}_\gamma\left( {\bf x}_k, {\bf y}_k \right),
 \end{equation}
-where  $\gamma \equiv \{\lambda l L S J M\}$.
+where  $\gamma \equiv \{\lambda l L S\}$.
 The momenta $ \lambda $, $ l $ are the orbital momenta conjugated to the coordinates $ {\bf x} _k $ and $ {\bf y} _k $ respectively, $ L $ is the total orbital momentum of the system and $S$ is the total spin of the pair $pq$.  
 The each component defines spatial and spin parts as follow
 \begin{align}
-\Psi_\gamma\left( {\bf x}_k, {\bf y}_k \right) = & \left[
+\Psi^{ J M}_\gamma\left( {\bf x}_k, {\bf y}_k \right) = & \left[
 \Phi^{(\lambda,l)}_L \left({\bf x}_k, {\bf y}_k \right) \otimes
 \chi_S(pq)
 \right]_{JM} =  \\
@@ -516,26 +516,27 @@ Here, the coefficients $ C_{i} $ are the parameters of the wave function expansi
 The linear parameters  $ \alpha^{(k)} _ {i} $, $ \beta^{(k)}_{i}$ 
 make the wave function more complete, if they are represented in the following form
 \begin{align}
-\alpha^{(k)} _ {i} = \alpha_0~ \tan 
-\left( \frac{\pi}{2} \frac{2i-1}{2N_\alpha} \right),
- ~~~ i=1...N_\alpha \\
-\beta^{(k)} _ {i} = \beta_0~  \tan 
-\left( \frac{\pi}{2} \frac{2i-1}{2N_\beta} \right),
-~~~ i=1...N_\beta
+\alpha^{(k)} _ {i} =& \alpha_0~ \tan 
+\left( \frac{\pi}{2} \frac{2i-1}{2N_{\gamma}} \right),
+  \\
+\beta^{(k)} _ {i} =& \beta_0~  \tan 
+\left( \frac{\pi}{2} \frac{2i-1}{2N_{\gamma}} \right),
+~~~ i=1,~...,~N_{\gamma}.
 \end{align}
 Finally, the basis function for the three body system $(k,~pq)$ can be represented in form 
 \begin{align}
-\phi_{i}^{\gamma} \left(k, pq \right)=&
-C_i  x^\lambda y^l 
-\exp\left( - \tfrac{1}{2} \alpha_i^{(k)} x^2_k - \tfrac{1}{2} \beta_i^{(k)} y^2_k \right)~
-\phi \left( k \right) 
-\times \nonumber \\
-& \times \left[ \left[ 
+\phi^{ J M}_{\gamma i} \left(k, pq \right)=
+C_i \psi \left( k \right) 
+ \varphi^{(\lambda,l)}_i(x_k,y_k) \left[ \left[ 
 Y_\lambda \left(\hat{x}_k \right) \otimes Y_l \left(\hat{y}_k \right)
 \right]_{L} \otimes \chi_S (pq) \right]_{JM}.
 \label{basis_function_1}
 \end{align}
-Here, the coordinate arguments, ${\bf x}_k$ and ${\bf y}_k$,   are down for convenience.
+Here, the coordinate arguments, ${\bf x}_k$ and ${\bf y}_k$,   are down for convenience, and the radial part of the basis function has form
+\begin{equation}
+\varphi^{(\lambda,l)}_i(x_k,y_k)=
+  x^\lambda y^l \exp\left( - \tfrac{1}{2} \alpha_i^{(k)} x^2_k - \tfrac{1}{2} \beta_i^{(k)} y^2_k \right)
+\end{equation}
 
 \begin{figure}[b]
 \centering
@@ -548,20 +549,18 @@ Here, the coordinate arguments, ${\bf x}_k$ and ${\bf y}_k$,   are down for conv
 If the three body system consisted of a fermion $k$ and two boson $(pq)$, the total wave function (\ref{totwf}) may be rewritten as follows:
 \begin{equation}
 \Psi^{JM}_{tot} 
- = \phi\left( p \right) 
- \phi\left( q \right) 
+ = \psi\left( p \right) 
+ \psi\left( q \right) 
  \Psi^{JM}\left( {\bf x}_k, {\bf y}_k \right),
 \end{equation} 
-where $\phi\left( p \right)$ and $\phi\left( q \right) $ -- internal wave functions of the $p$ and $q$ particles correspondingly.
+where $\psi\left( p \right)$ and $\psi\left( q \right) $ -- internal wave functions of the $p$ and $q$ particles correspondingly.
 The wave function of relative motion $\Psi^{JM}\left( {\bf x}_k, {\bf y}_k \right)$ has the similar form, except the spin part $\chi(k)_{\tfrac{1}{2}m_s}$. Thus, the basis function for the three body system having only one fermion $k$ can be expressed as
 \begin{align}
-\phi_{i}^{\gamma} \left(k, pq \right)=&
-C_i  x^\lambda y^l 
-\exp\left( - \alpha_i^{(k)} x^2_k - \beta_i^{(k)} y^2_k \right)~
-\phi\left( p \right) 
- \phi\left( q \right) 
-\times \nonumber \\
-& \times \left[ \left[ 
+\phi^{ J M}_{\gamma i} \left(k, pq \right)=
+\psi\left( p \right) 
+ \psi\left( q \right) 
+\varphi^{(\lambda,l)}_i(x_k,y_k) 
+ \left[ \left[ 
 Y_\lambda \left(\hat{x}_k \right) \otimes Y_l \left(\hat{y}_k \right)
 \right]_{L} \otimes \chi(k)_{\tfrac{1}{2}} \right]_{JM}.
 \label{basis_function_2}
@@ -641,9 +640,9 @@ where the summation is proceeded over new quantum numbers $\tilde{\lambda},~\til
 \begin{align}
  \Phi_{LM_L}^{(\tilde{\lambda},\tilde{l}) } \left(  {\bf x}_q, {\bf y}_q \right)  =  &
 x^{\tilde{\lambda}}_q y^{\tilde{l}}_q 
-\sum_i C_i 
+\sum_{i=1}^{N_\gamma} C_i 
 \exp\left( - \tfrac{1}{2} \alpha_i^{(q)} x^2_q -\tfrac{1}{2}  \beta_i^{(q)} y^2_q 
-- \alpha_i^{(q)} \beta_i^{(q)}  {\bf x}_q \cdot {\bf y}_q 
+- \rho_i^{(q)}   {\bf x}_q \cdot {\bf y}_q 
    \right)~
 \times \nonumber \\
 & \times \left[ 
@@ -694,22 +693,26 @@ As for the one fermionic system the spin part remains unchanged.
 
 \section{Overlap matrix elements}
 The overlap matrix elements for the basis function (\ref{basis_function_1}) is expressed as follows
-\begin{equation}
-\langle \phi_{i}^{\gamma}\left(k, pq \right) \vert 
-\phi_{j}^{\gamma^{\prime}}\left(k, pq \right) \rangle= \int \int d{\bf x}_k d{\bf y}_k ~\phi_{i}^{\gamma}\left(k, pq \right) \left( \phi_{j}^{\gamma^{\prime}}\left(k, pq \right) \right)^{*}.
-\end{equation}
-Using the properties of spherical harmonics it possible to reduce above six dimensional into two dimensional integral. It gives an explicit form like
 \begin{align}
-\int_0^\infty \int_0^\infty  dx_k dy_k~ & x^{2\lambda+2}y^{2 l +2} {\rm exp}\left( - \tfrac{1}{2}\alpha^{(k)}_{ij} x^2_k - \tfrac{1}{2} \beta^{(k)}_{ij} y^2_k \right) \delta_{\gamma \gamma'} =
- \\
-=&~ \mathcal{I} \left( 2\lambda+2,\alpha_{ij}^{(k)} \right)~ \mathcal{I} \left(2l+2,\beta_{ij}^{(k)} \right) ,\nonumber
+\langle \phi^{ J M}_{\gamma i}\left(k, pq \right) \vert 
+\phi^{ J M}_{\gamma^{\prime}j}\left(k, pq \right) \rangle=&
+ \int \int d{\bf x}_k d{\bf y}_k 
+ ~\phi^{ J M}_{\gamma i}\left(k, pq \right) 
+ \left( \phi^{ J M}_{\gamma^{\prime} j}\left(k, pq \right) \right)^{*}
+ = \label{overlap_in_basic_set}
+\\ 
+=\int_0^\infty \int_0^\infty  dx_k dy_k~ & x_k^{2\lambda+2}y_k^{2 l +2} {\rm exp}\left( - \tfrac{1}{2}\alpha^{(k)}_{ij} x^2_k - \tfrac{1}{2} \beta^{(k)}_{ij} y^2_k \right) \delta_{\gamma \gamma'} =
+ \nonumber \\ 
+=&~ 
+ C_i C_j
+\mathcal{I} \left( 2\lambda+2,\alpha_{ij}^{(k)} \right)~ \mathcal{I} \left(2l+2,\beta_{ij}^{(k)} \right) ,\nonumber
 \end{align} 
 where
 $
 \alpha_{ij}^{(k)}=\alpha_{i}^{(k)}+\alpha_{j}^{(k)}$ and $
 \beta_{ij}^{(k)}=\beta_{i}^{(k)}+\beta_{j}^{(k)}
 $,
-the table integral $\mathcal{I}_1$ is  
+the table integral $\mathcal{I}(\lambda, \alpha)$ is  
 \begin{equation}
 \mathcal{I} \left( \lambda,\alpha\right)=
  2^{1+\lambda}\frac{\Gamma \left( 1+\lambda \right)  }{ \left( \alpha \right) ^{1+\lambda}} .
@@ -718,14 +721,14 @@ the table integral $\mathcal{I}_1$ is
 
 It is also useful to give an expression of overlap matrix elements for alternative Jacobi coordinate set. For instance, the matrix elements for the $(q,kp)$ three body system may be given as follows
 \begin{equation}
-\langle \phi_{i}^{\gamma}\left(k,pq \right) \vert 
-\phi_{j}^{\gamma^{\prime}}\left(k,pq \right) \rangle
+\langle \phi^{ J M}_{\gamma i}\left(k,pq \right) \vert 
+\phi^{ J M}_{\gamma^{\prime}j}\left(k,pq \right) \rangle
 =
 \sum_{\tilde{\gamma} \tilde{\gamma}'}
 A^{\tilde{\lambda}' \tilde{l}' \lambda' l'}_{{\bf T}^{(kq)} }
 A^{\tilde{\lambda} \tilde{l} \lambda l}_{{\bf T}^{(kq)} }
-\langle \phi_{i}^{\tilde{\gamma}}\left(q,kp \right) \vert 
-\phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \rangle
+\langle \phi^{ J M}_{\tilde{\gamma}i}\left(q,kp \right) \vert 
+\phi^{ J M}_{\tilde{\gamma}^{\prime}j}\left(q,kp \right) \rangle
 \label{overlap_alternative}
 \end{equation}
 The Jacobian  matrix ${\bf J}^{(kq)}$ for transformation from the ${\bf x}_k, {\bf y}_k$ coordinates to the ${\bf x}_q, {\bf y}_q$ coordinates gives the ${\bf T}^{(kq)}$ matrix
@@ -756,9 +759,9 @@ Consequently, the radial part (\ref{new_spacial_part}) of the wave function can 
 \begin{align}
  \Phi_{LM_L}^{(\tilde{\lambda},\tilde{l}) } \left(  {\bf x}_q, {\bf y}_q \right)  =  &
 x^{\tilde{\lambda}}_q y^{\tilde{l}}_q 
-\sum_i C_i 
+\sum_{i=1}^{N_\gamma} C_i 
 \exp\left( - \tfrac{1}{2} 
-\left( \alpha^{(q)}_{ij}-\tfrac{\rho^{(q)}_{ij}{}^2}{\beta^{(q)}_{ij}} \right)
+{\alpha'}^{(q)}_{i}
  x^2_q -\tfrac{1}{2}  \beta_i^{(q)} y^2_q \right)
 \times \nonumber \\
 & \times \left[ 
@@ -766,47 +769,80 @@ Y_{\tilde{\lambda}} \left(\hat{x}_k \right) \times Y_{\tilde{l}} \left(\hat{y}_k
 \right]_{LM_L}.
 \label{new_spacial_part}
 \end{align}
-One can get easily then an expression for the overlap matrix element from Eq. (\ref{overlap_alternative}) as follows
+with 
+\begin{equation}
+{\alpha'}^{(q)}_{i}=
+\alpha^{(q)}_{i}-\frac{\left(\rho^{(q)}_{i}{}\right)^2}{\beta^{(q)}_{i}}
+\end{equation}
+One can get easily then an expression for the overlap matrix element in alternative Jacobi coordinate set as follows
 \begin{align}
-\langle \phi_{i}^{\tilde{\gamma}}\left(q,kp \right) & \vert 
-\phi_{j}^{\tilde{\gamma}^{\prime}}\left(q,kp \right) \rangle =
-   \\
+\langle \phi^{JM}_{\tilde{\gamma}i}\left(q,kp \right) & \vert 
+\phi^{JM}_{\tilde{\gamma}^{\prime}j}\left(q,kp \right) \rangle =
+ \label{matrix_element_alter_set} \\
 =& 
+ C_i C_j
  \mathcal{I} \left( 2 \tilde{\lambda}+2,~
-\alpha^{(q)}_{ij}-\tfrac{\rho^{(q)}_{ij}{}^2}{\beta^{(q)}_{ij}} 
+\alpha'^{(q)}_{ij}
   \right)
 \mathcal{I} \left( 2 \tilde{l}+2, ~
-\beta_i^{(q)} \right)
+\beta_{ij}^{(q)} \right)
   \delta_{\tilde{\gamma}\tilde{\gamma}^{\prime}}. \nonumber
- \label{projectionMethod}
 \end{align}
-Notably, the coefficient $A^{\tilde{\lambda}' \tilde{l}' \lambda' l'}_{ \tiny {\bf Q}^{(kq)}_{ij} }$  presented in Eq. (\ref{overlap_alternative}) should now become depended on the rotation matrix ${\bf Q}^{(kq)}_{ij}$. For simplicity the indexes of the rotation matrix are down in the next sections, consequently, the recoupling coefficient becomes $A^{\tilde{\lambda}' \tilde{l}' \lambda' l'}_{  {\bf Q} }$.
+
+Taking into account Eq.(\ref{matrix_element_alter_set}) the matrix element (\ref{overlap_alternative}) can be then rewritten  as follows
+\begin{align}
+\langle \phi^{ J M}_{\gamma i}\left(k,pq \right) \vert 
+\phi^{ J M}_{\gamma^{\prime}j}\left(k,pq \right) \rangle
+= \label{overlap_to_q}
+\sum_{\tilde{\gamma} \tilde{\gamma}'}
+A^{\tilde{\lambda}' \tilde{l}' \lambda' l'}_{{\bf T}^{(kq)} }
+A^{\tilde{\lambda} \tilde{l} \lambda l}_{{\bf T}^{(kq)} }
+\langle \phi^{ J M}_{\tilde{\gamma} i}\left(q,kp \right) \vert 
+\phi^{ J M}_{\tilde{\gamma}^{\prime}j}\left(q,kp \right) \rangle= 
+ \nonumber  \\
+=
+\sum_{\substack{\tilde{\gamma} \tilde{\gamma}'\\i=1..N_\gamma \\j=1..N_{\gamma'}}}
+A^{\tilde{\lambda}' \tilde{l}' \lambda' l'}_{{\bf Q}^{(kq)}_{ij} }
+A^{\tilde{\lambda} \tilde{l} \lambda l}_{{\bf Q}^{(kq)}_{ij} }
+ C_i C_j
+ \mathcal{I} \left( 2 \tilde{\lambda}+2,~
+\alpha'^{(q)}_{ij}
+  \right)
+\mathcal{I} \left( 2 \tilde{l}+2, ~
+\beta_{ij}^{(q)} \right)
+  \delta_{\tilde{\gamma}\tilde{\gamma}^{\prime}}.  \nonumber \\
+  {}
+\end{align}
+Notably, the coefficient $A^{\tilde{\lambda} \tilde{l} \lambda l}_{ \tiny {\bf Q}^{(kq)}_{ij} }$ should now become depended on the rotation matrix ${\bf Q}^{(kq)}_{ij}$. For simplicity the indexes of the rotation matrix are down in the next sections, consequently, the recoupling coefficient turns $A^{\tilde{\lambda} \tilde{l} \lambda l}_{  {\bf Q} }$.
 
 
 \section{Normalization and correlation density of the three-body wave function}
-Using the overlap matrix elements the normalization of the total three-body wave function can be expressed as follows
+By means of the overlap matrix elements (\ref{overlap_in_basic_set})  the weight of the component $\gamma$ may be represented as follows
 \begin{equation}
-\mathcal{N} \equiv  \langle \Psi^{JM}_{tot} \vert \Psi^{JM}_{tot} \rangle = \sum_{\gamma \gamma'}
- \langle \Psi^{JM}_{\gamma} \vert \Psi^{JM}_{\gamma'} \rangle = \sum_{\gamma} \mathcal{N}^{(k)}_{\gamma} \delta_{\gamma \gamma'},    
-\end{equation}
-where 
-\begin{equation}
-\mathcal{N}_{\gamma} =  \sum_{ij} C_i C_j 
+\mathcal{N}_{\gamma} =  
+\sum_{\substack{i=1..N_\gamma \\j=1..N_{\gamma}}} 
+C_i C_j 
  \mathcal{I} \left( 2\lambda+2,~\alpha_{ij}^{(k)} \right)
  \mathcal{I} \left( 2l+2,~\beta_{ij}^{(k)} \right).
 \end{equation}
+This, in turn, gives the the normalization of the total three-body wave function as follows
+\begin{equation}
+\mathcal{N}  = \sum_{\gamma} \mathcal{N}^{(k)}_{\gamma}.    
+\end{equation}
+
+
 A correlation density function of the total wave function (\ref{totwf})  can be expressed in the following way
 \begin{equation}
 W\left( x_k,y_k \right) =
-\int \int d\hat{x}_k~ d\hat{y}_k~ \vert \Psi^{JM}_{tot} \vert^2
+\int \int x_k^2 y_k^2 d\hat{x}_k~ d\hat{y}_k~ \vert \Psi^{JM}_{tot} \vert^2
 =
- \sum_{\gamma} W_{\gamma}\left( x_k,y_k \right)
+ \sum_{\gamma}  W_{\gamma}\left( x_k,y_k \right)
 \end{equation}
-with the component function 
+with 
 \begin{equation}
 W_{\gamma}\left( x_k,y_k \right) = \sum_{ij} C_i C_j x^{2+2\lambda}_k y^{2+2l}_k \text{exp}\left( - \tfrac{1}{2} \alpha^{(k)}_{ij} x_k^2 -  \tfrac{1}{2} \beta^{(k)}_{ij} y_k^2 \right) .
 \end{equation}
-Here, the summation goes over $i=1,~...,~N_\alpha$ and $j=1,~...,~N_\beta$.
+Here, the summation goes over $i=1,..,N_\gamma$ and $j=1,..,N_\gamma$.
 
 
 \section{The density distribution function of nuclear matter}
@@ -814,15 +850,15 @@ Here, the summation goes over $i=1,~...,~N_\alpha$ and $j=1,~...,~N_\beta$.
 
 The density distribution function of nuclear matter within the three body model can be expressed as follows
 \begin{equation}
-\rho({\bf R}) = \sum_{i=\{kpq\}} \rho_{i}^{\varepsilon} ({\bf R})
+\rho({\bf R}) = \sum_{\iota=\{kpq\}} \rho^{(\iota)} ({\bf R})
 \end{equation}
-where $\varepsilon=\{N,~\alpha\}$ defines $i$-th cluster either it's nucleon or $\alpha$-particle.
+where $\iota=\{k,p,q\}$.
 The density function of a cluster is given by
 \begin{equation}
-\rho^{\varepsilon}_{i}({\bf R})=
+\rho^{(\iota)}({\bf R})=
 \langle~ \Psi_{tot}^{JM} ~\vert~ \hat{\rho}_i~ \vert~ \Psi_{tot}^{JM} ~\rangle,
 \end{equation}
-where the operator of density may be expressed as
+here, the operator of density is defined as
 \begin{equation}
 \hat{\rho}_i\equiv
 \begin{cases}
@@ -830,17 +866,97 @@ where the operator of density may be expressed as
 & ~{\rm for}~ i{\rm \text -th~nucleons} , \\
 \rho_{\alpha} \left( {\bf y}_i - y_0^{(i)} {\bf R} \right)  & 
 ~{\rm for}~ i{\rm \text -th~\alpha\text -clusters},
-\end{cases}.
+\end{cases}
 \end{equation}
-Here, $\delta({\bf z})$ -- delta function, $\rho_\alpha({\bf r})$ -- internal density distribution function of $\alpha$-cluster:
+where $\delta({\bf z})$ -- delta function, $\rho_\alpha({\bf r})$ -- internal density distribution function of $\alpha$-cluster:
 \begin{equation}
 \rho_{\alpha}({\bf r}) = \rho_0 \exp \left( - \gamma_0 {\bf r}^2 \right)
 \end{equation}
-with parameters giving normalization to unity:
+The $\alpha$-particle density function is normalized to unity with the following parameters
 \begin{equation}
-\gamma_0=\frac{3}{2} \frac{1}{<r_\alpha^2>},~~~\rho_0=4\sqrt{\frac{\gamma_0}{\pi}}.
+\gamma_0=\frac{3}{2} \frac{1}{<r_\alpha^2>},~~~\rho_0=\left( \frac{\gamma_0}{\pi} \right)^{\tfrac{3}{2}}.
 \end{equation}
 Here,  the square root of $<r_\alpha^2>$ -- r.m.s. matter radius of $\alpha$-particle, which equals to 1.461 $fm$ \cite{satchler1979folding}.
+
+Write a matrix element of the nucleon operator $\delta \left( {\bf y}_k-y^{(k)}_0 {\bf R} \right)$ via the basis functions:
+\begin{align}
+&\langle \phi^{JM}_{\gamma i} (k,pq) \vert 
+\delta \left( {\bf y}_k-y^{(k)}_0 {\bf R} \right)
+\vert \phi^{JM}_{\gamma' j} (k,pq) \rangle = 
+ \label{me_delta_k}\\
+& =C_i C_j  \int \int d{ x}_k d{ y}_k ~x_k^{2} ~y^{2}_k
+~\varphi^{(\lambda,l)}_i(x_k,y_k) 
+~\varphi^{(\lambda,l)}_j (x_k,y_k)
+\frac{\delta \left( { y}_k-y^{(k)}_0 { R} \right)}{y_k^2} ~
+ \delta_{\gamma \gamma'}~ =
+ \nonumber \\
+&=
+C_iC_j  
+\left( y_0^{(k)} \right)^{2l}
+R^{2l} 
+\exp \left( -\tfrac{1}{2} {y_0^{(k)}}^2 \beta^{(k)}_{ij} R^2 \right)
+\mathcal{I}\left( 2\lambda+2, \tfrac{1}{2} \alpha_{ij}^{(k)} \right)
+\nonumber
+ \end{align}
+Based on this expression the density function $\rho_k(R)$ of the nucleon $k$ has form
+\begin{align}
+\rho^{(k)}(R)=&\sum_{\gamma} \rho^{(k)}_\gamma(R),
+\end{align}
+where
+\begin{align}
+\rho^k_\gamma(R)=\sum_{ij} 
+C_iC_j  
+\left( y_0^{(k)} \right)^{2l}
+R^{2l} 
+&\exp \left( -\tfrac{1}{2} {y_0^{(k)}}^2 \beta^{(k)}_{ij} R^2 \right)
+\mathcal{I}\left( 2\lambda+2, \tfrac{1}{2} \alpha_{ij}^{(k)} \right)
+\nonumber
+\end{align}
+If the cluster $k$ is $\alpha$-particle, a relevant matrix element has form
+\begin{align}
+&\langle \phi^{JM}_{\gamma i} (k,pq) \vert 
+\rho_\alpha \left( {\bf y}_k-y^{(k)}_0 {\bf R} \right)
+\vert \phi^{JM}_{\gamma' j} (k,pq) \rangle = 
+\label{me_rho_alpha}
+\\
+\nonumber
+& = \rho_0 C_i C_j \exp\left(-\gamma_0 R^2 \right)
+ \int \int d{ x}_k d{ y}_k ~x_k^{2} ~y^{2}_k
+~\varphi^{(\lambda,l)}_i(x_k,y_k) 
+~\varphi^{(\lambda,l)}_j (x_k,y_k) \times \\
+& \times \exp \left(-\gamma_0 {y_0^{(k)}}^2 y^2_k \right)
+i_0(2\gamma_0 y_0^{(k)} y_k R) \delta_{\gamma \gamma'},
+\nonumber
+\end{align} 
+where, $i_0(x)$ is the modified spherical Bessel function of the first kind.
+With the aid of this matrix element and using the explicit form of the integral (see. Appendix \ref{AppendixA}), the density function of the $\alpha$-particle $k$ is built as follows
+\begin{equation}
+\rho^{(k)}(R)=\sum_\gamma \rho^{(k)}_{\gamma}(R),
+\end{equation}
+where
+\begin{align}
+\rho^{(k)}_\gamma(R)= 4 \pi \exp\left(-\gamma_0 R^2 \right)
+\sum_{ij} C_i C_j 
+ \mathcal{I}\left( 2\lambda+2, \tfrac{1}{2} \alpha^{(k)}_{ij}\right) \times \\
+ \times \mathcal{I}\left( l,0,\beta_{ij}^{(k)}+2{y^{(k)}_0}^2 \gamma_0,2\gamma_0 y^{(k)}_0 R \right) \nonumber
+\end{align}
+
+Let's turn to the density functions of $q$ particles.
+ In order to calculate the matrix elements for these particle, one must switch basis functions into $(q,kp)$ Jacobi coordinate set, as in the case with overlap matrix element (\ref{overlap_alternative}). 
+In particular, the matrix element for the nucleon $q$ may be represented in the form
+\begin{align}
+&\langle \phi^{JM}_{\gamma i} (k,pq) \vert 
+\delta \left( {\bf y}_q-y^{(q)}_0 {\bf R} \right)
+\vert \phi^{JM}_{\gamma' j} (k,pq) \rangle = 
+\\
+&\sum_{\tilde{\gamma} \tilde{\gamma}'}
+A^{\tilde{\lambda}' \tilde{l}' \lambda' l'}_{{\bf Q} }
+A^{\tilde{\lambda} \tilde{l} \lambda l}_{{\bf Q} }
+\langle \phi^{ J M}_{\tilde{\gamma} i}\left(q,kp \right) \vert 
+\delta \left( {\bf y}_q-y^{(q)}_0 {\bf R} \right) \vert
+\phi^{ J M}_{\tilde{\gamma}^{\prime} j}\left(q,kp \right) \rangle
+\nonumber
+\end{align}
 
 
 An operator of matter density distribution of the three body system takes the sums of all three clusters and brings it from the center of  system mass (see. Fig. \ref{fig:density_scheme_1}, \ref{fig:density_scheme_2})
