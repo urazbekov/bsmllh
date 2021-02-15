@@ -297,7 +297,7 @@ Symbol & Name & Unit \\
 $r$ & distance & fm \\
 $k$ & wavenumber & fm$^{-1}$ \\
 $E$ & energy & MeV \\
-$\rho$ & density of nuclear matter  & fm$^{-3}$ \\
+$\rho(r)$ & density function  & fm$^{-3}$ \\
 $A$ & atomic mass & u \\
 $\sigma$ & cross section & mb\\
 %$\Omega$ & angular frequency & \si{\radian} \\
@@ -470,7 +470,7 @@ Since this wave function was widely used, we chose it as the wave function to de
 
 
 
-\section{The basis function}
+\section{Basis function}
 Consider the three body system containing a boson $k$ and two fermions, $p$ and $q$. 
  A total wave function of this system with total spin $ J $ and spin projection $ M $ can be represented as
  \begin{equation}
@@ -754,6 +754,7 @@ The spacial part (\ref{new_spacial_part}) in the alternative coordinate set has 
 1 &  0 \\ 
 -\tfrac{\rho^{(q)}_{i}}{\alpha^{(q)}_i} & 1
 \end{pmatrix} .
+\label{q_rotation_matrix}
 \end{equation}
 Consequently, the radial part (\ref{new_spacial_part}) of the wave function can be rewritten without the scalar product term as
 \begin{align}
@@ -816,7 +817,7 @@ A^{\tilde{\lambda} \tilde{l} \lambda l}_{{\bf Q}^{(kq)}_{ij} }
 Notably, the coefficient $A^{\tilde{\lambda} \tilde{l} \lambda l}_{ \tiny {\bf Q}^{(kq)}_{ij} }$ should now become depended on the rotation matrix ${\bf Q}^{(kq)}_{ij}$. For simplicity the indexes of the rotation matrix are down in the next sections, consequently, the recoupling coefficient turns $A^{\tilde{\lambda} \tilde{l} \lambda l}_{  {\bf Q} }$.
 
 
-\section{Normalization and correlation density of the three-body wave function}
+\section{Normalization and correlation density function}
 By means of the overlap matrix elements (\ref{overlap_in_basic_set})  the weight of the component $\gamma$ may be represented as follows
 \begin{equation}
 \mathcal{N}_{\gamma} =  
@@ -845,7 +846,7 @@ W_{\gamma}\left( x_k,y_k \right) = \sum_{ij} C_i C_j x^{2+2\lambda}_k y^{2+2l}_k
 Here, the summation goes over $i=1,..,N_\gamma$ and $j=1,..,N_\gamma$.
 
 
-\section{The density distribution function of nuclear matter}
+\section{Density distribution functions}
 \label{section_density_function}
 
 The density distribution function of nuclear matter within the three body model can be expressed as follows
@@ -875,8 +876,18 @@ where $\delta({\bf z})$ -- delta function, $\rho_\alpha({\bf r})$ -- internal de
 The $\alpha$-particle density function is normalized to unity with the following parameters
 \begin{equation}
 \gamma_0=\frac{3}{2} \frac{1}{<r_\alpha^2>},~~~\rho_0=\left( \frac{\gamma_0}{\pi} \right)^{\tfrac{3}{2}}.
+\label{rho_alpha_parameters}
 \end{equation}
-Here,  the square root of $<r_\alpha^2>$ -- r.m.s. matter radius of $\alpha$-particle, which equals to 1.461 $fm$ \cite{satchler1979folding}.
+Here,  the square root of $<r_\alpha^2>$ -- rms matter radius of $\alpha$-particle, which equals to 1.461 $fm$ \cite{satchler1979folding}.
+
+%\begin{figure}[t]
+%\centering
+%\includegraphics[scale=0.8]{density_scheme_1}
+%\decoRule
+%\caption{\footnotesize The (k, pq) scheme of Jacobi coordinate %sets for calculation of the density distribution function of %nuclear matter in the framework of  the three body system.}
+%\label{fig:density_scheme_1}
+%\end{figure}
+
 
 Write a matrix element of the nucleon operator $\delta \left( {\bf y}_k-y^{(k)}_0 {\bf R} \right)$ via the basis functions:
 \begin{align}
@@ -895,21 +906,22 @@ C_iC_j
 \left( y_0^{(k)} \right)^{2l}
 R^{2l} 
 \exp \left( -\tfrac{1}{2} {y_0^{(k)}}^2 \beta^{(k)}_{ij} R^2 \right)
-\mathcal{I}\left( 2\lambda+2, \tfrac{1}{2} \alpha_{ij}^{(k)} \right)
+\mathcal{I}\left( 2\lambda+2, \tfrac{1}{2} \alpha_{ij}^{(k)} \right)  \delta_{\gamma \gamma'}.~
 \nonumber
  \end{align}
-Based on this expression the density function $\rho_k(R)$ of the nucleon $k$ has form
+Based on this expression the density function $\rho_k(R)$ of the nucleon $k \equiv N_k$ has form
 \begin{align}
-\rho^{(k)}(R)=&\sum_{\gamma} \rho^{(k)}_\gamma(R),
+\rho^{(N_k)}(R)=&\sum_{\gamma} \rho^{(N_k)}_\gamma(R),
+\label{rho_nk}
 \end{align}
 where
 \begin{align}
-\rho^k_\gamma(R)=\sum_{ij} 
+\rho^{(N_k)}_\gamma(R)=\sum_{ij} 
 C_iC_j  
 \left( y_0^{(k)} \right)^{2l}
 R^{2l} 
 &\exp \left( -\tfrac{1}{2} {y_0^{(k)}}^2 \beta^{(k)}_{ij} R^2 \right)
-\mathcal{I}\left( 2\lambda+2, \tfrac{1}{2} \alpha_{ij}^{(k)} \right)
+\mathcal{I}\left( 2\lambda+2, \tfrac{1}{2} \alpha_{ij}^{(k)} \right).
 \nonumber
 \end{align}
 If the cluster $k$ is $\alpha$-particle, a relevant matrix element has form
@@ -931,14 +943,16 @@ i_0(2\gamma_0 y_0^{(k)} y_k R) \delta_{\gamma \gamma'},
 where, $i_0(x)$ is the modified spherical Bessel function of the first kind.
 With the aid of this matrix element and using the explicit form of the integral (see. Appendix \ref{AppendixA}), the density function of the $\alpha$-particle $k$ is built as follows
 \begin{equation}
-\rho^{(k)}(R)=\sum_\gamma \rho^{(k)}_{\gamma}(R),
+\rho^{(\alpha_k)}(R)=\sum_\gamma \rho^{(\alpha_k)}_{\gamma}(R),
+\label{rho_alphak}
 \end{equation}
 where
 \begin{align}
-\rho^{(k)}_\gamma(R)= 4 \pi \exp\left(-\gamma_0 R^2 \right)
+\rho^{(\alpha_k)}_\gamma(R)= 
+4 \pi \rho_0 \exp\left(-\gamma_0 R^2 \right)
 \sum_{ij} C_i C_j 
  \mathcal{I}\left( 2\lambda+2, \tfrac{1}{2} \alpha^{(k)}_{ij}\right) \times \\
- \times \mathcal{I}\left( l,0,\beta_{ij}^{(k)}+2{y^{(k)}_0}^2 \gamma_0,2\gamma_0 y^{(k)}_0 R \right) \nonumber
+ \times \mathcal{I}\left( l,0,\beta_{ij}^{(k)}+2{y^{(k)}_0}^2 \gamma_0,2\gamma_0 y^{(k)}_0 R \right). \nonumber
 \end{align}
 
 Let's turn to the density functions of $q$ particles.
@@ -954,166 +968,136 @@ A^{\tilde{\lambda}' \tilde{l}' \lambda' l'}_{{\bf Q} }
 A^{\tilde{\lambda} \tilde{l} \lambda l}_{{\bf Q} }
 \langle \phi^{ J M}_{\tilde{\gamma} i}\left(q,kp \right) \vert 
 \delta \left( {\bf y}_q-y^{(q)}_0 {\bf R} \right) \vert
-\phi^{ J M}_{\tilde{\gamma}^{\prime} j}\left(q,kp \right) \rangle
+\phi^{ J M}_{\tilde{\gamma}^{\prime} j}\left(q,kp \right) \rangle.
 \nonumber
 \end{align}
-
-
-An operator of matter density distribution of the three body system takes the sums of all three clusters and brings it from the center of  system mass (see. Fig. \ref{fig:density_scheme_1}, \ref{fig:density_scheme_2})
+Analogously to the  Eq. (\ref{me_delta_k}) the density function of the nucleon $q$ may be represented as follows
 \begin{equation}
-\rho({R})=\sum_{\scriptscriptstyle{i}=k,p,q} \rho^{(i)}_{{\iota}}({R}),
-\label{total_density}
+\label{rho_nq}
+\rho^{(N_q)}(R)=\sum_{\gamma} \rho_\gamma^{(N_q)} (R),
 \end{equation}
-where $\iota$ stands for the $\alpha$ particle or the nucleon inside the three-body system.
-
-\begin{figure}[b]
-\centering
-\includegraphics[scale=0.8]{density_scheme_1}
-\decoRule
-\caption{\footnotesize The (k, pq) scheme of Jacobi coordinate sets for calculation of the density distribution function of nuclear matter in the framework of  the three body system.}
-\label{fig:density_scheme_1}
-\end{figure}
-
-In this work 
-the valence nucleons are treated like structureless body, 
-while the $\alpha$-cluster has own density distribution function of nuclear matter in a form
-\begin{equation}
-\rho_\alpha(r)=\rho_0 \exp\left(-\gamma_0 r^2 \right)
-\label{alpha_density}
-\end{equation}
- where parameters $ \gamma_0= 0.7024$, $  \displaystyle \rho_0=0.4229$ \cite{satchler1979folding}. Corresponding matrix elements of the density function for both the nucleon and the $\alpha$-cluster, which are spectators in the three-body system (k, pq), can be written as 
-\begin{equation}
-\label{densities}
-\begin{gathered}
-\rho_{N}^{(k)}({R})=
-\sum_{\gamma}
-\sum_{ij}
-\langle\varphi^{{\gamma}}_i(k, pq) 
-\vert \delta(\textbf{R}-y_0^{(k)}\textbf{y}_k)
-\vert \varphi^{{\gamma}}_j(k, pq)\rangle \\
-\rho_{\alpha}^{(k)}({R})= 
-\sum_{\gamma}
-\sum_{ij}
-\langle\varphi^{{\gamma}}_i(k, pq) 
-\vert \rho_{\alpha}(\textbf{r}) 
-\vert \varphi^{{\gamma}}_j(k, pq)\rangle \\
-\end{gathered}
-\end{equation}
-Here $\textbf{r}$ is the radius-vector, shown in Figures \ref{fig:density_scheme_1} and \ref{fig:density_scheme_2}.
-%, and equal $\textbf{r}=y_0^{(k)}\textbf{y}_k+\textbf{R}$.
-
-\begin{figure}[t]
-\centering
-\includegraphics[scale=0.8]{density_scheme_2}
-\decoRule
-\caption{\footnotesize The (p, qk) scheme of Jacobi coordinate sets for calculation of the density distribution function of nuclear matter in the framework of  the three body system. }
-\label{fig:density_scheme_2}
-\end{figure}
-
-
-Using the basis function in the (k, pq) coordinate set, one can express the density function of the spectator of the three body system (p, qk), i.e. of the p-particle within the (p, qk) scheme,   using the transformation \eqref{transformbasisfunction} into the (p, qk) set as follows: 
+where the component $\gamma$ is
 \begin{align}
-\begin{gathered}
-\rho_{N}^{(q)}({R})=
-\sum_{\gamma \tilde{\gamma}}
-\sum_{ij}
-\left( A_{\gamma\tilde{\gamma}}^{ {\bf Q}_{ij} } \right)^2
-\langle \varphi^{ \widetilde{\gamma} }(q,kp) 
-\vert \delta(\textbf{R}-\textbf{y}_q)
-\vert \varphi^{\widetilde{\gamma}}(q,kp)\rangle \\
-\rho_{\alpha}^{(q)}({R})= 
-\sum_{\gamma \tilde{\gamma}}
-\sum_{ij}
-\left( A_{\gamma\tilde{\gamma}}^{ {\bf Q}_{ij} } \right)^2
-\langle \varphi^{ \widetilde{\gamma} }(q,kp)
-\vert \rho_{\alpha}(\textbf{r})
-\vert \varphi^{\widetilde{\gamma}}(q,kp)\rangle.\\
-\end{gathered}
-\end{align}
-
-The superscript $(kq)$  in the rotation matrix $ {\bf Q}_{ij}^{(kq)}$ is omitted here, and it will be done further for simplicity.
-With the properties of the spherical functions, partial expansion of the exponent function (\ref{exponent_expantion}) and pre-defined table integrals (\ref{overlap1}) and (\ref{table_integral_1})
-above mentioned six and eight dimensional integrals  may be expressed analytically. In particular, for the spectators in the (k, qp) set the density functions are defined like
-\begin{align}
-\rho_k^{(N)}(R)=&
-\sum_{\gamma }
-\sum_{i j} C_{i} C_j R^{2+2l} 
-\mathcal{I}_1 \left( 2+2\lambda,\alpha^{(k)}_{ij} \right)
-{\rm exp}\left( - \tfrac{1}{2} \beta^{(k)}_{ij} \left( y^{(k)}_0 R \right)^2\right) \nonumber \\
-\rho_{k}^{(\alpha)}(R)=&\left( 4 \pi \right)^2 \rho_0 {\rm exp}\left( - \gamma_0 R^2 \right)  
-\sum_{\gamma }
-\sum_{ij}  \mathcal{I}_1\left( 2+2\lambda, \alpha^{(k)}_{ij} \right) \times \nonumber \\
+&\rho_\gamma^{(N_q)}=
+\sum_{\tilde{\gamma}ij} 
+{A^{\tilde{\lambda} \tilde{l} \lambda l}_{{\bf Q} }}^2
+C_iC_j  
+\left( y_0^{(q)} \right)^{2\tilde{l}}
+R^{2\tilde{l}} 
+\exp \left( -\tfrac{1}{2} {y_0^{(q)}}^2 \beta^{(q)}_{ij} R^2 \right) \times 
+\\ \nonumber 
 & \times
-\mathcal{I}_2 \left( l, 0, (\beta^{(k)}_{ij}+2 \gamma_0) \left( y^{(k)}_0\right)^2, 2\gamma_0 R \right).
-\label{kpq_density}
+\mathcal{I}\left( 2\tilde{\lambda}+2, \tfrac{1}{2} {\alpha'}_{ij}^{(q)} \right).
 \end{align}
-The density distribution function of the nuclear matter for the $N$ spectators in the (p, qk) three-body system can be written as follow
+Here, it should be reminded that the rotation matrix ${\bf Q}$ also depends on $ij$ indexes (see. Eq. (\ref{q_rotation_matrix}) and (\ref{overlap_to_q})).
+And, the matrix element of the density operator for $\alpha$-cluster $q$ may be introduced in the following expression
 \begin{align}
-\rho_q^{(N)}(R)= &
-\sum_{\gamma \tilde{\gamma}}
-\sum_{ij}
-C_i C_j
-\tilde{A}^{(N)}_{\gamma\tilde{\gamma}}\left( {\bf Q}_{ij}, R \right)^2
-\times \nonumber \\
-& \times
-{\rm exp} \left( -\frac{1}{2} 
-\left(  \beta^{(q)}_{ij} - \tfrac{\left(\rho^{(q)}_{ij}\right)^2}{\alpha^{(q)}_{ij}} \right) 
-\left( y_0^{(q)} R\right)^2\right)
-\label{pqk_density_N}
-\end{align}
-The coefficient of transformation of the basis function  (\ref{trans_coef}) now depends on $R$ and it has form as
-
- \begin{align}
-\tilde{A}^{(N)}_{\tilde{\gamma}\gamma}\left( {\bf Q}_{ij}, R \right) = & \sum_{\lambda_1 \lambda_2 l_1 l_2} 
-\left({ Q}_{11} \right)^{\lambda_1} 
-\left({ Q}_{12} \right)^{\lambda_2} 
-\left({ Q}_{21} \right)^{l_1} 
-\left({ Q}_{22} \right)^{l_2} 
-\times \nonumber
+&\langle \phi^{JM}_{\gamma i} (k,pq) \vert 
+\rho_\alpha \left( {\bf y}_q-y^{(q)}_0 {\bf R} \right)
+\vert \phi^{JM}_{\gamma' j} (k,pq) \rangle = 
 \\
-& \times {E}^{\lambda_1 \lambda_2 \lambda l_1 l_2 l L}_{\tilde{\lambda} \tilde{l} } \mathcal{D}(\lambda,\lambda_1,\lambda_2) \mathcal{D}(l,l_1,l_2)
-\times  \nonumber    \\
-& \times R^{\lambda+l-\ell/2}~
-\mathcal{I}_1\left( \ell +2
-, \alpha^{(q)}_{ij} \right)^{1/2},
+&\sum_{\tilde{\gamma} \tilde{\gamma}'}
+A^{\tilde{\lambda}' \tilde{l}' \lambda' l'}_{{\bf Q} }
+A^{\tilde{\lambda} \tilde{l} \lambda l}_{{\bf Q} }
+\langle \phi^{ J M}_{\tilde{\gamma} i}\left(q,kp \right) \vert 
+\rho_\alpha \left( {\bf y}_q-y^{(q)}_0 {\bf R} \right) \vert
+\phi^{ J M}_{\tilde{\gamma}^{\prime} j}\left(q,kp \right) \rangle.
+\nonumber
 \end{align}
-where $\ell=\lambda_1+\lambda_2+l_1+l_2$, and the sum is carried out in conditions: $\lambda_1+\lambda_2=\lambda$, $l_1+l_2=l$ and $\lambda+l=\tilde{\lambda}+\tilde{l}$.
+Following simple derivations one may write the density function of the $\alpha$-cluster of three body system in the scheme ${(q,kp)}$  as
+\begin{equation}
+\rho^{(\alpha_q)}(R)=\sum_{\gamma}\rho^{(\alpha_q)}_{\gamma}(R),
+\label{rho_alpha_q}
+\end{equation}
+where the function $\rho^{(\alpha_q)}_{\gamma}(R)$ is
+\begin{align}
+&\rho_\gamma^{(\alpha_q)}(R)=
+4 \pi \rho_0 \exp\left(-\gamma_0 R^2 \right)
+\sum_{\tilde{\gamma}ij} 
+{A^{\tilde{\lambda} \tilde{l} \lambda l}_{{\bf Q} }}^2
+  C_i C_j 
+ \mathcal{I}\left( 2\tilde{\lambda}+2, \tfrac{1}{2} {\alpha'}^{(q)}_{ij}\right) \times \\
+ & \times \mathcal{I}\left( \tilde{l},~0,~\beta_{ij}^{(q)}+2~{y^{(q)}_0}^2 \gamma_0, ~2 \gamma_0 y^{(q)}_0 R \right).
+ \nonumber
+\end{align}
 
-The density distribution function of the nuclear matter for the $\alpha$ spectator in the (p, qk) scheme has the form
+Density functions for the nucleons $N_p$ and $\alpha$-clusters $\alpha_p$ are obtained in the similar way, as with density functions for the nucleon $N_q$ and $\alpha$-cluster $\alpha_q$.
+
+
+
+\section{Root mean square radii}
+The above deduced density functions are useful for deriving the root mean square (rms) radii. Moreover, the explicit form of some integrals allows to express the rms radius in a convenient form. This would enable the exact value than the value obtained numerically.
+
+The matter rms radius of in the framework of three body system in this work are defined as follows
+\begin{equation}
+\langle r^2 \rangle_m = 
+\frac{m_k}{m} \langle r^2_k \rangle 
++ \frac{m_p}{m} \langle r^2_p \rangle 
++\frac{m_q}{m} \langle r^2_q \rangle, ~~~m=m_k+m_p+m_q,
+\end{equation}
+while the charge radius is
+\begin{equation}
+\langle r^2 \rangle_{ch} = 
+\frac{z_k}{z} \langle r^2_k \rangle 
++ \frac{z_p}{z} \langle r^2_p \rangle 
++\frac{z_q}{z} \langle r^2_q \rangle,~~~z=z_k+z_p+z_q,
+\end{equation}
+where $z$ -- charge of the three body system, the rms radii in general way are determined as follows
+\begin{equation}
+\langle r^2_i \rangle = 
+\int_0^{\infty} dr~ r^{4} \rho^{(i)}(r),~~~i\equiv\{k,~p,~q\}.
+\label{rms_general}
+\end{equation}
+
+In particular, using the Eq.~(\ref{rho_nk}) the rms radius $\langle r_{N_k} \rangle$ for the nucleon $k\equiv N_k$  is defined as follows
 \begin{align}
-\rho_q^{(\alpha)}(R)= &
-\sum_{\gamma \tilde{\gamma}}
-\sum_{ij}
-C_i C_j
-\tilde{A}^{(\alpha)}_{\gamma\tilde{\gamma}}\left( {\bf Q}_{ij}, R \right)^2
-\times \nonumber \\
-& \times
-{\rm exp} \left( -\tfrac{1}{2} 
-\gamma_0 R^2
-\right)
-\label{pqk_density_a}
+\langle r_{N_k}^2 \rangle =\sum_{\gamma ij} 
+C_iC_j  
+\left( y_0^{(k)} \right)^{2l+3}
+ \mathcal{I}(2l+4, ~\tfrac{1}{2} {y_0^{(k)}}^2 \beta^{(k)}_{ij})~
+\mathcal{I}\left( 2\lambda+2, ~\tfrac{1}{2} \alpha_{ij}^{(k)} \right). 
 \end{align}
-where its transformation coefficient also depends on $R$, and  turns to
+Explicit form of the integral $\mathcal{I} \left( \lambda, ~\alpha\right)$ is given in the Appendix \ref{AppendixA}.
+In the case of the $\alpha$-cluster $q$, by means of the Eq. (\ref{rho_alphak}) its rms radii is calculated as follows
 \begin{align}
-\tilde{A}^{(\alpha)}_{\tilde{\gamma}\gamma}\left( {\bf Q}_{ij}, R \right) = & \sum_{\lambda_1 \lambda_2 l_1 l_2} 
-\left({ Q}_{11} \right)^{\lambda_1} 
-\left({ Q}_{12} \right)^{\lambda_2} 
-\left({ Q}_{21} \right)^{l_1} 
-\left({ Q}_{22}\right)^{l_2} 
-\times \nonumber
-\\
-& \times {E}^{\lambda_1 \lambda_2 \lambda l_1 l_2 l L}_{\tilde{\lambda} \tilde{l} } \mathcal{D}(\lambda,\lambda_1,\lambda_2) \mathcal{D}(l,l_1,l_2)
-\times  \nonumber    \\
+\langle r_{\alpha_k}^2 \rangle =&4 \pi \rho_0
+\sum_{\gamma ij} 
+ \mathcal{I}\left( 2\lambda+2,~ \tfrac{1}{2} \alpha^{(k)}_{ij}\right) 
+ \times \\
+ & \times 
+ \mathcal{I}\left(1, ~l,~0,~2\gamma_0,~\beta_{ij}^{(k)}+2{y^{(k)}_0}^2 \gamma_0,~2\gamma_0 y^{(k)}_0\right)
+ \nonumber
+\end{align}
+where the integral depending on six arguments is expressed in Appendix \ref{AppendixA}.
+
+Likewise, the rms radii for the particle $q$  in the three body system may be expressed through the density functions $\rho^{(q)}$ . For instance, putting the Eq. (\ref{rho_nq}) into the Eq. (\ref{rms_general}) we can get the rms radius $\langle r_{N_q}^2 \rangle $ for the nucleon $q$:
+\begin{align}
+\langle r_{N_q}^2 \rangle  = &
+\sum_{\gamma \tilde{\gamma}} \sum_{ij} 
+{A^{\tilde{\lambda} \tilde{l} \lambda l}_{{\bf Q} }}^2
+C_iC_j  
+\left( y_0^{(q)} \right)^{2\tilde{l}+3}
+ \mathcal{I}(2\tilde{l}+4, ~\tfrac{1}{2} {y_0^{(q)}}^2 \beta^{(q)}_{ij})~
  \times 
- \mathcal{I}_2 & \left( \lambda + l - \tfrac{1}{2} \ell, 
-~0, 
-\left( \left(  \beta^{(q)}_{ij} - \tfrac{\left(\rho^{(q)}_{ij}\right)^2}{\alpha^{(q)}_{ij}} \right) +2 \gamma_0 \right) {y_0^{(q)}}^2,~
-2\gamma_0 R
- \right)^{1/2} \times \nonumber \\
-& \times  \mathcal{I}_1 \left( \ell +2,~ \alpha_{ij}^{(q)} \right)
- ,
+\\ \nonumber 
+& \times 
+\mathcal{I}\left( 2\tilde{\lambda}+2, \tfrac{1}{2} {\alpha'}_{ij}^{(q)} \right).
 \end{align}
-where $\ell=\lambda_1+\lambda_2+l_1+l_2$, and the sum is carried out in conditions: $\lambda_1+\lambda_2=\lambda$, $l_1+l_2=l$ and $\lambda+l=\tilde{\lambda}+\tilde{l}$.
+Inserting Eq. (\ref{rho_alpha_q}) into Eq. (\ref{rms_general}) we obtain the rms radius $\langle r_{\alpha_q}^2 \rangle$  for the $\alpha$-cluster $q$ the following expression 
+\begin{align}
+\langle r_{\alpha_q}^2 \rangle=&
+4 \pi \rho_0
+\sum_{\gamma \tilde{\gamma}} \sum_{ij} 
+{A^{\tilde{\lambda} \tilde{l} \lambda l}_{{\bf Q} }}^2
+  C_i C_j 
+ \mathcal{I}\left( 2\tilde{\lambda}+2, \tfrac{1}{2} {\alpha'}^{(q)}_{ij}\right) \times \\
+ & \times \mathcal{I}\left(1, ~\tilde{l},~0,~2\gamma_0,~\beta_{ij}^{(q)}+2{y^{(q)}_0}^2 \gamma_0,~2\gamma_0 y^{(q)}_0\right)
+ \nonumber
+\end{align}
+
+As regards for the particles $p$ in the three body system the rms radii $\langle r_q^2 \rangle$ may be extracted in analogous way as in the case with the particles $q$. 
+
+For calculating charge radii one must use the different parametrizations $\rho_0$ and $\gamma_0$. Provided the $\alpha$-particle has Gaussian density distribution, the parameters may be obtained by using the charge rms radius $\langle r^2 \rangle^{1/2}_{ch}=1.67$ \cite{satchler1979folding} in the Eq. (\ref{rho_alpha_parameters}).
 
 \chapter{Theoretical models describing nuclear reactions} % Main chapter title
 
@@ -1904,7 +1888,7 @@ The Fig. \ref{fig:be0_the3D} shows the spatial correlation function for the boun
 The single maximum of the correlation density function is located at the coordinates $(x_k \simeq 3.0 ~fm, y_k \simeq 2.0~ fm)$. 
 In contrast with the \he and \li nuclei the \be nucleus has only one pronounced spatial configuration corresponding to the two $\alpha$-clusters ($^8$Be ground state) glued by the valence neutron. A very similar picture has been found in Ref. \cite{hussein2015low}. 
 
-\section{The density distribution function of nuclear matter}
+\section{Density function of nuclear matter}
 On the basis of the three-body wave function in Eq.\ref{totwf}, the nuclear matter density distributions are calculated for $^6$He, $^6$Li and $^9$Be in the ground states using Equations \ref{kpq_density}, \ref{pqk_density_N} and \ref{pqk_density_a}. The results are shown in the Figures \ref{he0_theDD}, \ref{li0_theDD} and \ref{be0_theDD} respectively.
 The plotted the density functions are normalized to their own atomic masses. 
 
@@ -1967,15 +1951,20 @@ The density function of nuclear matter is an excellent subject for studying rms 
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccc@{}}
 \toprule
  & $^6$He                                                                                                                                                  $(0^+)$ & $^6$Li                                                                                                                                                                                                                                                                                                  $(1^+)$  & $^9$Be                                                                                                                                                                                                                                                                                                  $(\frac{3}{2}^-)$  \\
- % \midrule
-%$BE_{min},$ MeV                                  & $0.228$                                                                                                                                                                                          & $3.258$                                                                                                                                                                                                                                                                                                 & $1.417$                                                                                                                                                                                                                                                                                                 \\
-%$BE_{exp}$ , MeV                               & $0.97$                                                                                                                                                                                           & $3.70$                                                                                                                                                                                                                                                                                                  & $1.57$                                                                                                                                                                                                                                                                                                  %\\
+%  \midrule
+$E{gs},$ MeV & --0.228~~--0.970  &--3.258~~--3.700   &--1.417~~--1.570 \\
 \midrule
-$\langle R^{2}_m\rangle^{\frac{1}{2}}$, fm & 2.97                                                                                                                                                                                              & 2.69                                                                                                                                                                                                                                                                                                     & 2.78                                                                                                                                                                                                                                                                                                     \\
-$\langle R^{2}_m\rangle^{\frac{1}{2}}_{exp}$ , fm \cite{tanihata1985measurements}                                                                                                                                                                              & 2.75  & 2.54 & 2.50 \\
+$\langle r^{2}_{ch}\rangle^{1/2},~fm$ & 2.03~~2.00 & 2.63~~2.57   & 2.48~~2.46 \\
+$\langle r^{2}_{ch}\rangle^{1/2}_{exp},~fm$ \cite{de1987nuclear}
+& ~~~~~~~2.07 & ~~~~~~~2.59   & ~~~~~~~2.52 \\
+\midrule
+$\langle r^{2}_{m}\rangle^{1/2},~fm$& 2.75~~2.67 & 2.54~~2.49   & 2.58~~2.54 \\
+$\langle r^{2}_{m}\rangle^{1/2}_{exp},~fm$ \cite{tanihata1985measurements}
+& ~~~~~~~2.75 & ~~~~~~~2.54   & ~~~~~~~2.50 \\
+%$\langle r^{2}_m\rangle^{1/2}_{exp}$ , fm \cite{tanihata1985measurements}                                                                                                                                                                              & 2.75  & 2.54 & 2.50 \\
 
-$\langle R^{2}_m\rangle^{\frac{1}{2}}$ , fm \cite{antonov2005charge}                                                                                                                                                                              & 2.62  & 2.43 & -- \\
-$\langle R^{2}_m\rangle^{\frac{1}{2}}$ , fm \cite{hirai2011clustering}                                                                                                                                                                              & --  & -- & 2.61 \\
+%$\langle r^{2}_m\rangle^{1/2}$ , fm \cite{antonov2005charge}                                                                                                                                                                              & 2.62  & 2.43 & -- \\
+%$\langle r^{2}_m\rangle^{1/2}$ , fm \cite{hirai2011clustering}                                                                                                                                                                              & --  & -- & 2.61 \\
   \bottomrule
 \end{tabular*}
 \end{table}

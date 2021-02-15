@@ -2611,6 +2611,43 @@
     \field{year}{2005}
   \endentry
 
+  \entry{de1987nuclear}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DVH}{%
+         family={De\bibnamedelima Vries},
+         familyi={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+      {{hash=DJC}{%
+         family={De\bibnamedelima Jager},
+         familyi={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={CW},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DVC}{%
+         family={De\bibnamedelima Vries},
+         familyi={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{DVH+1}
+    \strng{fullhash}{DVHDJCDVC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{495\bibrangedash 536}
+    \field{title}{Nuclear charge-density-distribution parameters from elastic
+  electron scattering}
+    \field{volume}{36}
+    \field{journaltitle}{Atomic data and nuclear data tables}
+    \field{year}{1987}
+  \endentry
+
   \entry{tanihata1985measurements}{article}{}
     \name{author}{9}{}{%
       {{hash=TI}{%
