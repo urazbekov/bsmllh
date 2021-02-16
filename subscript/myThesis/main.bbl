@@ -2175,6 +2175,31 @@
     \field{year}{1998}
   \endentry
 
+  \entry{faddeev1985quantum}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FL}{%
+         family={Faddeev},
+         familyi={F\bibinitperiod},
+         given={LD},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Merkuriev},
+         familyi={M\bibinitperiod},
+         given={SP},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FLMS1}
+    \strng{fullhash}{FLMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Quantum Scattering Theory for Multi-particle Systems}
+    \field{volume}{11}
+    \field{journaltitle}{Mathematical Physics and Applied Mathematics}
+    \field{year}{1985}
+  \endentry
+
   \entry{kukulin1990dynamic}{report}{}
     \name{author}{3}{}{%
       {{hash=KV}{%
@@ -2611,41 +2636,121 @@
     \field{year}{2005}
   \endentry
 
-  \entry{de1987nuclear}{article}{}
-    \name{author}{3}{}{%
-      {{hash=DVH}{%
-         family={De\bibnamedelima Vries},
-         familyi={D\bibinitperiod\bibinitdelim V\bibinitperiod},
-         given={H},
-         giveni={H},
+  \entry{angeli2013table}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AI}{%
+         family={Angeli},
+         familyi={A\bibinitperiod},
+         given={Istv{\'a}n},
+         giveni={I\bibinitperiod},
       }}%
-      {{hash=DJC}{%
-         family={De\bibnamedelima Jager},
-         familyi={D\bibinitperiod\bibinitdelim J\bibinitperiod},
-         given={CW},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=DVC}{%
-         family={De\bibnamedelima Vries},
-         familyi={D\bibinitperiod\bibinitdelim V\bibinitperiod},
-         given={C},
-         giveni={C},
+      {{hash=MKP}{%
+         family={Marinova},
+         familyi={M\bibinitperiod},
+         given={Krassimira\bibnamedelima Petrova},
+         giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
       {Elsevier}%
     }
-    \strng{namehash}{DVH+1}
-    \strng{fullhash}{DVHDJCDVC1}
+    \strng{namehash}{AIMKP1}
+    \strng{fullhash}{AIMKP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{number}{3}
-    \field{pages}{495\bibrangedash 536}
-    \field{title}{Nuclear charge-density-distribution parameters from elastic
-  electron scattering}
-    \field{volume}{36}
-    \field{journaltitle}{Atomic data and nuclear data tables}
-    \field{year}{1987}
+    \field{number}{1}
+    \field{pages}{69\bibrangedash 95}
+    \field{title}{Table of experimental nuclear ground state charge radii: An
+  update}
+    \field{volume}{99}
+    \field{journaltitle}{Atomic Data and Nuclear Data Tables}
+    \field{year}{2013}
+  \endentry
+
+  \entry{bumiller1972elastic}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BF}{%
+         family={Bumiller},
+         familyi={B\bibinitperiod},
+         given={FA},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BF}{%
+         family={Buskirk},
+         familyi={B\bibinitperiod},
+         given={FR},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dyer},
+         familyi={D\bibinitperiod},
+         given={JN},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MW}{%
+         family={Monson},
+         familyi={M\bibinitperiod},
+         given={WA},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{BF+1}
+    \strng{fullhash}{BFBFDJMW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{391}
+    \field{title}{Elastic Electron Scattering from Li 6 and Li 7 at Low
+  Momentum Transfer}
+    \field{volume}{5}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{1972}
+  \endentry
+
+  \entry{fey1973nuclear}{article}{}
+    \name{author}{4}{}{%
+      {{hash=FG}{%
+         family={Fey},
+         familyi={F\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+      {{hash=FH}{%
+         family={Frank},
+         familyi={F\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+      {{hash=SW}{%
+         family={Sch{\"u}tz},
+         familyi={S\bibinitperiod},
+         given={W},
+         giveni={W},
+      }}%
+      {{hash=TH}{%
+         family={Theissen},
+         familyi={T\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{FG+1}
+    \strng{fullhash}{FGFHSWTH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{4}
+    \field{pages}{401\bibrangedash 403}
+    \field{title}{Nuclear Rms charge radii from relative electron scattering
+  measurements at low energies}
+    \field{volume}{265}
+    \field{journaltitle}{Zeitschrift f{\"u}r Physik}
+    \field{year}{1973}
   \endentry
 
   \entry{tanihata1985measurements}{article}{}
