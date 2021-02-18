@@ -1,0 +1,13 @@
+The general picture of the obtained radii shows an overestimation in comparison with other sources \cite{antonov2005charge, hirai2011clustering, tanihata1985measurements}. 
+The difference of the calculated matter radii with other lies between $0.15-0.35~fm$. 
+It should be noted that the eigen-energies (see Tab. \ref{tab:variational_data}) of the three-body systems does not reproduce the experimental data. 
+However, it is noticeable that the greater the difference in the three body eigen-energies with the experimental data, the more the rms matter radii differ.
+Therefore, the dependence of the binding energy with the $\langle R_{m}^2 \rangle^{1/2}$ was studied using the example of \he. In order to obtain the binding energy close to the experimental data, the depth of the $\alpha$-$N$ interaction potential, which has a Gaussian shape, was increased from 47 MeV to 49 MeV. Thus, it was possible to reproduce the experimental value of the binding energy of the $2\alpha~+~N$ system. Thus, we managed to get closer those values obtained from other sources.
+
+The reason for the discrepancy between our results and other sources, perhaps, due to the wave function, which is discussed in the previous sections. Nevertheless, knowing the very weak dependence of the density distribution function on the binding energy of the three-body systems, we can use this wave function in calculations to construct interaction potentials within the framework of the folding model.
+
+The obtained Eq.\ref{total_density} also can be used to calculate the rms charge radii. 
+Since the wave function is built on the basis of the Gaussian, we can check the correctness of the obtained formulas on the example of rms charge radii if the corresponding parameters of the wave function are available from other sources.
+For example, in Ref. \cite{voronchev1994study} the parameters of the three body wave function of the \be ($\tfrac{3}{2}^-$) are listed, and the rms charge radius  is given, $\langle R_{ch}^2 \rangle^{\frac{1}{2}} = 2.34 fm$. 
+The calculated rms charge radius by means of our approach pretty agrees with this value. 
+The same test has been done for \li, the wave function parameters of which were given by V. Pomerantsev \cite{pomerantsevPrivate}.
