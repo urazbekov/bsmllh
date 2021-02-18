@@ -2636,6 +2636,48 @@
     \field{year}{2005}
   \endentry
 
+  \entry{hirai2011clustering}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HM}{%
+         family={Hirai},
+         familyi={H\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=KS}{%
+         family={Kumano},
+         familyi={K\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=SK}{%
+         family={Saito},
+         familyi={S\bibinitperiod},
+         given={Koichi},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=WT}{%
+         family={Watanabe},
+         familyi={W\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{HM+2}
+    \strng{fullhash}{HMKSSKWT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{035202}
+    \field{title}{Clustering aspects in nuclear structure functions}
+    \field{volume}{83}
+    \field{journaltitle}{Physical Review C}
+    \field{year}{2011}
+  \endentry
+
   \entry{angeli2013table}{article}{}
     \name{author}{2}{}{%
       {{hash=AI}{%
@@ -2826,64 +2868,6 @@
     \field{year}{1985}
   \endentry
 
-  \entry{hirai2011clustering}{article}{}
-    \name{author}{4}{}{%
-      {{hash=HM}{%
-         family={Hirai},
-         familyi={H\bibinitperiod},
-         given={M},
-         giveni={M},
-      }}%
-      {{hash=KS}{%
-         family={Kumano},
-         familyi={K\bibinitperiod},
-         given={S},
-         giveni={S},
-      }}%
-      {{hash=SK}{%
-         family={Saito},
-         familyi={S\bibinitperiod},
-         given={Koichi},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=WT}{%
-         family={Watanabe},
-         familyi={W\bibinitperiod},
-         given={T},
-         giveni={T},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {APS}%
-    }
-    \strng{namehash}{HM+2}
-    \strng{fullhash}{HMKSSKWT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{3}
-    \field{pages}{035202}
-    \field{title}{Clustering aspects in nuclear structure functions}
-    \field{volume}{83}
-    \field{journaltitle}{Physical Review C}
-    \field{year}{2011}
-  \endentry
-
-  \entry{pomerantsevPrivate}{article}{}
-    \name{author}{1}{}{%
-      {{hash=PV}{%
-         family={Pomerantsev},
-         familyi={P\bibinitperiod},
-         given={VN},
-         giveni={V\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{PV1}
-    \strng{fullhash}{PV1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Private comunication}
-  \endentry
-
   \entry{fresco}{article}{}
     \name{author}{1}{}{%
       {{hash=TIJ}{%
@@ -2942,45 +2926,6 @@
     \field{volume}{49}
     \field{journaltitle}{Physical Review C}
     \field{year}{1994}
-  \endentry
-
-  \entry{urazbekov2016}{article}{}
-    \name{author}{4}{}{%
-      {{hash=UBA}{%
-         family={{Urazbekov}},
-         familyi={U\bibinitperiod},
-         given={B.\bibnamedelima A.},
-         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=DAS}{%
-         family={{Denikin}},
-         familyi={D\bibinitperiod},
-         given={A.\bibnamedelima S.},
-         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=SSK}{%
-         family={{Sakhiev}},
-         familyi={S\bibinitperiod},
-         given={S.\bibnamedelima K.},
-         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=BNT}{%
-         family={{Burtebaev}},
-         familyi={B\bibinitperiod},
-         given={N.\bibnamedelima T.},
-         giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{UBA+1}
-    \strng{fullhash}{UBADASSSKBNT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{247}
-    \field{title}{Manifestation of the cluster structure of the $^{9}$Be
-  nucleus in direct nuclear reactions}
-    \field{volume}{80}
-    \field{journaltitle}{Bull. Rus. Acad. Sci. Phys.}
-    \field{year}{2016}
   \endentry
 
   \entry{kunz}{unpublished}{}
