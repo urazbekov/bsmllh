@@ -26,12 +26,12 @@
 12pt, % The default document font size, options: 10pt, 11pt, 12pt
 oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
 english, % ngerman for German
-onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
+doublespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
 %draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
-onehalfspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
+doublespacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
 %liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
-%toctotoc, % Uncomment to add the main table of contents to the table of contents
-%parskip, % Uncomment to add space between paragraphs
+toctotoc, % Uncomment to add the main table of contents to the table of contents
+parskip, % Uncomment to add space between paragraphs
 %nohyperref, % Uncomment to not load the hyperref package
 headsepline, % Uncomment to get a line under the header
 %chapterinoneline, % Uncomment to place the chapter title next to the number on one line
@@ -98,6 +98,7 @@ headsepline, % Uncomment to get a line under the header
 }
 
 \begin{document}
+\onehalfspacing
 \frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
 
 \pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
@@ -145,7 +146,8 @@ headsepline, % Uncomment to get a line under the header
 
 %{\normalsize \today}\\[4cm] % Date
 \includegraphics[scale=0.07]{logo} % University/department logo - uncomment to place it
- 
+
+
 %\vfill
 \end{center}
 \end{titlepage}
@@ -166,7 +168,8 @@ headsepline, % Uncomment to get a line under the header
 \item I have acknowledged all main sources of help.
 %\item Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
 \end{itemize}
- 
+ ~\\
+ ~\\
 \noindent Signed:\\
 \rule[0.5em]{25em}{0.5pt} % This prints a line for the signature
  
@@ -183,12 +186,18 @@ headsepline, % Uncomment to get a line under the header
 \vspace*{0.2\textheight}
 
 \noindent\enquote{\itshape 
-By the love of God, the nations are created, and you love them like yourself. Love people as brothers, like freedom, then truth and life are for you. 
+By the love of God, the nations are created, \\
+And you love them like yourself.\\
+ Love people as brothers, like freedom,\\
+  Then truth and life are for you.
 }
-\bigbreak
 
-\hfill  Abay Qunanbayev
 
+ \begin{flushright}
+  Abay Qunanbayev\\
+ \textit{Kazakh poet and philosopher}
+ \end{flushright}
+\cleardoublepage
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE
 %----------------------------------------------------------------------------------------
@@ -228,7 +237,7 @@ I am very grateful to my scientific supervisors Prof. Nunzio Itaco and Prof. And
 
 Undoubtedly, I think it is worthwhile to thank the staff of the Department of Physics and Astronomy and the CIRCE laboratory: Prof. D'Onofrio, Prof. Gialanella, Giuseppe Porzio, Liz, and all members.
 
-In addition, I would like to express my gratitude to Prof. Vladimir Kukulin (Moscow Sate University), who gave advice on a scientific career, Prof Sayabek Sakhiyev (Abay State University), who gave not only scientific guides but also about life.
+In addition, I would like to address my gratitude to Prof. Vladimir Kukulin (Moscow Sate University), who gave advice on a scientific career, Prof Sayabek Sakhiyev (Abay State University), who gave not only scientific guides but also about life.
 
 I also want to thank my dear friends Riccardo Mancino and Felice Pignatelli, without whom I could not just cope with simple life questions in Caserta.
 
@@ -250,7 +259,8 @@ I also dedicate my big thanks to my wife Mervet, who has always supported me at 
 %----------------------------------------------------------------------------------------
 %	ABBREVIATIONS
 %----------------------------------------------------------------------------------------
-
+ \doublespacing
+ 
 \begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
 
 NCSM & No Core Shell Model \\
@@ -310,7 +320,7 @@ ${d \sigma \setminus d \Omega}$ & differential cross section & ${\rm{mb}}\setmin
 %	DEDICATION
 %----------------------------------------------------------------------------------------
 
-\dedicatory{to my mom \\~ \\ whom we had immeasurable love of mother and child\ldots} 
+\dedicatory{To the memory of my mother} 
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - CHAPTERS
@@ -347,7 +357,7 @@ The first quantitative theory of  $\alpha$-decay was developed by G. Gamov (see 
 
 
 
-There are many theoretical approaches \cite{descouvemont200112be, tohsaki2001alpha, kanada1995structure, pudliner1997quantum, zhukov1993bound}  devoted to studying the structure of exotic nuclei. In particular, the nuclear excitation function for light exotic nuclei is well reproduced by the No Core Shell Model (NCSM) method \cite{navratil2009recent, forssen2005large, navratil2003ab, navratil2002ab}. 
+There are many theoretical approaches \cite{descouvemont200112be, tohsaki2001alpha, kanada1995structure, pudliner1997quantum, zhukov1993bound}  devoted to studying the structure of exotic nuclei. In particular, the nuclear excitation function for light exotic nuclei is well reproduced by the No Core Shell Model (NCSM) \cite{navratil2009recent, forssen2005large, navratil2003ab, navratil2002ab}. 
 The method uses one-particle basis function of the harmonic oscillator,  realistic NN, NNN interactions. 
 This method is reduced to solving the $A$-nucleon Schr\"{o}dinger equation on a basis containing all possible configurations of $A$-nucleon oscillator functions. 
 However, the size of the basis grows rapidly with the number of nucleons, the reliability of the NCSM model calculations decreases in the case of heavy nuclei. At present, the capabilities of modern computational machines make it possible to calculate with sufficient accuracy of nuclei with masses $A \le 16$.
@@ -383,7 +393,7 @@ In this case the couples channel formalism has to be applied.
 \centering
 \includegraphics[scale=1]{exotic_nuclei}
 \decoRule
-\caption{\footnotesize Schematic representation of the cluster structure of some nuclei, and their half-life, if unstable. Alpha particle, proton and neutron are marked in yellow, red and orange, respectively. The allocation of \he, \li and \be nuclei means the selected as objects of study. Read the text for more details..}
+\caption{ Schematic representation of the cluster structure of some nuclei, and their half-life, if unstable. Alpha particle, proton and neutron are marked in yellow, red and orange, respectively. The allocation of \he, \li and \be nuclei means the selected as objects of study. Read the text for more details..}
 \label{fig:exotic_nuclei}
 \end{figure}
 
@@ -424,17 +434,17 @@ In the present work, the three-body structure of nuclei and their role in the me
  To describe direct nuclear reactions, we proceed from realistic shape of colliding nuclei within the three-body model.
  Therefore, the motivation for this work is to minimize the number of free parameters in the calculations of nuclear reactions as much as possible, and to use the densities distribution functions of nuclear matter based on the three-body model. And also the main goal of this work is to understand how the mechanisms of interaction of nuclear reactions with the participation of the weakly bound nuclei \he, \li and \be occur. 
 
-This work is organized as follows. The first chapter is devoted to an introduction to the three-body model based on the SVM method. This chapter details the advantage of using the Gaussian basis function, the Hamiltonian, which includes the Pauli principle, the transformation of the basis function, and provides formulas for calculating the density function of nuclear matter within the three-body model. 
+This work is organized as follows. The first chapter is devoted to an introduction to the three-body model based on the SVM method. This chapter details the advantage of using the Gaussian basis function, the Hamiltonian, which includes the Pauli principle, the transformation of the basis function, and provides formulae for calculating the density function of nuclear matter within the three-body model. 
 The next chapter presents widely used theoretical approaches to describe the scattering wave function. 
 Methods for calculating differential cross sections  are presented. For elastic scattering -- Optical model, inelastic scattering -- Coupled channel, and nuclear transfer reactions -- Coupled Reactions Channels. 
 For a complete understanding of how one-particle spectroscopic amplitudes (SA) are calculated within the framework of the shell model used in CRC calculations, a separate section is devoted.
 Details of building the potential of interaction in the framework of double folding are presented.
-The last third chapter presents the results of calculations. 
-In this chapter the geometric structure of the obtained three-body wave function is illustrated. 
-The density distribution functions of nuclear matter for the \he, \li and \be nuclei are presented in the framework of a three-body model. 
-Comparisons of the calculated differential cross sections with experimental data for the elastic scatterings, \he + $\alpha$ at the laboratory energy 151 MeV  and \li + $\alpha$ at 166 MeV, are given. 
+Last three chapters present the results of calculations. 
+%In this chapter the geometric structure of the obtained three-body wave function is illustrated. 
+%The density distribution functions of nuclear matter for the \he, \li and \be nuclei are presented in the framework of a three-body model. 
+%Comparisons of the calculated differential cross sections with experimental data for the elastic scatterings, \he + $\alpha$ at the laboratory energy 151 MeV  and \li + $\alpha$ at 166 MeV, are given. 
 %A detailed analysis of the interaction of deuteron with the nucleus of \be is given.
-The next section is devoted to the investigation of the cluster structure of the ${}^9$Be nucleus through studying the nuclear reactions caused by a deuteron beam at 19 MeV and 35 MeV incident energies. 
+%The next section is devoted to the investigation of the cluster structure of the ${}^9$Be nucleus through studying the nuclear reactions caused by a deuteron beam at 19 MeV and 35 MeV incident energies. 
 A comparative analysis of experimental data and theoretical calculations has been performed.
 Finally, the main finding are presented in the conclusion.
 
@@ -442,7 +452,7 @@ Some parts of this work have been published as follows:
 \begin{itemize}
 \item	Urazbekov, B. A., Denikin, A. S., Lukyanov, S. M., Itaco, N., Janseitov, D. M., Mendibayev, K., ... and Harakeh, M. N. (2019). Journal of Physics G: Nuclear and Particle Physics, 46(10), 105110.
 \item	Urazbekov, B. A.,  Denikin, A. S. (2018).  Eurasian Journal of Physics and Functional Materials, 2(1), 17-22.
-\item	Urazbekov, B.A., Denikin A.S., Itaco, N., Janseitov, D., (2021)  Nuclear physics, 84(1), to be published.
+\item	Urazbekov, B.A., Denikin A.S., Itaco, N., Janseitov, D., (2021)  Physics of Atomic Nuclei, to be published.
 \item	Janseitov, D. M., Urazbekov, B.A., Lukyanov, S. M., Mendibayev, K., Penionzhkevich, Y. E., Skobelev, N. K., Sobolev, Y. G., ... and Khlebnikov, S. V. (2018).  International Journal of Modern Physics E, 27(10), 1850089.
 \item	Lukyanov, S. M., Urazbekov, B.A., Denikin, A. S., Naumenko, M. A., Burjan, V., Trzaska, W. H., Harakeh, M., ... and Glagolev, V. (2017). 
  Exotic Nuclei, pp. 74-80 (2019).
@@ -548,9 +558,8 @@ Finally, the basis function for the three body system $(k,~pq)$ can be represent
 \begin{align}
 \phi^{ J M}_{\gamma i} \left(k, pq \right)=
 C_i \psi \left( k \right) 
- \varphi^{(\lambda,l)}_i(x_k,y_k) \left[ \left[ 
-Y_\lambda \left(\hat{x}_k \right) \otimes Y_l \left(\hat{y}_k \right)
-\right]_{L} \otimes \chi_S (pq) \right]_{JM}.
+ \varphi^{(\lambda,l)}_i(x_k,y_k) \left[~ \left[ 
+Y_\lambda \left(\hat{x}_k \right) \otimes Y_l \left(\hat{y}_k \right)\right]_{L} \otimes \chi_{S_{~}} (pq)~ \right]_{JM}.
 \label{basis_function_1}
 \end{align}
 Here, the coordinate arguments, ${\bf x}_k$ and ${\bf y}_k$,   are down for convenience, and the radial part of the basis function has form
@@ -563,7 +572,7 @@ Here, the coordinate arguments, ${\bf x}_k$ and ${\bf y}_k$,   are down for conv
 \centering
 \includegraphics[scale=1.0]{pic1}
 \decoRule
-\caption{\footnotesize The schemes of Jacobi coordinate sets for the three body system.}
+\caption{ The schemes of Jacobi coordinate sets for the three body system.}
 \label{fig:jacobiSet}
 \end{figure}
 
@@ -835,15 +844,16 @@ Notably, the coefficient $A^{\tilde{\lambda} \tilde{l} \lambda l}_{ \tiny {\bf Q
 \section{Normalization and correlation density function}
 By means of the overlap matrix elements (\ref{overlap_in_basic_set})  the weight of the component $\gamma$ may be represented as follows
 \begin{equation}
-\mathcal{N}_{\gamma} =  
+\mathcal{W}_{\gamma} =  
 \sum_{\substack{i=1..N_\gamma \\j=1..N_{\gamma}}} 
 C_i C_j 
  \mathcal{I} \left( 2\lambda+2,~\alpha_{ij}^{(k)} \right)
  \mathcal{I} \left( 2l+2,~\beta_{ij}^{(k)} \right).
+ \label{wf_normalizations}
 \end{equation}
 This, in turn, gives the the normalization of the total three-body wave function as follows
 \begin{equation}
-\mathcal{N}  = \sum_{\gamma} \mathcal{N}^{(k)}_{\gamma}.    
+\mathcal{W}  = \sum_{\gamma} \mathcal{W}^{(k)}_{\gamma}.    
 \end{equation}
 
 
@@ -853,6 +863,7 @@ W\left( x_k,y_k \right) =
 \int \int x_k^2 y_k^2 d\hat{x}_k~ d\hat{y}_k~ \vert \Psi^{JM}_{tot} \vert^2
 =
  \sum_{\gamma}  W_{\gamma}\left( x_k,y_k \right)
+ \label{wf_cor_density}
 \end{equation}
 with 
 \begin{equation}
@@ -899,7 +910,7 @@ Here,  the square root of $<r_\alpha^2>$ -- rms matter radius of $\alpha$-partic
 %\centering
 %\includegraphics[scale=0.8]{density_scheme_1}
 %\decoRule
-%\caption{\footnotesize The (k, pq) scheme of Jacobi coordinate %sets for calculation of the density distribution function of %nuclear matter in the framework of  the three body system.}
+%\caption{ The (k, pq) scheme of Jacobi coordinate %sets for calculation of the density distribution function of %nuclear matter in the framework of  the three body system.}
 %\label{fig:density_scheme_1}
 %\end{figure}
 
@@ -1149,7 +1160,7 @@ where $f \left( \theta \right)$ is the scattering amplitude. The $(+)$ superscri
 \centering
 \includegraphics[scale=1]{scattering_scheme}
 \decoRule
-\caption{ \footnotesize An incoming plane wave scattering off a body making a distorted wave}
+\caption{  An incoming plane wave scattering off a body making a distorted wave}
 \label{fig:scattering_scheme}
 \end{figure}
 
@@ -1451,7 +1462,7 @@ I_{\beta \alpha}  \left( \left( {\bf r}_\beta ,  {\bf r}_\alpha \right) \right) 
 \centering
 \includegraphics[scale=0.8]{dwba_scheme}
 \decoRule
-\caption{ \footnotesize The arrangement of radial vectors in the DWBA 
+\caption{  The arrangement of radial vectors in the DWBA 
 on example of the $A+b \rightarrow a + B$ nuclear reaction. Here $A=a+\nu$ 
 and $B=b+\nu$. }
 \label{fig:dwba_scheme}
@@ -1701,7 +1712,7 @@ are used to define the SA associated with nuclear reactions.
 They are also the building blocks for the more complicated operators associated with
 one-body (such as electromagnetic and $\beta$-decay) and two-body transition amplitudes.
 
-\section{Interaction potentials. The double folding model}
+\section{Double folding potential}
 
 The numerical calculations  of the elastic scattering  can be performed in the framework of the OM with the OM potential given by:
 
@@ -1750,7 +1761,7 @@ where $r_{aA}=\vert {\bf r} + {\bf r}_A - {\bf r}_a \vert$ (see Fig.~\ref{fig:df
 \centering
 \includegraphics[scale=0.8]{df_scheme}
 \decoRule
-\caption{ \footnotesize Radius vectors for the double folding model. }
+\caption{  Radius vectors for the double folding model. }
 \label{fig:df_scheme}
 \end{figure}
 
@@ -1800,8 +1811,8 @@ C=0.2658 ~~ \alpha=3.8033 \beta=1.4099 ~~ \gamma=4.0
  where $a$ is atomic mass of projectile. For the target nucleus $A$ normalization has the equivalent form.
  
 \begin{table}[tp]
-\footnotesize
-\caption{\label{m3y_potpar} \footnotesize Parameters of the M3Y-Paris \cite{anantaraman1983effective}  NN-potential used in double-folding calculations.}
+
+\caption{\label{m3y_potpar}  Parameters of the M3Y-Paris \cite{anantaraman1983effective}  NN-potential used in double-folding calculations.}
 \begin{tabular*}{\textwidth}{lr@{\extracolsep{\fill}}rrrl}
 \toprule
 $i$ & $N_i$, MeV &  ~ & ~ & ~ &$\mu_i$, $fm^{-1}$ \\
@@ -1826,20 +1837,10 @@ The calculations were done using the RSC potential \cite{day1981three} for nucle
 the SBB potential \cite{sack1954elastic} for  $\alpha$-$N$ interaction and the BFW potential \cite{buck1977local} for $\alpha$-$\alpha$ interaction.  
 In Tab. \ref{tab:variational_data} the relative weights of the ground state wave function components and eigenvalues the three body systems are listed\footnote{The obtained data of the variational calculations are not the subject of our research, since the results, perhaps better ones, have already been published and discussed. The purpose of  the section result of the three-body wave function   is to familiarize with what wave function we are dealing with, and its features will be needed in further discussions.}.
 
-Data in Tab. \ref{tab:variational_data} show good agreement between calculated and measured values of the ground state energy for the \be nucleus.
-However, the corresponding values given for the \he and \li nuclei underestimate the experimental data approximately by ~0.5--0.7 MeV. 
-The discrepancy, probably, due to the non-completeness of the basis function. 
-In this work it has no symmetrization, and doesn't enfold an alternative coordinate space.
-Other reasons might be in the presence of other cluster components, which has not been included in the variational calculations, and the $NNN$-body forces.
-For example, \he can contain two cluster such as $^3$H + $^3$H, 
-the \li nucleus can have $^3$He + $^3$H, and the \be nucleus can be represented as the $^5$He + $^4$He system.
-These kind of structures cannot be explicitly included in the current model.
-In particular, for \he and \li within the SVM the authors Kakenov $etal$ \cite{kakenov2020properties} managed to move closer to experimental values of binding energies by implementing the $NNN$-force.
- 
 % Please add the following required packages to your document preamble:
 % \usepackage{booktabs}
-\begin{table}[p!]
-\caption{\footnotesize The ground state energies $E_{gs}$ of the three-body systems and the weights of the wave function components found by means of the SVM for the \he, \li and \be nuclei. The set of quantum numbers $\gamma\equiv \{\lambda l L S\}$, the dimension $N_\gamma$ and the weights $W$ of each $\gamma$ component are listed. }
+\begin{table}
+\caption{ The ground state energies $E_{gs}$ of the three-body systems and the weights of the wave function components found by means of the SVM for the \he, \li and \be nuclei. The set of quantum numbers $\gamma\equiv \{\lambda l L S\}$, the dimension $N_\gamma$ and the component weights $\mathcal{W}_\gamma$ (\ref{wf_normalizations})  are listed. }
 \label{tab:variational_data}
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lllllllll@{}}
 \toprule
@@ -1848,7 +1849,7 @@ In particular, for \he and \li within the SVM the authors Kakenov $etal$ \cite{k
 \multicolumn{3}{c}{$E_{gs}=-0.228$} & \multicolumn{3}{c}{$E_{gs}=-3.258$} & \multicolumn{3}{c}{$E_{gs}=-1.417$} \\
 \multicolumn{3}{c}{$E_{exp}=-0.970$} & \multicolumn{3}{c}{$E_{exp}=-3.70$} & \multicolumn{3}{c}{$E_{exp}=-1.570$} \\
  \midrule
-$\lambda~l~L~S$         & $N_\gamma$       & $W$       & $\lambda~l~L~S$         & $N_\gamma $ & $W$       & $\lambda~l~L~S$         & $N_\gamma$       & $W$       \\
+$\lambda~l~L~S$         & $N_\gamma$       & $\mathcal{W}_\gamma$       & $\lambda~l~L~S$         & $N_\gamma $ & $\mathcal{W}_\gamma$       & $\lambda~l~L~S$         & $N_\gamma$       & $\mathcal{W}_\gamma$       \\
 \begin{tabular}[t]{@{}l@{}}0 0 0 0\\ 1 1 1 1\\ 2 2 0 0\\ 3 3 1 1\end{tabular} &
   \begin{tabular}[t]{@{}l@{}}81\\ 81\\ 25\\ 25\end{tabular} &
   \begin{tabular}[t]{@{}l@{}}0.884\\ 0.102\\ 0.010\\ 0.004\end{tabular} &
@@ -1862,6 +1863,17 @@ $\lambda~l~L~S$         & $N_\gamma$       & $W$       & $\lambda~l~L~S$        
 \end{table}
 \clearpage
 
+Data in Tab. \ref{tab:variational_data} show good agreement between calculated and measured values of the ground state energy for the \be nucleus.
+However, the corresponding values given for the \he and \li nuclei underestimate the experimental data approximately by ~0.5--0.7 MeV. 
+The discrepancy, probably, due to the non-completeness of the basis function. 
+In this work it has no symmetrization, and doesn't enfold an alternative coordinate space.
+Other reasons might be in the presence of other cluster components, which has not been included in the variational calculations, and the $NNN$-body forces.
+For example, \he can contain two cluster such as $^3$H + $^3$H, 
+the \li nucleus can have $^3$He + $^3$H, and the \be nucleus can be represented as the $^5$He + $^4$He system.
+These kind of structures cannot be explicitly included in the current model.
+In particular, for \he and \li within the SVM the authors Kakenov $etal$ \cite{kakenov2020properties} managed to move closer to experimental values of binding energies by implementing the $NNN$-force.
+ 
+
 
 
  
@@ -1870,19 +1882,19 @@ $\lambda~l~L~S$         & $N_\gamma$       & $W$       & $\lambda~l~L~S$        
 \includegraphics[scale=0.6]{he0_the3D}
 \includegraphics[scale=0.6]{he0_theCP}
 \decoRule
-\caption{ \footnotesize The correlation function $W(x ,y)$ for the ground state of \he.}
+\caption{  The correlation function $W(x ,y)$ for the ground state of \he.}
 \label{fig:he0_the3D}
 \end{figure}
 
 
-In Figures \ref{fig:he0_the3D}, \ref{fig:li0_the3D} and \ref{fig:be0_the3D} the correlation densities of the three-body wave functions are illustrated in the 3D-Plot form for the $^6$He,  $^6$Li and $^9$Be nuclei. For the purpose of proper visualization the contour-plot are given along. 
+In Figures \ref{fig:he0_the3D}, \ref{fig:li0_the3D} and \ref{fig:be0_the3D} the correlation densities $W(x_k,y_k)$ (\ref{wf_cor_density}) of the three-body wave functions are illustrated in the 3D-Plot form for the $^6$He,  $^6$Li and $^9$Be nuclei. For the purpose of proper visualization the contour-plot are given along. 
 
 \begin{figure}[bp]
 \centering
 \includegraphics[scale=0.6]{li0_the3D}
 \includegraphics[scale=0.6]{li0_theCP}
 \decoRule
-\caption{ \footnotesize The same caption as in the Fig.\ref{fig:he0_the3D}, but for \li.}
+\caption{  The same caption as in the Fig.\ref{fig:he0_the3D}, but for \li.}
 \label{fig:li0_the3D}
 \end{figure} 
 
@@ -1896,7 +1908,7 @@ Similar results were described in works \cite{kukulin1977stochastic, papadimitri
 \includegraphics[scale=0.6]{be0_the3D}
 \includegraphics[scale=0.6]{be0_theCP}
 \decoRule
-\caption{ \footnotesize The same caption as in the Fig.\ref{fig:he0_the3D}, but for \be.}
+\caption{  The same caption as in the Fig.\ref{fig:he0_the3D}, but for \be.}
 \label{fig:be0_the3D}
 \end{figure} 
 
@@ -1922,28 +1934,28 @@ Another point of behaviour of density function of nuclei with $A=6$ is a maximum
 \centering
 \includegraphics[scale=0.6]{he0_theDD}
 \decoRule
-\caption{  \footnotesize  The nuclear matter density distribution of \he with the cluster component contributions;}
+\caption{    The nuclear matter density distribution of \he with the cluster component contributions;}
 \label{he0_theDD}
 \end{figure}
 \begin{figure}
 \centering
 \includegraphics[scale=0.6]{li0_theDD}
 \decoRule
-\caption{  \footnotesize  The same caption as in Fig. \ref{he0_theDD}, but for $^6$Li. }
+\caption{    The same caption as in Fig. \ref{he0_theDD}, but for $^6$Li. }
 \label{li0_theDD}
 \end{figure}
 \begin{figure}
 \centering
 \includegraphics[scale=0.6]{be0_theDD}
 \decoRule
-\caption{  \footnotesize  The same caption as in Fig. \ref{he0_theDD}, but for \be.}
+\caption{    The same caption as in Fig. \ref{he0_theDD}, but for \be.}
 \label{be0_theDD}
 \end{figure}
 \begin{figure}
 \centering
 \includegraphics[scale=0.6]{he0_compPlot}
 \decoRule
-\caption{  \footnotesize  Comparison of the total nuclear matter density distribution function of \he with the LSSM calculations \cite{antonov2005charge}. }
+\caption{    Comparison of the total nuclear matter density distribution function of \he with the LSSM calculations \cite{antonov2005charge}. }
 \label{he0_compPlot}
 \end{figure}
 
@@ -1967,7 +1979,7 @@ A comparison of the total density function $\rho(r)$ for \he with the density fu
 
 
 \begin{table}[bp]
-\caption{\footnotesize Comparison of the calculated rms charge $\langle r^{2}_{ch}\rangle$ and matter $\langle r^{2}_{ch}\rangle$ radii obtained within the three-body model with experimental data.}
+\caption{ Comparison of the calculated rms charge $\langle r^{2}_{ch}\rangle$ and matter $\langle r^{2}_{ch}\rangle$ radii obtained within the three-body model with experimental data.}
 \label{tab:rms_matter}
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccc@{}}
 \toprule
@@ -1979,10 +1991,10 @@ $\langle r^{2}_{ch}\rangle^{1/2}_{exp},~fm$
 & 2.066 \cite{angeli2013table} & 2.57(10) \cite{bumiller1972elastic}   & 2.50(9) \cite{fey1973nuclear} \\
 \midrule
 $\langle r^{2}_{m}\rangle^{1/2},~fm$& 2.75 & 2.49   & 2.58 \\
-$\langle r^{2}_{m}\rangle^{1/2}_{exp},~fm$ 
-& 2.75 $\pm$ 0.01 \cite{tanihata1985measurements} 
-& 2.54 $\pm$ 0.03  \cite{tanihata1985measurements}
-& 2.49 $\pm$ 0.01 \cite{tanihata1985measurements} \\
+$\langle r^{2}_{m}\rangle^{1/2},~fm$  \cite{tanihata1985measurements}  
+& 2.75 $\pm$ 0.01
+& 2.54 $\pm$ 0.03 
+& 2.49 $\pm$ 0.01  \\
 %$\langle r^{2}_m\rangle^{1/2}_{exp}$ , fm \cite{tanihata1985measurements}                                                                                                                                                                              & 2.75  & 2.54 & 2.50 \\
 
 %$\langle r^{2}_m\rangle^{1/2}$ , fm \cite{antonov2005charge}                                                                                                                                                                              & 2.62  & 2.43 & -- \\
@@ -2004,13 +2016,13 @@ It worth to note that matrix elements of the rms radii may be obtained also in t
 \langle~ \phi_{\gamma i}^{JM}(k,pq) ~\vert~ r^2   ~\vert~ \phi_{\gamma' j}^{JM}(k,pq) ~ \rangle, 
 \label{rms_r_square}
 \end{equation}
-where $r=-y_0^{(k)} { y}_k$. This method gives results in easier way, but not goes into the density distribution of the $\alpha$-clusters structure .
+where $r=-y_0^{(k)} { y}_k$. This method gives results in easier way, but not goes into the density distribution function of the $\alpha$-clusters.
 But, eventually, the rms radii calculated with both Eq. (\ref{rms_general}) and 
-(\ref{rms_r_square}) give the same results. More detailed derivation of Eq. (\ref{rms_r_square}) are provided in the Appendix $\ref{AppendixA}$.   
+(\ref{rms_r_square}) give the same results. More detailed derivation of Eq. (\ref{rms_r_square}) are provided in the Appendix $\ref{Appendix_RMS}$.   
 
 In the further calculations the components of three body wave function, contributing less than $10\%$, have been omitted (see Tab.\ref{tab:variational_data}), since their  influence on the results is insignificant.
 
-\chapter{Interaction of \he with $\alpha$-particles  }
+\chapter{$\alpha$+\he nuclear reactions  }
 \section{Elastic scattering}
 
 Differential cross section of the elastic scattering (\ref{es_diff_cross_section}) for the \he~+~$\alpha$ nuclear reaction has been calculated within the framework of the OM. The calculations were carried out by means of the code $FRESCO$
@@ -2025,7 +2037,7 @@ The potential of the $\alpha$-cluster with the projectile provides the strong ce
 \centering
 \includegraphics[scale=1]{he_df}
 \decoRule
-\caption{  \footnotesize  The folding potential $V^{DF}(r)$ in the framework of the three-body model. The potential is for the interaction of the $\alpha$ particle with the constituents of \he.
+\caption{    The folding potential $V^{DF}(r)$ in the framework of the three-body model. The potential is for the interaction of the $\alpha$ particle with the constituents of \he.
 }
 \label{he_df}
 \end{figure}
@@ -2043,11 +2055,18 @@ The advantage of the folding potential in comparison with others is in a less nu
 \centering
 \includegraphics[scale=1]{he_elastic}
 \decoRule
-\caption{  \footnotesize  The differential cross section of the elastic scattering of \he by $\alpha$-particles at $E_{lab}=151MeV$ calculated with the different potentials: the double folding potential (blue solid), the WS1-\he  (gray dashed) \cite{oganessian1999dynamics} and  WS2-\he (gray dotted) \cite{oganessian1999dynamics}. Experimental data were taken from \cite{oganessian1999dynamics}.
+\caption{    The differential cross section of the elastic scattering of \he by $\alpha$-particles at $E_{lab}=151MeV$ calculated with the different potentials: the double folding potential (blue solid), the WS1-\he  (gray dashed) \cite{oganessian1999dynamics} and  WS2-\he (gray dotted) \cite{oganessian1999dynamics}. Experimental data were taken from \cite{oganessian1999dynamics}.
 }
 \label{he_elastic}
 \end{figure}
-
+\begin{figure}[tp]
+\centering
+\includegraphics[scale=1]{he_elastic_transfer} 
+\decoRule
+\caption{    The cross sections of the elastic channel taking into account few possible reaction mechanisms: elastic scattering (solid gray), simultaneous transfer of di-neutron (gray dashed), sequential transfer of di-neutron (dotted) and their coherent sum (solid blue). Experimental data were taken from \cite{oganessian1999dynamics}.
+}
+\label{he_elastic_transfer}
+\end{figure}
 
 
 \section{Elastic transfer}
@@ -2061,30 +2080,21 @@ Theoretical curves in Fig. \ref{he_elastic} could  show a good result in describ
 \end{equation}
 where the amplitude $f_{sim}$ -- an amplitude of the finite-range transfer, which may be calculated within the DWBA method (\ref{dwba_amplitude}), $f_{seq}$ -- an amplitude of two step transfer mechanisms (see, i.e. \cite{satchler1983, fresco}).
 
-\begin{figure}[tp]
-\centering
-\includegraphics[scale=1]{he_elastic_transfer} 
-\decoRule
-\caption{  \footnotesize  The cross sections of the elastic channel taking into account few possible reaction mechanisms: elastic scattering (solid gray), simultaneous transfer of di-neutron (gray dashed), sequential transfer of di-neutron (dotted) and their coherent sum (solid blue). Experimental data were taken from \cite{oganessian1999dynamics}.
-}
-\label{he_elastic_transfer}
-\end{figure}
-
 Obtained calculation results for the differential cross section of the elastic transfer were carried out within the framework of the CRC method. Potential for the input and output channels was chosen to be the double folding potential \he-DF. The potential for the intermediate channel was taken the optical potential with global optical parametrizations for $\alpha$ particles \cite{avrigeanu1994global}. Trial calculations have shown that the results depend insignificantly on the selected potential for the intermediate channel.
 The wave function of the bound states was chosen by fitting the potential depth to the binding energy of the composite systems. 
 In particular, the binding energy of one neutron with $^6$He was chosen 1.8 MeV,  neutron with $^5$He -- 0.1 MeV, and two neutrons with  $\alpha$  -- 0.9 MeV. 
 
 
-\begin{figure}[tp!]
+\begin{figure}
 \centering
 \includegraphics[scale=1]{he_transfer_scheme}
 \decoRule
-\caption{  \footnotesize  Schematic representation of the elastic transfer nuclear reaction, on the left - the simultaneous transfer of two nucleons, on the right - the sequential transfer of two nucleons.
+\caption{    Schematic representation of the elastic transfer nuclear reaction, on the left - the simultaneous transfer of two nucleons, on the right - the sequential transfer of two nucleons.
 }
 \label{he_transfer_scheme}
 \end{figure}
-\begin{table}[bp!]
-\caption{\footnotesize The parameters of the potentials used in OM calculations for both $\alpha$ + \he and $\alpha$ + \li nuclear reactions. For more details, see the text}
+\begin{table}[tp!]
+\caption{ The parameters of the potentials used in OM calculations for both $\alpha$ + \he and $\alpha$ + \li nuclear reactions. For more details, see the text}
 \label{tab:he_elastic}
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}rlllllll}
 \hline
@@ -2097,23 +2107,32 @@ WS1-\li & 102.5       & 1.78      & 0.820     & 11.8         & 4.11      & 0.950
 \hline
 \end{tabular*}
 \end{table}
-
+\clearpage
 
 The results of the CRC calculations for the elastic transfer are shown in Fig. \ref{he_elastic_transfer}.  
 As mentioned in the previous section, the elastic collision mechanism prevails at the forward scattering angles. 
 Beginning from the angle 90$^\circ$, the contribution to the cross section is mainly caused by the simultaneous transfer of two nucleons.
  It is worth noting here that two neutrons have the $nlj$ $2S_0$ configuration, which, possibly, leads to an oscillatory cross section. One magnitude less is the contribution of the sequential transfer of di-neutron. 
  In this case both neutrons have $1P_{\frac{3}{2}}$ configuration. 
- For the best reproduction of the experimental data, the SA of di-neutrons was taken  $\mathcal{A}^{00}_{2S_0}=1.3$. 
- The extracted value differs from the SA $\mathcal{A}^{00}_{2S_0}=1.0$ from \cite{khoa2004di, oganessian1999dynamics}.
+ For the best reproduction of the experimental data, the SA of di-neutrons was taken  $\mathcal{A}^{00}_{2S_0}=1.0$. 
+ The extracted value correspond with the value from Ref. \cite{khoa2004di, oganessian1999dynamics}.
 
 Thus, it was possible to achieve good agreement between the calculated differential cross section, using the double-folding potential DF-\he and the proposed transfer mechanisms, with the experimental data \cite{oganessian1999dynamics}.
 
 
-\chapter{The nuclear reaction $\alpha$+ \li }
+\chapter{$\alpha$+ \li  nuclear reactions }
 \section{Elastic scattering}
 
 To calculate the elastic scattering cross section we used again the folding potential with the density depended M3Y-Paris effective NN-potential \cite{anantaraman1983effective}. The three body density function of nuclear matter used to calculate the potential. Therefore, it was possible to look into the interaction of the $\alpha$-projectile with deuteron and $\alpha$ clusters inside the nucleus \li (see, Fig. \ref{li_df}). The function of the interaction potential of the projectile with the internal alpha particle rapidly tends to zero, while the function of the interaction potential of the projectile with the internal deuteron slowly decreases. It should also be noted that, starting from the distance $r \simeq 4.0$, the main contribution is due to the interaction of the projectile with the internal deuteron.
+
+ \begin{figure}
+\centering
+\includegraphics[scale=1]{li_df}
+\decoRule
+\caption{    The folding potential $V^{DF}(r)$ in the framework of the three-body model. The potential is for the interaction of the $\alpha$ particle with the constituents of \li.
+}
+\label{li_df}
+\end{figure}
 
 The folding potential was chosen to be the real part of the optical potential with the $N_r$ fitting parameter. As regards the imaginary part, the same shape of real part was used, but with the parameters $N_i$. 
 The Woods-Saxon potential with six parametrizations was taken from \cite{oganessian1999dynamics} as comparison to DF-\li.  
@@ -2123,15 +2142,6 @@ The theoretical curves based on the potentials DF-\li and WS1-\li show good agre
  
   The \li structure is very similar to  \he. Therefore, as in the case of \he, the calculations made in the framework of the OM are well described only at the forward scattering angles. The potential parameters are listed in Tab. \ref{tab:he_elastic}.
  
- \begin{figure}[bp!]
-\centering
-\includegraphics[scale=1]{li_df}
-\decoRule
-\caption{  \footnotesize  The folding potential $V^{DF}(r)$ in the framework of the three-body model. The potential is for the interaction of the $\alpha$ particle with the constituents of \li.
-}
-\label{li_df}
-\end{figure}
-
  Differential cross sections belonging to the backward angles have the character of another mechanism - the transfer of $d$ from \li. 
  How exactly this subsystem is transferred will be discussed in the next section devoted to elastic transfer for the $ \alpha$ + \he reaction.
  
@@ -2144,23 +2154,6 @@ An increase in the cross section for the elastic scattering $\alpha$ + \li  reac
  The transfer mechanisms are shown schematically in Fig \ref{li_transfer_scheme}.
 
 
-\begin{figure}
-\centering
-\includegraphics[scale=1.2]{li_elastic}
-\decoRule
-\caption{  \footnotesize  The differential cross section of the elastic scattering of \li by $\alpha$-particles at $E_{lab} = 166 MeV$ with the different potentials: the double folding potential DF-\li (blue solid), the WS1-\li  (gray dashed) \cite{oganessian1999dynamics}. Experimanetal data taken from \cite{oganessian1999dynamics}.
-}
-\label{li_elastic}
-\end{figure}
-\begin{figure}
-\centering
-\includegraphics[scale=1.2]{li_elastic_transfer}
-\decoRule
-\caption{  \footnotesize  The cross sections of the elastic transfer reaction are represented in terms of the transfer mechanisms: elastic scattering (solid gray), simultanious transfer of $d$ (gray dashed), sequential transfer of $2N$ (dotted) and their coherent sum (solid blue). Experimanetal data taken from \cite{oganessian1999dynamics}.
-}
-\label{li_elastic_transfer}
-\end{figure}
-
 As in the case of \he, calculations for obtaining the differential cross section of the elastic transfer were carried out within the framework of the CRC method. 
 For the input and output channels the double folding potential was taken, and for the intermediate channel the optical potential with global optical parametrizations for $\alpha$ particles \cite{avrigeanu1994global}  was chosen. 
 The calculations have shown that the cross sections depend insignificantly on the selected potential for the intermediate channel. 
@@ -2168,14 +2161,24 @@ The wave function of the bound states was chosen by fitting the potential depth 
 In particular, the binding energy of one neutron with $^5$Li was 5.663 MeV, as neutron with $^5$He taken 0.9 MeV, and as $d$ with  $\alpha$  taken 1.474 MeV. 
 The differential cross section for this reaction is determined using the same formula \ref{eq:he_cs}.
 
-\begin{figure}[tp!]
+
+\begin{figure}
 \centering
-\includegraphics[scale=1]{li_transfer_scheme}
+\includegraphics[scale=1.2]{li_elastic}
 \decoRule
-\caption{  \footnotesize  Schematic representation of the elastic transfer nuclear reaction, on the left - the simultaneous transfer of two nucleons, on the right - the sequential transfer of two nucleons.
+\caption{    The differential cross section of the elastic scattering of \li by $\alpha$-particles at $E_{lab} = 166 MeV$ with the different potentials: the double folding potential DF-\li (blue solid), the WS1-\li  (gray dashed) \cite{oganessian1999dynamics}. Experimanetal data taken from \cite{oganessian1999dynamics}.
 }
-\label{li_transfer_scheme}
+\label{li_elastic}
 \end{figure}
+\begin{figure}
+\centering
+\includegraphics[scale=1.2]{li_elastic_transfer}
+\decoRule
+\caption{    The cross sections of the elastic transfer reaction are represented in terms of the transfer mechanisms: elastic scattering (solid gray), simultanious transfer of $d$ (gray dashed), sequential transfer of $2N$ (dotted) and their coherent sum (solid blue). Experimanetal data taken from \cite{oganessian1999dynamics}.
+}
+\label{li_elastic_transfer}
+\end{figure}
+
 
 The results of calculations for elastic transfer are shown in Fig. \ref{li_elastic_transfer}. 
 The mechanism of elastic collision in the reaction of $\alpha$ + \li   prevails over other mechanisms at the forward scattering angles. 
@@ -2187,10 +2190,16 @@ The best agreement with the experimental data is obtained if one uses the SA for
 As for the sequential transfer of the $d$ system, it has a contribution much less than the simultaneous transfer by one order of magnitude. 
 Taken results based on the three body model are in good agreement with the experimental data.
 
+\begin{figure}
+\centering
+\includegraphics[scale=1]{li_transfer_scheme}
+\decoRule
+\caption{    Schematic representation of the elastic transfer nuclear reaction, on the left - the simultaneous transfer of two nucleons, on the right - the sequential transfer of two nucleons.
+}
+\label{li_transfer_scheme}
+\end{figure}
 
-
-
-\chapter{Interaction of \be with deuterons }
+\chapter{$d$ + \be nuclear reactions }
 \section{Elastic channel}
 The DF potential was calculated using the effective M3Y-Paris nucleon-nucleon potential \citep{anantaraman1983effective} and the nuclear-matter-densities of projectile and target nuclei (see Eq. (\ref{rho_nk}) and (\ref{rho_alpha_q})). 
 The matter density distribution of the deuteron projectile was chosen to be of the form
@@ -2207,13 +2216,13 @@ V^V(R) =  \sum_{i=1}^{3} V^i f^{R_i, a_i}(R), \\
 \centering
 \includegraphics[width=8.2cm]{dbe_fig3.pdf}
 \decoRule
-\caption{ \label{dbe_fig3} \footnotesize The angular distribution of elastic scattering data of $d$ from ${}^9$Be at laboratory energy 19.5~MeV in comparison with theoretical calculations within the OM (solid curve). }
+\caption{ \label{dbe_fig3}  The angular distribution of elastic scattering data of $d$ from ${}^9$Be at laboratory energy 19.5~MeV in comparison with theoretical calculations within the OM (solid curve). }
 \end{figure}
 \begin{figure}[tp]
 \centering
 \includegraphics[width=8.2cm]{dbe_fig4.pdf}
 \decoRule
-\caption{\label{dbe_fig4} \footnotesize The cross sections of inelastic scattering ${}^9$Be($d,d$)$^9$Be* (E$_{exc}$=2.43 MeV) at laboratory energies 19.5 MeV (full circle) and 35 MeV (full triangle). Theoretical curves are described in the text.}
+\caption{\label{dbe_fig4}  The cross sections of inelastic scattering ${}^9$Be($d,d$)$^9$Be* (E$_{exc}$=2.43 MeV) at laboratory energies 19.5 MeV (full circle) and 35 MeV (full triangle). Theoretical curves are described in the text.}
 \end{figure} 
 Here, the parameters of the imaginary part of the optical potential were obtained by fitting the theoretical cross sections to the experimental data at 19.5 MeV and 35 MeV incident energies. As a starting point, the same parameterizations of the real part were used. The obtained potential parameters after fitting are listed in Table~\ref{dbe_potpar} for both 19.5 MeV and 35.0 MeV incident energies.
 
@@ -2223,7 +2232,7 @@ Theoretical results obtained by means of the OM give an excellent agreement, $\c
 
 \begin{table*}[bp]
 \footnotesize
-\caption{\label{dbe_potpar} \footnotesize Parameterized double-folding potentials of the $d$+$^9$Be system used in the OM, CC and DWBA calculations.}
+\caption{\label{dbe_potpar}  Parameterized double-folding potentials of the $d$+$^9$Be system used in the OM, CC and DWBA calculations.}
 \begin{tabular*}{\textwidth}{ll@{\extracolsep{\fill}}llllllllll}
 \toprule
 E$_d$, & i & V$_0$, & r$_v^{a}$, & a$_v$, & W$_0$, & r$_w^{a}$, & a$_w$, & V$_0^{SO}$, & N$_R$, & r$_C^{a}$, & $\chi^2/N$ \\
@@ -2257,7 +2266,7 @@ where $\beta_\lambda$ is the deformation parameter of $\lambda$ multipole descri
 \centering
 \includegraphics[scale=0.85]{dbe_fig5.pdf}
 \decoRule
-\caption{ \label{dbe_fig5} \footnotesize The target coupling schemes in the ${}^9$Be($d,p$)$^{10}$Be (upper) and the ${}^9$Be($d,t$)$^8$Be (lower) nuclear reactions. The bold two-headed arrows indicate E$\lambda$ transitions. The spin re-orientation effects are indicated as back-pointing arrows.}
+\caption{ \label{dbe_fig5}  The target coupling schemes in the ${}^9$Be($d,p$)$^{10}$Be (upper) and the ${}^9$Be($d,t$)$^8$Be (lower) nuclear reactions. The bold two-headed arrows indicate E$\lambda$ transitions. The spin re-orientation effects are indicated as back-pointing arrows.}
 \end{figure} 
 
 The calculated cross sections for inelastic scattering to the $5/2^-$ state at 2.43 MeV are shown in Fig.~\ref{dbe_fig4}. The solid curves correspond to the results obtained within the CC approach, while the dashed and dotted curves were obtained within the DWBA approach using  different values of the deformation parameter $\beta_2$. The used potential parameters are listed in Table~\ref{dbe_potpar}.
@@ -2281,7 +2290,7 @@ In order to construct the bound-state wave functions of the transferred particle
 \centering
 \includegraphics[scale=0.8]{dbe_fig6.pdf}
 \decoRule
-\caption{\label{dbe_fig6} \footnotesize Differential cross sections for the ${}^9$Be($d,p$)${}^{10}$Be$^*$ reactions at 19.5 MeV leading to different final states (labelled in the figure) in ${}^{10}$Be. The experimental data are shown in comparison with theoretical results obtained within the CRC method.}
+\caption{\label{dbe_fig6}  Differential cross sections for the ${}^9$Be($d,p$)${}^{10}$Be$^*$ reactions at 19.5 MeV leading to different final states (labelled in the figure) in ${}^{10}$Be. The experimental data are shown in comparison with theoretical results obtained within the CRC method.}
 \end{figure}
 
 If the core and the composite nuclei have internal excitation energies, a renewed binding energy $BE^{\star}$ of the transferred particle is expressed by the formula:
@@ -2294,7 +2303,7 @@ where $BE$ $-$ the binding energy of the transferred particle, $E_{com}^*,~E_{co
 \decoRule
 \caption{
 \label{dbe_fig7}
-\footnotesize Differential cross sections for the ${}^9$Be($d,t$)${}^{8}$Be$^*$ reactions at 19.5 and 35 MeV leading to different final states (labelled in the figure) in ${}^{8}$Be. The experimental data are shown in comparison with  theoretical results obtained within the CRC method.}
+ Differential cross sections for the ${}^9$Be($d,t$)${}^{8}$Be$^*$ reactions at 19.5 and 35 MeV leading to different final states (labelled in the figure) in ${}^{8}$Be. The experimental data are shown in comparison with  theoretical results obtained within the CRC method.}
 \end{figure}
 
 The SA ({\ref{sa_shell_model}}) for the addition of a particle to a core with angular momentum $J_{core}$ to form a composite with $J_{com}$ is related to the matrix element of the creation operator~$\hat{a}^\dagger$:
@@ -2307,7 +2316,7 @@ where $Nlj$ is the set of particle quantum numbers. The spectroscopic amplitudes
 
 \begin{table*}[tp]
 \footnotesize
-\caption{\label{dbe_SA} \footnotesize Spectroscopic amplitudes used in CRC calculations for the Composite = Core + Nucleon system. The one-nucleon SA have been calculated by means of the $ANTOINE$ code \cite{antoine}. The alpha spectroscopic amplitudes were taken from  \cite{volya, volya2017}. }
+\caption{\label{dbe_SA}  Spectroscopic amplitudes used in CRC calculations for the Composite = Core + Nucleon system. The one-nucleon SA have been calculated by means of the $ANTOINE$ code \cite{antoine}. The alpha spectroscopic amplitudes were taken from  \cite{volya, volya2017}. }
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llllllrl@{\extracolsep{\fill}}llllllr@{\extracolsep{\fill}}}
 \toprule
 Com & 2J$_{1}$ & Core & 2J$_{2}$ & N & 2J & SA &    & Com & 2J$_{1}$ & Core & 2J$_{2}$ & N & 2J & SA      \\
@@ -2394,7 +2403,7 @@ Differential cross sections for the nuclear reaction ${^9}$Be($d,\alpha$)${}^7$L
 \centering
 \includegraphics[width=8.2cm]{dbe_fig9.pdf}
 \decoRule
-\caption{\label{dbe_fig9} \footnotesize The scheme illustrates the reaction mechanisms taken into account in CRC calculations of the cross sections for ${}^9$Be($d,\alpha$)${}^7$Li reaction.}
+\caption{\label{dbe_fig9}  The scheme illustrates the reaction mechanisms taken into account in CRC calculations of the cross sections for ${}^9$Be($d,\alpha$)${}^7$Li reaction.}
 \end{figure}
 
 
@@ -2417,7 +2426,7 @@ corresponds to the deuteron pick-up and sequential two-step transfer of $n$-$p$ 
 \centering
 \includegraphics[scale=0.8]{dbe_fig8.pdf}
 \decoRule
-\caption{ \footnotesize Differential cross sections for the ${}^9$Be($d$,$\alpha$)${}^7$Li reactions measured at 19.5 MeV and 35 MeV energy with the ${}^{7}$Li observed in the ground or low-lying excited states in the exit channels.}
+\caption{  Differential cross sections for the ${}^9$Be($d$,$\alpha$)${}^7$Li reactions measured at 19.5 MeV and 35 MeV energy with the ${}^{7}$Li observed in the ground or low-lying excited states in the exit channels.}
 \label{dbe_fig8}
 \end{figure*}	
 
@@ -2442,7 +2451,7 @@ It turned out that the $n$-$\alpha$ and $\alpha$-$n$ transfer processes provide 
 \centering
 \includegraphics[width=8.2cm]{dbe_fig10.pdf}
 \decoRule
-\caption{\label{dbe_fig10} \footnotesize The scheme illustrates the energy balance of the different intermediate stages for the two-step mechanisms of ${}^9$Be($d,\alpha$)${}^7$Li transfer reaction. The $Q$-values for the different intermediate channels are shown near the corresponding lines. The numbers near the arrows correspond to the spectroscopic amplitudes of the heaviest reaction participants. For example, spectroscopic amplitude for the ${}^9$Be = ${}^8$Li + $p$ configuration is equal $\mathcal{A} = -0.947$.}
+\caption{\label{dbe_fig10}  The scheme illustrates the energy balance of the different intermediate stages for the two-step mechanisms of ${}^9$Be($d,\alpha$)${}^7$Li transfer reaction. The $Q$-values for the different intermediate channels are shown near the corresponding lines. The numbers near the arrows correspond to the spectroscopic amplitudes of the heaviest reaction participants. For example, spectroscopic amplitude for the ${}^9$Be = ${}^8$Li + $p$ configuration is equal $\mathcal{A} = -0.947$.}
 \end{figure}
 
 The two-step $n$-$p$ transfer is another mechanism providing a noticeable contribution to the cross section. It is due to the prominent cluster structure of the ${}^9$Be nucleus having the weakly bound neutron. This structural feature explains also the weakness of the $p$-$n$ sequential transfer contribution to the cross section corresponding to the ${}^7$Li(g.s.) in the exit channel. However, with increasing the ${}^7$Li excitation energy these two mechanisms are interchanged in the significance of their contributions, as depicted by the curves in Fig.~\ref{dbe_fig8}, and the $p$-$n$ transfer begins to play a leading role, providing, in particular, almost 10 times larger contribution in the case of reaction at $E_{lab}$ = 35 MeV with ${}^7$Li$^*$(7.46 MeV) in exit channel.
@@ -2453,7 +2462,7 @@ In Fig.~\ref{dbe_fig10}, the possible scenarios for the $n$-$p$ and $p$-$n$ sequ
 \centering
 \includegraphics[width=8.2cm]{dbe_fig11.pdf}
 \decoRule
-\caption{\label{dbe_fig11} \footnotesize Contributions of the different mechanisms to the cross section of the ${}^9$Be($d,\alpha$)${}^7$Li$_{g.s.}$ reaction. See Fig.~\ref{dbe_fig9} for explanation of the curve notations.}
+\caption{\label{dbe_fig11}  Contributions of the different mechanisms to the cross section of the ${}^9$Be($d,\alpha$)${}^7$Li$_{g.s.}$ reaction. See Fig.~\ref{dbe_fig9} for explanation of the curve notations.}
 \end{figure}	
 
 The situation becomes quite different in the case of the ${}^7$Li$^*$(5/2$^-$) in the exit channel. First, the population of this state through the $n$-$p$ transfer involves the ${}^9$Be~=~${}^8$Be$^*(2^+)$~+~$n$ intermediate configuration where the ${}^8$Be cluster has to be in the $2^+$ excited state. Note that the ${}^8$Be($0^+$) ground state is inappropriate because of angular-momentum-coupling mismatch in the entrance and exit configurations. Second, the extremely small spectroscopic amplitude of the ${}^8$Be$^*(2^+)$~=~${}^7$Li$^*(5/2^-)$~+~$p$ configuration, which is $\mathcal{A} = 0.079$, influences the transfer amplitude. These two factors lead to the suppression of the contribution of ($d,t;t,\alpha$) mechanism in population of the ${}^7$Li$^*$(5/2$^-$) state in the exit channel. Therefore, the $p$-$n$ sequential transfer prevails over the $n$-$p$ one. 
@@ -2461,48 +2470,54 @@ The situation becomes quite different in the case of the ${}^7$Li$^*$(5/2$^-$) i
 Figure \ref{dbe_fig11} shows the contributions of all the mechanisms mentioned above to the total cross section of the ${}^9$Be($d,\alpha$)${}^7$Li$_{g.s.}$ reaction (see Fig.~\ref{dbe_fig9}) as a function of the deuteron energy. One may conclude that mainly four mechanisms contribute to the cross section of this reaction. The transfer of the deuteron-cluster is the predominant channel at all collision energies. The sequential $n$-$p$ and $p$-$n$ transfers play a significant role at the high energies. The ${}^5$He-cluster transfer gives almost 20\% of the cross section at low energies and outdoes the sequential $p$-$n$ transfer in this energy domain. This allows us to claim that the configurations $n+^8$Be and $\alpha+{}^5$He provide noticeable contributions to the ground-state wave function of the ${}^9$Be nucleus. These conclusions agree well with the previous experimental studies \cite{brown2007, papka2007}.
 
 
-\chapter*{Conclusion}   
-\addchaptertocentry{Conclusion}
+\chapter*{Summary and Conclusions}   
+\addchaptertocentry{Summary and Conclusions}
 
-This work was dedicated to study the structure of weakly bound nuclei, such \he, \li and \be, and its impact on the direct nuclear reactions. Since the work is voluminous, the main finding are divided into three parts. 
+This work is dedicated to study the structure of weakly bound nuclei, such \he, \li and \be, and its impact on the direct nuclear reactions. 
+ The nuclei are considered as the three body system: \he =$\alpha+2N$, \li$=\alpha+2N$ and \be$=2\alpha+N$. 
+ Their wave functions are chosen to be in the form of Gaussian basis. 
+ The three body wave function are obtained within the stochastic variational method. 
+ Variational calculations underestimate the three body eigen-energies than experimental values.
+  Such results point to presence of additional natures. 
+  In particular, the $NNN$-forces and other cluster configurations are not implemented explicitly in the current model.
+   Taking into account such kind of specificities it may contribute to the properties of the considering nuclear systems.
 
-~\\
-$\bullet$ The three body wave functions and their properties.\\
- The nuclei have been considered as the three body system: \he =$\alpha+2N$, \li$=\alpha+2N$ and \be$=2\alpha+N$. Their wave functions were chosen to be in the form of Gaussian basis. The three body wave function were obtained within the stochastic variational method. Variational calculations showed the three body eigen-energies slightly less than experimental values. Such results point to presences of additional natures. For example, the presence of the $NNN$-forces and other cluster configurations are not able to be implemented explicitly in the current model, and are not subject of this work. The 3D plots have been demonstrated the specific structures of studying nuclei. In particular, the configurations of di-nucleon and cigar-like of \he and \li have been indicated.
+The density functions of nuclear matter on the basis of the three body wave functions are derived in explicit form. 
+The functions obtained for these nuclei demonstrate drastically different shapes in comparison with the spherical stable nuclei.
+Using the density functions the rms radii are expressed explicitly.
+Obtained values on the both charge and matter radii are in good agreement with the available estimations from the well-known sources.
+ 
 
-The density functions of nuclear matter on the basis of the three body wave functions 
-have been derived in explicit form. Constructed plots with the density functions showed a uniqueness than spherical stable nuclei. It is also worth mentioning that the density function of nuclear matter has a minimum in the center of \be. This feature is particularly common for the stable isotopes of carbon, oxygen and nitrogen.  
-It should also be noted that the plots of density functions with the three body wave functions have not been presented yet. 
-Using the density functions we could express the rms radii explicitly. The all calculated results showed good agreement with excremental data. An exception was in the rms matter radius of \be $\langle r^2_m \rangle^{1/2}_m=2.58~fm$, which was more for $0.1~fm$ than experimental value. However, the calculated radius was in good agreement with the value taken within the AMD model, i.e.  $\langle r^2_m \rangle^{1/2}_m=2.61~fm$.
-
-~\\
-$\bullet$ Helium-6 and Lithium-6 \\
 In the framework of the double folding model the interaction potentials, $\alpha+$\he, $\alpha$+\li and $d$+\be, have been calculated. 
-The figures, plotting the interaction of projectile with the target sub-particles, have not been presented yet elsewhere.
+It should be pointed out that the large diffuseness of the double folding potentials are caused by the valence nucleons.
 The potential built on the three body density functions was used to calculate the differential cross sections of elastic, inelastic scattering and nuclear transfer reactions. 
 
-The nuclear reactions \he + $\alpha$ and $\alpha$ + \li, at laboratory energies 151 MeV and 166 MeV, have been excellent tools in terms of the theoretical study. 
-By using them we could extract the optical potentials, the spectroscopic informations of two nucleons in the three body system. 
-Obtained optical potentials in calculations of elastic scattering and elastic transfer gave good agreement with experimental data.
- The spectroscopic informations of di-nucleons became different than the value from \cite{khoa2004di, oganessian1999dynamics}.
-  The behaviour of cross sections of elastic transfer with rising from 90$^\circ$ had large contribution of two nucleon transfer mechanisms.
-   Such kind of behaviour are characteristic for nuclei having a cluster structure. 
-   In the case with \he  and \li, it is direct proof of the thee body cluster structure $\alpha+2N$.
+The nuclear reactions \he + $\alpha$ and $\alpha$ + \li, at laboratory energies 151 MeV and 166 MeV, respectively, are excellent tools in terms of the theoretical study. 
+By using them we could extract the optical potential parameters, the spectroscopic informations of the three cluster configurations. 
+Obtained optical potentials in calculations of elastic scattering and elastic transfer give good agreement of corresponding differential cross sections with experimental data.
+ The spectroscopic amplitude of di-neutron in \he is consistent with the spectroscopic information given in Ref. \cite{khoa2004di, oganessian1999dynamics}.
+  
+  The experimental data on elastic scattering of $\alpha$-particles by \he and \li  demonstrate significant growth of cross section at backward angles.
+   Such kind of behaviour is characterized by contribution of the elastic transfer channel. 
+Analysis based on the CRC calculations show that the major contribution to the elastic transfer cross section is resulted from the di-nucleon transfer channel, whereas the sequential transfer is lower one order of magnitude.
+This confirms validity of the three body model, and it is compatible with the conclusions of other authors from \cite{khoa2004di, oganessian1999dynamics}. 
+ 
 
-~\\
-$\bullet$ Beryllium-9 \\
-A next study was  the deuteron-induced reactions on a ${}^9$Be target at the collision energies 19.5 and 35 MeV.
-The calculated double-folding potential has been applied successfully in describing the cross sections of elastic and inelastic scatterings, one-nucleon  transfer and cluster-transfer reactions.
+The deuteron-induced reactions on a ${}^9$Be target at the collision energies 19.5 and 35 MeV are studied.
+The calculated double-folding potential is applied successfully to describing the cross sections of elastic and inelastic scatterings, one-nucleon  transfer and cluster-transfer reactions.
   The deformation parameter for the transition \begin{small}
   $3/2^-\rightarrow5/2^-$
-\end{small}  of ${}^9$Be has been determined.
+\end{small}  of ${}^9$Be is extracted. The resulting deformation parameter is consistent with the parameters given in Ref. \cite{lukyanov2014study, harakeh1980strong}.
 
- The strong coupling effects have been shown for the ($d,p$) and ($d,t$) one-nucleon transfer nuclear reactions. 
-In particular, it was possible to describe the nuclear reaction ($d$, $p$) by means of CRC method at the full scattering angles. The reason for it was in taking into account all possible couplings including the spin-reorientations. The spin reorientation has manifested brightly itself in the range of $40^\circ-60^\circ$ in the nuclear reaction \be($d$, $p$)${}^{10}$Be$_{gs}$. Such kind of effects occurs when a strong deformed and hight spin valued nucleus is involved. In this case the nucleus \be is a main contributor, since in the exit channel $^{10}$Be has spin $0^+$.
+ The strong coupling effects have been shown for the ($d,p$) and ($d,t$) one-nucleon transfer reactions. 
+In particular, the cross sections of the reaction ($d$, $p$) obtained  within CRC method are in good agreement with the experimental data in wide angular range. 
+It is due to the   taking into account all possible couplings including the spin-reorientations. 
+The spin reorientation coupling allows, particularly, to improve agreement with data significantly for the \be($d$,$p$)${}^{10}$Be${}_{gs}$ reaction. 
+ Such kind of effects occurs when a strong deformed and hight spin valued nucleus, like \be, is involved. 
 
- Furthermore, it was found that  in the ${}^9$Be($d$,$\alpha$)${}^7$Li nuclear reaction the ${}^5$He heavy cluster  is transferred mainly simultaneously, and the contribution of its sequential transfer is an order of magnitude lower.
- The importance of taking into account the mechanism of sequential transfer of the $n$-$p$ system has been revealed.
- Based on these observations from studying the interaction of the  deuteron with  $^9$Be, it can be concluded that the $^9$Be  nucleus has cluster structure.
+The theoretical analysis of the nuclear reaction ${}^9$Be($d$, $\alpha$)${}^7$Li$_{gs}$ shows that it goes basically through three reaction mechanisms, which are the transfer mechanism of $n$-$p$,  the simultaneous and sequential transfer of $^5$He.  It has became known that the ${}^5$He heavy cluster is transferred mainly simultaneously at the backward scattering angles, and the contribution of its sequential transfer is an order of magnitude lower.
+The $n$-$p$ transfer mechanism turned out to be competitive to the $d$ transfer.
+ Based on these observations from studying the reactions $d~+$ $^9$Be nuclear, it can be concluded that the $^9$Be  nucleus has cluster structure.
  
 %\include{Chapters/Chapter2} 
 %\include{Chapters/Chapter3}
@@ -2519,13 +2534,14 @@ In particular, it was possible to describe the nuclear reaction ($d$, $p$) by me
 % Uncomment the lines as you write the Appendices
 
 \include{Appendices/AppendixA}
+\include{Appendices/Appendix_RMS}
 \include{Appendices/AppendixB}
 %\include{Appendices/AppendixC}
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
-
+\doublespacing
 \printbibliography[heading=bibintoc]
 
 %----------------------------------------------------------------------------------------

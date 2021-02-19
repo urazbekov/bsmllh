@@ -2,18 +2,19 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces \footnotesize Parameters of the M3Y-Paris \cite {anantaraman1983effective} NN-potential used in double-folding calculations.\relax }}{34}{table.caption.165}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Parameters of the M3Y-Paris \cite {anantaraman1983effective} NN-potential used in double-folding calculations.\relax }}{43}{table.caption.165}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces \footnotesize The ground state energies $E_{gs}$ of the three-body systems and the weights of the wave function components found by means of the SVM for the \textsuperscript {6}He\xspace , \textsuperscript {6}Li\xspace and \textsuperscript {9}Be\xspace nuclei. The set of quantum numbers $\gamma \equiv \{\lambda l L S\}$, the dimension $N_\gamma $ and the weights $W$ of each $\gamma $ component are listed. \relax }}{36}{table.caption.169}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces \footnotesize Comparison of the calculated rms charge $\langle r^{2}_{ch}\rangle $ and matter $\langle r^{2}_{ch}\rangle $ radii obtained within the three-body model with experimental data.\relax }}{41}{table.caption.178}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces The ground state energies $E_{gs}$ of the three-body systems and the weights of the wave function components found by means of the SVM for the \textsuperscript {6}He\xspace , \textsuperscript {6}Li\xspace and \textsuperscript {9}Be\xspace nuclei. The set of quantum numbers $\gamma \equiv \{\lambda l L S\}$, the dimension $N_\gamma $ and the component weights $\mathcal {W}_\gamma $ (\ref {wf_normalizations}) are listed. \relax }}{45}{table.caption.169}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Comparison of the calculated rms charge $\langle r^{2}_{ch}\rangle $ and matter $\langle r^{2}_{ch}\rangle $ radii obtained within the three-body model with experimental data.\relax }}{51}{table.caption.178}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces \footnotesize The parameters of the potentials used in OM calculations for both $\alpha $ + \textsuperscript {6}He\xspace and $\alpha $ + \textsuperscript {6}Li\xspace nuclear reactions. For more details, see the text\relax }}{46}{table.caption.189}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces \footnotesize Parameterized double-folding potentials of the $d$+$^9$Be system used in the OM, CC and DWBA calculations.\relax }}{53}{table.caption.203}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces \footnotesize Spectroscopic amplitudes used in CRC calculations for the Composite = Core + Nucleon system. The one-nucleon SA have been calculated by means of the $ANTOINE$ code \cite {antoine}. The alpha spectroscopic amplitudes were taken from \cite {volya, volya2017}. \relax }}{57}{table.caption.212}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces The parameters of the potentials used in OM calculations for both $\alpha $ + \textsuperscript {6}He\xspace and $\alpha $ + \textsuperscript {6}Li\xspace nuclear reactions. For more details, see the text\relax }}{57}{table.caption.189}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{\ignorespaces \footnotesize The three-body wave function parameters found by means of variational approach for the ground state of \textsuperscript {6}He\xspace \relax }}{69}{table.239}%
-\contentsline {table}{\numberline {B.2}{\ignorespaces \footnotesize The three-body wave function parameters found by means of variational approach for the ground state of \textsuperscript {6}Li\xspace \relax }}{76}{table.241}%
-\contentsline {table}{\numberline {B.3}{\ignorespaces \footnotesize The three-body wave function parameters found by means of variational approach for the ground state of \textsuperscript {9}Be\xspace \relax }}{84}{table.243}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Parameterized double-folding potentials of the $d$+$^9$Be system used in the OM, CC and DWBA calculations.\relax }}{66}{table.caption.203}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Spectroscopic amplitudes used in CRC calculations for the Composite = Core + Nucleon system. The one-nucleon SA have been calculated by means of the $ANTOINE$ code \cite {antoine}. The alpha spectroscopic amplitudes were taken from \cite {volya, volya2017}. \relax }}{71}{table.caption.212}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {C.1}{\ignorespaces \footnotesize The three-body wave function parameters found by means of variational approach for the ground state of \textsuperscript {6}He\xspace \relax }}{87}{table.240}%
+\contentsline {table}{\numberline {C.2}{\ignorespaces \footnotesize The three-body wave function parameters found by means of variational approach for the ground state of \textsuperscript {6}Li\xspace \relax }}{94}{table.242}%
+\contentsline {table}{\numberline {C.3}{\ignorespaces \footnotesize The three-body wave function parameters found by means of variational approach for the ground state of \textsuperscript {9}Be\xspace \relax }}{102}{table.244}%
