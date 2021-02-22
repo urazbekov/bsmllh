@@ -2868,6 +2868,43 @@
     \field{year}{1985}
   \endentry
 
+  \entry{voronchev1982variational}{article}{}
+    \name{author}{3}{}{%
+      {{hash=VV}{%
+         family={Voronchev},
+         familyi={V\bibinitperiod},
+         given={VT},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Krasnopol'Sky},
+         familyi={K\bibinitperiod},
+         given={VM},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Kukulin},
+         familyi={K\bibinitperiod},
+         given={VI},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{VV+1}
+    \strng{fullhash}{VVKVKV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{5}
+    \field{pages}{649}
+    \field{title}{A variational study of the ground and excited states of light
+  nuclei in a three-body model on the complete basis. I. General formalism}
+    \field{volume}{8}
+    \field{journaltitle}{Journal of Physics G: Nuclear Physics}
+    \field{year}{1982}
+  \endentry
+
   \entry{fresco}{article}{}
     \name{author}{1}{}{%
       {{hash=TIJ}{%

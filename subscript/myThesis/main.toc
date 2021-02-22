@@ -9,35 +9,34 @@
 \contentsline {section}{\numberline {1.1}Basis function}{10}{section.17}%
 \contentsline {section}{\numberline {1.2}Transformation of the basis function }{13}{section.33}%
 \contentsline {section}{\numberline {1.3}Overlap matrix elements}{15}{section.44}%
-\contentsline {section}{\numberline {1.4}Normalization and correlation density function}{17}{section.55}%
-\contentsline {section}{\numberline {1.5}Density distribution functions}{18}{section.60}%
-\contentsline {section}{\numberline {1.6}Root mean square radii}{22}{section.77}%
-\contentsline {chapter}{\numberline {2}Theoretical models describing nuclear reactions}{24}{chapter.85}%
-\contentsline {section}{\numberline {2.1}Description of elastic scattering}{24}{section.86}%
-\contentsline {section}{\numberline {2.2}The coupled channels method for inelastic scattering}{27}{section.100}%
-\contentsline {section}{\numberline {2.3}The coupled-reaction-channels method for the transfer reactions}{31}{section.118}%
-\contentsline {section}{\numberline {2.4}Distorted Wave Born Approximation}{33}{section.126}%
-\contentsline {section}{\numberline {2.5}Spectroscopic Amplitudes within the Shell Model}{36}{section.139}%
-\contentsline {section}{\numberline {2.6}Double folding potential}{40}{section.152}%
-\contentsline {chapter}{\numberline {3}The three-body wave functions and their properties}{44}{chapter.166}%
-\contentsline {section}{\numberline {3.1}The three-body wave functions}{44}{section.167}%
-\contentsline {section}{\numberline {3.2}Density function of nuclear matter}{47}{section.173}%
-\contentsline {chapter}{\numberline {4}$\alpha $+\textsuperscript {6}He\xspace nuclear reactions }{53}{chapter.180}%
-\contentsline {section}{\numberline {4.1}Elastic scattering}{53}{section.181}%
-\contentsline {section}{\numberline {4.2}Elastic transfer}{54}{section.186}%
-\contentsline {chapter}{\numberline {5}$\alpha $+ \textsuperscript {6}Li\xspace nuclear reactions }{59}{chapter.190}%
-\contentsline {section}{\numberline {5.1}Elastic scattering}{59}{section.191}%
-\contentsline {section}{\numberline {5.2}Elastic transfer}{60}{section.193}%
-\contentsline {chapter}{\numberline {6}$d$ + \textsuperscript {9}Be\xspace nuclear reactions }{64}{chapter.197}%
-\contentsline {section}{\numberline {6.1}Elastic channel}{64}{section.198}%
-\contentsline {section}{\numberline {6.2}Inelastic scattering}{66}{section.204}%
-\contentsline {section}{\numberline {6.3}One-nucleon transfer reactions }{68}{section.207}%
-\contentsline {section}{\numberline {6.4}Cluster-transfer reaction}{73}{section.213}%
-\contentsline {chapter}{Summary and Conclusions}{79}{chapter*.221}%
-\contentsline {chapter}{\numberline {A}Some aspects from quantum theory of angular momenta}{82}{appendix.222}%
-\contentsline {chapter}{\numberline {B}Derivation of rms radii}{86}{appendix.237}%
-\contentsline {chapter}{\numberline {C}Parameters of the three body wave function}{87}{appendix.238}%
-\contentsline {section}{\numberline {C.1}Helium-6}{87}{section.239}%
-\contentsline {section}{\numberline {C.2}Lithium-6}{94}{section.241}%
-\contentsline {section}{\numberline {C.3}Beryllium-9}{102}{section.243}%
-\contentsline {chapter}{Bibliography}{110}{appendix*.245}%
+\contentsline {section}{\numberline {1.4}Normalization and correlation density function}{17}{section.54}%
+\contentsline {section}{\numberline {1.5}Density distribution functions}{18}{section.59}%
+\contentsline {section}{\numberline {1.6}Root mean square radii}{22}{section.76}%
+\contentsline {chapter}{\numberline {2}Theoretical models describing nuclear reactions}{24}{chapter.84}%
+\contentsline {section}{\numberline {2.1}Description of elastic scattering}{24}{section.85}%
+\contentsline {section}{\numberline {2.2}The coupled channels method for inelastic scattering}{27}{section.99}%
+\contentsline {section}{\numberline {2.3}The coupled-reaction-channels method for the transfer reactions}{31}{section.117}%
+\contentsline {section}{\numberline {2.4}Distorted Wave Born Approximation}{33}{section.125}%
+\contentsline {section}{\numberline {2.5}Spectroscopic Amplitudes within the Shell Model}{36}{section.138}%
+\contentsline {section}{\numberline {2.6}Double folding potential}{40}{section.151}%
+\contentsline {chapter}{\numberline {3}The three-body wave functions and their properties}{44}{chapter.165}%
+\contentsline {section}{\numberline {3.1}The three-body wave functions}{44}{section.166}%
+\contentsline {section}{\numberline {3.2}Density Function of Nuclear Matter}{47}{section.172}%
+\contentsline {chapter}{\numberline {4}$\alpha $ + \textsuperscript {6}He\xspace nuclear reactions }{53}{chapter.179}%
+\contentsline {section}{\numberline {4.1}Elastic scattering}{53}{section.180}%
+\contentsline {section}{\numberline {4.2}Elastic transfer}{54}{section.185}%
+\contentsline {chapter}{\numberline {5}$\alpha $+ \textsuperscript {6}Li\xspace nuclear reactions }{59}{chapter.189}%
+\contentsline {section}{\numberline {5.1}Elastic scattering}{59}{section.190}%
+\contentsline {section}{\numberline {5.2}Elastic transfer}{60}{section.192}%
+\contentsline {chapter}{\numberline {6}$d$ + \textsuperscript {9}Be\xspace nuclear reactions }{64}{chapter.196}%
+\contentsline {section}{\numberline {6.1}Elastic channel}{64}{section.197}%
+\contentsline {section}{\numberline {6.2}Inelastic scattering}{66}{section.203}%
+\contentsline {section}{\numberline {6.3}One-nucleon transfer reactions }{68}{section.206}%
+\contentsline {section}{\numberline {6.4}Cluster-transfer reaction}{73}{section.212}%
+\contentsline {chapter}{Summary and Conclusions}{79}{chapter*.220}%
+\contentsline {chapter}{\numberline {A}Definitions from the quantum theory of angular momenta}{82}{appendix.221}%
+\contentsline {chapter}{\numberline {B}Parameters of the three body wave functions}{87}{appendix.241}%
+\contentsline {section}{\numberline {B.1}Helium-6}{87}{section.242}%
+\contentsline {section}{\numberline {B.2}Lithium-6}{94}{section.244}%
+\contentsline {section}{\numberline {B.3}Beryllium-9}{102}{section.246}%
+\contentsline {chapter}{Bibliography}{110}{appendix*.248}%

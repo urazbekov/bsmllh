@@ -736,12 +736,8 @@ $
 \alpha_{ij}^{(k)}=\alpha_{i}^{(k)}+\alpha_{j}^{(k)}$ and $
 \beta_{ij}^{(k)}=\beta_{i}^{(k)}+\beta_{j}^{(k)}
 $,
-the table integral $\mathcal{I}(\lambda, \alpha)$ is  
-\begin{equation}
-\mathcal{I} \left( \lambda,\alpha\right)=
- 2^{1+\lambda}\frac{\Gamma \left( 1+\lambda \right)  }{ \left( \alpha \right) ^{1+\lambda}} .
-\label{table_integral_1}
-\end{equation}
+the table integral $\mathcal{I}(\lambda, \alpha)$ is given in Eq. (\ref{table_integral_1}).
+
 
 It is also useful to give an expression of overlap matrix elements for alternative Jacobi coordinate set. For instance, the matrix elements for the $(q,kp)$ three body system may be given as follows
 \begin{equation}
@@ -966,8 +962,8 @@ If the cluster $k$ is $\alpha$-particle, a relevant matrix element has form
 i_0(2\gamma_0 y_0^{(k)} y_k R) \delta_{\gamma \gamma'},
 \nonumber
 \end{align} 
-where, $i_0(x)$ is the modified spherical Bessel function of the first kind.
-With the aid of this matrix element and using the explicit form of the integral (see. Appendix \ref{AppendixA}), the density function of the $\alpha$-particle $k$ is built as follows
+where, $i_l(x)$ is the modified spherical Bessel function of the first kind (\ref{mod_sph_bessel}).
+The density function of the $\alpha$-particle $k$ is built as follows
 \begin{equation}
 \rho^{(\alpha_k)}(R)=\sum_\gamma \rho^{(\alpha_k)}_{\gamma}(R),
 \label{rho_alphak}
@@ -978,8 +974,9 @@ where
 4 \pi \rho_0 \exp\left(-\gamma_0 R^2 \right)
 \sum_{ij} C_i C_j 
  \mathcal{I}\left( 2\lambda+2, \tfrac{1}{2} \alpha^{(k)}_{ij}\right) \times \\
- \times \mathcal{I}\left( l,0,\beta_{ij}^{(k)}+2{y^{(k)}_0}^2 \gamma_0,2\gamma_0 y^{(k)}_0 R \right). \nonumber
+ \times \mathcal{I}\left( l,~0,~\beta_{ij}^{(k)}+2{y^{(k)}_0}^2 \gamma_0,~2\gamma_0 y^{(k)}_0 R \right). \nonumber
 \end{align}
+Here, $\mathcal{I}(n,~l,~v,~|w|)$ is given in Eq. (\ref{table_integral_2}). 
 
 Let's turn to the density functions of $q$ particles.
  In order to calculate the matrix elements for these particle, one must switch basis functions into $(q,kp)$ Jacobi coordinate set, as in the case with overlap matrix element (\ref{overlap_alternative}). 
@@ -1083,7 +1080,7 @@ C_iC_j
  \mathcal{I}(2l+4, ~\tfrac{1}{2} {y_0^{(k)}}^2 \beta^{(k)}_{ij})~
 \mathcal{I}\left( 2\lambda+2, ~\tfrac{1}{2} \alpha_{ij}^{(k)} \right). 
 \end{align}
-Explicit form of the integral $\mathcal{I} \left( \lambda, ~\alpha\right)$ is given in the Appendix \ref{AppendixA}.
+
 In the case of the $\alpha$-cluster $q$, by means of the Eq. (\ref{rho_alphak}) its rms radii is calculated as follows
 \begin{align}
 \langle r_{\alpha_k}^2 \rangle =&4 \pi \rho_0
@@ -1094,7 +1091,7 @@ In the case of the $\alpha$-cluster $q$, by means of the Eq. (\ref{rho_alphak}) 
  \mathcal{I}\left(1, ~l,~0,~2\gamma_0,~\beta_{ij}^{(k)}+2{y^{(k)}_0}^2 \gamma_0,~2\gamma_0 y^{(k)}_0\right)
  \nonumber
 \end{align}
-where the integral depending on six arguments is expressed in Appendix \ref{AppendixA}.
+where the integral depending on six arguments is expressed in Appendix \ref{AppendixA} (see Eq. (\ref{table_integral3})).
 
 Likewise, the rms radii for the particle $q$  in the three body system may be expressed through the density functions $\rho^{(q)}$ . For instance, putting the Eq. (\ref{rho_nq}) into the Eq. (\ref{rms_general}) we can get the rms radius $\langle r_{N_q}^2 \rangle $ for the nucleon $q$:
 \begin{align}
@@ -1917,7 +1914,7 @@ The Fig. \ref{fig:be0_the3D} shows the spatial correlation function for the boun
 The single maximum of the correlation density function is located at the coordinates $(x_k \simeq 3.0 ~fm, y_k \simeq 2.0~ fm)$. 
 In contrast with the \he and \li nuclei the \be nucleus has only one pronounced spatial configuration corresponding to the two $\alpha$-clusters ($^8$Be ground state) glued by the valence neutron. A very similar picture has been found in Ref. \cite{hussein2015low}. 
 
-\section{Density function of nuclear matter}
+\section{Density Function of Nuclear Matter}
 On the basis of the three-body wave function \ref{totwf}, the nuclear matter density distributions are calculated for $^6$He, $^6$Li and $^9$Be in the ground states using Equations \ref{rho_nk}, \ref{rho_alphak}, \ref{rho_nq} and \ref{rho_alpha_q}. The results are shown in the Figures \ref{he0_theDD}, \ref{li0_theDD} and \ref{be0_theDD} respectively.
 The plotted the density functions are normalized to their own atomic masses. 
 
@@ -2018,11 +2015,11 @@ It worth to note that matrix elements of the rms radii may be obtained also in t
 \end{equation}
 where $r=-y_0^{(k)} { y}_k$. This method gives results in easier way, but not goes into the density distribution function of the $\alpha$-clusters.
 But, eventually, the rms radii calculated with both Eq. (\ref{rms_general}) and 
-(\ref{rms_r_square}) give the same results. More detailed derivation of Eq. (\ref{rms_r_square}) are provided in the Appendix $\ref{Appendix_RMS}$.   
+(\ref{rms_r_square}) give the same results. More detailed derivation of Eq. (\ref{rms_r_square}) are provided in Ref. \cite{voronchev1982variational}.   
 
 In the further calculations the components of three body wave function, contributing less than $10\%$, have been omitted (see Tab.\ref{tab:variational_data}), since their  influence on the results is insignificant.
 
-\chapter{$\alpha$+\he nuclear reactions  }
+\chapter{$\alpha$ + \he nuclear reactions  }
 \section{Elastic scattering}
 
 Differential cross section of the elastic scattering (\ref{es_diff_cross_section}) for the \he~+~$\alpha$ nuclear reaction has been calculated within the framework of the OM. The calculations were carried out by means of the code $FRESCO$
@@ -2534,7 +2531,7 @@ The $n$-$p$ transfer mechanism turned out to be competitive to the $d$ transfer.
 % Uncomment the lines as you write the Appendices
 
 \include{Appendices/AppendixA}
-\include{Appendices/Appendix_RMS}
+%\include{Appendices/Appendix_RMS}
 \include{Appendices/AppendixB}
 %\include{Appendices/AppendixC}
 
