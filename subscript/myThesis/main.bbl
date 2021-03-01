@@ -808,6 +808,66 @@
     \field{year}{2002}
   \endentry
 
+  \entry{tilley2004energy}{article}{}
+    \name{author}{7}{}{%
+      {{hash=TD}{%
+         family={Tilley},
+         familyi={T\bibinitperiod},
+         given={DR},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kelley},
+         familyi={K\bibinitperiod},
+         given={JH},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Godwin},
+         familyi={G\bibinitperiod},
+         given={JL},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Millener},
+         familyi={M\bibinitperiod},
+         given={DJ},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Purcell},
+         familyi={P\bibinitperiod},
+         given={JE},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sheu},
+         familyi={S\bibinitperiod},
+         given={CG},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WH}{%
+         family={Weller},
+         familyi={W\bibinitperiod},
+         given={HR},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{TD+1}
+    \strng{fullhash}{TDKJGJMDPJSCWH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3-4}
+    \field{pages}{155\bibrangedash 362}
+    \field{title}{Energy levels of light nuclei A= 8, 9, 10}
+    \field{volume}{745}
+    \field{journaltitle}{Nuclear Physics A}
+    \field{year}{2004}
+  \endentry
+
   \entry{horiuchi1970generator}{article}{}
     \name{author}{1}{}{%
       {{hash=HH}{%
