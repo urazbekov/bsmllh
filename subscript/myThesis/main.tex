@@ -599,18 +599,18 @@ Y_\lambda \left(\hat{x}_k \right) \otimes Y_l \left(\hat{y}_k \right)
 \end{align}
 
 A pair of the three body system may have forbidden states according to the principle Pauli. 
-For instance, lets say, the pair $(kp)$ has the state $f$ must be excluded.  
-This forbidden state $f$ is projected out by implementing the pseudo-potential \cite{kukulin1978orthogonal}:
+For instance, lets say, the pair $(kp)$ has the state $\ell_f$ must be excluded.  
+This forbidden state $\ell_f$ is projected out by implementing the pseudo-potential \cite{kukulin1978orthogonal}:
 \begin{equation}
 \label{pseudopot}
-\widetilde{V}_{kp}=V_{kp}+\lambda \Gamma_f,
+\widetilde{V}_{kp}=V_{kp}+\lambda \Gamma_{\ell_f},
 \end{equation}
-where $V_{kp}$ is  a regular interaction potential between $p$ and $k$ particles,  $\lambda$ -- a constant usually equal to $10^5$. The operator $\Gamma_f$ is given by:
+where $V_{kp}$ is  a regular interaction potential between $p$ and $k$ particles,  $\lambda$ -- a constant usually equal to $10^5$.  By varying this parameter the binding energy of three body system  remains stable. The operator $\Gamma_f$ is given by:
 \begin{equation}
 \label{projector}
-\Gamma(f)=~
-\sum\limits_{m_f}\vert \phi_{fm_f} ({\mathbf x})\rangle~ 
- \langle  \phi_{fm_f} ({\mathbf x'}) \vert ~
+\Gamma(\ell_f)=~
+\sum\limits_{m_f}\vert \phi_{\ell_f m_f} ({\mathbf x})\rangle~ 
+ \langle  \phi_{\ell_f m_f} ({\mathbf x'}) \vert ~
  \delta({\mathbf y - \mathbf y'}).
 \end{equation}
 So the three body Hamiltonian including kinetic energy and pseudo potentials looks as
@@ -851,7 +851,7 @@ C_i C_j
 \end{equation}
 This, in turn, gives the the normalization of the total three-body wave function as follows
 \begin{equation}
-\mathcal{W}  = \sum_{\gamma} \mathcal{W}^{(k)}_{\gamma}.    
+\mathcal{W}  = \sum_{\gamma} \mathcal{W}^{(k)}_{\gamma}=1.    
 \end{equation}
 
 
@@ -1134,7 +1134,7 @@ For calculating charge radii one must use the different parametrizations $\rho_0
 In this chapter the description of scattering of two nuclei is given by a complex potential $U$. The potential may depend on the spins of the two nuclei but not on their internal coordinates. Thus, it cannot excite the nuclei internally or cause the transfer between them. It can only change their relative motion and, perhaps, reorient spins to each other or to the orbital motion \cite{satchler1983}. 
 
 In the case of colliding  $a$ + $A$  particles without spin the potential $U\left( r \right)$ is central, depending only on the magnitude of the channel coordinate ${\bf r}$.
-The corresponding Shr\"{o}dinger equation may be written explicitly
+The corresponding Schr\"{o}dinger equation may be written explicitly
 \begin{equation}
 \left( E + \frac{\hbar^2}{2 \mu} {\bf \nabla}^2 - U \left( r \right) \right) 
 \chi \left( {\bf r} \right) =0 
@@ -1179,16 +1179,16 @@ for radial part only is written as
 \chi_L \left( k,r \right)  \rightarrow kr~j_L \left(kr \right),
 ~~ r \rightarrow \infty,
 \end{equation}
-where $j_L \left(kr \right)$ is the usual spherical Bessel function. The $\chi_L \left( k,r \right)$ radial function satisfies the radial Shr\"{o}dinger equation
+where $j_L \left(kr \right)$ is the usual spherical Bessel function. The $\chi_L \left( k,r \right)$ radial function satisfies the radial Schr\"{o}dinger equation
 \begin{equation}
-\left( \nabla_r + k^2 - \frac{L(L+1)}{r^2} - \frac{2 \mu}{\hbar^2} U \left( r \right)\right) \chi_L \left( k,r \right) =0,
+\left( \frac{d^2}{d r^2} + k^2 - \frac{L(L+1)}{r^2} - \frac{2 \mu}{\hbar^2} U \left( r \right)\right) \chi_L \left( k,r \right) =0,
 \label{es_she_radial}
 \end{equation}
 where $k^2 = \frac{2\mu E}{\hbar^2}$.
 
-In the case of the interaction potential has a more sophisticated form, including both Coulomb and nuclear short-range  potentials, the radial Shr\"{o}dinger equation (\ref{es_she_radial}) may be rewritten as
+In the case of the interaction potential has a more sophisticated form, including both Coulomb and nuclear short-range  potentials, the radial Schr\"{o}dinger equation (\ref{es_she_radial}) may be rewritten as
 \begin{equation}
-\left( \nabla_r + k^2 - \frac{2 \eta k}{r} - \frac{L(L+1)}{r^2} - \frac{2 \mu}{\hbar^2} U \left( r \right) \right) \chi_L \left( k,r \right) =0,
+\left(  \frac{d^2}{d r^2} + k^2 - \frac{2 \eta k}{r} - \frac{L(L+1)}{r^2} - \frac{2 \mu}{\hbar^2} U \left( r \right) \right) \chi_L \left( k,r \right) =0,
 \label{es_she2}
 \end{equation}
 where $\eta$ is the usual Sommerfeld parameter with the $Z$ charge numbers
@@ -1236,7 +1236,7 @@ The elastic scattering of the projectile $a$ by the nucleus $A$ has been denoted
 \label{cc_tot_wf}
 \end{equation}
  where ${\bf r}$ is the channel coordinate for the partitions $\alpha$ or $\alpha^{\prime}$, $x$ represents the corresponding internal coordinates.
- The total wave function can be part of the Shr\"{o}dinger equation kind of
+ The total wave function can be part of the Schr\"{o}dinger equation kind of
  \begin{equation}
  H\Psi=E\Psi
  \label{cc_she1}
@@ -1275,12 +1275,12 @@ V_{\alpha^{\prime} \alpha} \left( {\bf r} \right) = \sum_{\lambda \mu} V^{\lambd
 
 If the potential shape has a deformation, the nuclear potential can be constructed as
 \begin{equation}
-V_\alpha \left( x, {\bf r}\right) \equiv U\left( r -\delta\left( \hat{r}^{\prime} \right) \right)
+V_\alpha \left( \bf{x}, {\bf r}\right) = U\left( r -\Delta\left( \hat{r}^{\prime} \right) \right)
 \label{cc_coup_pot_def}
 \end{equation}
-where $\hat{r}^{\prime}$ denotes angular coordinates of $(\theta,~\phi)$ referred to the intrinsic reference frame. The function $\delta\left( \hat{r}^{\prime} \right)$ is normally expanded in multipoles
+where $\hat{r}^{\prime}$ denotes the angular part of $\bf{r}$ referred to the intrinsic coordinates $\bf{x}$. The shift function $\Delta\left( \hat{r}^{\prime} \right)$ is normally expanded in multipoles
 \begin{equation}
-\delta\left( \hat{r}^{\prime} \right) = \sum_{\lambda} \delta_\lambda Y_{\lambda 0} (\hat{r}^{\prime}).
+\Delta\left( \hat{r}^{\prime} \right) = \sum_{\lambda} \delta_\lambda Y_{\lambda 0} (\hat{r}^{\prime}).
 \label{cc_delta_def}
 \end{equation}
 
@@ -1303,11 +1303,11 @@ Using the definitions, (\ref{cc_coup_pot_def}) and (\ref{cc_delta_def}), the red
 \begin{equation}
 \langle I_{i} \vert \vert \delta_\lambda \vert \vert I_f \rangle = \sqrt{2 I_f+1} 
 \langle I_f M_f \lambda 0 \vert I_i M_i \rangle 
-\langle \chi \vert \delta \vert \chi \rangle \delta_{M_i M_f}.
+\langle \chi \vert \delta_\lambda \vert \chi \rangle \delta_{M_i M_f}.
 \end{equation}
-The matrix element $\langle \chi \vert \delta \vert \chi \rangle$ is the expectation value of the operator $\delta_\lambda$ in the internal state of the  deformed nucleus. In the framework of the rotational model it can be given with the deformation length $\beta_\lambda$ as follow
+The matrix element $\langle \chi \vert \delta_\lambda \vert \chi \rangle$ is the expectation value of the operator $\delta_\lambda$ in the internal state of the  deformed nucleus. In the framework of the rotational model it can be given with the deformation length $\beta_\lambda$ as follow
 \begin{equation}
-\langle \chi \vert \delta \vert \chi \rangle = R_0 \beta_\lambda
+\langle \chi \vert \delta_\lambda \vert \chi \rangle = R_0 \beta_\lambda
 \end{equation}
 where $R_0$ is an average radius of the interaction potential.
 
@@ -1437,7 +1437,7 @@ For example,if we choose to describe the scattering in terms of the nuclei of th
 V_{Ab}=V_{\nu b} + U_{ab}.
 \end{equation}
 Here, $V_{\nu b}$ -- a binding potential of the $\nu$ valence particle with the $b$ core, and it is real potential, $U_{ab}$ -- a complex optical potential describing the scattering state of the $a+b$ system.  
-In this representation, known as prior mode, the transition amplitude for the transfer process is given by
+In this representation, known as the prior form, the transition amplitude for the transfer process is given by
  \begin{align}
  T_{prior} =& \langle \chi_\beta^{(-)} \phi_a \phi_B  \vert
   V_{\nu b}+U_{ab}-U_{\alpha} \vert
@@ -1488,16 +1488,16 @@ Here, $U_\beta$ stands for the optical potential corresponding to $\beta$ elasti
 In the simplest picture, the valence particle can be considered a pure single-particle state. 
 This means that within this model there is only one possible configuration of the core and valence particle to give the nucleus $B$. Thus, the wave function for the nucleus $B$ can be written as
 \begin{equation}
-\phi^{JM}_B \left( \xi,~{\bf r} \right) = 
-\left[ \phi_b^I (\xi)  \times \phi_{lsj} ({\bf r}) \right]_{JM}
+\phi^{JM}_B \left( \xi,~{\bf r}' \right) = 
+\left[ \phi_b^I (\xi)  \times \phi_{lsj} ({\bf r}') \right]_{JM}
 \end{equation}
  In a more sophisticated model, however, the state of the composite contains components of many single particle states coupled to all possible core states.
  Therefore, the wave function $\phi^{JM}_B \left( \xi,~{\bf r} \right) $ may be built as a superposition of the form
  \begin{equation}
- \phi^{JM}_B \left( \xi,~{\bf r} \right)  =
+ \phi^{JM}_B \left( \xi,~{\bf r}' \right)  =
  \frac{1}{\sqrt{n_B}}
  \sum_{Ilj} \mathcal{A}_{lsj}^{IJ} 
- \left[ \phi_b^I (\xi)  \times \phi_{lsj} ({\bf r}) \right]_{JM}
+ \left[ \phi_b^I (\xi)  \times \phi_{lsj} ({\bf r}') \right]_{JM}
  \label{eq:composite_expansion}
  \end{equation}
  where the coefficient $\mathcal{A}_{lsj}^{IJ} $ is  the coefficient of fractional parentage or spectroscopic amplitudes. 
@@ -1513,16 +1513,16 @@ This means that within this model there is only one possible configuration of th
 Note that the kernel function $I_{\beta \alpha}   \left( {\bf r}_\beta ,  {\bf r}_\alpha \right)  $ involve the overlap between the composite and core wave functions. 
 Using the Eq.\ref{eq:composite_expansion} the internal variable $\xi$ in the integral can be explicitly performed giving just unity by normalization
 \begin{equation}
-\left( \phi^{JM}_B \left( \xi,~{\bf r} \right), \phi_b^I ( \xi ) \right)
+\left( \phi^{JM}_B \left( \xi,~{\bf r}' \right), \phi_b^I ( \xi ) \right)
 \equiv 
-\int d \xi \phi^{JM}_B \left( \xi,~{\bf r} \right)  \phi_b^I ( \xi ) = 
+\int d \xi \phi^{JM}_B \left( \xi,~{\bf r}' \right)  \phi_b^I ( \xi ) = 
 \frac{1}{\sqrt{n_B}}
- \sum_{Ilj} \mathcal{A}_{lsj}^{IJ}  \phi_{lsj} ({\bf r})
+ \sum_{Ilj} \mathcal{A}_{lsj}^{IJ}  \phi_{lsj} ({\bf r}')
 \end{equation}
  
- The bound wave function $ \phi_{lsj} ({\bf r})$ obey the Shr\"{o}dinger equation 
+ The bound wave function $ \phi_{lsj} ({\bf r}')$ obey the Schr\"{o}dinger equation 
  \begin{equation}
- \left( T + V_{\nu b} ({\bf r}) + \epsilon - E \right) \phi_{lsj} ({\bf r}) = 0
+ \left( T + V_{\nu b} ({\bf r}') + \epsilon - E \right) \phi_{lsj} ({\bf r}) = 0
  \end{equation}
  where $\epsilon$ is binding energy of the valence particle $\nu$.
  
@@ -1855,7 +1855,7 @@ $\lambda~l~L~S$         & $N_\gamma$       & $\mathcal{W}_\gamma$       & $\lamb
   \begin{tabular}[t]{@{}l@{}}0 0 0 1\\ 2 0 2 1\\ 1 1 1 0\\ 2 2 0 1\\ 2 2 1 1\end{tabular} &
   \begin{tabular}[t]{@{}l@{}}64\\ 49\\ 49\\ 25\\ 25\end{tabular} &
   \begin{tabular}[t]{@{}l@{}}0.898\\  0.073\\  0.021\\  0.005\\  0.002\end{tabular} &
-  \begin{tabular}[t]{@{}l@{}}0 1 1 1 \\ 2 1 1 1\\ 2 1 2 1 \\ 2 3 1 1 \\ 2 3 2 1 \\ 4 3 1 1 \\ 4 3 2 1\end{tabular} &
+  \begin{tabular}[t]{@{}l@{}}0 1 1 1/2 \\ 2 1 1 1/2\\ 2 1 2 1/2 \\ 2 3 1 1/2 \\ 2 3 2 1/2 \\ 4 3 1 1/2 \\ 4 3 2 1/2\end{tabular} &
   \begin{tabular}[t]{@{}l@{}}49\\ 49\\ 49\\ 36\\ 25\\ 16\\16\end{tabular} &
   \begin{tabular}[t]{@{}l@{}}0.403\\ 0.328\\ 0.235\\ 0.017\\ 0.004\\ 0.009\\ 0.003\end{tabular} \\ \bottomrule
 \end{tabular*}
