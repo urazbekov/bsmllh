@@ -2395,6 +2395,28 @@
     \field{year}{1963}
   \endentry
 
+  \entry{luk2008double}{report}{}
+    \name{author}{1}{}{%
+      {{hash=LK}{%
+         family={Luk'yanov},
+         familyi={L\bibinitperiod},
+         given={KV},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LK1}
+    \strng{fullhash}{LK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Double folding model of nucleus-nucleus potential: Formulae,
+  iteration method and computer code}
+    \list{institution}{1}{%
+      {Laboratory of Information Technologies}%
+    }
+    \field{type}{techreport}
+    \field{year}{2008}
+  \endentry
+
   \entry{anantaraman1983effective}{article}{}
     \name{author}{3}{}{%
       {{hash=AN}{%
