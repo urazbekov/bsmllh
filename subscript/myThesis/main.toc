@@ -30,13 +30,10 @@
 \contentsline {section}{\numberline {5.2}Elastic transfer}{60}{section.191}%
 \contentsline {chapter}{\numberline {6}$d$ + \textsuperscript {9}Be\xspace nuclear reactions }{64}{chapter.195}%
 \contentsline {section}{\numberline {6.1}Elastic channel}{64}{section.196}%
-\contentsline {section}{\numberline {6.2}Inelastic scattering}{66}{section.202}%
-\contentsline {section}{\numberline {6.3}One-nucleon transfer reactions }{68}{section.205}%
-\contentsline {section}{\numberline {6.4}Cluster-transfer reaction}{73}{section.211}%
-\contentsline {chapter}{Summary and Conclusions}{79}{chapter*.219}%
-\contentsline {chapter}{\numberline {A}Definitions from the quantum theory of angular momenta}{82}{appendix.220}%
-\contentsline {chapter}{\numberline {B}Parameters of the three body wave functions}{87}{appendix.240}%
-\contentsline {section}{\numberline {B.1}Helium-6}{87}{section.241}%
-\contentsline {section}{\numberline {B.2}Lithium-6}{94}{section.243}%
-\contentsline {section}{\numberline {B.3}Beryllium-9}{102}{section.245}%
-\contentsline {chapter}{Bibliography}{110}{appendix*.247}%
+\contentsline {section}{\numberline {6.2}Inelastic scattering}{66}{section.203}%
+\contentsline {section}{\numberline {6.3}One-nucleon transfer reactions }{68}{section.206}%
+\contentsline {section}{\numberline {6.4}Cluster-transfer reaction}{73}{section.212}%
+\contentsline {chapter}{Summary and Conclusions}{80}{chapter*.220}%
+\contentsline {chapter}{\numberline {A}Definitions from the quantum theory of angular momenta}{83}{appendix.221}%
+\contentsline {chapter}{\numberline {B}Parameters of the three body wave function for \textsuperscript {6}He\xspace }{88}{appendix.241}%
+\contentsline {chapter}{Bibliography}{95}{appendix*.243}%
