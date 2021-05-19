@@ -416,7 +416,7 @@ Usually it is considered as an indication of characteristic of elastic transfer.
 The DWBA analysis using the \he and \li wave functions built on hyper-spherical harmonics \cite{zhukov1993bound}, showed good agreement with the backward angle data.
 Consequently, it is concluded that the di-neutron configuration dominates the \he ground state wave function.
 The more detailed study of the \he + $\alpha$ scattering data has carried out in Ref. \cite{khoa2004di} in the framework of the Coupled Reaction Channels (CRC) method. 
-In this work the spectroscopic information of the di-neutron was obtained, a sequential transfer of the di-neutron was implemented in CRC calculations. It was concluded that the two valence neutrons are transferred mainly simultaneously, the rising of cross section at backward angles comes due to the elastic transfer of the $2n$ cluster. 
+In this work the spectroscopic information of the di-neutron was obtained, a sequential transfer of the di-neutron was implemented in CRC calculations. It was concluded that the two valence neutrons are transferred mainly simultaneously, the rising of cross section at backward angles comes due to the elastic transfer of the $2n$ system. 
 
 
 %Scattering of the simplest projectiles, such as ${}^{1,2}$H or ${}^{3,4}$He, off a target is a standard tool for fundamental study of the structure of nuclei. This method involves measuring the angular distributions of the nuclear reaction products. It is well known that the energies and angular distributions of projectile-like particles give information about the internal structure of target-like nuclei. 
@@ -440,7 +440,7 @@ This work is organized as follows. The first chapter is devoted to an introducti
 The next chapter presents widely used theoretical approaches to describe the scattering wave function. 
 Methods for calculating differential cross sections  are presented: for elastic scattering -- Optical model, inelastic scattering -- Coupled channel, and nuclear transfer reactions -- Coupled Reactions Channels. 
 For a complete understanding of how one-particle spectroscopic amplitudes (SA) are calculated within the framework of the shell model used in CRC calculations, a separate section is devoted.
-The details of building the potential of interaction in the framework of double folding are presented.
+The details of building the potential of interaction in the framework of DF model are presented.
 The last three chapters present the results of the calculations. 
 %In this chapter the geometric structure of the obtained three-body wave function is illustrated. 
 %The density distribution functions of nuclear matter for the \he, \li and \be nuclei are presented in the framework of a three-body model. 
@@ -448,7 +448,7 @@ The last three chapters present the results of the calculations.
 %A detailed analysis of the interaction of deuteron with the nucleus of \be is given.
 %The next section is devoted to the investigation of the cluster structure of the ${}^9$Be nucleus through studying the nuclear reactions caused by a deuteron beam at 19 MeV and 35 MeV incident energies. 
 The comparative analysis of experimental data and theoretical calculations has been performed.
-Finally, the main findings are presented in the conclusion.
+Finally,  the main findings are presented in the conclusion.
 
 Some parts of this work have been published as follows:
 \begin{itemize}
@@ -511,7 +511,7 @@ Consider a three body system containing $k,~p,$ and $q$ particles.
  \label{totwf}
  \end{equation}
 The vector $ {\bf x}_k $ is a vector of the relative distance between the pair of particles $ pq $ and $ k $, and $ {\bf y}_k $ is the vector of the relative distance between the center of mass of the pair $ pq $ and the particle $ k $ (see Fig. \ref{fig:jacobiSet}). 
-The designation $\gamma$ is equivalent to   $\{\lambda l L S\}$.
+The designation $\gamma$ is equivalent to the set of quantum numbers  $\lambda l L S$.
 The momenta $ \lambda $, $ l $ are the orbital momenta conjugated to the coordinates $ {\bf x} _k $ and $ {\bf y} _k $ respectively, $ L $ is the total orbital momentum of the system and $S$ is the total spin of three body system.  
 The each component defines spatial and spin parts as follow
 \begin{align}
@@ -1474,9 +1474,9 @@ In the simplest picture, the valence particle can be considered a pure single-pa
 This means that within this model there is only one possible configuration of the core and valence particle to give the nucleus $B$. Thus, the wave function for the nucleus $B$ can be written as
 \begin{equation}
 \phi^{JM}_B \left( \xi,~{\bf r}' \right) = 
-\left[ \phi_b^I (\xi)  \times \phi_{lsj} ({\bf r}') \right]_{JM}
+\left[ \phi_b^I (\xi)  \times \phi_{lsj} ({\bf r}') \right]_{JM},
 \end{equation}
- In a more sophisticated model, however, the state of the composite contains components of many single particle states coupled to all possible core states.
+where $\xi$ is the intrinsic coordinate of the $b$ nucleus.  In a more sophisticated model, however, the state of the composite contains components of many single particle states coupled to all possible core states.
  Therefore, the wave function $\phi^{JM}_B \left( \xi,~{\bf r} \right) $ may be built as a superposition of the form
  \begin{equation}
  \phi^{JM}_B \left( \xi,~{\bf r}' \right)  =
@@ -1798,7 +1798,7 @@ C=0.2658 ~~ \alpha=3.8033 \beta=1.4099 ~~ \gamma=4.0
  
 \begin{table}[tp]
 
-\caption{\label{m3y_potpar}  Parameters of the M3Y-Paris \cite{anantaraman1983effective}  NN-potential with the Direct and Exchange terms and depending on the isospin T terms.}
+\caption{\label{m3y_potpar}  Parameters of the M3Y-Paris \cite{anantaraman1983effective}  NN-potential with the Direct and Exchange terms.}
 \begin{tabular*}{\textwidth}{lr@{\extracolsep{\fill}}rrrl}
 \toprule
 $i$ & $N_i$, MeV &  ~ & ~ & ~ &$\mu_i$, $fm^{-1}$ \\
@@ -1818,7 +1818,9 @@ As regards target nuclei, having cluster structure, the density distribution of 
 
 \section{The three-body wave functions}
 \label{section:3bwf}
-The three-body wave functions are calculated within the SVM. The obtained parameters for ground state of the $^6$He, $^6$Li, and $^9$Be nuclei are listed in Application \ref{AppendixB}. 
+The three-body wave functions are calculated within the SVM. The obtained parameters $C_i$ for ground state of the $^6$He nucleus
+%, $^6$Li, and $^9$Be nuclei 
+are listed in Application \ref{AppendixB}. 
 The calculations were done using the RSC potential \cite{day1981three} for nucleon-nucleon interaction, 
 the SBB potential \cite{sack1954elastic} for  $\alpha$-$N$ interaction and the BFW potential \cite{buck1977local} for $\alpha$-$\alpha$ interaction.  
 In Tab. \ref{tab:variational_data} the relative weights of the ground state wave function components and eigenvalues the three body systems are listed\footnote{The obtained data of the variational calculations are not the subject of our research, since the results, perhaps better ones, have already been published and discussed. The purpose of  the section result of the three-body wave function   is to familiarize with what wave function we are dealing with, and its features will be needed in further discussions.}.
@@ -2017,7 +2019,7 @@ The differential cross section of elastic scattering (\ref{es_diff_cross_section
 
 The optical potential for the \he~+~$\alpha$ system was obtained within the DF model (\ref{df_potential}) using  the density functions of nuclear matter (see Eq. \ref{rho_alphak} and \ref{rho_nq}). For the NN-force the density depended DDM3Y-Paris potential was chosen \cite{anantaraman1983effective}. The DF potential may have terms depending on the interaction of projectile with the clusters of the three body system. In particular, for the \he~+~$\alpha$ system, the DF potential can be defined as
 \begin{equation}
-V^{DF}({\bf r})=V^{DF}_{\alpha+\alpha}({\bf r})+V^{DF}_{2N+\alpha}({\bf r})
+V^{DF}({ r})=V^{DF}_{\alpha+\alpha}({ r})+V^{DF}_{2N+\alpha}({ r})
 \label{df_in_terms}
 \end{equation}
 
@@ -2198,7 +2200,16 @@ The matter density distribution of the deuteron projectile was chosen to be of t
 \rho\left( \tfrac{1}{2}r \right) =\int \vert \Psi^d (\textbf{r}) \vert ^2 d \Omega_r.
 \end{equation}
 where $\Psi^d({\bf r})$ -- a wave function of deuteron, ${\bf r}$ -- a relative distance between proton and neutron. 
-For convenience, in the OM and CC (CRC) calculations the potentials have been fitted by means of the sum of three Woods-Saxon potentials:
+The calculated results of the DF potential for $d$ + \be are plotted in Fig. \ref{dbe_df}.  It is seen that the the main contribution of the $d$ + \be interaction  starting at $r\simeq6.0 fm$ is caused by $N$.
+
+\begin{figure}[bp]
+\centering
+\includegraphics[scale=1]{be_df.pdf}
+\decoRule
+\caption{ \label{dbe_df}  The folding potential $V^{DF}(r)$ calculated with the density functions of nuclear matter of \be. The $d+ 2 \alpha$ designation is for the $V_{d+2\alpha}^{DF}$ potential, while $d + N$ is for the  $V_{d + N}^{DF}$ potential,  see Eq.  (\ref{df_in_terms}).}
+\end{figure}
+
+For convenience, in the OM and CC (CRC) calculations the DF potentials have been fitted by means of the sum of three Woods-Saxon potentials:
 \begin{eqnarray}
 V^V(R) =  \sum_{i=1}^{3} V^i f^{R_i, a_i}(R), \\
  f^{R_V,a_V}(R)=\frac{1}{1+exp{\frac{R-R_V}{a_V}}}.
@@ -2383,10 +2394,10 @@ Theoretical calculations made within the CRC method show, in general, good agree
 The analysis showed strong coupling effects in both entrance and exit channels. The effects of such couplings were also emphasized in Refs. \cite{harakeh1980strong, rudchik2016}.
 
 \section{Cluster-transfer reaction}
-Differential cross sections for the nuclear reaction ${^9}$Be($d,\alpha$)${}^7$Li are of particular interest. This is due to the specific behaviour of the cross section at large scattering angles, which indicates a ${}^5$He cluster transfer. In addition, the cross section calculated within the DWBA approach underestimates the data even at forward scattering angles. Therefore, in order to understand the difference between theory and experiment, the following transfer mechanisms are suggested (see Fig. \ref{dbe_fig9}):
+Differential cross sections for the nuclear reaction ${^9}$Be($d,\alpha$)${}^7$Li are of particular interest. This is due to the specific behaviour of the cross section at large scattering angles, which indicates a ${}^5$He  transfer. In addition, the cross section calculated within the DWBA approach underestimates the data even at forward scattering angles. Therefore, in order to understand the difference between theory and experiment, the following transfer mechanisms are suggested (see Fig. \ref{dbe_fig9}):
 \begin{itemize}
-\item[$-$] direct transfer of heavy clusters $d$ and ${}^5$He;
-\item[$-$] sequential two-step transfer of $n$-$p$, $p$-$n$, $n$-$\alpha$ and $\alpha$-$n$;
+\item[$-$] the direct transfer of cluster $d$ and of ${}^5$He system;
+\item[$-$] the sequential two-step transfer of $n$-$p$, $p$-$n$, $n$-$\alpha$ and $\alpha$-$n$;
 \end{itemize}
 
 
@@ -2406,7 +2417,7 @@ where the amplitude
 \begin{equation} \label{eq:ampl1}
 f_{I}(\theta)=f_{{}^5\textrm{He}}(\pi - \theta) + f_{n\textrm{-}\alpha}(\pi - \theta) + f_{\alpha\textrm{-}n}(\pi - \theta)
 \end{equation}
-describes the transfer of the heavy ${}^5$He-cluster and sequential two-step transfer of n-$\alpha$ and $\alpha$-n, and the amplitude
+describes the transfer of the  ${}^5$He nucleus and sequential two-step transfer of n-$\alpha$ and $\alpha$-n, and the amplitude
 \begin{equation} \label{eq:ampl2}
 f_{II}(\theta)=f_{d}(\theta) + f_{n\textrm{-}p}( \theta) + f_{p\textrm{-}n}(\theta)
 \end{equation}
@@ -2427,13 +2438,13 @@ The prior form for the first coupling and the post form for the second coupling 
 
 %Important ingredients of the CRC method are the spectroscopic amplitudes of the composite configurations in the entrance, exit and intermediate states. In order to calculate the one nucleon spectroscopic amplitudes we applied the \textit{ANTOINE} code \cite{antoine} that reproduces the excitation functions of all p-shell nuclei well.
 
-The spectroscopic amplitudes of the $d$ and ${}^5$He clusters were taken from Ref. \cite{fiveSA}, while the alpha-cluster spectroscopic amplitudes given in Table~\ref{dbe_SA} were provided by Dr. A. Volya within the method reported in Ref. \cite{volya2017}.
+The spectroscopic amplitudes of the $d$ and ${}^5$He systems were taken from Ref. \cite{fiveSA}, while the alpha-cluster spectroscopic amplitudes given in Table~\ref{dbe_SA} were provided by Dr. A. Volya within the method reported in Ref. \cite{volya2017}.
 
 The calculated cross sections are shown in Fig.~\ref{dbe_fig8} with the $\alpha$-particle angular distributions formed in the ${}^9$Be(d,$\alpha$)${}^7$Li$^*$ reaction at incident energies of 19.5 and 35 MeV and corresponding to the low-lying excitation of the ${}^7$Li nucleus in the exit channels. The transfer of the deuteron (dash-dotted curve) provides the dominant contribution in all the channels. Despite the fact that the spectroscopic amplitude of the deuteron $\mathcal{A}_{1{D}_3}=0.558$ in the ${}^9$Be nucleus is not of great importance, a noticeable cross section is due to the large value of the deuteron spectroscopic amplitude $\mathcal{A}_{1{S}_1}=1.732$  of ${}^4$He.
 
 The angular distribution of deuteron transfer has a significant cross section also at the backward scattering angles, which is mainly caused by the contribution of the $D$ wave. This symmetrical behaviour of the cross section of $D$ waves is very similar to the cross section of evaporation residues. Tanaka \textit{et al} \cite{tanaka1978} analyzed the role of the compound process in ${}^9$Be($d,\alpha$)${}^7$Li reaction and claimed the domination of the compound nucleus channels at the energies of 12.17 MeV and 14.43 MeV. However, in Ref. \cite{bodek1989} the negligible contribution of the compound-nucleus mechanism was shown at 7 MeV using the DWBA analysis. In this regard, our theoretical results based on the CRC method show that there is no need to take into account the mechanism through the compound-nucleus formation at energies of 19.5 and 35.0 MeV.
 
-Starting from scattering angle $\theta_{c.m.} =$ 120$^\circ$, the transfer of the ${}^5$He cluster, labeled as ${}^5$He in Fig. \ref{dbe_fig8}, has a predominant contribution in all channels. It should be noted that a similar result was reported earlier in Ref. \cite{bodek1989}. One-step transfer of the ${}^5$He cluster was also indicated as a dominant process by Jarczyk \textit{et al} \cite{jarczyk1996} in studying the ${}^{12}$C(${}^{11}$B,${}^6$Li)${}^{17}$O and ${}^{12}$C($d$,${}^7$Li)${}^{7}$Be reactions.
+Starting from scattering angle $\theta_{c.m.} =$ 120$^\circ$, the transfer of the ${}^5$He system, labeled as ${}^5$He in Fig. \ref{dbe_fig8}, has a predominant contribution in all channels. It should be noted that a similar result was reported earlier in Ref. \cite{bodek1989}. One-step transfer of the ${}^5$He nucleus was also indicated as a dominant process by Jarczyk \textit{et al} \cite{jarczyk1996} in studying the ${}^{12}$C(${}^{11}$B,${}^6$Li)${}^{17}$O and ${}^{12}$C($d$,${}^7$Li)${}^{7}$Be reactions.
 
 Using the CRC method, we are able to estimate the contribution of the sequential transfer of ${}^5$He, which was not studied before. Corresponding cross sections are shown in Fig.~\ref{dbe_fig8} as curves labeled $n\alpha$ and $\alpha n$.
 It turned out that the $n$-$\alpha$ and $\alpha$-$n$ transfer processes provide indeed a contribution more than one order of magnitude smaller in comparison with the one-step ${}^5$He transfer. Nevertheless, it should be noted that the contribution of the $n$-$\alpha$ and the $\alpha$-$n$ transfer channels increases with the increase in the ${}^7$Li excitation energy, where they should not be ignored.
@@ -2458,7 +2469,7 @@ In Fig.~\ref{dbe_fig10}, the possible scenarios for the $n$-$p$ and $p$-$n$ sequ
 
 The situation becomes quite different in the case of the ${}^7$Li$^*$(5/2$^-$) in the exit channel. First, the population of this state through the $n$-$p$ transfer involves the ${}^9$Be~=~${}^8$Be$^*(2^+)$~+~$n$ intermediate configuration where the ${}^8$Be cluster has to be in the $2^+$ excited state. Note that the ${}^8$Be($0^+$) ground state is inappropriate because of angular-momentum-coupling mismatch in the entrance and exit configurations. Second, the extremely small spectroscopic amplitude of the ${}^8$Be$^*(2^+)$~=~${}^7$Li$^*(5/2^-)$~+~$p$ configuration, which is $\mathcal{A} = 0.079$, influences the transfer amplitude. These two factors lead to the suppression of the contribution of ($d,t;t,\alpha$) mechanism in population of the ${}^7$Li$^*$(5/2$^-$) state in the exit channel. Therefore, the $p$-$n$ sequential transfer prevails over the $n$-$p$ one. 
 
-Figure \ref{dbe_fig11} shows the contributions of all the mechanisms mentioned above to the total cross section of the ${}^9$Be($d,\alpha$)${}^7$Li$_{g.s.}$ reaction (see Fig.~\ref{dbe_fig9}) as a function of the deuteron energy. One may conclude that mainly four mechanisms contribute to the cross section of this reaction. The transfer of the deuteron-cluster is  predominant channel at all collision energies. The sequential $n$-$p$ and $p$-$n$ transfers play a significant role at the high energies. The ${}^5$He-cluster transfer gives almost 20\% of the cross section at low energies and outdoes the sequential $p$-$n$ transfer in this energy domain. This allows us to claim that the configurations $n+^8$Be and $\alpha+{}^5$He provide noticeable contributions to the ground-state wave function of the ${}^9$Be nucleus. These conclusions agree well with the previous experimental studies \cite{brown2007, papka2007}.
+Figure \ref{dbe_fig11} shows the contributions of all the mechanisms mentioned above to the total cross section of the ${}^9$Be($d,\alpha$)${}^7$Li$_{g.s.}$ reaction (see Fig.~\ref{dbe_fig9}) as a function of the deuteron energy. One may conclude that mainly four mechanisms contribute to the cross section of this reaction. The transfer of the deuteron-cluster is  predominant channel at all collision energies. The sequential $n$-$p$ and $p$-$n$ transfers play a significant role at the high energies. The ${}^5$He  transfer gives almost 20\% of the cross section at low energies and outdoes the sequential $p$-$n$ transfer in this energy domain. This allows us to claim that the configurations $n+^8$Be and $\alpha+{}^5$He provide noticeable contributions to the ground-state wave function of the ${}^9$Be nucleus. These conclusions agree well with the previous experimental studies \cite{brown2007, papka2007}.
 
 
 \chapter*{Summary and Conclusions}   
@@ -2506,7 +2517,7 @@ It is due to  taking into account all possible couplings including the spin-reor
 The spin reorientation coupling allows, particularly, to improve agreement with data significantly for the \be($d$,$p$)${}^{10}$Be${}_{gs}$ reaction. 
  Such kind of effects occurs when a strong deformed and high spin valued nucleus, like \be, is involved. 
 
-The theoretical analysis of the nuclear reaction ${}^9$Be($d$, $\alpha$)${}^7$Li$_{gs}$ shows that it goes basically through three reaction mechanisms, which are the transfer mechanism of $n$-$p$,  the simultaneous and sequential transfer of $^5$He.  It has become known that the ${}^5$He heavy cluster is transferred mainly simultaneously at the backward scattering angles, and the contribution of its sequential transfer is an order of magnitude lower.
+The theoretical analysis of the nuclear reaction ${}^9$Be($d$, $\alpha$)${}^7$Li$_{gs}$ shows that it goes basically through three reaction mechanisms, which are the transfer mechanism of $n$-$p$,  the simultaneous and sequential transfer of $^5$He.  It has become known that the light nucleus ${}^5$He is transferred mainly simultaneously at the backward scattering angles, and the contribution of its sequential transfer is an order of magnitude lower.
 The $n$-$p$ transfer mechanism turned out to be competitive to the $d$ transfer.
  Based on these observations from studying the  $d~+$ $^9$Be nuclear reactions, it can be concluded that $^9$Be  nucleus has a cluster structure.
  
