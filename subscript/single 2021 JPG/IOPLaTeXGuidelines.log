@@ -1,0 +1,261 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6.28) (preloaded format=pdflatex 2021.6.28)  2 JUL 2021 13:51
+entering extended mode
+**./IOPLaTeXGuidelines.tex
+(IOPLaTeXGuidelines.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-06-18> (iopart.cls
+Document Class: iopart 1996/06/10 v0.0 IOP Journals LaTeX article class
+(iopart12.clo
+File: iopart12.clo 1997/01/15 v1.0 LaTeX2e file (size option)
+)
+\c@jnl=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\indentedwidth=\skip49
+\mathindent=\dimen138
+\c@eqnval=\count190
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count191
+\l__pdf_internal_box=\box50
+)
+(IOPLaTeXGuidelines.aux)
+\openout1 = `IOPLaTeXGuidelines.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count192
+\scratchdimen=\dimen141
+\scratchbox=\box51
+\nofMPsegments=\count193
+\nofMParguments=\count194
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count195
+\MPscratchDim=\dimen142
+\MPnumerator=\count196
+\makeMPintoPDFobject=\count197
+\everyMPtoPDFconversion=\toks18
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 54.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 54.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 61.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 61.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 63.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 63.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--89
+
+ []
+
+[1
+
+{C:/Users/urazbekov/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+
+pdfTeX warning: pdflatex (file ./spectra.pdf): PDF inclusion: found PDF version
+ <1.6>, but at most version <1.5> allowed
+<spectra.pdf, id=20, 272.19873pt x 186.74146pt>
+File: spectra.pdf Graphic file (type pdf)
+<use spectra.pdf>
+Package pdftex.def Info: spectra.pdf  used on input line 120.
+(pdftex.def)             Requested size: 272.19806pt x 186.741pt.
+[2 <./spectra.pdf>] [3] [4]
+Underfull \hbox (badness 4492) in paragraph at lines 277--282
+[]\OT1/cmr/m/n/12 For the nu-mer-i-cal (Van-cou-ver) ref-er-ence style we rec-o
+m-mend that au-
+ []
+
+
+Underfull \hbox (badness 6625) in paragraph at lines 277--282
+\OT1/cmr/m/n/12 thors use [][]\OT1/cmtt/m/n/12 unsrt.bst[]\OT1/cmr/m/n/12 ; thi
+s does not quite fol-low the style of pub-
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 277--282
+\OT1/cmr/m/n/12 lished ar-ti-cles in our jour-nals but this is not a prob-lem. 
+Al-ter-na-tively
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 277--282
+\OT1/cmr/m/n/12 closely matches that in pub-lished ar-ti-cles. The file is avai
+l-able from
+ []
+
+[5]
+Underfull \hbox (badness 4353) in paragraph at lines 282--291
+\OT1/cmr/m/n/12 the [][]\OT1/cmtt/m/n/12 harvard.sty []\OT1/cmr/m/n/12 in conju
+nction with the [][]\OT1/cmtt/m/n/12 jphysicsB.bst []\OT1/cmr/m/n/12 BibTeX sty
+le
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 282--291
+\OT1/cmr/m/n/12 file. These, and accompanying documentation, can be downloaded 
+from 
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 282--291
+[][]\OT1/cmtt/m/n/12 http://www.ctan.org/tex-archive/macros/latex/contrib/harva
+rd/[]\OT1/cmr/m/n/12 . Note
+ []
+
+[6] [7] [8]
+Underfull \hbox (badness 2644) in paragraph at lines 411--424
+[]\OT1/cmr/m/n/12 For article types other than papers, [][]\OT1/cmtt/m/n/12 iop
+art.cls []\OT1/cmr/m/n/12 has a generic heading
+ []
+
+[9] [10] [11] [12] [13]
+Underfull \hbox (badness 10000) in alignment at lines 719--732
+[] [] [] [][][][][][][][][][][][][]
+ []
+
+[14] [15]
+Underfull \hbox (badness 2012) in paragraph at lines 816--821
+[]\OT1/cmr/m/n/12 Sometimes it is useful to number equations as parts of the sa
+me basic
+ []
+
+[16]
+Underfull \hbox (badness 2384) in paragraph at lines 833--835
+[]\OT1/cmr/m/n/12 Equation labels within the [][]\OT1/cmtt/m/n/12 \eqnarray []\
+OT1/cmr/m/n/12 environment will be referenced as
+ []
+
+[17] [18] [19] [20] [21]
+Underfull \hbox (badness 1082) in paragraph at lines 1157--1157
+[]\OT1/cmr/bx/n/10 Table 4. []\OT1/cmr/m/n/10 Alternatives to the normal refere
+nces command $\OMS/cmsy/m/n/10 n$\OT1/cmtt/m/n/10 ref \OT1/cmr/m/n/10 available
+ in
+ []
+
+[22] [23] [24] [25]
+Underfull \hbox (badness 3098) in paragraph at lines 1348--1353
+[]\OT1/cmr/m/n/12 For more detail about graphics inclusion see the documentatio
+n of the
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 1348--1353
+[][]\OT1/cmtt/m/n/12 graphicx []\OT1/cmr/m/n/12 package, refer to one of the bo
+oks on L[]T[]X, e.g. Goosens M,
+ []
+
+[26] [27] [28
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+[30
+
+
+]
+Overfull \hbox (2.62785pt too wide) in paragraph at lines 1582--1606
+[][] 
+ []
+
+[31
+
+] [32
+
+] (IOPLaTeXGuidelines.bbl) [33] (IOPLaTeXGuidelines.aux) )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 1352 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 1580 strings out of 478847
+ 20844 string characters out of 2858231
+ 338652 words of memory out of 3000000
+ 19541 multiletter control sequences out of 15000+600000
+ 413917 words of font info for 61 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,14n,66p,808b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\urazbekov\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\tcrm0800.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pf
+b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program
+ Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
+8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/P
+rogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
+ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on IOPLaTeXGuidelines.pdf (33 pages, 541858 bytes).
+PDF statistics:
+ 306 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

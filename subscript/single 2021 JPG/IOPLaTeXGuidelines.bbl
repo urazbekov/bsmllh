@@ -1,0 +1,45 @@
+\providecommand{\newblock}{}
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+% Bibliography created with iopart-num v2.1
+% /biblio/bibtex/contrib/iopart-num
+
+\bibitem{ex1}
+Cisneros A 1971 {\em Astrophys. Space Sci.\/} {\bf 10} 87
+
+\bibitem{ex2}
+Carlip S and Vera R 1998 {\em Phys. Rev.\/} D {\bf 58} 011345
+
+\bibitem{ex3}
+Davies K and Brown G 1997 {\em J. High Energy Phys.\/}  JHEP12(1997)002
+
+\bibitem{ex4}
+Neilson D and Choptuik M 2000 {\em Class. Quantum Grav.\/} {\bf 17} 761
+  (\textit{Preprint} \eprint{gr-qc/9812053})
+
+\bibitem{ex5}
+Harrison M 1999 Dipheomorphism-invariant manifolds (\textit{Preprint}
+  \eprint{hep-th/9909196})
+
+\bibitem{ex6}
+Dorman L~I 1975 {\em Variations of Galactic Cosmic Rays\/} (Moscow: Moscow
+  State University Press) p 103
+
+\bibitem{ex7}
+Caplar R and Kulisic P 1973 {\em Proc. Int. Conf. on Nuclear Physics
+  (Munich)\/} vol~1 (Amsterdam: North-Holland/American Elsevier) p 517
+
+\bibitem{ex8}
+Morse M 1996 Supersonic beam sources {\em Atomic Molecular and Optical
+  Physics\/} ({\em Experimental Methods in the Physical Sciences\/} vol~29) ed
+  Dunning F~B and Hulet R (San Diego: Academic)
+
+\bibitem{ex9}
+Fulco C~E, Liverman C~T and Sox H~C (eds) 2000 {\em Gulf War and Health\/}
+  vol~1 {\em Depleted Uranium, Pyridostigmine Bromide, Sarin, and Vaccines\/}
+  (Washington, DC: The National Academies Press)
+
+\end{thebibliography}
